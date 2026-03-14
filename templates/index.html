@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Mini Chatbot</h2>
+            <p>NLP + ML + Self Learning</p>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-bubble">
+                    Hello! Ami Mini Bot. Amake kichu jiggesh koro!<br>
+                    Ami jodi answer na jani, tumi amake shikhate paro!
+                </div>
+            </div>
+        </div>
+
+        <!-- Learning Form (hidden by default) -->
+        <div class="learn-form" id="learnForm" style="display: none;">
+            <p class="learn-title">Ami ei answer jani na. Amake shikhao!</p>
+            <input type="text" id="learnCategory" placeholder="Category (e.g. product, info)">
+            <input type="text" id="learnAnswer" placeholder="Answer ki hobe?">
+            <div class="learn-buttons">
+                <button id="learnSubmit" class="btn-learn">Shikhao</button>
+                <button id="learnSkip" class="btn-skip">Skip</button>
+            </div>
+        </div>
+
+        <!-- Correction Form (hidden by default) -->
+        <div class="learn-form" id="correctForm" style="display: none;">
+            <p class="learn-title">Correct answer ta ki hobe?</p>
+            <input type="text" id="correctCategory" placeholder="Category (optional - change korte hole likho)">
+            <input type="text" id="correctAnswer" placeholder="Correct answer likho...">
+            <div class="learn-buttons">
+                <button id="correctSubmit" class="btn-learn">Correct Koro</button>
+                <button id="correctSkip" class="btn-skip">Skip</button>
+            </div>
+        </div>
+
+        <div class="chat-input" id="chatInput">
+            <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById("chatMessages");
+        const userInput = document.getElementById("userInput");
+        const sendBtn = document.getElementById("sendBtn");
+        const learnForm = document.getElementById("learnForm");
+        const learnCategory = document.getElementById("learnCategory");
+        const learnAnswer = document.getElementById("learnAnswer");
+        const learnSubmit = document.getElementById("learnSubmit");
+        const learnSkip = document.getElementById("learnSkip");
+        const chatInput = document.getElementById("chatInput");
+
+        let pendingQuestion = null;
+        let sessionId = null;
+        let pendingCorrection = null; // {question, bot_answer, intent}
+
+        const correctForm = document.getElementById("correctForm");
+        const correctCategory = document.getElementById("correctCategory");
+        const correctAnswer = document.getElementById("correctAnswer");
+        const correctSubmit = document.getElementById("correctSubmit");
+        const correctSkip = document.getElementById("correctSkip");
+
+        // Page load e session create koro
+        async function initSession() {
+            try {
+                const res = await fetch("/api/session", { method: "POST" });
+                const data = await res.json();
+                sessionId = data.session_id;
+            } catch (err) {
+                console.error("Session create failed:", err);
+            }
+        }
+        initSession();
+
+        function addMessage(text, isUser) {
+            const div = document.createElement("div");
+            div.className = `message ${isUser ? "user-message" : "bot-message"}`;
+            const bubble = document.createElement("div");
+            bubble.className = "message-bubble";
+            bubble.textContent = text;
+            bubble.innerHTML = bubble.innerHTML.replace(/\n/g, "<br>");
+            div.appendChild(bubble);
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function addBotMessageWithFeedback(text, question, intent) {
+            const div = document.createElement("div");
+            div.className = "message bot-message";
+
+            const bubble = document.createElement("div");
+            bubble.className = "message-bubble";
+            bubble.textContent = text;
+            bubble.innerHTML = bubble.innerHTML.replace(/\n/g, "<br>");
+
+            // Feedback buttons
+            const feedbackDiv = document.createElement("div");
+            feedbackDiv.className = "feedback-buttons";
+
+            const likeBtn = document.createElement("button");
+            likeBtn.className = "fb-btn fb-like";
+            likeBtn.textContent = "\u{1F44D}";
+            likeBtn.title = "Correct answer";
+
+            const dislikeBtn = document.createElement("button");
+            dislikeBtn.className = "fb-btn fb-dislike";
+            dislikeBtn.textContent = "\u{1F44E}";
+            dislikeBtn.title = "Wrong answer";
+
+            likeBtn.addEventListener("click", () => {
+                sendFeedback(question, text, intent, "like");
+                feedbackDiv.innerHTML = '<span class="fb-done fb-liked">\u{1F44D} Thanks!</span>';
+            });
+
+            dislikeBtn.addEventListener("click", () => {
+                feedbackDiv.innerHTML = '<span class="fb-done fb-disliked">\u{1F44E} Wrong</span>';
+                showCorrectForm(question, text, intent);
+            });
+
+            feedbackDiv.appendChild(likeBtn);
+            feedbackDiv.appendChild(dislikeBtn);
+            bubble.appendChild(feedbackDiv);
+
+            div.appendChild(bubble);
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        async function sendFeedback(question, botAnswer, intent, type, correctAns, correctCat) {
+            try {
+                await fetch("/api/feedback", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        question: question,
+                        bot_answer: botAnswer,
+                        intent: intent,
+                        feedback: type,
+                        correct_answer: correctAns || "",
+                        correct_category: correctCat || ""
+                    })
+                });
+            } catch (err) {
+                console.error("Feedback send failed:", err);
+            }
+        }
+
+        function showCorrectForm(question, botAnswer, intent) {
+            pendingCorrection = { question, botAnswer, intent };
+            correctForm.style.display = "block";
+            chatInput.style.display = "none";
+            correctCategory.value = "";
+            correctAnswer.value = "";
+            correctAnswer.focus();
+        }
+
+        function hideCorrectForm() {
+            pendingCorrection = null;
+            correctForm.style.display = "none";
+            chatInput.style.display = "flex";
+            userInput.focus();
+        }
+
+        correctSubmit.addEventListener("click", async () => {
+            const answer = correctAnswer.value.trim();
+            if (!answer) {
+                alert("Correct answer ta likho!");
+                return;
+            }
+            const category = correctCategory.value.trim();
+            await sendFeedback(
+                pendingCorrection.question,
+                pendingCorrection.botAnswer,
+                pendingCorrection.intent,
+                "dislike",
+                answer,
+                category
+            );
+            addMessage("Dhonnobad! Bhul theke shikhlam, ekhon theke thik answer dibo!", false);
+            hideCorrectForm();
+        });
+
+        correctSkip.addEventListener("click", () => {
+            sendFeedback(
+                pendingCorrection.question,
+                pendingCorrection.botAnswer,
+                pendingCorrection.intent,
+                "dislike"
+            );
+            addMessage("Feedback noted. Pore thik kore dibo!", false);
+            hideCorrectForm();
+        });
+
+        correctAnswer.addEventListener("keypress", (e) => {
+            if (e.key === "Enter") correctSubmit.click();
+        });
+
+        function showLearnForm(question) {
+            pendingQuestion = question;
+            learnForm.style.display = "block";
+            chatInput.style.display = "none";
+            learnCategory.value = "";
+            learnAnswer.value = "";
+            learnCategory.focus();
+        }
+
+        function hideLearnForm() {
+            pendingQuestion = null;
+            learnForm.style.display = "none";
+            chatInput.style.display = "flex";
+            userInput.focus();
+        }
+
+        async function sendMessage() {
+            const message = userInput.value.trim();
+            if (!message) return;
+
+            addMessage(message, true);
+            userInput.value = "";
+            userInput.disabled = true;
+            sendBtn.disabled = true;
+
+            try {
+                const response = await fetch("/api/chat", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ message, session_id: sessionId })
+                });
+                const data = await response.json();
+
+                if (data.needs_learning) {
+                    addMessage("Ami ei question er answer jani na. Amake shikhao!", false);
+                    showLearnForm(data.question);
+                } else {
+                    addBotMessageWithFeedback(data.reply, message, data.intent);
+                }
+            } catch (err) {
+                addMessage("Error: Could not connect to server.", false);
+            }
+
+            userInput.disabled = false;
+            sendBtn.disabled = false;
+        }
+
+        async function submitLearn() {
+            const category = learnCategory.value.trim();
+            const answer = learnAnswer.value.trim();
+
+            if (!category || !answer) {
+                alert("Category ar answer duitai likho!");
+                return;
+            }
+
+            try {
+                const response = await fetch("/api/learn", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        question: pendingQuestion,
+                        category: category,
+                        answer: answer
+                    })
+                });
+                const data = await response.json();
+                addMessage("Dhonnobad! Ami shikhe nilam! Ekhon theke ei question er answer dite parbo.", false);
+            } catch (err) {
+                addMessage("Error: Shikhte parlam na.", false);
+            }
+
+            hideLearnForm();
+        }
+
+        learnSubmit.addEventListener("click", submitLearn);
+        learnSkip.addEventListener("click", () => {
+            addMessage("Okay, skip korlam!", false);
+            hideLearnForm();
+        });
+        learnAnswer.addEventListener("keypress", (e) => {
+            if (e.key === "Enter") submitLearn();
+        });
+
+        sendBtn.addEventListener("click", sendMessage);
+        userInput.addEventListener("keypress", (e) => {
+            if (e.key === "Enter") sendMessage();
+        });
+
+        userInput.focus();
+    </script>
+</body>
+</html>

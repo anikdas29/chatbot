@@ -1,0 +1,858 @@
+[
+    {
+        "category": "shopping",
+        "questions": [
+            "best deals today?",
+            "which phone to buy?",
+            "where to buy",
+            "best deals",
+            "online shopping"
+        ],
+        "answers": [
+            "Compare prices, wait for sales, read reviews, set budget, check return policies.",
+            "Always compare prices across platforms, look out for seasonal sales, and don't forget to check the return policy before buying.",
+            "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.",
+            "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        ]
+    },
+    {
+        "category": "ai",
+        "questions": [
+            "explain neural networks",
+            "what is llm?",
+            "what is ai",
+            "tell me about ai",
+            "artificial intelligence",
+            "ai ki",
+            "ai explain"
+        ],
+        "answers": [
+            "AI (Artificial Intelligence) is the simulation of human intelligence by machines. It includes machine learning, deep learning, NLP, and more.",
+            "AI lets machines think, learn, and solve problems like humans. It powers everything from voice assistants to self-driving cars.",
+            "Artificial Intelligence is a broad field where computers are programmed to perform tasks that normally require human intelligence — like recognising speech, making decisions, or translating languages.",
+            "AI = making machines smart. It covers ML, deep learning, NLP, computer vision, and robotics. It's reshaping every industry today.",
+            "AI holo machine er buddhimotta - computers shikhe data theke."
+        ]
+    },
+    {
+        "category": "habits",
+        "questions": [
+            "how to break bad habits?",
+            "good habits?"
+        ],
+        "answers": [
+            "Wake early, exercise daily, read 30 min, drink water, plan day, limit social media.",
+            "Build good habits by starting small: wake up early, drink more water, read a little every day, and cut screen time before bed.",
+            "Try these daily habits: morning exercise, 30 minutes of reading, meal planning, journaling, and limiting social media scrolling.",
+            "Good habits stack up over time — start with just one: wake up at the same time daily, and build from there."
+        ]
+    },
+    {
+        "category": "books",
+        "questions": [
+            "best books to read?",
+            "book summary",
+            "suggest a book",
+            "good books",
+            "reading list"
+        ],
+        "answers": [
+            "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.",
+            "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.",
+            "Must-reads: Atomic Habits (habit building), Think and Grow Rich (mindset), Deep Work (focus), The Alchemist (life journey).",
+            "Start with Atomic Habits — it's a game changer. Then try Sapiens, Deep Work, or The Psychology of Money."
+        ]
+    },
+    {
+        "category": "college",
+        "questions": [
+            "tips for engineering students"
+        ],
+        "answers": [
+            "Attend classes, build relationships, join clubs, build portfolio, network with seniors.",
+            "Engineering tip: don't just study — build projects, join technical clubs, connect with seniors, and start your portfolio early.",
+            "Go to classes, participate in hackathons, build a GitHub portfolio, and network. Your college years are the best time to experiment.",
+            "Key advice: attend lectures, collaborate with peers, join coding clubs, and start building real projects from year one."
+        ]
+    },
+    {
+        "category": "greeting",
+        "questions": [
+            "good evening",
+            "hi",
+            "how are you",
+            "good morning",
+            "hey there",
+            "what's up?",
+            "hello",
+            "how are you doing",
+            "whats up",
+            "hi there"
+        ],
+        "answers": [
+            "Hello! How can I help you today?",
+            "Hey there! What can I do for you?",
+            "Hi! Great to see you. What's on your mind?",
+            "Hello! I'm here and ready to help — just ask away!"
+        ]
+    },
+    {
+        "category": "security",
+        "questions": [
+            "how to stay safe online?",
+            "what is encryption?"
+        ],
+        "answers": [
+            "Strong passwords, 2FA, avoid suspicious links, update software, VPN, backup data.",
+            "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated.",
+            "Online security basics: use a password manager, enable 2FA everywhere, use a VPN on public Wi-Fi, and back up your important files.",
+            "Top tips: strong passwords + 2FA + VPN + regular updates = much safer online presence."
+        ]
+    },
+    {
+        "category": "sleep",
+        "questions": [
+            "better sleep hacks",
+            "how to sleep fast?",
+            "cant sleep",
+            "how to sleep fast",
+            "insomnia"
+        ],
+        "answers": [
+            "Tips: Consistent schedule, no screens before bed, dark cool room, no caffeine after 2 PM, 7-8 hours.",
+            "Sleep better by keeping a fixed sleep schedule, avoiding screens 1 hour before bed, and keeping your room cool and dark.",
+            "For faster sleep: try the 4-7-8 breathing technique, cut caffeine after 2 PM, and keep your room at a comfortable cool temperature.",
+            "Struggling to sleep? Put the phone down, dim the lights 30 minutes before bed, and stick to the same bedtime every night."
+        ]
+    },
+    {
+        "category": "emotions",
+        "questions": [
+            "i feel sad",
+            "how to control anger?",
+            "i am depressed",
+            "feeling lonely",
+            "i am stressed"
+        ],
+        "answers": [
+            "Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.",
+            "Your feelings are valid. Try talking to a trusted friend, writing in a journal, or taking a slow walk outside. Don't hesitate to seek professional help.",
+            "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone.",
+            "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength."
+        ]
+    },
+    {
+        "category": "math",
+        "questions": [
+            "what is calculus?",
+            "solve equation"
+        ],
+        "answers": [
+            "Key areas: Algebra, Calculus, Statistics, Probability, Linear Algebra. Practice regularly!",
+            "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising.",
+            "Focus on the fundamentals: Algebra first, then Calculus, Statistics, and Linear Algebra. Khan Academy is great for free practice.",
+            "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        ]
+    },
+    {
+        "category": "fitness",
+        "questions": [
+            "workout routine?",
+            "exercise tips",
+            "how to lose weight",
+            "gym tips",
+            "home workout"
+        ],
+        "answers": [
+            "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.",
+            "No gym? No problem. Push-ups, squats, planks, and jumping jacks at home daily will make a huge difference. Just stay consistent.",
+            "Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery.",
+            "Start simple — a 20-minute walk daily, 3 sets of push-ups and squats, and track your progress weekly. Consistency beats intensity!"
+        ]
+    },
+    {
+        "category": "coding",
+        "questions": [
+            "what is recursion?",
+            "how to debug?",
+            "how to code",
+            "learn programming",
+            "best programming language"
+        ],
+        "answers": [
+            "Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects.",
+            "Python is the best starting point — clean syntax and huge community. Once comfortable, explore JavaScript for web or Java for backend.",
+            "Pick one language and stick with it. Python for beginners, JavaScript for web dev. Practice daily on LeetCode or by building small projects.",
+            "Best path: learn Python basics → build mini projects → solve problems on LeetCode → contribute to open source. Don't just read, code!"
+        ]
+    },
+    {
+        "category": "resume",
+        "questions": [
+            "resume example",
+            "how to write resume?"
+        ],
+        "answers": [
+            "Keep 1-2 pages, action verbs, quantify achievements, tailor for each job, proofread!",
+            "A strong resume: 1-2 pages max, use action verbs (built, led, increased), quantify results, and tailor it for every job you apply to.",
+            "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description.",
+            "Keep it short and punchy — 1 page if under 5 years experience. Use bullet points, strong verbs, and always customise for each application."
+        ]
+    },
+    {
+        "category": "salary",
+        "questions": [
+            "which job high paying?",
+            "negotiate salary?"
+        ],
+        "answers": [
+            "Research rates on Glassdoor, know your worth, let employer offer first, negotiate with data.",
+            "Before negotiating: check Glassdoor and LinkedIn for market rates, then confidently counter with data to back your ask.",
+            "Salary negotiation tip: always let the employer name a number first, then negotiate up using market research from Glassdoor or Levels.fyi.",
+            "Know your market value, practice your pitch, and don't be afraid to negotiate — most employers expect it."
+        ]
+    },
+    {
+        "category": "weather",
+        "questions": [
+            "tell me today's temperature",
+            "is it going to rain?",
+            "what's the weather today?",
+            "weather forecast please",
+            "weather today",
+            "is it raining",
+            "temperature today"
+        ],
+        "answers": [
+            "Check your local weather app or Google Weather for accurate updates.",
+            "I don't have live data, but you can get the latest forecast instantly on Google Weather or your phone's weather app.",
+            "For real-time weather, just search your city on Google or open your device's weather app — it updates automatically.",
+            "Best way to check: Google your city name + 'weather' for an instant forecast with hourly and weekly breakdowns."
+        ]
+    },
+    {
+        "category": "geography",
+        "questions": [
+            "biggest river?",
+            "largest country?"
+        ],
+        "answers": [
+            "Largest country: Russia. Longest river: Nile. Highest peak: Everest. 195 countries.",
+            "Quick geo facts: Russia is the largest country by area, the Nile is the longest river, and Mount Everest is the highest peak on Earth.",
+            "Geography highlights: 195 countries in the world, Russia covers 17 million km², the Nile stretches 6,650 km, and Everest stands at 8,849 m.",
+            "Fun facts: Russia is bigger than Pluto's surface area, the Amazon carries more water than any other river despite the Nile being longer."
+        ]
+    },
+    {
+        "category": "music",
+        "questions": [
+            "suggest songs",
+            "best singers",
+            "best music",
+            "playlist"
+        ],
+        "answers": [
+            "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic.",
+            "Need a playlist? Lo-fi hip-hop for studying, upbeat pop for workouts, jazz or acoustic for winding down.",
+            "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.",
+            "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!"
+        ]
+    },
+    {
+        "category": "android",
+        "questions": [
+            "optimize battery?",
+            "best android apps?"
+        ],
+        "answers": [
+            "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.",
+            "For Android development: start with Kotlin (modern and recommended by Google), use Android Studio, and follow Material Design guidelines.",
+            "Android dev path: Kotlin basics → Android Studio setup → build a simple app → learn Activities, Fragments, and Jetpack Compose.",
+            "Start with Kotlin over Java for Android — it's cleaner and fully supported by Google. Follow the official Android developer docs."
+        ]
+    },
+    {
+        "category": "business",
+        "questions": [
+            "how to start business?",
+            "startup ideas"
+        ],
+        "answers": [
+            "Identify a problem, validate idea, start small (MVP), manage finances, build online presence.",
+            "To start a business: find a real problem people have, test your solution cheaply (MVP), get your first 10 customers, then scale.",
+            "Business basics: solve a problem, validate with real users before building, keep costs low early on, and build an online presence from day one.",
+            "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        ]
+    },
+    {
+        "category": "communication",
+        "questions": [
+            "how to speak confidently?",
+            "public speaking tips"
+        ],
+        "answers": [
+            "Listen more, be clear, eye contact, practice public speaking.",
+            "To speak confidently: slow down, make eye contact, listen actively, and practice in front of a mirror or record yourself.",
+            "Public speaking gets better with practice. Join a group like Toastmasters, prepare well, and remember — the audience wants you to succeed.",
+            "Communication tips: be concise, listen twice as much as you speak, maintain eye contact, and don't be afraid of short pauses."
+        ]
+    },
+    {
+        "category": "health",
+        "questions": [
+            "how to stay fit?",
+            "tips for good health",
+            "how to be healthy",
+            "stay healthy"
+        ],
+        "answers": [
+            "Tips: Exercise 30 min daily, 8 glasses water, balanced meals, 7-8 hours sleep, meditation.",
+            "Stay healthy with these habits: move for 30 minutes daily, drink at least 8 glasses of water, eat balanced meals, and get 7-8 hours of sleep.",
+            "Health fundamentals: regular exercise, enough sleep, lots of water, and a diet with vegetables, protein, and whole grains.",
+            "Simple health routine: morning walk, 3 balanced meals, cut sugary drinks, sleep by 10-11 PM, and manage stress daily."
+        ]
+    },
+    {
+        "category": "life",
+        "questions": [
+            "life advice",
+            "what is purpose of life?"
+        ],
+        "answers": [
+            "Focus on what you can control, be kind, keep learning, build relationships.",
+            "Life advice: invest in relationships, never stop learning, take care of your health, and don't let fear stop you from trying.",
+            "Focus on growth, not perfection. Be kind to yourself and others, keep learning, and build connections that matter.",
+            "Simple truths: health, relationships, and purpose matter most. Everything else is secondary."
+        ]
+    },
+    {
+        "category": "networking",
+        "questions": [
+            "how router works?",
+            "what is ip address?"
+        ],
+        "answers": [
+            "IP Address, Router, DNS, HTTP/HTTPS. Learn: Cisco CCNA, CompTIA Network+.",
+            "Networking basics: IP addresses identify devices, routers direct traffic, DNS translates domain names, and HTTP/HTTPS handles web communication.",
+            "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for.",
+            "Key concepts: IP address (device ID), Router (traffic director), DNS (phonebook of the internet), HTTP/HTTPS (web protocol)."
+        ]
+    },
+    {
+        "category": "technology",
+        "questions": [
+            "what is ai?",
+            "best programming language?",
+            "latest tech",
+            "tech news"
+        ],
+        "answers": [
+            "Key tech areas: AI/ML, Cloud Computing, Cybersecurity, Blockchain, IoT. Stay updated through tech blogs.",
+            "Tech is moving fast! The biggest areas right now: AI/ML, Cloud, Cybersecurity, and IoT. Follow TechCrunch or The Verge to stay current.",
+            "Top tech trends: Generative AI, Edge Computing, Quantum Computing, and Green Tech. Subscribe to newsletters like TLDR or Morning Brew Tech.",
+            "Stay updated by following Hacker News, TechCrunch, and YouTube channels like Fireship or Two Minute Papers."
+        ]
+    },
+    {
+        "category": "dl",
+        "questions": [
+            "how rnn works?",
+            "what is cnn?",
+            "what is deep learning",
+            "explain deep learning"
+        ],
+        "answers": [
+            "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch.",
+            "Deep Learning = multi-layered neural networks. CNNs handle images, RNNs and LSTMs handle sequences, and Transformers power modern NLP. Use PyTorch or TensorFlow.",
+            "DL basics: a neural network with many hidden layers learns features automatically. CNNs for vision, RNNs for time-series, Transformers for language tasks.",
+            "Start with the basics of neural networks, then learn CNNs (image recognition) and Transformers (text). PyTorch is the go-to framework for research."
+        ]
+    },
+    {
+        "category": "coding_errors",
+        "questions": [
+            "why code not running?",
+            "fix this error"
+        ],
+        "answers": [
+            "Debugging tips: Read error messages carefully, check syntax, use print statements, Google the error, check Stack Overflow.",
+            "To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.",
+            "Debugging strategy: reproduce the error, isolate the problem, read the traceback carefully, and test with simple inputs.",
+            "First step: don't panic! Read the error message top to bottom, Google it with your language name, and check Stack Overflow."
+        ]
+    },
+    {
+        "category": "interview",
+        "questions": [
+            "hr questions?",
+            "interview tips?"
+        ],
+        "answers": [
+            "Research company, practice questions, dress well, be confident, ask questions, follow up.",
+            "Interview prep: research the company thoroughly, practice STAR-format answers, arrive early, dress professionally, and always send a thank-you email after.",
+            "Key interview tips: know the job description inside out, prepare answers for 'tell me about yourself' and common HR questions, and ask thoughtful questions at the end.",
+            "Be genuine, be prepared. Research the company, rehearse your stories, listen carefully to questions, and follow up with a thank-you note."
+        ]
+    },
+    {
+        "category": "study",
+        "questions": [
+            "best way to learn?",
+            "focus tips"
+        ],
+        "answers": [
+            "Active recall, spaced repetition, teach others, Pomodoro, quiet environment, past papers.",
+            "Study smarter: use active recall instead of re-reading, space out your revision sessions, and test yourself with past papers.",
+            "Best study techniques: Pomodoro (25 min on, 5 min off), teach what you learned to someone else, and review material at increasing intervals.",
+            "Top tip: close your notes and try to recall everything you just read — that's active recall, and it's the most powerful study method there is."
+        ]
+    },
+    {
+        "category": "motivation_strong",
+        "questions": [
+            "i need strong motivation",
+            "push me hard"
+        ],
+        "answers": [
+            "You didn't come this far to only come this far. Pain is temporary, quitting is forever. Push harder!",
+            "Get up. You've survived 100% of your worst days. The grind you avoid today is the gap between you and your goals. Push through!",
+            "No more excuses. Every second you hesitate, someone else is working. Your future self is counting on what you do RIGHT NOW.",
+            "Hard days build the strongest people. Feel the resistance, then do it anyway. Champions aren't made in comfort zones — get moving!"
+        ]
+    },
+    {
+        "category": "science",
+        "questions": [
+            "explain gravity",
+            "what is energy?"
+        ],
+        "answers": [
+            "Science branches: Physics, Chemistry, Biology, Astronomy. Science drives innovation and technology.",
+            "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space.",
+            "Key science branches: Physics (matter/energy), Chemistry (substances/reactions), Biology (living organisms), Astronomy (universe and space).",
+            "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
+        ]
+    },
+    {
+        "category": "entertainment",
+        "questions": [
+            "suggest movies",
+            "top songs today"
+        ],
+        "answers": [
+            "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things.",
+            "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear.",
+            "Great watch list: Breaking Bad (drama), Money Heist (thriller), Stranger Things (sci-fi), and Oppenheimer or Interstellar for movies.",
+            "Check IMDb or Letterboxd for movie recommendations tailored to your taste. For shows, Breaking Bad and Money Heist are absolute classics."
+        ]
+    },
+    {
+        "category": "motivation_daily",
+        "questions": [
+            "give me daily motivation"
+        ],
+        "answers": [
+            "You are capable of amazing things! Take one step forward today. Consistency beats intensity!",
+            "Small steps every day lead to big results. Show up, do the work, and trust the process.",
+            "Today is a fresh start. One productive hour beats ten lazy days. Go make something happen!",
+            "You don't have to be great to start, but you have to start to be great. Do something today your future self will thank you for."
+        ]
+    },
+    {
+        "category": "motivation",
+        "questions": [
+            "give me inspiration",
+            "motivate me",
+            "how to stay consistent?",
+            "i feel low",
+            "i need motivation",
+            "feeling unmotivated",
+            "inspire me"
+        ],
+        "answers": [
+            "Every expert was once a beginner! Set small goals, celebrate wins, learn from failures. Progress not perfection!",
+            "Stay consistent by building systems, not just relying on motivation. Motivation fades — habits stay. Start small and show up daily.",
+            "Feeling low is normal. Rest if you must, but don't quit. Break your goal into tiny steps and tackle just the next one.",
+            "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress."
+        ]
+    },
+    {
+        "category": "education",
+        "questions": [
+            "what is python?",
+            "what is an algorithm?",
+            "how to study effectively?",
+            "explain machine learning",
+            "what is python",
+            "how to study",
+            "how to learn",
+            "online courses"
+        ],
+        "answers": [
+            "For self-learning: Coursera, Udemy, Khan Academy. Practice consistently, build projects, join communities.",
+            "Best free resources: Khan Academy, Coursera (audit for free), YouTube, and MIT OpenCourseWare. Learning is free — commitment isn't.",
+            "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept.",
+            "Online learning works best when combined with practice. Watch → understand → build → repeat. Join Discord communities to stay accountable."
+        ]
+    },
+    {
+        "category": "psychology",
+        "questions": [
+            "how to reduce stress?",
+            "human behavior tips?"
+        ],
+        "answers": [
+            "Mindfulness, emotional intelligence, manage stress, sleep well. Therapy is strength.",
+            "Reduce stress with mindfulness, regular exercise, adequate sleep, and talking to someone. Therapy is not weakness — it's wisdom.",
+            "Psychology basics: understand your triggers, practice emotional regulation, build a growth mindset, and prioritise sleep and social connection.",
+            "To manage stress: identify the source, break problems into smaller parts, practice breathing exercises, and don't be afraid to ask for help."
+        ]
+    },
+    {
+        "category": "quotes",
+        "questions": [
+            "inspirational quote please",
+            "life quote"
+        ],
+        "answers": [
+            "'The only way to do great work is to love what you do.' - Steve Jobs\n'Be the change you wish to see.' - Gandhi",
+            "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb",
+            "'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill\n'In the middle of difficulty lies opportunity.' - Einstein",
+            "'Don't watch the clock; do what it does. Keep going.' - Sam Levenson\n'Dream big, start small, act now.' - Robin Sharma"
+        ]
+    },
+    {
+        "category": "news",
+        "questions": [
+            "breaking headlines",
+            "latest news please",
+            "latest news",
+            "today news",
+            "headlines"
+        ],
+        "answers": [
+            "Check Google News, BBC, CNN for updates. Stay informed but avoid overload!",
+            "For reliable news: Google News, BBC, Reuters, or AP News. Tip: read from multiple sources to get a balanced view.",
+            "Stay updated with BBC, CNN, or Al Jazeera. Set a specific time for news rather than checking all day — it helps avoid anxiety.",
+            "I don't have live news, but Google News or BBC will have the latest. Remember: stay informed, not overwhelmed."
+        ]
+    },
+    {
+        "category": "travel",
+        "questions": [
+            "cheap flights?",
+            "best places to visit?",
+            "where to visit",
+            "best places",
+            "holiday destination"
+        ],
+        "answers": [
+            "Plan ahead, book early, pack light, try local food, use Google Maps.",
+            "Travel tips: book flights 6-8 weeks in advance for best prices, use Google Flights for fare alerts, pack light, and always try local food.",
+            "Best travel hack: be flexible with dates. Use Skyscanner or Google Flights' calendar view to find the cheapest days to fly.",
+            "For budget travel: book early, stay in hostels or Airbnb, use public transport, and eat where locals eat — always tastier and cheaper."
+        ]
+    },
+    {
+        "category": "cloud",
+        "questions": [
+            "aws vs azure?",
+            "what is cloud computing?"
+        ],
+        "answers": [
+            "IaaS, PaaS, SaaS. Providers: AWS, Azure, GCP. Start with AWS Free Tier.",
+            "Cloud computing = renting computing power over the internet. Types: IaaS, PaaS, SaaS. Top providers: AWS, Azure, Google Cloud.",
+            "AWS leads the market, Azure is preferred in enterprises, and GCP is strong in AI/ML. Start with AWS Free Tier to get hands-on experience.",
+            "Cloud basics: infrastructure, platforms, and software delivered as a service. Get started with AWS Free Tier and aim for the AWS Cloud Practitioner cert."
+        ]
+    },
+    {
+        "category": "gaming",
+        "questions": [
+            "latest gaming news",
+            "best games"
+        ],
+        "answers": [
+            "PC: Valorant, Minecraft, GTA V. Mobile: PUBG, Free Fire. Console: God of War, Zelda.",
+            "Top games: PC — Valorant, Minecraft, CS2. Mobile — PUBG Mobile, Free Fire. Console — God of War, Zelda: TotK, Spider-Man 2.",
+            "For PC gaming: Valorant (free), Minecraft (creative), GTA V. Console: God of War and Zelda are must-plays. Mobile: PUBG or Free Fire.",
+            "Follow IGN or GameSpot for the latest gaming news. Top picks right now: Elden Ring, Zelda: TotK, and Valorant."
+        ]
+    },
+    {
+        "category": "marketing",
+        "questions": [
+            "digital marketing tips?",
+            "seo basics"
+        ],
+        "answers": [
+            "SEO, Social Media, Content Marketing, Email Marketing, Analytics. Track and optimize!",
+            "Digital marketing essentials: SEO for organic traffic, social media for reach, email for retention, and analytics to track what's working.",
+            "Start with SEO basics — keyword research, on-page optimisation, and backlinks. Then add social media and email marketing to your strategy.",
+            "Marketing tip: content is king. Create valuable content consistently, optimise for search, build an email list, and always measure your results."
+        ]
+    },
+    {
+        "category": "ios",
+        "questions": [
+            "iphone tips?",
+            "best ios apps?"
+        ],
+        "answers": [
+            "Learn Swift, Xcode, UIKit/SwiftUI. Follow Apple Guidelines.",
+            "iOS development: learn Swift (Apple's modern language), use Xcode, and choose between UIKit (mature) or SwiftUI (modern, declarative).",
+            "iOS dev path: Swift basics → Xcode setup → build a simple app with SwiftUI → follow Apple's Human Interface Guidelines.",
+            "Start with Swift on Swift Playgrounds or Hacking with Swift (free). Then build a simple iOS app and publish it to the App Store!"
+        ]
+    },
+    {
+        "category": "finance",
+        "questions": [
+            "how to save money?",
+            "stock market today?",
+            "how to invest",
+            "save money",
+            "how to save money"
+        ],
+        "answers": [
+            "Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest.",
+            "Finance basics: track every expense, save at least 20% of income, build a 3-6 month emergency fund, and start investing early for compound growth.",
+            "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys.",
+            "The best time to invest was yesterday. Start small with index funds, avoid high-fee products, and let compound interest do the heavy lifting."
+        ]
+    },
+    {
+        "category": "ml",
+        "questions": [
+            "explain svm",
+            "difference between ml and dl?",
+            "what is machine learning",
+            "explain ml",
+            "machine learning ki",
+            "difference between mobile and web"
+        ],
+        "answers": [
+            "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch.",
+            "ML = teaching computers to learn from data without explicit programming. Key types: supervised (labelled data), unsupervised (patterns), reinforcement (rewards).",
+            "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning.",
+            "ML is a branch of AI. Give a computer enough data and the right algorithm, and it learns to make predictions. Tools: Python, scikit-learn, Pandas, NumPy.",
+            "mobile means small device, carrying in hand, pocket on the other hand web means laptop or desktop"
+        ]
+    },
+    {
+        "category": "sports",
+        "questions": [
+            "who won the match?",
+            "tell me cricket news",
+            "cricket score",
+            "football news",
+            "who won the match"
+        ],
+        "answers": [
+            "Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports.",
+            "For live scores and sports news, check ESPN, Cricinfo (for cricket), or just Google the sport + 'score' for instant results.",
+            "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights.",
+            "Sports tip: follow ESPN, BBC Sport, or Cricbuzz for cricket. Google 'football scores today' for instant live results."
+        ]
+    },
+    {
+        "category": "farewell",
+        "questions": [
+            "have a nice day",
+            "see you later",
+            "goodbye",
+            "talk to you soon",
+            "bye",
+            "take care",
+            "see you tomorrow",
+            "bye bye"
+        ],
+        "answers": [
+            "Goodbye! Have a great day! Feel free to come back anytime.",
+            "Take care! It was great chatting with you. See you next time!",
+            "Bye! Hope I was helpful. Come back whenever you need anything!",
+            "Have a wonderful day! Don't hesitate to return if you have more questions."
+        ]
+    },
+    {
+        "category": "productivity",
+        "questions": [
+            "time management tips",
+            "how to focus?"
+        ],
+        "answers": [
+            "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead.",
+            "Boost productivity: use the Pomodoro technique, time-block your calendar, tackle your hardest task first (eat the frog), and batch similar tasks.",
+            "To focus better: put your phone in another room, use website blockers, work in 25-min sprints with short breaks, and have a clear to-do list.",
+            "Productivity tip: plan your top 3 tasks the night before, protect your first 2 hours from emails and distractions, and review your day each evening."
+        ]
+    },
+    {
+        "category": "projects",
+        "questions": [
+            "final year project ideas",
+            "best coding project?"
+        ],
+        "answers": [
+            "Web: Portfolio, Blog. Python: Chatbot, Scraper. Mobile: Todo app. AI: Image classifier.",
+            "Great project ideas: AI chatbot, web scraper, expense tracker app, image classifier, or a full-stack portfolio website.",
+            "Final year projects that impress: ML-based disease predictor, real-time chat app, e-commerce site, or an NLP sentiment analyser.",
+            "Build projects that solve real problems. Ideas: attendance system with face recognition, budget tracker app, or a news aggregator using APIs."
+        ]
+    },
+    {
+        "category": "datascience",
+        "questions": [
+            "how to learn ds?",
+            "what is dataset?"
+        ],
+        "answers": [
+            "Learn Python + SQL, Statistics, Visualization, ML. Tools: Jupyter, Pandas, NumPy.",
+            "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn.",
+            "Start with Python and SQL, understand statistics basics, then learn to clean, analyse, and visualise data. Kaggle is perfect for practice.",
+            "Data Science = statistics + programming + domain knowledge. Start on Kaggle, work through real datasets, and build a portfolio of analysis projects."
+        ]
+    },
+    {
+        "category": "relationship",
+        "questions": [
+            "how to handle breakup?",
+            "friendship tips"
+        ],
+        "answers": [
+            "Communication is key, listen actively, respect boundaries, be honest, support growth.",
+            "In any relationship: communicate openly, respect boundaries, be honest, and support each other's growth. Healthy relationships lift both people up.",
+            "Handling a breakup: give yourself time to grieve, lean on friends, avoid contact for a while, and focus on self-improvement.",
+            "Strong relationships are built on trust, honest communication, and mutual respect. Show up consistently for the people who matter to you."
+        ]
+    },
+    {
+        "category": "career",
+        "questions": [
+            "how to choose career?",
+            "resume tips",
+            "how to get job",
+            "job tips"
+        ],
+        "answers": [
+            "Identify strengths, build skills, network, keep resume updated, practice interviews!",
+            "Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your network, and keep applying consistently.",
+            "To land a job: tailor your resume for each role, practise common interview questions, connect with people on LinkedIn, and follow up after applications.",
+            "Career tip: skills + network + visibility. Build your skills, share your work online, and reach out to people in your target industry."
+        ]
+    },
+    {
+        "category": "general",
+        "questions": [
+            "tell me something interesting"
+        ],
+        "answers": [
+            "Keep asking questions - curiosity drives achievement!",
+            "Fun fact: Honey never spoils — archaeologists have found 3000-year-old honey in Egyptian tombs still perfectly edible!",
+            "Did you know? Octopuses have three hearts, blue blood, and can edit their own RNA. Nature is wild!",
+            "Curiosity is a superpower. The most successful people never stop asking 'why' and 'what if'. Keep exploring!"
+        ]
+    },
+    {
+        "category": "philosophy",
+        "questions": [
+            "meaning of existence",
+            "what is reality?"
+        ],
+        "answers": [
+            "Big questions: meaning of life, consciousness, morality. Explore Socrates, Aristotle, Kant.",
+            "Philosophy tackles life's biggest questions. Start with Socrates (question everything), Aristotle (virtue and reason), and Kant (duty and morality).",
+            "The meaning of existence has been debated for millennia. Existentialists like Sartre say we create our own meaning — what do you think?",
+            "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
+        ]
+    },
+    {
+        "category": "food",
+        "questions": [
+            "suggest lunch",
+            "best snacks?"
+        ],
+        "answers": [
+            "Breakfast: Oatmeal, eggs, fruits. Lunch: Rice with veggies. Snacks: Nuts, yogurt. Dinner: Light meals.",
+            "Healthy meal ideas: oatmeal or eggs for breakfast, rice with grilled veggies for lunch, nuts or fruit for snacks, and a light soup for dinner.",
+            "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.",
+            "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        ]
+    },
+    {
+        "category": "history",
+        "questions": [
+            "who discovered america?",
+            "world war details"
+        ],
+        "answers": [
+            "Ancient civilizations, World Wars, Industrial Revolution. Learn from the past!",
+            "History highlights: ancient civilisations (Egypt, Rome, China), World Wars I and II, the Industrial Revolution, and the Cold War shaped the modern world.",
+            "Christopher Columbus reached the Americas in 1492, though indigenous peoples lived there for thousands of years before. History is always more complex than it seems.",
+            "WW2 (1939-1945) involved over 30 countries and caused 70-85 million deaths. Understanding history helps us avoid repeating its mistakes."
+        ]
+    },
+    {
+        "category": "about_bot",
+        "questions": [
+            "tumi ke",
+            "who are you",
+            "what are you",
+            "are you a bot",
+            "apni ke"
+        ],
+        "answers": [
+            "Ami ekta NLP + ML powered chatbot. 55+ topic e answer dite pari!",
+            "I'm Mini Bot — an NLP and ML powered chatbot built to help you with 55+ topics!",
+            "Ami ekta AI-based chatbot. Tomar proshno shune classify kori, then best answer diye help kori. Ektu test kore dekho!",
+            "Think of me as your smart assistant — powered by machine learning, trained on 55+ categories to answer your questions quickly."
+        ]
+    },
+    {
+        "category": "bot_name",
+        "questions": [
+            "tomar nam ki",
+            "what is your name",
+            "whats your name",
+            "name bolo"
+        ],
+        "answers": [
+            "Amar nam Mini Bot!",
+            "My name is Mini Bot — nice to meet you!",
+            "Mini Bot — sheta amar nam. Ki help korte pari tomar jonno?",
+            "Call me Mini Bot! I'm here to help whenever you need."
+        ]
+    },
+    {
+        "category": "bot_capability",
+        "questions": [
+            "ki korte paro",
+            "what can you do",
+            "help",
+            "help me",
+            "features"
+        ],
+        "answers": [
+            "Ami 55+ topic e help korte pari: AI, ML, Coding, Education, Health, Fitness, Finance, Career, Motivation, Books, Music, Sports, Gaming, Travel, Weather ar onek kichu!",
+            "I can help with 55+ topics including AI, coding, health, finance, career, motivation, travel, music, and much more. Just ask!",
+            "Mini Bot er features: AI/ML explain kora, coding help, career advice, health tips, finance guidance, daily motivation ar onek kichu. Ki janite chao?",
+            "From tech to lifestyle — I've got you covered across 55+ categories. Try asking about coding, finance, fitness, or anything else on your mind!"
+        ]
+    },
+    {
+        "category": "thanks",
+        "questions": [
+            "thanks",
+            "thank you",
+            "dhonnobad",
+            "tnx",
+            "thx"
+        ],
+        "answers": [
+            "Welcome! Abar kichu lagleo jiggesh koro!",
+            "You're welcome! Happy to help anytime.",
+            "Khushi hoyechi help korte pere! Abar ashio.",
+            "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need."
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "question": "difference between mobile and web",
+    "bot_answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch.",
+    "intent": "ml",
+    "feedback": "dislike",
+    "correct_answer": "mobile means small device, carrying in hand, pocket on the other hand web means laptop or desktop"
+  },
+  {
+    "question": "today weather",
+    "bot_answer": "Best way to check: Google your city name + 'weather' for an instant forecast with hourly and weekly breakdowns.",
+    "intent": "weather",
+    "feedback": "like",
+    "correct_answer": null
+  }
+]

@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f0f23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.chat-container {
+    width: 420px;
+    height: 650px;
+    background: #1a1a2e;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    border: 1px solid #2a2a4a;
+}
+
+.chat-header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.chat-header h2 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.chat-header p {
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.chat-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #3a3a5a;
+    border-radius: 3px;
+}
+
+.message {
+    display: flex;
+}
+
+.user-message {
+    justify-content: flex-end;
+}
+
+.bot-message {
+    justify-content: flex-start;
+}
+
+.message-bubble {
+    max-width: 80%;
+    padding: 10px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.user-message .message-bubble {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-bottom-right-radius: 4px;
+}
+
+.bot-message .message-bubble {
+    background: #2a2a4a;
+    color: #e0e0e0;
+    border-bottom-left-radius: 4px;
+}
+
+/* Learning Form */
+.learn-form {
+    padding: 16px;
+    background: #16162a;
+    border-top: 1px solid #2a2a4a;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.learn-title {
+    color: #ffa726;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.learn-form input {
+    padding: 10px 14px;
+    border: 1px solid #2a2a4a;
+    border-radius: 10px;
+    font-size: 13px;
+    outline: none;
+    background: #1a1a2e;
+    color: #e0e0e0;
+    transition: border-color 0.2s;
+}
+
+.learn-form input:focus {
+    border-color: #ffa726;
+}
+
+.learn-form input::placeholder {
+    color: #666;
+}
+
+.learn-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-learn {
+    flex: 1;
+    padding: 10px;
+    background: linear-gradient(135deg, #ffa726, #ff7043);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.btn-learn:hover {
+    opacity: 0.9;
+}
+
+.btn-skip {
+    padding: 10px 20px;
+    background: #2a2a4a;
+    color: #999;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-skip:hover {
+    background: #3a3a5a;
+}
+
+/* Chat Input */
+.chat-input {
+    padding: 16px;
+    background: #16162a;
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid #2a2a4a;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid #2a2a4a;
+    border-radius: 24px;
+    font-size: 14px;
+    outline: none;
+    background: #1a1a2e;
+    color: #e0e0e0;
+    transition: border-color 0.2s;
+}
+
+.chat-input input:focus {
+    border-color: #667eea;
+}
+
+.chat-input input::placeholder {
+    color: #666;
+}
+
+.chat-input button {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.chat-input button:hover {
+    opacity: 0.9;
+}
+
+.chat-input button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Feedback Buttons */
+.feedback-buttons {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.fb-btn {
+    background: none;
+    border: 1px solid #3a3a5a;
+    border-radius: 14px;
+    padding: 2px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+    line-height: 1.4;
+}
+
+.fb-like:hover {
+    background: rgba(76, 175, 80, 0.15);
+    border-color: #4caf50;
+}
+
+.fb-dislike:hover {
+    background: rgba(244, 67, 54, 0.15);
+    border-color: #f44336;
+}
+
+.fb-done {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.fb-liked {
+    color: #4caf50;
+}
+
+.fb-disliked {
+    color: #f44336;
+}

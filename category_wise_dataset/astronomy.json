@@ -1,0 +1,110 @@
+{
+    "category": "astronomy",
+    "type": "general",
+    "questions": [
+        "how big is the universe",
+        "tell me about planets",
+        "what is a black hole",
+        "space facts",
+        "is there life on mars",
+        "planet information",
+        "how many planets are there",
+        "solar system facts",
+        "nasa updates",
+        "telescope basics",
+        "astronomy for beginners",
+        "learn about space",
+        "stars and planets",
+        "astronomy basics",
+        "learn about astronomy",
+        "introduction to astronomy"
+    ],
+    "answers": [
+        "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!",
+        "Our solar system has 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Jupiter is the largest, Mercury the smallest.",
+        "A black hole is a region where gravity is so strong that nothing, not even light, can escape. They form when massive stars collapse.",
+        "Space facts: the Sun is 1.3 million times bigger than Earth, a day on Venus is longer than its year, and Saturn's rings are mostly ice and rock!"
+    ],
+    "feelings": [
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how many hours should i sleep",
+            "sentiment": "curious",
+            "answer": "Space facts: the Sun is 1.3 million times bigger than Earth, a day on Venus is longer than its year, and Saturn's rings are mostly ice and rock!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how many hours should i sleep",
+            "sentiment": "curious",
+            "answer": "Space facts: the Sun is 1.3 million times bigger than Earth, a day on Venus is longer than its year, and Saturn's rings are mostly ice and rock!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        }
+    ]
+}

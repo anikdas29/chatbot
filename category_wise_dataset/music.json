@@ -1,0 +1,224 @@
+{
+    "category": "music",
+    "type": "general",
+    "questions": [
+        "suggest songs",
+        "best singers",
+        "best music",
+        "playlist",
+        "best music to listen",
+        "music suggestions",
+        "music recommendations",
+        "how to learn guitar",
+        "best songs",
+        "playlist suggestions"
+    ],
+    "answers": [
+        "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic.",
+        "Need a playlist? Lo-fi hip-hop for studying, upbeat pop for workouts, jazz or acoustic for winding down.",
+        "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.",
+        "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!"
+    ],
+    "feelings": [
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        }
+    ]
+}

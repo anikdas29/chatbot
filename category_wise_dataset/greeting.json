@@ -1,0 +1,100 @@
+{
+    "category": "greeting",
+    "type": "general",
+    "questions": [
+        "good evening",
+        "hi",
+        "how are you",
+        "good morning",
+        "hey there",
+        "what's up?",
+        "hello",
+        "how are you doing",
+        "whats up",
+        "hi there",
+        "assalamualaikum",
+        "kemon acho",
+        "salam",
+        "namaste",
+        "ki khobor",
+        "ki obostha"
+    ],
+    "answers": [
+        "Hello! How can I help you today?",
+        "Hey there! What can I do for you?",
+        "Hi! Great to see you. What's on your mind?",
+        "Hello! I'm here and ready to help — just ask away!"
+    ],
+    "feelings": [
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        }
+    ]
+}

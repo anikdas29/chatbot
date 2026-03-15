@@ -479,11 +479,8 @@
     {
         "category": "education",
         "questions": [
-            "what is python?",
             "what is an algorithm?",
             "how to study effectively?",
-            "explain machine learning",
-            "what is python",
             "how to study",
             "how to learn",
             "online courses"
@@ -853,6 +850,326 @@
             "You're welcome! Happy to help anytime.",
             "Khushi hoyechi help korte pere! Abar ashio.",
             "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need."
+        ]
+    },
+    {
+        "category": "photography",
+        "questions": [
+            "how to take good photos?",
+            "best camera for beginners",
+            "photography tips",
+            "how to edit photos",
+            "mobile photography tips"
+        ],
+        "answers": [
+            "Photography basics: learn the rule of thirds, use natural light, keep your background clean, and experiment with angles. Practice daily!",
+            "For beginners, start with your phone camera and learn composition first. Then upgrade to a mirrorless camera like Sony A6000 or Canon M50.",
+            "Good photos need good light. Shoot during golden hour (sunrise/sunset), avoid harsh midday sun, and always focus on your subject's eyes for portraits.",
+            "Edit with free tools like Snapseed (mobile) or Lightroom (desktop). Start with basic adjustments: exposure, contrast, and white balance."
+        ]
+    },
+    {
+        "category": "cooking",
+        "questions": [
+            "easy recipes",
+            "how to cook rice",
+            "quick dinner ideas",
+            "cooking tips for beginners",
+            "healthy meal prep"
+        ],
+        "answers": [
+            "Start simple: learn to make eggs, rice, pasta, and stir-fry. Master these basics and you can cook almost anything!",
+            "Cooking tip: always read the full recipe before starting, prep all ingredients first (mise en place), and taste as you go.",
+            "Quick dinner ideas: fried rice with veggies, pasta with garlic butter, omelette with toast, or a simple chicken stir-fry. All under 20 minutes!",
+            "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        ]
+    },
+    {
+        "category": "movies",
+        "questions": [
+            "best movies to watch",
+            "movie recommendation",
+            "suggest a good movie",
+            "top rated movies",
+            "must watch films"
+        ],
+        "answers": [
+            "Must-watch: The Shawshank Redemption, Inception, Interstellar, The Dark Knight, Parasite. Mix of genres to keep it interesting!",
+            "For thriller lovers: Se7en, Gone Girl, Shutter Island. For feel-good: The Pursuit of Happyness, Forrest Gump, The Secret Life of Walter Mitty.",
+            "Top picks by genre: Sci-fi - Interstellar, Arrival. Drama - Whiplash, The Godfather. Animation - Spider-Verse, Your Name.",
+            "Check IMDb Top 250 or Letterboxd for curated lists. Recent gems: Oppenheimer, Everything Everywhere All At Once, and The Batman."
+        ]
+    },
+    {
+        "category": "pets",
+        "questions": [
+            "how to take care of a dog",
+            "best pets for beginners",
+            "cat care tips",
+            "pet food advice",
+            "should i get a pet"
+        ],
+        "answers": [
+            "Best beginner pets: cats (independent), fish (low maintenance), or a small dog breed like Beagle or Pomeranian. Research before adopting!",
+            "Dog care basics: regular walks, balanced diet, fresh water always, annual vet checkups, and lots of love and attention. Dogs need routine!",
+            "Cat care: clean litter box daily, provide scratching posts, feed quality cat food, keep fresh water, and give them space when they need it.",
+            "Before getting a pet, consider: do you have time, space, and budget? Pets need food, vet visits, and daily attention. It's a long-term commitment!"
+        ]
+    },
+    {
+        "category": "meditation",
+        "questions": [
+            "how to meditate",
+            "meditation for beginners",
+            "mindfulness tips",
+            "how to calm my mind",
+            "benefits of meditation"
+        ],
+        "answers": [
+            "Start with just 5 minutes: sit comfortably, close eyes, focus on your breath. When your mind wanders, gently bring it back. That's it!",
+            "Meditation benefits: reduces stress, improves focus, better sleep, lower anxiety, and emotional balance. Even 10 minutes daily makes a difference.",
+            "Try apps like Headspace or Calm for guided meditation. Start with breathing exercises, then move to body scan and mindfulness meditation.",
+            "Mindfulness tip: you don't need a special place or time. Simply pause, take 3 deep breaths, and notice how you feel. Do this multiple times a day."
+        ]
+    },
+    {
+        "category": "freelancing",
+        "questions": [
+            "how to start freelancing",
+            "best freelance platforms",
+            "freelancing tips",
+            "how to earn from fiverr",
+            "remote work tips"
+        ],
+        "answers": [
+            "Start on Fiverr or Upwork. Pick one skill (writing, design, coding, video editing), create a strong profile, price low initially to get reviews, then raise rates.",
+            "Freelancing tips: always deliver on time, communicate clearly, build a portfolio, ask for reviews, and never undersell your skills long-term.",
+            "Best platforms: Fiverr (gig-based), Upwork (project-based), Toptal (premium), Freelancer.com. Choose based on your skill and experience level.",
+            "Remote work essentials: reliable internet, a quiet workspace, time management tools (Toggl, Notion), and clear communication with clients."
+        ]
+    },
+    {
+        "category": "social_media",
+        "questions": [
+            "how to grow on instagram",
+            "youtube tips",
+            "social media strategy",
+            "how to go viral",
+            "content creation tips"
+        ],
+        "answers": [
+            "Instagram growth: post consistently, use relevant hashtags, engage with your audience, create Reels (they get more reach), and have a clear niche.",
+            "YouTube tips: good thumbnail + title = clicks. First 30 seconds must hook viewers. Post consistently, optimize SEO, and engage with comments.",
+            "Content creation basics: find your niche, be consistent, provide value, engage with your community, and don't chase trends blindly - be authentic.",
+            "Going viral isn't a strategy - consistency is. Post daily, study what works in your niche, use trending audio/formats, and always add value."
+        ]
+    },
+    {
+        "category": "language",
+        "questions": [
+            "how to learn english",
+            "best way to learn a new language",
+            "improve english speaking",
+            "language learning tips",
+            "how to learn bangla"
+        ],
+        "answers": [
+            "Best way: immerse yourself. Watch movies/shows in that language, practice speaking daily, use Duolingo or Anki for vocabulary, and don't fear mistakes.",
+            "To improve English speaking: think in English, talk to yourself, watch English content without subtitles, and practice with a partner or AI chatbot.",
+            "Language learning apps: Duolingo (free, gamified), Anki (flashcards), HelloTalk (chat with natives), and YouTube channels for grammar lessons.",
+            "Tip: learn the 1000 most common words first - they cover 80% of daily conversation. Then focus on speaking, not perfection. Fluency comes with practice!"
+        ]
+    },
+    {
+        "category": "fashion",
+        "questions": [
+            "how to dress well",
+            "fashion tips for men",
+            "outfit ideas",
+            "style tips",
+            "what to wear"
+        ],
+        "answers": [
+            "Fashion basics: fit matters more than brand. Wear clothes that fit your body well, stick to neutral colors, and build a capsule wardrobe.",
+            "Style tip: invest in basics - plain tees, well-fitted jeans, white sneakers, and a good jacket. You can mix and match endlessly.",
+            "For men: dark jeans + white shirt + clean sneakers = classic. For women: a good blazer transforms any outfit. Keep accessories minimal.",
+            "Dress for the occasion, not the trend. Comfort + confidence = the best outfit. Find what fits YOUR body and style, not what's on Instagram."
+        ]
+    },
+    {
+        "category": "environment",
+        "questions": [
+            "how to save the environment",
+            "climate change ki",
+            "go green tips",
+            "reduce plastic use",
+            "what is global warming"
+        ],
+        "answers": [
+            "Small steps matter: reduce plastic use, carry reusable bags, save water and electricity, plant trees, and choose public transport when possible.",
+            "Climate change is real - Earth's temperature is rising due to greenhouse gases from burning fossil fuels, deforestation, and industrial activity.",
+            "Go green: reduce, reuse, recycle. Use LED bulbs, eat less meat, avoid single-use plastic, and support eco-friendly brands. Every action counts!",
+            "Global warming = Earth heating up due to CO2 and other greenhouse gases. Effects: melting ice, rising seas, extreme weather. We must act now."
+        ]
+    },
+    {
+        "category": "parenting",
+        "questions": [
+            "parenting tips",
+            "how to handle kids",
+            "new parent advice",
+            "child development tips",
+            "best parenting books"
+        ],
+        "answers": [
+            "Parenting basics: be patient, listen to your child, set boundaries with love, spend quality time, and lead by example. No parent is perfect!",
+            "For new parents: sleep when baby sleeps, don't compare with others, ask for help, and trust your instincts. You're doing better than you think.",
+            "Child development tip: read to your kids daily, limit screen time, encourage curiosity, let them play freely, and praise effort not just results.",
+            "Recommended books: \"The Whole-Brain Child\", \"How to Talk So Kids Will Listen\", \"Parenting with Love and Logic\". Great for all ages!"
+        ]
+    },
+    {
+        "category": "astronomy",
+        "questions": [
+            "how big is the universe",
+            "tell me about planets",
+            "what is a black hole",
+            "space facts",
+            "is there life on mars"
+        ],
+        "answers": [
+            "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!",
+            "Our solar system has 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Jupiter is the largest, Mercury the smallest.",
+            "A black hole is a region where gravity is so strong that nothing, not even light, can escape. They form when massive stars collapse.",
+            "Space facts: the Sun is 1.3 million times bigger than Earth, a day on Venus is longer than its year, and Saturn's rings are mostly ice and rock!"
+        ]
+    },
+    {
+        "category": "writing",
+        "questions": [
+            "how to write better",
+            "creative writing tips",
+            "how to start a blog",
+            "writing tips for beginners",
+            "how to write an essay"
+        ],
+        "answers": [
+            "Writing tip: write every day, even if it's bad. Read a lot, edit ruthlessly, and remember - the first draft is never perfect. Just get words down!",
+            "For blogging: pick a niche, write consistently, use SEO basics, promote on social media, and focus on helping your readers solve problems.",
+            "Creative writing: show don't tell, use strong verbs, create vivid characters, and read widely across genres for inspiration. Write what excites you!",
+            "Essay structure: Introduction (hook + thesis), Body (3 points with evidence), Conclusion (restate + final thought). Keep paragraphs focused and clear."
+        ]
+    },
+    {
+        "category": "crypto",
+        "questions": [
+            "what is bitcoin",
+            "how to invest in crypto",
+            "cryptocurrency explained",
+            "is crypto safe",
+            "blockchain ki"
+        ],
+        "answers": [
+            "Bitcoin is a decentralized digital currency - no bank or government controls it. Transactions are verified by a network using blockchain technology.",
+            "Crypto investing tip: only invest what you can afford to lose. Start small, research the project, use trusted exchanges (Binance, Coinbase), and HODL.",
+            "Blockchain = a digital ledger that records transactions across many computers. It's transparent, secure, and the backbone of all cryptocurrencies.",
+            "Is crypto safe? The technology is secure, but the market is highly volatile. Never invest blindly, avoid scam coins, and always use 2FA on exchanges."
+        ]
+    },
+    {
+        "category": "time_management",
+        "questions": [
+            "how to manage time",
+            "time management hacks",
+            "how to stop procrastinating",
+            "daily routine tips",
+            "how to be more organized"
+        ],
+        "answers": [
+            "Time management golden rule: plan your day the night before. List your top 3 priorities and tackle the hardest one first (eat the frog).",
+            "Stop procrastinating: use the 2-minute rule - if it takes less than 2 minutes, do it now. Break big tasks into tiny steps and just start.",
+            "Daily routine tip: wake up at the same time daily, time-block your calendar, batch similar tasks, and protect your most productive hours from distractions.",
+            "Get organized: use a planner or Notion, declutter your workspace, set deadlines for everything, and review your week every Sunday. Structure = freedom."
+        ]
+    },
+    {
+        "category": "diy",
+        "questions": [
+            "diy project ideas",
+            "easy home projects",
+            "how to fix things at home",
+            "craft ideas",
+            "diy tips"
+        ],
+        "answers": [
+            "Easy DIY: build a bookshelf, paint a room, create a photo wall, make candles, or build a simple desk organizer. YouTube tutorials help a lot!",
+            "Home fix basics: learn to change a lightbulb, unclog a drain, fix a leaky tap, and paint walls. These save money and build confidence!",
+            "Craft ideas: handmade cards, resin art, macrame plant hangers, tie-dye shirts, or custom phone cases. Great for gifts and relaxation!",
+            "DIY tip: start with simple projects, watch tutorials first, have the right tools ready, and don't rush. Measure twice, cut once!"
+        ]
+    },
+    {
+        "category": "yoga",
+        "questions": [
+            "yoga for beginners",
+            "best yoga poses",
+            "benefits of yoga",
+            "how to start yoga",
+            "yoga tips"
+        ],
+        "answers": [
+            "Start with basic poses: Mountain, Downward Dog, Warrior I & II, Child's Pose, and Cobra. Just 15 minutes daily makes a big difference!",
+            "Yoga benefits: improved flexibility, reduced stress, better posture, stronger core, mental clarity, and better sleep. Good for body and mind!",
+            "Beginner tip: don't compare yourself to others. Yoga is about YOUR body and YOUR progress. Use a mat, wear comfortable clothes, and breathe deeply.",
+            "Follow YouTube channels like Yoga With Adriene for free guided sessions. Start with 10-15 minute beginner flows and build up gradually."
+        ]
+    },
+    {
+        "category": "podcast",
+        "questions": [
+            "best podcasts to listen",
+            "how to start a podcast",
+            "podcast recommendations",
+            "top podcasts",
+            "podcasting tips"
+        ],
+        "answers": [
+            "Top podcasts: Lex Fridman (tech/science), Huberman Lab (health), The Joe Rogan Experience (variety), and How I Built This (business stories).",
+            "Start a podcast: pick a niche, get a decent USB mic (Blue Yeti), use Anchor.fm (free hosting), record regularly, and promote on social media.",
+            "Podcasting tips: keep episodes focused, have good audio quality, be consistent with your schedule, and engage with your listeners on social media.",
+            "For learning: try TED Radio Hour, Freakonomics, or Darknet Diaries (cybersecurity). For fun: Conan O'Brien Needs a Friend, SmartLess."
+        ]
+    },
+    {
+        "category": "database",
+        "questions": [
+            "what is sql",
+            "sql vs nosql",
+            "how to learn database",
+            "best database for beginners",
+            "what is mongodb"
+        ],
+        "answers": [
+            "SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use.",
+            "SQL vs NoSQL: SQL (MySQL, PostgreSQL) = structured, tables, relations. NoSQL (MongoDB, Redis) = flexible, documents, fast. Choose based on your data.",
+            "Start with MySQL or PostgreSQL for relational data. For NoSQL, try MongoDB. Practice on SQLBolt.com or W3Schools SQL tutorial - both free!",
+            "MongoDB stores data as JSON-like documents - flexible and great for apps with changing data structures. Perfect for Node.js backends and modern web apps."
+        ]
+    },
+    {
+        "category": "git",
+        "questions": [
+            "what is git",
+            "git commands",
+            "how to use github",
+            "git for beginners",
+            "how to push code to github"
+        ],
+        "answers": [
+            "Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!",
+            "Essential git commands: git init, git add, git commit, git push, git pull, git branch, git merge. These 7 commands handle 90% of daily work.",
+            "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge.",
+            "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
         ]
     }
 ]

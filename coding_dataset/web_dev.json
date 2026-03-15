@@ -1,0 +1,90 @@
+{
+    "category": "web_dev",
+    "type": "coding",
+    "questions": [
+        "how to become web developer",
+        "web development roadmap",
+        "frontend vs backend",
+        "full stack developer",
+        "web dev for beginners",
+        "learn web development"
+    ],
+    "answers": [
+        "Web dev roadmap: HTML/CSS/JS (frontend basics), then React or Vue (framework), then Node.js or Python (backend), then databases (MongoDB/PostgreSQL).",
+        "Frontend = what users see (HTML, CSS, JS, React). Backend = server logic (Node.js, Python, databases). Full-stack = both. Start with frontend!",
+        "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume.",
+        "Best free resources: freeCodeCamp, The Odin Project, MDN Web Docs, and YouTube. You don't need a bootcamp or degree - just build and learn!"
+    ],
+    "feelings": [
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+    "category": "shopping",
+    "type": "general",
+    "questions": [
+        "best deals today?",
+        "which phone to buy?",
+        "where to buy",
+        "best deals",
+        "online shopping"
+    ],
+    "answers": [
+        "Compare prices, wait for sales, read reviews, set budget, check return policies.",
+        "Always compare prices across platforms, look out for seasonal sales, and don't forget to check the return policy before buying.",
+        "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.",
+        "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+    ],
+    "feelings": [
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best online shopping site",
+            "sentiment": "happy",
+            "answer": "Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "where to buy phone",
+            "sentiment": "curious",
+            "answer": "Compare prices, wait for sales, read reviews, set budget, check return policies."
+        },
+        {
+            "question": "online shopping help",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Smart shopping tip: compare on multiple sites, read at least 10 reviews, and always check if free returns are available."
+        },
+        {
+            "question": "best deals online",
+            "sentiment": "happy",
+            "answer": "Set a budget first, read user reviews, and wait for big sale events like 11.11 or Black Friday for the best deals.\n\nApnar bhalo lagche jene amrao khushi!"
+        }
+    ]
+}

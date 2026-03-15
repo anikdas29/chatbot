@@ -1,0 +1,44 @@
+{
+    "category": "motivation",
+    "type": "general",
+    "questions": [
+        "give me inspiration",
+        "motivate me",
+        "how to stay consistent?",
+        "i feel low",
+        "i need motivation",
+        "feeling unmotivated",
+        "inspire me",
+        "motivation tips",
+        "tips for motivation",
+        "how to stay motivated"
+    ],
+    "answers": [
+        "Every expert was once a beginner! Set small goals, celebrate wins, learn from failures. Progress not perfection!",
+        "Stay consistent by building systems, not just relying on motivation. Motivation fades — habits stay. Start small and show up daily.",
+        "Feeling low is normal. Rest if you must, but don't quit. Break your goal into tiny steps and tackle just the next one.",
+        "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress."
+    ],
+    "feelings": [
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
+        }
+    ]
+}

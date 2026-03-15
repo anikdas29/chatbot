@@ -1,0 +1,83 @@
+{
+    "category": "productivity",
+    "type": "general",
+    "questions": [
+        "work efficiency tips",
+        "how to focus?",
+        "how to be more productive",
+        "productivity tips",
+        "boost productivity",
+        "productivity hacks",
+        "how to focus better",
+        "increase productivity",
+        "productivity advice"
+    ],
+    "answers": [
+        "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead.",
+        "Boost productivity: use the Pomodoro technique, time-block your calendar, tackle your hardest task first (eat the frog), and batch similar tasks.",
+        "To focus better: put your phone in another room, use website blockers, work in 25-min sprints with short breaks, and have a clear to-do list.",
+        "Productivity tip: plan your top 3 tasks the night before, protect your first 2 hours from emails and distractions, and review your day each evening."
+    ],
+    "feelings": [
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        }
+    ]
+}

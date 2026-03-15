@@ -1,0 +1,93 @@
+{
+    "category": "android",
+    "type": "general",
+    "questions": [
+        "optimize battery?",
+        "best android apps?",
+        "best android apps",
+        "android tips",
+        "android phone tricks",
+        "android settings",
+        "how to speed up android",
+        "android update",
+        "android vs iphone"
+    ],
+    "answers": [
+        "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.",
+        "For Android development: start with Kotlin (modern and recommended by Google), use Android Studio, and follow Material Design guidelines.",
+        "Android dev path: Kotlin basics → Android Studio setup → build a simple app → learn Activities, Fragments, and Jetpack Compose.",
+        "Start with Kotlin over Java for Android — it's cleaner and fully supported by Google. Follow the official Android developer docs."
+    ],
+    "feelings": [
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        }
+    ]
+}

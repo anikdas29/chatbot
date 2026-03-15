@@ -1,0 +1,241 @@
+{
+    "category": "react",
+    "type": "coding",
+    "questions": [
+        "what is react",
+        "react js tutorial",
+        "how to learn react",
+        "react basics",
+        "react ki",
+        "react vs angular",
+        "why use react"
+    ],
+    "answers": [
+        "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI.",
+        "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!",
+        "Learn React path: HTML/CSS/JS first, then React docs (react.dev), then build a todo app, then a full project with API calls and routing.",
+        "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+    ],
+    "feelings": [
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        },
+        {
+            "question": "what is react",
+            "sentiment": "curious",
+            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
+        },
+        {
+            "question": "how to learn react",
+            "sentiment": "curious",
+            "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
+        },
+        {
+            "question": "why use react",
+            "sentiment": "curious",
+            "answer": "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        }
+    ]
+}

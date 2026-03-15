@@ -1,0 +1,204 @@
+{
+    "category": "java",
+    "type": "coding",
+    "questions": [
+        "what is java",
+        "java basics",
+        "how to learn java",
+        "java tutorial",
+        "java ki",
+        "java for beginners",
+        "java vs python",
+        "need help with java",
+        "java help",
+        "java programming help"
+    ],
+    "answers": [
+        "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto.",
+        "Java basics: variables, data types, loops, OOP (classes, objects, inheritance, polymorphism), exception handling, and collections framework.",
+        "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development.",
+        "Java vs Python: Java is faster and strictly typed (good for large systems). Python is simpler and better for scripting, data science, and quick prototyping."
+    ],
+    "feelings": [
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        }
+    ]
+}

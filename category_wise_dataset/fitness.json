@@ -1,0 +1,119 @@
+{
+    "category": "fitness",
+    "type": "general",
+    "questions": [
+        "workout routine?",
+        "exercise tips",
+        "how to lose weight",
+        "gym tips",
+        "home workout",
+        "how to build muscle",
+        "weight loss tips",
+        "gym routine",
+        "fitness tips for beginners",
+        "exercise at home",
+        "bodybuilding tips",
+        "how to get fit",
+        "getting fit tips",
+        "fitness routine",
+        "physical fitness"
+    ],
+    "answers": [
+        "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.",
+        "No gym? No problem. Push-ups, squats, planks, and jumping jacks at home daily will make a huge difference. Just stay consistent.",
+        "Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery.",
+        "Start simple — a 20-minute walk daily, 3 sets of push-ups and squats, and track your progress weekly. Consistency beats intensity!"
+    ],
+    "feelings": [
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to get fit",
+            "sentiment": "curious",
+            "answer": "Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery."
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to get fit",
+            "sentiment": "curious",
+            "answer": "Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery."
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to get fit",
+            "sentiment": "curious",
+            "answer": "Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery."
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to get fit",
+            "sentiment": "curious",
+            "answer": "Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery."
+        },
+        {
+            "question": "best exercises",
+            "sentiment": "happy",
+            "answer": "Start with walks, bodyweight exercises (push-ups, squats, planks), stay consistent, track progress.\n\nApnar bhalo lagche jene amrao khushi!"
+        }
+    ]
+}

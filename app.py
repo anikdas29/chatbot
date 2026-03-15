@@ -93,7 +93,7 @@ def learn_endpoint():
     return jsonify({
         "message": f"Shikhe nilam! '{question}' er answer ekhon jani.",
         "total_questions": len(bot.questions),
-        "total_categories": len(bot.category_answers)
+        "total_categories": len(bot.category_store_map)
     })
 
 

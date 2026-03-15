@@ -1,0 +1,32 @@
+{
+    "category": "diy",
+    "type": "general",
+    "questions": [
+        "diy project ideas",
+        "easy home projects",
+        "how to fix things at home",
+        "craft ideas",
+        "diy tips",
+        "do it yourself projects",
+        "diy craft ideas",
+        "homemade project ideas"
+    ],
+    "answers": [
+        "Easy DIY: build a bookshelf, paint a room, create a photo wall, make candles, or build a simple desk organizer. YouTube tutorials help a lot!",
+        "Home fix basics: learn to change a lightbulb, unclog a drain, fix a leaky tap, and paint walls. These save money and build confidence!",
+        "Craft ideas: handmade cards, resin art, macrame plant hangers, tie-dye shirts, or custom phone cases. Great for gifts and relaxation!",
+        "DIY tip: start with simple projects, watch tutorials first, have the right tools ready, and don't rush. Measure twice, cut once!"
+    ],
+    "feelings": [
+        {
+            "question": "how to fix bugs",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Home fix basics: learn to change a lightbulb, unclog a drain, fix a leaky tap, and paint walls. These save money and build confidence!\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "how to fix bugs",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Home fix basics: learn to change a lightbulb, unclog a drain, fix a leaky tap, and paint walls. These save money and build confidence!\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        }
+    ]
+}

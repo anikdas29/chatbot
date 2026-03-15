@@ -1,0 +1,143 @@
+{
+    "category": "entertainment",
+    "type": "general",
+    "questions": [
+        "suggest movies",
+        "top songs today",
+        "what to do for fun",
+        "entertainment ideas",
+        "fun things to do",
+        "bored what to do",
+        "fun activities",
+        "entertainment suggestions",
+        "things to do when bored"
+    ],
+    "answers": [
+        "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things.",
+        "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear.",
+        "Great watch list: Breaking Bad (drama), Money Heist (thriller), Stranger Things (sci-fi), and Oppenheimer or Interstellar for movies.",
+        "Check IMDb or Letterboxd for movie recommendations tailored to your taste. For shows, Breaking Bad and Money Heist are absolute classics."
+    ],
+    "feelings": [
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        }
+    ]
+}

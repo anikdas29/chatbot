@@ -1,0 +1,153 @@
+{
+    "category": "business",
+    "type": "general",
+    "questions": [
+        "how to start business?",
+        "startup ideas",
+        "business ideas",
+        "how to start a business",
+        "small business tips",
+        "startup advice",
+        "business plan",
+        "online business ideas",
+        "how to grow business"
+    ],
+    "answers": [
+        "Identify a problem, validate idea, start small (MVP), manage finances, build online presence.",
+        "To start a business: find a real problem people have, test your solution cheaply (MVP), get your first 10 customers, then scale.",
+        "Business basics: solve a problem, validate with real users before building, keep costs low early on, and build an online presence from day one.",
+        "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+    ],
+    "feelings": [
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to plan a trip",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start coding",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to plan a trip",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start coding",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to plan a trip",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start coding",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to plan a trip",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start coding",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to plan a trip",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to plan a trip",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to plan a trip",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to plan a trip",
+            "sentiment": "curious",
+            "answer": "Startup tip: don't wait for a perfect idea. Start small, talk to potential customers, iterate fast, and keep your finances clean."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        }
+    ]
+}

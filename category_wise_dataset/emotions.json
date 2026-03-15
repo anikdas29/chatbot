@@ -1,0 +1,276 @@
+{
+    "category": "emotions",
+    "type": "general",
+    "questions": [
+        "i feel sad",
+        "how to control anger?",
+        "i am depressed",
+        "feeling lonely",
+        "i am stressed",
+        "i feel anxious",
+        "feeling down",
+        "i am feeling bad",
+        "emotional help",
+        "how to deal with sadness",
+        "mental health support",
+        "feeling down today"
+    ],
+    "answers": [
+        "Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.",
+        "Your feelings are valid. Try talking to a trusted friend, writing in a journal, or taking a slow walk outside. Don't hesitate to seek professional help.",
+        "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone.",
+        "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength."
+    ],
+    "feelings": [
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        }
+    ]
+}

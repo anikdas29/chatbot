@@ -1,0 +1,94 @@
+{
+    "category": "dl",
+    "type": "general",
+    "questions": [
+        "how rnn works?",
+        "what is cnn?",
+        "what is deep learning",
+        "explain deep learning",
+        "deep learning basics",
+        "deep learning tutorial",
+        "neural network basics",
+        "how to learn deep learning",
+        "deep learning ki",
+        "convolutional neural network"
+    ],
+    "answers": [
+        "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch.",
+        "Deep Learning = multi-layered neural networks. CNNs handle images, RNNs and LSTMs handle sequences, and Transformers power modern NLP. Use PyTorch or TensorFlow.",
+        "DL basics: a neural network with many hidden layers learns features automatically. CNNs for vision, RNNs for time-series, Transformers for language tasks.",
+        "Start with the basics of neural networks, then learn CNNs (image recognition) and Transformers (text). PyTorch is the go-to framework for research."
+    ],
+    "feelings": [
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        },
+        {
+            "question": "what is deep learning",
+            "sentiment": "curious",
+            "answer": "Deep Learning uses neural networks with many layers. CNNs for images, RNNs for sequences, Transformers for text. Frameworks: TensorFlow, PyTorch."
+        }
+    ]
+}

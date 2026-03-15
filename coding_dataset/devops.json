@@ -1,0 +1,161 @@
+{
+    "category": "devops",
+    "type": "coding",
+    "questions": [
+        "what is devops",
+        "devops basics",
+        "how to learn devops",
+        "docker explained",
+        "what is docker",
+        "ci cd pipeline",
+        "devops tools"
+    ],
+    "answers": [
+        "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting.",
+        "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever.",
+        "DevOps tools: Docker (containers), Kubernetes (orchestration), Jenkins/GitHub Actions (CI/CD), Terraform (infrastructure), and AWS/GCP/Azure (cloud).",
+        "CI/CD pipeline: every code push triggers automatic build, test, and deploy. Tools: GitHub Actions (free), Jenkins, GitLab CI. Speeds up delivery and catches bugs early."
+    ],
+    "feelings": [
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        },
+        {
+            "question": "what is devops",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting."
+        },
+        {
+            "question": "what is docker",
+            "sentiment": "curious",
+            "answer": "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever."
+        }
+    ]
+}

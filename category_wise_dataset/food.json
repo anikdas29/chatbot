@@ -1,0 +1,204 @@
+{
+    "category": "food",
+    "type": "general",
+    "questions": [
+        "suggest lunch",
+        "best snacks?",
+        "what should i eat",
+        "food suggestions",
+        "healthy food",
+        "best foods for health",
+        "food recommendations",
+        "ki khabo aj",
+        "meal ideas",
+        "snack suggestions"
+    ],
+    "answers": [
+        "Breakfast: Oatmeal, eggs, fruits. Lunch: Rice with veggies. Snacks: Nuts, yogurt. Dinner: Light meals.",
+        "Healthy meal ideas: oatmeal or eggs for breakfast, rice with grilled veggies for lunch, nuts or fruit for snacks, and a light soup for dinner.",
+        "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.",
+        "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+    ],
+    "feelings": [
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Eat the rainbow! Colourful fruits and veggies at every meal, lean protein, whole grains, and stay hydrated throughout the day."
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "category": "weather",
+    "type": "general",
+    "questions": [
+        "tell me today's temperature",
+        "is it going to rain?",
+        "what's the weather today?",
+        "weather forecast please",
+        "weather today",
+        "is it raining",
+        "temperature today",
+        "aj weather kemon",
+        "aaj er weather",
+        "weather update today",
+        "climate today",
+        "will it rain today",
+        "will it rain",
+        "rain forecast"
+    ],
+    "answers": [
+        "Check your local weather app or Google Weather for accurate updates.",
+        "I don't have live data, but you can get the latest forecast instantly on Google Weather or your phone's weather app.",
+        "For real-time weather, just search your city on Google or open your device's weather app — it updates automatically.",
+        "Best way to check: Google your city name + 'weather' for an instant forecast with hourly and weekly breakdowns."
+    ],
+    "feelings": [
+        {
+            "question": "this weather is bad",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. For real-time weather, just search your city on Google or open your device's weather app — it updates automatically.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        }
+    ]
+}

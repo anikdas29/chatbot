@@ -1,0 +1,204 @@
+{
+    "category": "math",
+    "type": "general",
+    "questions": [
+        "what is calculus?",
+        "solve equation",
+        "how to learn math",
+        "math tips",
+        "math basics",
+        "math problem solving",
+        "math ki",
+        "mathematics help",
+        "math tutorial",
+        "algebra basics"
+    ],
+    "answers": [
+        "Key areas: Algebra, Calculus, Statistics, Probability, Linear Algebra. Practice regularly!",
+        "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising.",
+        "Focus on the fundamentals: Algebra first, then Calculus, Statistics, and Linear Algebra. Khan Academy is great for free practice.",
+        "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+    ],
+    "feelings": [
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        },
+        {
+            "question": "how to learn math",
+            "sentiment": "curious",
+            "answer": "Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work."
+        },
+        {
+            "question": "math problem solving",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Math gets easier with practice. Start with Algebra, move to Calculus and Stats, and use tools like Wolfram Alpha for checking your work.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "math ki",
+            "sentiment": "curious",
+            "answer": "Math covers Algebra, Calculus, Statistics, and Linear Algebra. The secret? Daily practice and understanding concepts, not just memorising."
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "category": "cooking",
+    "type": "general",
+    "questions": [
+        "easy recipes",
+        "how to cook rice",
+        "quick dinner ideas",
+        "cooking tips for beginners",
+        "healthy meal prep"
+    ],
+    "answers": [
+        "Start simple: learn to make eggs, rice, pasta, and stir-fry. Master these basics and you can cook almost anything!",
+        "Cooking tip: always read the full recipe before starting, prep all ingredients first (mise en place), and taste as you go.",
+        "Quick dinner ideas: fried rice with veggies, pasta with garlic butter, omelette with toast, or a simple chicken stir-fry. All under 20 minutes!",
+        "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+    ],
+    "feelings": [
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook pasta",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook rice",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        },
+        {
+            "question": "how to cook for beginners",
+            "sentiment": "curious",
+            "answer": "Healthy meal prep: cook rice, grilled chicken, and roasted veggies on Sunday. Store in containers for the whole week. Saves time and money!"
+        }
+    ]
+}

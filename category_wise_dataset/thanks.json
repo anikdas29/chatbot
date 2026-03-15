@@ -1,0 +1,269 @@
+{
+    "category": "thanks",
+    "type": "general",
+    "questions": [
+        "thanks",
+        "thank you",
+        "dhonnobad",
+        "tnx",
+        "thx"
+    ],
+    "answers": [
+        "Welcome! Abar kichu lagleo jiggesh koro!",
+        "You're welcome! Happy to help anytime.",
+        "Khushi hoyechi help korte pere! Abar ashio.",
+        "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need."
+    ],
+    "feelings": [
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "kivabe healthy thaka jai",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Khushi hoyechi help korte pere! Abar ashio.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "kivabe healthy thaka jai",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Khushi hoyechi help korte pere! Abar ashio.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        }
+    ]
+}

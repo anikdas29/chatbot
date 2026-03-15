@@ -1,0 +1,205 @@
+{
+    "category": "education",
+    "type": "general",
+    "questions": [
+        "what is an algorithm?",
+        "how to study effectively?",
+        "how to study",
+        "how to learn",
+        "online courses",
+        "education system",
+        "online education platforms",
+        "education importance",
+        "best online courses",
+        "e-learning tips",
+        "education for everyone"
+    ],
+    "answers": [
+        "For self-learning: Coursera, Udemy, Khan Academy. Practice consistently, build projects, join communities.",
+        "Best free resources: Khan Academy, Coursera (audit for free), YouTube, and MIT OpenCourseWare. Learning is free — commitment isn't.",
+        "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept.",
+        "Online learning works best when combined with practice. Watch → understand → build → repeat. Join Discord communities to stay accountable."
+    ],
+    "feelings": [
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study better",
+            "sentiment": "curious",
+            "answer": "Online learning works best when combined with practice. Watch → understand → build → repeat. Join Discord communities to stay accountable."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study better",
+            "sentiment": "curious",
+            "answer": "Online learning works best when combined with practice. Watch → understand → build → repeat. Join Discord communities to stay accountable."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn ml",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn sql",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "best language to learn",
+            "sentiment": "happy",
+            "answer": "Best free resources: Khan Academy, Coursera (audit for free), YouTube, and MIT OpenCourseWare. Learning is free — commitment isn't.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn ml",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn sql",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "best language to learn",
+            "sentiment": "happy",
+            "answer": "Best free resources: Khan Academy, Coursera (audit for free), YouTube, and MIT OpenCourseWare. Learning is free — commitment isn't.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn ml",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn ml",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn ml",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn ml",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to study effectively",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        },
+        {
+            "question": "how to learn c++",
+            "sentiment": "curious",
+            "answer": "To learn effectively online: pick one platform (Coursera, Udemy, or edX), follow a structured course, and build something with each new concept."
+        }
+    ]
+}

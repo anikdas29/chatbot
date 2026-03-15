@@ -1,0 +1,239 @@
+{
+    "category": "books",
+    "type": "general",
+    "questions": [
+        "best books to read?",
+        "book summary",
+        "suggest a book",
+        "good books",
+        "reading list"
+    ],
+    "answers": [
+        "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.",
+        "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.",
+        "Must-reads: Atomic Habits (habit building), Think and Grow Rich (mindset), Deep Work (focus), The Alchemist (life journey).",
+        "Start with Atomic Habits — it's a game changer. Then try Sapiens, Deep Work, or The Psychology of Money."
+    ],
+    "feelings": [
+        {
+            "question": "good night",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good night",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        }
+    ]
+}

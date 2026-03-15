@@ -1,0 +1,84 @@
+{
+    "category": "networking",
+    "type": "general",
+    "questions": [
+        "how router works?",
+        "what is ip address?",
+        "networking basics",
+        "computer networking",
+        "what is tcp ip",
+        "what is ip address",
+        "how router works",
+        "network fundamentals",
+        "networking tutorial",
+        "what is dns"
+    ],
+    "answers": [
+        "IP Address, Router, DNS, HTTP/HTTPS. Learn: Cisco CCNA, CompTIA Network+.",
+        "Networking basics: IP addresses identify devices, routers direct traffic, DNS translates domain names, and HTTP/HTTPS handles web communication.",
+        "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for.",
+        "Key concepts: IP address (device ID), Router (traffic director), DNS (phonebook of the internet), HTTP/HTTPS (web protocol)."
+    ],
+    "feelings": [
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        }
+    ]
+}

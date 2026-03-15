@@ -1,0 +1,152 @@
+[
+    {
+        "category": "python",
+        "questions": ["what is python", "python basics", "how to learn python", "python tutorial", "python ki", "python syntax", "best python course", "python for beginners"],
+        "answers": [
+            "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting.",
+            "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask.",
+            "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.",
+            "Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to start!"
+        ]
+    },
+    {
+        "category": "javascript",
+        "questions": ["what is javascript", "javascript basics", "how to learn javascript", "js tutorial", "javascript ki", "learn js", "javascript for beginners", "what is js"],
+        "answers": [
+            "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it.",
+            "JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid!",
+            "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning.",
+            "JavaScript can build anything: websites, mobile apps (React Native), desktop apps (Electron), servers (Node.js), and even games. Super versatile!"
+        ]
+    },
+    {
+        "category": "html_css",
+        "questions": ["what is html", "what is css", "html css basics", "how to learn html", "html tutorial", "css tutorial", "how to make a website", "web design basics"],
+        "answers": [
+            "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!",
+            "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries.",
+            "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources.",
+            "Modern CSS: learn Flexbox for 1D layouts, CSS Grid for 2D layouts, and media queries for mobile-responsive design. These 3 cover 90% of layout needs."
+        ]
+    },
+    {
+        "category": "react",
+        "questions": ["what is react", "react js tutorial", "how to learn react", "react basics", "react ki", "react vs angular", "why use react"],
+        "answers": [
+            "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI.",
+            "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!",
+            "Learn React path: HTML/CSS/JS first, then React docs (react.dev), then build a todo app, then a full project with API calls and routing.",
+            "React vs Angular: React is a library (flexible, lightweight), Angular is a framework (opinionated, full-featured). React is easier to start with."
+        ]
+    },
+    {
+        "category": "nodejs",
+        "questions": ["what is node js", "node js tutorial", "how to learn node", "nodejs basics", "node js ki", "express js", "backend with javascript"],
+        "answers": [
+            "Node.js lets you run JavaScript on the server. Combined with Express.js, you can build full backend APIs, handle databases, and serve web apps.",
+            "Node.js basics: npm (package manager), Express.js (web framework), middleware, routing, REST APIs, and connecting to MongoDB or PostgreSQL.",
+            "Learn Node.js: know JavaScript first, then follow the official docs or Traversy Media's crash course. Build a REST API as your first project.",
+            "Express.js is the most popular Node.js framework. Install with npm install express, create routes, handle requests, and you have a backend in minutes!"
+        ]
+    },
+    {
+        "category": "java",
+        "questions": ["what is java", "java basics", "how to learn java", "java tutorial", "java ki", "java for beginners", "java vs python"],
+        "answers": [
+            "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto.",
+            "Java basics: variables, data types, loops, OOP (classes, objects, inheritance, polymorphism), exception handling, and collections framework.",
+            "Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development.",
+            "Java vs Python: Java is faster and strictly typed (good for large systems). Python is simpler and better for scripting, data science, and quick prototyping."
+        ]
+    },
+    {
+        "category": "cpp",
+        "questions": ["what is c++", "c++ basics", "how to learn c++", "c++ tutorial", "cpp ki", "c++ for beginners", "c vs c++"],
+        "answers": [
+            "C++ is a powerful language used in game development, system programming, competitive programming, and performance-critical applications.",
+            "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding.",
+            "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work.",
+            "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
+        ]
+    },
+    {
+        "category": "api",
+        "questions": ["what is api", "api ki", "how api works", "rest api explained", "what is rest api", "how to make an api", "api for beginners"],
+        "answers": [
+            "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server.",
+            "REST API: uses HTTP methods - GET (read), POST (create), PUT (update), DELETE (remove). Data is sent as JSON. Most modern web apps use REST APIs.",
+            "To build an API: use Flask/FastAPI (Python), Express.js (Node.js), or Spring Boot (Java). Define routes, handle requests, connect to a database, return JSON.",
+            "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
+        ]
+    },
+    {
+        "category": "data_structures",
+        "questions": ["what is data structure", "dsa basics", "how to learn dsa", "data structures and algorithms", "best dsa course", "dsa for interview", "array vs linked list"],
+        "answers": [
+            "Data Structures: ways to organize data. Key ones: Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Hash Maps. Essential for coding interviews!",
+            "DSA learning path: Arrays and Strings first, then Linked Lists, Stacks/Queues, Trees, Graphs, and finally Dynamic Programming. Practice daily on LeetCode.",
+            "For interviews: master Arrays, Hash Maps, Two Pointers, Binary Search, BFS/DFS, and Dynamic Programming. Solve at least 150 LeetCode problems.",
+            "Array = fixed size, fast access by index. Linked List = dynamic size, fast insert/delete. Choose based on your use case. Both are fundamental!"
+        ]
+    },
+    {
+        "category": "web_dev",
+        "questions": ["how to become web developer", "web development roadmap", "frontend vs backend", "full stack developer", "web dev for beginners", "learn web development"],
+        "answers": [
+            "Web dev roadmap: HTML/CSS/JS (frontend basics), then React or Vue (framework), then Node.js or Python (backend), then databases (MongoDB/PostgreSQL).",
+            "Frontend = what users see (HTML, CSS, JS, React). Backend = server logic (Node.js, Python, databases). Full-stack = both. Start with frontend!",
+            "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume.",
+            "Best free resources: freeCodeCamp, The Odin Project, MDN Web Docs, and YouTube. You don't need a bootcamp or degree - just build and learn!"
+        ]
+    },
+    {
+        "category": "linux",
+        "questions": ["what is linux", "linux commands", "linux for beginners", "linux tutorial", "linux ki", "best linux distro", "ubuntu basics"],
+        "answers": [
+            "Linux is a free, open-source operating system. Used in servers (90%+ of the internet runs on Linux), development, and cybersecurity. Every developer should know basics.",
+            "Essential Linux commands: ls, cd, pwd, mkdir, rm, cp, mv, cat, grep, chmod, sudo, apt. These 12 commands handle most daily tasks.",
+            "Best Linux distros for beginners: Ubuntu (most popular), Linux Mint (Windows-like), Pop!_OS (developers). Try in a VM first before dual-booting.",
+            "Linux tip: learn the terminal - it's more powerful than any GUI. Start with basic navigation (ls, cd, pwd), then file operations, then permissions and scripting."
+        ]
+    },
+    {
+        "category": "devops",
+        "questions": ["what is devops", "devops basics", "how to learn devops", "docker explained", "what is docker", "ci cd pipeline", "devops tools"],
+        "answers": [
+            "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting.",
+            "Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever.",
+            "DevOps tools: Docker (containers), Kubernetes (orchestration), Jenkins/GitHub Actions (CI/CD), Terraform (infrastructure), and AWS/GCP/Azure (cloud).",
+            "CI/CD pipeline: every code push triggers automatic build, test, and deploy. Tools: GitHub Actions (free), Jenkins, GitLab CI. Speeds up delivery and catches bugs early."
+        ]
+    },
+    {
+        "category": "cybersecurity",
+        "questions": ["what is cybersecurity", "how to learn cybersecurity", "ethical hacking basics", "cybersecurity career", "how to become a hacker", "cybersecurity ki"],
+        "answers": [
+            "Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics.",
+            "Learn cybersecurity: start with networking basics (TCP/IP, DNS), then Linux, then tools like Wireshark, Nmap, Burp Suite. Practice on TryHackMe or HackTheBox.",
+            "Ethical hacking path: learn Linux, networking, and Python first. Then study OWASP Top 10, get CEH or CompTIA Security+ cert, and practice on CTF platforms.",
+            "Cybersecurity career is booming - huge demand, high salary. Start with CompTIA Security+, then specialize in pentesting, SOC analyst, or cloud security."
+        ]
+    },
+    {
+        "category": "flutter",
+        "questions": ["what is flutter", "flutter tutorial", "how to learn flutter", "flutter vs react native", "flutter basics", "dart language", "mobile app development"],
+        "answers": [
+            "Flutter is Google's UI toolkit for building natively compiled apps for mobile, web, and desktop from a single codebase. Uses Dart language.",
+            "Flutter basics: learn Dart first (easy if you know Java/JS), then widgets, state management (Provider/Riverpod), navigation, and API integration.",
+            "Flutter vs React Native: Flutter has better performance and consistent UI across platforms. React Native has larger community and uses JavaScript. Both are great!",
+            "Learn Flutter: official docs (flutter.dev), Flutter Apprentice book, and YouTube channels like The Net Ninja. Build a simple app as your first project."
+        ]
+    },
+    {
+        "category": "testing",
+        "questions": ["what is software testing", "testing basics", "unit testing explained", "how to test code", "testing ki", "qa testing tips"],
+        "answers": [
+            "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow).",
+            "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!",
+            "Testing tip: aim for good coverage on critical paths, not 100% coverage everywhere. Test edge cases, error handling, and the happy path.",
+            "QA basics: manual testing (exploratory, regression) + automated testing (Selenium, Cypress, Playwright). Automation saves time for repeated test cases."
+        ]
+    }
+]

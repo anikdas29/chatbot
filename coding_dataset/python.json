@@ -1,0 +1,276 @@
+{
+    "category": "python",
+    "type": "coding",
+    "questions": [
+        "what is python",
+        "python basics",
+        "how to learn python",
+        "python tutorial",
+        "python ki",
+        "python syntax",
+        "best python course",
+        "python for beginners",
+        "python programming",
+        "python language",
+        "python programming language",
+        "python course"
+    ],
+    "answers": [
+        "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting.",
+        "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask.",
+        "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.",
+        "Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to start!"
+    ],
+    "feelings": [
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python",
+            "sentiment": "curious",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
+        },
+        {
+            "question": "how to learn python",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "best python course",
+            "sentiment": "happy",
+            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "python ki",
+            "sentiment": "curious",
+            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        }
+    ]
+}

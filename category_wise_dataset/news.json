@@ -1,0 +1,31 @@
+{
+    "category": "news",
+    "type": "general",
+    "questions": [
+        "breaking headlines",
+        "latest news please",
+        "latest news",
+        "today news",
+        "headlines",
+        "latest news today",
+        "breaking news",
+        "news headlines",
+        "whats in the news",
+        "today headlines",
+        "daily news update",
+        "top news stories",
+        "news summary",
+        "whats happening in the world",
+        "trending today",
+        "current news",
+        "current events today",
+        "todays top stories"
+    ],
+    "answers": [
+        "Check Google News, BBC, CNN for updates. Stay informed but avoid overload!",
+        "For reliable news: Google News, BBC, Reuters, or AP News. Tip: read from multiple sources to get a balanced view.",
+        "Stay updated with BBC, CNN, or Al Jazeera. Set a specific time for news rather than checking all day — it helps avoid anxiety.",
+        "I don't have live news, but Google News or BBC will have the latest. Remember: stay informed, not overwhelmed."
+    ],
+    "feelings": []
+}

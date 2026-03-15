@@ -1,0 +1,19 @@
+{
+    "category": "summarization",
+    "type": "general",
+    "questions": [
+        "text summarization ki?",
+        "summarization kivabe kore AI?",
+        "extractive vs abstractive summarization ki?",
+        "best summarization tools ki?",
+        "AI diye article summarize kora jay?",
+        "automatic summarization ki?",
+        "summarization er use case ki?"
+    ],
+    "answers": [
+        "Text summarization is an NLP task that condenses long text into a shorter version while keeping key information. It can be extractive (selecting important sentences) or abstractive (rewriting in new words).",
+        "AI summarization holo boro text ke choto kora key information reke. LLMs like GPT ar Claude onek valo summarize korte pare — articles, papers, meetings shob.",
+        "Extractive summarization picks the most important sentences from the original text. Abstractive summarization generates new sentences that capture the essence, which is more natural but harder to do well.",
+        "Summarization is used for news digests, research paper summaries, meeting notes, legal document analysis, and content curation. Tools like ChatGPT, Claude, and specialized models handle it effectively."
+    ]
+}

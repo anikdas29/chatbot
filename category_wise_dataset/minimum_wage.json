@@ -1,0 +1,17 @@
+{
+    "category": "minimum_wage",
+    "type": "general",
+    "questions": [
+        "What is minimum wage?",
+        "minimum wage ki?",
+        "minimum wage koto howa uchit?",
+        "why is minimum wage important?",
+        "Bangladesh er minimum wage koto?"
+    ],
+    "answers": [
+        "Minimum wage is the lowest hourly or monthly pay that employers are legally required to pay their workers, set by the government to ensure a basic standard of living.",
+        "Minimum wage holo shobcheye kom beton ja employer legally dite badhyo. Eta workers der exploit howa theke bachay ar basic living standard ensure kore.",
+        "Minimum wage varies greatly by country and region. In Bangladesh, the garment sector minimum wage was raised to BDT 12,500 per month, while the US federal minimum is $7.25/hour.",
+        "Minimum wage is important because it prevents exploitation of workers, reduces poverty, ensures basic living standards, and helps maintain a fair economy for everyone."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "category": "art_history",
+    "type": "general",
+    "questions": [
+        "What is art history?",
+        "art history ki?",
+        "famous art movements ki ki",
+        "Renaissance ki chilo",
+        "impressionism mane ki",
+        "modern art vs classical art difference",
+        "world er most famous paintings ki"
+    ],
+    "answers": [
+        "Art history studies how visual art has evolved across cultures and time periods — from cave paintings to Renaissance masterpieces to modern abstract art. It reveals how society, politics, and technology shaped creativity.",
+        "Art history holo art er itihas — ancient cave painting theke Renaissance, Impressionism, Cubism, Pop Art shob period study kora hoy. Art diye society r culture bujha jay.",
+        "Major art movements include Renaissance (rebirth of classical art), Impressionism (light & color focus by Monet), Cubism (Picasso's geometric forms), Surrealism (Dali's dreamscapes), and Pop Art (Warhol's commercial imagery).",
+        "Famous paintings include the Mona Lisa (da Vinci), Starry Night (Van Gogh), The Persistence of Memory (Dali), Girl with a Pearl Earring (Vermeer), and The Scream (Munch). Each represents a pivotal moment in art."
+    ]
+}

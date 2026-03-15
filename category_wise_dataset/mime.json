@@ -1,0 +1,19 @@
+{
+    "category": "mime",
+    "type": "general",
+    "questions": [
+        "Mime ki?",
+        "Mime artists ki kore?",
+        "Famous mime artists ke ke?",
+        "Mime ar acting er difference ki?",
+        "How to learn mime?",
+        "Mime keno white face paint pore?",
+        "Is mime still popular?"
+    ],
+    "answers": [
+        "Mime is a form of silent performance art where artists use body movements, gestures, and facial expressions to tell stories without words. It's one of the oldest forms of theatrical expression.",
+        "The most famous mime artist is Marcel Marceau, who popularized mime worldwide. Modern performers like Bill Irwin have kept the art alive. Mime requires incredible body control, imagination, and the ability to create invisible objects through movement.",
+        "Mime artists wear white face paint as a tradition from early theater — it makes facial expressions visible from far away. To learn mime, practice isolation movements, wall illusions, and rope pulling. Body awareness is key!",
+        "Mime is still appreciated as an art form, though it's less mainstream than before. It's incorporated into modern theater, street performance, and even dance. Many acting schools teach mime techniques for physical comedy and expression."
+    ]
+}

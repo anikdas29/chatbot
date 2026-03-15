@@ -1,0 +1,17 @@
+{
+    "category": "mutual_funds",
+    "type": "general",
+    "questions": [
+        "What are mutual funds?",
+        "mutual fund ki?",
+        "How do mutual funds work?",
+        "mutual fund e invest korbo kivabe?",
+        "Are mutual funds safe?"
+    ],
+    "answers": [
+        "A mutual fund pools money from many investors to buy a diversified portfolio of stocks, bonds, or other securities, managed by professional fund managers.",
+        "Mutual fund holo onek investor er taka ekshaathe joma kore stock, bond, ba onnanno security te invest kora hoy — professional manager manage korey.",
+        "When you invest in a mutual fund, your money is combined with other investors' money. The fund manager buys and sells assets, and returns are distributed proportionally to investors.",
+        "Mutual funds are generally considered safer than individual stocks because of diversification, but they still carry market risk. Choose funds based on your risk tolerance and investment goals."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "import_export",
+    "type": "general",
+    "questions": [
+        "What is import and export?",
+        "import export ki?",
+        "How do I start an import export business?",
+        "import export business shuru korbo kivabe?",
+        "What documents are needed for import export?"
+    ],
+    "answers": [
+        "Import is bringing goods into a country from abroad, while export is sending goods from your country to another. Together, they form international trade.",
+        "Import holo bidesh theke product ante, ar export holo nijher desh theke bidesh e product pathano. Duita miliye international trade.",
+        "To start an import/export business, get necessary licenses (IRC/ERC in Bangladesh), research market demand, find reliable suppliers/buyers, understand customs regulations, and arrange shipping.",
+        "Key documents include commercial invoice, bill of lading, packing list, certificate of origin, letter of credit, customs declaration, and import/export permits depending on the product."
+    ]
+}

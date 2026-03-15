@@ -125,6 +125,26 @@
             "question": "how to invest in crypto",
             "sentiment": "curious",
             "answer": "Crypto investing tip: only invest what you can afford to lose. Start small, research the project, use trusted exchanges (Binance, Coinbase), and HODL."
+        },
+        {
+            "question": "what is cryptocurrency",
+            "sentiment": "curious",
+            "answer": "Valo question! Bitcoin is a decentralized digital currency - no bank or government controls it. Transactions are verified by a network using blockchain technology.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to invest in crypto",
+            "sentiment": "curious",
+            "answer": "Good one! Crypto investing tip: only invest what you can afford to lose. Start small, research the project, use trusted exchanges (Binance, Coinbase), and HODL. Also, Bitcoin is a decentralized digital currency - no bank or government controls it."
+        },
+        {
+            "question": "what is cryptocurrency",
+            "sentiment": "curious",
+            "answer": "Valo question! Bitcoin is a decentralized digital currency - no bank or government controls it. Transactions are verified by a network using blockchain technology. Moreover, Crypto investing tip: only invest what you can afford to lose.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how to invest in crypto",
+            "sentiment": "curious",
+            "answer": "Interesting! Crypto investing tip: only invest what you can afford to lose. Start small, research the project, use trusted exchanges (Binance, Coinbase), and HODL.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

@@ -136,6 +136,26 @@
             "question": "who won the match",
             "sentiment": "curious",
             "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
+        },
+        {
+            "question": "best football players",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports."
+        },
+        {
+            "question": "who won the match",
+            "sentiment": "curious",
+            "answer": "Nice question! I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "best football players",
+            "sentiment": "happy",
+            "answer": "Awesome! Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports."
+        },
+        {
+            "question": "who won the match",
+            "sentiment": "curious",
+            "answer": "Valo question! I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
         }
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "category": "volunteering",
+    "type": "general",
+    "questions": [
+        "how to start volunteering?",
+        "volunteering er benefits ki?",
+        "where can I volunteer?",
+        "volunteer work kothay korbo?",
+        "why should I volunteer?",
+        "volunteering ki resume te help kore?",
+        "best volunteer organizations?"
+    ],
+    "answers": [
+        "Volunteering means giving your time to help others without pay. You can start at local shelters, hospitals, schools, or community centers near you.",
+        "Volunteering builds skills, expands your network, and looks great on your resume. Plus, it feels amazing to give back to the community.",
+        "Volunteer korte chaile local NGOs, orphanages, old age homes, ba community events e join korte paro. Online volunteering er options o ache ajkal.",
+        "Some great organizations to volunteer with include Red Cross, Habitat for Humanity, and local food banks. Even a few hours a week can make a huge difference in someone's life."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "logistics",
+    "type": "general",
+    "questions": [
+        "What is logistics?",
+        "logistics ki?",
+        "How does logistics differ from supply chain?",
+        "logistics management kivabe kore?",
+        "What are the types of logistics?"
+    ],
+    "answers": [
+        "Logistics is the detailed planning and execution of moving, storing, and delivering goods from origin to destination efficiently and cost-effectively.",
+        "Logistics holo product ek jaygay theke arek jaygay niye jaoa ar store korar planning ar execution — efficiently ar kom khoroche.",
+        "Logistics is a part of the supply chain — it specifically handles transportation, warehousing, and distribution, while supply chain covers the entire process from sourcing to customer delivery.",
+        "Types of logistics include inbound logistics (receiving materials), outbound logistics (shipping to customers), reverse logistics (returns), and third-party logistics (3PL outsourcing)."
+    ]
+}

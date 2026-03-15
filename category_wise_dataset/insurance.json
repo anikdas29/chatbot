@@ -1,0 +1,17 @@
+{
+    "category": "insurance",
+    "type": "general",
+    "questions": [
+        "What is insurance?",
+        "insurance ki?",
+        "What types of insurance are there?",
+        "insurance keno dorkar?",
+        "How does insurance work?"
+    ],
+    "answers": [
+        "Insurance is a financial product where you pay regular premiums to a company, and in return they cover your financial losses from specified events like accidents, illness, or property damage.",
+        "Insurance holo ekta system ja te tumi niyomito taka (premium) dao, ar kono durghotona hole insurance company tomar khoti cover korey.",
+        "Common types include health insurance, life insurance, car insurance, home insurance, travel insurance, and business insurance. Each protects against different risks.",
+        "Insurance works by pooling risk among many people. Everyone pays premiums, and the insurance company uses that pool of money to pay claims for those who experience covered losses."
+    ]
+}

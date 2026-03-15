@@ -1,0 +1,17 @@
+{
+    "category": "united_nations",
+    "type": "general",
+    "questions": [
+        "What is the United Nations?",
+        "UN ki?",
+        "how many countries are in the UN?",
+        "what does the UN do?",
+        "UN er headquarters kothay?"
+    ],
+    "answers": [
+        "The United Nations is an international organization founded in 1945 with 193 member states, working to maintain peace, security, and cooperation among nations worldwide.",
+        "UN holo ekta international organization ja world peace, human rights, ar development er jonno kaj kore. Headquarter New York e.",
+        "The UN has six main organs including the General Assembly, Security Council, and International Court of Justice, addressing issues from conflict resolution to humanitarian aid.",
+        "The United Nations works on global challenges like climate change, poverty, disease, and human rights violations through its various agencies and programs across the world."
+    ]
+}

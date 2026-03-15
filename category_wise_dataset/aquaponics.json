@@ -1,0 +1,18 @@
+{
+    "category": "aquaponics",
+    "type": "general",
+    "questions": [
+        "aquaponics ki?",
+        "what is aquaponics?",
+        "aquaponics kivabe kaj kore?",
+        "tell me about aquaponics",
+        "aquaponics ar hydroponics er difference ki?",
+        "aquaponics shuru korbo kivabe?"
+    ],
+    "answers": [
+        "Aquaponics combines aquaculture (fish farming) with hydroponics (soilless plant growing). Fish waste provides nutrients for plants, and plants filter the water for fish — a symbiotic system.",
+        "Aquaponics holo mach chash ar hydroponics er combination. Mach er waste plants er fertilizer hoy, ar plants pani filter kore mach er jonno. Win-win system.",
+        "In aquaponics, fish produce ammonia-rich waste, bacteria convert it to nitrates, and plants absorb these nutrients. The cleaned water returns to the fish tank. It uses 90% less water than traditional farming.",
+        "To start aquaponics, you need a fish tank, grow beds, a water pump, and beneficial bacteria. Tilapia and goldfish are popular fish choices, and leafy greens grow best initially."
+    ]
+}

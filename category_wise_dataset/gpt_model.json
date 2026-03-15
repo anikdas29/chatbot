@@ -1,0 +1,19 @@
+{
+    "category": "gpt_model",
+    "type": "general",
+    "questions": [
+        "GPT model ki?",
+        "what is GPT?",
+        "GPT kivabe kaam kore?",
+        "GPT er full form ki?",
+        "GPT-4 ki GPT-3 er theke better?",
+        "GPT ar BERT er difference ki?",
+        "OpenAI er GPT model explain koro"
+    ],
+    "answers": [
+        "GPT stands for Generative Pre-trained Transformer. It's a decoder-only model that generates text by predicting the next token. OpenAI has released GPT-2, GPT-3, GPT-3.5, GPT-4, and beyond.",
+        "GPT holo OpenAI er language model ja text generate korte pare. Eta autoregressive — mane ekta ekta word predict kore. GPT-4 multimodal — text ar image duitai process korte pare.",
+        "GPT models are trained on massive text data using next-token prediction. Each version has been larger and more capable. GPT-4 shows remarkable reasoning, coding, and creative abilities.",
+        "The GPT series revolutionized AI. Unlike BERT which understands text bidirectionally, GPT generates text left-to-right. It powers ChatGPT and has become the foundation for many AI applications."
+    ]
+}

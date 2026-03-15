@@ -1,0 +1,20 @@
+{
+    "category": "protein",
+    "type": "general",
+    "questions": [
+        "How much protein do I need?",
+        "protein ki?",
+        "Best protein sources",
+        "protein powder ki khawa uchit?",
+        "Protein for muscle building",
+        "Vegetarian protein sources",
+        "When to take protein?",
+        "How much protein per day?"
+    ],
+    "answers": [
+        "Most adults need 0.8-1g of protein per kg of body weight daily. If you're active or building muscle, aim for 1.6-2.2g per kg. Good sources include eggs, chicken, fish, lentils, tofu, and dairy.",
+        "Top protein sources include chicken breast, eggs, fish, Greek yogurt, lentils, chickpeas, paneer, and whey protein. For vegetarians, combining dal with rice provides complete protein.",
+        "Protein holo amader shorirer jonno essential nutrient jeta muscle build ar repair kore. Dim, murgi, mach, dal, doodh, ar protein powder theke protein pawa jay. Active manusher beshi protein dorkar.",
+        "Protein timing matters less than total daily intake, but having some protein within a few hours of exercise can help muscle recovery. Spread your protein intake throughout the day across meals rather than consuming it all at once for better absorption."
+    ]
+}

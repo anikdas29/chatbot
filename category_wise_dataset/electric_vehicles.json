@@ -1,0 +1,19 @@
+{
+    "category": "electric_vehicles",
+    "type": "general",
+    "questions": [
+        "what are electric vehicles?",
+        "electric vehicle ki?",
+        "EV vs petrol car?",
+        "electric car er advantage ki?",
+        "how do electric cars work?",
+        "electric vehicle kena uchit?",
+        "EV charging kothay korbo?"
+    ],
+    "answers": [
+        "Electric vehicles (EVs) run on electric motors powered by rechargeable batteries instead of gasoline engines. They produce zero direct emissions and are cheaper to operate long-term.",
+        "EV er advantage holo: no fuel cost (electricity e charge hoy), kam maintenance, zero emission, ar quieter ride. Disadvantage holo upfront cost beshi ar charging infrastructure limited.",
+        "Electric cars work by using a large battery pack to power an electric motor. You charge the battery at home or at charging stations. Most modern EVs get 200-400 km per charge.",
+        "EVs are the future of transportation. While the upfront cost is higher, you save significantly on fuel and maintenance. Many countries offer tax incentives, and charging infrastructure is expanding rapidly."
+    ]
+}

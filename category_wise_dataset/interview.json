@@ -78,6 +78,16 @@
             "question": "how to prepare for interview",
             "sentiment": "curious",
             "answer": "Key interview tips: know the job description inside out, prepare answers for 'tell me about yourself' and common HR questions, and ask thoughtful questions at the end."
+        },
+        {
+            "question": "how to prepare for interview",
+            "sentiment": "curious",
+            "answer": "Good one! Interview prep: research the company thoroughly, practice STAR-format answers, arrive early, dress professionally, and always send a thank-you email after."
+        },
+        {
+            "question": "how to prepare for interview",
+            "sentiment": "curious",
+            "answer": "Interesting! Interview prep: research the company thoroughly, practice STAR-format answers, arrive early, dress professionally, and always send a thank-you email after. And Key interview tips: know the job description inside out, prepare answers for 'tell me about yourself' and common HR questions, and ask thoughtful questions at the end.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

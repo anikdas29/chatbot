@@ -96,6 +96,26 @@
             "question": "how to learn sql",
             "sentiment": "curious",
             "answer": "SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use."
+        },
+        {
+            "question": "what is database",
+            "sentiment": "curious",
+            "answer": "Interesting! SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how to learn sql",
+            "sentiment": "curious",
+            "answer": "Great question! SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use."
+        },
+        {
+            "question": "what is database",
+            "sentiment": "curious",
+            "answer": "Good one! SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use."
+        },
+        {
+            "question": "how to learn sql",
+            "sentiment": "curious",
+            "answer": "Interesting! SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use."
         }
     ]
 }

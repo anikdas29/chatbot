@@ -1,0 +1,19 @@
+{
+    "category": "rust",
+    "type": "coding",
+    "questions": [
+        "what is rust programming language?",
+        "why is rust so popular now?",
+        "rust er ownership system ta ki?",
+        "how does memory safety work in rust?",
+        "is rust good for beginners?",
+        "what can you build with rust?",
+        "rust vs c++ which is better?"
+    ],
+    "answers": [
+        "Rust is a systems programming language focused on safety, speed, and concurrency. It prevents memory bugs at compile time through its unique ownership system without needing a garbage collector.",
+        "Rust gives you the performance of C/C++ but with memory safety guarantees. Its ownership model ensures no dangling pointers, data races, or buffer overflows, making it ideal for systems programming.",
+        "Rust is a modern systems language created by Mozilla. It's loved for its zero-cost abstractions, fearless concurrency, and the borrow checker that catches memory issues before your code compiles.",
+        "Rust eliminates entire classes of bugs through its ownership and borrowing system. It's used for web servers, game engines, operating systems, and embedded devices where performance and safety both matter."
+    ]
+}

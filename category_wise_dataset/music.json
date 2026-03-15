@@ -219,6 +219,36 @@
             "question": "best songs",
             "sentiment": "happy",
             "answer": "Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Awesome! Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep. And Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!."
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "Valo question! For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic. Plus, Try Lo-fi Beats on YouTube for study sessions, or explore Spotify's mood playlists — they're surprisingly well curated!.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Nice! Need a playlist? Lo-fi hip-hop for studying, upbeat pop for workouts, jazz or acoustic for winding down."
+        },
+        {
+            "question": "best music to listen",
+            "sentiment": "happy",
+            "answer": "Awesome! Music for every mood: Classical or Lo-fi for deep focus, Rock or EDM for energy, soft Acoustic for relaxation and sleep.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how to learn guitar",
+            "sentiment": "curious",
+            "answer": "Nice question! For focus: Lo-fi, Classical. For energy: Pop, Rock. For relaxation: Jazz, Acoustic."
+        },
+        {
+            "question": "best songs",
+            "sentiment": "happy",
+            "answer": "Awesome! Need a playlist? Lo-fi hip-hop for studying, upbeat pop for workouts, jazz or acoustic for winding down."
         }
     ]
 }

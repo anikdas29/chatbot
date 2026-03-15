@@ -1,0 +1,19 @@
+{
+    "category": "golf",
+    "type": "general",
+    "questions": [
+        "Golf niye bolo",
+        "Golf kivabe khele?",
+        "Golf er rules ki?",
+        "Best golfers ke ke?",
+        "Golf keno eto expensive?",
+        "What is a hole in one?",
+        "Golf majors ki ki?"
+    ],
+    "answers": [
+        "Golf is a precision sport where players use clubs to hit a ball into a series of holes on a course in as few strokes as possible. A standard course has 18 holes, and the player with the lowest score wins.",
+        "Golf e different clubs use kora hoy different distances ar shots er jonno — drivers, irons, wedges, ar putters. Par holo expected number of strokes per hole. Par er niche score kora ta goal.",
+        "The greatest golfers include Tiger Woods, Jack Nicklaus, Arnold Palmer, and modern stars like Rory McIlroy and Jon Rahm. Tiger Woods' dominance in the late 90s and 2000s transformed the sport globally.",
+        "Golf has four major championships — The Masters, US Open, The Open Championship (British Open), and PGA Championship. Winning all four is called the Grand Slam, achieved only by a handful of legends."
+    ]
+}

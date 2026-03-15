@@ -1,0 +1,18 @@
+{
+    "category": "battery_technology",
+    "type": "general",
+    "questions": [
+        "battery technology ki?",
+        "what is battery technology?",
+        "lithium ion battery kivabe kaj kore?",
+        "tell me about modern batteries",
+        "solid state battery ki?",
+        "battery technology te ki notun ase?"
+    ],
+    "answers": [
+        "Battery technology involves designing and improving devices that store electrical energy chemically. Lithium-ion batteries dominate today, but solid-state and sodium-ion batteries are emerging.",
+        "Battery technology holo energy store korar device develop kora. Lithium-ion battery phone, laptop, EV sobkichutei use hoy. Solid-state battery next big thing hote pare.",
+        "Modern batteries work through electrochemical reactions between an anode, cathode, and electrolyte. Research focuses on increasing energy density, reducing charging time, and improving safety.",
+        "Battery tech is evolving fast — solid-state batteries promise more energy in less space, sodium-ion offers cheaper alternatives, and recycling technology is improving to handle battery waste."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "bookkeeping",
+    "type": "general",
+    "questions": [
+        "What is bookkeeping?",
+        "bookkeeping ki?",
+        "How is bookkeeping different from accounting?",
+        "bookkeeping kivabe kore?",
+        "What tools are used for bookkeeping?"
+    ],
+    "answers": [
+        "Bookkeeping is the systematic recording of daily financial transactions — sales, purchases, receipts, and payments — into organized accounts.",
+        "Bookkeeping holo doinondin financial transaction gulo — bikri, kena, receipt, payment — niyomito bhabe record kora.",
+        "Bookkeeping is the foundation of accounting — it records transactions, while accounting analyzes, interprets, and reports on that recorded data for decision-making.",
+        "Common bookkeeping tools include QuickBooks, Xero, FreshBooks, Wave, and even Excel spreadsheets. These help automate recording and organizing financial data."
+    ]
+}

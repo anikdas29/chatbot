@@ -1,0 +1,20 @@
+{
+    "category": "emergency_number",
+    "type": "general",
+    "questions": [
+        "what is the emergency number",
+        "emergency number koto",
+        "Bangladesh er emergency helpline ki",
+        "which number to call in emergency",
+        "fire service number koto",
+        "police emergency number",
+        "how to call emergency services",
+        "emergency te ki number e call korbo"
+    ],
+    "answers": [
+        "The national emergency number in Bangladesh is 999. You can use it for police, fire, and ambulance services all from one number.",
+        "Bangladesh e emergency number holo 999. Police er jonno 100, fire service er jonno 199 o dial korte paren.",
+        "Dial 999 for any emergency in Bangladesh. It connects you to police, fire, and ambulance. For specific services: Police 100, Fire 199, Women helpline 10921.",
+        "Emergency te 999 dial korun — eta police, fire, ambulance shob cover kore. Globally, USA te 911, UK te 999, Europe e 112 use hoy."
+    ]
+}

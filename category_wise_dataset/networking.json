@@ -79,6 +79,16 @@
             "question": "what is tcp ip",
             "sentiment": "curious",
             "answer": "To learn networking: start with IP addressing and subnetting, then TCP/IP, DNS, and routing. Cisco CCNA is a great certification to aim for."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "Interesting! Key concepts: IP address (device ID), Router (traffic director), DNS (phonebook of the internet), HTTP/HTTPS (web protocol)."
+        },
+        {
+            "question": "what is tcp ip",
+            "sentiment": "curious",
+            "answer": "Valo question! Key concepts: IP address (device ID), Router (traffic director), DNS (phonebook of the internet), HTTP/HTTPS (web protocol)."
         }
     ]
 }

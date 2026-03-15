@@ -78,6 +78,16 @@
             "question": "how to be more productive",
             "sentiment": "curious",
             "answer": "Pomodoro (25 min work, 5 min break), prioritize tasks, minimize distractions, plan ahead."
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Nice question! Productivity tip: plan your top 3 tasks the night before, protect your first 2 hours from emails and distractions, and review your day each evening.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to be more productive",
+            "sentiment": "curious",
+            "answer": "Valo question! Productivity tip: plan your top 3 tasks the night before, protect your first 2 hours from emails and distractions, and review your day each evening."
         }
     ]
 }

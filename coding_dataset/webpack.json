@@ -1,0 +1,19 @@
+{
+    "category": "webpack",
+    "type": "coding",
+    "questions": [
+        "what is webpack?",
+        "webpack ki kore kaje?",
+        "webpack vs vite which is better?",
+        "how to configure webpack?",
+        "what are webpack loaders and plugins?",
+        "is webpack still relevant?",
+        "why is webpack so confusing?"
+    ],
+    "answers": [
+        "Webpack is a module bundler for JavaScript applications. It takes your source files, resolves dependencies, and bundles everything into optimized files for the browser with features like code splitting and tree shaking.",
+        "Webpack processes your JavaScript, CSS, images, and other assets through loaders and plugins to create optimized bundles. It supports hot module replacement for fast development and code splitting for production.",
+        "Webpack is the most mature JavaScript bundler with a massive plugin ecosystem. While newer tools like Vite are faster for development, Webpack remains powerful for complex build configurations.",
+        "Webpack's configuration can be intimidating but it's incredibly flexible. Key concepts are entry points, output, loaders (transform files), plugins (extend functionality), and mode (development vs production)."
+    ]
+}

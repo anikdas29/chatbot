@@ -161,6 +161,26 @@
             "question": "how to use github",
             "sentiment": "curious",
             "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
+        },
+        {
+            "question": "what is git",
+            "sentiment": "curious",
+            "answer": "Interesting! Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!"
+        },
+        {
+            "question": "how to use github",
+            "sentiment": "curious",
+            "answer": "Nice question! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge. Also, Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
+        },
+        {
+            "question": "what is git",
+            "sentiment": "curious",
+            "answer": "Good one! Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it! Also, Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
+        },
+        {
+            "question": "how to use github",
+            "sentiment": "curious",
+            "answer": "Good one! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
         }
     ]
 }

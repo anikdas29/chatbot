@@ -1,0 +1,19 @@
+{
+    "category": "basketball",
+    "type": "general",
+    "questions": [
+        "Basketball niye bolo",
+        "Basketball rules ki?",
+        "NBA ki?",
+        "Best basketball players ke ke?",
+        "Basketball e kotojon player thake?",
+        "How is basketball scored?",
+        "Basketball court size koto?"
+    ],
+    "answers": [
+        "Basketball is a fast-paced team sport where two teams of 5 players try to score by shooting a ball through the opponent's hoop. The NBA is the world's top professional basketball league.",
+        "Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarters e khela hoy.",
+        "Michael Jordan is widely considered the greatest basketball player ever. Other legends include LeBron James, Kobe Bryant, Magic Johnson, and Larry Bird. Modern stars include Stephen Curry and Giannis Antetokounmpo.",
+        "The NBA (National Basketball Association) is the premier professional basketball league, featuring 30 teams from the US and Canada. The season runs from October to June, ending with the NBA Finals."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "braille",
+    "type": "general",
+    "questions": [
+        "What is braille?",
+        "braille ki?",
+        "How does braille work?",
+        "braille kivabe kaj kore?",
+        "Who invented braille?"
+    ],
+    "answers": [
+        "Braille is a tactile writing system using raised dots arranged in cells, allowing blind and visually impaired people to read by touch.",
+        "Braille holo ekta touch-based reading system ja raised dots use korey — blind manush era angul diye pore.",
+        "Braille uses a grid of 6 dots (2 columns, 3 rows) per cell. Different combinations of raised dots represent letters, numbers, and punctuation.",
+        "Braille was invented by Louis Braille in 1824 when he was just 15 years old. He was blind himself and adapted a military night-writing system."
+    ]
+}

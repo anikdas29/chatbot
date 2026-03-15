@@ -1,0 +1,19 @@
+{
+    "category": "grpc",
+    "type": "coding",
+    "questions": [
+        "what is grpc?",
+        "grpc vs rest api?",
+        "grpc ki google banaise?",
+        "when should I use grpc?",
+        "how does grpc work?",
+        "what is protocol buffers?",
+        "is grpc faster than rest?"
+    ],
+    "answers": [
+        "gRPC is a high-performance RPC framework developed by Google that uses Protocol Buffers for serialization. It's significantly faster than REST for service-to-service communication in microservices.",
+        "gRPC uses HTTP/2 for transport, Protocol Buffers for serialization, and supports streaming, bidirectional communication, and automatic code generation. It's ideal for low-latency internal microservice communication.",
+        "gRPC provides strongly typed contracts through .proto files, automatic client/server code generation in multiple languages, and built-in streaming support. It's much more efficient than JSON-based REST APIs.",
+        "Use gRPC for microservice communication where performance matters. It uses binary serialization (Protocol Buffers) which is 5-10x faster than JSON, supports streaming, and generates type-safe client libraries automatically."
+    ]
+}

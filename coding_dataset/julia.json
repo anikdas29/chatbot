@@ -1,0 +1,19 @@
+{
+    "category": "julia",
+    "type": "coding",
+    "questions": [
+        "what is julia programming language?",
+        "julia ki python er cheye fast?",
+        "why was julia created?",
+        "julia vs python for scientific computing?",
+        "is julia good for machine learning?",
+        "how to get started with julia?",
+        "who uses julia?"
+    ],
+    "answers": [
+        "Julia is a high-performance programming language designed for scientific computing and numerical analysis. It aims to be as easy as Python but as fast as C, solving the two-language problem.",
+        "Julia was created to combine the speed of C with the usability of Python. It uses JIT compilation and multiple dispatch to achieve near-C performance while maintaining a high-level, readable syntax.",
+        "Julia is ideal for computational science, data analysis, and machine learning. It can call C and Python libraries directly, and its performance makes it perfect for heavy numerical workloads.",
+        "Julia solves the 'two-language problem' where scientists prototype in Python then rewrite in C for speed. With Julia you write once and get both fast development and fast execution."
+    ]
+}

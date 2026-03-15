@@ -1,0 +1,17 @@
+{
+    "category": "bankruptcy",
+    "type": "general",
+    "questions": [
+        "What is bankruptcy?",
+        "bankruptcy ki?",
+        "when should you file for bankruptcy?",
+        "bankruptcy file korle ki hoy?",
+        "types of bankruptcy ki ki?"
+    ],
+    "answers": [
+        "Bankruptcy is a legal process where individuals or businesses that cannot repay their debts seek relief from some or all of their financial obligations through court proceedings.",
+        "Bankruptcy holo legal process jeta manush ba company follow kore jokhon tara debt pay korte pare na. Court tader assets ar debts manage kore.",
+        "There are different types like Chapter 7 (liquidation), Chapter 11 (reorganization for businesses), and Chapter 13 (repayment plan for individuals) in the US system.",
+        "Filing bankruptcy can provide debt relief and a fresh start, but it severely impacts your credit score for 7-10 years and may result in losing some assets."
+    ]
+}

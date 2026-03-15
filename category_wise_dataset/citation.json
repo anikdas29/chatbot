@@ -1,0 +1,19 @@
+{
+    "category": "citation",
+    "type": "general",
+    "questions": [
+        "citation ki?",
+        "citation keno dorkar?",
+        "APA citation format ki?",
+        "MLA ar APA er difference ki?",
+        "kivabe citation kori?",
+        "in-text citation ki?",
+        "citation management tools ki?"
+    ],
+    "answers": [
+        "A citation is a reference to a source used in your writing. It gives credit to original authors and allows readers to find the source. Common formats include APA, MLA, Chicago, and IEEE.",
+        "Citation holo tomar source er reference dewa. APA 7th edition social science e use hoy, MLA humanities e, ar IEEE engineering e. Proper citation plagiarism avoid kore.",
+        "In-text citations go within your text (e.g., Smith, 2023) while the full reference goes in the bibliography. Tools like Zotero, Mendeley, and EndNote help manage citations automatically.",
+        "Citations are crucial in academic writing — they give credit to original authors, support your arguments with evidence, and allow readers to verify your sources. Always cite when you quote, paraphrase, or use someone's ideas."
+    ]
+}

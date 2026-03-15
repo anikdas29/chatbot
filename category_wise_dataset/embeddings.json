@@ -1,0 +1,19 @@
+{
+    "category": "embeddings",
+    "type": "general",
+    "questions": [
+        "embedding ki?",
+        "what are embeddings in ML?",
+        "word embedding ki?",
+        "how do embeddings work?",
+        "Word2Vec ki?",
+        "embedding er use case ki?",
+        "vector embedding bujhao"
+    ],
+    "answers": [
+        "Embeddings are numerical representations of data (text, images, etc.) in a continuous vector space. Similar items get similar vectors, making it easy for machines to understand relationships.",
+        "Embedding holo data ke number er list e convert kora jate machine bujhte pare. Word2Vec, GloVe, ar BERT embeddings popular examples. 'King' ar 'Queen' er embedding kachakachi thake.",
+        "Word embeddings map words to dense vectors where semantic relationships are preserved. For example, the vector for 'king' minus 'man' plus 'woman' gives something close to 'queen'.",
+        "Embeddings are fundamental to modern NLP and search. They convert text into vectors that capture meaning, enabling semantic search, recommendation systems, and clustering of similar content."
+    ]
+}

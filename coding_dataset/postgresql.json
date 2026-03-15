@@ -1,0 +1,19 @@
+{
+    "category": "postgresql",
+    "type": "coding",
+    "questions": [
+        "what is postgresql?",
+        "postgresql vs mysql which is better?",
+        "postgres ki free?",
+        "why is postgresql so popular?",
+        "how to learn postgresql?",
+        "what are postgresql extensions?",
+        "can postgresql handle json data?"
+    ],
+    "answers": [
+        "PostgreSQL is a powerful open-source relational database known for its reliability, feature richness, and standards compliance. It supports JSON, full-text search, geospatial data, and custom extensions.",
+        "PostgreSQL is often considered the most advanced open-source database. It has ACID compliance, supports complex queries, CTEs, window functions, and can handle both relational and JSON data seamlessly.",
+        "PostgreSQL is free and open-source with enterprise-grade features. It handles concurrent access with MVCC, supports custom data types, and has extensions like PostGIS for geospatial and TimescaleDB for time-series.",
+        "PostgreSQL is the database of choice for many startups and enterprises. It's robust, extensible, and its JSONB support means you can use it as both a relational and document database."
+    ]
+}

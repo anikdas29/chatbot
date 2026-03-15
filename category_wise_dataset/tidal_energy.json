@@ -1,0 +1,18 @@
+{
+    "category": "tidal_energy",
+    "type": "general",
+    "questions": [
+        "tidal energy ki?",
+        "what is tidal energy?",
+        "tidal power kivabe kaj kore?",
+        "tell me about tidal energy",
+        "joyar bhata theke electricity hoy?",
+        "tidal energy ki reliable?"
+    ],
+    "answers": [
+        "Tidal energy captures the power of ocean tides to generate electricity. It uses the predictable rise and fall of sea levels caused by gravitational forces of the moon and sun.",
+        "Tidal energy holo samudrer joyar bhata er force diye electricity produce kora. Eta onek predictable energy source karon tides niyomito hoy.",
+        "Tidal power works through tidal barrages, tidal stream generators, or dynamic tidal power systems. It's highly predictable and reliable compared to wind or solar.",
+        "Tidal energy is still emerging but very promising. Since tides are completely predictable, tidal power can provide consistent, reliable electricity generation with zero emissions."
+    ]
+}

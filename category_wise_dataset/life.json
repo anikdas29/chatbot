@@ -100,6 +100,16 @@
             "question": "how to live a good life",
             "sentiment": "happy",
             "answer": "Life advice: invest in relationships, never stop learning, take care of your health, and don't let fear stop you from trying.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to live a good life",
+            "sentiment": "happy",
+            "answer": "Nice! Focus on what you can control, be kind, keep learning, build relationships. Moreover, Focus on growth, not perfection."
+        },
+        {
+            "question": "how to live a good life",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Focus on what you can control, be kind, keep learning, build relationships."
         }
     ]
 }

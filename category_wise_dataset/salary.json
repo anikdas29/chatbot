@@ -88,6 +88,16 @@
             "question": "how to negotiate salary",
             "sentiment": "curious",
             "answer": "Salary negotiation tip: always let the employer name a number first, then negotiate up using market research from Glassdoor or Levels.fyi."
+        },
+        {
+            "question": "how to negotiate salary",
+            "sentiment": "curious",
+            "answer": "Valo question! Salary negotiation tip: always let the employer name a number first, then negotiate up using market research from Glassdoor or Levels.fyi. And Know your market value, practice your pitch, and don't be afraid to negotiate — most employers expect it."
+        },
+        {
+            "question": "how to negotiate salary",
+            "sentiment": "curious",
+            "answer": "Valo question! Salary negotiation tip: always let the employer name a number first, then negotiate up using market research from Glassdoor or Levels.fyi."
         }
     ]
 }

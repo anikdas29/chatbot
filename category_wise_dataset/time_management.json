@@ -173,6 +173,26 @@
             "question": "how to stop procrastinating",
             "sentiment": "curious",
             "answer": "Stop procrastinating: use the 2-minute rule - if it takes less than 2 minutes, do it now. Break big tasks into tiny steps and just start."
+        },
+        {
+            "question": "how to manage time",
+            "sentiment": "curious",
+            "answer": "Valo question! Time management golden rule: plan your day the night before. List your top 3 priorities and tackle the hardest one first (eat the frog). Also, Daily routine tip: wake up at the same time daily, time-block your calendar, batch similar tasks, and protect your most productive hours from distractions.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how to stop procrastinating",
+            "sentiment": "curious",
+            "answer": "Great question! Stop procrastinating: use the 2-minute rule - if it takes less than 2 minutes, do it now. Break big tasks into tiny steps and just start. Plus, Time management golden rule: plan your day the night before.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to manage time",
+            "sentiment": "curious",
+            "answer": "Good one! Time management golden rule: plan your day the night before. List your top 3 priorities and tackle the hardest one first (eat the frog).\n\nHope this helps!"
+        },
+        {
+            "question": "how to stop procrastinating",
+            "sentiment": "curious",
+            "answer": "Great question! Stop procrastinating: use the 2-minute rule - if it takes less than 2 minutes, do it now. Break big tasks into tiny steps and just start."
         }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "category": "online_safety",
+    "type": "general",
+    "questions": [
+        "How do I stay safe online?",
+        "online safety tips ki?",
+        "internet e safe thakbo kivabe?",
+        "What are common online threats?",
+        "online e ki ki danger ache?"
+    ],
+    "answers": [
+        "Stay safe online by using strong unique passwords, enabling two-factor authentication, being careful with personal info, and not clicking suspicious links.",
+        "Online safe thakte strong password use koro, 2FA enable koro, personal info share koro na, ar suspicious link e click koro na.",
+        "Common online threats include phishing emails, malware, identity theft, scams, cyberbullying, and data breaches. Being aware is the first line of defense.",
+        "Keep your software updated, use a VPN on public Wi-Fi, review privacy settings on social media, and teach kids about online safety from an early age."
+    ]
+}

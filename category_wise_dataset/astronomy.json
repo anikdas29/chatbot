@@ -105,6 +105,16 @@
             "question": "how big is the universe",
             "sentiment": "curious",
             "answer": "The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "Great question! The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how big is the universe",
+            "sentiment": "curious",
+            "answer": "Nice question! The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
         }
     ]
 }

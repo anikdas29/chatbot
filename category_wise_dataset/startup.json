@@ -1,0 +1,17 @@
+{
+    "category": "startup",
+    "type": "general",
+    "questions": [
+        "What is a startup?",
+        "startup ki?",
+        "How do I start a startup?",
+        "startup er jonno ki ki lagey?",
+        "What makes startups fail?"
+    ],
+    "answers": [
+        "A startup is a young company founded to develop a unique product or service, bring it to market, and scale rapidly. They typically seek innovative solutions to problems.",
+        "Startup holo notun company ja ekta unique product ba service niye kaj korey ar druto grow korar cheshta korey.",
+        "To start a startup, identify a real problem, validate your idea with potential customers, build a minimum viable product (MVP), find co-founders or a team, and seek funding if needed.",
+        "Most startups fail due to lack of market need, running out of cash, wrong team, getting outcompeted, or poor product-market fit. Planning and adaptability are key to survival."
+    ]
+}

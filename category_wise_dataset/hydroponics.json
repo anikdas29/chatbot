@@ -1,0 +1,18 @@
+{
+    "category": "hydroponics",
+    "type": "general",
+    "questions": [
+        "hydroponics ki?",
+        "what is hydroponics?",
+        "mati chara gach hoy kivabe?",
+        "tell me about hydroponics",
+        "hydroponic farming shuru korbo kivabe?",
+        "hydroponics er advantages ki?"
+    ],
+    "answers": [
+        "Hydroponics is a method of growing plants without soil, using mineral nutrient solutions in water. The roots grow directly in the nutrient-rich water or in inert growing media.",
+        "Hydroponics holo mati chara shudhu pani ar nutrients diye gach folanoo. DWC, NFT, drip system — different hydroponic methods ache.",
+        "Hydroponic systems include Deep Water Culture (DWC), Nutrient Film Technique (NFT), and drip systems. They use 90% less water than soil farming and grow plants faster.",
+        "To start hydroponics at home, you can begin with a simple DWC system — a container with nutrient solution, an air pump, and net pots. Lettuce and herbs are easiest to start with."
+    ]
+}

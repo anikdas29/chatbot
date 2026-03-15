@@ -88,6 +88,16 @@
             "question": "best android apps",
             "sentiment": "happy",
             "answer": "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Nice! For Android development: start with Kotlin (modern and recommended by Google), use Android Studio, and follow Material Design guidelines.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "best android apps",
+            "sentiment": "happy",
+            "answer": "Awesome! For Android development: start with Kotlin (modern and recommended by Google), use Android Studio, and follow Material Design guidelines."
         }
     ]
 }

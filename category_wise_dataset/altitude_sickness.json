@@ -1,0 +1,20 @@
+{
+    "category": "altitude_sickness",
+    "type": "general",
+    "questions": [
+        "what is altitude sickness",
+        "altitude sickness ki",
+        "pahare uthle ki problem hoy",
+        "mountain sickness symptoms",
+        "high altitude te ki hoy",
+        "altitude sickness treatment ki",
+        "how to prevent altitude sickness",
+        "trekking e matha byatha korle"
+    ],
+    "answers": [
+        "Altitude sickness happens above 8,000 feet when your body can't adjust to lower oxygen levels. Symptoms include headache, nausea, dizziness, and fatigue. Descend immediately if symptoms worsen.",
+        "Pahare uthle oxygen kom thake tai altitude sickness hoy. Matha byatha, bomi bomi laga, ghum ghum laga — ei symptoms dekhle niche neme ashun ar rest korun.",
+        "To prevent altitude sickness: ascend slowly (no more than 1,000 feet per day above 8,000 ft), stay hydrated, avoid alcohol, and consider taking acetazolamide (Diamox) after consulting a doctor.",
+        "Altitude sickness er treatment: niche nemen, rest korun, pani beshi khaan. Diamox medicine help kore but doctor er advice chara khaben na. Serious hole brain ba lung e fluid jomte pare — takhon emergency."
+    ]
+}

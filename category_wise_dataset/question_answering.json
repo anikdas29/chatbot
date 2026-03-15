@@ -1,0 +1,19 @@
+{
+    "category": "question_answering",
+    "type": "general",
+    "questions": [
+        "question answering system ki?",
+        "QA system ki?",
+        "question answering kivabe kaam kore?",
+        "extractive vs generative QA ki?",
+        "QA model er example dao",
+        "chatbot ar QA system ki same?",
+        "open domain question answering ki?"
+    ],
+    "answers": [
+        "Question Answering (QA) is an NLP task where a system reads a passage or knowledge base and answers questions about it. It can be extractive (finding answers in text) or generative (creating answers).",
+        "QA system holo ekta AI ja question er answer dite pare. Extractive QA text theke exact answer tule ane, ar generative QA nijei answer generate kore.",
+        "Modern QA systems use transformer models like BERT for extractive QA and GPT for generative QA. They power search engines, virtual assistants, and customer support chatbots.",
+        "Question answering systems range from simple FAQ bots to complex models that reason over multiple documents. RAG (Retrieval Augmented Generation) combines search with generation for accurate answers."
+    ]
+}

@@ -164,6 +164,26 @@
             "question": "best yoga poses",
             "sentiment": "happy",
             "answer": "Beginner tip: don't compare yourself to others. Yoga is about YOUR body and YOUR progress. Use a mat, wear comfortable clothes, and breathe deeply.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to start yoga",
+            "sentiment": "curious",
+            "answer": "Great question! Beginner tip: don't compare yourself to others. Yoga is about YOUR body and YOUR progress. Use a mat, wear comfortable clothes, and breathe deeply.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "best yoga poses",
+            "sentiment": "happy",
+            "answer": "Nice! Beginner tip: don't compare yourself to others. Yoga is about YOUR body and YOUR progress. Use a mat, wear comfortable clothes, and breathe deeply.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to start yoga",
+            "sentiment": "curious",
+            "answer": "Great question! Beginner tip: don't compare yourself to others. Yoga is about YOUR body and YOUR progress. Use a mat, wear comfortable clothes, and breathe deeply.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "best yoga poses",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Beginner tip: don't compare yourself to others. Yoga is about YOUR body and YOUR progress. Use a mat, wear comfortable clothes, and breathe deeply.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "category": "privacy",
+    "type": "general",
+    "questions": [
+        "What is privacy?",
+        "privacy ki?",
+        "Why is privacy important?",
+        "online privacy kivabe rokkha korbo?",
+        "What is the right to privacy?"
+    ],
+    "answers": [
+        "Privacy is the right to control your personal information and decide who can access it, when, and how. It applies to both physical and digital spaces.",
+        "Privacy holo nijjer personal information er upor control rakhte para — ke dekhbe, kobe dekhbe, ar kivabe use korbe seta decide kora.",
+        "Privacy is important because it protects your autonomy, personal safety, and freedom. Without privacy, people can be manipulated, surveilled, or exploited.",
+        "Protect your online privacy by reviewing app permissions, using encrypted messaging, limiting what you share on social media, and reading privacy policies before signing up."
+    ]
+}

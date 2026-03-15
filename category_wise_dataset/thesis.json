@@ -1,0 +1,19 @@
+{
+    "category": "thesis",
+    "type": "general",
+    "questions": [
+        "thesis ki?",
+        "thesis kivabe likhi?",
+        "thesis ar dissertation er difference ki?",
+        "thesis proposal ki?",
+        "thesis topic kivabe select korbo?",
+        "thesis defense ki?",
+        "masters thesis er requirement ki?"
+    ],
+    "answers": [
+        "A thesis is a long research document written as part of a master's degree. It presents original research, demonstrates expertise in a field, and is typically supervised by a faculty advisor.",
+        "Thesis likhte hole first ekta specific research question nao, advisor er sathe discuss koro, proposal likho, research conduct koro, then systematically likhe complete koro. Planning onek important.",
+        "A thesis typically includes introduction, literature review, methodology, findings, analysis, conclusion, and bibliography. It requires months of dedicated research and writing, usually 50-100+ pages.",
+        "Thesis defense holo tomar research committee er samne tomar work present kora ar questions er answer dewa. Preparation, practice, ar confidence key. Most students pass with revisions."
+    ]
+}

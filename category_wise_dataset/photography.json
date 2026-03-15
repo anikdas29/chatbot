@@ -162,6 +162,26 @@
             "question": "best camera for beginners",
             "sentiment": "happy",
             "answer": "For beginners, start with your phone camera and learn composition first. Then upgrade to a mirrorless camera like Sony A6000 or Canon M50.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to take better photos",
+            "sentiment": "curious",
+            "answer": "Good one! Good photos need good light. Shoot during golden hour (sunrise/sunset), avoid harsh midday sun, and always focus on your subject's eyes for portraits.\n\nHope this helps!"
+        },
+        {
+            "question": "best camera for beginners",
+            "sentiment": "happy",
+            "answer": "Awesome! For beginners, start with your phone camera and learn composition first. Then upgrade to a mirrorless camera like Sony A6000 or Canon M50. Additionally, Edit with free tools like Snapseed (mobile) or Lightroom (desktop)."
+        },
+        {
+            "question": "how to take better photos",
+            "sentiment": "curious",
+            "answer": "Nice question! Good photos need good light. Shoot during golden hour (sunrise/sunset), avoid harsh midday sun, and always focus on your subject's eyes for portraits.\n\nHope this helps!"
+        },
+        {
+            "question": "best camera for beginners",
+            "sentiment": "happy",
+            "answer": "Nice! For beginners, start with your phone camera and learn composition first. Then upgrade to a mirrorless camera like Sony A6000 or Canon M50.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

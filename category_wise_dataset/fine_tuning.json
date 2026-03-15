@@ -1,0 +1,19 @@
+{
+    "category": "fine_tuning",
+    "type": "general",
+    "questions": [
+        "fine tuning ki?",
+        "what is model fine tuning?",
+        "fine tuning keno dorkar?",
+        "how to fine tune a model?",
+        "fine tuning vs training from scratch?",
+        "LoRA ki fine tuning e?",
+        "fine tuning er benefit ki?"
+    ],
+    "answers": [
+        "Fine-tuning means taking a pre-trained model and training it further on your specific dataset. It's faster and cheaper than training from scratch because the model already knows general patterns.",
+        "Fine-tuning holo ekta pre-trained model ke specific task er jonno customize kora. Jemon, GPT ke medical data diye fine-tune korle medical chatbot banano jay.",
+        "Model fine-tuning adjusts a pre-trained model's weights using domain-specific data. Techniques like LoRA and QLoRA make it efficient by only updating a small subset of parameters.",
+        "Fine-tuning is essential when you need a model specialized for your use case. Instead of training billions of parameters from scratch, you adapt an existing model with much less data and compute."
+    ]
+}

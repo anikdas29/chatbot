@@ -1,0 +1,19 @@
+{
+    "category": "mongodb",
+    "type": "coding",
+    "questions": [
+        "what is mongodb?",
+        "mongodb ki nosql database?",
+        "mongodb vs mysql difference ki?",
+        "when should I use mongodb?",
+        "how to learn mongodb?",
+        "what is mongoose?",
+        "is mongodb good for beginners?"
+    ],
+    "answers": [
+        "MongoDB is a popular NoSQL document database that stores data in flexible JSON-like documents. It's great for applications with evolving schemas, real-time analytics, and rapid development cycles.",
+        "MongoDB stores data as BSON documents instead of rows and columns. It's schema-flexible, horizontally scalable, and perfect for applications where data structure changes frequently.",
+        "MongoDB is a document-oriented database that pairs well with JavaScript/Node.js. Mongoose is the most popular ODM library that provides schema validation and middleware for MongoDB in Node apps.",
+        "MongoDB shines for content management, IoT, real-time analytics, and mobile apps. Its aggregation pipeline is powerful for data processing, and Atlas provides easy cloud hosting with built-in scaling."
+    ]
+}

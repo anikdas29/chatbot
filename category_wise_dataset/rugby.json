@@ -1,0 +1,19 @@
+{
+    "category": "rugby",
+    "type": "general",
+    "questions": [
+        "Rugby ki?",
+        "Tell me about rugby",
+        "Rugby rules ki?",
+        "Rugby ar football er difference ki?",
+        "Rugby World Cup er kotha bolo",
+        "How many players in rugby?",
+        "Rugby kothay popular?"
+    ],
+    "answers": [
+        "Rugby is a contact team sport that originated in England. Players carry, pass, and kick an oval ball to score tries (touchdowns) by grounding it in the opponent's in-goal area. It's known for its physicality and sportsmanship.",
+        "Rugby te 15 players thake (Rugby Union) ba 13 (Rugby League). Ball ta shudhu backward pass kora jay. Try score korle 5 points, conversion 2 points, penalty kick 3 points, ar drop goal 3 points.",
+        "Rugby is hugely popular in New Zealand (All Blacks), South Africa (Springboks), England, Australia, and the Pacific Islands. The Rugby World Cup is held every 4 years and draws massive global audiences.",
+        "Unlike American football, rugby players don't wear heavy padding or helmets. The game is continuous with fewer stoppages, making it extremely demanding physically. Respect for the referee is a core rugby value."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "category": "solidity",
+    "type": "coding",
+    "questions": [
+        "what is solidity?",
+        "solidity ki blockchain er language?",
+        "how to learn solidity for smart contracts?",
+        "solidity vs other smart contract languages?",
+        "is solidity hard to learn?",
+        "what can you build with solidity?",
+        "solidity security best practices ki?"
+    ],
+    "answers": [
+        "Solidity is the primary programming language for writing smart contracts on Ethereum and EVM-compatible blockchains. It's a statically typed language with syntax similar to JavaScript.",
+        "Solidity is used to build decentralized applications (dApps), DeFi protocols, NFT marketplaces, and DAOs on Ethereum. Every smart contract interaction costs gas fees, so efficient code is crucial.",
+        "Solidity lets you write self-executing contracts on the blockchain. It has unique concepts like gas optimization, reentrancy guards, and modifier functions that don't exist in traditional programming.",
+        "Learning Solidity opens doors to blockchain development. Security is paramount since deployed contracts are immutable and handle real money. Tools like Hardhat and Foundry make development and testing easier."
+    ]
+}

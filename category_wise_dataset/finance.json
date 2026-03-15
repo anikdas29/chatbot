@@ -99,6 +99,16 @@
             "question": "how to save money",
             "sentiment": "curious",
             "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
+        },
+        {
+            "question": "how to save money",
+            "sentiment": "curious",
+            "answer": "Interesting! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how to save money",
+            "sentiment": "curious",
+            "answer": "Good one! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest."
         }
     ]
 }

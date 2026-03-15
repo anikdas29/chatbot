@@ -1,0 +1,19 @@
+{
+    "category": "graphql",
+    "type": "coding",
+    "questions": [
+        "what is graphql?",
+        "graphql vs rest api difference ki?",
+        "why use graphql?",
+        "how does graphql work?",
+        "graphql ki facebook banaise?",
+        "is graphql better than rest?",
+        "how to learn graphql?"
+    ],
+    "answers": [
+        "GraphQL is a query language for APIs developed by Facebook. It lets clients request exactly the data they need, solving the over-fetching and under-fetching problems common with REST APIs.",
+        "GraphQL provides a single endpoint where clients define the shape of the response. Unlike REST with multiple endpoints, you write a query describing exactly what data you want and get precisely that back.",
+        "GraphQL uses a strongly typed schema to define your API. Tools like Apollo Client and Relay make it easy to integrate with React, and it supports real-time updates through subscriptions.",
+        "GraphQL is perfect for complex applications with multiple data sources. It reduces network requests, provides excellent developer tooling with auto-complete and documentation, and is great for mobile apps where bandwidth matters."
+    ]
+}

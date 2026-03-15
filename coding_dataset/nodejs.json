@@ -86,6 +86,16 @@
             "question": "what is node js",
             "sentiment": "curious",
             "answer": "Express.js is the most popular Node.js framework. Install with npm install express, create routes, handle requests, and you have a backend in minutes!"
+        },
+        {
+            "question": "what is node js",
+            "sentiment": "curious",
+            "answer": "Great question! Node.js basics: npm (package manager), Express.js (web framework), middleware, routing, REST APIs, and connecting to MongoDB or PostgreSQL."
+        },
+        {
+            "question": "what is node js",
+            "sentiment": "curious",
+            "answer": "Good one! Node.js basics: npm (package manager), Express.js (web framework), middleware, routing, REST APIs, and connecting to MongoDB or PostgreSQL."
         }
     ]
 }

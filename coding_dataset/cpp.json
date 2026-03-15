@@ -25,16 +25,6 @@
     ],
     "feelings": [
         {
-            "question": "what is cryptocurrency",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
             "question": "how to learn c++",
             "sentiment": "curious",
             "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
@@ -273,6 +263,16 @@
             "question": "what is c++",
             "sentiment": "curious",
             "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
+        },
+        {
+            "question": "what is c++",
+            "sentiment": "curious",
+            "answer": "Interesting! C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "what is c++",
+            "sentiment": "curious",
+            "answer": "Valo question! C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
         }
     ]
 }

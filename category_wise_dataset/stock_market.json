@@ -1,0 +1,17 @@
+{
+    "category": "stock_market",
+    "type": "general",
+    "questions": [
+        "What is the stock market?",
+        "stock market ki?",
+        "How do I start investing in stocks?",
+        "share bazar e invest korbo kivabe?",
+        "Is the stock market risky?"
+    ],
+    "answers": [
+        "The stock market is a marketplace where shares of publicly traded companies are bought and sold. It allows companies to raise capital and investors to own a piece of businesses.",
+        "Stock market holo jaygay company gulo tader share bikri korey ar investor ra sei share kene oi company er ownership er angsho paay.",
+        "To start investing, open a brokerage account, research companies, start with index funds or blue-chip stocks, invest only what you can afford to lose, and think long-term.",
+        "The stock market carries risk — prices fluctuate based on company performance, economic conditions, and market sentiment. However, historically, long-term investing has provided good returns."
+    ]
+}

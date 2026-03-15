@@ -233,6 +233,26 @@
             "question": "ki movie dekhbo",
             "sentiment": "curious",
             "answer": "Must-watch: The Shawshank Redemption, Inception, Interstellar, The Dark Knight, Parasite. Mix of genres to keep it interesting!"
+        },
+        {
+            "question": "best movies to watch",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Must-watch: The Shawshank Redemption, Inception, Interstellar, The Dark Knight, Parasite. Mix of genres to keep it interesting! Additionally, Top picks by genre: Sci-fi - Interstellar, Arrival.\n\nHope this helps!"
+        },
+        {
+            "question": "suggest a good movie",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Must-watch: The Shawshank Redemption, Inception, Interstellar, The Dark Knight, Parasite. Mix of genres to keep it interesting!\n\nHope this helps!"
+        },
+        {
+            "question": "best movies to watch",
+            "sentiment": "happy",
+            "answer": "Awesome! Must-watch: The Shawshank Redemption, Inception, Interstellar, The Dark Knight, Parasite. Mix of genres to keep it interesting!"
+        },
+        {
+            "question": "suggest a good movie",
+            "sentiment": "happy",
+            "answer": "Awesome! Must-watch: The Shawshank Redemption, Inception, Interstellar, The Dark Knight, Parasite. Mix of genres to keep it interesting! Additionally, For thriller lovers: Se7en, Gone Girl, Shutter Island."
         }
     ]
 }

@@ -1,0 +1,18 @@
+{
+    "category": "plastic_pollution",
+    "type": "general",
+    "questions": [
+        "plastic pollution ki?",
+        "what is plastic pollution?",
+        "plastic pollution keno kharap?",
+        "tell me about plastic pollution",
+        "microplastics ki?",
+        "plastic pollution reduce korbo kivabe?"
+    ],
+    "answers": [
+        "Plastic pollution occurs when plastic waste accumulates in the environment, harming wildlife, ecosystems, and human health. Over 8 million tons of plastic enter the oceans every year.",
+        "Plastic pollution holo plastic waste environment e joma howa. Plastic decompose hote 500+ bochor lage, ar eta ocean, soil, ar air sob pollute kore.",
+        "Microplastics — tiny plastic particles less than 5mm — are now found everywhere: in oceans, drinking water, food, and even human blood. They come from degrading larger plastics and synthetic fabrics.",
+        "To fight plastic pollution, reduce single-use plastics, support bans on plastic bags, choose reusable products, recycle properly, and support organizations working on ocean cleanup."
+    ]
+}

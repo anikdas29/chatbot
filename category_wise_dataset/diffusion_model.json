@@ -1,0 +1,19 @@
+{
+    "category": "diffusion_model",
+    "type": "general",
+    "questions": [
+        "diffusion model ki?",
+        "what is a diffusion model?",
+        "diffusion model kivabe image generate kore?",
+        "Stable Diffusion ki?",
+        "how do diffusion models work?",
+        "diffusion model vs GAN?",
+        "DALL-E ki diffusion model use kore?"
+    ],
+    "answers": [
+        "Diffusion models generate data by learning to reverse a noise-adding process. They start with pure noise and gradually denoise it to create realistic images, audio, or other content.",
+        "Diffusion model holo ekta generative AI technique ja noise theke image banay. Training e image e noise add kore, then model shekhe kivabe noise remove korte hoy step by step.",
+        "Stable Diffusion, DALL-E, and Midjourney all use diffusion-based approaches. These models have become the state-of-the-art for image generation, often producing more stable results than GANs.",
+        "Diffusion models work by adding Gaussian noise to data during training and learning to reverse this process. At inference time, they start from random noise and iteratively denoise to create new samples."
+    ]
+}

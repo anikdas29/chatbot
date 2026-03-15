@@ -1,0 +1,19 @@
+{
+    "category": "wireframing",
+    "type": "general",
+    "questions": [
+        "What is wireframing?",
+        "wireframe ki?",
+        "how to create wireframes",
+        "wireframe er tools ki ki",
+        "wireframe vs prototype difference",
+        "wireframing keno important",
+        "low fidelity vs high fidelity wireframe"
+    ],
+    "answers": [
+        "Wireframing is creating a basic visual blueprint of a page layout. It shows structure, content placement, and functionality without detailed design — like a skeleton of your interface.",
+        "Wireframe holo ekta page er basic layout — kothay ki bosbe, content er structure kemon hobe sheta dekhano. Color ba font niye chinta na kore, structure niye focus kora hoy.",
+        "You can create wireframes with tools like Figma, Balsamiq, Whimsical, or even pen and paper. Start with low-fidelity sketches, then move to digital wireframes as ideas solidify.",
+        "Wireframing saves time and money by letting teams agree on layout and functionality before investing in detailed design. Low-fidelity wireframes are quick sketches; high-fidelity ones include more detail and interactivity."
+    ]
+}

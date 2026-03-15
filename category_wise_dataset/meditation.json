@@ -84,6 +84,16 @@
             "question": "how to meditate",
             "sentiment": "curious",
             "answer": "Try apps like Headspace or Calm for guided meditation. Start with breathing exercises, then move to body scan and mindfulness meditation."
+        },
+        {
+            "question": "how to meditate",
+            "sentiment": "curious",
+            "answer": "Valo question! Try apps like Headspace or Calm for guided meditation. Start with breathing exercises, then move to body scan and mindfulness meditation.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how to meditate",
+            "sentiment": "curious",
+            "answer": "Good one! Try apps like Headspace or Calm for guided meditation. Start with breathing exercises, then move to body scan and mindfulness meditation."
         }
     ]
 }

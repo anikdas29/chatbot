@@ -1,0 +1,17 @@
+{
+    "category": "poetry",
+    "type": "general",
+    "questions": [
+        "What is poetry?",
+        "kobita ki?",
+        "How do I write a poem?",
+        "poetry er different types ki ki?",
+        "What makes a poem good?"
+    ],
+    "answers": [
+        "Poetry is a form of literary art that uses rhythm, imagery, and language to express emotions and ideas in a concentrated way.",
+        "Kobita holo shahitto er ekta rup ja rhythm, metaphor, ar imagery use kore feelings ba ideas express korey.",
+        "To write a poem, start by picking a theme, play with word sounds and rhythms, use vivid imagery, and don't be afraid to break grammar rules for effect.",
+        "There are many types of poetry — sonnets, haikus, free verse, limericks, ballads, and more. Each has its own structure and style."
+    ]
+}

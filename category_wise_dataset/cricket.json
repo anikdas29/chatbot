@@ -1,0 +1,19 @@
+{
+    "category": "cricket",
+    "type": "general",
+    "questions": [
+        "Cricket niye kichu bolo",
+        "Cricket er rules ki?",
+        "Best cricketers ke ke?",
+        "Cricket koto type er hoy?",
+        "IPL kobe start holo?",
+        "How is cricket played?",
+        "Bangladesh cricket team er kotha bolo"
+    ],
+    "answers": [
+        "Cricket is a bat-and-ball sport played between two teams of 11 players. One team bats trying to score runs while the other bowls and fields to get them out. It's massively popular in South Asia, Australia, and England.",
+        "Cricket tin type er hoy — Test (5 days), ODI (50 overs per side), ar T20 (20 overs per side). T20 ta shobcheye fast-paced ar exciting format, World Cup o hoy prottek format e.",
+        "Cricket legends include Sachin Tendulkar, Sir Don Bradman, Virat Kohli, and Brian Lara. Bangladesh er Shakib Al Hasan is considered one of the best all-rounders in cricket history.",
+        "Cricket e batting team run score kore wickets er moddhe douriye ba boundary mere. Bowling team 10 ta wicket felle innings shesh kore. Strategy, patience, ar skill — sob kichu lagbe cricket e."
+    ]
+}

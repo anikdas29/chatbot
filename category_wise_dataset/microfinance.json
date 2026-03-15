@@ -1,0 +1,17 @@
+{
+    "category": "microfinance",
+    "type": "general",
+    "questions": [
+        "What is microfinance?",
+        "microfinance ki?",
+        "microfinance kivabe kaj kore?",
+        "Grameen Bank er microfinance model ki?",
+        "microfinance er benefit ki?"
+    ],
+    "answers": [
+        "Microfinance provides small loans, savings accounts, and financial services to low-income individuals who don't have access to traditional banking, helping them start small businesses.",
+        "Microfinance holo gorib manush der choto choto loan deya ja tara business start korte pare. Bangladesh er Grameen Bank eta pioneer - Muhammad Yunus Nobel Prize peyechilen.",
+        "Microfinance works by providing small loans (often without collateral) to groups of borrowers who guarantee each other's loans, creating community accountability.",
+        "Benefits of microfinance include poverty reduction, women's empowerment, financial inclusion, small business development, and economic growth in underserved communities."
+    ]
+}

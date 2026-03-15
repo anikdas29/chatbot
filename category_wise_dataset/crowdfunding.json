@@ -1,0 +1,17 @@
+{
+    "category": "crowdfunding",
+    "type": "general",
+    "questions": [
+        "What is crowdfunding?",
+        "crowdfunding ki?",
+        "how does crowdfunding work?",
+        "best crowdfunding platforms ki ki?",
+        "crowdfunding e success kivabe pai?"
+    ],
+    "answers": [
+        "Crowdfunding is raising small amounts of money from a large number of people, typically through online platforms, to fund a project, product, or cause.",
+        "Crowdfunding e tumi online platform e campaign banao, target set koro, ar onek manush theke choto choto donation nao tomar project fund korar jonno.",
+        "Popular crowdfunding platforms include Kickstarter for creative projects, Indiegogo for products, GoFundMe for personal causes, and Patreon for ongoing creative work.",
+        "To succeed in crowdfunding, create a compelling video, set a realistic goal, offer attractive rewards, promote heavily on social media, and keep backers updated throughout."
+    ]
+}

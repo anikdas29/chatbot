@@ -88,6 +88,16 @@
             "question": "best iphone apps",
             "sentiment": "happy",
             "answer": "Learn Swift, Xcode, UIKit/SwiftUI. Follow Apple Guidelines.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best iphone apps",
+            "sentiment": "happy",
+            "answer": "Awesome! iOS development: learn Swift (Apple's modern language), use Xcode, and choose between UIKit (mature) or SwiftUI (modern, declarative).\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "best iphone apps",
+            "sentiment": "happy",
+            "answer": "Nice! iOS development: learn Swift (Apple's modern language), use Xcode, and choose between UIKit (mature) or SwiftUI (modern, declarative). Additionally, iOS dev path: Swift basics → Xcode setup → build a simple app with SwiftUI → follow Apple's Human Interface Guidelines.\n\nHope this helps!"
         }
     ]
 }

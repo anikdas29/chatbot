@@ -1,0 +1,18 @@
+{
+    "category": "smart_grid",
+    "type": "general",
+    "questions": [
+        "smart grid ki?",
+        "what is a smart grid?",
+        "smart grid ar normal grid er difference ki?",
+        "tell me about smart grid technology",
+        "smart grid keno dorkar?",
+        "smart grid kivabe kaj kore?"
+    ],
+    "answers": [
+        "A smart grid uses digital technology, sensors, and communication systems to monitor and manage the flow of electricity more efficiently than traditional power grids.",
+        "Smart grid holo digital technology use kore electricity grid ke intelligent banano. Eta automatically demand ar supply balance kore, problem detect kore.",
+        "Smart grids enable two-way communication between utilities and consumers, integrate renewable energy sources better, reduce outages, and allow real-time energy management.",
+        "Unlike traditional grids, smart grids use IoT sensors, smart meters, and AI to optimize power distribution. They support electric vehicles, rooftop solar, and demand response programs."
+    ]
+}

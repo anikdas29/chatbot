@@ -1,0 +1,17 @@
+{
+    "category": "bonds",
+    "type": "general",
+    "questions": [
+        "What are bonds?",
+        "bond ki?",
+        "How do bonds work?",
+        "bond ar stock er difference ki?",
+        "Are bonds a good investment?"
+    ],
+    "answers": [
+        "Bonds are debt instruments where you lend money to a government or corporation in exchange for periodic interest payments and the return of principal at maturity.",
+        "Bond holo ekta debt instrument — tumi shorkaar ba company ke taka dhaaro, ar tara tomar ke regular interest dey ar maturity te mool taka ferot dey.",
+        "When you buy a bond, you're essentially lending money. The issuer pays you interest (coupon) at regular intervals, and when the bond matures, you get your original investment back.",
+        "Bonds are generally less risky than stocks and provide steady income. They're good for conservative investors, but returns are typically lower. Government bonds are the safest."
+    ]
+}

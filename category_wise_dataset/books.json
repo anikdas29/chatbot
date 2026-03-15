@@ -234,6 +234,36 @@
             "question": "any good book suggestion",
             "sentiment": "happy",
             "answer": "Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Must-reads: Atomic Habits (habit building), Think and Grow Rich (mindset), Deep Work (focus), The Alchemist (life journey). Additionally, Top picks: Atomic Habits for productivity, The Alchemist for inspiration, Sapiens for big-picture thinking, and Deep Work for focus."
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Must-reads: Atomic Habits (habit building), Think and Grow Rich (mindset), Deep Work (focus), The Alchemist (life journey). And Recommended: Atomic Habits, Think and Grow Rich, The Alchemist, Deep Work, Sapiens."
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Must-reads: Atomic Habits (habit building), Think and Grow Rich (mindset), Deep Work (focus), The Alchemist (life journey).\n\nHope this helps!"
+        },
+        {
+            "question": "best books to read",
+            "sentiment": "happy",
+            "answer": "Nice! Must-reads: Atomic Habits (habit building), Think and Grow Rich (mindset), Deep Work (focus), The Alchemist (life journey)."
+        },
+        {
+            "question": "good books",
+            "sentiment": "happy",
+            "answer": "Nice! Must-reads: Atomic Habits (habit building), Think and Grow Rich (mindset), Deep Work (focus), The Alchemist (life journey). Moreover, Start with Atomic Habits — it's a game changer."
+        },
+        {
+            "question": "any good book suggestion",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Must-reads: Atomic Habits (habit building), Think and Grow Rich (mindset), Deep Work (focus), The Alchemist (life journey).\n\nAro kichu lagbe bolo!"
         }
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "category": "after_effects",
+    "type": "general",
+    "questions": [
+        "What is After Effects?",
+        "After Effects ki?",
+        "After Effects diye ki kora jay",
+        "After Effects vs Premiere Pro difference",
+        "how to learn After Effects",
+        "After Effects er system requirements ki",
+        "motion graphics ki After Effects diye hoy"
+    ],
+    "answers": [
+        "Adobe After Effects is a motion graphics and visual effects software. It's used for creating animations, title sequences, compositing, and adding VFX to video projects.",
+        "After Effects holo motion graphics ar VFX er jonno — text animation, logo reveal, particle effects, green screen compositing shob kora jay. Video editing er por e use hoy usually.",
+        "After Effects is for animation and effects, while Premiere Pro is for video editing. Many professionals use both — edit in Premiere, then send clips to AE for effects and motion graphics.",
+        "To learn After Effects, start with keyframe animation, masks, and basic expressions. Understanding layers and compositions is essential. YouTube channels like School of Motion and Video Copilot are excellent resources."
+    ]
+}

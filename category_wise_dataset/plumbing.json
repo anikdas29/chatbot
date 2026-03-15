@@ -1,0 +1,19 @@
+{
+    "category": "plumbing",
+    "type": "general",
+    "questions": [
+        "how to fix a leaky faucet?",
+        "plumbing basics ki?",
+        "pipe leak hole ki korbo?",
+        "how to unclog a drain?",
+        "plumbing tools needed at home?",
+        "when to call a plumber?",
+        "how does plumbing work?"
+    ],
+    "answers": [
+        "For a leaky faucet, first turn off the water supply, then check the washer or O-ring — those are usually the culprits. Replace the worn parts and reassemble.",
+        "Plumbing holo water supply and drainage system manage kora. Basic knowledge thakle choto choto problems nijei fix korte parbe, jemon clogged drain ba leaky tap.",
+        "To unclog a drain, try a plunger first. If that doesn't work, use a mix of baking soda and vinegar, wait 30 minutes, then flush with hot water. Chemical drain cleaners should be a last resort.",
+        "Every home should have a plunger, adjustable wrench, pipe wrench, and plumber's tape. For major issues like burst pipes or sewage problems, always call a professional plumber."
+    ]
+}

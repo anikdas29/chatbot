@@ -1,0 +1,19 @@
+{
+    "category": "sql",
+    "type": "coding",
+    "questions": [
+        "what is sql?",
+        "sql kivabe shikbo?",
+        "sql vs nosql difference ki?",
+        "what are joins in sql?",
+        "how to write efficient sql queries?",
+        "is sql important for data science?",
+        "what is sql injection?"
+    ],
+    "answers": [
+        "SQL (Structured Query Language) is the standard language for managing and querying relational databases. It's essential for any developer or data professional working with structured data.",
+        "SQL lets you create, read, update, and delete data in relational databases. Key concepts include SELECT queries, JOINs, GROUP BY, subqueries, and indexing for performance optimization.",
+        "SQL is one of the most important skills in tech. Whether you're a backend developer, data analyst, or data scientist, you'll need SQL to interact with databases like MySQL, PostgreSQL, and SQLite.",
+        "SQL has been around since the 1970s and remains the backbone of data management. Mastering JOINs, window functions, CTEs, and query optimization will make you invaluable in any data-driven role."
+    ]
+}

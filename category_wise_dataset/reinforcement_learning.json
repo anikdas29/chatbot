@@ -1,0 +1,19 @@
+{
+    "category": "reinforcement_learning",
+    "type": "general",
+    "questions": [
+        "reinforcement learning ki?",
+        "what is reinforcement learning?",
+        "RL kaise kaam karta hai?",
+        "tell me about reinforcement learning",
+        "reinforcement learning er basic concept ki?",
+        "how does an agent learn in RL?",
+        "reward system in reinforcement learning explain koro"
+    ],
+    "answers": [
+        "Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment and receiving rewards or penalties. It's like training a pet with treats!",
+        "RL holo ekta ML technique jekhane ekta agent environment er sathe interact kore and reward/punishment er maddhome shekhe. Games, robotics, ar autonomous driving e widely use hoy.",
+        "In reinforcement learning, an agent takes actions in an environment to maximize cumulative reward. Key concepts include states, actions, rewards, and policies that guide decision-making.",
+        "Reinforcement learning ekta trial-and-error based learning method. Agent explore kore, mistakes theke shekhe, ar gradually optimal strategy develop kore. AlphaGo is a famous RL success story."
+    ]
+}

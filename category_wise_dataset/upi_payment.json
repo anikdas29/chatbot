@@ -1,0 +1,17 @@
+{
+    "category": "upi_payment",
+    "type": "general",
+    "questions": [
+        "What is UPI payment?",
+        "UPI ki?",
+        "UPI kivabe kaj kore?",
+        "UPI payment safe ki?",
+        "best UPI apps ki ki?"
+    ],
+    "answers": [
+        "UPI (Unified Payments Interface) is a real-time payment system developed in India that allows instant money transfers between bank accounts using a mobile phone.",
+        "UPI holo India er instant payment system. Phone number ba UPI ID diye tatkhonath taka pathano jay. Google Pay, PhonePe, Paytm popular UPI apps.",
+        "UPI works by linking your bank account to a UPI ID. You can send or receive money instantly 24/7 without needing account numbers or IFSC codes.",
+        "UPI is secured with device binding, UPI PIN, and encryption. Always keep your UPI PIN private and never share it with anyone to stay safe from fraud."
+    ]
+}

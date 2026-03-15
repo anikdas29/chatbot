@@ -108,6 +108,16 @@
             "question": "how to dress well",
             "sentiment": "curious",
             "answer": "Dress for the occasion, not the trend. Comfort + confidence = the best outfit. Find what fits YOUR body and style, not what's on Instagram."
+        },
+        {
+            "question": "how to dress well",
+            "sentiment": "curious",
+            "answer": "Valo question! Dress for the occasion, not the trend. Comfort + confidence = the best outfit. Find what fits YOUR body and style, not what's on Instagram.\n\nHope this helps!"
+        },
+        {
+            "question": "how to dress well",
+            "sentiment": "curious",
+            "answer": "Nice question! Dress for the occasion, not the trend. Comfort + confidence = the best outfit. Find what fits YOUR body and style, not what's on Instagram. Plus, Style tip: invest in basics - plain tees, well-fitted jeans, white sneakers, and a good jacket."
         }
     ]
 }

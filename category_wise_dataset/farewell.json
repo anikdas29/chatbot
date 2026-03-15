@@ -72,6 +72,16 @@
             "question": "good night",
             "sentiment": "happy",
             "answer": "Goodbye! Have a great day! Feel free to come back anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good night",
+            "sentiment": "happy",
+            "answer": "Awesome! Take care! It was great chatting with you. See you next time! Moreover, Bye! Hope I was helpful."
+        },
+        {
+            "question": "good night",
+            "sentiment": "happy",
+            "answer": "Awesome! Take care! It was great chatting with you. See you next time!\n\nAro kichu lagbe bolo!"
         }
     ]
 }

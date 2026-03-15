@@ -1,0 +1,18 @@
+{
+    "category": "factory_farming",
+    "type": "general",
+    "questions": [
+        "factory farming ki?",
+        "what is factory farming?",
+        "factory farming er problem ki?",
+        "tell me about factory farming",
+        "industrial agriculture ki?",
+        "factory farming keno kharap?"
+    ],
+    "answers": [
+        "Factory farming is industrial-scale animal agriculture that prioritizes maximum production at minimum cost. Animals are kept in confined, crowded conditions to maximize output.",
+        "Factory farming holo industrial bhabe onek prani ke choto jayga te rekhe mass production kora. Chicken, pig, cow — shob confined space e rakha hoy.",
+        "Factory farming raises serious concerns: animal welfare issues, antibiotic overuse leading to superbugs, environmental pollution, worker exploitation, and contribution to climate change.",
+        "Over 70% of farm animals globally are raised in factory farms. Alternatives include free-range farming, organic practices, and reducing meat consumption to lower demand for industrial animal agriculture."
+    ]
+}

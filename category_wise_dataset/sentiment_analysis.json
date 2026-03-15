@@ -1,0 +1,19 @@
+{
+    "category": "sentiment_analysis",
+    "type": "general",
+    "questions": [
+        "sentiment analysis ki?",
+        "what is sentiment analysis?",
+        "sentiment analysis kivabe kore?",
+        "sentiment analysis er use case ki?",
+        "positive negative sentiment detect kora jay ki?",
+        "opinion mining ki?",
+        "sentiment analysis tools ki ki?"
+    ],
+    "answers": [
+        "Sentiment analysis is an NLP technique that determines whether text expresses positive, negative, or neutral sentiment. It's widely used for analyzing customer reviews, social media, and brand monitoring.",
+        "Sentiment analysis holo text er mood ba emotion detect kora — positive, negative, ba neutral. Amazon reviews, Twitter posts, ar customer feedback analyze korte use hoy.",
+        "Sentiment analysis can be done using rule-based methods, machine learning classifiers, or modern transformer models. Tools like VADER, TextBlob, and BERT-based models are commonly used.",
+        "Companies use sentiment analysis to understand customer opinions at scale. It helps track brand reputation, analyze product reviews, monitor social media reactions, and improve customer service."
+    ]
+}

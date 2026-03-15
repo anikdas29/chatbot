@@ -1,0 +1,18 @@
+{
+    "category": "hydrogen_fuel",
+    "type": "general",
+    "questions": [
+        "hydrogen fuel ki?",
+        "what is hydrogen fuel?",
+        "hydrogen energy kivabe kaj kore?",
+        "tell me about hydrogen fuel",
+        "hydrogen fuel ki safe?",
+        "green hydrogen ki?"
+    ],
+    "answers": [
+        "Hydrogen fuel uses hydrogen gas as an energy carrier. When hydrogen reacts with oxygen in a fuel cell, it produces electricity with only water as a byproduct — completely clean.",
+        "Hydrogen fuel holo hydrogen gas ke energy source hisebe use kora. Green hydrogen renewable energy diye produce hoy, eta future er fuel hote pare.",
+        "Hydrogen can be used in fuel cells for vehicles, power generation, and industrial processes. Green hydrogen (made using renewable energy) is considered key to decarbonization.",
+        "Hydrogen fuel produces zero emissions at the point of use. The challenge is producing it cleanly and storing it efficiently, but it's a major focus of clean energy research."
+    ]
+}

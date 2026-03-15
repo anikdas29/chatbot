@@ -1,0 +1,17 @@
+{
+    "category": "screenplay",
+    "type": "general",
+    "questions": [
+        "What is a screenplay?",
+        "screenplay ki jinish?",
+        "How do I write a screenplay?",
+        "screenplay ar script ki same?",
+        "What format does a screenplay use?"
+    ],
+    "answers": [
+        "A screenplay is a written script for a film or TV show that includes dialogue, scene descriptions, and character actions in a specific industry format.",
+        "Screenplay holo movie ba TV show er jonno lekha script ja dialogue, scene description, ar character action niye toiri.",
+        "To write a screenplay, learn standard formatting (slug lines, action, dialogue), outline your story in three acts, and focus on visual storytelling since film is a visual medium.",
+        "Screenplays follow strict formatting rules — 12pt Courier font, specific margins, scene headings like INT./EXT., and typically one page equals about one minute of screen time."
+    ]
+}

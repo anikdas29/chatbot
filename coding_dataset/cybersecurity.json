@@ -229,42 +229,42 @@
         {
             "question": "what is cybersecurity",
             "sentiment": "curious",
-            "answer": "Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics."
+            "answer": "Nice question! Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics.\n\nAr kichu jante chaile bolo!"
         },
         {
             "question": "how to learn cybersecurity",
             "sentiment": "curious",
-            "answer": "Learn cybersecurity: start with networking basics (TCP/IP, DNS), then Linux, then tools like Wireshark, Nmap, Burp Suite. Practice on TryHackMe or HackTheBox."
+            "answer": "Interesting! Learn cybersecurity: start with networking basics (TCP/IP, DNS), then Linux, then tools like Wireshark, Nmap, Burp Suite. Practice on TryHackMe or HackTheBox.\n\nHope this helps!"
         },
         {
             "question": "how to become a hacker",
             "sentiment": "curious",
-            "answer": "Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics."
+            "answer": "Nice question! Ethical hacking path: learn Linux, networking, and Python first. Then study OWASP Top 10, get CEH or CompTIA Security+ cert, and practice on CTF platforms."
         },
         {
             "question": "cybersecurity ki",
             "sentiment": "curious",
-            "answer": "Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics."
+            "answer": "Great question! Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics."
         },
         {
             "question": "what is cybersecurity",
             "sentiment": "curious",
-            "answer": "Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics."
+            "answer": "Nice question! Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics.\n\nHope this helps!"
         },
         {
             "question": "how to learn cybersecurity",
             "sentiment": "curious",
-            "answer": "Learn cybersecurity: start with networking basics (TCP/IP, DNS), then Linux, then tools like Wireshark, Nmap, Burp Suite. Practice on TryHackMe or HackTheBox."
+            "answer": "Interesting! Learn cybersecurity: start with networking basics (TCP/IP, DNS), then Linux, then tools like Wireshark, Nmap, Burp Suite. Practice on TryHackMe or HackTheBox.\n\nAr kichu jante chaile bolo!"
         },
         {
             "question": "how to become a hacker",
             "sentiment": "curious",
-            "answer": "Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics."
+            "answer": "Valo question! Ethical hacking path: learn Linux, networking, and Python first. Then study OWASP Top 10, get CEH or CompTIA Security+ cert, and practice on CTF platforms."
         },
         {
             "question": "cybersecurity ki",
             "sentiment": "curious",
-            "answer": "Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics."
+            "answer": "Valo question! Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

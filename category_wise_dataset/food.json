@@ -199,6 +199,36 @@
             "question": "ki khabo aj",
             "sentiment": "curious",
             "answer": "Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Interesting! Breakfast: Oatmeal, eggs, fruits. Lunch: Rice with veggies. Snacks: Nuts, yogurt. Dinner: Light meals. Moreover, Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Nice! Healthy meal ideas: oatmeal or eggs for breakfast, rice with grilled veggies for lunch, nuts or fruit for snacks, and a light soup for dinner. Additionally, Breakfast: Oatmeal, eggs, fruits.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Great question! Breakfast: Oatmeal, eggs, fruits. Lunch: Rice with veggies. Snacks: Nuts, yogurt. Dinner: Light meals. Also, Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner."
+        },
+        {
+            "question": "what should i eat",
+            "sentiment": "curious",
+            "answer": "Nice question! Breakfast: Oatmeal, eggs, fruits. Lunch: Rice with veggies. Snacks: Nuts, yogurt. Dinner: Light meals.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "best foods for health",
+            "sentiment": "happy",
+            "answer": "Awesome! Healthy meal ideas: oatmeal or eggs for breakfast, rice with grilled veggies for lunch, nuts or fruit for snacks, and a light soup for dinner. Additionally, Quick meal suggestions: Greek yogurt + berries for breakfast, a rice bowl with protein for lunch, almonds for snacks, and a salad for dinner.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "ki khabo aj",
+            "sentiment": "curious",
+            "answer": "Great question! Breakfast: Oatmeal, eggs, fruits. Lunch: Rice with veggies. Snacks: Nuts, yogurt. Dinner: Light meals.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

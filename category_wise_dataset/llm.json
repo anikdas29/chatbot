@@ -1,0 +1,19 @@
+{
+    "category": "llm",
+    "type": "general",
+    "questions": [
+        "LLM ki?",
+        "what is a large language model?",
+        "LLM kaise kaam karta hai?",
+        "tell me about large language models",
+        "ChatGPT ki ekta LLM?",
+        "LLM er example dao",
+        "large language model er limitation ki?"
+    ],
+    "answers": [
+        "LLM or Large Language Model holo ekta AI model ja billions of parameters niye train kora hoy massive text data er upore. GPT-4, Claude, Gemini — shob LLM examples.",
+        "A Large Language Model is an AI system trained on vast amounts of text data to understand and generate human-like text. They can write, translate, summarize, code, and answer questions.",
+        "LLMs work by predicting the next token in a sequence. They're trained on huge datasets using transformer architecture. While powerful, they can hallucinate and don't truly understand meaning.",
+        "Large Language Models like GPT, Claude, and LLaMA have revolutionized NLP. They use self-attention mechanisms to process text and can perform diverse tasks with remarkable fluency, though they need careful prompting."
+    ]
+}

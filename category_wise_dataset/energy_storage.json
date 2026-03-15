@@ -1,0 +1,18 @@
+{
+    "category": "energy_storage",
+    "type": "general",
+    "questions": [
+        "energy storage ki?",
+        "what is energy storage?",
+        "energy store kora jai kivabe?",
+        "tell me about energy storage systems",
+        "grid scale energy storage ki?",
+        "energy storage keno important?"
+    ],
+    "answers": [
+        "Energy storage captures energy produced at one time for use at another. Technologies include batteries, pumped hydro, compressed air, flywheels, and thermal storage.",
+        "Energy storage holo energy produce kore save kore rakhha porer jonno. Solar ar wind energy store kora lage karon era always available thake na.",
+        "Energy storage is critical for renewable energy integration. It helps balance supply and demand on the power grid, stores excess solar/wind energy, and provides backup during outages.",
+        "Major energy storage technologies include lithium-ion batteries, pumped hydroelectric storage, compressed air systems, and hydrogen storage. Grid-scale storage is essential for a clean energy future."
+    ]
+}

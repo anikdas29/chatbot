@@ -1,0 +1,19 @@
+{
+    "category": "premiere_pro",
+    "type": "general",
+    "questions": [
+        "What is Premiere Pro?",
+        "Premiere Pro ki?",
+        "how to edit video in Premiere Pro",
+        "Premiere Pro vs DaVinci Resolve konta valo",
+        "Premiere Pro shortcuts ki ki",
+        "Premiere Pro system requirements ki",
+        "Premiere Pro diye ki professional video edit hoy"
+    ],
+    "answers": [
+        "Adobe Premiere Pro is an industry-standard video editing software used by filmmakers, YouTubers, and professionals. It supports multi-track editing, color grading, audio mixing, and exports in all major formats.",
+        "Premiere Pro holo professional video editing software. YouTube video theke cinema — shob e edit kora jay. Timeline-based editor, color correction, audio editing shob ache.",
+        "To start with Premiere Pro, learn the workspace, timeline, razor tool, and transitions. Import your clips, arrange on timeline, add cuts and effects, then export. Keyboard shortcuts like C (razor) and V (selection) save tons of time.",
+        "Premiere Pro integrates seamlessly with After Effects, Audition, and other Adobe tools. It's the go-to choice for most professional video editors, though DaVinci Resolve offers a strong free alternative."
+    ]
+}

@@ -216,6 +216,36 @@
             "question": "bro how to code",
             "sentiment": "curious",
             "answer": "Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects."
+        },
+        {
+            "question": "how to start coding",
+            "sentiment": "curious",
+            "answer": "Interesting! Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "best programming language",
+            "sentiment": "happy",
+            "answer": "Awesome! Python is the best starting point — clean syntax and huge community. Once comfortable, explore JavaScript for web or Java for backend."
+        },
+        {
+            "question": "bro how to code",
+            "sentiment": "curious",
+            "answer": "Interesting! Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects."
+        },
+        {
+            "question": "how to start coding",
+            "sentiment": "curious",
+            "answer": "Good one! Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "best programming language",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Python is the best starting point — clean syntax and huge community. Once comfortable, explore JavaScript for web or Java for backend."
+        },
+        {
+            "question": "bro how to code",
+            "sentiment": "curious",
+            "answer": "Valo question! Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

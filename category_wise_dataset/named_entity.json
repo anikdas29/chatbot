@@ -1,0 +1,19 @@
+{
+    "category": "named_entity",
+    "type": "general",
+    "questions": [
+        "named entity recognition ki?",
+        "NER ki?",
+        "named entity recognition kivabe kaam kore?",
+        "NER er use case ki ki?",
+        "NER diye ki ki detect kora jay?",
+        "spaCy diye NER kora jay?",
+        "entity extraction bujhao"
+    ],
+    "answers": [
+        "Named Entity Recognition (NER) is an NLP task that identifies and classifies named entities in text — like person names, organizations, locations, dates, and monetary values.",
+        "NER holo text theke important entities detect kora — jemon name, place, date, organization. 'Elon Musk lives in Texas' theke NER detect kore: Elon Musk (Person), Texas (Location).",
+        "NER is used in information extraction, search engines, chatbots, and document processing. Tools like spaCy, Hugging Face transformers, and Stanford NER make it easy to implement.",
+        "Named entity recognition helps machines understand who, what, where, and when in text. It's essential for building knowledge graphs, automating data extraction, and powering intelligent search systems."
+    ]
+}

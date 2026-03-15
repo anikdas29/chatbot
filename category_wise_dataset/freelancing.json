@@ -174,6 +174,26 @@
             "question": "best freelancing platform",
             "sentiment": "happy",
             "answer": "Freelancing tips: always deliver on time, communicate clearly, build a portfolio, ask for reviews, and never undersell your skills long-term.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to start freelancing",
+            "sentiment": "curious",
+            "answer": "Great question! Freelancing tips: always deliver on time, communicate clearly, build a portfolio, ask for reviews, and never undersell your skills long-term."
+        },
+        {
+            "question": "best freelancing platform",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Best platforms: Fiverr (gig-based), Upwork (project-based), Toptal (premium), Freelancer.com. Choose based on your skill and experience level."
+        },
+        {
+            "question": "how to start freelancing",
+            "sentiment": "curious",
+            "answer": "Good one! Freelancing tips: always deliver on time, communicate clearly, build a portfolio, ask for reviews, and never undersell your skills long-term.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "best freelancing platform",
+            "sentiment": "happy",
+            "answer": "Awesome! Best platforms: Fiverr (gig-based), Upwork (project-based), Toptal (premium), Freelancer.com. Choose based on your skill and experience level.\n\nHope this helps!"
         }
     ]
 }

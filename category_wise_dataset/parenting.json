@@ -63,6 +63,16 @@
             "question": "how to be a good parent",
             "sentiment": "happy",
             "answer": "Parenting basics: be patient, listen to your child, set boundaries with love, spend quality time, and lead by example. No parent is perfect!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to be a good parent",
+            "sentiment": "happy",
+            "answer": "Awesome! Parenting basics: be patient, listen to your child, set boundaries with love, spend quality time, and lead by example. No parent is perfect!"
+        },
+        {
+            "question": "how to be a good parent",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Parenting basics: be patient, listen to your child, set boundaries with love, spend quality time, and lead by example. No parent is perfect!\n\nHope this helps!"
         }
     ]
 }

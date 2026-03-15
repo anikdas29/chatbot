@@ -1,0 +1,19 @@
+{
+    "category": "text_to_speech",
+    "type": "general",
+    "questions": [
+        "text to speech ki?",
+        "TTS ki?",
+        "text to speech kivabe kaam kore?",
+        "best text to speech tools ki?",
+        "AI voice generation ki?",
+        "TTS er use case ki ki?",
+        "Bangla text to speech ache?"
+    ],
+    "answers": [
+        "Text to Speech (TTS) converts written text into spoken audio using AI. Modern TTS systems sound very natural and can mimic different voices, accents, and emotions.",
+        "TTS holo ekta technology ja text ke voice e convert kore. Google TTS, Amazon Polly, ElevenLabs — shob popular TTS tools. Accessibility, audiobooks, ar virtual assistants e use hoy.",
+        "Modern TTS uses deep learning models to generate human-like speech from text. Systems like ElevenLabs and Bark can clone voices and add emotional expression to speech.",
+        "Text to speech technology is essential for accessibility, helping visually impaired users access content. It's also used in navigation apps, virtual assistants, audiobook creation, and content creation."
+    ]
+}

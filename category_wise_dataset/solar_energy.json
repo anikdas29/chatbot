@@ -1,0 +1,19 @@
+{
+    "category": "solar_energy",
+    "type": "general",
+    "questions": [
+        "what is solar energy?",
+        "solar energy ki?",
+        "how do solar panels work?",
+        "solar panel lagale ki benefit hoy?",
+        "cost of solar panels?",
+        "is solar energy worth it?",
+        "solar energy in Bangladesh?"
+    ],
+    "answers": [
+        "Solar energy is power generated from sunlight using photovoltaic panels or solar thermal systems. It's clean, renewable, and becoming increasingly affordable worldwide.",
+        "Solar panels work by converting sunlight into electricity using photovoltaic cells. When light hits the cells, it creates an electric current. This electricity can power your home or be stored in batteries.",
+        "Solar panel lagale electricity bill komey jay, environment help hoy, ar load shedding er somoy o power thake. Bangladesh e solar home systems onek gram e popular.",
+        "Solar panel costs have dropped over 80% in the last decade, making it very cost-effective. With government incentives and net metering, most systems pay for themselves within 5-8 years."
+    ]
+}

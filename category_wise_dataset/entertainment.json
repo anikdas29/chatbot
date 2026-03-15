@@ -138,6 +138,26 @@
             "question": "bored what to do",
             "sentiment": "curious",
             "answer": "For movies, check IMDb Top 250. Must-watch shows: Breaking Bad, Money Heist, Stranger Things, The Bear."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Valo question! Great watch list: Breaking Bad (drama), Money Heist (thriller), Stranger Things (sci-fi), and Oppenheimer or Interstellar for movies. Moreover, Movies: IMDb top rated.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "Nice question! Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
+        },
+        {
+            "question": "what to do for fun",
+            "sentiment": "curious",
+            "answer": "Great question! Great watch list: Breaking Bad (drama), Money Heist (thriller), Stranger Things (sci-fi), and Oppenheimer or Interstellar for movies. Moreover, Movies: IMDb top rated.\n\nHope this helps!"
+        },
+        {
+            "question": "bored what to do",
+            "sentiment": "curious",
+            "answer": "Nice question! Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
         }
     ]
 }

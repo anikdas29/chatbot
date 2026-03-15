@@ -36,46 +36,6 @@
             "answer": "Artificial Intelligence is a broad field where computers are programmed to perform tasks that normally require human intelligence — like recognising speech, making decisions, or translating languages."
         },
         {
-            "question": "what is ai",
-            "sentiment": "curious",
-            "answer": "AI = making machines smart. It covers ML, deep learning, NLP, computer vision, and robotics. It's reshaping every industry today."
-        },
-        {
-            "question": "ai ki",
-            "sentiment": "curious",
-            "answer": "AI holo machine er buddhimotta - computers shikhe data theke."
-        },
-        {
-            "question": "ai ki",
-            "sentiment": "curious",
-            "answer": "AI holo machine er buddhimotta - computers shikhe data theke."
-        },
-        {
-            "question": "tell me about yourself",
-            "sentiment": "curious",
-            "answer": "Artificial Intelligence is a broad field where computers are programmed to perform tasks that normally require human intelligence — like recognising speech, making decisions, or translating languages."
-        },
-        {
-            "question": "what is ai",
-            "sentiment": "curious",
-            "answer": "AI = making machines smart. It covers ML, deep learning, NLP, computer vision, and robotics. It's reshaping every industry today."
-        },
-        {
-            "question": "ai ki",
-            "sentiment": "curious",
-            "answer": "AI holo machine er buddhimotta - computers shikhe data theke."
-        },
-        {
-            "question": "ai ki",
-            "sentiment": "curious",
-            "answer": "AI holo machine er buddhimotta - computers shikhe data theke."
-        },
-        {
-            "question": "tell me about yourself",
-            "sentiment": "curious",
-            "answer": "Artificial Intelligence is a broad field where computers are programmed to perform tasks that normally require human intelligence — like recognising speech, making decisions, or translating languages."
-        },
-        {
             "question": "kivabe healthy thaka jai",
             "sentiment": "sad",
             "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. AI holo machine er buddhimotta - computers shikhe data theke.\n\nTumi ekla na, amra achi."
@@ -279,6 +239,46 @@
             "question": "ai ki",
             "sentiment": "curious",
             "answer": "AI holo machine er buddhimotta - computers shikhe data theke."
+        },
+        {
+            "question": "what is ai",
+            "sentiment": "curious",
+            "answer": "Nice question! AI (Artificial Intelligence) is the simulation of human intelligence by machines. It includes machine learning, deep learning, NLP, and more.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "ai ki",
+            "sentiment": "curious",
+            "answer": "Great question! AI holo machine er buddhimotta - computers shikhe data theke."
+        },
+        {
+            "question": "how does ai work",
+            "sentiment": "curious",
+            "answer": "Nice question! AI lets machines think, learn, and solve problems like humans. It powers everything from voice assistants to self-driving cars."
+        },
+        {
+            "question": "ai ki",
+            "sentiment": "curious",
+            "answer": "Valo question! AI holo machine er buddhimotta - computers shikhe data theke. Moreover, AI lets machines think, learn, and solve problems like humans.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "what is ai",
+            "sentiment": "curious",
+            "answer": "Great question! AI (Artificial Intelligence) is the simulation of human intelligence by machines. It includes machine learning, deep learning, NLP, and more."
+        },
+        {
+            "question": "ai ki",
+            "sentiment": "curious",
+            "answer": "Good one! AI holo machine er buddhimotta - computers shikhe data theke. And AI lets machines think, learn, and solve problems like humans.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how does ai work",
+            "sentiment": "curious",
+            "answer": "Nice question! AI lets machines think, learn, and solve problems like humans. It powers everything from voice assistants to self-driving cars. Also, AI (Artificial Intelligence) is the simulation of human intelligence by machines.\n\nHope this helps!"
+        },
+        {
+            "question": "ai ki",
+            "sentiment": "curious",
+            "answer": "Nice question! AI holo machine er buddhimotta - computers shikhe data theke. Additionally, AI = making machines smart.\n\nHope this helps!"
         }
     ]
 }

@@ -1,0 +1,18 @@
+{
+    "category": "power_grid",
+    "type": "general",
+    "questions": [
+        "power grid ki?",
+        "what is a power grid?",
+        "electricity grid kivabe kaj kore?",
+        "tell me about the power grid",
+        "national grid ki?",
+        "power grid er components ki ki?"
+    ],
+    "answers": [
+        "A power grid is the network of power plants, transmission lines, substations, and distribution systems that deliver electricity from producers to consumers.",
+        "Power grid holo electricity generation theke consumer porjonto puro network. Power plant theke high voltage line diye substation hoy, tarpor bari te ase.",
+        "The power grid consists of three main parts: generation (power plants), transmission (high-voltage lines), and distribution (local delivery to homes and businesses).",
+        "Power grids are massive interconnected systems that balance electricity supply and demand in real time. Grid operators ensure stable frequency and voltage across the entire network."
+    ]
+}

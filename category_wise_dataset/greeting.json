@@ -95,6 +95,26 @@
             "question": "good morning",
             "sentiment": "happy",
             "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Nice! Hello! How can I help you today?\n\nHope this helps!"
+        },
+        {
+            "question": "ki movie dekhbo",
+            "sentiment": "curious",
+            "answer": "Valo question! Hi! Great to see you. What's on your mind? Also, Hello! How can I help you today?."
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Hello! How can I help you today? Additionally, Hey there! What can I do for you?.\n\nHope this helps!"
+        },
+        {
+            "question": "ki movie dekhbo",
+            "sentiment": "curious",
+            "answer": "Nice question! Hi! Great to see you. What's on your mind?"
         }
     ]
 }

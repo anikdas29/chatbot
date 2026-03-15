@@ -1,0 +1,19 @@
+{
+    "category": "transfer_learning",
+    "type": "general",
+    "questions": [
+        "transfer learning ki?",
+        "what is transfer learning?",
+        "transfer learning kivabe kaam kore?",
+        "why is transfer learning useful?",
+        "transfer learning example dao",
+        "transfer learning ar fine tuning ki same?",
+        "transfer learning er advantage ki?"
+    ],
+    "answers": [
+        "Transfer learning is when a model trained on one task is reused as the starting point for a different task. For example, a model trained on ImageNet can be adapted to detect diseases in X-rays.",
+        "Transfer learning holo ekta task e shekha knowledge onno task e apply kora. Eta time ar data bachay karon model ke shuru theke shuru korte hoy na.",
+        "In transfer learning, knowledge from a pre-trained model is transferred to a new problem. It works because early layers learn general features that are useful across many tasks.",
+        "Transfer learning saves massive computation and data requirements. Instead of training from scratch, you leverage existing models like ResNet, BERT, or GPT and adapt them for your specific needs."
+    ]
+}

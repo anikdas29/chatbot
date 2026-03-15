@@ -1,0 +1,17 @@
+{
+    "category": "nato",
+    "type": "general",
+    "questions": [
+        "What is NATO?",
+        "NATO ki kaj kore?",
+        "how many countries are in NATO?",
+        "why was NATO formed?",
+        "NATO er full form ki?"
+    ],
+    "answers": [
+        "NATO stands for North Atlantic Treaty Organization, a military alliance of 31+ member countries from North America and Europe formed in 1949 for collective defense.",
+        "NATO gothon hoyechilo Cold War er somoy Soviet Union er biruddhe collective security ensure korar jonno. Article 5 bole ekjon er upor attack mane shobার upor attack.",
+        "NATO is a political and military alliance where member nations agree to mutual defense, meaning an attack on one member is considered an attack on all members.",
+        "NATO coordinates military operations, conducts joint exercises, and provides a framework for political consultation on security issues among its member states."
+    ]
+}

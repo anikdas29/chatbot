@@ -151,6 +151,26 @@
             "question": "how to study better",
             "sentiment": "curious",
             "answer": "Best study techniques: Pomodoro (25 min on, 5 min off), teach what you learned to someone else, and review material at increasing intervals."
+        },
+        {
+            "question": "best way to learn",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Best study techniques: Pomodoro (25 min on, 5 min off), teach what you learned to someone else, and review material at increasing intervals.\n\nHope this helps!"
+        },
+        {
+            "question": "how to study better",
+            "sentiment": "curious",
+            "answer": "Good one! Study smarter: use active recall instead of re-reading, space out your revision sessions, and test yourself with past papers.\n\nHope this helps!"
+        },
+        {
+            "question": "best way to learn",
+            "sentiment": "happy",
+            "answer": "Nice! Best study techniques: Pomodoro (25 min on, 5 min off), teach what you learned to someone else, and review material at increasing intervals."
+        },
+        {
+            "question": "how to study better",
+            "sentiment": "curious",
+            "answer": "Interesting! Study smarter: use active recall instead of re-reading, space out your revision sessions, and test yourself with past papers."
         }
     ]
 }

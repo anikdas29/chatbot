@@ -1,0 +1,17 @@
+{
+    "category": "data_protection",
+    "type": "general",
+    "questions": [
+        "What is data protection?",
+        "data protection ki?",
+        "What is GDPR?",
+        "data protection keno important?",
+        "How do companies protect user data?"
+    ],
+    "answers": [
+        "Data protection refers to laws, policies, and practices that safeguard personal information from unauthorized access, misuse, or loss.",
+        "Data protection holo personal data ke unauthorized access, misuse, ba haranor haath theke rokkha korar niyom ar practice.",
+        "GDPR (General Data Protection Regulation) is the EU's data privacy law that gives people control over their personal data and sets strict rules for how organizations handle it.",
+        "Companies protect user data through encryption, access controls, regular security audits, data minimization practices, and compliance with privacy regulations like GDPR."
+    ]
+}

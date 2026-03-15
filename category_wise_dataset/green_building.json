@@ -1,0 +1,18 @@
+{
+    "category": "green_building",
+    "type": "general",
+    "questions": [
+        "green building ki?",
+        "what is a green building?",
+        "green building er features ki?",
+        "tell me about green buildings",
+        "LEED certification ki?",
+        "eco friendly building kivabe banay?"
+    ],
+    "answers": [
+        "A green building is designed to reduce its environmental impact through energy efficiency, water conservation, sustainable materials, and better indoor air quality throughout its lifecycle.",
+        "Green building holo environment friendly building design kora. Solar panel, rainwater harvesting, natural ventilation — sob use kore energy ar resource save kora hoy.",
+        "Green buildings use strategies like solar panels, green roofs, efficient insulation, recycled materials, and smart HVAC systems. LEED and BREEAM are popular green building certifications.",
+        "Green buildings reduce energy consumption by 25-50% compared to conventional buildings. They also improve occupant health and productivity while reducing water usage and waste."
+    ]
+}

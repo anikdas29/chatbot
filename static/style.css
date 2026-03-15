@@ -260,3 +260,103 @@ body {
 .fb-disliked {
     color: #f44336;
 }
+
+/* Confidence Bar */
+.confidence-bar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    padding-top: 4px;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.conf-label {
+    color: #8888aa;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.conf-dots {
+    letter-spacing: 1px;
+    font-size: 9px;
+}
+
+.conf-dots.conf-high {
+    color: #4caf50;
+}
+
+.conf-dots.conf-mid {
+    color: #ffa726;
+}
+
+.conf-dots.conf-low {
+    color: #f44336;
+}
+
+.conf-pct {
+    color: #8888aa;
+    min-width: 28px;
+}
+
+/* "Did you mean?" Suggestions */
+.suggestions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.suggestion-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 14px;
+    background: #1a1a2e;
+    border: 1px solid #3a3a5a;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s;
+}
+
+.suggestion-btn:hover {
+    border-color: #667eea;
+    background: rgba(102, 126, 234, 0.08);
+}
+
+.sug-cat {
+    color: #667eea;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sug-example {
+    color: #777;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.suggestion-btn.sug-none {
+    border-color: #ffa726;
+    color: #ffa726;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px 14px;
+}
+
+.suggestion-btn.sug-none:hover {
+    background: rgba(255, 167, 38, 0.08);
+    border-color: #ff7043;
+}
+
+.sug-chosen {
+    color: #667eea;
+    font-size: 12px;
+    font-style: italic;
+    opacity: 0.8;
+    margin-top: 6px;
+}

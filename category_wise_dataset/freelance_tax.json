@@ -1,0 +1,17 @@
+{
+    "category": "freelance_tax",
+    "type": "general",
+    "questions": [
+        "How do freelancers pay taxes?",
+        "freelance tax ki?",
+        "freelancer hisebe tax kivabe dibo?",
+        "freelance income tax rate koto?",
+        "freelance tax deduction ki ki ache?"
+    ],
+    "answers": [
+        "Freelancers must pay self-employment tax on their earnings, which includes both income tax and Social Security/Medicare taxes. Quarterly estimated tax payments are typically required.",
+        "Freelancer hisebe tomar nijer tax calculate ar pay korte hoy. Income tax plus self-employment tax lagbe. Quarterly estimated payments kora valo.",
+        "Common freelance tax deductions include home office expenses, equipment, software subscriptions, internet bills, professional development, travel, and health insurance premiums.",
+        "Keep detailed records of all income and expenses, set aside 25-30% of earnings for taxes, and consider hiring an accountant to maximize deductions and stay compliant."
+    ]
+}

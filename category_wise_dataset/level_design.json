@@ -1,0 +1,19 @@
+{
+    "category": "level_design",
+    "type": "general",
+    "questions": [
+        "What is level design?",
+        "level design ki?",
+        "how to design game levels",
+        "level design tools ki ki",
+        "level design tips",
+        "good level design er example ki",
+        "level design er career kemon"
+    ],
+    "answers": [
+        "Level design is the creation of game environments, stages, and missions that players navigate. It involves layout planning, pacing, enemy placement, puzzle design, and guiding players through the experience.",
+        "Level design holo game er map ar stage design kora — player kothay jabe, enemy kothay thakbe, puzzle ki hobe, pacing kemon hobe shob plan kora.",
+        "Great level design teaches players through play, gradually introduces new mechanics, and balances challenge with reward. Games like Mario, Dark Souls, and Half-Life 2 are famous for excellent level design.",
+        "Level designers use game engines like Unity or Unreal, plus tools like ProBuilder or TilED. Start by studying existing game levels, create blockouts (grey-box layouts), playtest frequently, and iterate based on feedback."
+    ]
+}

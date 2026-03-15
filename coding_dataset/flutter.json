@@ -86,6 +86,16 @@
             "question": "what is flutter",
             "sentiment": "curious",
             "answer": "Flutter vs React Native: Flutter has better performance and consistent UI across platforms. React Native has larger community and uses JavaScript. Both are great!"
+        },
+        {
+            "question": "what is flutter",
+            "sentiment": "curious",
+            "answer": "Good one! Flutter is Google's UI toolkit for building natively compiled apps for mobile, web, and desktop from a single codebase. Uses Dart language."
+        },
+        {
+            "question": "what is flutter",
+            "sentiment": "curious",
+            "answer": "Great question! Flutter is Google's UI toolkit for building natively compiled apps for mobile, web, and desktop from a single codebase. Uses Dart language.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

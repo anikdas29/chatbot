@@ -1,0 +1,19 @@
+{
+    "category": "haskell",
+    "type": "coding",
+    "questions": [
+        "what is haskell?",
+        "haskell ki hard to learn?",
+        "why learn haskell?",
+        "what is functional programming in haskell?",
+        "haskell kothay use hoy?",
+        "what are monads in haskell?",
+        "haskell vs other functional languages?"
+    ],
+    "answers": [
+        "Haskell is a purely functional programming language with strong static typing and lazy evaluation. It's known for its mathematical rigor and for making certain categories of bugs impossible by design.",
+        "Haskell is a purely functional language where functions have no side effects and data is immutable. It has a powerful type system that catches many bugs at compile time and uses monads to handle I/O and state.",
+        "Haskell teaches you to think about programming differently. Its concepts like monads, functors, and type classes have influenced features in Rust, Swift, Scala, and many modern languages.",
+        "Haskell is used in finance, blockchain, and compilers where correctness matters most. Companies like Facebook, Standard Chartered, and Cardano use it for its mathematical guarantees and reliability."
+    ]
+}

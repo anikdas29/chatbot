@@ -1,0 +1,19 @@
+{
+    "category": "attention_mechanism",
+    "type": "general",
+    "questions": [
+        "attention mechanism ki?",
+        "what is attention in deep learning?",
+        "self attention ki?",
+        "how does attention work in transformers?",
+        "multi-head attention bujhao",
+        "attention mechanism keno important?",
+        "query key value ki attention e?"
+    ],
+    "answers": [
+        "Attention mechanism allows a model to focus on the most relevant parts of the input when producing output. It's like highlighting important words in a sentence while reading.",
+        "Attention holo ekta technique ja model ke input er specific parts e focus korte dey. Self-attention e ekta sequence er prottek element onno shob element er sathe relate kore.",
+        "In transformers, attention uses Query, Key, and Value matrices. The attention score determines how much focus each token should give to every other token. Multi-head attention runs this in parallel multiple times.",
+        "The attention mechanism revolutionized NLP by replacing recurrence with direct connections between all positions. This allows parallel processing and better handling of long-range dependencies in text."
+    ]
+}

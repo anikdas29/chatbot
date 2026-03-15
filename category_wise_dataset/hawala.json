@@ -1,0 +1,17 @@
+{
+    "category": "hawala",
+    "type": "general",
+    "questions": [
+        "What is hawala?",
+        "hawala ki?",
+        "hawala system kivabe kaj kore?",
+        "hawala ki legal?",
+        "hawala ar bank transfer er difference ki?"
+    ],
+    "answers": [
+        "Hawala is an informal money transfer system where money is transferred through a network of brokers (hawaladars) without actually moving physical currency across borders.",
+        "Hawala holo ekta informal taka pathano system ja brokers er network diye kaje kore. Taka physically move kore na, but duipashe brokers settle kore.",
+        "In hawala, you give money to a broker in one country who contacts a broker in the destination country to pay the recipient. Settlement between brokers happens later.",
+        "Hawala is illegal or heavily regulated in most countries because it operates outside the banking system and can be used for money laundering, though historically it served legitimate purposes."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "category": "machine_translation",
+    "type": "general",
+    "questions": [
+        "machine translation ki?",
+        "Google Translate kivabe kaam kore?",
+        "AI translation koto accurate?",
+        "neural machine translation ki?",
+        "best translation tools ki?",
+        "machine translation er limitation ki?",
+        "Bangla translation AI ache?"
+    ],
+    "answers": [
+        "Machine translation uses AI to automatically translate text from one language to another. Google Translate, DeepL, and modern LLMs all provide translation capabilities with varying quality levels.",
+        "Machine translation holo AI diye ek bhasha theke onno bhashay translate kora. Neural Machine Translation (NMT) transformer model use kore ar onek accurate result dey.",
+        "Modern machine translation uses transformer-based models that understand context much better than older statistical methods. DeepL is often considered the most accurate for European languages.",
+        "AI translation has improved significantly but still struggles with idioms, cultural context, and low-resource languages. For critical documents, human review is still recommended alongside machine translation."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "imf",
+    "type": "general",
+    "questions": [
+        "What is IMF?",
+        "IMF ki kaj kore?",
+        "IMF er full form ki?",
+        "how does IMF help countries?",
+        "IMF loan nile ki hoy?"
+    ],
+    "answers": [
+        "The International Monetary Fund (IMF) is a global organization of 190 countries working to foster monetary cooperation, financial stability, and sustainable economic growth.",
+        "IMF countries ke financial crisis er somoy loan dey, but conditions thake like austerity measures ar economic reforms implement korte hoy.",
+        "IMF monitors global economic trends, provides policy advice to member nations, and offers financial assistance to countries facing balance of payment problems.",
+        "IMF er kaj holo global monetary system stable rakhা, exchange rates monitor kora, ar member countries ke economic crisis theke recover korte help kora."
+    ]
+}

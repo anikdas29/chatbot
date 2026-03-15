@@ -1,0 +1,20 @@
+{
+    "category": "time_travel",
+    "type": "general",
+    "questions": [
+        "Is time travel possible?",
+        "What is time travel?",
+        "time travel ki shombhob?",
+        "How would time travel work?",
+        "What are time travel paradoxes?",
+        "Einstein time travel theory ki?",
+        "Best time travel movies",
+        "Can we go back in time?"
+    ],
+    "answers": [
+        "Time travel forward in time is technically possible through time dilation, as predicted by Einstein's relativity. Traveling near light speed or near a strong gravitational field slows your time relative to others. Going backward in time remains theoretical.",
+        "The grandfather paradox is the most famous time travel paradox: if you go back and prevent your grandfather from meeting your grandmother, you'd never be born to travel back. This and similar paradoxes make backward time travel problematic.",
+        "Time travel holo somoy er moddhe diye age ba pechone jaoya. Einstein er theory onujayi, light speed er kachakachi speed e gele time slow hoye jay. Future e jaoya theoretically possible, kintu past e jaoya ekhono science fiction.",
+        "Einstein's theory of relativity shows time passes differently depending on speed and gravity. Astronauts on the ISS actually age slightly slower than people on Earth. While forward time travel is proven, backward time travel would require exotic concepts like wormholes."
+    ]
+}

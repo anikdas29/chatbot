@@ -1,0 +1,17 @@
+{
+    "category": "contracts",
+    "type": "general",
+    "questions": [
+        "What is a contract?",
+        "contract ki?",
+        "What makes a contract legal?",
+        "contract e ki ki thake?",
+        "Can I break a contract?"
+    ],
+    "answers": [
+        "A contract is a legally binding agreement between two or more parties that outlines rights, obligations, and terms. It can be written or verbal, though written is always safer.",
+        "Contract holo dui ba totodhik party er moddhe ekta legal agreement ja tader odhikar ar dayitto nirdhaaron korey.",
+        "A valid contract needs an offer, acceptance, consideration (something of value exchanged), legal capacity of both parties, and a lawful purpose.",
+        "Breaking a contract (breach) can have legal consequences like paying damages. However, some contracts have exit clauses, and courts may void contracts made under fraud or duress."
+    ]
+}

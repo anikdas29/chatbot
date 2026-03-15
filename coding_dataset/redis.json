@@ -1,0 +1,19 @@
+{
+    "category": "redis",
+    "type": "coding",
+    "questions": [
+        "what is redis?",
+        "redis ki cache hishtabe use hoy?",
+        "redis vs memcached which is better?",
+        "how does redis work?",
+        "what are redis data structures?",
+        "when should I use redis?",
+        "is redis a database?"
+    ],
+    "answers": [
+        "Redis is an in-memory data store used as a cache, message broker, and database. It's incredibly fast because it keeps all data in RAM and supports various data structures like strings, lists, sets, and hashes.",
+        "Redis is the world's most popular in-memory data store. It's used for caching, session management, real-time leaderboards, pub/sub messaging, and rate limiting with sub-millisecond response times.",
+        "Redis stores data in memory for blazing-fast reads and writes. It supports persistence to disk, replication, and clustering. Its data structures like sorted sets and streams make it far more than a simple cache.",
+        "Redis is essential for high-performance applications. Use it for caching database queries, managing user sessions, building real-time features, and as a message broker between microservices."
+    ]
+}

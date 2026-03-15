@@ -1,0 +1,20 @@
+# ONNX model (90MB - download with: python download_model.py)
+models/
+
+# Python
+__pycache__/
+*.pyc
+
+# SQLite database
+chatbot.db
+
+# Logs
+chatbot.log
+
+# Archives
+archive.zip
+
+# Conversation exports
+Conversation.csv
+chatbot_conversations.csv
+chatbot_conversations.json

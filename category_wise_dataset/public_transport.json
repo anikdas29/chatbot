@@ -1,0 +1,19 @@
+{
+    "category": "public_transport",
+    "type": "general",
+    "questions": [
+        "benefits of public transport?",
+        "public transport keno use korbo?",
+        "public transport ki?",
+        "bus vs car commute?",
+        "how to use public transport?",
+        "public transport tips for beginners?",
+        "public transport er problem ki ki?"
+    ],
+    "answers": [
+        "Public transport includes buses, trains, metros, and trams shared by the public. It's more affordable and environmentally friendly than private vehicles, and reduces traffic congestion.",
+        "Public transport use korle taka save hoy, traffic jam kome, ar environment er jonno bhalo. Protidin car use korar cheye bus ba metro te jaoa onek cost-effective.",
+        "Challenges of public transport include overcrowding, delays, limited routes in some areas, and safety concerns. But improving public transit is key to sustainable cities and reducing pollution.",
+        "For first-time users: plan your route in advance using apps like Google Maps, carry exact change or get a transit card, arrive early, and keep your belongings secure. It gets easier with practice!"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "category": "aliens",
+    "type": "general",
+    "questions": [
+        "Do aliens exist?",
+        "What are aliens?",
+        "alien ki shotti ache?",
+        "Has NASA found alien life?",
+        "What is the Fermi Paradox?",
+        "extraterrestrial life ki?",
+        "Where could aliens be?",
+        "SETI ki kore?"
+    ],
+    "answers": [
+        "While we haven't found definitive proof of alien life yet, the vastness of the universe makes it statistically likely that life exists elsewhere. Scientists actively search through programs like SETI and by studying exoplanets.",
+        "The Fermi Paradox asks: if the universe is so vast, why haven't we found aliens yet? Possible explanations include vast distances, different timelines of civilization development, or that advanced civilizations are rare.",
+        "Alien ba extraterrestrial life mane prithibir baire er jibon. Universe e billions of galaxies ar trillions of planets ache, tai onek scientist mone koren je kothao na kothao life thakte pare.",
+        "NASA and other space agencies search for signs of life on Mars, Europa (Jupiter's moon), and Enceladus (Saturn's moon). The discovery of water and organic molecules on other planets keeps hope alive for finding at least microbial extraterrestrial life."
+    ]
+}

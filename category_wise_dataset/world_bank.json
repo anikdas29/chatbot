@@ -1,0 +1,17 @@
+{
+    "category": "world_bank",
+    "type": "general",
+    "questions": [
+        "What is the World Bank?",
+        "World Bank ki kore?",
+        "who funds the World Bank?",
+        "World Bank ar IMF er difference ki?",
+        "how does World Bank help developing countries?"
+    ],
+    "answers": [
+        "The World Bank is an international financial institution that provides loans and grants to developing countries for capital projects aimed at reducing poverty.",
+        "World Bank developing countries ke loan ar technical assistance dey infrastructure, education, health, ar poverty reduction er jonno.",
+        "Unlike the IMF which focuses on monetary stability, the World Bank specifically targets long-term economic development and poverty reduction through project financing.",
+        "The World Bank is funded by member country contributions and by issuing bonds in global markets, then channels these funds to development projects worldwide."
+    ]
+}

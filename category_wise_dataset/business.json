@@ -148,6 +148,16 @@
             "question": "how to start a business",
             "sentiment": "curious",
             "answer": "Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Valo question! To start a business: find a real problem people have, test your solution cheaply (MVP), get your first 10 customers, then scale.\n\nHope this helps!"
+        },
+        {
+            "question": "how to start a business",
+            "sentiment": "curious",
+            "answer": "Great question! To start a business: find a real problem people have, test your solution cheaply (MVP), get your first 10 customers, then scale.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

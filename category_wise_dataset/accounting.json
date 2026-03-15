@@ -1,0 +1,17 @@
+{
+    "category": "accounting",
+    "type": "general",
+    "questions": [
+        "What is accounting?",
+        "accounting ki?",
+        "Why is accounting important?",
+        "accounting er basic concepts ki ki?",
+        "What's the difference between accounting and finance?"
+    ],
+    "answers": [
+        "Accounting is the process of recording, classifying, summarizing, and reporting financial transactions to help businesses track their money and make informed decisions.",
+        "Accounting holo taka-paisa er hisab-nikash — income, expense, ar financial transaction record kore report toiri korar process.",
+        "Key accounting concepts include double-entry bookkeeping, assets and liabilities, revenue and expenses, the accounting equation (Assets = Liabilities + Equity), and financial statements.",
+        "Accounting is important because it helps businesses understand their financial health, comply with tax laws, make strategic decisions, and communicate their performance to investors and stakeholders."
+    ]
+}

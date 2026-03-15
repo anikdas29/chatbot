@@ -1,0 +1,18 @@
+{
+    "category": "food_tech",
+    "type": "general",
+    "questions": [
+        "food tech ki?",
+        "what is food technology?",
+        "food technology te ki kore?",
+        "tell me about food tech",
+        "food science ar food tech er difference ki?",
+        "food tech er future kemon?"
+    ],
+    "answers": [
+        "Food technology applies science and engineering to the production, processing, preservation, packaging, and distribution of food. It ensures food is safe, nutritious, and accessible.",
+        "Food technology holo food production, processing, ar preservation er science. Canning, freezing, pasteurization — shob food tech er contribution.",
+        "Modern food tech includes innovations like 3D-printed food, precision fermentation, plant-based protein engineering, AI-driven recipe development, and smart packaging that detects spoilage.",
+        "Food technology is evolving rapidly with trends like personalized nutrition, sustainable packaging, alternative proteins, and blockchain-based food traceability for supply chain transparency."
+    ]
+}

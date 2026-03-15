@@ -98,6 +98,16 @@
             "question": "how to improve communication",
             "sentiment": "curious",
             "answer": "Communication tips: be concise, listen twice as much as you speak, maintain eye contact, and don't be afraid of short pauses."
+        },
+        {
+            "question": "how to improve communication",
+            "sentiment": "curious",
+            "answer": "Great question! Communication tips: be concise, listen twice as much as you speak, maintain eye contact, and don't be afraid of short pauses."
+        },
+        {
+            "question": "how to improve communication",
+            "sentiment": "curious",
+            "answer": "Great question! Communication tips: be concise, listen twice as much as you speak, maintain eye contact, and don't be afraid of short pauses."
         }
     ]
 }

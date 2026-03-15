@@ -1,0 +1,19 @@
+{
+    "category": "unreal_engine",
+    "type": "general",
+    "questions": [
+        "What is Unreal Engine?",
+        "Unreal Engine ki?",
+        "Unreal Engine free naki",
+        "Unreal Engine vs Unity konta valo",
+        "Unreal Engine kivabe shikhi",
+        "Unreal Engine 5 er new features ki",
+        "Unreal Engine te ki language lage"
+    ],
+    "answers": [
+        "Unreal Engine is a powerful game engine by Epic Games, known for stunning graphics. It uses C++ and Blueprints (visual scripting) and powers many AAA games like Fortnite and Final Fantasy VII Remake.",
+        "Unreal Engine holo Epic Games er game engine — AAA quality graphics er jonno famous. C++ ar Blueprint (visual scripting) use kore. Free to use until you earn $1M revenue.",
+        "Unreal Engine 5 introduced Nanite (virtual geometry), Lumen (global illumination), and MetaHuman for realistic characters. It's the top choice for high-fidelity 3D games and film production.",
+        "Unreal Engine excels at photorealistic graphics and large-scale projects. It's free to download, and you only pay 5% royalty after $1M in revenue. Great for AAA games, architectural visualization, and virtual production."
+    ]
+}

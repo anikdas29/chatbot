@@ -1,0 +1,20 @@
+{
+    "category": "supplements",
+    "type": "general",
+    "questions": [
+        "What supplements should I take?",
+        "supplements ki?",
+        "Are supplements necessary?",
+        "Best daily supplements",
+        "vitamin supplement ki khabo?",
+        "Do I need multivitamins?",
+        "Which supplements actually work?",
+        "supplement er side effect ki?"
+    ],
+    "answers": [
+        "Common beneficial supplements include Vitamin D, omega-3 fish oil, magnesium, and B12 (especially for vegetarians). However, getting nutrients from whole foods is always preferred over supplements.",
+        "Not everyone needs supplements. If you eat a balanced diet, you may get most nutrients from food. Vitamin D is one exception since many people are deficient, especially those with limited sun exposure.",
+        "Supplement holo khabar er poripurok jeta vitamin, mineral, ba onno nutrient provide kore. Vitamin D, omega-3, magnesium, ar B12 holo most common ar evidence-backed supplements.",
+        "Before taking supplements, get a blood test to identify actual deficiencies. Popular science-backed ones include Vitamin D3, omega-3, magnesium, and probiotics. Always buy from reputable brands and consult a healthcare provider, as some supplements can interact with medications."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "category": "accessibility",
+    "type": "general",
+    "questions": [
+        "What is web accessibility?",
+        "accessibility mane ki?",
+        "why is accessibility important",
+        "how to make a website accessible",
+        "WCAG ki?",
+        "screen reader er jonno design kivabe kore",
+        "accessibility testing kivabe kore"
+    ],
+    "answers": [
+        "Web accessibility means designing websites and apps that everyone can use, including people with disabilities — visual, auditory, motor, or cognitive impairments.",
+        "Accessibility holo shobার jonno product use korar sujog toiri kora. Color contrast thik rakhা, alt text deya, keyboard navigation ensure kora — eishob accessibility er part.",
+        "WCAG (Web Content Accessibility Guidelines) provides standards for accessible design. Key principles: Perceivable, Operable, Understandable, and Robust. Aim for at least WCAG 2.1 AA compliance.",
+        "To improve accessibility, use semantic HTML, provide alt text for images, ensure sufficient color contrast (4.5:1 ratio), support keyboard navigation, and test with screen readers like NVDA or VoiceOver."
+    ]
+}

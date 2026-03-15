@@ -1,0 +1,20 @@
+{
+    "category": "electrocution",
+    "type": "general",
+    "questions": [
+        "what to do if someone gets electrocuted",
+        "current lege gele ki korbo",
+        "electric shock first aid",
+        "bijli te shock lege gele",
+        "electrocution treatment ki",
+        "how to help someone with electric shock",
+        "current lagley ki hoy",
+        "electric shock hole ki korte hoy"
+    ],
+    "answers": [
+        "If someone is electrocuted, do NOT touch them directly. Turn off the power source first. Use a dry non-conductive object (wooden stick, rubber) to separate them from the source. Then call 999 and start CPR if needed.",
+        "Current lege gele prothome power off korun. Khaali haate dhora jabe na — kaath ba rubber diye alada korun. Tarpor breathing check korun, CPR din dorkar hole, ar ambulance call korun.",
+        "Electric shock first aid: Disconnect power, don't touch the victim with bare hands, check breathing, perform CPR if unresponsive. Even if they seem okay, always go to the hospital as internal injuries may not be visible.",
+        "Bijli te shock lagley nijeke safe rakhun prothome. Power source off korun ba non-conductor diye victim ke alada korun. Hospital e jete hobe — current e internal organ damage hote pare ja baire bujha jay na."
+    ]
+}

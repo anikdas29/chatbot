@@ -199,6 +199,36 @@
             "question": "need help with java",
             "sentiment": "confused",
             "answer": "Chinta koro na, ami bujhiye bolchi. Learn Java: start with Core Java (OOP, collections), then move to Spring Boot for backend, or Android Studio for mobile development."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Nice question! Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Good one! Java basics: variables, data types, loops, OOP (classes, objects, inheritance, polymorphism), exception handling, and collections framework."
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Let me explain. Java basics: variables, data types, loops, OOP (classes, objects, inheritance, polymorphism), exception handling, and collections framework."
+        },
+        {
+            "question": "what is java",
+            "sentiment": "curious",
+            "answer": "Interesting! Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once, run anywhere' is its motto. And Java vs Python: Java is faster and strictly typed (good for large systems)."
+        },
+        {
+            "question": "how to learn java",
+            "sentiment": "curious",
+            "answer": "Valo question! Java basics: variables, data types, loops, OOP (classes, objects, inheritance, polymorphism), exception handling, and collections framework.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "need help with java",
+            "sentiment": "confused",
+            "answer": "Simply put: Java basics: variables, data types, loops, OOP (classes, objects, inheritance, polymorphism), exception handling, and collections framework."
         }
     ]
 }

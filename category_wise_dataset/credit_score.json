@@ -1,0 +1,17 @@
+{
+    "category": "credit_score",
+    "type": "general",
+    "questions": [
+        "What is a credit score?",
+        "credit score ki?",
+        "how to improve credit score?",
+        "credit score koto hole bhalo?",
+        "credit score kivabe calculate hoy?"
+    ],
+    "answers": [
+        "A credit score is a numerical rating (typically 300-850) that represents your creditworthiness based on your credit history, payment behavior, and debt levels.",
+        "Credit score holo tomar financial trustworthiness er number. 750+ ke excellent dhora hoy. Eta loan approval, interest rate, ar credit card pawar jonno important.",
+        "To improve your credit score, pay bills on time, keep credit utilization below 30%, don't close old accounts, avoid too many new credit applications, and check your report for errors.",
+        "Credit scores are calculated using payment history (35%), credit utilization (30%), length of credit history (15%), credit mix (10%), and new credit inquiries (10%)."
+    ]
+}

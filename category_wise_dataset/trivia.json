@@ -1,0 +1,19 @@
+{
+    "category": "trivia",
+    "type": "general",
+    "questions": [
+        "Trivia ki?",
+        "Tell me some fun trivia",
+        "Trivia games kivabe khele?",
+        "Best trivia apps ki ki?",
+        "Interesting facts bolo kichu",
+        "How to be good at trivia?",
+        "Quiz competition e kivabe jitbo?"
+    ],
+    "answers": [
+        "Trivia refers to little-known facts and tidbits of knowledge across various topics. Trivia games test your general knowledge in categories like science, history, pop culture, geography, and sports.",
+        "Fun trivia: Honey never spoils, octopuses have 3 hearts, and the Eiffel Tower grows about 6 inches in summer due to heat expansion! Learning random facts is both fun and impressive at parties.",
+        "Popular trivia apps include Trivia Crack, QuizUp, and HQ Trivia. To get better at trivia, read widely across many topics, watch documentaries, and practice with quiz apps daily.",
+        "To win quiz competitions, build broad knowledge across many subjects, practice with past quiz questions, and stay updated on current events. Speed of recall matters as much as knowing the answer!"
+    ]
+}

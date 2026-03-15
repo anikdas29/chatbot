@@ -85,6 +85,16 @@
             "question": "how to become web developer",
             "sentiment": "curious",
             "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Nice question! Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume. Additionally, Frontend = what users see (HTML, CSS, JS, React)."
+        },
+        {
+            "question": "how to become web developer",
+            "sentiment": "curious",
+            "answer": "Great question! Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume. Also, Web dev roadmap: HTML/CSS/JS (frontend basics), then React or Vue (framework), then Node.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

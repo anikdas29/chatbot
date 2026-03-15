@@ -1,0 +1,19 @@
+{
+    "category": "illustrator",
+    "type": "general",
+    "questions": [
+        "What is Adobe Illustrator?",
+        "Illustrator ki?",
+        "Illustrator diye ki kora jay",
+        "Illustrator vs Photoshop difference",
+        "how to learn Illustrator",
+        "Illustrator er pen tool kivabe use kore",
+        "vector art ki"
+    ],
+    "answers": [
+        "Adobe Illustrator is a vector graphics editor used for creating logos, icons, illustrations, and print designs. Unlike Photoshop, Illustrator uses mathematical paths so graphics scale infinitely without losing quality.",
+        "Illustrator holo vector design er jonno — logo, icon, illustration banate Illustrator use kora hoy. Joto baro korben toto clear thakbe, pixel e vangbe na.",
+        "Illustrator is best for logos, icons, typography, infographics, and print-ready designs. Master the Pen tool, Pathfinder, and Shape Builder to become proficient. Start with simple shapes and work up.",
+        "The key difference: Photoshop works with pixels (raster) while Illustrator works with vectors. Use Illustrator for anything that needs to scale — logos, business cards, banners, and illustrations."
+    ]
+}

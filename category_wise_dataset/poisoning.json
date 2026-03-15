@@ -1,0 +1,20 @@
+{
+    "category": "poisoning",
+    "type": "general",
+    "questions": [
+        "what to do if someone is poisoned",
+        "bish kheye felle ki korbo",
+        "poisoning first aid",
+        "poison treatment ki",
+        "keu chemical kheye felle",
+        "accidental poisoning hole ki korbo",
+        "baccha poison kheye felle",
+        "poisoning er symptoms ki"
+    ],
+    "answers": [
+        "If someone is poisoned, call 999 immediately. Try to identify what they consumed. Don't induce vomiting unless instructed by a doctor. Keep the person calm and monitor their breathing.",
+        "Bish kheye felle prothome 999 call korun. Ki kheye6e seta janun — bottle ba packet thakle sheta rakhun. Bomi koranor try korben na, karon kono chemical e eta worse kore.",
+        "Poisoning first aid: Call emergency services, identify the poison if possible, don't give food or water unless told to. If the person is unconscious, place them in recovery position and monitor breathing.",
+        "Poisoning hole hospital e niye jan quickly. Poison er container/label niye jan — doctor er jonno helpful hobe. Breathing bondho hole CPR din. Chemical splash hole pani diye 20 minute wash korun."
+    ]
+}

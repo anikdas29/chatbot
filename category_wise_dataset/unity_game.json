@@ -1,0 +1,19 @@
+{
+    "category": "unity_game",
+    "type": "general",
+    "questions": [
+        "What is Unity?",
+        "Unity ki?",
+        "Unity diye ki game banano jay",
+        "Unity vs Unreal Engine konta valo",
+        "how to learn Unity",
+        "Unity free naki paid",
+        "Unity te ki language use hoy"
+    ],
+    "answers": [
+        "Unity is one of the most popular game engines in the world. It uses C# programming language and supports 2D, 3D, AR, and VR game development across all major platforms.",
+        "Unity holo game development engine — 2D, 3D, mobile, PC, console shob platform er game banano jay. C# language use kore. Among Us, Hollow Knight — shob Unity te banano.",
+        "Unity is free for individuals and small studios earning under $100K/year. To learn, start with Unity's official tutorials, then try making simple games like Pong or a platformer to build skills.",
+        "Unity uses C# for scripting and has a massive Asset Store with ready-made assets. It's great for indie games, mobile games, and AR/VR projects. The community and documentation are excellent."
+    ]
+}

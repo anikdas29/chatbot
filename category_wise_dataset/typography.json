@@ -1,0 +1,19 @@
+{
+    "category": "typography",
+    "type": "general",
+    "questions": [
+        "What is typography?",
+        "typography mane ki?",
+        "best fonts for web design",
+        "serif vs sans serif difference",
+        "how to pair fonts",
+        "typography rules ki ki",
+        "font size koto howa uchit"
+    ],
+    "answers": [
+        "Typography is the art of arranging text to make it readable, appealing, and effective. It covers font selection, size, spacing, line height, and hierarchy.",
+        "Typography holo text er design — kono font use korbe, size koto hobe, spacing kemon hobe eishob decide kora. Good typography makes content easy to read.",
+        "For web design, popular fonts include Inter, Roboto, Open Sans, and Poppins. Pair a serif heading with a sans-serif body for contrast. Keep body text at 16px minimum for readability.",
+        "Typography involves choosing typefaces, setting line heights, managing whitespace, and creating visual hierarchy. A well-designed typographic system makes your content scannable and professional."
+    ]
+}

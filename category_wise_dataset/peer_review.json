@@ -1,0 +1,19 @@
+{
+    "category": "peer_review",
+    "type": "general",
+    "questions": [
+        "peer review ki?",
+        "peer review process ki?",
+        "peer review keno important?",
+        "how does peer review work?",
+        "peer review er limitation ki?",
+        "double blind review ki?",
+        "peer review e reviewer ki ki dekhe?"
+    ],
+    "answers": [
+        "Peer review is the process where experts in a field evaluate research papers before publication. It helps ensure quality, validity, and significance of published research.",
+        "Peer review holo research paper publish howar age expert der evaluation. Reviewers methodology check kore, findings verify kore, ar suggestions dey. Journal quality maintain korar key process.",
+        "In peer review, submitted papers are sent to 2-3 independent experts who evaluate methodology, originality, clarity, and significance. They recommend accept, revise, or reject. Double-blind means neither author nor reviewer knows each other.",
+        "Peer review is essential for maintaining scientific integrity, but it's not perfect. It can be slow, biased, and sometimes misses errors. Despite limitations, it remains the gold standard for academic quality control."
+    ]
+}

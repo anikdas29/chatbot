@@ -1,0 +1,17 @@
+{
+    "category": "express",
+    "type": "coding",
+    "questions": [
+        "what is express",
+        "express tutorial",
+        "learn express",
+        "express basics",
+        "express ki"
+    ],
+    "answers": [
+        "Express.js: minimal Node.js web framework. Middleware-based, flexible, most popular for Node.",
+        "Learn express from official docs and tutorials. Practice by building projects.",
+        "Express is widely used in industry. Great skill to add to your portfolio.",
+        "Start with express basics, build small projects, then tackle real-world applications."
+    ]
+}

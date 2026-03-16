@@ -1,0 +1,17 @@
+{
+    "category": "bitbucket",
+    "type": "general",
+    "questions": [
+        "what is bitbucket",
+        "bitbucket basics",
+        "bitbucket tutorial",
+        "learn bitbucket",
+        "bitbucket ki"
+    ],
+    "answers": [
+        "Bitbucket: Atlassian's Git hosting. Integrates with Jira. Pipelines for CI/CD. Free for small teams.",
+        "Learn bitbucket through documentation, tutorials, and hands-on practice.",
+        "Bitbucket is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with bitbucket: install, follow quickstart guide, and build a small project."
+    ]
+}

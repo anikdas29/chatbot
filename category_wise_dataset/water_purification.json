@@ -1,0 +1,17 @@
+{
+    "category": "water_purification",
+    "type": "general",
+    "questions": [
+        "how to purify water",
+        "water purification methods",
+        "safe drinking water",
+        "water filter types",
+        "pani filter"
+    ],
+    "answers": [
+        "Water purification methods: boiling (easiest), filtration (removes particles), chlorination, UV treatment, reverse osmosis (best).",
+        "Home filters: activated carbon (removes taste/odor), RO (removes most contaminants), UV (kills bacteria). RO is most thorough.",
+        "Boiling water for 1 minute kills most pathogens. Let it cool, then store in clean container. Simplest method.",
+        "Pani filter types: RO filter (best quality), UV filter (kills germs), carbon filter (taste improve kore). RO recommended."
+    ]
+}

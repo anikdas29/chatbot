@@ -1,0 +1,17 @@
+{
+    "category": "inventory_management",
+    "type": "general",
+    "questions": [
+        "inventory management basics",
+        "how to manage inventory",
+        "inventory tips",
+        "stock management",
+        "mal er hishab"
+    ],
+    "answers": [
+        "Inventory management: tracking what you have, what you need, and when to reorder. Balance between too much and too little stock.",
+        "Methods: FIFO (first in first out), LIFO (last in first out), JIT (just in time — minimize stock), ABC analysis (prioritize high-value).",
+        "Tips: use inventory software, set reorder points, do regular cycle counts, and analyze demand patterns.",
+        "ABC analysis: A items (20% of stock, 80% of value) — track closely. B items moderate. C items (bulk of items, low value) — simple tracking."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "beer",
+    "type": "general",
+    "questions": [
+        "about beer",
+        "beer types",
+        "best beer",
+        "beer tips",
+        "beer ki"
+    ],
+    "answers": [
+        "Beer: fermented grain beverage. Types: lager, ale, stout, IPA, wheat beer. Craft beer is booming.",
+        "Exploring beer is a delicious journey. Try different varieties and styles.",
+        "The world of beer is rich and diverse. Start with the basics and expand your palate.",
+        "Beer has a fascinating history and culture behind it. Learn and enjoy!"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "angular",
+    "type": "coding",
+    "questions": [
+        "what is angular",
+        "angular tutorial",
+        "learn angular",
+        "angular basics",
+        "angular ki"
+    ],
+    "answers": [
+        "Angular: Google's TypeScript framework. Full-featured with CLI, routing, forms, HTTP client.",
+        "Learn angular from official docs and tutorials. Practice by building projects.",
+        "Angular is widely used in industry. Great skill to add to your portfolio.",
+        "Start with angular basics, build small projects, then tackle real-world applications."
+    ]
+}

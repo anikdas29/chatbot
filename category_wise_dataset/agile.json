@@ -1,0 +1,17 @@
+{
+    "category": "agile",
+    "type": "general",
+    "questions": [
+        "what is agile",
+        "agile methodology",
+        "agile basics",
+        "agile vs waterfall",
+        "agile ki"
+    ],
+    "answers": [
+        "Agile = iterative approach to development. Deliver working software in short sprints (2-4 weeks) with continuous feedback.",
+        "Agile principles: individuals over processes, working software over docs, customer collaboration, responding to change.",
+        "Agile vs Waterfall: Agile is flexible/iterative, Waterfall is sequential/rigid. Agile works better when requirements change often.",
+        "Key practices: daily standups, sprint planning, retrospectives, backlog grooming, and continuous delivery."
+    ]
+}

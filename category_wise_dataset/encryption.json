@@ -1,0 +1,17 @@
+{
+    "category": "encryption",
+    "type": "general",
+    "questions": [
+        "what is encryption",
+        "encryption explained",
+        "encryption basics",
+        "encryption tips",
+        "encryption ki"
+    ],
+    "answers": [
+        "Encryption converts data to unreadable format. AES (files), RSA (communication), HTTPS (websites).",
+        "Learn more about encryption to stay informed and make better decisions.",
+        "Encryption is important in today's connected world.",
+        "Understanding encryption helps you navigate the modern digital landscape."
+    ]
+}

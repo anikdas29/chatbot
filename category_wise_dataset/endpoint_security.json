@@ -1,0 +1,17 @@
+{
+    "category": "endpoint_security",
+    "type": "general",
+    "questions": [
+        "what is endpoint security",
+        "endpoint security explained",
+        "endpoint security basics",
+        "endpoint security tips",
+        "endpoint security ki"
+    ],
+    "answers": [
+        "Endpoint security protects devices (laptops, phones) connecting to network. EDR tools detect threats.",
+        "Learn more about endpoint security to stay informed and make better decisions.",
+        "Endpoint Security is important in today's connected world.",
+        "Understanding endpoint security helps you navigate the modern digital landscape."
+    ]
+}

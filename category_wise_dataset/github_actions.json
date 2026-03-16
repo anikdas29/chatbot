@@ -1,0 +1,17 @@
+{
+    "category": "github_actions",
+    "type": "general",
+    "questions": [
+        "what is github actions",
+        "github actions basics",
+        "github actions tutorial",
+        "learn github actions",
+        "github actions ki"
+    ],
+    "answers": [
+        "GitHub Actions: CI/CD built into GitHub. YAML workflows triggered by events. Free for public repos.",
+        "Learn github actions through documentation, tutorials, and hands-on practice.",
+        "Github Actions is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with github actions: install, follow quickstart guide, and build a small project."
+    ]
+}

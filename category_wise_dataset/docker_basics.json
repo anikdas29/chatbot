@@ -1,0 +1,17 @@
+{
+    "category": "docker_basics",
+    "type": "general",
+    "questions": [
+        "what is docker",
+        "docker tutorial",
+        "docker basics",
+        "how to use docker",
+        "docker ki"
+    ],
+    "answers": [
+        "Docker = platform for building and running containers. Write a Dockerfile, build an image, run a container. That simple.",
+        "Key commands: docker build, docker run, docker ps, docker stop, docker logs, docker exec, docker-compose up.",
+        "Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment.",
+        "Start Docker: install Docker Desktop, run 'docker run hello-world' to test, then containerize your own app with a Dockerfile."
+    ]
+}

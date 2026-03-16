@@ -1,0 +1,17 @@
+{
+    "category": "virtual_reality",
+    "type": "general",
+    "questions": [
+        "what is virtual reality",
+        "VR basics",
+        "best VR headsets",
+        "VR uses",
+        "VR ki"
+    ],
+    "answers": [
+        "VR = immersive digital experience. Wear a headset and feel like you are inside a 3D world. Gaming, training, therapy.",
+        "Best headsets: Meta Quest 3 (standalone, affordable), PlayStation VR2 (gaming), Apple Vision Pro (mixed reality, premium).",
+        "VR uses: gaming, education, medical training, virtual tourism, architecture visualization, therapy for phobias/PTSD.",
+        "VR basics: needs headset with display + tracking. Standalone (Quest) or PC-connected (Valve Index) options available."
+    ]
+}

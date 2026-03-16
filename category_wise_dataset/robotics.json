@@ -1,0 +1,17 @@
+{
+    "category": "robotics",
+    "type": "general",
+    "questions": [
+        "robotics basics",
+        "how to learn robotics",
+        "types of robots",
+        "robotics for beginners",
+        "robot ki"
+    ],
+    "answers": [
+        "Robotics = designing, building, and programming robots. Combines mechanics, electronics, and computer science.",
+        "Types: industrial (manufacturing), service (cleaning), medical (surgery), autonomous vehicles, drones, humanoid.",
+        "Learn robotics: start with Arduino or Raspberry Pi, build simple bots, learn programming (Python/C++), and add sensors.",
+        "Beginner path: learn electronics basics → program Arduino → build a line-following robot → add sensors → make it smarter."
+    ]
+}

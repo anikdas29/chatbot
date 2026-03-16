@@ -1,0 +1,17 @@
+{
+    "category": "web3",
+    "type": "general",
+    "questions": [
+        "what is web3",
+        "web3 explained",
+        "web3 vs web2",
+        "web3 basics",
+        "web3 ki"
+    ],
+    "answers": [
+        "Web3 = decentralized internet built on blockchain. Users own their data, content, and digital assets. No big tech gatekeepers.",
+        "Web3 vs Web2: Web2 = platforms own your data (Facebook, Google). Web3 = you own your data, identity, and digital assets.",
+        "Web3 components: blockchain, cryptocurrency, NFTs, DAOs (decentralized organizations), DeFi, and decentralized apps (dApps).",
+        "Web3 is still early — infrastructure is being built. Current challenges: UX complexity, scalability, and regulatory uncertainty."
+    ]
+}

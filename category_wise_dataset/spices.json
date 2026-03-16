@@ -1,0 +1,17 @@
+{
+    "category": "spices",
+    "type": "general",
+    "questions": [
+        "common spices",
+        "spice benefits",
+        "how to use spices",
+        "essential spices for cooking",
+        "moshla ki ki"
+    ],
+    "answers": [
+        "Essential spices: cumin, turmeric, coriander, black pepper, cinnamon, paprika, garlic powder, ginger, chili flakes.",
+        "Spice benefits: turmeric (anti-inflammatory), cinnamon (blood sugar), ginger (digestion), cumin (immunity).",
+        "Spice tips: toast whole spices in dry pan for more flavor, buy whole and grind fresh, store in dark cool place.",
+        "Moshla: holud (anti-inflammatory), jira (digestion), dhone (flavor), ada (thanda laage), golmorich (immunity boost)."
+    ]
+}

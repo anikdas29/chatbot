@@ -1,0 +1,17 @@
+{
+    "category": "network_security",
+    "type": "general",
+    "questions": [
+        "what is network security",
+        "network security explained",
+        "network security basics",
+        "network security tips",
+        "network security ki"
+    ],
+    "answers": [
+        "Network security: firewalls, IDS/IPS, segmentation, encryption, and access control protect your network.",
+        "Learn more about network security to stay informed and make better decisions.",
+        "Network Security is important in today's connected world.",
+        "Understanding network security helps you navigate the modern digital landscape."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "gitlab_ci",
+    "type": "general",
+    "questions": [
+        "what is gitlab ci",
+        "gitlab ci basics",
+        "gitlab ci tutorial",
+        "learn gitlab ci",
+        "gitlab ci ki"
+    ],
+    "answers": [
+        "GitLab CI: built-in CI/CD in GitLab. Pipelines defined in .gitlab-ci.yml. All-in-one DevOps platform.",
+        "Learn gitlab ci through documentation, tutorials, and hands-on practice.",
+        "Gitlab Ci is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with gitlab ci: install, follow quickstart guide, and build a small project."
+    ]
+}

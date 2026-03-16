@@ -1,0 +1,17 @@
+{
+    "category": "pizza",
+    "type": "general",
+    "questions": [
+        "about pizza",
+        "pizza types",
+        "best pizza",
+        "pizza tips",
+        "pizza ki"
+    ],
+    "answers": [
+        "Pizza: Italian origin, now global favorite. Neapolitan (thin), New York (foldable), Chicago (deep dish).",
+        "Exploring pizza is a delicious journey. Try different varieties and styles.",
+        "The world of pizza is rich and diverse. Start with the basics and expand your palate.",
+        "Pizza has a fascinating history and culture behind it. Learn and enjoy!"
+    ]
+}

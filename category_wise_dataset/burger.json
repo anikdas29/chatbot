@@ -1,0 +1,17 @@
+{
+    "category": "burger",
+    "type": "general",
+    "questions": [
+        "about burger",
+        "burger types",
+        "best burger",
+        "burger tips",
+        "burger ki"
+    ],
+    "answers": [
+        "Burger: ground meat patty in bun. American classic. Gourmet burgers with creative toppings trending.",
+        "Exploring burger is a delicious journey. Try different varieties and styles.",
+        "The world of burger is rich and diverse. Start with the basics and expand your palate.",
+        "Burger has a fascinating history and culture behind it. Learn and enjoy!"
+    ]
+}

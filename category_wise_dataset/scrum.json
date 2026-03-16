@@ -1,0 +1,17 @@
+{
+    "category": "scrum",
+    "type": "general",
+    "questions": [
+        "what is scrum",
+        "scrum basics",
+        "scrum framework",
+        "scrum roles",
+        "scrum master ki kore"
+    ],
+    "answers": [
+        "Scrum = most popular Agile framework. Work in 2-4 week sprints with defined roles and ceremonies.",
+        "Scrum roles: Product Owner (what to build), Scrum Master (facilitator), Development Team (builders).",
+        "Ceremonies: Sprint Planning, Daily Standup (15 min), Sprint Review (demo), Sprint Retrospective (improve).",
+        "Scrum artifacts: Product Backlog (all work), Sprint Backlog (this sprint's work), Increment (done work)."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "blockchain_basics",
+    "type": "general",
+    "questions": [
+        "what is blockchain",
+        "blockchain explained",
+        "how blockchain works",
+        "blockchain technology",
+        "blockchain ki"
+    ],
+    "answers": [
+        "Blockchain = distributed, immutable ledger. Every transaction is recorded in blocks linked cryptographically. No central authority.",
+        "How it works: transactions are verified by network nodes (miners/validators), added to a block, and linked to previous blocks.",
+        "Uses beyond crypto: supply chain tracking, voting, medical records, identity verification, and smart contracts.",
+        "Blockchain types: public (Bitcoin, Ethereum — anyone can join), private (company-controlled), consortium (group-controlled)."
+    ]
+}

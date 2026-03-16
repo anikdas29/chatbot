@@ -1,0 +1,17 @@
+{
+    "category": "diet_plans",
+    "type": "general",
+    "questions": [
+        "best diet plan",
+        "healthy diet plan",
+        "diet plan for weight loss",
+        "diet chart",
+        "khabar talika"
+    ],
+    "answers": [
+        "Balanced diet: 40% carbs, 30% protein, 30% healthy fats. Fill half your plate with vegetables at each meal.",
+        "Weight loss diet: reduce carbs slightly, increase protein (keeps you full), eat more fiber, and avoid liquid calories.",
+        "Healthy eating: whole grains, lean protein, lots of veggies and fruits, healthy fats (nuts, olive oil), and adequate water.",
+        "Khabar talika: shokal e protein (dim/oats), dupure bhat-mach-shobji, bikale fruits/nuts, rate halka khabar khao."
+    ]
+}

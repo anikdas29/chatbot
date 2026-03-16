@@ -1,0 +1,17 @@
+{
+    "category": "regression",
+    "type": "general",
+    "questions": [
+        "what is regression",
+        "regression basics",
+        "regression tutorial",
+        "learn regression",
+        "regression ki"
+    ],
+    "answers": [
+        "Regression: predicting continuous values. Linear, polynomial, ridge, lasso. Foundation of ML.",
+        "Learn regression through documentation, tutorials, and hands-on practice.",
+        "Regression is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with regression: install, follow quickstart guide, and build a small project."
+    ]
+}

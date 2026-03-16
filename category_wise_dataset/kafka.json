@@ -1,0 +1,17 @@
+{
+    "category": "kafka",
+    "type": "general",
+    "questions": [
+        "what is kafka",
+        "kafka basics",
+        "kafka tutorial",
+        "learn kafka",
+        "kafka ki"
+    ],
+    "answers": [
+        "Apache Kafka: distributed event streaming platform. High throughput messaging for real-time data pipelines.",
+        "Learn kafka through documentation, tutorials, and hands-on practice.",
+        "Kafka is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with kafka: install, follow quickstart guide, and build a small project."
+    ]
+}

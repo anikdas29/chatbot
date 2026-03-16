@@ -1,0 +1,17 @@
+{
+    "category": "svelte",
+    "type": "coding",
+    "questions": [
+        "what is svelte",
+        "svelte tutorial",
+        "learn svelte",
+        "svelte basics",
+        "svelte ki"
+    ],
+    "answers": [
+        "Svelte: compile-time framework. No virtual DOM, tiny bundles, simple syntax.",
+        "Learn svelte from official docs and tutorials. Practice by building projects.",
+        "Svelte is widely used in industry. Great skill to add to your portfolio.",
+        "Start with svelte basics, build small projects, then tackle real-world applications."
+    ]
+}

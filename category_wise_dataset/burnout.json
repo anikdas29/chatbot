@@ -1,0 +1,24 @@
+{
+    "category": "burnout",
+    "type": "general",
+    "questions": [
+        "burnout symptoms",
+        "how to recover from burnout",
+        "burnout prevention",
+        "dealing with burnout",
+        "burnout ki"
+    ],
+    "answers": [
+        "Burnout symptoms: exhaustion, cynicism, reduced performance, detachment, and physical symptoms (headaches, insomnia).",
+        "Recovery: take time off, reduce workload, prioritize sleep, exercise, reconnect with hobbies, and consider therapy.",
+        "Prevention: set boundaries, take regular breaks, say no to extra work, and address problems early before they accumulate.",
+        "Burnout ki: otyodhik kaj er pressure e physical ar mental exhaustion. Rest, boundaries, ar self-care diye fix hoy."
+    ],
+    "feelings": [
+        {
+            "question": "How to deal with burnout?",
+            "sentiment": "curious",
+            "answer": "Interesting! Burnout symptoms: exhaustion, cynicism, reduced performance, detachment, and physical symptoms (headaches, insomnia).\n\nAr kichu jante chaile bolo!"
+        }
+    ]
+}

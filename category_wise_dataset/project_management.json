@@ -1,0 +1,17 @@
+{
+    "category": "project_management",
+    "type": "general",
+    "questions": [
+        "project management basics",
+        "how to manage projects",
+        "PM tools",
+        "project planning tips",
+        "project management ki"
+    ],
+    "answers": [
+        "Project management: planning, executing, and closing projects. Key: scope, timeline, budget, quality, and team coordination.",
+        "PM tools: Jira (tech teams), Trello (simple), Asana (versatile), Monday.com (visual), and Microsoft Project (enterprise).",
+        "Basics: define scope, create WBS (work breakdown), estimate timeline, assign resources, track progress, manage risks.",
+        "Tips: start with clear goals, communicate often, track milestones, manage scope creep, and do retrospectives after completion."
+    ]
+}

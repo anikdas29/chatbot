@@ -1,0 +1,17 @@
+{
+    "category": "data_visualization",
+    "type": "general",
+    "questions": [
+        "what is data visualization",
+        "data visualization basics",
+        "data visualization tutorial",
+        "learn data visualization",
+        "data visualization ki"
+    ],
+    "answers": [
+        "Data visualization: turning data into charts/graphs. D3.js, Chart.js, Matplotlib, Tableau, Power BI.",
+        "Learn data visualization through documentation, tutorials, and hands-on practice.",
+        "Data Visualization is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with data visualization: install, follow quickstart guide, and build a small project."
+    ]
+}

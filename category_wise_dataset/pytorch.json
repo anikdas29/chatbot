@@ -1,0 +1,17 @@
+{
+    "category": "pytorch",
+    "type": "general",
+    "questions": [
+        "what is pytorch",
+        "pytorch basics",
+        "pytorch tutorial",
+        "learn pytorch",
+        "pytorch ki"
+    ],
+    "answers": [
+        "PyTorch: Meta's ML framework. Dynamic graphs, Pythonic, great for research and production.",
+        "Learn pytorch through documentation, tutorials, and hands-on practice.",
+        "Pytorch is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with pytorch: install, follow quickstart guide, and build a small project."
+    ]
+}

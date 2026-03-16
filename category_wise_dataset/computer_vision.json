@@ -1,0 +1,17 @@
+{
+    "category": "computer_vision",
+    "type": "general",
+    "questions": [
+        "what is computer vision",
+        "computer vision basics",
+        "computer vision tutorial",
+        "learn computer vision",
+        "computer vision ki"
+    ],
+    "answers": [
+        "Computer vision: teaching computers to see. Object detection, image classification, segmentation.",
+        "Learn computer vision through documentation, tutorials, and hands-on practice.",
+        "Computer Vision is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with computer vision: install, follow quickstart guide, and build a small project."
+    ]
+}

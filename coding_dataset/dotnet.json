@@ -1,0 +1,17 @@
+{
+    "category": "dotnet",
+    "type": "coding",
+    "questions": [
+        "what is dotnet",
+        "dotnet tutorial",
+        "learn dotnet",
+        "dotnet basics",
+        "dotnet ki"
+    ],
+    "answers": [
+        ".NET: Microsoft framework for building web, mobile, desktop apps. C# primary language.",
+        "Learn dotnet from official docs and tutorials. Practice by building projects.",
+        "Dotnet is widely used in industry. Great skill to add to your portfolio.",
+        "Start with dotnet basics, build small projects, then tackle real-world applications."
+    ]
+}

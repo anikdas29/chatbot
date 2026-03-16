@@ -1,0 +1,17 @@
+{
+    "category": "laravel",
+    "type": "coding",
+    "questions": [
+        "what is laravel",
+        "laravel tutorial",
+        "learn laravel",
+        "laravel basics",
+        "laravel ki"
+    ],
+    "answers": [
+        "Laravel: PHP framework. Elegant syntax, MVC, Eloquent ORM, Blade templates.",
+        "Learn laravel from official docs and tutorials. Practice by building projects.",
+        "Laravel is widely used in industry. Great skill to add to your portfolio.",
+        "Start with laravel basics, build small projects, then tackle real-world applications."
+    ]
+}

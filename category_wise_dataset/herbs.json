@@ -1,0 +1,17 @@
+{
+    "category": "herbs",
+    "type": "general",
+    "questions": [
+        "cooking with herbs",
+        "fresh vs dried herbs",
+        "growing herbs at home",
+        "common herbs",
+        "herb garden tips"
+    ],
+    "answers": [
+        "Common cooking herbs: basil, parsley, cilantro, rosemary, thyme, mint, oregano, dill, chives, sage.",
+        "Fresh vs dried: fresh has brighter flavor, add at end. Dried is more concentrated — use 1/3 of fresh amount, add early.",
+        "Grow herbs at home: basil, mint, and cilantro grow easily in pots on a windowsill. Need 6+ hours of sunlight.",
+        "Herb tip: freeze fresh herbs in olive oil in ice cube trays — perfect flavor bombs for cooking later."
+    ]
+}

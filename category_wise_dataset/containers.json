@@ -1,0 +1,17 @@
+{
+    "category": "containers",
+    "type": "general",
+    "questions": [
+        "what are containers",
+        "containers explained",
+        "containers vs VMs",
+        "docker containers",
+        "container ki"
+    ],
+    "answers": [
+        "Containers = lightweight packages containing app + dependencies. Run consistently everywhere. Docker is the most popular runtime.",
+        "Containers vs VMs: containers share OS kernel (lightweight, fast), VMs have full OS (heavier, more isolated). Containers start in seconds.",
+        "Benefits: consistent environments (works on my machine!), fast startup, efficient resource use, and easy scaling.",
+        "Container workflow: write Dockerfile → build image → push to registry → deploy anywhere (laptop, server, cloud)."
+    ]
+}

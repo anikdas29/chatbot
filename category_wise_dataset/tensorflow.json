@@ -1,0 +1,17 @@
+{
+    "category": "tensorflow",
+    "type": "general",
+    "questions": [
+        "what is tensorflow",
+        "tensorflow basics",
+        "tensorflow tutorial",
+        "learn tensorflow",
+        "tensorflow ki"
+    ],
+    "answers": [
+        "TensorFlow: Google's ML framework. Deep learning, neural networks, production deployment.",
+        "Learn tensorflow through documentation, tutorials, and hands-on practice.",
+        "Tensorflow is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with tensorflow: install, follow quickstart guide, and build a small project."
+    ]
+}

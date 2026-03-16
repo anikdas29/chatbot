@@ -1,0 +1,17 @@
+{
+    "category": "hadoop",
+    "type": "general",
+    "questions": [
+        "what is hadoop",
+        "hadoop basics",
+        "hadoop tutorial",
+        "learn hadoop",
+        "hadoop ki"
+    ],
+    "answers": [
+        "Hadoop: distributed storage and processing framework. HDFS for storage, MapReduce for processing.",
+        "Learn hadoop through documentation, tutorials, and hands-on practice.",
+        "Hadoop is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with hadoop: install, follow quickstart guide, and build a small project."
+    ]
+}

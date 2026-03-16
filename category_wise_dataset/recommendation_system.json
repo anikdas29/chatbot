@@ -1,0 +1,17 @@
+{
+    "category": "recommendation_system",
+    "type": "general",
+    "questions": [
+        "what is recommendation system",
+        "recommendation system basics",
+        "recommendation system tutorial",
+        "learn recommendation system",
+        "recommendation system ki"
+    ],
+    "answers": [
+        "Recommendation systems: collaborative filtering, content-based, hybrid. Netflix, Spotify, Amazon use these.",
+        "Learn recommendation system through documentation, tutorials, and hands-on practice.",
+        "Recommendation System is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with recommendation system: install, follow quickstart guide, and build a small project."
+    ]
+}

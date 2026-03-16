@@ -1,0 +1,17 @@
+{
+    "category": "ansible",
+    "type": "general",
+    "questions": [
+        "what is ansible",
+        "ansible basics",
+        "ansible tutorial",
+        "learn ansible",
+        "ansible ki"
+    ],
+    "answers": [
+        "Ansible: automation tool for configuration management, app deployment. Agentless, uses YAML playbooks.",
+        "Learn ansible through documentation, tutorials, and hands-on practice.",
+        "Ansible is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with ansible: install, follow quickstart guide, and build a small project."
+    ]
+}

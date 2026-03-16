@@ -1,0 +1,17 @@
+{
+    "category": "looker",
+    "type": "general",
+    "questions": [
+        "what is looker",
+        "looker basics",
+        "looker tutorial",
+        "learn looker",
+        "looker ki"
+    ],
+    "answers": [
+        "Looker: Google's BI platform. SQL-based modeling, embedded analytics, and data exploration.",
+        "Learn looker through documentation, tutorials, and hands-on practice.",
+        "Looker is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with looker: install, follow quickstart guide, and build a small project."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "jira",
+    "type": "general",
+    "questions": [
+        "what is jira",
+        "jira basics",
+        "jira tutorial",
+        "learn jira",
+        "jira ki"
+    ],
+    "answers": [
+        "Jira: project management tool by Atlassian. Issue tracking, agile boards, sprint planning. Industry standard.",
+        "Learn jira through documentation, tutorials, and hands-on practice.",
+        "Jira is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with jira: install, follow quickstart guide, and build a small project."
+    ]
+}

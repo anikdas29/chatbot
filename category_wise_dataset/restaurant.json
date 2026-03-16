@@ -1,0 +1,17 @@
+{
+    "category": "restaurant",
+    "type": "general",
+    "questions": [
+        "about restaurant",
+        "restaurant types",
+        "best restaurant",
+        "restaurant tips",
+        "restaurant ki"
+    ],
+    "answers": [
+        "Restaurant business: location, menu, service, marketing, and managing food costs (30% target).",
+        "Exploring restaurant is a delicious journey. Try different varieties and styles.",
+        "The world of restaurant is rich and diverse. Start with the basics and expand your palate.",
+        "Restaurant has a fascinating history and culture behind it. Learn and enjoy!"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "firewall",
+    "type": "general",
+    "questions": [
+        "what is firewall",
+        "firewall explained",
+        "firewall basics",
+        "firewall tips",
+        "firewall ki"
+    ],
+    "answers": [
+        "Firewall monitors and controls network traffic. Hardware (network) and software (device) firewalls.",
+        "Learn more about firewall to stay informed and make better decisions.",
+        "Firewall is important in today's connected world.",
+        "Understanding firewall helps you navigate the modern digital landscape."
+    ]
+}

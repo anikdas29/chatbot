@@ -1,0 +1,17 @@
+{
+    "category": "juicing",
+    "type": "general",
+    "questions": [
+        "juicing benefits",
+        "best juicing recipes",
+        "juicing vs smoothies",
+        "how to start juicing",
+        "juice recipe ideas"
+    ],
+    "answers": [
+        "Juicing extracts liquid from fruits/vegetables, leaving fiber behind. Concentrated nutrients but less filling than whole food.",
+        "Best juice combos: carrot+apple+ginger, green (kale+cucumber+apple+lemon), beet+carrot+orange, watermelon+mint.",
+        "Juicing vs smoothies: juice = no fiber, faster absorption. Smoothie = whole food, more filling, more balanced.",
+        "Juicing tips: add lemon to prevent oxidation, drink immediately for max nutrients, and include vegetables to reduce sugar."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "monitoring",
+    "type": "general",
+    "questions": [
+        "what is monitoring",
+        "server monitoring basics",
+        "monitoring tools",
+        "application monitoring",
+        "monitoring ki"
+    ],
+    "answers": [
+        "Monitoring = tracking system health and performance. CPU, memory, disk, network, and application metrics in real-time.",
+        "Tools: Prometheus + Grafana (open source), Datadog (SaaS), New Relic (APM), CloudWatch (AWS), Zabbix (infrastructure).",
+        "Key metrics: uptime, response time, error rate, CPU/memory usage, and throughput. Set alerts for anomalies.",
+        "Monitoring tip: monitor from user perspective (synthetic checks) + server-side metrics. Dashboard should answer 'is everything okay?' at a glance."
+    ]
+}

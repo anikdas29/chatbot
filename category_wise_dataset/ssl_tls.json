@@ -1,0 +1,17 @@
+{
+    "category": "ssl_tls",
+    "type": "general",
+    "questions": [
+        "what is ssl tls",
+        "ssl tls explained",
+        "ssl tls basics",
+        "ssl tls tips",
+        "ssl tls ki"
+    ],
+    "answers": [
+        "SSL/TLS encrypts data between browser and server. The padlock in your browser URL. Essential for all websites.",
+        "Learn more about ssl tls to stay informed and make better decisions.",
+        "Ssl Tls is important in today's connected world.",
+        "Understanding ssl tls helps you navigate the modern digital landscape."
+    ]
+}

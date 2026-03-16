@@ -1,0 +1,17 @@
+{
+    "category": "vfx",
+    "type": "general",
+    "questions": [
+        "what is vfx",
+        "vfx basics",
+        "how to learn vfx",
+        "vfx software",
+        "visual effects ki"
+    ],
+    "answers": [
+        "VFX (Visual Effects) = adding or manipulating imagery in film/video. Explosions, creatures, environments, and cleanup.",
+        "Software: After Effects (motion), Nuke (compositing), Blender (3D, free), Houdini (simulation), Cinema 4D (motion design).",
+        "Start learning: green screen compositing, tracking, rotoscoping, and basic 3D integration with Blender + After Effects.",
+        "VFX is in huge demand — films, ads, YouTube, gaming all need VFX artists. Learn Blender (free) and After Effects."
+    ]
+}

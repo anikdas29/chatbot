@@ -1,0 +1,17 @@
+{
+    "category": "smart_home",
+    "type": "general",
+    "questions": [
+        "smart home basics",
+        "best smart home devices",
+        "how to make home smart",
+        "smart home setup",
+        "smart home ki"
+    ],
+    "answers": [
+        "Smart home basics: connect devices via WiFi to control lights, locks, thermostat, cameras, and more from your phone.",
+        "Best devices to start: smart speaker (Alexa/Google), smart bulbs, smart plugs, video doorbell, and smart thermostat.",
+        "Setup tips: choose one ecosystem (Alexa/Google/Apple), ensure strong WiFi, start with one room, and expand gradually.",
+        "Smart home benefits: convenience, energy savings, security, accessibility for elderly/disabled, and cool factor."
+    ]
+}

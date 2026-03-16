@@ -1,0 +1,17 @@
+{
+    "category": "veganism",
+    "type": "general",
+    "questions": [
+        "what is veganism",
+        "vegan diet plan",
+        "why go vegan",
+        "vegan protein sources",
+        "vegan food list"
+    ],
+    "answers": [
+        "Veganism avoids all animal products — meat, dairy, eggs, honey. Based on ethics, environment, and health reasons.",
+        "Vegan protein: lentils, chickpeas, tofu, tempeh, seitan, nuts, seeds, quinoa, soy milk. Easily meet protein needs.",
+        "Why vegan: reduces animal suffering, lower carbon footprint, can improve heart health and reduce disease risk.",
+        "Vegan tip: supplement B12 (essential!), eat varied diet for complete nutrition, and learn to read food labels."
+    ]
+}

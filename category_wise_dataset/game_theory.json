@@ -1,0 +1,24 @@
+{
+    "category": "game_theory",
+    "type": "general",
+    "questions": [
+        "what is game theory",
+        "game theory basics",
+        "game theory explained",
+        "learn game theory",
+        "game theory ki"
+    ],
+    "answers": [
+        "Game theory: mathematical study of strategic decision-making. Nash equilibrium, prisoner's dilemma.",
+        "Learning game theory builds strong analytical and problem-solving skills.",
+        "Game Theory is applied in many real-world fields. Understanding basics helps in any career.",
+        "Start with game theory fundamentals, practice with examples, and apply to real problems."
+    ],
+    "feelings": [
+        {
+            "question": "What is game theory?",
+            "sentiment": "curious",
+            "answer": "Valo question! Game Theory is applied in many real-world fields. Understanding basics helps in any career.\n\nAr kichu jante chaile bolo!"
+        }
+    ]
+}

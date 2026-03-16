@@ -1,0 +1,17 @@
+{
+    "category": "augmented_reality",
+    "type": "general",
+    "questions": [
+        "what is augmented reality",
+        "AR vs VR",
+        "AR examples",
+        "augmented reality uses",
+        "AR ki"
+    ],
+    "answers": [
+        "AR (Augmented Reality) = overlays digital content onto real world. Pokemon Go, Snapchat filters, IKEA furniture app.",
+        "AR vs VR: AR adds to reality (you see real world + digital), VR replaces reality entirely. AR is more practical daily.",
+        "AR examples: navigation arrows on street, try-on virtual clothes, measure rooms with phone, interactive learning.",
+        "AR tech: smartphone AR (most common), AR glasses (Meta, Microsoft HoloLens), and soon lightweight AR contact lenses."
+    ]
+}

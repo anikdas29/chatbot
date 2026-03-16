@@ -1,0 +1,17 @@
+{
+    "category": "3d_modeling",
+    "type": "general",
+    "questions": [
+        "3d modeling basics",
+        "how to learn 3d modeling",
+        "best 3d software",
+        "3d modeling for beginners",
+        "3d model banano"
+    ],
+    "answers": [
+        "3D modeling = creating digital 3D objects. Used in gaming, film, architecture, product design, and 3D printing.",
+        "Software: Blender (free, powerful), Maya (industry), ZBrush (sculpting), SketchUp (architecture), Fusion 360 (engineering).",
+        "Start with Blender: free, huge community, tons of tutorials. Learn box modeling, then sculpting, texturing, and rendering.",
+        "3D modeling path: basic shapes → modeling → UV mapping → texturing → lighting → rendering → animation."
+    ]
+}

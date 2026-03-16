@@ -1,0 +1,17 @@
+{
+    "category": "nuxtjs",
+    "type": "coding",
+    "questions": [
+        "what is nuxtjs",
+        "nuxtjs tutorial",
+        "learn nuxtjs",
+        "nuxtjs basics",
+        "nuxtjs ki"
+    ],
+    "answers": [
+        "Nuxt.js: Vue framework like Next.js but for Vue. SSR, auto-routing, and great DX.",
+        "Learn nuxtjs from official docs and tutorials. Practice by building projects.",
+        "Nuxtjs is widely used in industry. Great skill to add to your portfolio.",
+        "Start with nuxtjs basics, build small projects, then tackle real-world applications."
+    ]
+}

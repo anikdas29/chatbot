@@ -1,0 +1,17 @@
+{
+    "category": "azure",
+    "type": "coding",
+    "questions": [
+        "what is azure",
+        "azure tutorial",
+        "learn azure",
+        "azure basics",
+        "azure ki"
+    ],
+    "answers": [
+        "Azure: Microsoft cloud. Great with .NET, strong enterprise features, and hybrid cloud.",
+        "Learn azure from official docs and tutorials. Practice by building projects.",
+        "Azure is widely used in industry. Great skill to add to your portfolio.",
+        "Start with azure basics, build small projects, then tackle real-world applications."
+    ]
+}

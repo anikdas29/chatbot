@@ -1,0 +1,17 @@
+{
+    "category": "edge_computing",
+    "type": "general",
+    "questions": [
+        "what is edge computing",
+        "edge computing explained",
+        "edge vs cloud",
+        "edge computing examples",
+        "edge computing ki"
+    ],
+    "answers": [
+        "Edge computing = processing data near the source instead of sending to cloud. Faster response, less bandwidth, better privacy.",
+        "Edge vs cloud: edge processes locally (fast, real-time), cloud processes remotely (powerful, scalable). Many use both together.",
+        "Examples: self-driving cars, factory robots, smart cameras, IoT sensors — all need instant decisions without cloud delay.",
+        "Edge computing is growing with IoT and 5G. Key benefit: millisecond response times critical for autonomous vehicles, healthcare, gaming."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "elasticsearch",
+    "type": "general",
+    "questions": [
+        "what is elasticsearch",
+        "elasticsearch basics",
+        "elasticsearch tutorial",
+        "learn elasticsearch",
+        "elasticsearch ki"
+    ],
+    "answers": [
+        "Elasticsearch: distributed search and analytics engine. Full-text search, log analysis, monitoring.",
+        "Learn elasticsearch through documentation, tutorials, and hands-on practice.",
+        "Elasticsearch is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with elasticsearch: install, follow quickstart guide, and build a small project."
+    ]
+}

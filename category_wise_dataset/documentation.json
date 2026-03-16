@@ -1,0 +1,17 @@
+{
+    "category": "documentation",
+    "type": "general",
+    "questions": [
+        "why documentation matters",
+        "documentation best practices",
+        "how to write good docs",
+        "documentation tips",
+        "documentation ki"
+    ],
+    "answers": [
+        "Documentation is the bridge between developers and users. Good docs reduce support tickets and help users succeed.",
+        "Types: README, API reference, tutorials, how-to guides, architecture docs, and changelog.",
+        "Best practices: keep docs near code, update when code changes, use examples, and make it searchable.",
+        "Write docs for future-you: you'll forget how your own code works in 6 months. Document decisions and why, not just what."
+    ]
+}

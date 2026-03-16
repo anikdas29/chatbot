@@ -1,0 +1,17 @@
+{
+    "category": "hackathon",
+    "type": "general",
+    "questions": [
+        "what is hackathon",
+        "hackathon tips",
+        "how to win hackathon",
+        "hackathon preparation",
+        "hackathon ki"
+    ],
+    "answers": [
+        "Hackathon = time-limited (24-48 hour) event where teams build projects. Great for networking, learning, and building portfolio.",
+        "Tips: plan before coding (spend first hour on idea + design), build MVP only, prepare a great demo, and get sleep!",
+        "Winning tips: solve a real problem, have working demo (not slides), show technical depth, and present with energy.",
+        "Preparation: learn a quick prototyping stack, practice pitching, bring snacks, and form a team with diverse skills."
+    ]
+}

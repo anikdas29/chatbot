@@ -1,0 +1,17 @@
+{
+    "category": "bug_bounty",
+    "type": "general",
+    "questions": [
+        "what is bug bounty",
+        "bug bounty explained",
+        "bug bounty basics",
+        "bug bounty tips",
+        "bug bounty ki"
+    ],
+    "answers": [
+        "Bug bounty programs pay hackers to find vulnerabilities. Platforms: HackerOne, Bugcrowd, Synack.",
+        "Learn more about bug bounty to stay informed and make better decisions.",
+        "Bug Bounty is important in today's connected world.",
+        "Understanding bug bounty helps you navigate the modern digital landscape."
+    ]
+}

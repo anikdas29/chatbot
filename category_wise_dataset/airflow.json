@@ -1,0 +1,17 @@
+{
+    "category": "airflow",
+    "type": "general",
+    "questions": [
+        "what is airflow",
+        "airflow basics",
+        "airflow tutorial",
+        "learn airflow",
+        "airflow ki"
+    ],
+    "answers": [
+        "Apache Airflow: workflow orchestration tool. DAGs define task dependencies. Great for data pipelines.",
+        "Learn airflow through documentation, tutorials, and hands-on practice.",
+        "Airflow is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with airflow: install, follow quickstart guide, and build a small project."
+    ]
+}

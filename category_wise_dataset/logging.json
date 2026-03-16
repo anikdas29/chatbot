@@ -1,0 +1,17 @@
+{
+    "category": "logging",
+    "type": "general",
+    "questions": [
+        "logging basics",
+        "application logging",
+        "log management",
+        "centralized logging",
+        "logging best practices"
+    ],
+    "answers": [
+        "Logging = recording events in your application. Essential for debugging, auditing, and understanding system behavior.",
+        "Log levels: DEBUG, INFO, WARNING, ERROR, CRITICAL. Use appropriate levels — don't log everything as ERROR.",
+        "Centralized logging: ELK Stack (Elasticsearch + Logstash + Kibana), Loki + Grafana, or cloud services (CloudWatch, Datadog).",
+        "Best practices: structured logging (JSON), include request IDs, don't log sensitive data, and set retention policies."
+    ]
+}

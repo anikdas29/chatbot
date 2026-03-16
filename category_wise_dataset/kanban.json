@@ -1,0 +1,17 @@
+{
+    "category": "kanban",
+    "type": "general",
+    "questions": [
+        "what is kanban",
+        "kanban board basics",
+        "kanban vs scrum",
+        "how to use kanban",
+        "kanban ki"
+    ],
+    "answers": [
+        "Kanban = visual workflow management. Tasks move through columns: To Do → In Progress → Done. Simple and effective.",
+        "Kanban principles: visualize work, limit WIP (work in progress), manage flow, make policies explicit, improve continuously.",
+        "Kanban vs Scrum: Kanban has no sprints (continuous flow), no fixed roles. Scrum has time-boxed sprints and defined roles.",
+        "Start Kanban: create a board (physical or Trello/Jira), define columns for your workflow, and limit WIP to 2-3 items per person."
+    ]
+}

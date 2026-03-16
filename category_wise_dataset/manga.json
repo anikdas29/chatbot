@@ -1,0 +1,17 @@
+{
+    "category": "manga",
+    "type": "general",
+    "questions": [
+        "best manga to read",
+        "manga recommendations",
+        "how to read manga",
+        "manga vs comic",
+        "manga ki"
+    ],
+    "answers": [
+        "Top manga: One Piece, Naruto, Attack on Titan, Dragon Ball, Death Note, Fullmetal Alchemist, Demon Slayer.",
+        "Manga vs comics: manga is Japanese, read right-to-left, typically black & white. Comics are western, left-to-right, color.",
+        "Read manga: MangaPlus (official, free), physical volumes, or library. Support creators by buying official releases.",
+        "Manga genres: shonen (action, for boys), shojo (romance, for girls), seinen (mature), josei (women's), and isekai (another world)."
+    ]
+}

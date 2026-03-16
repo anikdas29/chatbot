@@ -1,0 +1,17 @@
+{
+    "category": "spring_boot",
+    "type": "coding",
+    "questions": [
+        "what is spring boot",
+        "spring boot tutorial",
+        "learn spring boot",
+        "spring boot basics",
+        "spring boot ki"
+    ],
+    "answers": [
+        "Spring Boot: Java framework for production apps. Auto-config, embedded server, enterprise-ready.",
+        "Learn spring boot from official docs and tutorials. Practice by building projects.",
+        "Spring Boot is widely used in industry. Great skill to add to your portfolio.",
+        "Start with spring boot basics, build small projects, then tackle real-world applications."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "rabbitmq",
+    "type": "general",
+    "questions": [
+        "what is rabbitmq",
+        "rabbitmq basics",
+        "rabbitmq tutorial",
+        "learn rabbitmq",
+        "rabbitmq ki"
+    ],
+    "answers": [
+        "RabbitMQ: open-source message broker. Reliable messaging between services. AMQP protocol.",
+        "Learn rabbitmq through documentation, tutorials, and hands-on practice.",
+        "Rabbitmq is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with rabbitmq: install, follow quickstart guide, and build a small project."
+    ]
+}

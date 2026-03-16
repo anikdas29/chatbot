@@ -1,0 +1,17 @@
+{
+    "category": "algorithms",
+    "type": "general",
+    "questions": [
+        "algorithms basics",
+        "important algorithms",
+        "algorithm learning path",
+        "algorithms for interviews",
+        "algorithm ki"
+    ],
+    "answers": [
+        "Algorithms = step-by-step procedures for solving problems. Sorting, searching, graph algorithms, and dynamic programming are essentials.",
+        "Must-know: binary search, BFS/DFS, Dijkstra, sorting (merge, quick), dynamic programming, two pointers, sliding window.",
+        "Learning path: arrays → strings → sorting → binary search → recursion → trees → graphs → DP → advanced topics.",
+        "For interviews: LeetCode top 75, Blind 75, and Neetcode 150 are curated lists covering all important patterns."
+    ]
+}

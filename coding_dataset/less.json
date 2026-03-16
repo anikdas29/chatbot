@@ -1,0 +1,17 @@
+{
+    "category": "less",
+    "type": "coding",
+    "questions": [
+        "what is less",
+        "less tutorial",
+        "learn less",
+        "less basics",
+        "less ki"
+    ],
+    "answers": [
+        "Less: CSS preprocessor similar to Sass. Variables, mixins, and functions for dynamic CSS.",
+        "Learn less from official docs and tutorials. Practice by building projects.",
+        "Less is widely used in industry. Great skill to add to your portfolio.",
+        "Start with less basics, build small projects, then tackle real-world applications."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "fastapi",
+    "type": "coding",
+    "questions": [
+        "what is fastapi",
+        "fastapi tutorial",
+        "learn fastapi",
+        "fastapi basics",
+        "fastapi ki"
+    ],
+    "answers": [
+        "FastAPI: modern Python API framework. Async, auto-docs, type hints, very fast.",
+        "Learn fastapi from official docs and tutorials. Practice by building projects.",
+        "Fastapi is widely used in industry. Great skill to add to your portfolio.",
+        "Start with fastapi basics, build small projects, then tackle real-world applications."
+    ]
+}

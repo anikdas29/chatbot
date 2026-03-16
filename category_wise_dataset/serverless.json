@@ -1,0 +1,17 @@
+{
+    "category": "serverless",
+    "type": "general",
+    "questions": [
+        "what is serverless",
+        "serverless computing",
+        "serverless vs containers",
+        "AWS Lambda explained",
+        "serverless ki"
+    ],
+    "answers": [
+        "Serverless = cloud runs your code without managing servers. Pay only when code runs. AWS Lambda, Google Cloud Functions, Azure Functions.",
+        "Benefits: no server management, auto-scaling, pay-per-use, faster deployment. Great for APIs, event processing, and microservices.",
+        "Serverless vs containers: serverless = zero server management, auto-scale to zero. Containers = more control, consistent environments.",
+        "Serverless tips: keep functions small, handle cold starts, use proper timeout settings, and monitor with CloudWatch/similar."
+    ]
+}

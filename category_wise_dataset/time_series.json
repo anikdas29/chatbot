@@ -1,0 +1,17 @@
+{
+    "category": "time_series",
+    "type": "general",
+    "questions": [
+        "what is time series",
+        "time series basics",
+        "time series tutorial",
+        "learn time series",
+        "time series ki"
+    ],
+    "answers": [
+        "Time series analysis: forecasting data over time. Stock prices, weather, sales. ARIMA, Prophet, LSTM.",
+        "Learn time series through documentation, tutorials, and hands-on practice.",
+        "Time Series is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with time series: install, follow quickstart guide, and build a small project."
+    ]
+}

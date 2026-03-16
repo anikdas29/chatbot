@@ -1,0 +1,17 @@
+{
+    "category": "opencv",
+    "type": "general",
+    "questions": [
+        "what is opencv",
+        "opencv basics",
+        "opencv tutorial",
+        "learn opencv",
+        "opencv ki"
+    ],
+    "answers": [
+        "OpenCV: computer vision library. Image processing, object detection, face recognition, video analysis.",
+        "Learn opencv through documentation, tutorials, and hands-on practice.",
+        "Opencv is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with opencv: install, follow quickstart guide, and build a small project."
+    ]
+}

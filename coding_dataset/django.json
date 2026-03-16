@@ -1,0 +1,17 @@
+{
+    "category": "django",
+    "type": "coding",
+    "questions": [
+        "what is django",
+        "django tutorial",
+        "learn django",
+        "django basics",
+        "django ki"
+    ],
+    "answers": [
+        "Django: Python web framework. Batteries-included with ORM, admin, auth, and more.",
+        "Learn django from official docs and tutorials. Practice by building projects.",
+        "Django is widely used in industry. Great skill to add to your portfolio.",
+        "Start with django basics, build small projects, then tackle real-world applications."
+    ]
+}

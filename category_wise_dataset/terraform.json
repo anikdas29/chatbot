@@ -1,0 +1,17 @@
+{
+    "category": "terraform",
+    "type": "general",
+    "questions": [
+        "what is terraform",
+        "terraform basics",
+        "terraform tutorial",
+        "learn terraform",
+        "terraform ki"
+    ],
+    "answers": [
+        "Terraform: Infrastructure as Code (IaC) tool by HashiCorp. Define infrastructure in HCL files.",
+        "Learn terraform through documentation, tutorials, and hands-on practice.",
+        "Terraform is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with terraform: install, follow quickstart guide, and build a small project."
+    ]
+}

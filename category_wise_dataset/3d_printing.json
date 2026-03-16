@@ -1,0 +1,17 @@
+{
+    "category": "3d_printing",
+    "type": "general",
+    "questions": [
+        "3d printing basics",
+        "how to start 3d printing",
+        "best 3d printer for beginners",
+        "3d printing tips",
+        "3d print ki"
+    ],
+    "answers": [
+        "3D printing builds objects layer by layer from digital files. FDM (filament) is most affordable, Resin gives finer detail.",
+        "Beginner printers: Creality Ender 3 (~$200), Bambu Lab A1 (~$400). Both reliable with huge communities.",
+        "Process: design in CAD (or download from Thingiverse) → slice with Cura → print → post-process.",
+        "3D printing tips: level your bed, use proper temperature, add supports for overhangs, and start with simple models."
+    ]
+}

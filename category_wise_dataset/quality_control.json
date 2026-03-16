@@ -1,0 +1,17 @@
+{
+    "category": "quality_control",
+    "type": "general",
+    "questions": [
+        "what is quality control",
+        "quality control basics",
+        "QC tips",
+        "quality assurance vs quality control",
+        "maan niyontron"
+    ],
+    "answers": [
+        "Quality control (QC) = inspecting products/services to ensure they meet standards. Catch defects before they reach customers.",
+        "QA vs QC: QA is proactive (processes to prevent defects), QC is reactive (testing to find defects). Both are essential.",
+        "QC methods: inspection, sampling, statistical process control (SPC), Six Sigma, checklists, and testing.",
+        "QC tips: define clear standards, train staff, use checklists, sample test batches, and track defect rates over time."
+    ]
+}

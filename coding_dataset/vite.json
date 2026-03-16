@@ -1,0 +1,17 @@
+{
+    "category": "vite",
+    "type": "coding",
+    "questions": [
+        "what is vite",
+        "vite tutorial",
+        "learn vite",
+        "vite basics",
+        "vite ki"
+    ],
+    "answers": [
+        "Vite is a fast build tool for modern web. Instant dev server, fast HMR, and optimized builds.",
+        "Learn vite from official docs and tutorials. Practice by building projects.",
+        "Vite is widely used in industry. Great skill to add to your portfolio.",
+        "Start with vite basics, build small projects, then tackle real-world applications."
+    ]
+}

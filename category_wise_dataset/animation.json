@@ -1,0 +1,17 @@
+{
+    "category": "animation",
+    "type": "general",
+    "questions": [
+        "how to learn animation",
+        "animation basics",
+        "animation software for beginners",
+        "2d animation",
+        "animation shekha"
+    ],
+    "answers": [
+        "Learn animation: understand 12 principles of animation (squash/stretch, anticipation, timing, etc.). Start with simple bouncing ball.",
+        "2D animation tools: Krita (free), OpenToonz (free), Adobe Animate, Procreate (iPad). Start with frame-by-frame basics.",
+        "Animation basics: keyframes define major poses, in-betweens create smooth motion. Start with 12fps for learning.",
+        "Animation shekha: bouncing ball diye shuru koro, 12 principles shikho, free software use koro, ar patient thako — it takes time."
+    ]
+}

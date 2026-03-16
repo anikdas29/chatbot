@@ -1,0 +1,17 @@
+{
+    "category": "lean_manufacturing",
+    "type": "general",
+    "questions": [
+        "what is lean manufacturing",
+        "lean principles",
+        "lean vs six sigma",
+        "lean basics",
+        "lean production"
+    ],
+    "answers": [
+        "Lean = eliminate waste and maximize value. Originally from Toyota Production System. Focus: deliver more with less.",
+        "8 wastes (DOWNTIME): Defects, Overproduction, Waiting, Non-utilized talent, Transportation, Inventory, Motion, Extra-processing.",
+        "Lean tools: 5S (organize), Kaizen (continuous improvement), Value Stream Mapping, Kanban, Just-in-Time.",
+        "Lean vs Six Sigma: Lean focuses on removing waste and speed, Six Sigma on reducing variation. Lean Six Sigma combines both."
+    ]
+}

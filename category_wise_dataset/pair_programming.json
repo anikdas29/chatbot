@@ -1,0 +1,17 @@
+{
+    "category": "pair_programming",
+    "type": "general",
+    "questions": [
+        "what is pair programming",
+        "pair programming benefits",
+        "how to pair program",
+        "pair programming tips",
+        "pair programming ki"
+    ],
+    "answers": [
+        "Pair programming: two developers, one computer. Driver writes code, Navigator reviews and thinks strategically. Switch roles often.",
+        "Benefits: fewer bugs, shared knowledge, faster onboarding, better design decisions, and more enjoyable coding.",
+        "Tips: switch roles every 15-30 minutes, communicate actively, take breaks, and be patient with different skill levels.",
+        "Pair programming works best for: complex problems, learning new codebases, mentoring juniors, and critical code."
+    ]
+}

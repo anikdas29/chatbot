@@ -1,0 +1,17 @@
+{
+    "category": "puppet",
+    "type": "general",
+    "questions": [
+        "what is puppet",
+        "puppet basics",
+        "puppet tutorial",
+        "learn puppet",
+        "puppet ki"
+    ],
+    "answers": [
+        "Puppet: configuration management tool. Declarative language defines desired system state.",
+        "Learn puppet through documentation, tutorials, and hands-on practice.",
+        "Puppet is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with puppet: install, follow quickstart guide, and build a small project."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "obsidian",
+    "type": "general",
+    "questions": [
+        "what is obsidian",
+        "obsidian basics",
+        "obsidian tutorial",
+        "learn obsidian",
+        "obsidian ki"
+    ],
+    "answers": [
+        "Obsidian: markdown-based note-taking. Linked notes (Zettelkasten method), graph view, local-first.",
+        "Learn obsidian through documentation, tutorials, and hands-on practice.",
+        "Obsidian is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with obsidian: install, follow quickstart guide, and build a small project."
+    ]
+}

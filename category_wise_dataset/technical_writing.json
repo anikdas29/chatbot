@@ -1,0 +1,17 @@
+{
+    "category": "technical_writing",
+    "type": "general",
+    "questions": [
+        "technical writing basics",
+        "how to write documentation",
+        "technical writing tips",
+        "technical writer career",
+        "technical writing ki"
+    ],
+    "answers": [
+        "Technical writing = creating clear documentation for technical products. User guides, API docs, tutorials, and reference manuals.",
+        "Tips: know your audience, use simple language, structure with headings, include examples, and test your instructions.",
+        "Good docs: clear, concise, well-organized, searchable, and up-to-date. Include code examples and troubleshooting sections.",
+        "Career: technical writers are in high demand. Salary $60-120K. Skills needed: writing, tech understanding, empathy for users."
+    ]
+}

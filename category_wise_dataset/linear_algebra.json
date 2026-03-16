@@ -1,0 +1,17 @@
+{
+    "category": "linear_algebra",
+    "type": "general",
+    "questions": [
+        "what is linear algebra",
+        "linear algebra basics",
+        "linear algebra explained",
+        "learn linear algebra",
+        "linear algebra ki"
+    ],
+    "answers": [
+        "Linear algebra: vectors, matrices, and linear transformations. Essential for ML and data science.",
+        "Learning linear algebra builds strong analytical and problem-solving skills.",
+        "Linear Algebra is applied in many real-world fields. Understanding basics helps in any career.",
+        "Start with linear algebra fundamentals, practice with examples, and apply to real problems."
+    ]
+}

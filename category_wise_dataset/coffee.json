@@ -1,0 +1,17 @@
+{
+    "category": "coffee",
+    "type": "general",
+    "questions": [
+        "coffee types",
+        "how to make good coffee",
+        "best coffee",
+        "coffee benefits",
+        "coffee ki"
+    ],
+    "answers": [
+        "Coffee types: espresso (concentrated), americano (espresso+water), latte (espresso+steamed milk), cappuccino (espresso+foam+milk).",
+        "Good coffee: use fresh beans, grind just before brewing, use proper water temperature (195-205°F), and right coffee-to-water ratio.",
+        "Benefits: improves focus, boosts metabolism, rich in antioxidants. But limit to 3-4 cups/day and avoid after 2pm for better sleep.",
+        "Coffee brewing methods: French press (bold), pour over (clean), espresso machine (strong), cold brew (smooth, low acid)."
+    ]
+}

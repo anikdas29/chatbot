@@ -1,0 +1,24 @@
+{
+    "category": "solo_travel",
+    "type": "general",
+    "questions": [
+        "solo travel tips",
+        "solo travel guide",
+        "about solo travel",
+        "best solo travel",
+        "solo travel ki"
+    ],
+    "answers": [
+        "Solo travel: liberating and empowering. Plan safety, tell someone your itinerary, trust your instincts.",
+        "Planning for solo travel in advance ensures a better experience.",
+        "Solo Travel can be an amazing experience. Research and prepare before you go.",
+        "Tips for solo travel: plan ahead, budget wisely, be flexible, and enjoy the journey!"
+    ],
+    "feelings": [
+        {
+            "question": "Best tips for solo travel?",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Tips for solo travel: plan ahead, budget wisely, be flexible, and enjoy the journey! Plus, Solo Travel can be an amazing experience.\n\nAr kichu jante chaile bolo!"
+        }
+    ]
+}

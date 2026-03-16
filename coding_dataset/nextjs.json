@@ -1,0 +1,17 @@
+{
+    "category": "nextjs",
+    "type": "coding",
+    "questions": [
+        "what is nextjs",
+        "nextjs tutorial",
+        "learn nextjs",
+        "nextjs basics",
+        "nextjs ki"
+    ],
+    "answers": [
+        "Next.js: React framework with SSR, SSG, API routes. Best for production React apps.",
+        "Learn nextjs from official docs and tutorials. Practice by building projects.",
+        "Nextjs is widely used in industry. Great skill to add to your portfolio.",
+        "Start with nextjs basics, build small projects, then tackle real-world applications."
+    ]
+}

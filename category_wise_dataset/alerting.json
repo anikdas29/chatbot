@@ -1,0 +1,17 @@
+{
+    "category": "alerting",
+    "type": "general",
+    "questions": [
+        "alerting best practices",
+        "how to set up alerts",
+        "monitoring alerts",
+        "alert fatigue",
+        "alert system"
+    ],
+    "answers": [
+        "Alerting = notifications when metrics cross thresholds. Right alerts catch real problems. Too many alerts = alert fatigue.",
+        "Best practices: alert on symptoms (not causes), set meaningful thresholds, escalate appropriately, and review alerts regularly.",
+        "Avoid alert fatigue: only alert on actionable items, suppress known issues, group related alerts, and tune thresholds over time.",
+        "Tools: PagerDuty, OpsGenie, Grafana alerts, Prometheus Alertmanager, CloudWatch Alarms."
+    ]
+}

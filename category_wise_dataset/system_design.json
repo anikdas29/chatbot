@@ -1,0 +1,17 @@
+{
+    "category": "system_design",
+    "type": "general",
+    "questions": [
+        "system design basics",
+        "system design interview",
+        "how to learn system design",
+        "system design concepts",
+        "system design ki"
+    ],
+    "answers": [
+        "System design = designing large-scale distributed systems. Architecture, databases, caching, load balancing, messaging.",
+        "Key concepts: horizontal scaling, load balancers, CDN, caching (Redis), database sharding, message queues, and microservices.",
+        "Interview approach: clarify requirements → estimate scale → design high-level → deep dive components → discuss tradeoffs.",
+        "Learn: System Design Primer (GitHub), Designing Data-Intensive Applications (book), and YouTube channels (Gaurav Sen, Alex Xu)."
+    ]
+}

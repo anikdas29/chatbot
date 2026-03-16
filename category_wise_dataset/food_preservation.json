@@ -1,0 +1,17 @@
+{
+    "category": "food_preservation",
+    "type": "general",
+    "questions": [
+        "food preservation methods",
+        "how to preserve food",
+        "canning basics",
+        "food preservation tips",
+        "khabar shongrokkhon"
+    ],
+    "answers": [
+        "Preservation methods: refrigeration, freezing, canning, drying, salting, pickling, vacuum sealing, and fermentation.",
+        "Freezing tips: blanch vegetables first, use freezer bags with air removed, label with date. Most food stays good 3-12 months.",
+        "Canning basics: use proper jars, follow tested recipes, process in boiling water bath or pressure canner depending on food acidity.",
+        "Khabar shongrokkhon: shukhiye rakhun (dal, moshla), achar baniye rakhun, freeze korun, ar vacuum seal korun."
+    ]
+}

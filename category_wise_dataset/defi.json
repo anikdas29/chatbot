@@ -1,0 +1,17 @@
+{
+    "category": "defi",
+    "type": "general",
+    "questions": [
+        "what is defi",
+        "defi explained",
+        "defi basics",
+        "decentralized finance",
+        "defi ki"
+    ],
+    "answers": [
+        "DeFi (Decentralized Finance) = financial services on blockchain without banks. Lending, borrowing, trading — all peer-to-peer.",
+        "DeFi examples: Uniswap (trading), Aave (lending), Compound (interest), and stablecoins (USDC, DAI).",
+        "Benefits: no intermediaries, global access, transparent, programmable money. Risks: smart contract bugs, volatility, scams.",
+        "DeFi basics: you need a crypto wallet (MetaMask), some crypto, and access to DeFi protocols. Start small to learn."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "antivirus",
+    "type": "general",
+    "questions": [
+        "what is antivirus",
+        "antivirus explained",
+        "antivirus basics",
+        "antivirus tips",
+        "antivirus ki"
+    ],
+    "answers": [
+        "Antivirus detects and removes malware. Windows Defender is good enough for most. Keep it updated.",
+        "Learn more about antivirus to stay informed and make better decisions.",
+        "Antivirus is important in today's connected world.",
+        "Understanding antivirus helps you navigate the modern digital landscape."
+    ]
+}

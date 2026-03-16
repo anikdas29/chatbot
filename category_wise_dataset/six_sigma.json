@@ -1,0 +1,17 @@
+{
+    "category": "six_sigma",
+    "type": "general",
+    "questions": [
+        "what is six sigma",
+        "six sigma basics",
+        "six sigma methodology",
+        "DMAIC explained",
+        "six sigma belts"
+    ],
+    "answers": [
+        "Six Sigma = data-driven methodology to reduce defects and improve processes. Goal: 3.4 defects per million opportunities.",
+        "DMAIC: Define problem → Measure current state → Analyze root causes → Improve with solutions → Control to sustain gains.",
+        "Belt levels: White (awareness), Yellow (team member), Green (leads projects), Black (expert), Master Black (mentor).",
+        "Six Sigma uses statistical tools to find and fix problems. Popular in manufacturing, healthcare, and services."
+    ]
+}

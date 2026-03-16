@@ -1,0 +1,17 @@
+{
+    "category": "chef_devops",
+    "type": "general",
+    "questions": [
+        "what is chef devops",
+        "chef devops basics",
+        "chef devops tutorial",
+        "learn chef devops",
+        "chef devops ki"
+    ],
+    "answers": [
+        "Chef: infrastructure automation. Write code (recipes) to define how infrastructure should be configured.",
+        "Learn chef devops through documentation, tutorials, and hands-on practice.",
+        "Chef Devops is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with chef devops: install, follow quickstart guide, and build a small project."
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "category": "kubernetes",
+    "type": "general",
+    "questions": [
+        "what is kubernetes",
+        "kubernetes basics",
+        "k8s tutorial",
+        "kubernetes explained",
+        "kubernetes ki"
+    ],
+    "answers": [
+        "Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications.",
+        "K8s concepts: Pods (smallest unit), Deployments (manage replicas), Services (networking), and ConfigMaps (configuration).",
+        "Benefits: auto-scaling, self-healing (restarts failed containers), rolling updates, and load balancing built-in.",
+        "Start learning K8s: install Minikube locally, deploy a simple app, learn kubectl commands, then explore Helm charts."
+    ],
+    "feelings": [
+        {
+            "question": "Tell me about kubernetes",
+            "sentiment": "curious",
+            "answer": "Valo question! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications.\n\nHope this helps!"
+        }
+    ]
+}

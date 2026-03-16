@@ -1,0 +1,17 @@
+{
+    "category": "geolocation",
+    "type": "general",
+    "questions": [
+        "what is geolocation",
+        "geolocation explained",
+        "geolocation basics",
+        "geolocation tips",
+        "geolocation ki"
+    ],
+    "answers": [
+        "Geolocation determines device location using GPS, WiFi, IP address, or cell towers.",
+        "Learn more about geolocation to stay informed and make better decisions.",
+        "Geolocation is important in today's connected world.",
+        "Understanding geolocation helps you navigate the modern digital landscape."
+    ]
+}

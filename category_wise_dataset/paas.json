@@ -1,0 +1,17 @@
+{
+    "category": "paas",
+    "type": "general",
+    "questions": [
+        "what is paas",
+        "paas explained",
+        "paas basics",
+        "paas tips",
+        "paas ki"
+    ],
+    "answers": [
+        "PaaS (Platform as a Service): cloud platform for building apps. Heroku, Google App Engine, Azure App Service.",
+        "Learn more about paas to stay informed and make better decisions.",
+        "Paas is important in today's connected world.",
+        "Understanding paas helps you navigate the modern digital landscape."
+    ]
+}

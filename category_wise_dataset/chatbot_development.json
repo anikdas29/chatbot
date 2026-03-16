@@ -1,0 +1,17 @@
+{
+    "category": "chatbot_development",
+    "type": "general",
+    "questions": [
+        "what is chatbot development",
+        "chatbot development basics",
+        "chatbot development tutorial",
+        "learn chatbot development",
+        "chatbot development ki"
+    ],
+    "answers": [
+        "Chatbot development: NLP, intent detection, entity extraction, dialog management, and deployment.",
+        "Learn chatbot development through documentation, tutorials, and hands-on practice.",
+        "Chatbot Development is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with chatbot development: install, follow quickstart guide, and build a small project."
+    ]
+}

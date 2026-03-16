@@ -1,0 +1,17 @@
+{
+    "category": "shipping",
+    "type": "general",
+    "questions": [
+        "shipping logistics",
+        "how shipping works",
+        "shipping tips",
+        "international shipping",
+        "mal pathanor upay"
+    ],
+    "answers": [
+        "Shipping logistics: pick up, warehouse, transport (truck/ship/air), customs (international), last-mile delivery to customer.",
+        "International shipping: need customs forms, HS codes, duties may apply. DHL/FedEx for speed, sea freight for bulk.",
+        "Tips: compare carriers (UPS, FedEx, USPS), negotiate volume rates, use tracking, and package properly to prevent damage.",
+        "Shipping options: standard (3-7 days, cheap), express (1-2 days, costly), freight (bulk, cheapest per unit)."
+    ]
+}

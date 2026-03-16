@@ -1,0 +1,17 @@
+{
+    "category": "warehousing",
+    "type": "general",
+    "questions": [
+        "warehousing basics",
+        "warehouse management",
+        "warehouse tips",
+        "types of warehousing",
+        "godown management"
+    ],
+    "answers": [
+        "Warehousing = storing goods between production and distribution. Key metrics: inventory accuracy, order fulfillment speed, space utilization.",
+        "Types: public (shared), private (owned), distribution center (high throughput), cold storage (temperature controlled).",
+        "Management tips: organize by velocity (fast-moving items near shipping), use WMS software, maintain FIFO rotation, and keep aisles clear.",
+        "Warehouse efficiency: use barcode/RFID scanning, implement pick-pack-ship workflow, cross-dock when possible."
+    ]
+}

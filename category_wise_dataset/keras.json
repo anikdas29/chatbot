@@ -1,0 +1,17 @@
+{
+    "category": "keras",
+    "type": "general",
+    "questions": [
+        "what is keras",
+        "keras basics",
+        "keras tutorial",
+        "learn keras",
+        "keras ki"
+    ],
+    "answers": [
+        "Keras: high-level neural network API. Simple and elegant. Runs on TensorFlow backend.",
+        "Learn keras through documentation, tutorials, and hands-on practice.",
+        "Keras is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with keras: install, follow quickstart guide, and build a small project."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "rails",
+    "type": "coding",
+    "questions": [
+        "what is rails",
+        "rails tutorial",
+        "learn rails",
+        "rails basics",
+        "rails ki"
+    ],
+    "answers": [
+        "Ruby on Rails: convention over configuration. MVC, rapid development, database migrations.",
+        "Learn rails from official docs and tutorials. Practice by building projects.",
+        "Rails is widely used in industry. Great skill to add to your portfolio.",
+        "Start with rails basics, build small projects, then tackle real-world applications."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "simulation",
+    "type": "general",
+    "questions": [
+        "what is simulation",
+        "simulation basics",
+        "simulation explained",
+        "learn simulation",
+        "simulation ki"
+    ],
+    "answers": [
+        "Simulation: computer model of real-world processes. Monte Carlo, agent-based, discrete event.",
+        "Learning simulation builds strong analytical and problem-solving skills.",
+        "Simulation is applied in many real-world fields. Understanding basics helps in any career.",
+        "Start with simulation fundamentals, practice with examples, and apply to real problems."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "category": "clustering",
+    "type": "general",
+    "questions": [
+        "what is clustering",
+        "clustering basics",
+        "clustering tutorial",
+        "learn clustering",
+        "clustering ki"
+    ],
+    "answers": [
+        "Clustering: grouping similar data points. K-means, DBSCAN, hierarchical. Unsupervised learning.",
+        "Learn clustering through documentation, tutorials, and hands-on practice.",
+        "Clustering is widely used in the industry. Great tool to add to your skillset.",
+        "Getting started with clustering: install, follow quickstart guide, and build a small project."
+    ]
+}

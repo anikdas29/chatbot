@@ -1,0 +1,17 @@
+{
+    "category": "aws",
+    "type": "coding",
+    "questions": [
+        "what is aws",
+        "aws tutorial",
+        "learn aws",
+        "aws basics",
+        "aws ki"
+    ],
+    "answers": [
+        "AWS: Amazon cloud platform. EC2, S3, Lambda, RDS, and 200+ services. Market leader.",
+        "Learn aws from official docs and tutorials. Practice by building projects.",
+        "Aws is widely used in industry. Great skill to add to your portfolio.",
+        "Start with aws basics, build small projects, then tackle real-world applications."
+    ]
+}

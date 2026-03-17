@@ -15,5 +15,22 @@
         "Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarters e khela hoy.",
         "Michael Jordan is widely considered the greatest basketball player ever. Other legends include LeBron James, Kobe Bryant, Magic Johnson, and Larry Bird. Modern stars include Stephen Curry and Giannis Antetokounmpo.",
         "The NBA (National Basketball Association) is the premier professional basketball league, featuring 30 teams from the US and Canada. The season runs from October to June, ending with the NBA Finals."
+    ],
+    "feelings": [
+        {
+            "question": "basketball rules ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarters e khela hoy."
+        },
+        {
+            "question": "basketball rules ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarters e khela hoy."
+        },
+        {
+            "question": "basketball rules ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarters e khela hoy."
+        }
     ]
 }

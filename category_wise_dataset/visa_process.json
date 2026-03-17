@@ -14,11 +14,5 @@
         "Common documents: passport, photos, bank statements, invitation letter, travel insurance, and accommodation proof.",
         "Visa types: tourist, student, work, business, and transit. Each has different requirements and processing times."
     ],
-    "feelings": [
-        {
-            "question": "i am so happy today",
-            "sentiment": "happy",
-            "answer": "Tips: apply early, provide all required documents, be honest in interview, and keep copies of everything.\n\nRegarding farewell: Goodbye!\n\nAbout motivation daily: Today is a fresh start."
-        }
-    ]
+    "feelings": []
 }

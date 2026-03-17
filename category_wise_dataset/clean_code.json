@@ -5,8 +5,7 @@
         "clean code principles",
         "how to write clean code",
         "clean code tips",
-        "clean code book",
-        "clean code ki"
+        "clean code book"
     ],
     "answers": [
         "Clean code = readable, maintainable, and simple. Named well, does one thing, and is easy to understand.",
@@ -14,21 +13,5 @@
         "Tips: code should read like prose, functions should do one thing, avoid deep nesting, and refactor ruthlessly.",
         "Clean code by Robert C. Martin — essential reading. Key takeaway: code is read 10x more than it's written."
     ],
-    "feelings": [
-        {
-            "question": "how to run a program?",
-            "sentiment": "curious",
-            "answer": "Clean code = readable, maintainable, and simple. Named well, does one thing, and is easy to understand.\n\nAlso regarding arduino: Arduino programming: setup() runs once, loop() runs forever.\n\nAlso regarding plumbing: To unclog a drain, try a plunger first."
-        },
-        {
-            "question": "how to run a program?",
-            "sentiment": "curious",
-            "answer": "Clean code = readable, maintainable, and simple. Named well, does one thing, and is easy to understand.\n\nRegarding arduino: Arduino programming: setup() runs once, loop() runs forever.\n\nAbout plumbing: To unclog a drain, try a plunger first."
-        },
-        {
-            "question": "how to run a program?",
-            "sentiment": "curious",
-            "answer": "Clean code = readable, maintainable, and simple. Named well, does one thing, and is easy to understand.\n\nAbout arduino: Arduino programming: setup() runs once, loop() runs forever.\n\nAbout plumbing: To unclog a drain, try a plunger first."
-        }
-    ]
+    "feelings": []
 }

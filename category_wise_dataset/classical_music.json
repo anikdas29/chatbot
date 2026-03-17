@@ -15,5 +15,27 @@
         "Classical music holo shatabdi ধরে cholte thaka orchestral music tradition. Beethoven er Symphony, Mozart er compositions — eishob classical music. Study, focus, ar relaxation er jonno onek popular.",
         "Indian classical music includes Hindustani (North) and Carnatic (South) traditions based on ragas and talas. Western classical features symphonies, concertos, and operas. Both require years of dedicated practice to master.",
         "Classical music isn't boring at all! Try Beethoven's 5th Symphony, Vivaldi's Four Seasons, or Tchaikovsky's 1812 Overture for exciting pieces. Studies show classical music can improve focus, reduce anxiety, and boost creativity."
+    ],
+    "feelings": [
+        {
+            "question": "music shunle ki mental health e help kore?",
+            "sentiment": "curious",
+            "answer": "Classical music holo shatabdi ধরে cholte thaka orchestral music tradition. Beethoven er Symphony, Mozart er compositions — eishob classical music. Study, focus, ar relaxation er jonno onek popular.\n\nFor mental health: Mental health improve korte regular exercise koro, enough ghum pao, supportive people der sathe time katao, ar stress management shikho."
+        },
+        {
+            "question": "music shunle ki mental health e help kore?",
+            "sentiment": "curious",
+            "answer": "Classical music holo shatabdi ধরে cholte thaka orchestral music tradition. Beethoven er Symphony, Mozart er compositions — eishob classical music. Study, focus, ar relaxation er jonno onek popular.\n\nRegarding mental health: Mental health improve korte regular exercise koro, enough ghum pao, supportive people der sathe time katao, ar stress management shikho."
+        },
+        {
+            "question": "music shunle ki mental health e help kore?",
+            "sentiment": "curious",
+            "answer": "Classical music holo shatabdi ধরে cholte thaka orchestral music tradition. Beethoven er Symphony, Mozart er compositions — eishob classical music. Study, focus, ar relaxation er jonno onek popular.\n\nOn the mental health side: Mental health improve korte regular exercise koro, enough ghum pao, supportive people der sathe time katao, ar stress management shikho."
+        },
+        {
+            "question": "music shunle ki mental health e help kore?",
+            "sentiment": "curious",
+            "answer": "Classical music holo shatabdi ধরে cholte thaka orchestral music tradition. Beethoven er Symphony, Mozart er compositions — eishob classical music. Study, focus, ar relaxation er jonno onek popular.\n\nAbout mental health: Mental health improve korte regular exercise koro, enough ghum pao, supportive people der sathe time katao, ar stress management shikho."
+        }
     ]
 }

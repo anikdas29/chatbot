@@ -15,5 +15,27 @@
         "Rag control korte deep breath nao, 10 porjonto count koro, ar jodi pare situation theke sore jao kichhukhon. Rag er modhye kono decision nio na.",
         "If you get angry easily, try to identify your triggers. Are you hungry, tired, or stressed? Addressing root causes helps. Regular exercise, sleep, and mindfulness also reduce anger over time.",
         "When angry, try the STOP technique: Stop what you're doing, Take a breath, Observe your feelings without judgment, and Proceed calmly. Physical activity like a quick walk also helps release that energy."
+    ],
+    "feelings": [
+        {
+            "question": "RAG ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Yes, rag control is a technique for managing anger and regulating emotions in the body. It involves deep breathing exercises to calm the mind and reduce physical tension. The count of 10, 10-minute pause, and 3-minute rest period are recommended as part of this technique."
+        },
+        {
+            "question": "anger control kivabe korbo?",
+            "sentiment": "curious",
+            "answer": "Good one! Anger management is learning to recognize your triggers and responding calmly instead of reacting. Techniques include deep breathing, counting to 10, and walking away temporarily. Additionally, If you get angry easily, try to identify your triggers."
+        },
+        {
+            "question": "anger control kivabe korbo?",
+            "sentiment": "curious",
+            "answer": "Nice question! Anger management is learning to recognize your triggers and responding calmly instead of reacting. Techniques include deep breathing, counting to 10, and walking away temporarily."
+        },
+        {
+            "question": "anger control kivabe korbo?",
+            "sentiment": "curious",
+            "answer": "Great question! Anger management is learning to recognize your triggers and responding calmly instead of reacting. Techniques include deep breathing, counting to 10, and walking away temporarily. Additionally, Rag control korte deep breath nao, 10 porjonto count koro, ar jodi pare situation theke sore jao kichhukhon.\n\nHope this helps!"
+        }
     ]
 }

@@ -38,191 +38,6 @@
             "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
         },
         {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
             "question": "what is api",
             "sentiment": "curious",
             "answer": "Interesting! API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server. Plus, To build an API: use Flask/FastAPI (Python), Express.\n\nAr kichu jante chaile bolo!"
@@ -243,29 +58,29 @@
             "answer": "Nice question! To build an API: use Flask/FastAPI (Python), Express.js (Node.js), or Spring Boot (Java). Define routes, handle requests, connect to a database, return JSON.\n\nHope this helps!"
         },
         {
-            "question": "what is api",
-            "sentiment": "curious",
-            "answer": "Nice question! API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
-        },
-        {
-            "question": "how api works",
-            "sentiment": "curious",
-            "answer": "Interesting! REST API: uses HTTP methods - GET (read), POST (create), PUT (update), DELETE (remove). Data is sent as JSON. Most modern web apps use REST APIs.\n\nAr kichu jante chaile bolo!"
-        },
-        {
             "question": "what is rest api",
             "sentiment": "curious",
             "answer": "Interesting! REST API: uses HTTP methods - GET (read), POST (create), PUT (update), DELETE (remove). Data is sent as JSON. Most modern web apps use REST APIs."
         },
         {
-            "question": "how to make an api",
-            "sentiment": "curious",
-            "answer": "Good one! To build an API: use Flask/FastAPI (Python), Express.js (Node.js), or Spring Boot (Java). Define routes, handle requests, connect to a database, return JSON.\n\nHope this helps!"
-        },
-        {
             "question": "tell me about api",
             "sentiment": "curious",
             "answer": "Nice question! API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
+        },
+        {
+            "question": "api ki jinish?",
+            "sentiment": "curious",
+            "answer": "Interesting! To build an API: use Flask/FastAPI (Python), Express.js (Node.js), or Spring Boot (Java). Define routes, handle requests, connect to a database, return JSON."
+        },
+        {
+            "question": "api ki jinish?",
+            "sentiment": "curious",
+            "answer": "Interesting! To build an API: use Flask/FastAPI (Python), Express.js (Node.js), or Spring Boot (Java). Define routes, handle requests, connect to a database, return JSON. And REST API: uses HTTP methods - GET (read), POST (create), PUT (update), DELETE (remove).\n\nHope this helps!"
+        },
+        {
+            "question": "api ki jinish?",
+            "sentiment": "curious",
+            "answer": "Valo question! To build an API: use Flask/FastAPI (Python), Express.js (Node.js), or Spring Boot (Java). Define routes, handle requests, connect to a database, return JSON.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

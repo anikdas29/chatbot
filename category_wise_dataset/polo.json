@@ -15,5 +15,12 @@
         "Polo te each team e 4 players thake horseback e. Match ta chukkers e divided — usually 4 to 6 periods of 7 minutes each. Players need excellent horsemanship and hand-eye coordination.",
         "Polo is often called 'The Sport of Kings' because of its historical association with royalty and the wealthy. Maintaining polo ponies is expensive, which contributes to its elite reputation.",
         "Polo is popular in Argentina (the world's best), UK, India, Pakistan, and the US. Water polo is a completely different sport played in a swimming pool — just shares the name, not the gameplay."
+    ],
+    "feelings": [
+        {
+            "question": "ki khele weight kombe?",
+            "sentiment": "curious",
+            "answer": "Polo is often called 'The Sport of Kings' because of its historical association with royalty and the wealthy. Maintaining polo ponies is expensive, which contributes to its elite reputation.\n\nRegarding badminton: Badminton khelte ekta racquet, shuttlecock (feather or plastic), net, ar court lagbe."
+        }
     ]
 }

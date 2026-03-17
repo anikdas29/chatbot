@@ -15,5 +15,27 @@
         "MongoDB stores data as BSON documents instead of rows and columns. It's schema-flexible, horizontally scalable, and perfect for applications where data structure changes frequently.",
         "MongoDB is a document-oriented database that pairs well with JavaScript/Node.js. Mongoose is the most popular ODM library that provides schema validation and middleware for MongoDB in Node apps.",
         "MongoDB shines for content management, IoT, real-time analytics, and mobile apps. Its aggregation pipeline is powerful for data processing, and Atlas provides easy cloud hosting with built-in scaling."
+    ],
+    "feelings": [
+        {
+            "question": "how to connect mongodb with node?",
+            "sentiment": "curious",
+            "answer": "To connect MongoDB with Node.js, you can use the Mongoose ODM (Object-Document Mapping) library. Here's an example of how to set up a basic connection between the two:\n\n1. Install Mongoose and its dependencies using npm: `npm install mongoose`\n2. Create a new MongoDB database and create a collection in it using Mongoose:\n   ```javascript\n   const mongoose = require('mongoose');\n   \n   // Connect to your local MongoDB instance\n   mongoose.connect('mongodb://localhost/my-database', { useNewUrlParser: true });\n   \n   // Create a new collection in the \"products\" database with the name \"orders\""
+        },
+        {
+            "question": "how to connect mongodb with node?",
+            "sentiment": "curious",
+            "answer": "MongoDB is a document-oriented database that pairs well with JavaScript/Node.js. Mongoose is the most popular ODM library that provides schema validation and middleware for MongoDB in Node apps.\n\nOn the database side: MongoDB stores data as JSON-like documents - flexible and great for apps with changing data structures."
+        },
+        {
+            "question": "how to connect mongodb with node?",
+            "sentiment": "curious",
+            "answer": "MongoDB is a document-oriented database that pairs well with JavaScript/Node.js. Mongoose is the most popular ODM library that provides schema validation and middleware for MongoDB in Node apps.\n\nAlso regarding database: MongoDB stores data as JSON-like documents - flexible and great for apps with changing data structures."
+        },
+        {
+            "question": "how to connect mongodb with node?",
+            "sentiment": "curious",
+            "answer": "MongoDB is a document-oriented database that pairs well with JavaScript/Node.js. Mongoose is the most popular ODM library that provides schema validation and middleware for MongoDB in Node apps.\n\nRegarding database: MongoDB stores data as JSON-like documents - flexible and great for apps with changing data structures."
+        }
     ]
 }

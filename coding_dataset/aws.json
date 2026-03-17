@@ -13,5 +13,12 @@
         "Learn aws from official docs and tutorials. Practice by building projects.",
         "Aws is widely used in industry. Great skill to add to your portfolio.",
         "Start with aws basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "how to deploy on aws?",
+            "sentiment": "curious",
+            "answer": "Valo question! Learn aws from official docs and tutorials. Practice by building projects.\n\nHope this helps!"
+        }
     ]
 }

@@ -32,127 +32,12 @@
         {
             "question": "what is data science",
             "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "how to become data scientist",
-            "sentiment": "curious",
-            "answer": "Data Science roadmap: Python → SQL → Statistics → Data Visualisation → Machine Learning. Tools: Jupyter, Pandas, NumPy, Matplotlib, scikit-learn."
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
             "answer": "Good one! Data Science = statistics + programming + domain knowledge. Start on Kaggle, work through real datasets, and build a portfolio of analysis projects.\n\nHope this helps!"
         },
         {
             "question": "how to become data scientist",
             "sentiment": "curious",
             "answer": "Interesting! Data Science = statistics + programming + domain knowledge. Start on Kaggle, work through real datasets, and build a portfolio of analysis projects.\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "what is data science",
-            "sentiment": "curious",
-            "answer": "Interesting! Data Science = statistics + programming + domain knowledge. Start on Kaggle, work through real datasets, and build a portfolio of analysis projects."
         },
         {
             "question": "how to become data scientist",

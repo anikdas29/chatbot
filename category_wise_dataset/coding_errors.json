@@ -28,61 +28,6 @@
         {
             "question": "how to fix bugs",
             "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "how to fix bugs",
-            "sentiment": "angry",
             "answer": "Ami bujhte parchi apni frustrated. Let me help. Debugging tips: Read error messages carefully, check syntax, use print statements, Google the error, check Stack Overflow. And To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nHope this helps!\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
         },
         {
@@ -99,11 +44,6 @@
             "question": "my code doesnt work and i dont know why",
             "sentiment": "curious",
             "answer": "Debugging tips: Read error messages carefully, check syntax, use print statements, Google the error, check Stack Overflow.\n\nAlso regarding charity: Donating to charity not only helps others but can also provide tax benefits, improve your mental wellbeing, and create a positive impact in your co...\n\nOn the coding side: Best path: learn Python basics → build mini projects → solve problems on LeetCode → contribute to open source."
-        },
-        {
-            "question": "my code doesnt work and i dont know why",
-            "sentiment": "curious",
-            "answer": "Debugging tips: Read error messages carefully, check syntax, use print statements, Google the error, check Stack Overflow.\n\nRegarding charity: Donating to charity not only helps others but can also provide tax benefits, improve your mental wellbeing, and create a positive impact in your co...\n\nFor coding: Best path: learn Python basics → build mini projects → solve problems on LeetCode → contribute to open source."
         },
         {
             "question": "my code doesnt work and i dont know why",

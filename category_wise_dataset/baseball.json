@@ -16,11 +16,5 @@
         "MLB (Major League Baseball) is the top professional baseball league with 30 teams. Legendary players include Babe Ruth, Jackie Robinson, Hank Aaron, and modern stars like Mike Trout and Shohei Ohtani.",
         "Baseball requires a combination of pitching, hitting, fielding, and base running skills. The World Series is the championship of MLB, held every October, and it's one of the oldest sporting events in North America."
     ],
-    "feelings": [
-        {
-            "question": "tell me about football",
-            "sentiment": "curious",
-            "answer": "Baseball is America's pastime — a bat-and-ball sport played between two teams of 9 players. One team bats while the other pitches and fields. A game has 9 innings, and the team with the most runs wins.\n\nAlso regarding rugby: Rugby is a contact team sport that originated in England.\n\nAbout sports: Popular: Cricket, Football, Basketball, Tennis."
-        }
-    ]
+    "feelings": []
 }

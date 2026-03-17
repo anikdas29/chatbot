@@ -5,11 +5,9 @@
         "how to stay safe online?",
         "what is encryption?",
         "online security tips",
-        "how to stay safe online",
         "password security",
         "internet safety tips",
         "data security",
-        "what is encryption",
         "cyber safety tips"
     ],
     "answers": [
@@ -27,77 +25,7 @@
         {
             "question": "how to stay safe online",
             "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Stay safe online: use unique strong passwords, enable two-factor authentication, never click unknown links, and keep your software updated."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
             "answer": "Valo question! Top tips: strong passwords + 2FA + VPN + regular updates = much safer online presence."
-        },
-        {
-            "question": "how to stay safe online",
-            "sentiment": "curious",
-            "answer": "Good one! Top tips: strong passwords + 2FA + VPN + regular updates = much safer online presence.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

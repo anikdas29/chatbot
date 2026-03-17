@@ -13,5 +13,37 @@
         "CI = merge code often, run automated tests. CD = automatically deploy passed builds to staging/production.",
         "Tools: GitHub Actions, GitLab CI, Jenkins, CircleCI, Travis CI. GitHub Actions is easiest to start with.",
         "CI/CD benefits: catch bugs early, deploy faster, reduce manual work, and increase confidence in releases."
+    ],
+    "feelings": [
+        {
+            "question": "devops ki and ci cd ki?",
+            "sentiment": "curious",
+            "answer": "knowledge suggests that both \"devops\" (Continuous Integration / Continuous Deployment) and \"ci cd\" (Continuous Integration / Continuous Deployment) are commonly used in the industry."
+        },
+        {
+            "question": "devops ki and ci cd ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit. Plus, CI/CD benefits: catch bugs early, deploy faster, reduce manual work, and increase confidence in releases."
+        },
+        {
+            "question": "devops ki and ci cd ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit."
+        },
+        {
+            "question": "devops ki and ci cd ki?",
+            "sentiment": "curious",
+            "answer": "Good one! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit. Moreover, CI = merge code often, run automated tests."
+        },
+        {
+            "question": "devops ki and ci cd ki?",
+            "sentiment": "curious",
+            "answer": "Great question! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit. Also, CI/CD benefits: catch bugs early, deploy faster, reduce manual work, and increase confidence in releases.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "devops ki and ci cd ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit. Also, Tools: GitHub Actions, GitLab CI, Jenkins, CircleCI, Travis CI.\n\nHope this helps!"
+        }
     ]
 }

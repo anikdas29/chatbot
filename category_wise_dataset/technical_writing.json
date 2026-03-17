@@ -4,9 +4,7 @@
     "questions": [
         "technical writing basics",
         "how to write documentation",
-        "technical writing tips",
-        "technical writer career",
-        "technical writing ki"
+        "technical writer career"
     ],
     "answers": [
         "Technical writing = creating clear documentation for technical products. User guides, API docs, tutorials, and reference manuals.",
@@ -16,14 +14,24 @@
     ],
     "feelings": [
         {
-            "question": "where can i find the documentation?",
+            "question": "how to write technical documents?",
             "sentiment": "curious",
-            "answer": "The documentation for technical products would be available on the product's website or through a dedicated technical support channel."
+            "answer": "Good one! Technical writing = creating clear documentation for technical products. User guides, API docs, tutorials, and reference manuals.\n\nAr kichu jante chaile bolo!"
         },
         {
-            "question": "where can i find the documentation?",
+            "question": "how to write technical documents?",
             "sentiment": "curious",
-            "answer": "Good docs: clear, concise, well-organized, searchable, and up-to-date. Include code examples and troubleshooting sections.\n\nAbout documentation: Types: README, API reference, tutorials, how-to guides, architecture docs, and changelog.\n\nAlso regarding google docs: Getting started with google docs: install, follow quickstart guide, and build a small project."
+            "answer": "Nice question! Technical writing = creating clear documentation for technical products. User guides, API docs, tutorials, and reference manuals. Moreover, Career: technical writers are in high demand."
+        },
+        {
+            "question": "how to write technical documents?",
+            "sentiment": "curious",
+            "answer": "Interesting! Technical writing = creating clear documentation for technical products. User guides, API docs, tutorials, and reference manuals.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to write technical documents?",
+            "sentiment": "curious",
+            "answer": "Interesting! Technical writing = creating clear documentation for technical products. User guides, API docs, tutorials, and reference manuals.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

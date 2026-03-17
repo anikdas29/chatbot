@@ -14,11 +14,5 @@
         "Jira is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with jira: install, follow quickstart guide, and build a small project."
     ],
-    "feelings": [
-        {
-            "question": "amr name ki?",
-            "sentiment": "curious",
-            "answer": "Interesting! Jira is widely used in the industry. Great tool to add to your skillset."
-        }
-    ]
+    "feelings": []
 }

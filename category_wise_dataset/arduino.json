@@ -14,11 +14,5 @@
         "Arduino programming: setup() runs once, loop() runs forever. Use digitalRead/Write, analogRead/Write for I/O.",
         "Arduino shuru: kit keno, Arduino IDE install koro, LED blink code likho (prothom project), tarpor sensor add koro."
     ],
-    "feelings": [
-        {
-            "question": "how to run a program?",
-            "sentiment": "curious",
-            "answer": "Arduino programming: setup() runs once, loop() runs forever. Use digitalRead/Write, analogRead/Write for I/O.\n\nFor linux: Linux tip: learn the terminal - it's more powerful than any GUI.\n\nAlso regarding coding errors: Debugging tips: Read error messages carefully, check syntax, use print statements, Google the error, check Stack Overflow."
-        }
-    ]
+    "feelings": []
 }

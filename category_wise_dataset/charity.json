@@ -14,21 +14,5 @@
         "You can donate to charities through their websites, fundraising events, or platforms like GoFundMe. Always verify the charity's legitimacy before donating.",
         "Donating to charity not only helps others but can also provide tax benefits, improve your mental wellbeing, and create a positive impact in your community."
     ],
-    "feelings": [
-        {
-            "question": "i dont know what to do with my life",
-            "sentiment": "curious",
-            "answer": "I am not capable of experiencing emotions and feelings. However, based on the given information, it is safe to assume that you may have a personal connection to charity. It could be through volunteering your time or donating money to organizations in need. You can explore different ways to help those who are less fortunate, such as donating to charities online or attending fundraising events. Remember to verify the legitimacy of any charitable organization before making a donation."
-        },
-        {
-            "question": "i dont know what to do with my life",
-            "sentiment": "curious",
-            "answer": "Valo question! You can donate to charities through their websites, fundraising events, or platforms like GoFundMe. Always verify the charity's legitimacy before donating. Plus, Charity is the voluntary giving of help, money, or goods to those in need."
-        },
-        {
-            "question": "i dont know what to do with my life",
-            "sentiment": "curious",
-            "answer": "Nice question! You can donate to charities through their websites, fundraising events, or platforms like GoFundMe. Always verify the charity's legitimacy before donating."
-        }
-    ]
+    "feelings": []
 }

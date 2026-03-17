@@ -16,16 +16,5 @@
         "Lionel Messi and Cristiano Ronaldo are widely considered the two greatest footballers of all time. Other legends include Pele, Maradona, Zinedine Zidane, and Ronaldinho.",
         "The FIFA World Cup is the biggest sporting event on the planet, held every 4 years. Brazil has won it the most times (5). The tournament brings together 32 (now 48) national teams competing for glory."
     ],
-    "feelings": [
-        {
-            "question": "how to play football?",
-            "sentiment": "curious",
-            "answer": "To play football, you need a ball, two teams of 11 players (two goalkeepers), and rules like the basic ones mentioned in the text. The goalkeeper is responsible for keeping the ball out of their team's net while the other team tries to score goals by kicking it into their opponents' net. Other legends like Lionel Messi and Cristiano Ronaldo are considered some of the greatest footballer of all time, but they are not mentioned in this text."
-        },
-        {
-            "question": "how to play football?",
-            "sentiment": "curious",
-            "answer": "Football (soccer) is the world's most popular sport, played by over 250 million people in 200+ countries. Two teams of 11 players try to score goals by kicking the ball into the opponent's net. A match lasts 90 minutes.\n\nOn the teamwork side: Be a good team player by being reliable, communicating openly, supporting your teammates, being flexible, and celebrating team successes rather tha...\n\nFor sports photography: Practice sports photography regularly to improve."
-        }
-    ]
+    "feelings": []
 }

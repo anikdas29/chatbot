@@ -4,9 +4,7 @@
     "questions": [
         "what is two factor auth",
         "two factor auth explained",
-        "two factor auth basics",
-        "two factor auth tips",
-        "two factor auth ki"
+        "two factor auth basics"
     ],
     "answers": [
         "2FA adds extra security layer beyond password. Use authenticator apps over SMS when possible.",

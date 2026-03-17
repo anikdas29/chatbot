@@ -10,8 +10,7 @@
         "how does gravity work",
         "science basics",
         "science explained",
-        "cool science facts",
-        "what is energy"
+        "cool science facts"
     ],
     "answers": [
         "Science branches: Physics, Chemistry, Biology, Astronomy. Science drives innovation and technology.",
@@ -26,169 +25,9 @@
             "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
         },
         {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
             "question": "science ki",
             "sentiment": "curious",
             "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "how does ai work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "how does ai work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "how does ai work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "how does ai work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Nice question! Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Nice question! Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space. And Science branches: Physics, Chemistry, Biology, Astronomy."
-        },
-        {
-            "question": "science ki",
-            "sentiment": "curious",
-            "answer": "Nice question! Science = asking 'why' and testing answers. It powers medicine, technology, and our understanding of everything from atoms to galaxies."
-        },
-        {
-            "question": "how does gravity work",
-            "sentiment": "curious",
-            "answer": "Valo question! Science is how we understand the universe. Physics explains forces and energy, Chemistry explains matter, Biology explains life, and Astronomy explores space."
         }
     ]
 }

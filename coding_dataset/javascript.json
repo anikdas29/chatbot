@@ -19,11 +19,6 @@
     ],
     "feelings": [
         {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
             "question": "how to lern javascript",
             "sentiment": "curious",
             "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
@@ -37,201 +32,11 @@
             "question": "what is javascript",
             "sentiment": "curious",
             "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "Nice question! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it.\n\nAro kichu lagbe bolo!"
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Great question! Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning. And JavaScript is THE language of the web."
         },
         {
             "question": "how to lern javascript",
             "sentiment": "curious",
             "answer": "Valo question! Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning. Additionally, JavaScript can build anything: websites, mobile apps (React Native), desktop apps (Electron), servers (Node."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "Good one! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it."
-        },
-        {
-            "question": "what is javascript",
-            "sentiment": "curious",
-            "answer": "Interesting! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it. Also, Learn JavaScript: freeCodeCamp (free), JavaScript."
-        },
-        {
-            "question": "how to learn javascript",
-            "sentiment": "curious",
-            "answer": "Great question! Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning.\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "how to lern javascript",
-            "sentiment": "curious",
-            "answer": "Good one! Learn JavaScript: freeCodeCamp (free), JavaScript.info (best docs), Traversy Media (YouTube), or The Odin Project for full-stack learning. Also, JavaScript is THE language of the web."
-        },
-        {
-            "question": "javascript ki",
-            "sentiment": "curious",
-            "answer": "Great question! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it.\n\nHope this helps!"
         },
         {
             "question": "how to learn react and javascript",
@@ -264,9 +69,24 @@
             "answer": "To learn React and JavaScript, you can start by learning HTML/CSS/JavaScript (HTML first, then React docs) and build a simple todo app using APIs like Google Maps or Flickr. Then move on to building full-stack applications with React and React Native for mobile development. Finally, you can dive into advanced topics such as Redux, GraphQL, and React Router. Remember to practice and learn by doing, and don't forget to seek help from online resources like freeCodeCamp, JavaScripT.info, Traversy Media, or The Odin Project for full-stack learning."
         },
         {
-            "question": "tell me about javascript",
+            "question": "how javascript async await works?",
             "sentiment": "curious",
-            "answer": "Valo question! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it.\n\nAro kichu lagbe bolo!"
+            "answer": "Good one! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid!"
+        },
+        {
+            "question": "how javascript async await works?",
+            "sentiment": "curious",
+            "answer": "Good one! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid! Plus, Learn JavaScript: freeCodeCamp (free), JavaScript.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how javascript async await works?",
+            "sentiment": "curious",
+            "answer": "Interesting! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid!"
+        },
+        {
+            "question": "how javascript async await works?",
+            "sentiment": "curious",
+            "answer": "Valo question! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid!\n\nHope this helps!"
         }
     ]
 }

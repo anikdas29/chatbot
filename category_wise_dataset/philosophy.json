@@ -8,8 +8,7 @@
         "philosophical questions",
         "philosophy basics",
         "philosophy of life",
-        "philosophical thinking",
-        "what is reality"
+        "philosophical thinking"
     ],
     "answers": [
         "Big questions: meaning of life, consciousness, morality. Explore Socrates, Aristotle, Kant.",
@@ -26,67 +25,7 @@
         {
             "question": "what is philosophy",
             "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Reality, consciousness, free will — these questions don't have easy answers. Reading philosophy helps sharpen your thinking, even if certainty remains elusive."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
             "answer": "Valo question! Philosophy tackles life's biggest questions. Start with Socrates (question everything), Aristotle (virtue and reason), and Kant (duty and morality).\n\nAro kichu lagbe bolo!"
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "Great question! Philosophy tackles life's biggest questions. Start with Socrates (question everything), Aristotle (virtue and reason), and Kant (duty and morality)."
         }
     ]
 }

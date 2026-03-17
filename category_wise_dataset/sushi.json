@@ -5,7 +5,6 @@
         "about sushi",
         "sushi types",
         "best sushi",
-        "sushi tips",
         "sushi ki"
     ],
     "answers": [
@@ -19,11 +18,6 @@
             "question": "How do I make sushi at home?",
             "sentiment": "curious",
             "answer": "Interesting! The world of sushi is rich and diverse. Start with the basics and expand your palate.\n\nHope this helps!"
-        },
-        {
-            "question": "How do I make sushi at home?",
-            "sentiment": "curious",
-            "answer": "Great question! The world of sushi is rich and diverse. Start with the basics and expand your palate."
         }
     ]
 }

@@ -13,5 +13,12 @@
         "Learn nextjs from official docs and tutorials. Practice by building projects.",
         "Nextjs is widely used in industry. Great skill to add to your portfolio.",
         "Start with nextjs basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "what is next.js?",
+            "sentiment": "curious",
+            "answer": "Interesting! Nextjs is widely used in industry. Great skill to add to your portfolio."
+        }
     ]
 }

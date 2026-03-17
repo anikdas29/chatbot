@@ -6,7 +6,6 @@
         "future of technology",
         "latest tech",
         "tech news",
-        "latest technology news",
         "tech trends",
         "technology update",
         "tech news today",
@@ -20,46 +19,5 @@
         "Top tech trends: Generative AI, Edge Computing, Quantum Computing, and Green Tech. Subscribe to newsletters like TLDR or Morning Brew Tech.",
         "Stay updated by following Hacker News, TechCrunch, and YouTube channels like Fireship or Two Minute Papers."
     ],
-    "feelings": [
-        {
-            "question": "what is ai",
-            "sentiment": "curious",
-            "answer": "Stay updated by following Hacker News, TechCrunch, and YouTube channels like Fireship or Two Minute Papers."
-        },
-        {
-            "question": "best programming language",
-            "sentiment": "happy",
-            "answer": "Top tech trends: Generative AI, Edge Computing, Quantum Computing, and Green Tech. Subscribe to newsletters like TLDR or Morning Brew Tech.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "what is ai",
-            "sentiment": "curious",
-            "answer": "Stay updated by following Hacker News, TechCrunch, and YouTube channels like Fireship or Two Minute Papers."
-        },
-        {
-            "question": "best programming language",
-            "sentiment": "happy",
-            "answer": "Top tech trends: Generative AI, Edge Computing, Quantum Computing, and Green Tech. Subscribe to newsletters like TLDR or Morning Brew Tech.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "what is ai",
-            "sentiment": "curious",
-            "answer": "Stay updated by following Hacker News, TechCrunch, and YouTube channels like Fireship or Two Minute Papers."
-        },
-        {
-            "question": "best programming language",
-            "sentiment": "happy",
-            "answer": "Top tech trends: Generative AI, Edge Computing, Quantum Computing, and Green Tech. Subscribe to newsletters like TLDR or Morning Brew Tech.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "what is ai",
-            "sentiment": "curious",
-            "answer": "Stay updated by following Hacker News, TechCrunch, and YouTube channels like Fireship or Two Minute Papers."
-        },
-        {
-            "question": "best programming language",
-            "sentiment": "happy",
-            "answer": "Top tech trends: Generative AI, Edge Computing, Quantum Computing, and Green Tech. Subscribe to newsletters like TLDR or Morning Brew Tech.\n\nApnar bhalo lagche jene amrao khushi!"
-        }
-    ]
+    "feelings": []
 }

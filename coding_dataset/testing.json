@@ -27,154 +27,19 @@
             "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
         },
         {
-            "question": "what is software testing",
+            "question": "how to write unit test?",
             "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
+            "answer": "Valo question! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
         },
         {
-            "question": "how to test code",
+            "question": "how to write unit test?",
             "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
+            "answer": "Valo question! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them! Also, Software testing ensures your code works correctly."
         },
         {
-            "question": "what is software testing",
+            "question": "how to write unit test?",
             "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Valo question! Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow).\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Good one! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "what is software testing",
-            "sentiment": "curious",
-            "answer": "Great question! Software testing ensures your code works correctly. Types: unit testing (individual functions), integration testing (components together), and E2E testing (full user flow)."
-        },
-        {
-            "question": "how to test code",
-            "sentiment": "curious",
-            "answer": "Good one! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!\n\nAr kichu jante chaile bolo!"
+            "answer": "Valo question! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!\n\nAro kichu lagbe bolo!"
         }
     ]
 }

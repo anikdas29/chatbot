@@ -23,11 +23,6 @@
     ],
     "feelings": [
         {
-            "question": "how to learn python",
-            "sentiment": "curious",
-            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
-        },
-        {
             "question": "best python course",
             "sentiment": "happy",
             "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
@@ -46,86 +41,11 @@
             "question": "how to learn python",
             "sentiment": "curious",
             "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
-        },
-        {
-            "question": "best python course",
-            "sentiment": "happy",
-            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "python ki",
-            "sentiment": "curious",
-            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
-        },
-        {
-            "question": "what is python",
-            "sentiment": "curious",
-            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
-        },
-        {
-            "question": "how to learn python",
-            "sentiment": "curious",
-            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
-        },
-        {
-            "question": "best python course",
-            "sentiment": "happy",
-            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "python ki",
-            "sentiment": "curious",
-            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
-        },
-        {
-            "question": "what is python",
-            "sentiment": "curious",
-            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
-        },
-        {
-            "question": "how to learn python",
-            "sentiment": "curious",
-            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
-        },
-        {
-            "question": "best python course",
-            "sentiment": "happy",
-            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "python ki",
-            "sentiment": "curious",
-            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
-        },
-        {
-            "question": "what is python",
-            "sentiment": "curious",
-            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
-        },
-        {
-            "question": "how to learn python",
-            "sentiment": "curious",
-            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
-        },
-        {
-            "question": "best python course",
-            "sentiment": "happy",
-            "answer": "Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "python ki",
-            "sentiment": "curious",
-            "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
         },
         {
             "question": "what is python",
             "sentiment": "curious",
             "answer": "Valo question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
-        },
-        {
-            "question": "what is python",
-            "sentiment": "curious",
-            "answer": "Good one! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
         },
         {
             "question": "what is python",
@@ -138,29 +58,9 @@
             "answer": "Good one! Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask. Additionally, Python syntax is simple — no semicolons, no curly braces, just indentation.\n\nAro kichu lagbe bolo!"
         },
         {
-            "question": "best python course",
-            "sentiment": "happy",
-            "answer": "Nice! Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nHope this helps!"
-        },
-        {
             "question": "python ki",
             "sentiment": "curious",
             "answer": "Valo question! Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to start!"
-        },
-        {
-            "question": "what is python",
-            "sentiment": "curious",
-            "answer": "Interesting! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
-        },
-        {
-            "question": "how to learn python",
-            "sentiment": "curious",
-            "answer": "Great question! Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
-        },
-        {
-            "question": "best python course",
-            "sentiment": "happy",
-            "answer": "Glad you asked! Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer."
         },
         {
             "question": "python ki",
@@ -170,42 +70,7 @@
         {
             "question": "what is python",
             "sentiment": "curious",
-            "answer": "Interesting! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
-        },
-        {
-            "question": "what is python",
-            "sentiment": "curious",
             "answer": "Nice question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting. Additionally, Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "Interesting! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting.\n\nHope this helps!"
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "Good one! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "Sure! PyTorch is a popular deep learning framework for researchers, developers, and students that focuses on providing high-performance computing capabilities for machine learning tasks. It offers a wide range of models such as CNNs, RNNs, Dense layers, and more. PyTorch also provides libraries like TensorFlow, Torch, and MXNet to help users with their research and development projects. The framework is written in C++ and runs on CPU or GPUs."
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "Python is a beginner-friendly programming language known for its clean syntax that makes it easy to learn for newcomers. It has been used in web development, data science, AI, automation, and scripting, among other fields. Python resources include the official documentation (docs.python.org), Automate the Boring Stuff by Corey Schaffer, Codecademy, and YouTube channels like Corey Schaffer's channel."
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "Python is a beginner-friendly programming language known for its clean syntax, used in web development, data science, artificial intelligence (AI), and scripting. It's also popular among developers who want to learn Python due to its simplicity and ease of use. Some best resources for learning Python include the official documentation (docs.python.org), Automate the Boring Stuff by Corey Schaffer, Codecademy, and YouTube channels like Corey Schaffer."
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "PyTHON is a beginner-friendly programming language known for its clean syntax, used in web development, data science, AI, automation, and scripting. It offers features such as variables, loops, functions, object-oriented programming (OOP), file handling, and libraries like requests, pandas, and flask. Best resources to learn PyTHON include the official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schaffer."
         },
         {
             "question": "how to cook a python script?",
@@ -218,16 +83,6 @@
             "answer": "A Python snake refers to a type of game that involves moving a snake along a board with different colors and shapes, where the goal is to move the snake as far away from the starting point as possible while avoiding collisions with other snakes."
         },
         {
-            "question": "how to handle errors in python?",
-            "sentiment": "curious",
-            "answer": "To handle errors in Pyton, you can use try-except blocks as follows:\n\n```python\ntry:\n    # code that may raise an error\nexcept Exception as e:\n    print(\"Error occurred:\", e)\nelse:\n    pass\n```\n\nIn this example, the `except` block is used to catch any exceptions that might occur during execution of the code. The `pass` statement is used to skip the rest of the code and continue with the next line. This ensures that the program continues running even if an error occurs in one part"
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "Nice question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting.\n\nAr kichu jante chaile bolo!"
-        },
-        {
             "question": "how to cook a python script?",
             "sentiment": "curious",
             "answer": "Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to start!\n\nOn the screenplay side: A screenplay is a written script for a film or TV show that includes dialogue, scene descriptions, and character actions in a specific industry for...\n\nRegarding screenwriting: Screenplay format: scene headings, action lines, character names, dialogue."
@@ -238,39 +93,24 @@
             "answer": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting.\n\nFor snake bite: If bitten by a snake, stay calm and keep the bitten limb below heart level."
         },
         {
-            "question": "how to handle errors in python?",
+            "question": "why python is so populer?",
             "sentiment": "curious",
-            "answer": "Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to start!\n\nFor coding errors: To fix errors: read the full error message, check your syntax, add print statements to trace the issue, and search the error on Stack Overflow.\n\nAbout incident management: On-call tips: have runbooks, escalation paths, clear communication channels, and blameless post-mortems after incidents."
+            "answer": "The reason why Python has become more popular than other programming languages like Go or Java is due to its simplicity, ease-of-use, and strong community support. It's a compiled language with no dependencies, making it easy for beginners to learn and use. Additionally, Python's syntax is clean and intuitive, which makes it easier for developers to write code quickly and efficiently. This has led to a surge in the popularity of Python as a programming language over the years."
         },
         {
-            "question": "python ki?",
+            "question": "why python is so populer?",
             "sentiment": "curious",
-            "answer": "Good one! Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to start!\n\nAr kichu jante chaile bolo!"
+            "answer": "Great question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
         },
         {
-            "question": "what is python?",
+            "question": "why python is so populer?",
             "sentiment": "curious",
-            "answer": "PyTHON is a beginner-friendly programming language known for its clean syntax, used in web development, data science, AI, automation, and scripting."
+            "answer": "Interesting! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
         },
         {
-            "question": "what is python?",
+            "question": "why python is so populer?",
             "sentiment": "curious",
-            "answer": "Nice question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting. Plus, Python syntax is simple — no semicolons, no curly braces, just indentation."
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "PyThon is a beginner-friendly programming language that's known for its clean syntax, especially compared to other languages like Java and Go. It's used in web development, data science, AI, automation, and scripting, among others."
-        },
-        {
-            "question": "what is python?",
-            "sentiment": "curious",
-            "answer": "Python, as known, is an open-source programming language that's widely used in web development, data science, AI, automation, and scripting. It has a simple syntax and is faster than Java or Go compared to Ruby for data science purposes."
-        },
-        {
-            "question": "frameworks ki ki ache?",
-            "sentiment": "curious",
-            "answer": "Yes, Pyton is an open-source programming language with many popular frameworks that help developers build scalable applications. These frameworks include Django, Flask, Pydle, and more."
+            "answer": "Great question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting. Also, Python syntax is simple — no semicolons, no curly braces, just indentation."
         }
     ]
 }

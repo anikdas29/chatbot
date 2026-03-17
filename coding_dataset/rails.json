@@ -13,5 +13,22 @@
         "Learn rails from official docs and tutorials. Practice by building projects.",
         "Rails is widely used in industry. Great skill to add to your portfolio.",
         "Start with rails basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "ruby on rails ki?",
+            "sentiment": "curious",
+            "answer": "Learn rails from official docs and tutorials. Practice by building projects.\n\nRegarding ruby: Ruby is famous for its elegant syntax and the Ruby on Rails framework."
+        },
+        {
+            "question": "ruby on rails ki?",
+            "sentiment": "curious",
+            "answer": "Learn rails from official docs and tutorials. Practice by building projects.\n\nAlso regarding ruby: Ruby is famous for its elegant syntax and the Ruby on Rails framework."
+        },
+        {
+            "question": "ruby on rails ki?",
+            "sentiment": "curious",
+            "answer": "Learn rails from official docs and tutorials. Practice by building projects.\n\nFor ruby: Ruby is famous for its elegant syntax and the Ruby on Rails framework."
+        }
     ]
 }

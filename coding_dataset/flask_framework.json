@@ -5,8 +5,7 @@
         "what is flask framework",
         "flask framework tutorial",
         "learn flask framework",
-        "flask framework basics",
-        "flask framework ki"
+        "flask framework basics"
     ],
     "answers": [
         "Flask: lightweight Python web framework. Minimal core, extensible with plugins.",
@@ -21,29 +20,29 @@
             "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
         },
         {
-            "question": "how to deploy python flask app on aws",
-            "sentiment": "curious",
-            "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
-        },
-        {
-            "question": "how to deploy python flask app on aws?",
-            "sentiment": "curious",
-            "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
-        },
-        {
             "question": "how to deploy flask on aws?",
             "sentiment": "curious",
             "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
         },
         {
-            "question": "how to deploy flask on aws?",
+            "question": "flask vs django which is better?",
             "sentiment": "curious",
-            "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
+            "answer": "Both Flask and Django are widely used in the industry. However, if you're looking for a framework to build web applications, Flask may be easier to learn as it was designed by Yukihiro Matsumoto to make programming enjoyable. If you want to focus on building microservices, APIs or cloud-native applications, Django is the better choice because of its elegant syntax and Ruby on Rails framework. Ultimately, it depends on your use case and preferences."
         },
         {
-            "question": "how to deploy python flask app on aws?",
+            "question": "flask vs django which is better?",
             "sentiment": "curious",
-            "answer": "Good one! Learn flask framework from official docs and tutorials. Practice by building projects.\n\nAr kichu jante chaile bolo!"
+            "answer": "Flask Framework is widely used in industry. Great skill to add to your portfolio."
+        },
+        {
+            "question": "flask vs django which is better?",
+            "sentiment": "curious",
+            "answer": "Flask Framework is widely used in industry. Great skill to add to your portfolio."
+        },
+        {
+            "question": "flask vs django which is better?",
+            "sentiment": "curious",
+            "answer": "Flask Framework is widely used in industry. Great skill to add to your portfolio."
         }
     ]
 }

@@ -5,8 +5,7 @@
         "what is business plan",
         "business plan tips",
         "business plan basics",
-        "business plan guide",
-        "business plan ki"
+        "business plan guide"
     ],
     "answers": [
         "Business plan: executive summary, market analysis, products/services, marketing strategy, financials.",
@@ -14,16 +13,5 @@
         "Best practices for business plan: research, plan, execute, and iterate based on results.",
         "Understanding business plan helps you make better business decisions."
     ],
-    "feelings": [
-        {
-            "question": "how to upgrade my plan?",
-            "sentiment": "curious",
-            "answer": "Business Plan is essential for business success. Learn and apply consistently.\n\nFor business: Startup tip: don't wait for a perfect idea.\n\nAbout retirement: Retirement planning: calculate needed amount, save 15-20% of income, invest in diversified portfolio, and reduce debt."
-        },
-        {
-            "question": "how to upgrade my plan?",
-            "sentiment": "curious",
-            "answer": "Business Plan is essential for business success. Learn and apply consistently.\n\nAbout business: Startup tip: don't wait for a perfect idea.\n\nOn the retirement side: Retirement planning: calculate needed amount, save 15-20% of income, invest in diversified portfolio, and reduce debt."
-        }
-    ]
+    "feelings": []
 }

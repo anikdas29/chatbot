@@ -5,8 +5,7 @@
         "what is encryption",
         "encryption explained",
         "encryption basics",
-        "encryption tips",
-        "encryption ki"
+        "encryption tips"
     ],
     "answers": [
         "Encryption converts data to unreadable format. AES (files), RSA (communication), HTTPS (websites).",

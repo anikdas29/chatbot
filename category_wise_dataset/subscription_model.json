@@ -3,10 +3,8 @@
     "type": "general",
     "questions": [
         "what is subscription model",
-        "subscription model tips",
-        "subscription model basics",
         "subscription model guide",
-        "subscription model ki"
+        "subscription model basics"
     ],
     "answers": [
         "Subscription model: recurring revenue, predictable income. Netflix, Spotify, SaaS companies use this.",
@@ -14,16 +12,5 @@
         "Best practices for subscription model: research, plan, execute, and iterate based on results.",
         "Understanding subscription model helps you make better business decisions."
     ],
-    "feelings": [
-        {
-            "question": "how to cancel my subscription?",
-            "sentiment": "curious",
-            "answer": "To cancel your subscription, follow the best practices mentioned in the text. This will help you understand how to terminate a subscription as well as what information to provide when requesting cancellation."
-        },
-        {
-            "question": "how to cancel my subscription?",
-            "sentiment": "curious",
-            "answer": "Great question! Understanding subscription model helps you make better business decisions. Plus, Subscription Model is essential for business success.\n\nAro kichu lagbe bolo!"
-        }
-    ]
+    "feelings": []
 }

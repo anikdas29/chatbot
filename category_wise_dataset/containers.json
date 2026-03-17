@@ -14,11 +14,5 @@
         "Benefits: consistent environments (works on my machine!), fast startup, efficient resource use, and easy scaling.",
         "Container workflow: write Dockerfile → build image → push to registry → deploy anywhere (laptop, server, cloud)."
     ],
-    "feelings": [
-        {
-            "question": "what is docker?",
-            "sentiment": "curious",
-            "answer": "Containers = lightweight packages containing app + dependencies. Run consistently everywhere. Docker is the most popular runtime.\n\nFor docker basics: Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment."
-        }
-    ]
+    "feelings": []
 }

@@ -15,5 +15,22 @@
         "PHP is a widely-used backend language embedded in HTML. With frameworks like Laravel and Symfony, it's a mature ecosystem for building web applications, APIs, and content management systems.",
         "PHP has evolved massively with version 8.x bringing JIT compilation, named arguments, attributes, and union types. It remains one of the most practical languages for web development.",
         "Despite jokes about it, PHP is alive and thriving. Laravel is one of the most popular web frameworks, and PHP 8's performance improvements put it on par with many modern alternatives."
+    ],
+    "feelings": [
+        {
+            "question": "php ki ekhono use hoy?",
+            "sentiment": "curious",
+            "answer": "PHP is a widely-used backend language embedded in HTML. With frameworks like Laravel and Symfony, it's a mature ecosystem for building web applications, APIs, and content management systems.\n\nFor perl: While not as trendy as Python, Perl remains essential in many legacy systems, DevOps scripting, and scientific computing."
+        },
+        {
+            "question": "php ki ekhono use hoy?",
+            "sentiment": "curious",
+            "answer": "PHP is a widely-used backend language embedded in HTML. With frameworks like Laravel and Symfony, it's a mature ecosystem for building web applications, APIs, and content management systems.\n\nFor perl: While not as trendy as Python, Perl remains essential in many legacy systems, DevOps scripting, and scientific computing."
+        },
+        {
+            "question": "php ki ekhono use hoy?",
+            "sentiment": "curious",
+            "answer": "PHP is a widely-used backend language embedded in HTML. With frameworks like Laravel and Symfony, it's a mature ecosystem for building web applications, APIs, and content management systems.\n\nOn the perl side: While not as trendy as Python, Perl remains essential in many legacy systems, DevOps scripting, and scientific computing."
+        }
     ]
 }

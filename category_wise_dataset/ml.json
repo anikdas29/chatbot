@@ -3,11 +3,8 @@
     "type": "general",
     "questions": [
         "explain svm",
-        "difference between ml and dl?",
         "what is machine learning",
-        "explain ml",
         "machine learning ki",
-        "difference between mobile and web",
         "machine learning tutorial",
         "how does machine learning work",
         "ml basics for beginners",
@@ -20,15 +17,13 @@
         "best ml course",
         "ml roadmap",
         "how to learn ml",
-        "learn machine learning",
         "ml learning path"
     ],
     "answers": [
         "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch.",
         "ML = teaching computers to learn from data without explicit programming. Key types: supervised (labelled data), unsupervised (patterns), reinforcement (rewards).",
         "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning.",
-        "ML is a branch of AI. Give a computer enough data and the right algorithm, and it learns to make predictions. Tools: Python, scikit-learn, Pandas, NumPy.",
-        "mobile means small device, carrying in hand, pocket on the other hand web means laptop or desktop"
+        "ML is a branch of AI. Give a computer enough data and the right algorithm, and it learns to make predictions. Tools: Python, scikit-learn, Pandas, NumPy."
     ],
     "feelings": [
         {
@@ -42,159 +37,9 @@
             "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
         },
         {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
             "question": "how to learn ml",
             "sentiment": "curious",
             "answer": "ML = teaching computers to learn from data without explicit programming. Key types: supervised (labelled data), unsupervised (patterns), reinforcement (rewards)."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "how to learn ml",
-            "sentiment": "curious",
-            "answer": "ML = teaching computers to learn from data without explicit programming. Key types: supervised (labelled data), unsupervised (patterns), reinforcement (rewards)."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "how to learn ml",
-            "sentiment": "curious",
-            "answer": "ML = teaching computers to learn from data without explicit programming. Key types: supervised (labelled data), unsupervised (patterns), reinforcement (rewards)."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "how to learn ml",
-            "sentiment": "curious",
-            "answer": "ML = teaching computers to learn from data without explicit programming. Key types: supervised (labelled data), unsupervised (patterns), reinforcement (rewards)."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Interesting! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch.\n\nHope this helps!"
         },
         {
             "question": "how to learn ml",
@@ -207,39 +52,9 @@
             "answer": "Nice question! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch.\n\nAro kichu lagbe bolo!"
         },
         {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Great question! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "what is machine learning",
-            "sentiment": "curious",
-            "answer": "Good one! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "how to learn ml",
-            "sentiment": "curious",
-            "answer": "Good one! ML is a branch of AI. Give a computer enough data and the right algorithm, and it learns to make predictions. Tools: Python, scikit-learn, Pandas, NumPy.\n\nHope this helps!"
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Interesting! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
-            "question": "machine learning ki",
-            "sentiment": "curious",
-            "answer": "Interesting! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
-        },
-        {
             "question": "best machine learning algorithm for image classification",
             "sentiment": "happy",
             "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning.\n\nRegarding classification: Classification: predicting categories.\n\nRegarding image generation: AI image generation has exploded in popularity."
-        },
-        {
-            "question": "best machine learning algorithm for image classification",
-            "sentiment": "happy",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning.\n\nRegarding classification: Classification: predicting categories.\n\nFor image generation: AI image generation has exploded in popularity."
         },
         {
             "question": "how does machine learning work?",
@@ -247,19 +62,9 @@
             "answer": "Good one! Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning. Additionally, ML = teaching computers to learn from data without explicit programming.\n\nAr kichu jante chaile bolo!"
         },
         {
-            "question": "best machine learning algorithm for image classification",
-            "sentiment": "happy",
-            "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning.\n\nFor classification: Classification: predicting categories.\n\nRegarding image generation: AI image generation has exploded in popularity."
-        },
-        {
             "question": "what is machine learning?",
             "sentiment": "curious",
             "answer": "Machine Learning (ML) refers to a subset of Artificial Intelligence (AI), where computers learn from data without being explicitly programmed. Types of ML include supervised, unsupersvised, and reinforcement learning. Tools used in ML include scikit-learn for classical ML, TenorFlow or PyToRCH for deep learning."
-        },
-        {
-            "question": "what is machine learning?",
-            "sentiment": "curious",
-            "answer": "Machine Learning (ML) refers to a subset of Artificial Intelligence (AI), where computers learn from data without being explicitly programmed. Types of ML include supervised, unsupersvised, and reinforcement learning. Tools used in ML include scikit-learn for classical ML, TenorFlow or PyTorch for deep learning."
         },
         {
             "question": "can you explain how ML works?",
@@ -269,17 +74,17 @@
         {
             "question": "what is machine learning?",
             "sentiment": "curious",
-            "answer": "Great question! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch.\n\nAro kichu lagbe bolo!"
-        },
-        {
-            "question": "can you explain how ML works?",
-            "sentiment": "curious",
-            "answer": "ML = teaching computers to learn from data without explicit programming. Key types: supervised (labelled data), unsupervised (patterns), reinforcement (rewards).\n\nOn the embeddings side: Embeddings are numerical representations of data (text, images, etc.) in a continuous vector space."
-        },
-        {
-            "question": "what is machine learning?",
-            "sentiment": "curious",
             "answer": "Machine Learning refers to the subset of Artificial Intelligence (AI) that involves learning from data and adapting to new situations based on past experiences. It's a powerful tool for solving complex problems in various industries, including healthcare, finance, e-commerce, and more."
+        },
+        {
+            "question": "machine learning ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "machine learning ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch. Plus, ML = teaching computers to learn from data without explicit programming."
         }
     ]
 }

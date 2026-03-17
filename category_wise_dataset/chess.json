@@ -15,5 +15,27 @@
         "Chess shikhte hole basic piece movements shikho — pawn straight chole, bishop diagonal e, rook straight line e, knight L-shape e, queen shob direction e, ar king ek ghor. Checkmate korle win!",
         "The greatest chess players include Garry Kasparov, Bobby Fischer, Magnus Carlsen, and Viswanathan Anand. Magnus Carlsen dominated modern chess for over a decade with his incredible positional play.",
         "Chess is excellent for brain development — it improves problem-solving, strategic thinking, memory, and concentration. To improve, study openings, practice tactics puzzles daily, and analyze your games. The Elo rating system measures player strength numerically."
+    ],
+    "feelings": [
+        {
+            "question": "how to play chess?",
+            "sentiment": "curious",
+            "answer": "Valo question! Chess is a two-player strategy board game played on an 8x8 grid. Each player has 16 pieces — king, queen, bishops, knights, rooks, and pawns. The goal is to checkmate the opponent's king.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to play chess?",
+            "sentiment": "curious",
+            "answer": "Good one! Chess is a two-player strategy board game played on an 8x8 grid. Each player has 16 pieces — king, queen, bishops, knights, rooks, and pawns. The goal is to checkmate the opponent's king. Plus, Chess is excellent for brain development — it improves problem-solving, strategic thinking, memory, and concentration.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to play chess?",
+            "sentiment": "curious",
+            "answer": "Interesting! Chess is a two-player strategy board game played on an 8x8 grid. Each player has 16 pieces — king, queen, bishops, knights, rooks, and pawns. The goal is to checkmate the opponent's king.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to play chess?",
+            "sentiment": "curious",
+            "answer": "Great question! Chess is a two-player strategy board game played on an 8x8 grid. Each player has 16 pieces — king, queen, bishops, knights, rooks, and pawns. The goal is to checkmate the opponent's king. Also, Chess is excellent for brain development — it improves problem-solving, strategic thinking, memory, and concentration."
+        }
     ]
 }

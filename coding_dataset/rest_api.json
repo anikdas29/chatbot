@@ -21,6 +21,21 @@
             "question": "what is REST API?",
             "sentiment": "curious",
             "answer": "REST API is an architectural style for building web services that uses HTTP methods like GET, POST, PUT, and DELETE to perform CRUD operations on resources identified by URLs.\n\nRegarding api: REST API: uses HTTP methods - GET (read), POST (create), PUT (update), DELETE (remove)."
+        },
+        {
+            "question": "what is REST API?",
+            "sentiment": "curious",
+            "answer": "REST (Representational State Transfer) API is an architectural style for building web services that uses HTTP methods like GET, POST, PUT, and DELETE to perform CRUD operations on resources identified by URLs. It provides a standardized way of communicating with servers over the internet."
+        },
+        {
+            "question": "what is REST API?",
+            "sentiment": "curious",
+            "answer": "REST API is an architectural style for building web services that uses HTTP methods like GET, POST, PUT, and DELETE to perform CRUD operations on resources identified by URLs.\n\nOn the api side: REST API: uses HTTP methods - GET (read), POST (create), PUT (update), DELETE (remove)."
+        },
+        {
+            "question": "what is REST API?",
+            "sentiment": "curious",
+            "answer": "REST API is an architectural style for building web services that uses HTTP methods like GET, POST, PUT, and DELETE to perform CRUD operations on resources identified by URLs.\n\nRegarding api: REST API: uses HTTP methods - GET (read), POST (create), PUT (update), DELETE (remove)."
         }
     ]
 }

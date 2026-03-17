@@ -3,12 +3,10 @@
     "type": "general",
     "questions": [
         "inspirational quote please",
-        "life quote",
+        "life quotes",
         "give me a quote",
-        "inspirational quotes",
         "best quotes",
         "famous quotes",
-        "life quotes",
         "motivational quotes",
         "quote of the day"
     ],
@@ -27,77 +25,22 @@
         {
             "question": "best quotes",
             "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "'It always seems impossible until it's done.' - Nelson Mandela\n'The best time to plant a tree was 20 years ago. The second best time is now.' - Chinese Proverb\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "best quotes",
-            "sentiment": "happy",
             "answer": "Nice! 'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill\n'In the middle of difficulty lies opportunity.' - Einstein Plus, 'Don't watch the clock; do what it does.\n\nHope this helps!"
         },
         {
-            "question": "best quotes",
-            "sentiment": "happy",
-            "answer": "Glad you asked! 'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill\n'In the middle of difficulty lies opportunity.' - Einstein"
+            "question": "tell me a quote",
+            "sentiment": "curious",
+            "answer": "Valo question! 'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill\n'In the middle of difficulty lies opportunity.' - Einstein Additionally, 'It always seems impossible until it's done."
+        },
+        {
+            "question": "tell me a quote",
+            "sentiment": "curious",
+            "answer": "Interesting! 'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill\n'In the middle of difficulty lies opportunity.' - Einstein\n\nHope this helps!"
+        },
+        {
+            "question": "tell me a quote",
+            "sentiment": "curious",
+            "answer": "Good one! 'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill\n'In the middle of difficulty lies opportunity.' - Einstein\n\nAro kichu lagbe bolo!"
         }
     ]
 }

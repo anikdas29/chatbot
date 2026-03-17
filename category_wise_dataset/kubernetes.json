@@ -21,14 +21,29 @@
             "answer": "Valo question! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications.\n\nHope this helps!"
         },
         {
-            "question": "what is kubernetes?",
+            "question": "kubernetes ki jinish?",
             "sentiment": "curious",
-            "answer": "Interesting! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications.\n\nAr kichu jante chaile bolo!"
+            "answer": "Kubernetes is a container orchestrator platform that automates the deployment, scaling, and management of containerized applications. It provides a Kubernetes API, which allows developers to write code in any programming language or tool they prefer without worrying about managing the underlying infrastructure."
         },
         {
-            "question": "what is kubernetes?",
+            "question": "kubernetes ki jinish?",
             "sentiment": "curious",
-            "answer": "Nice question! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications. Also, Start learning K8s: install Minikube locally, deploy a simple app, learn kubectl commands, then explore Helm charts."
+            "answer": "Great question! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications."
+        },
+        {
+            "question": "kubernetes ki jinish?",
+            "sentiment": "curious",
+            "answer": "Interesting! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications. And Start learning K8s: install Minikube locally, deploy a simple app, learn kubectl commands, then explore Helm charts."
+        },
+        {
+            "question": "kubernetes ki jinish?",
+            "sentiment": "curious",
+            "answer": "Good one! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications."
+        },
+        {
+            "question": "kubernetes ki jinish?",
+            "sentiment": "curious",
+            "answer": "Good one! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications. And Benefits: auto-scaling, self-healing (restarts failed containers), rolling updates, and load balancing built-in.\n\nHope this helps!"
         }
     ]
 }

@@ -4,9 +4,7 @@
     "questions": [
         "what is penetration testing",
         "penetration testing explained",
-        "penetration testing basics",
-        "penetration testing tips",
-        "penetration testing ki"
+        "penetration testing basics"
     ],
     "answers": [
         "Pen testing: authorized simulated attack to find security weaknesses. Tools: Burp Suite, Metasploit, Nmap.",

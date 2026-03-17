@@ -4,9 +4,7 @@
     "questions": [
         "what is network security",
         "network security explained",
-        "network security basics",
-        "network security tips",
-        "network security ki"
+        "network security basics"
     ],
     "answers": [
         "Network security: firewalls, IDS/IPS, segmentation, encryption, and access control protect your network.",

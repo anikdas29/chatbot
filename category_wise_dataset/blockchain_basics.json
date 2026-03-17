@@ -19,6 +19,21 @@
             "question": "explain blockchain simply",
             "sentiment": "curious",
             "answer": "Blockchain = distributed, immutable ledger. Every transaction is recorded in blocks linked cryptographically. No central authority.\n\nAlso regarding crypto: Blockchain = a digital ledger that records transactions across many computers."
+        },
+        {
+            "question": "blockchain ki?",
+            "sentiment": "curious",
+            "answer": "Blockchain = distributed, immutable ledger. Every transaction is recorded in blocks linked cryptographically. No central authority.\n\nOn the crypto side: Blockchain = a digital ledger that records transactions across many computers."
+        },
+        {
+            "question": "blockchain ki?",
+            "sentiment": "curious",
+            "answer": "Blockchain = distributed, immutable ledger. Every transaction is recorded in blocks linked cryptographically. No central authority.\n\nAlso regarding crypto: Blockchain = a digital ledger that records transactions across many computers."
+        },
+        {
+            "question": "blockchain ki?",
+            "sentiment": "curious",
+            "answer": "Blockchain = distributed, immutable ledger. Every transaction is recorded in blocks linked cryptographically. No central authority.\n\nRegarding crypto: Blockchain = a digital ledger that records transactions across many computers."
         }
     ]
 }

@@ -13,5 +13,22 @@
         "Must-know: binary search, BFS/DFS, Dijkstra, sorting (merge, quick), dynamic programming, two pointers, sliding window.",
         "Learning path: arrays → strings → sorting → binary search → recursion → trees → graphs → DP → advanced topics.",
         "For interviews: LeetCode top 75, Blind 75, and Neetcode 150 are curated lists covering all important patterns."
+    ],
+    "feelings": [
+        {
+            "question": "data structure ar algorithm shikbo kivabe?",
+            "sentiment": "curious",
+            "answer": "Algorithms = step-by-step procedures for solving problems. Sorting, searching, graph algorithms, and dynamic programming are essentials.\n\nAlso regarding data structures: For interviews: master Arrays, Hash Maps, Two Pointers, Binary Search, BFS/DFS, and Dynamic Programming."
+        },
+        {
+            "question": "data structure ar algorithm shikbo kivabe?",
+            "sentiment": "curious",
+            "answer": "Algorithms = step-by-step procedures for solving problems. Sorting, searching, graph algorithms, and dynamic programming are essentials.\n\nRegarding data structures: For interviews: master Arrays, Hash Maps, Two Pointers, Binary Search, BFS/DFS, and Dynamic Programming."
+        },
+        {
+            "question": "data structure ar algorithm shikbo kivabe?",
+            "sentiment": "curious",
+            "answer": "Algorithms = step-by-step procedures for solving problems. Sorting, searching, graph algorithms, and dynamic programming are essentials.\n\nRegarding data structures: For interviews: master Arrays, Hash Maps, Two Pointers, Binary Search, BFS/DFS, and Dynamic Programming."
+        }
     ]
 }

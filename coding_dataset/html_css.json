@@ -19,11 +19,6 @@
     ],
     "feelings": [
         {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
             "question": "what is css",
             "sentiment": "curious",
             "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
@@ -42,181 +37,6 @@
             "question": "what is html",
             "sentiment": "curious",
             "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Best way to learn: build a simple portfolio page. Start with HTML structure, then add CSS styling. freeCodeCamp and W3Schools are great free resources."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
-            "question": "how to make a website",
-            "sentiment": "curious",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
         },
         {
             "question": "what is html",
@@ -224,34 +44,9 @@
             "answer": "Valo question! HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
         },
         {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "Interesting! HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!\n\nHope this helps!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "Good one! HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries."
-        },
-        {
             "question": "how to make a website",
             "sentiment": "curious",
             "answer": "Interesting! HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see! Additionally, Best way to learn: build a simple portfolio page."
-        },
-        {
-            "question": "what is html",
-            "sentiment": "curious",
-            "answer": "Good one! HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see! Plus, Best way to learn: build a simple portfolio page."
-        },
-        {
-            "question": "what is css",
-            "sentiment": "curious",
-            "answer": "Interesting! HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!"
-        },
-        {
-            "question": "how to learn html",
-            "sentiment": "curious",
-            "answer": "Nice question! HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries.\n\nHope this helps!"
         },
         {
             "question": "how to make a website",
@@ -264,9 +59,24 @@
             "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!\n\nAbout seo: SEO tips: write long-form quality content, build backlinks from other sites, optimize images, and update old posts."
         },
         {
-            "question": "how do i make my website look good?",
-            "sentiment": "happy",
-            "answer": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build every website you see!\n\nAbout seo: SEO tips: write long-form quality content, build backlinks from other sites, optimize images, and update old posts."
+            "question": "html ar css diye ki ki kora jay?",
+            "sentiment": "curious",
+            "answer": "HTML and CSS are the building blocks of web design that enable developers to create user interfaces for websites and applications."
+        },
+        {
+            "question": "html ar css diye ki ki kora jay?",
+            "sentiment": "curious",
+            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries.\n\nAbout blender 3d: Blender holo completely free 3D software — 3D modeling, animation, rendering, sculpting shob kora jay.\n\nAbout photoshop: Photoshop holo Adobe er image editing software — photo edit, background remove, poster banano, digital painting shob kora jay."
+        },
+        {
+            "question": "html ar css diye ki ki kora jay?",
+            "sentiment": "curious",
+            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries.\n\nAbout blender 3d: Blender holo completely free 3D software — 3D modeling, animation, rendering, sculpting shob kora jay.\n\nFor photoshop: Photoshop holo Adobe er image editing software — photo edit, background remove, poster banano, digital painting shob kora jay."
+        },
+        {
+            "question": "html ar css diye ki ki kora jay?",
+            "sentiment": "curious",
+            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries.\n\nFor blender 3d: Blender holo completely free 3D software — 3D modeling, animation, rendering, sculpting shob kora jay.\n\nAbout photoshop: Photoshop holo Adobe er image editing software — photo edit, background remove, poster banano, digital painting shob kora jay."
         }
     ]
 }

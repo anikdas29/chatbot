@@ -15,5 +15,22 @@
         "Rust gives you the performance of C/C++ but with memory safety guarantees. Its ownership model ensures no dangling pointers, data races, or buffer overflows, making it ideal for systems programming.",
         "Rust is a modern systems language created by Mozilla. It's loved for its zero-cost abstractions, fearless concurrency, and the borrow checker that catches memory issues before your code compiles.",
         "Rust eliminates entire classes of bugs through its ownership and borrowing system. It's used for web servers, game engines, operating systems, and embedded devices where performance and safety both matter."
+    ],
+    "feelings": [
+        {
+            "question": "rust programming language er advantages ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Rust gives you the performance of C/C++ but with memory safety guarantees. Its ownership model ensures no dangling pointers, data races, or buffer overflows, making it ideal for systems programming.\n\nHope this helps!"
+        },
+        {
+            "question": "rust programming language er advantages ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Rust gives you the performance of C/C++ but with memory safety guarantees. Its ownership model ensures no dangling pointers, data races, or buffer overflows, making it ideal for systems programming. Moreover, Rust is a modern systems language created by Mozilla."
+        },
+        {
+            "question": "rust programming language er advantages ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Rust gives you the performance of C/C++ but with memory safety guarantees. Its ownership model ensures no dangling pointers, data races, or buffer overflows, making it ideal for systems programming. Also, Rust is a modern systems language created by Mozilla."
+        }
     ]
 }

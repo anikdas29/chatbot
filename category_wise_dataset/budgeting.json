@@ -16,11 +16,5 @@
         "Budget korar jonno prothome tomar income lekho, then expenses list koro. Dekhbe kothay kothay taka jachhe and kothay cut korte parbe.",
         "Good budgeting starts with being honest about your spending habits. Use apps like YNAB or Mint, or even a simple spreadsheet. The key is consistency — review your budget every week."
     ],
-    "feelings": [
-        {
-            "question": "what is 15% of 200?",
-            "sentiment": "curious",
-            "answer": "A popular method is the 50/30/20 rule: 50% for needs, 30% for wants, and 20% for savings. It's simple and effective for beginners.\n\nAbout teenage: Teenage is important — educate yourself, seek help when needed, and support those around you."
-        }
-    ]
+    "feelings": []
 }

@@ -2,11 +2,10 @@
     "category": "tokenization",
     "type": "general",
     "questions": [
-        "tokenization ki?",
+        "BPE tokenization ki?",
         "what is tokenization in NLP?",
         "token mane ki?",
         "how does tokenization work?",
-        "BPE tokenization ki?",
         "tokenization keno important?",
         "subword tokenization bujhao"
     ],

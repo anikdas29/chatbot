@@ -26,21 +26,6 @@
             "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
         },
         {
-            "question": "i feel anxious",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
-        },
-        {
-            "question": "i feel anxious",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
-        },
-        {
-            "question": "i feel anxious",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
-        },
-        {
             "question": "how do i stay motivated?",
             "sentiment": "curious",
             "answer": "To stay motivated, it's essential to remember that every expert was once a beginner too. Set small goals, celebrate wins, and learn from failure. Progress is not perfection; habit building is key. Stay consistent by creating systems, not relying solely on motivation. Feeling low is normal, but resting or giving up should be avoided. Tackle the next step in a tiny way, and tackle it daily."
@@ -51,24 +36,29 @@
             "answer": "Valo question! Stay consistent by building systems, not just relying on motivation. Motivation fades — habits stay. Start small and show up daily."
         },
         {
-            "question": "i dont know what to do with my life",
-            "sentiment": "curious",
-            "answer": "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nFor career coaching: Find a career coach: check certifications, read reviews, try initial consultation, and define what you need help with.\n\nRegarding career: Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your network, and keep applying consistently."
-        },
-        {
-            "question": "i dont know what to do with my life",
-            "sentiment": "curious",
-            "answer": "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nFor career coaching: Find a career coach: check certifications, read reviews, try initial consultation, and define what you need help with.\n\nRegarding career: Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your network, and keep applying consistently."
-        },
-        {
-            "question": "i dont know what to do with my life",
-            "sentiment": "curious",
-            "answer": "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nOn the career coaching side: Find a career coach: check certifications, read reviews, try initial consultation, and define what you need help with.\n\nRegarding career: Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your network, and keep applying consistently."
-        },
-        {
             "question": "how to stay motivated?",
             "sentiment": "curious",
             "answer": "Stay consistent by building systems, not just relying on motivation. Motivation fades — habits stay. Start small and show up daily.\n\nAlso regarding motivation strong: Get up.\n\nRegarding motivation daily: You don't have to be great to start, but you have to start to be great."
+        },
+        {
+            "question": "motivation nai ki korbo?",
+            "sentiment": "curious",
+            "answer": "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nRegarding information science: Information Science is applied in many real-world fields."
+        },
+        {
+            "question": "motivation nai ki korbo?",
+            "sentiment": "curious",
+            "answer": "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nFor information science: Information Science is applied in many real-world fields."
+        },
+        {
+            "question": "motivation nai ki korbo?",
+            "sentiment": "curious",
+            "answer": "Interesting! Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nHope this helps!"
+        },
+        {
+            "question": "motivation nai ki korbo?",
+            "sentiment": "curious",
+            "answer": "Nice question! Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress."
         }
     ]
 }

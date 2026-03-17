@@ -7,7 +7,6 @@
         "how to use github",
         "git for beginners",
         "how to push code to github",
-        "how to use git",
         "git commands list",
         "github tutorial",
         "version control basics",
@@ -22,136 +21,6 @@
         "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
     ],
     "feelings": [
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
-        {
-            "question": "what is git",
-            "sentiment": "curious",
-            "answer": "GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use github",
-            "sentiment": "curious",
-            "answer": "Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging."
-        },
         {
             "question": "what is git",
             "sentiment": "curious",
@@ -188,24 +57,74 @@
             "answer": "Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nRegarding version control: Version control is essential for any developer."
         },
         {
-            "question": "what is git?",
-            "sentiment": "curious",
-            "answer": "Git is a version control system that tracks changes in your code so you can go back and collaborate on projects with other developers. Essential commands include `git init`, `git add`, `git commit`, `git push`, and `git pull`. GitHub workflow involves creating a repository, cloning it, making changes, committing them, pushing to the remote repository, and submitting a pull request for collaboration."
-        },
-        {
-            "question": "what is git?",
-            "sentiment": "curious",
-            "answer": "Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nAbout version control: Version control is essential for any developer."
-        },
-        {
             "question": "how to use git?",
             "sentiment": "curious",
             "answer": "Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nFor version control: Version control is essential for any developer.\n\nFor github basics: GitHub = platform for hosting Git repositories."
         },
         {
-            "question": "repositories ki?",
+            "question": "git and github ki?",
             "sentiment": "curious",
-            "answer": "GitHub is a platform for hosting Git repositories, which are collections of source code files that developers use to develop software applications or websites. Open-source projects are examples of publicly available sources, while learning archives build strong analytical and problem-solving skills. Version control tools such as Git are widely used in the industry, including Github Actions, which is a popular tool for adding to one's skillset."
+            "answer": "Yes, Git and GitHub are both commonly used version control systems that allow developers to manage their code changes collaboratively. The question is asking about the basics of using these tools for project management."
+        },
+        {
+            "question": "how to use git branch?",
+            "sentiment": "curious",
+            "answer": "Git branches are used for managing separate development or testing versions of your codebase. To create a new branch, you can use the `git checkout` command followed by the name of the branch you want to create (e.g., `git checkout -b my-new-branch`). Once you've created a branch, you can start working on it and commit changes to that branch using the same `git push` command. If you need to revert back to an earlier version of your codebase, you can use the `git reset --hard` command to undo any changes made since the last commit."
+        },
+        {
+            "question": "github pull request kivabe kore?",
+            "sentiment": "curious",
+            "answer": "GitHub pull requests (PRs) are used to propose changes or improvements to a project's codebase. To create and submit a PR, you need to have an account on GitHub and fork the relevant repository. Once you have made your changes, make sure to follow the guidelines for submitting a PR, such as adding comments explaining your changes and including tests where applicable."
+        },
+        {
+            "question": "how to use git branch?",
+            "sentiment": "curious",
+            "answer": "Interesting! Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nHope this helps!"
+        },
+        {
+            "question": "github pull request kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Nice question! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge. And Essential git commands: git init, git add, git commit, git push, git pull, git branch, git merge.\n\nHope this helps!"
+        },
+        {
+            "question": "github pull request kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Good one! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge. Plus, Git tip: commit often with clear messages, use branches for features, never push directly to main, and learn git log and git diff for debugging.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to use git branch?",
+            "sentiment": "curious",
+            "answer": "Good one! Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it! Also, GitHub workflow: create repo, clone it, make changes, git add, git commit, git push."
+        },
+        {
+            "question": "github pull request kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Nice question! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge. Plus, Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects."
+        },
+        {
+            "question": "github pull request kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Valo question! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
+        },
+        {
+            "question": "how to use git branch?",
+            "sentiment": "curious",
+            "answer": "Valo question! Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!"
+        },
+        {
+            "question": "github pull request kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Interesting! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
+        },
+        {
+            "question": "how to use git branch?",
+            "sentiment": "curious",
+            "answer": "Interesting! Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "github pull request kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Great question! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
         }
     ]
 }

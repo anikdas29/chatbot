@@ -8,7 +8,6 @@
         "resume tips",
         "cv writing tips",
         "resume format",
-        "how to write resume",
         "resume building tips",
         "resume writing guide",
         "how to create cv",
@@ -31,67 +30,27 @@
         {
             "question": "how to make a resume",
             "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
-            "answer": "Resume tips: clean format, no typos, list achievements with numbers (e.g. increased sales by 30%), and match keywords from the job description."
-        },
-        {
-            "question": "how to make a resume",
-            "sentiment": "curious",
             "answer": "Valo question! A strong resume: 1-2 pages max, use action verbs (built, led, increased), quantify results, and tailor it for every job you apply to. Moreover, Resume tips: clean format, no typos, list achievements with numbers (e.\n\nAr kichu jante chaile bolo!"
         },
         {
             "question": "how to make a resume",
             "sentiment": "curious",
             "answer": "Good one! A strong resume: 1-2 pages max, use action verbs (built, led, increased), quantify results, and tailor it for every job you apply to.\n\nHope this helps!"
+        },
+        {
+            "question": "how to write a good resume?",
+            "sentiment": "happy",
+            "answer": "A strong resume: 1-2 pages max, use action verbs (built, led, increased), quantify results, and tailor it for every job you apply to.\n\nOn the resume writing side: Resume tips: quantify achievements (increased sales 30%), use action verbs, tailor for each job, and keep to 1-2 pages."
+        },
+        {
+            "question": "how to write a good resume?",
+            "sentiment": "happy",
+            "answer": "A strong resume: 1-2 pages max, use action verbs (built, led, increased), quantify results, and tailor it for every job you apply to.\n\nOn the resume writing side: Resume tips: quantify achievements (increased sales 30%), use action verbs, tailor for each job, and keep to 1-2 pages."
+        },
+        {
+            "question": "how to write a good resume?",
+            "sentiment": "happy",
+            "answer": "A strong resume: 1-2 pages max, use action verbs (built, led, increased), quantify results, and tailor it for every job you apply to.\n\nOn the resume writing side: Resume tips: quantify achievements (increased sales 30%), use action verbs, tailor for each job, and keep to 1-2 pages."
         }
     ]
 }

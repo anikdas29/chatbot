@@ -7,13 +7,12 @@
         "how to learn c++",
         "c++ tutorial",
         "cpp ki",
-        "c++ for beginners",
+        "c++ for beginners guide",
         "c vs c++",
         "learn cpp",
         "c++ programming tutorial",
         "c++ course",
         "learn c++ programming",
-        "c++ for beginners guide",
         "c++ programming basics",
         "c++ competitive programming"
     ],
@@ -30,39 +29,9 @@
             "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
         },
         {
-            "question": "how to improve health",
-            "sentiment": "curious",
-            "answer": "C++ is a powerful language used in game development, system programming, competitive programming, and performance-critical applications."
-        },
-        {
-            "question": "how to plan a trip",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
             "question": "how to learn guitar",
             "sentiment": "curious",
             "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "how to maintain relationship",
-            "sentiment": "curious",
-            "answer": "C++ is a powerful language used in game development, system programming, competitive programming, and performance-critical applications."
-        },
-        {
-            "question": "how to improve communication",
-            "sentiment": "curious",
-            "answer": "C++ is a powerful language used in game development, system programming, competitive programming, and performance-critical applications."
-        },
-        {
-            "question": "what is philosophy",
-            "sentiment": "curious",
-            "answer": "C++ is a powerful language used in game development, system programming, competitive programming, and performance-critical applications."
-        },
-        {
-            "question": "what is psychology",
-            "sentiment": "curious",
-            "answer": "C++ is a powerful language used in game development, system programming, competitive programming, and performance-critical applications."
         },
         {
             "question": "how to learn math",
@@ -70,29 +39,9 @@
             "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
         },
         {
-            "question": "how to learn ml",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "what is database",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
             "question": "how to learn sql",
             "sentiment": "curious",
             "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "what is tcp ip",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
-            "question": "how to improve writing",
-            "sentiment": "curious",
-            "answer": "C++ is a powerful language used in game development, system programming, competitive programming, and performance-critical applications."
         },
         {
             "question": "best language to learn",
@@ -100,179 +49,9 @@
             "answer": "C++ is a powerful language used in game development, system programming, competitive programming, and performance-critical applications.\n\nApnar bhalo lagche jene amrao khushi!"
         },
         {
-            "question": "what is cryptocurrency",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
             "question": "what is c++",
             "sentiment": "curious",
             "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is database",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is cryptocurrency",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is database",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is cryptocurrency",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn ml",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "how to learn sql",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "what is cryptocurrency",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn ml",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "how to learn sql",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "what is cryptocurrency",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn sql",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "what is cryptocurrency",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn sql",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "what is cryptocurrency",
-            "sentiment": "curious",
-            "answer": "C++ basics: variables, pointers, arrays, OOP (classes, inheritance), STL (vectors, maps, sets), and memory management. Harder than Python but very rewarding."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn sql",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "how to learn sql",
-            "sentiment": "curious",
-            "answer": "Learn C++: start with basics on LearnCpp.com (free), practice on Codeforces or LeetCode. Great for competitive programming and understanding how computers work."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "Interesting! C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming.\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "what is c++",
-            "sentiment": "curious",
-            "answer": "Valo question! C vs C++: C is procedural (functions only), C++ adds OOP (classes, objects). C++ also has STL which makes coding much faster for competitive programming."
         }
     ]
 }

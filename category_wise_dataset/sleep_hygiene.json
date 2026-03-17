@@ -13,5 +13,22 @@
         "Tips: 7-9 hours per night, wake at same time daily (even weekends), avoid alcohol before bed, and exercise regularly.",
         "Can't sleep: try 4-7-8 breathing, progressive muscle relaxation, or get up after 20 min and do something boring until sleepy.",
         "Ghum valo kora: fixed time e shute jao, room andhokaar rakhho, phone dur e rakhho, ar relax koro shute jaowar age."
+    ],
+    "feelings": [
+        {
+            "question": "how to sleep better at night?",
+            "sentiment": "curious",
+            "answer": "Interesting! Tips: 7-9 hours per night, wake at same time daily (even weekends), avoid alcohol before bed, and exercise regularly."
+        },
+        {
+            "question": "how to sleep better at night?",
+            "sentiment": "curious",
+            "answer": "Valo question! Tips: 7-9 hours per night, wake at same time daily (even weekends), avoid alcohol before bed, and exercise regularly.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "how to sleep better at night?",
+            "sentiment": "curious",
+            "answer": "Interesting! Tips: 7-9 hours per night, wake at same time daily (even weekends), avoid alcohol before bed, and exercise regularly. Additionally, Can't sleep: try 4-7-8 breathing, progressive muscle relaxation, or get up after 20 min and do something boring until sleepy."
+        }
     ]
 }

@@ -6,7 +6,6 @@
         "stock market today?",
         "how to invest",
         "save money",
-        "how to save money",
         "investment tips for beginners",
         "personal finance tips",
         "money saving tips",
@@ -33,82 +32,27 @@
         {
             "question": "how to save money",
             "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
-            "answer": "Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
-        },
-        {
-            "question": "how to save money",
-            "sentiment": "curious",
             "answer": "Interesting! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest.\n\nAro kichu lagbe bolo!"
         },
         {
-            "question": "how to save money",
+            "question": "how to save money?",
             "sentiment": "curious",
-            "answer": "Good one! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest."
+            "answer": "Good one! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest. Moreover, Save money by: cutting subscriptions you don't use, cooking at home more, automating savings on payday, and avoiding impulse buys."
+        },
+        {
+            "question": "how to save money?",
+            "sentiment": "curious",
+            "answer": "Nice question! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest. Plus, The best time to invest was yesterday."
+        },
+        {
+            "question": "how to save money?",
+            "sentiment": "curious",
+            "answer": "Interesting! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest. Moreover, The best time to invest was yesterday."
+        },
+        {
+            "question": "bitcoin ki safe invest?",
+            "sentiment": "curious",
+            "answer": "Nice question! The best time to invest was yesterday. Start small with index funds, avoid high-fee products, and let compound interest do the heavy lifting.\n\nHope this helps!"
         }
     ]
 }

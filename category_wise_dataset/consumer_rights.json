@@ -14,16 +14,5 @@
         "If a product is defective, you can return it for a refund or replacement, file a complaint with consumer protection agencies, or take legal action if needed.",
         "To file a complaint, gather your receipt and evidence, contact the seller first, then escalate to consumer protection agencies or courts if the issue isn't resolved."
     ],
-    "feelings": [
-        {
-            "question": "how to contact support?",
-            "sentiment": "curious",
-            "answer": "To file a complaint, gather your receipt and evidence, contact the seller first, then escalate to consumer protection agencies or courts if the issue isn't resolved.\n\nRegarding disability rights: You can support disability rights by advocating for accessible spaces, using inclusive language, supporting disability-led organizations, and calli...\n\nRegarding emotions: Take it one moment at a time."
-        },
-        {
-            "question": "how to contact support?",
-            "sentiment": "curious",
-            "answer": "To file a complaint, gather your receipt and evidence, contact the seller first, then escalate to consumer protection agencies or courts if the issue isn't resolved.\n\nOn the disability rights side: You can support disability rights by advocating for accessible spaces, using inclusive language, supporting disability-led organizations, and calli...\n\nRegarding emotions: Take it one moment at a time."
-        }
-    ]
+    "feelings": []
 }

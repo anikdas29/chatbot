@@ -13,5 +13,32 @@
         "Learn laravel from official docs and tutorials. Practice by building projects.",
         "Laravel is widely used in industry. Great skill to add to your portfolio.",
         "Start with laravel basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "laravel framework ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Laravel is one of the most popular web frameworks for PHP developers. It provides a robust set of features and tools that make it easy to build modern applications with ease."
+        },
+        {
+            "question": "laravel framework ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Laravel: PHP framework. Elegant syntax, MVC, Eloquent ORM, Blade templates."
+        },
+        {
+            "question": "laravel framework ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Laravel: PHP framework. Elegant syntax, MVC, Eloquent ORM, Blade templates. Also, Learn laravel from official docs and tutorials.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "laravel framework ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Laravel: PHP framework. Elegant syntax, MVC, Eloquent ORM, Blade templates.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "laravel framework ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Laravel: PHP framework. Elegant syntax, MVC, Eloquent ORM, Blade templates.\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

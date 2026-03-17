@@ -15,5 +15,22 @@
         "TypeScript builds on JavaScript by adding type annotations, interfaces, enums, and generics. It helps you write safer code by catching type errors before your code even runs.",
         "Think of TypeScript as JavaScript with a safety net. You define types for your variables, function parameters, and return values, and the compiler warns you if something doesn't match up.",
         "TypeScript adds optional static typing to JavaScript. It's widely used in large codebases because it makes refactoring easier, provides better IDE support, and reduces runtime errors significantly."
+    ],
+    "feelings": [
+        {
+            "question": "what is typescript?",
+            "sentiment": "curious",
+            "answer": "TypeScript is a strongly typed superset of JavaScript developed by Microsoft that compiles down to plain JavaScript. It adds static typing, interfaces, and other features to help catch bugs at compile time."
+        },
+        {
+            "question": "what is typescript?",
+            "sentiment": "curious",
+            "answer": "Valo question! TypeScript is a strongly typed superset of JavaScript developed by Microsoft that compiles down to plain JavaScript. It adds static typing, interfaces, and other features to help catch bugs at compile time."
+        },
+        {
+            "question": "what is typescript?",
+            "sentiment": "curious",
+            "answer": "Nice question! TypeScript is a strongly typed superset of JavaScript developed by Microsoft that compiles down to plain JavaScript. It adds static typing, interfaces, and other features to help catch bugs at compile time.\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

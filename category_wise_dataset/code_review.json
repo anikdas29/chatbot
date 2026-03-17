@@ -5,8 +5,7 @@
         "code review best practices",
         "how to do code review",
         "code review tips",
-        "PR review guide",
-        "code review ki"
+        "PR review guide"
     ],
     "answers": [
         "Code review = having others examine your code before merging. Catches bugs, improves quality, and shares knowledge.",

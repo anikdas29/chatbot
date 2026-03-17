@@ -26,6 +26,31 @@
             "question": "what is sql?",
             "sentiment": "curious",
             "answer": "SQL (Structured Query Language) is a standard language used for managing and querying relational databases. It covers 80% of daily use, including SELECT, INSERT, UPDATE, DELETE operations that cover most of the daily tasks. PostgreSQL is an open-source database with ACID compliance, complex queries, CTEs (Common Table Expressions), window functions, and JSON data handling capabilities."
+        },
+        {
+            "question": "sql join types explain koro",
+            "sentiment": "curious",
+            "answer": "In SQL, there are two types of JOIN operations - INNER and OUTER. The INNER JOIN operation returns only the rows that match both the primary key columns in both tables, while the OUTER JOIN operation returns all rows from one table (the left table) that have a matching row in the other table (the right table)."
+        },
+        {
+            "question": "sql join types explain koro",
+            "sentiment": "curious",
+            "answer": "Interesting! SQL (Structured Query Language) is the standard language for managing and querying relational databases. It's essential for any developer or data professional working with structured data. Additionally, SQL lets you create, read, update, and delete data in relational databases."
+        },
+        {
+            "question": "sql join types explain koro",
+            "sentiment": "curious",
+            "answer": "Great question! SQL (Structured Query Language) is the standard language for managing and querying relational databases. It's essential for any developer or data professional working with structured data."
+        },
+        {
+            "question": "sql join types explain koro",
+            "sentiment": "curious",
+            "answer": "Interesting! SQL (Structured Query Language) is the standard language for managing and querying relational databases. It's essential for any developer or data professional working with structured data.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "sql join types explain koro",
+            "sentiment": "curious",
+            "answer": "Good one! SQL (Structured Query Language) is the standard language for managing and querying relational databases. It's essential for any developer or data professional working with structured data. And SQL is one of the most important skills in tech."
         }
     ]
 }

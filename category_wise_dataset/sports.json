@@ -6,7 +6,6 @@
         "tell me cricket news",
         "cricket score",
         "football news",
-        "who won the match",
         "cricket match update",
         "football match result",
         "sports results",
@@ -33,109 +32,9 @@
             "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
         },
         {
-            "question": "math problem solving",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "math ki",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "math problem solving",
-            "sentiment": "angry",
-            "answer": "Ami bujhte parchi apni frustrated. I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
-        },
-        {
-            "question": "math ki",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
             "question": "best football players",
             "sentiment": "happy",
             "answer": "Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "best football players",
-            "sentiment": "happy",
-            "answer": "Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "best football players",
-            "sentiment": "happy",
-            "answer": "Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
-        },
-        {
-            "question": "best football players",
-            "sentiment": "happy",
-            "answer": "Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
         },
         {
             "question": "best football players",
@@ -143,19 +42,24 @@
             "answer": "Glad you asked! Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports."
         },
         {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "Nice question! I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights.\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "best football players",
+            "question": "best cricket player of all time?",
             "sentiment": "happy",
-            "answer": "Awesome! Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports."
+            "answer": "Glad you asked! Sports tip: follow ESPN, BBC Sport, or Cricbuzz for cricket. Google 'football scores today' for instant live results."
         },
         {
-            "question": "who won the match",
-            "sentiment": "curious",
-            "answer": "Valo question! I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights."
+            "question": "best cricket player of all time?",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Sports tip: follow ESPN, BBC Sport, or Cricbuzz for cricket. Google 'football scores today' for instant live results. Plus, For live scores and sports news, check ESPN, Cricinfo (for cricket), or just Google the sport + 'score' for instant results.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "best cricket player of all time?",
+            "sentiment": "happy",
+            "answer": "Awesome! Sports tip: follow ESPN, BBC Sport, or Cricbuzz for cricket. Google 'football scores today' for instant live results. Moreover, I don't have live match data, but ESPN, Google Sports, or the official league websites will have the latest results and highlights.\n\nHope this helps!"
+        },
+        {
+            "question": "best cricket player of all time?",
+            "sentiment": "happy",
+            "answer": "Nice! Sports tip: follow ESPN, BBC Sport, or Cricbuzz for cricket. Google 'football scores today' for instant live results. Additionally, For live scores and sports news, check ESPN, Cricinfo (for cricket), or just Google the sport + 'score' for instant results.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

@@ -13,5 +13,32 @@
         "Learn tailwind from official docs and tutorials. Practice by building projects.",
         "Tailwind is widely used in industry. Great skill to add to your portfolio.",
         "Start with tailwind basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "tailwind css ki?",
+            "sentiment": "curious",
+            "answer": "Tailwind CSS is a utility-first CSS framework that provides class-based styling with highly customizable options. It is designed to be flexible and responsive, ensuring optimal design for different devices and screen sizes."
+        },
+        {
+            "question": "tailwind css ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Tailwind CSS: utility-first CSS framework. Class-based styling, highly customizable."
+        },
+        {
+            "question": "tailwind css ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Tailwind CSS: utility-first CSS framework. Class-based styling, highly customizable. And Tailwind is widely used in industry."
+        },
+        {
+            "question": "tailwind css ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Tailwind CSS: utility-first CSS framework. Class-based styling, highly customizable. Additionally, Tailwind is widely used in industry."
+        },
+        {
+            "question": "tailwind css ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Tailwind CSS: utility-first CSS framework. Class-based styling, highly customizable.\n\nAr kichu jante chaile bolo!"
+        }
     ]
 }

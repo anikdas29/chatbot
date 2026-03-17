@@ -2,11 +2,10 @@
     "category": "youtube_tips",
     "type": "general",
     "questions": [
-        "youtube tips",
+        "youtube tips ki",
         "how to grow on youtube",
         "youtube tips guide",
-        "best youtube tips strategy",
-        "youtube tips ki"
+        "best youtube tips strategy"
     ],
     "answers": [
         "YouTube: hook in first 10 seconds, SEO in title/description/tags, consistent upload schedule, engage community.",
@@ -19,6 +18,11 @@
             "question": "how to start a youtube cooking channel?",
             "sentiment": "curious",
             "answer": "YouTube: hook in first 10 seconds, SEO in title/description/tags, consistent upload schedule, engage community.\n\nAlso regarding social media: YouTube tips: good thumbnail + title = clicks.\n\nOn the vlogging side: Vlogging tips: be authentic, plan a rough outline, shoot in good lighting, and edit for pacing (cut boring parts)."
+        },
+        {
+            "question": "how to delete youtube account?",
+            "sentiment": "curious",
+            "answer": "Valo question! YouTube: hook in first 10 seconds, SEO in title/description/tags, consistent upload schedule, engage community. Also, Social media success: provide value, be authentic, engage with community, and analyze what works.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

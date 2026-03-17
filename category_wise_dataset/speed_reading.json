@@ -13,5 +13,22 @@
         "Tips: preview text first (headings, bold), don't re-read, practice with easier material, and increase speed gradually.",
         "Average reading: 200-250 wpm. Speed readers: 400-700 wpm. Elite: 1000+ wpm. Comprehension matters more than speed.",
         "Taratari pora: subvocalization komao (mon e na poro), finger diye guide koro, ar practice koro daily."
+    ],
+    "feelings": [
+        {
+            "question": "how to run faster?",
+            "sentiment": "curious",
+            "answer": "Speed reading techniques: reduce subvocalization, use a pointer (finger/pen), expand peripheral vision, and chunk words.\n\nRegarding android: Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nRegarding study: Top tip: close your notes and try to recall everything you just read — that's active recall, and it's the most powerful study method there is."
+        },
+        {
+            "question": "how to run faster?",
+            "sentiment": "curious",
+            "answer": "Speed reading techniques: reduce subvocalization, use a pointer (finger/pen), expand peripheral vision, and chunk words.\n\nRegarding android: Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nFor study: Top tip: close your notes and try to recall everything you just read — that's active recall, and it's the most powerful study method there is."
+        },
+        {
+            "question": "how to run faster?",
+            "sentiment": "curious",
+            "answer": "Speed reading techniques: reduce subvocalization, use a pointer (finger/pen), expand peripheral vision, and chunk words.\n\nAbout android: Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.\n\nRegarding study: Top tip: close your notes and try to recall everything you just read — that's active recall, and it's the most powerful study method there is."
+        }
     ]
 }

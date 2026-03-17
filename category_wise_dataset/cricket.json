@@ -15,5 +15,37 @@
         "Cricket tin type er hoy — Test (5 days), ODI (50 overs per side), ar T20 (20 overs per side). T20 ta shobcheye fast-paced ar exciting format, World Cup o hoy prottek format e.",
         "Cricket legends include Sachin Tendulkar, Sir Don Bradman, Virat Kohli, and Brian Lara. Bangladesh er Shakib Al Hasan is considered one of the best all-rounders in cricket history.",
         "Cricket e batting team run score kore wickets er moddhe douriye ba boundary mere. Bowling team 10 ta wicket felle innings shesh kore. Strategy, patience, ar skill — sob kichu lagbe cricket e."
+    ],
+    "feelings": [
+        {
+            "question": "tell me about cricket",
+            "sentiment": "curious",
+            "answer": "Cricket is a bat-and-ball sport played between two teams of 11 players. One team bats trying to score runs while the other bowls and fields to get them out. It's massively popular in South Asia, Australia, and England.\n\nAbout sports: Popular: Cricket, Football, Basketball, Tennis."
+        },
+        {
+            "question": "tell me about cricket",
+            "sentiment": "curious",
+            "answer": "Cricket is a bat-and-ball sport played between two teams of 11 players. One team bats trying to score runs while the other bowls and fields to get them out. It's massively popular in South Asia, Australia, and England.\n\nOn the sports side: Popular: Cricket, Football, Basketball, Tennis."
+        },
+        {
+            "question": "tell me about cricket",
+            "sentiment": "curious",
+            "answer": "Criicket is a popular bat-and-ball sport played between two teams of 11 players. One team bats to score runs while the other bowls and fields to get them out. It's widely popular in South Asia, Australia, and England, with cricket tin type er hoy (Test), ODI (50 overs per side), ar T20 (20 overs per side), and World Cup (5 days) formats. The legendary players include Sachin Tendukar, Sir Don Bradman, Virat Kohli, and Bang"
+        },
+        {
+            "question": "tell me about football and cricket",
+            "sentiment": "curious",
+            "answer": "Cricket is a bat-and-ball sport played between two teams of 11 players. One team bats trying to score runs while the other bowls and fields to get them out. It's massively popular in South Asia, Australia, and England.\n\nAlso regarding sports: Popular: Cricket, Football, Basketball, Tennis."
+        },
+        {
+            "question": "tell me about cricket",
+            "sentiment": "curious",
+            "answer": "Criicket is a bat-and-ball sport played between two teams of 11 players, with one team batting while the other bowls to get them out. It's popular in South Asia, Australia, and England, and has been updated on ESPN or Google Sports. Baseball is America's pastime, played by a bat-and-ball sport between two teams of 9 players. Badminton is a racquet sport played with a shutlcok across a net, with smashes exceeding 400 km/h! Rugby is a contact team sport originating in England, played by player carriers and passes to score tries grounded in the opponent's in-goal"
+        },
+        {
+            "question": "tell me about cricket",
+            "sentiment": "curious",
+            "answer": "Cricket is a bat-and-ball sport played between two teams of 11 players. One team bats trying to score runs while the other bowls and fields to get them out. It's massively popular in South Asia, Australia, and England.\n\nAlso regarding sports: Popular: Cricket, Football, Basketball, Tennis."
+        }
     ]
 }

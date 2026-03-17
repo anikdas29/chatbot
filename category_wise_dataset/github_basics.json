@@ -13,5 +13,17 @@
         "Basics: create repo, clone locally, make changes, commit, push, create pull request, get review, merge.",
         "Key features: Issues (bug tracking), Pull Requests (code review), Actions (CI/CD), Pages (hosting), and Projects (kanban).",
         "GitHub tip: write good commit messages, use .gitignore, create a README, and protect your main branch with required reviews."
+    ],
+    "feelings": [
+        {
+            "question": "repositories ki?",
+            "sentiment": "curious",
+            "answer": "Git and GitHub are two related concepts that refer to version control systems. Git is a popular choice for managing code changes on GitHub, while it's also used as a command-line interface (CLI) for managing files in the cloud."
+        },
+        {
+            "question": "repositories ki?",
+            "sentiment": "curious",
+            "answer": "Git and GitHub are two related concepts that refer to version control systems. Git is a popular choice for managing code changes on GitHub, while it's used as the foundation of other VCS such as Github Action."
+        }
     ]
 }

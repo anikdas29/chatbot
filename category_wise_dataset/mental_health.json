@@ -15,5 +15,12 @@
         "Mental health improve korte regular exercise koro, enough ghum pao, supportive people der sathe time katao, ar stress management shikho. Professional help neoa te kono lojja nei.",
         "Signs of poor mental health include persistent sadness, withdrawal from activities, changes in sleep or appetite, difficulty concentrating, and feeling overwhelmed. If you notice these, reach out for help.",
         "Talk openly about mental health to reduce stigma. Practice self-care, set boundaries, take breaks, and don't hesitate to see a therapist or counselor when you need support."
+    ],
+    "feelings": [
+        {
+            "question": "is social media bad for mental health?",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Mental health includes your emotional, psychological, and social well-being. It affects how you think, feel, and act in daily life. Taking care of it is just as important as physical health.\n\nFor psychology: Reduce stress with mindfulness, regular exercise, adequate sleep, and talking to someone.\n\nFor social media: Going viral isn't a strategy - consistency is.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        }
     ]
 }

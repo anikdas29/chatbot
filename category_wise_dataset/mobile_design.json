@@ -15,5 +15,12 @@
         "Mobile design e focus thake small screen e best experience deya. Touch-friendly buttons, simple navigation, fast loading, ar clean layout — eishob important.",
         "iOS follows Human Interface Guidelines while Android follows Material Design. Both emphasize clarity, consistency, and ease of use, but have different navigation patterns and component styles.",
         "Good mobile design means large tap targets (at least 44px), clear hierarchy, minimal text input, thumb-friendly placement of key actions, and designing for both portrait and landscape orientations."
+    ],
+    "feelings": [
+        {
+            "question": "how to open apps",
+            "sentiment": "curious",
+            "answer": "Nice question! Mobile design e focus thake small screen e best experience deya. Touch-friendly buttons, simple navigation, fast loading, ar clean layout — eishob important.\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

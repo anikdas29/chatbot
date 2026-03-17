@@ -176,6 +176,16 @@
             "question": "what is docker",
             "sentiment": "curious",
             "answer": "Interesting! Docker packages your app into containers - runs the same everywhere. Learn: docker build, docker run, docker-compose. It solves 'works on my machine' forever.\n\nHope this helps!"
+        },
+        {
+            "question": "explain docker containers",
+            "sentiment": "curious",
+            "answer": "DevOps = Development + Operations. It's about automating software delivery: code, build, test, deploy, monitor. Key skills: Docker, CI/CD, cloud, and scripting.\n\nOn the docker basics side: Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment."
+        },
+        {
+            "question": "what is CI/CD pipeline?",
+            "sentiment": "curious",
+            "answer": "CI/CD pipeline: every code push triggers automatic build, test, and deploy. Tools: GitHub Actions (free), Jenkins, GitLab CI. Speeds up delivery and catches bugs early.\n\nAbout ci cd: CI/CD = Continuous Integration / Continuous Deployment."
         }
     ]
 }

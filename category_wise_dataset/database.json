@@ -116,6 +116,16 @@
             "question": "how to learn sql",
             "sentiment": "curious",
             "answer": "Interesting! SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use."
+        },
+        {
+            "question": "i need help with my database",
+            "sentiment": "confused",
+            "answer": "Simply put: Start with MySQL or PostgreSQL for relational data. For NoSQL, try MongoDB. Practice on SQLBolt.com or W3Schools SQL tutorial - both free!"
+        },
+        {
+            "question": "i need help with my database",
+            "sentiment": "confused",
+            "answer": "Easy version: Start with MySQL or PostgreSQL for relational data. For NoSQL, try MongoDB. Practice on SQLBolt.com or W3Schools SQL tutorial - both free!\n\nHope this helps!"
         }
     ]
 }

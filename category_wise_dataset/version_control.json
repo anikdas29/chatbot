@@ -13,5 +13,12 @@
         "Git is the most popular VCS. Key commands: git init, add, commit, push, pull, branch, merge, and log.",
         "Why use it: track history, collaborate safely, experiment with branches, and never lose work (if you commit regularly).",
         "Version control is essential for any developer. Even solo projects benefit from Git — you'll thank yourself later."
+    ],
+    "feelings": [
+        {
+            "question": "how to use git with python projects?",
+            "sentiment": "curious",
+            "answer": "Version control is essential for any developer. Even solo projects benefit from Git — you'll thank yourself later.\n\nOn the git side: Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects.\n\nRegarding github basics: GitHub = platform for hosting Git repositories."
+        }
     ]
 }

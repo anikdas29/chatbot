@@ -13,5 +13,12 @@
         "Startup holo notun company ja ekta unique product ba service niye kaj korey ar druto grow korar cheshta korey.",
         "To start a startup, identify a real problem, validate your idea with potential customers, build a minimum viable product (MVP), find co-founders or a team, and seek funding if needed.",
         "Most startups fail due to lack of market need, running out of cash, wrong team, getting outcompeted, or poor product-market fit. Planning and adaptability are key to survival."
+    ],
+    "feelings": [
+        {
+            "question": "HOW TO START LAPTOP",
+            "sentiment": "curious",
+            "answer": "To start a startup, identify a real problem, validate your idea with potential customers, build a minimum viable product (MVP), find co-founders or a team, and seek funding if needed.\n\nFor running: Start running: begin with walk/run intervals (run 1 min, walk 2 min), gradually increase running time over weeks."
+        }
     ]
 }

@@ -13,5 +13,17 @@
         "Weight loss diet: reduce carbs slightly, increase protein (keeps you full), eat more fiber, and avoid liquid calories.",
         "Healthy eating: whole grains, lean protein, lots of veggies and fruits, healthy fats (nuts, olive oil), and adequate water.",
         "Khabar talika: shokal e protein (dim/oats), dupure bhat-mach-shobji, bikale fruits/nuts, rate halka khabar khao."
+    ],
+    "feelings": [
+        {
+            "question": "how to cook healthy food for weight loss",
+            "sentiment": "curious",
+            "answer": "Weight loss diet: reduce carbs slightly, increase protein (keeps you full), eat more fiber, and avoid liquid calories.\n\nRegarding fitness: Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery.\n\nAbout weight loss: Weight loss = calories in < calories out."
+        },
+        {
+            "question": "how to cook healthy food for weight loss?",
+            "sentiment": "curious",
+            "answer": "Weight loss diet: reduce carbs slightly, increase protein (keeps you full), eat more fiber, and avoid liquid calories.\n\nFor fitness: Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery.\n\nOn the weight loss side: Weight loss = calories in < calories out."
+        }
     ]
 }

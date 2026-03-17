@@ -94,7 +94,7 @@
             chatMessages.scrollTop = chatMessages.scrollHeight;
         }
 
-        function addBotMessageWithFeedback(text, question, intent, confidence) {
+        function addBotMessageWithFeedback(text, question, intent, confidence, categories) {
             const div = document.createElement("div");
             div.className = "message bot-message";
 
@@ -103,7 +103,7 @@
             bubble.textContent = text;
             bubble.innerHTML = bubble.innerHTML.replace(/\n/g, "<br>");
 
-            // Confidence indicator
+            // Confidence indicator with multi-category tags
             if (confidence !== undefined && confidence !== null) {
                 const confDiv = document.createElement("div");
                 confDiv.className = "confidence-bar";
@@ -111,9 +111,15 @@
                 const filled = Math.round(confidence * 10);
                 const empty = 10 - filled;
                 let confClass = "conf-high";
-                if (pct < 50) confClass = "conf-low";
-                else if (pct < 75) confClass = "conf-mid";
-                confDiv.innerHTML = `<span class="conf-label">${intent}</span> <span class="conf-dots ${confClass}">${"●".repeat(filled)}${"○".repeat(empty)}</span> <span class="conf-pct">${pct}%</span>`;
+                if (pct < 40) confClass = "conf-low";
+                else if (pct < 70) confClass = "conf-mid";
+
+                // Show category tags (multi or single)
+                const cats = categories && categories.length > 0 ? categories : (Array.isArray(intent) ? intent : [intent]);
+                const catTags = cats.map(c => `<span class="cat-tag">${c}</span>`).join("");
+                const multiLabel = cats.length > 1 ? `<span class="multi-badge">${cats.length} categories</span>` : "";
+
+                confDiv.innerHTML = `<span class="conf-cats">${catTags}</span>${multiLabel} <span class="conf-dots ${confClass}">${"●".repeat(filled)}${"○".repeat(empty)}</span> <span class="conf-pct">${pct}%</span>`;
                 bubble.appendChild(confDiv);
             }
 
@@ -202,7 +208,7 @@
                 });
                 const data = await response.json();
                 if (data.reply) {
-                    addBotMessageWithFeedback(data.reply, question, data.intent, data.confidence);
+                    addBotMessageWithFeedback(data.reply, question, data.intent, data.confidence, data.categories);
                 } else {
                     addMessage("Ei category te kono answer nai.", false);
                 }
@@ -322,7 +328,7 @@
                     showLearnForm(data.question || message);
                 } else {
                     // Normal answer
-                    addBotMessageWithFeedback(data.reply, message, data.intent, data.confidence);
+                    addBotMessageWithFeedback(data.reply, message, data.intent, data.confidence, data.categories);
                 }
             } catch (err) {
                 addMessage("Error: Could not connect to server.", false);

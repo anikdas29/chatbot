@@ -15,5 +15,17 @@
         "SQL lets you create, read, update, and delete data in relational databases. Key concepts include SELECT queries, JOINs, GROUP BY, subqueries, and indexing for performance optimization.",
         "SQL is one of the most important skills in tech. Whether you're a backend developer, data analyst, or data scientist, you'll need SQL to interact with databases like MySQL, PostgreSQL, and SQLite.",
         "SQL has been around since the 1970s and remains the backbone of data management. Mastering JOINs, window functions, CTEs, and query optimization will make you invaluable in any data-driven role."
+    ],
+    "feelings": [
+        {
+            "question": "how does SQL join work?",
+            "sentiment": "curious",
+            "answer": "Valo question! SQL lets you create, read, update, and delete data in relational databases. Key concepts include SELECT queries, JOINs, GROUP BY, subqueries, and indexing for performance optimization.\n\nHope this helps!"
+        },
+        {
+            "question": "what is sql?",
+            "sentiment": "curious",
+            "answer": "SQL (Structured Query Language) is a standard language used for managing and querying relational databases. It covers 80% of daily use, including SELECT, INSERT, UPDATE, DELETE operations that cover most of the daily tasks. PostgreSQL is an open-source database with ACID compliance, complex queries, CTEs (Common Table Expressions), window functions, and JSON data handling capabilities."
+        }
     ]
 }

@@ -13,5 +13,17 @@
         "Tips: know your audience, use simple language, structure with headings, include examples, and test your instructions.",
         "Good docs: clear, concise, well-organized, searchable, and up-to-date. Include code examples and troubleshooting sections.",
         "Career: technical writers are in high demand. Salary $60-120K. Skills needed: writing, tech understanding, empathy for users."
+    ],
+    "feelings": [
+        {
+            "question": "where can i find the documentation?",
+            "sentiment": "curious",
+            "answer": "The documentation for technical products would be available on the product's website or through a dedicated technical support channel."
+        },
+        {
+            "question": "where can i find the documentation?",
+            "sentiment": "curious",
+            "answer": "Good docs: clear, concise, well-organized, searchable, and up-to-date. Include code examples and troubleshooting sections.\n\nAbout documentation: Types: README, API reference, tutorials, how-to guides, architecture docs, and changelog.\n\nAlso regarding google docs: Getting started with google docs: install, follow quickstart guide, and build a small project."
+        }
     ]
 }

@@ -20,21 +20,6 @@
     ],
     "feelings": [
         {
-            "question": "tumi ki paro",
-            "sentiment": "curious",
-            "answer": "Mini Bot er features: AI/ML explain kora, coding help, career advice, health tips, finance guidance, daily motivation ar onek kichu. Ki janite chao?"
-        },
-        {
-            "question": "what can you do",
-            "sentiment": "curious",
-            "answer": "From tech to lifestyle — I've got you covered across 55+ categories. Try asking about coding, finance, fitness, or anything else on your mind!"
-        },
-        {
-            "question": "tumi ki ki paro",
-            "sentiment": "curious",
-            "answer": "Mini Bot er features: AI/ML explain kora, coding help, career advice, health tips, finance guidance, daily motivation ar onek kichu. Ki janite chao?"
-        },
-        {
             "question": "help me",
             "sentiment": "confused",
             "answer": "Chinta koro na, ami bujhiye bolchi. Ami 55+ topic e help korte pari: AI, ML, Coding, Education, Health, Fitness, Finance, Career, Motivation, Books, Music, Sports, Gaming, Travel, Weather ar onek kichu!"
@@ -268,6 +253,21 @@
             "question": "tumi ki paro",
             "sentiment": "curious",
             "answer": "Interesting! Ami 55+ topic e help korte pari: AI, ML, Coding, Education, Health, Fitness, Finance, Career, Motivation, Books, Music, Sports, Gaming, Travel, Weather ar onek kichu!\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "ki kortesos?",
+            "sentiment": "curious",
+            "answer": "Nice question! Ami 55+ topic e help korte pari: AI, ML, Coding, Education, Health, Fitness, Finance, Career, Motivation, Books, Music, Sports, Gaming, Travel, Weather ar onek kichu! Plus, I can help with 55+ topics including AI, coding, health, finance, career, motivation, travel, music, and much more."
+        },
+        {
+            "question": "help",
+            "sentiment": "confused",
+            "answer": "Based on the given information, \"Ami 55+ topic e help korte pari\" means that Ami can assist with a wide range of topics related to AI, ML, coding, education, health, finance, career, motivation, travel, music, and more. The bot's features include explaining AI/ML concepts, providing coding assistance, offering career advice, providing financial guidance, providing daily motivational tips, and much more. Therefore, \"Ami 55+ topic e help korte pari\" can be interpreted as meaning that"
+        },
+        {
+            "question": "help",
+            "sentiment": "confused",
+            "answer": "Let me explain. I can help with 55+ topics including AI, coding, health, finance, career, motivation, travel, music, and much more. Just ask!\n\nHope this helps!"
         }
     ]
 }

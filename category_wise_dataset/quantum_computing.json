@@ -13,5 +13,12 @@
         "Applications: drug discovery, cryptography, optimization, materials science, weather modeling, and financial modeling.",
         "Quantum vs classical: quantum excels at specific problems (factoring, optimization, simulation) but isn't faster for everything.",
         "Current state: IBM, Google, Amazon have quantum computers. Still early — most have fewer than 1000 qubits, need millions for practical use."
+    ],
+    "feelings": [
+        {
+            "question": "what is quantum computing?",
+            "sentiment": "curious",
+            "answer": "Interesting! Quantum computing uses qubits (can be 0, 1, or both simultaneously) unlike classical bits (just 0 or 1). Exponentially faster for certain problems. Plus, Applications: drug discovery, cryptography, optimization, materials science, weather modeling, and financial modeling.\n\nAr kichu jante chaile bolo!"
+        }
     ]
 }

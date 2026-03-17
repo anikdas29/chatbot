@@ -229,6 +229,11 @@
             "question": "need help with java",
             "sentiment": "confused",
             "answer": "Simply put: Java basics: variables, data types, loops, OOP (classes, objects, inheritance, polymorphism), exception handling, and collections framework."
+        },
+        {
+            "question": "python vs javascript which is better?",
+            "sentiment": "curious",
+            "answer": "Java vs Python: Java is faster and strictly typed (good for large systems). Python is simpler and better for scripting, data science, and quick prototyping.\n\nOn the ruby side: Ruby is famous for its elegant syntax and the Ruby on Rails framework.\n\nAbout go lang: Golang was built at Google to handle large-scale distributed systems."
         }
     ]
 }

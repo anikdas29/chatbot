@@ -181,6 +181,31 @@
             "question": "how to use github",
             "sentiment": "curious",
             "answer": "Good one! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
+        },
+        {
+            "question": "what is git rebase?",
+            "sentiment": "curious",
+            "answer": "Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nRegarding version control: Version control is essential for any developer."
+        },
+        {
+            "question": "what is git?",
+            "sentiment": "curious",
+            "answer": "Git is a version control system that tracks changes in your code so you can go back and collaborate on projects with other developers. Essential commands include `git init`, `git add`, `git commit`, `git push`, and `git pull`. GitHub workflow involves creating a repository, cloning it, making changes, committing them, pushing to the remote repository, and submitting a pull request for collaboration."
+        },
+        {
+            "question": "what is git?",
+            "sentiment": "curious",
+            "answer": "Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nAbout version control: Version control is essential for any developer."
+        },
+        {
+            "question": "how to use git?",
+            "sentiment": "curious",
+            "answer": "Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nFor version control: Version control is essential for any developer.\n\nFor github basics: GitHub = platform for hosting Git repositories."
+        },
+        {
+            "question": "repositories ki?",
+            "sentiment": "curious",
+            "answer": "GitHub is a platform for hosting Git repositories, which are collections of source code files that developers use to develop software applications or websites. Open-source projects are examples of publicly available sources, while learning archives build strong analytical and problem-solving skills. Version control tools such as Git are widely used in the industry, including Github Actions, which is a popular tool for adding to one's skillset."
         }
     ]
 }

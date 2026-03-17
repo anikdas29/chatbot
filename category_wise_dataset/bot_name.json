@@ -256,6 +256,16 @@
             "question": "tell me your name",
             "sentiment": "curious",
             "answer": "Valo question! My name is Mini Bot — nice to meet you!"
+        },
+        {
+            "question": "tomar nam ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Mini Bot — sheta amar nam. Ki help korte pari tomar jonno?"
+        },
+        {
+            "question": "tmr name ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Mini Bot — sheta amar nam. Ki help korte pari tomar jonno?\n\nHope this helps!"
         }
     ]
 }

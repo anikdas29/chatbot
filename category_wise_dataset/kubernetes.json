@@ -19,6 +19,16 @@
             "question": "Tell me about kubernetes",
             "sentiment": "curious",
             "answer": "Valo question! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications.\n\nHope this helps!"
+        },
+        {
+            "question": "what is kubernetes?",
+            "sentiment": "curious",
+            "answer": "Interesting! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "what is kubernetes?",
+            "sentiment": "curious",
+            "answer": "Nice question! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications. Also, Start learning K8s: install Minikube locally, deploy a simple app, learn kubectl commands, then explore Helm charts."
         }
     ]
 }

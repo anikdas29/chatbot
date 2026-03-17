@@ -15,5 +15,22 @@
         "Text classification holo text ke category e vag kora. Jemon email spam/not-spam, news article er topic detect kora, ba customer review positive/negative classify kora.",
         "Text classification can be done using traditional ML (Naive Bayes, SVM), deep learning (CNN, LSTM), or transformer models (BERT, RoBERTa). Modern approaches achieve very high accuracy.",
         "Text classification is one of the most practical NLP applications. It powers email filtering, content moderation, customer support routing, document organization, and intent detection in chatbots."
+    ],
+    "feelings": [
+        {
+            "question": "machine learning kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Text classification holo text ke category e vag kora. Jemon email spam/not-spam, news article er topic detect kora, ba customer review positive/negative classify kora.\n\nRegarding transfer learning: Transfer learning holo ekta task e shekha knowledge onno task e apply kora.\n\nAlso regarding upi payment: UPI holo India er instant payment system."
+        },
+        {
+            "question": "machine learning kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Text classification holo text ke category e vag kora. Jemon email spam/not-spam, news article er topic detect kora, ba customer review positive/negative classify kora.\n\nAlso regarding transfer learning: Transfer learning holo ekta task e shekha knowledge onno task e apply kora.\n\nOn the upi payment side: UPI holo India er instant payment system."
+        },
+        {
+            "question": "machine learning kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Text classification holo text ke category e vag kora. Jemon email spam/not-spam, news article er topic detect kora, ba customer review positive/negative classify kora.\n\nOn the transfer learning side: Transfer learning holo ekta task e shekha knowledge onno task e apply kora.\n\nAlso regarding upi payment: UPI holo India er instant payment system."
+        }
     ]
 }

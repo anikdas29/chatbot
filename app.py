@@ -22,7 +22,8 @@ def health():
         "status": "ok",
         "total_questions": len(bot.questions),
         "total_categories": len(bot.category_store_map),
-        "feedback": stats
+        "feedback": stats,
+        "pending_learns": bot.db.get_pending_count()
     })
 
 
@@ -60,6 +61,7 @@ def chat_endpoint():
                 "reply": answer,
                 "intent": chosen_category,
                 "confidence": 1.0,
+                "categories": [chosen_category],
                 "needs_learning": False
             })
 
@@ -82,11 +84,12 @@ def chat_endpoint():
             "question": result.get("question", user_message)
         })
 
-    # Normal answer with confidence
+    # Normal answer with confidence (supports multi-category)
     return jsonify({
         "reply": result["reply"],
         "intent": result["intent"],
         "confidence": result.get("confidence", 0),
+        "categories": result.get("categories", []),
         "needs_learning": False
     })
 
@@ -132,6 +135,30 @@ def learn_endpoint():
         "message": f"Shikhe nilam! '{question}' er answer ekhon jani.",
         "total_questions": len(bot.questions),
         "total_categories": len(bot.category_store_map)
+    })
+
+
+@app.route("/api/process_learns", methods=["POST"])
+def process_learns_endpoint():
+    """Manually trigger batch processing of queued learns.
+    Useful for admin/cron to flush the pending queue on demand.
+    """
+    result = bot.process_pending_learns()
+    return jsonify({
+        "message": f"Processed {result['processed']} pending learns.",
+        "processed": result["processed"],
+        "total_questions": len(bot.questions),
+        "total_categories": len(bot.category_store_map)
+    })
+
+
+@app.route("/api/pending_learns", methods=["GET"])
+def pending_learns_endpoint():
+    """Check how many learns are waiting in the queue."""
+    count = bot.db.get_pending_count()
+    return jsonify({
+        "pending_count": count,
+        "batch_threshold": bot.LEARN_BATCH_THRESHOLD
     })
 
 

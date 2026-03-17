@@ -13,5 +13,12 @@
         "Strategy: skim all questions first, answer easy ones first, manage time per question, and review before submitting.",
         "Tips: get enough sleep (no all-nighters!), eat well, stay hydrated, and arrive early to reduce anxiety.",
         "Poriksha r prostuti: age theke shuru koro, past paper solve koro, weak topic e focus koro, ar enough ghum dao."
+    ],
+    "feelings": [
+        {
+            "question": "i am stressed about exams",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Exam prep: start early, make a study schedule, use past papers, focus on weak areas, and practice timed tests.\n\nRegarding study: Study smarter: use active recall instead of re-reading, space out your revision sessions, and test yourself with past papers.\n\nTumi ekla na, amra achi."
+        }
     ]
 }

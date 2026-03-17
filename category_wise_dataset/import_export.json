@@ -13,5 +13,17 @@
         "Import holo bidesh theke product ante, ar export holo nijher desh theke bidesh e product pathano. Duita miliye international trade.",
         "To start an import/export business, get necessary licenses (IRC/ERC in Bangladesh), research market demand, find reliable suppliers/buyers, understand customs regulations, and arrange shipping.",
         "Key documents include commercial invoice, bill of lading, packing list, certificate of origin, letter of credit, customs declaration, and import/export permits depending on the product."
+    ],
+    "feelings": [
+        {
+            "question": "how to export my data?",
+            "sentiment": "curious",
+            "answer": "To start an export business, follow the above steps, including obtaining necessary license(s) for import/export (IRC or ERC in Bangladesh), researching market demand and finding reliable suppliers/buyers, understanding customs regulatory requirements, arranging shipment."
+        },
+        {
+            "question": "how to export my data?",
+            "sentiment": "curious",
+            "answer": "Import holo bidesh theke product ante, ar export holo nijher desh theke bidesh e product pathano. Duita miliye international trade.\n\nAlso regarding database: Start with MySQL or PostgreSQL for relational data.\n\nAlso regarding environment: Small steps matter: reduce plastic use, carry reusable bags, save water and electricity, plant trees, and choose public transport when possible."
+        }
     ]
 }

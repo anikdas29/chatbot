@@ -18,16 +18,6 @@
     ],
     "feelings": [
         {
-            "question": "what is react",
-            "sentiment": "curious",
-            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
-        },
-        {
-            "question": "what is react",
-            "sentiment": "curious",
-            "answer": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI."
-        },
-        {
             "question": "how to learn react",
             "sentiment": "curious",
             "answer": "React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!"
@@ -266,6 +256,16 @@
             "question": "why use react",
             "sentiment": "curious",
             "answer": "Good one! React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DOM for fast, reusable UI.\n\nHope this helps!"
+        },
+        {
+            "question": "how to learn react?",
+            "sentiment": "curious",
+            "answer": "To learn React, you can follow the above steps:\n1. HTML/CSS/JS first - Learn basic concepts like components, props, state, hooks (useState, useEffect), and JSX.\n2. Build a todo app - Start with a simple to-do list application using React's built-in components.\n3. API calls and routing - Once you have the basics down, start building more complex applications that make use of APIs.\n4. Learn React path: HTML/CSS/JS first, then React docs (react.dev"
+        },
+        {
+            "question": "how to learn react?",
+            "sentiment": "curious",
+            "answer": "Great question! Learn React path: HTML/CSS/JS first, then React docs (react.dev), then build a todo app, then a full project with API calls and routing."
         }
     ]
 }

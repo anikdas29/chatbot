@@ -13,5 +13,12 @@
         "UPI holo India er instant payment system. Phone number ba UPI ID diye tatkhonath taka pathano jay. Google Pay, PhonePe, Paytm popular UPI apps.",
         "UPI works by linking your bank account to a UPI ID. You can send or receive money instantly 24/7 without needing account numbers or IFSC codes.",
         "UPI is secured with device binding, UPI PIN, and encryption. Always keep your UPI PIN private and never share it with anyone to stay safe from fraud."
+    ],
+    "feelings": [
+        {
+            "question": "eta kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Machine Learning is a subset of AI that involves learning from data and adapting to new situations based on past experiences."
+        }
     ]
 }

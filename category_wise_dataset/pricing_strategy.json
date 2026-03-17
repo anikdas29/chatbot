@@ -13,5 +13,17 @@
         "Pricing strategy holo tomar product ba service er dam kivabe set korba tar plan. Cost, competition, ar customer willingness to pay - shob consider korte hoy.",
         "Common pricing strategies include cost-plus pricing, competitive pricing, value-based pricing, penetration pricing (low to enter market), and premium pricing (high for luxury).",
         "The best pricing strategy depends on your market. Test different prices, understand your costs, research competitors, know your customer's willingness to pay, and don't undervalue your work."
+    ],
+    "feelings": [
+        {
+            "question": "what are your pricing plans?",
+            "sentiment": "curious",
+            "answer": "The best pricing strategy depends on your market. Test different prices, understand your costs, research competitors, know your customer's willingness to pay, and don't undervalue your work.\n\nAbout solar energy: Solar panel lagale electricity bill komey jay, environment help hoy, ar load shedding er somoy o power thake.\n\nAlso regarding vertical farming: Companies like AeroFarms, Plenty, and Bowery are leading the vertical farming industry."
+        },
+        {
+            "question": "what are your pricing plans?",
+            "sentiment": "curious",
+            "answer": "The best pricing strategy depends on your market. Test different prices, understand your costs, research competitors, know your customer's willingness to pay, and don't undervalue your work.\n\nRegarding solar energy: Solar panel lagale electricity bill komey jay, environment help hoy, ar load shedding er somoy o power thake.\n\nAbout vertical farming: Companies like AeroFarms, Plenty, and Bowery are leading the vertical farming industry."
+        }
     ]
 }

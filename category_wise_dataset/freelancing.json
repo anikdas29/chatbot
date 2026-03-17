@@ -194,6 +194,11 @@
             "question": "best freelancing platform",
             "sentiment": "happy",
             "answer": "Awesome! Best platforms: Fiverr (gig-based), Upwork (project-based), Toptal (premium), Freelancer.com. Choose based on your skill and experience level.\n\nHope this helps!"
+        },
+        {
+            "question": "what is 10 times 5?",
+            "sentiment": "curious",
+            "answer": "Start on Fiverr or Upwork. Pick one skill (writing, design, coding, video editing), create a strong profile, price low initially to get reviews, then raise rates.\n\nAbout time travel: Time travel forward in time is technically possible through time dilation, as predicted by Einstein's relativity."
         }
     ]
 }

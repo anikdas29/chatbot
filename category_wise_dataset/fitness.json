@@ -134,6 +134,16 @@
             "question": "best exercises",
             "sentiment": "happy",
             "answer": "Awesome! Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery."
+        },
+        {
+            "question": "how to run faster?",
+            "sentiment": "curious",
+            "answer": "Start simple — a 20-minute walk daily, 3 sets of push-ups and squats, and track your progress weekly. Consistency beats intensity!\n\nAbout gym workout: Gym tips: warm up 5-10 min, learn proper form before adding weight, don't skip leg day, and stay consistent.\n\nOn the running side: Start running: begin with walk/run intervals (run 1 min, walk 2 min), gradually increase running time over weeks."
+        },
+        {
+            "question": "how to run faster?",
+            "sentiment": "curious",
+            "answer": "Start simple — a 20-minute walk daily, 3 sets of push-ups and squats, and track your progress weekly. Consistency beats intensity!\n\nAbout gym workout: Gym tips: warm up 5-10 min, learn proper form before adding weight, don't skip leg day, and stay consistent.\n\nAlso regarding running: Start running: begin with walk/run intervals (run 1 min, walk 2 min), gradually increase running time over weeks."
         }
     ]
 }

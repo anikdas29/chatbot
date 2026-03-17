@@ -28,6 +28,11 @@
             "question": "this weather is bad",
             "sentiment": "angry",
             "answer": "Ami bujhte parchi apni frustrated. For real-time weather, just search your city on Google or open your device's weather app — it updates automatically.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "what is the weather today?",
+            "sentiment": "curious",
+            "answer": "Nice question! For real-time weather, just search your city on Google or open your device's weather app — it updates automatically."
         }
     ]
 }

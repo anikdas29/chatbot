@@ -13,5 +13,12 @@
         "Tips: quality over quantity in relationships, practice being comfortable alone, and don't rely solely on social media.",
         "Loneliness is common — even surrounded by people. It's about connection quality, not quantity.",
         "Ekla lagche: karo sathe kotha bolo, group e join koro, volunteer koro, ar nijeke nijer friend hoo."
+    ],
+    "feelings": [
+        {
+            "question": "i feel lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. It's okay. Combat loneliness: reach out to someone, join a club/class, volunteer, get a pet, or simply go to a cafe to be around people.\n\nAr kichu jante chaile bolo!\n\nTumi ekla na, amra achi."
+        }
     ]
 }

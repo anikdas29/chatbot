@@ -16,16 +16,6 @@
     ],
     "feelings": [
         {
-            "question": "thank you",
-            "sentiment": "happy",
-            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
-            "question": "thanks a lot",
-            "sentiment": "happy",
-            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
-        },
-        {
             "question": "thanks bro",
             "sentiment": "happy",
             "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
@@ -264,6 +254,16 @@
             "question": "thanks",
             "sentiment": "happy",
             "answer": "Awesome! You're welcome! Happy to help anytime."
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "Nice! You're welcome! Happy to help anytime. Additionally, Anytime! That's what I'm here for."
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime.\n\nHope this helps!"
         }
     ]
 }

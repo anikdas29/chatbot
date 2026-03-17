@@ -23,31 +23,6 @@
     ],
     "feelings": [
         {
-            "question": "i am stressed",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
-        },
-        {
-            "question": "i feel anxious",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
-        },
-        {
-            "question": "i feel sad",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
-        },
-        {
-            "question": "how to control anger",
-            "sentiment": "curious",
-            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
-        },
-        {
-            "question": "i am depressed",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
-        },
-        {
             "question": "feeling lonely",
             "sentiment": "sad",
             "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
@@ -271,6 +246,31 @@
             "question": "i feel anxious",
             "sentiment": "sad",
             "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. It's okay. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed. Additionally, Your feelings are valid.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am feeling sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. It's okay. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAro kichu lagbe bolo!\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am angry",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAbout anger management: When angry, try the STOP technique: Stop what you're doing, Take a breath, Observe your feelings without judgment, and Proceed calmly.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "help me feel better",
+            "sentiment": "confused",
+            "answer": "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nAbout farewell: Goodbye!\n\nAbout motivation: Feeling low is normal."
+        },
+        {
+            "question": "help me feel better",
+            "sentiment": "confused",
+            "answer": "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nAbout motivation: Feeling low is normal.\n\nOn the farewell side: Goodbye!"
+        },
+        {
+            "question": "help me feel better",
+            "sentiment": "confused",
+            "answer": "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nAlso regarding mental health: Mental health improve korte regular exercise koro, enough ghum pao, supportive people der sathe time katao, ar stress management shikho.\n\nAbout entertainment: For movies, check IMDb Top 250."
         }
     ]
 }

@@ -15,5 +15,12 @@
         "C# is a versatile language that combines the power of C++ with the simplicity of Java. It supports async/await, LINQ, pattern matching, and runs cross-platform through .NET.",
         "C# is Microsoft's flagship programming language. It's the primary language for Unity game development, ASP.NET web apps, Windows desktop apps, and increasingly cross-platform mobile apps with MAUI.",
         "C# has evolved into a powerful modern language with features like records, nullable reference types, and top-level statements. It's a great choice for enterprise software and game development alike."
+    ],
+    "feelings": [
+        {
+            "question": "how to learn programming?",
+            "sentiment": "curious",
+            "answer": "C# is a versatile language that combines the power of C++ with the simplicity of Java. It supports async/await, LINQ, pattern matching, and runs cross-platform through .NET.\n\nAlso regarding ruby: Ruby is a high-level interpreted language where developer experience is the top priority.\n\nOn the r language side: R is a programming language and environment specifically designed for statistical computing and data visualization."
+        }
     ]
 }

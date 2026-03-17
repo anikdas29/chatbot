@@ -31,11 +31,6 @@
     ],
     "feelings": [
         {
-            "question": "tell me about yourself",
-            "sentiment": "curious",
-            "answer": "Artificial Intelligence is a broad field where computers are programmed to perform tasks that normally require human intelligence — like recognising speech, making decisions, or translating languages."
-        },
-        {
             "question": "kivabe healthy thaka jai",
             "sentiment": "sad",
             "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. AI holo machine er buddhimotta - computers shikhe data theke.\n\nTumi ekla na, amra achi."
@@ -279,6 +274,11 @@
             "question": "ai ki",
             "sentiment": "curious",
             "answer": "Nice question! AI holo machine er buddhimotta - computers shikhe data theke. Additionally, AI = making machines smart.\n\nHope this helps!"
+        },
+        {
+            "question": "what is artificial intelligence?",
+            "sentiment": "curious",
+            "answer": "Valo question! Artificial Intelligence is a broad field where computers are programmed to perform tasks that normally require human intelligence — like recognising speech, making decisions, or translating languages.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

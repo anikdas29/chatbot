@@ -1,19 +1,60 @@
-# Mini Chatbot - Full Codebase Overview
+# Mini Chatbot — Developer Overview
 
-## Project Summary
-NLP + ML powered self-learning chatbot with Flask web UI. No third-party AI API needed - shob kichu local e run hoy. User er question bujhe answer dey, ar notun jinish shikhte pare real-time e.
+Fully offline NLP + ML chatbot with semantic search, local LLM generation, and self-learning.
+No third-party AI API needed. Designed for companies to plug in their own Q&A dataset.
 
 ---
 
 ## Tech Stack
-| Component       | Technology                          |
-|-----------------|-------------------------------------|
-| Backend         | Python 3.13, Flask 3.0+             |
-| ML/NLP          | scikit-learn (TF-IDF, LogisticRegression) |
-| Spell Correction| difflib (get_close_matches)         |
-| Frontend        | HTML, CSS, Vanilla JavaScript       |
-| Data Storage    | JSON (dataset.json)                 |
-| Logging         | Python logging (chatbot.log)        |
+
+| Layer | Technology | Role |
+|---|---|---|
+| **Backend** | Python 3.13, Flask 3.0 | REST API + Web UI server |
+| **Semantic Search** | ONNX MiniLM-L6-v2 (384-dim) | Converts text to meaning vectors |
+| **Vector Index** | FAISS IndexFlatIP | Sub-millisecond cosine similarity search over 6K+ vectors |
+| **ML Classifier** | scikit-learn LogisticRegression + TF-IDF | Secondary classification signal |
+| **LLM Generation** | TinyLlama 1.1B (Q4_K_M GGUF via ctransformers) | Hybrid RAG answer generation |
+| **Spell Correction** | difflib (length-guarded, adaptive cutoff) | Typo fixing without destroying valid terms |
+| **Database** | SQLite (indexed) | Sessions, conversation history, feedback, learning queue |
+| **Frontend** | HTML + CSS + Vanilla JS | Dark-theme chat UI with feedback buttons |
+| **Dataset** | 1,094 category JSON files (6,479 questions) | Two stores: general (1,029) + coding (65) |
+
+---
+
+## Models Used
+
+### 1. MiniLM-L6-v2 (Semantic Encoder)
+- **What:** Sentence-transformers model exported to ONNX format
+- **Size:** ~87 MB (`models/minilm/`)
+- **Output:** 384-dimensional normalized embedding vectors
+- **Purpose:** Converts any text into a meaning vector. "feeling sad" and "i am depressed" produce nearly identical vectors even though they share no words.
+- **Runtime:** ONNX Runtime (CPU) — no GPU needed
+- **Files:** `model.onnx`, `tokenizer.json`, `vocab.txt`, `config.json`
+
+### 2. TinyLlama 1.1B Chat (RAG Generator)
+- **What:** 1.1 billion parameter LLM, quantized to 4-bit (Q4_K_M GGUF)
+- **Size:** ~638 MB (`models/tinyllama/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf`)
+- **Purpose:** Generates natural-sounding answers by reasoning over retrieved Q&A pairs from the dataset (Hybrid RAG). Instead of returning pre-written answers verbatim, the LLM synthesizes a fresh response grounded in actual dataset knowledge.
+- **Runtime:** ctransformers (C++ backend, CPU inference)
+- **Config:** `max_new_tokens=150`, `temperature=0.4`, `top_p=0.85`, `context_length=1024`
+- **Optional:** Bot works without it (falls back to dataset answers with templates)
+
+---
+
+## Libraries / Dependencies
+
+| Package | Version | Purpose |
+|---|---|---|
+| `flask` | >=3.0 | Web server + REST API |
+| `scikit-learn` | >=1.3 | TF-IDF vectorizer + Logistic Regression classifier |
+| `numpy` | >=1.24 | Array math, embedding operations |
+| `onnxruntime` | >=1.16 | Run MiniLM ONNX model on CPU |
+| `tokenizers` | >=0.15 | HuggingFace fast tokenizer for MiniLM |
+| `huggingface-hub` | >=0.20 | Model download utility |
+| `ctransformers` | >=0.2.27 | Load and run GGUF LLM (TinyLlama) |
+| `faiss-cpu` | >=1.7 | Facebook AI Similarity Search — fast vector index |
+
+Built-in: `json`, `sqlite3`, `re`, `difflib`, `logging`, `os`, `random`, `uuid`, `time`
 
 ---
 
@@ -21,209 +62,265 @@ NLP + ML powered self-learning chatbot with Flask web UI. No third-party AI API 
 
 ```
 chatbot/
-├── app.py                  # Flask server - API endpoints + Web UI serve
-├── chatbot.py              # Core chatbot engine - NLP, ML, Self-Learning
+├── chatbot.py                 # Core engine (1,865 lines) — all NLP/ML/RAG logic
+├── app.py                     # Flask API server (167 lines)
+├── requirements.txt           # Python dependencies
+├── CLAUDE.md                  # AI assistant instructions for dataset management
+├── PROJECT_OVERVIEW.md        # This file
+│
+├── models/
+│   ├── minilm/                # ONNX MiniLM-L6-v2 (~87 MB)
+│   │   ├── onnx/model.onnx
+│   │   ├── tokenizer.json
+│   │   └── vocab.txt, config.json, ...
+│   └── tinyllama/             # TinyLlama 1.1B GGUF (~638 MB)
+│       └── tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+│
+├── category_wise_dataset/     # General knowledge (1,029 category JSON files)
+├── coding_dataset/            # Programming topics (65 category JSON files)
+│
 ├── templates/
-│   └── index.html          # Chat Web UI (HTML + inline JS)
+│   └── index.html             # Chat Web UI
 ├── static/
-│   └── style.css           # Dark theme chat UI styling
-├── dataset.json            # Main dataset - 56 categories, 250+ questions
-├── requirements.txt        # Dependencies: flask, scikit-learn
-├── build_dataset.py        # Dataset builder from Kaggle CSV + custom data
-├── build_clean.py          # Clean dataset builder from cached kaggle intents
-├── converter.py            # Universal dataset converter (CSV/JSON/JSONL/TXT)
-├── _kaggle_intents.json    # Cached Kaggle intents (55 categories)
-├── chatbot_conversations.csv  # Raw Kaggle conversation dataset
-├── chatbot_conversations.json # Conversation data (JSON format)
-├── Conversation.csv        # Additional conversation data
-├── chatbot.log             # Runtime logs
-└── README.md               # Old README (needs update)
+│   └── style.css              # Dark theme styles
+│
+├── chatbot.db                 # SQLite database (sessions, feedback, learning)
+├── chatbot.log                # Runtime logs
+├── feedback.json              # Legacy feedback file
+│
+├── dataset.json               # Legacy flat dataset (superseded by category folders)
+├── converter.py               # Dataset format converter (CSV/JSON/JSONL/TXT)
+├── build_dataset.py           # Dataset builder from Kaggle CSV
+├── build_clean.py             # Clean dataset builder from cached intents
+├── download_model.py          # Model download helper
+│
+├── test_deep_analysis.py      # 60-question accuracy test (8 groups)
+├── test_100q.py               # 100-question randomized test
+└── test_500.py                # 500-question stress test
 ```
 
 ---
 
-## Core Files Breakdown
+## Dataset Format
 
-### 1. `app.py` (Flask Server)
-- **Purpose:** Web server + REST API
-- **Routes:**
-  | Method | Endpoint      | Description                        |
-  |--------|---------------|------------------------------------|
-  | GET    | `/`           | Chat Web UI (index.html)           |
-  | GET    | `/api/health` | Health check                       |
-  | POST   | `/api/chat`   | Send message, get bot reply        |
-  | POST   | `/api/learn`  | Teach bot new question-answer pair |
-- **How it works:**
-  - `/api/chat` - user message pathay, bot `get_answer()` call kore. Answer na janlbe `needs_learning: true` return kore.
-  - `/api/learn` - question, category, answer niye bot ke shikhay. Bot retrain hoy instantly.
-- **Run:** `python app.py` (port 5000, debug mode)
+Each category is a separate JSON file in `category_wise_dataset/` or `coding_dataset/`:
 
----
+```json
+{
+    "category": "python",
+    "type": "general",
+    "tags": ["python", "programming", "coding", "scripting"],
+    "questions": [
+        "what is python?",
+        "tell me about python",
+        "python ki?",
+        "python programming language"
+    ],
+    "answers": [
+        "Python is a high-level, interpreted programming language known for its simplicity.",
+        "Python is one of the most popular languages, used in web dev, AI, data science, and more.",
+        "Python holo ekta beginner-friendly language ja diye web, AI, ar data science kaj kora jay."
+    ],
+    "feelings": []
+}
+```
 
-### 2. `chatbot.py` (Core Engine)
-Main brain of the chatbot. 3 ta class ache:
+- **`tags`** (optional): Many-to-many mapping. A question about "python flask deployment" can match categories tagged with `python`, `flask`, and `deployment`.
+- **`feelings`**: Tracks sentiment of user interactions (auto-populated).
 
-#### Class: `SpellCorrector`
-- Known words er sathe match kore spelling fix kore
-- `difflib.get_close_matches` use kore (cutoff: 0.75)
-- Example: "helo" -> "hello", "pyhton" -> "python"
-
-#### Class: `SentimentDetector`
-- Simple keyword-based sentiment detection
-- 3 categories: **angry**, **happy**, **neutral**
-- Angry words: "kharap", "baje", "worst", "bad", "error", etc.
-- Happy words: "great", "awesome", "valo", "bhalo", etc.
-- Response adjust kore sentiment onujayi:
-  - Angry -> empathy message add kore
-  - Happy -> appreciation message add kore
-
-#### Class: `ChatBot` (Main Class)
-- **`__init__`** - Dataset load, data prepare, spell corrector build, ML train, TF-IDF train
-- **`_prepare_data()`** - Dataset theke questions, labels, category_answers extract kore
-- **`_train_intent_classifier()`** - LogisticRegression + TF-IDF pipeline (ngram 1-2). Only trains jodi categories < 60% of total questions
-- **`_train_tfidf()`** - TF-IDF vectorizer fit kore (cosine similarity er jonno)
-- **`get_answer(user_question)`** - Main answer logic:
-  1. Text clean (lowercase, remove punctuation)
-  2. Spell correction
-  3. Sentiment detect
-  4. TF-IDF similarity check (primary)
-  5. ML intent classification (if available)
-  6. Decision: ML first (confidence >= 0.55), then TF-IDF (score >= 0.20), otherwise return None
-  7. Sentiment-adjusted response return
-- **`learn(question, category, answer)`** - Notun data add kore, dataset save kore, full retrain kore
-- **`_tfidf_fallback()`** - Cosine similarity diye top 5 match dekhe, non-conversational intent prefer kore
-- **`retrain()`** - Full model retrain (data prepare + spell corrector + classifier + tfidf)
-- **CLI mode:** `run_chatbot()` function - terminal e chatbot chalano jay
+**Stats:** 1,094 categories, 6,479 questions, across 2 dataset stores.
 
 ---
 
-### 3. `templates/index.html` (Chat UI)
-- Dark theme chat interface
-- Features:
-  - Real-time message send/receive
-  - Learning form - bot answer na janle user shikhate pare (category + answer input)
-  - Skip option for learning
-  - Enter key support
-  - Auto-scroll to latest message
-- JavaScript handles:
-  - `/api/chat` POST call
-  - `/api/learn` POST call (when teaching)
-  - Dynamic message bubble creation
-  - Learn form show/hide toggle
-
----
-
-### 4. `static/style.css` (Styling)
-- Dark theme: `#0f0f23` background, `#1a1a2e` chat container
-- Purple gradient header & user bubbles (`#667eea` -> `#764ba2`)
-- Orange gradient learn button (`#ffa726` -> `#ff7043`)
-- 420x650px fixed chat container
-- Custom scrollbar styling
-- Responsive message bubbles (max-width: 80%)
-
----
-
-### 5. `converter.py` (Dataset Converter Tool)
-- Universal converter - online dataset ke chatbot format e convert kore
-- **Supported formats:**
-  | Format | Detection                                     |
-  |--------|-----------------------------------------------|
-  | CSV    | Simple Q&A or Multi-turn conversation (Kaggle)|
-  | JSON   | Flat list or `{"intents": [...]}` format       |
-  | JSONL  | Line-by-line JSON objects                      |
-  | TXT    | `Q: ... A: ...` format                         |
-- **Auto-detection:** Column names automatically detect kore (question/answer/category er different naming conventions)
-- **Auto-categorize:** Category na thakle answer er first 3 words diye category generate kore
-- **Merge support:** Existing dataset er sathe merge korte pare
-- **Usage:** `python converter.py input_file.csv [output_file.json]`
-
----
-
-### 6. `build_dataset.py` (Full Dataset Builder)
-- Kaggle `chatbot_conversations.csv` theke intents extract kore
-- 55 ta intent er jonno manually written answers ache
-- Extra questions add kore per intent (better matching er jonno)
-- 4 ta custom Bangla categories add kore: about_bot, bot_name, bot_capability, thanks
-- Output: `dataset.json`
-
----
-
-### 7. `build_clean.py` (Clean Dataset Builder)
-- `_kaggle_intents.json` (cached) theke dataset build kore
-- Same intent_answers ar extra_questions as build_dataset.py (shorter answers)
-- Faster - CSV parse korte hoy na
-
----
-
-### 8. `dataset.json` (Main Dataset)
-- **56 categories**, **250+ questions**
-- Format per entry:
-  ```json
-  {
-      "category": "greeting",
-      "questions": ["hello", "hi", "how are you", ...],
-      "answer": "Hello! How can I help you today?"
-  }
-  ```
-- Categories include: AI, ML, DL, coding, education, health, fitness, food, finance, career, motivation, books, music, sports, gaming, entertainment, travel, weather, sleep, emotions, etc.
-- 4 custom Bangla bot categories: about_bot, bot_name, bot_capability, thanks
-
----
-
-## How It Works (Flow)
+## How It Works — Full Pipeline
 
 ```
-User types message
-       |
-       v
-  [app.py] /api/chat receives message
-       |
-       v
-  [chatbot.py] ChatBot.get_answer()
-       |
-       ├── 1. Clean text (lowercase, remove punctuation)
-       ├── 2. Spell correction (difflib)
-       ├── 3. Sentiment detection (keyword matching)
-       ├── 4. TF-IDF cosine similarity (primary matching)
-       ├── 5. ML intent classification (LogisticRegression)
-       └── 6. Decision:
-            ├── ML confidence >= 0.55 → use ML prediction
-            ├── TF-IDF score >= 0.20 → use TF-IDF match
-            └── Neither → return None (needs_learning)
-       |
-       v
-  Answer found? ──Yes──> Adjust for sentiment → Return reply
-       |
-       No
-       v
-  Frontend shows learning form
-       |
-       v
-  User teaches: category + answer
-       |
-       v
-  [app.py] /api/learn → ChatBot.learn()
-       |
-       ├── Add to dataset (existing or new category)
-       ├── Save dataset.json
-       └── Full retrain (data + spell + classifier + tfidf)
+User types: "hwo to lern pytohn?"
+    │
+    ▼
+┌─────────────────────────────────────────────────────────┐
+│  STEP 1: Text Cleaning                                  │
+│  "hwo to lern pytohn?" → "hwo to lern pytohn"          │
+│  (lowercase, strip punctuation)                         │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│  STEP 2: Follow-Up Detection                            │
+│  Check if this is a follow-up like "tell me more" or    │
+│  pronoun reference like "what about it?" — if so,       │
+│  reuse the last discussed category from SQLite history. │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│  STEP 3: Spell Correction (Length-Guarded)               │
+│  "hwo to lern pytohn" → "hwo to learn python"           │
+│                                                          │
+│  Adaptive cutoff:                                        │
+│    3-4 chars → 0.88 (protects: sql, api, npm, git)      │
+│    5-6 chars → 0.82 (catches: pytohn → python)           │
+│    7+ chars  → 0.78 (catches: javscript → javascript)    │
+│  Length guard: rejects if candidate differs by >2 chars  │
+│  Tries BOTH corrected AND original text (dual-path)      │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│  STEP 4: Multi-Category Detection (4 signals combined)   │
+│                                                          │
+│  Signal 1: FAISS Semantic Search                         │
+│    Encode question → 384-dim vector via MiniLM            │
+│    Search FAISS index (6,479 vectors) → top-15 matches   │
+│    Aggregate by category → keep max score per category    │
+│                                                          │
+│  Signal 2: ML Classifier                                 │
+│    TF-IDF + LogisticRegression → top-3 predictions       │
+│    Probability per category                               │
+│                                                          │
+│  Signal 3: Intent Signal Detection                       │
+│    22 regex patterns catch meaning ONNX misses            │
+│    "i dont know what to do" → career, motivation          │
+│    "keno hocche na" → debugging (Bangla patterns too)     │
+│                                                          │
+│  Signal 4: Tag-Based Discovery                           │
+│    Extract words from question, look up in tag index      │
+│    Find categories that tagged themselves with matches     │
+│                                                          │
+│  → All 4 signals feed into ConfidenceScorer               │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│  STEP 5: Multi-Factor Confidence Scorer                  │
+│                                                          │
+│  Weighted combination:                                    │
+│    45% semantic + 25% ML + 15% intent + 10% agreement    │
+│    + 5% score gap                                        │
+│                                                          │
+│  → Sigmoid normalization: 1/(1+exp(-12*(x-0.38)))        │
+│  → Calibrated 5%-98% "sureness" score                    │
+│                                                          │
+│  Example outputs:                                        │
+│    Exact match + all agree    → 98%                      │
+│    Strong semantic only       → 67%                      │
+│    Moderate, ML confirms      → 76%                      │
+│    Vague question             → 51%                      │
+│    Weak/ambiguous             → 32%                      │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+          ┌───────────┴───────────┐
+          │ Categories detected?  │
+          └───┬───────────┬───────┘
+           No │           │ Yes (up to 3)
+              ▼           ▼
+┌────────────────┐  ┌──────────────────────────────────────┐
+│ "Did you mean?"│  │  STEP 6: Answer Retrieval             │
+│ Show top-3     │  │  Find best answer from EACH category  │
+│ suggestions    │  │  using semantic similarity between     │
+│ OR             │  │  question and stored answers           │
+│ Show learn form│  │                                       │
+└────────────────┘  │  Multi-category? Merge answers:        │
+                    │  Primary → full answer                 │
+                    │  Secondary → first sentence + connector│
+                    └──────────────┬────────────────────────┘
+                                   ▼
+┌─────────────────────────────────────────────────────────┐
+│  STEP 7: Hybrid RAG Generation (if TinyLlama available)  │
+│                                                          │
+│  1. Retrieve top-5 Q&A pairs from FAISS (RAG context)    │
+│  2. Fetch last 5 conversation turns (sliding window)     │
+│  3. Build prompt:                                        │
+│     <|system|> Answer using ONLY retrieved knowledge      │
+│     <|user|> [5 Q&A pairs] + [conversation history]      │
+│              Question: {user's question}                  │
+│     <|assistant|>                                        │
+│  4. TinyLlama generates 2-3 sentence answer              │
+│  5. Clean artifacts ("based on the text" etc.)            │
+│                                                          │
+│  Skip for: greeting, farewell, thanks (dataset is better)│
+│  Fallback: if LLM fails → use dataset answer + templates │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│  STEP 8: Response Refinement                             │
+│                                                          │
+│  If dataset answer (not LLM):                            │
+│    → AnswerTemplates: add prefix/suffix by sentiment     │
+│    → 30% chance append secondary answer snippet          │
+│    → SentimentDetector: adjust tone for angry/sad users  │
+│                                                          │
+│  Store feeling to category file                          │
+│  Save turn to SQLite (session, message, reply, intent)   │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+              Return JSON response:
+              {
+                "reply": "Python is a high-level...",
+                "confidence": 0.97,
+                "categories": ["python"],
+                "generated": false
+              }
 ```
 
 ---
 
-## Dependencies
-```
-flask>=3.0.0
-scikit-learn>=1.4.0
-```
-Built-in modules used: `json`, `logging`, `re`, `difflib`, `csv`, `os`, `sys`, `collections`
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/` | Chat Web UI |
+| `GET` | `/api/health` | Status: question count, categories, feedback stats, pending learns |
+| `POST` | `/api/session` | Create new conversation session |
+| `POST` | `/api/chat` | Send message → get answer (supports `chosen_category` for suggestions) |
+| `POST` | `/api/feedback` | Submit like/dislike + optional correction |
+| `POST` | `/api/learn` | Teach bot new Q&A pair |
+| `POST` | `/api/process_learns` | Manually flush the pending learning queue |
+| `GET` | `/api/pending_learns` | Check learning queue status |
+
+---
+
+## Classes in chatbot.py (1,865 lines)
+
+| Class | Lines | Purpose |
+|---|---|---|
+| `SemanticEncoder` | ~45 | ONNX MiniLM-L6-v2 — encode text to 384-dim vectors, cosine similarity |
+| `TinyLlamaGenerator` | ~115 | Hybrid RAG — build prompt from retrieved Q&A + conversation history, generate via ctransformers |
+| `Database` | ~110 | SQLite persistence — sessions, turns, feedback, learn log, pending queue. Indexed for performance. |
+| `AnswerTemplates` | ~50 | Response variation — sentiment prefixes, suffixes, 30% secondary answer snippets |
+| `SpellCorrector` | ~70 | Length-guarded correction — adaptive cutoff (0.78-0.88), max 2-char length diff, 80+ skip words |
+| `SentimentDetector` | ~50 | Keyword-based — angry/sad/happy/curious/confused/neutral. Adjusts response tone. |
+| `CategoryStore` | ~180 | Loads category JSON files, manages tags index, questions/answers/feelings CRUD |
+| `IntentSignalDetector` | ~90 | 22 regex patterns — catches user intent that semantic search misses (Bangla included) |
+| `ConfidenceScorer` | ~90 | Multi-factor sigmoid scorer — 5 signals → weighted sum → sigmoid → calibrated 5-98% |
+| `ChatBot` | ~700 | Main engine — init, FAISS index, detection pipeline, RAG, learning queue, answer merging |
+
+---
+
+## Key Design Decisions
+
+1. **Fully Offline** — No API keys, no internet needed at runtime. Both models (MiniLM + TinyLlama) run locally on CPU.
+
+2. **Hybrid RAG, Not Raw LLM** — TinyLlama doesn't hallucinate freely. It receives the top-5 semantically matched Q&A pairs from the dataset as context, so its answers are grounded in actual data.
+
+3. **Multi-Signal Detection** — No single method is trusted alone. Semantic search + ML classifier + regex intent patterns + tag index all vote, then sigmoid normalization produces a calibrated confidence.
+
+4. **Dual-Path Spell Correction** — Tries both corrected AND original text for category detection. Prevents the spell corrector from destroying meaning ("dont know" → "donate now" was a real bug).
+
+5. **Background Learning Queue** — `learn()` saves data immediately but defers the expensive retrain (FAISS rebuild + ML refit) until 5 items queue up. Prevents system lockups.
+
+6. **Sliding Context Window** — Last 5 conversation turns are injected into the LLM prompt, enabling pronoun resolution ("what about it?", "explain that").
+
+7. **Category-as-File Architecture** — Each category is a standalone JSON file. Companies can add/remove categories by dropping files into a folder. No central database to corrupt.
+
+8. **Many-to-Many Tags** — Categories can declare tags. A question about "python flask deployment" matches categories tagged with any of those words, beyond just the category name.
 
 ---
 
 ## Run Instructions
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
+
+# Download models (first time only)
+python download_model.py
 
 # Run web UI (port 5000)
 python app.py
@@ -231,23 +328,21 @@ python app.py
 # Run CLI mode
 python chatbot.py
 
-# Convert external dataset
-python converter.py input_file.csv
-
-# Rebuild dataset from Kaggle CSV
-python build_dataset.py
-
-# Rebuild dataset from cached intents
-python build_clean.py
+# Run tests
+python test_deep_analysis.py --fast    # 60 questions, TinyLlama disabled
+python test_100q.py                     # 100 questions
 ```
 
 ---
 
-## Key Design Decisions
-1. **No external AI API** - Shob kichu local ML (TF-IDF + LogisticRegression) diye hoy
-2. **Self-learning** - Bot real-time e notun jinish shikhte pare, dataset.json e save hoy
-3. **Dual matching** - ML classifier + TF-IDF fallback (confidence thresholds diye decide kore)
-4. **Spell correction** - User er typo handle kore automatically
-5. **Sentiment awareness** - Angry/happy user ke different tone e respond kore
-6. **Auto retrain** - Prottek learn er por full model retrain hoy
-7. **Bangla + English** - Mixed language support (Banglish responses)
+## Performance Snapshot
+
+| Metric | Value |
+|---|---|
+| Dataset | 1,094 categories, 6,479 questions |
+| Boot time | ~60-70s (FAISS index build + model load) |
+| Query latency (dataset) | ~50-200ms |
+| Query latency (LLM) | ~3-8s per question |
+| FAISS index | 6,479 vectors, 384 dimensions |
+| Memory footprint | ~800 MB (MiniLM + TinyLlama + FAISS) |
+| Accuracy (deep test) | ~68-75% on 60 diverse questions |

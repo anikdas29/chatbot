@@ -189,6 +189,11 @@
             "question": "how to plan a trip",
             "sentiment": "curious",
             "answer": "Great question! Travel tips: book flights 6-8 weeks in advance for best prices, use Google Flights for fare alerts, pack light, and always try local food."
+        },
+        {
+            "question": "bangladesh er capital ki?",
+            "sentiment": "curious",
+            "answer": "For budget travel: book early, stay in hostels or Airbnb, use public transport, and eat where locals eat — always tastier and cheaper.\n\nOn the museum side: Top museums include the Louvre (Paris), British Museum (London), Smithsonian (Washington DC), MoMA (New York), and Hermitage (St.\n\nFor emergency number: Dial 999 for any emergency in Bangladesh."
         }
     ]
 }

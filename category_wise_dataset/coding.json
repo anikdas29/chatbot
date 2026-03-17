@@ -246,6 +246,31 @@
             "question": "bro how to code",
             "sentiment": "curious",
             "answer": "Valo question! Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "which programming language is best?",
+            "sentiment": "happy",
+            "answer": "Pick one language and stick with it. Python for beginners, JavaScript for web dev. Practice daily on LeetCode or by building small projects.\n\nRegarding language: Language learning apps: Duolingo (free, gamified), Anki (flashcards), HelloTalk (chat with natives), and YouTube channels for grammar lessons."
+        },
+        {
+            "question": "i want to learn python, where do i start?",
+            "sentiment": "curious",
+            "answer": "To begin learning Python, it's recommended to start with PyCharm and explore the language's syntax and community. Some beginner-friendly resources include LeeTCode or HackerRank. Once comfortable with the language, you can move on to web development using JavaScripthttps://leetcode.com/ or backend development using Java. It's best to focus on learning one language at a time and building small projects daily to improve your skills."
+        },
+        {
+            "question": "i want to learn python, where do i start?",
+            "sentiment": "curious",
+            "answer": "Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects.\n\nRegarding python: Best Python resources: official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schafer.\n\nRegarding django: Learn django from official docs and tutorials."
+        },
+        {
+            "question": "best programming language",
+            "sentiment": "happy",
+            "answer": "Awesome! Python is the best starting point — clean syntax and huge community. Once comfortable, explore JavaScript for web or Java for backend. And Start with Python (beginner-friendly), then JavaScript, Java, or C++."
+        },
+        {
+            "question": "how to learn programming?",
+            "sentiment": "curious",
+            "answer": "Interesting! Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects. Also, Python is the best starting point — clean syntax and huge community.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

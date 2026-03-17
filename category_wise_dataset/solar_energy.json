@@ -15,5 +15,12 @@
         "Solar panels work by converting sunlight into electricity using photovoltaic cells. When light hits the cells, it creates an electric current. This electricity can power your home or be stored in batteries.",
         "Solar panel lagale electricity bill komey jay, environment help hoy, ar load shedding er somoy o power thake. Bangladesh e solar home systems onek gram e popular.",
         "Solar panel costs have dropped over 80% in the last decade, making it very cost-effective. With government incentives and net metering, most systems pay for themselves within 5-8 years."
+    ],
+    "feelings": [
+        {
+            "question": "tell me about solar system",
+            "sentiment": "curious",
+            "answer": "Solar energy is power generated from sunlight using photovoltaic panels or solar thermal systems. It's clean, renewable, and becoming increasingly affordable worldwide.\n\nAbout astronomy: Our solar system has 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.\n\nAbout astrophysics: Astrophysics = applying physics to understand celestial objects."
+        }
     ]
 }

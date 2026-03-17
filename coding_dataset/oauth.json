@@ -15,5 +15,12 @@
         "OAuth 2.0 works through authorization grants where the user approves access, the app gets an authorization code, exchanges it for an access token, and uses that token to access protected resources.",
         "OAuth 2.0 is the industry standard for authorization. It supports multiple flows like Authorization Code (web apps), PKCE (mobile/SPA), Client Credentials (server-to-server), and Implicit (legacy).",
         "OAuth enables secure delegated access. When you click 'Sign in with Google,' you're authorizing an app to access specific data from your Google account without ever sharing your Google password."
+    ],
+    "feelings": [
+        {
+            "question": "how does OAuth work?",
+            "sentiment": "curious",
+            "answer": "Interesting! OAuth is an authorization framework that lets users grant third-party apps limited access to their accounts without sharing passwords. It's how 'Login with Google/Facebook/GitHub' buttons work.\n\nAr kichu jante chaile bolo!"
+        }
     ]
 }

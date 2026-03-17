@@ -18,11 +18,6 @@
     ],
     "feelings": [
         {
-            "question": "what is rest api",
-            "sentiment": "curious",
-            "answer": "API testing tools: Postman (GUI), curl (terminal), Thunder Client (VS Code). Always test your endpoints before connecting to frontend!"
-        },
-        {
             "question": "how to make an api",
             "sentiment": "curious",
             "answer": "API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
@@ -266,6 +261,11 @@
             "question": "how to make an api",
             "sentiment": "curious",
             "answer": "Good one! To build an API: use Flask/FastAPI (Python), Express.js (Node.js), or Spring Boot (Java). Define routes, handle requests, connect to a database, return JSON.\n\nHope this helps!"
+        },
+        {
+            "question": "tell me about api",
+            "sentiment": "curious",
+            "answer": "Nice question! API (Application Programming Interface) lets different software talk to each other. When you check weather on your phone, it uses an API to fetch data from a server."
         }
     ]
 }

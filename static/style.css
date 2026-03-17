@@ -270,6 +270,7 @@ body {
     padding-top: 4px;
     font-size: 11px;
     opacity: 0.7;
+    flex-wrap: wrap;
 }
 
 .conf-label {
@@ -278,6 +279,35 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+/* Multi-category tags */
+.conf-cats {
+    display: inline-flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.cat-tag {
+    background: rgba(102, 126, 234, 0.15);
+    color: #8899cc;
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-size: 10px;
+    border: 1px solid rgba(102, 126, 234, 0.25);
+    white-space: nowrap;
+}
+
+.multi-badge {
+    background: rgba(255, 167, 38, 0.15);
+    color: #ffa726;
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-size: 9px;
+    border: 1px solid rgba(255, 167, 38, 0.25);
+    white-space: nowrap;
+    margin-left: 2px;
 }
 
 .conf-dots {

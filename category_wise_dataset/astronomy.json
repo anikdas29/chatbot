@@ -115,6 +115,11 @@
             "question": "how big is the universe",
             "sentiment": "curious",
             "answer": "Nice question! The universe is HUGE - observable universe is 93 billion light-years across, with over 2 trillion galaxies. And it's still expanding!"
+        },
+        {
+            "question": "how do airplanes fly?",
+            "sentiment": "curious",
+            "answer": "Our solar system has 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Jupiter is the largest, Mercury the smallest.\n\nOn the drone side: Flying tips: start in open areas, no wind, practice hovering first, learn orientation, and always keep line of sight."
         }
     ]
 }

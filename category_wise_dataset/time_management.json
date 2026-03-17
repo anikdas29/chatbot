@@ -193,6 +193,11 @@
             "question": "how to stop procrastinating",
             "sentiment": "curious",
             "answer": "Great question! Stop procrastinating: use the 2-minute rule - if it takes less than 2 minutes, do it now. Break big tasks into tiny steps and just start."
+        },
+        {
+            "question": "what time is it?",
+            "sentiment": "curious",
+            "answer": "Valo question! Time management golden rule: plan your day the night before. List your top 3 priorities and tackle the hardest one first (eat the frog)."
         }
     ]
 }

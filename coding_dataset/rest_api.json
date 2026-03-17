@@ -15,5 +15,12 @@
         "REST stands for Representational State Transfer. A RESTful API is stateless, uses standard HTTP methods, returns data in JSON or XML format, and treats everything as a resource with a unique URI.",
         "REST APIs are the backbone of modern web applications. They follow conventions like using nouns for endpoints, proper HTTP status codes, versioning, pagination, and consistent error responses.",
         "Good REST API design means using proper HTTP methods, meaningful status codes (200, 201, 404, 500), pagination for lists, authentication with tokens, and clear documentation. Tools like Postman and Swagger help you test and document APIs."
+    ],
+    "feelings": [
+        {
+            "question": "what is REST API?",
+            "sentiment": "curious",
+            "answer": "REST API is an architectural style for building web services that uses HTTP methods like GET, POST, PUT, and DELETE to perform CRUD operations on resources identified by URLs.\n\nRegarding api: REST API: uses HTTP methods - GET (read), POST (create), PUT (update), DELETE (remove)."
+        }
     ]
 }

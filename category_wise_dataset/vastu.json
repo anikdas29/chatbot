@@ -16,5 +16,17 @@
         "Vastu suggests sleeping with your head towards the south or east for better rest. The kitchen should ideally be in the southeast corner, and the entrance should face north or east for positive energy.",
         "Vastu Shastra holo prachin Bharotiyo building science jeta direction ar space er alignment diye positive energy create kore. Ghor banar somoy purbo ba uttor mukhi entrance rakhte bola hoy.",
         "Vastu is the Indian equivalent of feng shui, focusing on directional placements. Key tips include placing the kitchen in the southeast, keeping the northeast corner clutter-free, and ensuring the main door opens clockwise."
+    ],
+    "feelings": [
+        {
+            "question": "website banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Vastu Shastra holo prachin Bharotiyo building science jeta direction ar space er alignment diye positive energy create kore. Ghor banar somoy purbo ba uttor mukhi entrance rakhte bola hoy.\n\nOn the invoice side: Invoice holo ekta payment request document ja tumi client ke pathao tomar service ba product er jonno.\n\nOn the prototyping side: Prototype holo tomar design er ekta interactive model — click korle page change hoy, animation dekha jay."
+        },
+        {
+            "question": "website banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Vastu Shastra holo prachin Bharotiyo building science jeta direction ar space er alignment diye positive energy create kore. Ghor banar somoy purbo ba uttor mukhi entrance rakhte bola hoy.\n\nFor invoice: Invoice holo ekta payment request document ja tumi client ke pathao tomar service ba product er jonno.\n\nAlso regarding prototyping: Prototype holo tomar design er ekta interactive model — click korle page change hoy, animation dekha jay."
+        }
     ]
 }

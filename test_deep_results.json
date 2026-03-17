@@ -1,0 +1,742 @@
+{
+  "total": 60,
+  "correct": 41,
+  "wrong": 18,
+  "missed": 1,
+  "group_stats": {
+    "direct": {
+      "total": 5,
+      "ok": 5,
+      "wrong": 0,
+      "miss": 0
+    },
+    "rephrased": {
+      "total": 5,
+      "ok": 5,
+      "wrong": 0,
+      "miss": 0
+    },
+    "single": {
+      "total": 3,
+      "ok": 3,
+      "wrong": 0,
+      "miss": 0
+    },
+    "short": {
+      "total": 5,
+      "ok": 4,
+      "wrong": 1,
+      "miss": 0
+    },
+    "informal": {
+      "total": 2,
+      "ok": 2,
+      "wrong": 0,
+      "miss": 0
+    },
+    "support": {
+      "total": 10,
+      "ok": 4,
+      "wrong": 6,
+      "miss": 0
+    },
+    "similar": {
+      "total": 6,
+      "ok": 4,
+      "wrong": 2,
+      "miss": 0
+    },
+    "tricky": {
+      "total": 1,
+      "ok": 1,
+      "wrong": 0,
+      "miss": 0
+    },
+    "ambiguous": {
+      "total": 3,
+      "ok": 3,
+      "wrong": 0,
+      "miss": 0
+    },
+    "understanding": {
+      "total": 10,
+      "ok": 3,
+      "wrong": 6,
+      "miss": 1
+    },
+    "typo": {
+      "total": 5,
+      "ok": 5,
+      "wrong": 0,
+      "miss": 0
+    },
+    "bangla": {
+      "total": 5,
+      "ok": 2,
+      "wrong": 3,
+      "miss": 0
+    }
+  },
+  "results": [
+    {
+      "q": "what is python?",
+      "expected": "python",
+      "got": "python",
+      "confidence": 0.906,
+      "status": "OK",
+      "group": "direct match",
+      "source": "DS",
+      "time": 0.14,
+      "reply_preview": "Nice question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science,"
+    },
+    {
+      "q": "tell me about javascript",
+      "expected": "javascript",
+      "got": "javascript",
+      "confidence": 0.857,
+      "status": "OK",
+      "group": "direct match",
+      "source": "DS",
+      "time": 0.15,
+      "reply_preview": "Interesting! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node."
+    },
+    {
+      "q": "what is machine learning?",
+      "expected": "ml",
+      "got": "ml",
+      "confidence": 0.925,
+      "status": "OK",
+      "group": "direct match",
+      "source": "DS",
+      "time": 0.16,
+      "reply_preview": "Great question! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, rei"
+    },
+    {
+      "q": "how to use docker?",
+      "expected": "docker_basics",
+      "got": "docker_basics,devops,containers",
+      "confidence": 0.802,
+      "status": "OK",
+      "group": "direct match",
+      "source": "DS",
+      "time": 0.25,
+      "reply_preview": "Start Docker: install Docker Desktop, run 'docker run hello-world' to test, then containerize your own app with a Docker"
+    },
+    {
+      "q": "what is git?",
+      "expected": "git",
+      "got": "git,version_control",
+      "confidence": 0.856,
+      "status": "OK",
+      "group": "direct match",
+      "source": "DS",
+      "time": 0.18,
+      "reply_preview": "Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. E"
+    },
+    {
+      "q": "i want to learn python, where do i start?",
+      "expected": "python",
+      "got": "coding,python,django",
+      "confidence": 0.585,
+      "status": "OK",
+      "group": "rephrased",
+      "source": "DS",
+      "time": 0.23,
+      "reply_preview": "Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real pr"
+    },
+    {
+      "q": "can you explain how ML works?",
+      "expected": "ml",
+      "got": "ml,embeddings",
+      "confidence": 0.623,
+      "status": "OK",
+      "group": "rephrased",
+      "source": "DS",
+      "time": 0.21,
+      "reply_preview": "ML = teaching computers to learn from data without explicit programming. Key types: supervised (labelled data), unsuperv"
+    },
+    {
+      "q": "whats the best way to get into web development?",
+      "expected": "web_dev",
+      "got": "web_dev,web_design",
+      "confidence": 0.81,
+      "status": "OK",
+      "group": "rephrased",
+      "source": "DS",
+      "time": 0.23,
+      "reply_preview": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your "
+    },
+    {
+      "q": "how do i make my website look good?",
+      "expected": "html_css",
+      "got": "html_css,seo",
+      "confidence": 0.622,
+      "status": "OK",
+      "group": "rephrased",
+      "source": "DS",
+      "time": 0.24,
+      "reply_preview": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build"
+    },
+    {
+      "q": "i need help with my database",
+      "expected": "database",
+      "got": "database",
+      "confidence": 0.724,
+      "status": "OK",
+      "group": "rephrased",
+      "source": "DS",
+      "time": 0.17,
+      "reply_preview": "Easy version: Start with MySQL or PostgreSQL for relational data. For NoSQL, try MongoDB. Practice on SQLBolt.com or W3S"
+    },
+    {
+      "q": "python",
+      "expected": "python",
+      "got": "python",
+      "confidence": 0.943,
+      "status": "OK",
+      "group": "single word",
+      "source": "DS",
+      "time": 0.15,
+      "reply_preview": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation"
+    },
+    {
+      "q": "react",
+      "expected": "react",
+      "got": "react",
+      "confidence": 0.92,
+      "status": "OK",
+      "group": "single word",
+      "source": "DS",
+      "time": 0.14,
+      "reply_preview": "React is a JavaScript library for building user interfaces. Created by Facebook, it uses components, JSX, and virtual DO"
+    },
+    {
+      "q": "help",
+      "expected": "help/unknown",
+      "got": "bot_capability",
+      "confidence": 0.795,
+      "status": "OK",
+      "group": "single word",
+      "source": "DS",
+      "time": 0.16,
+      "reply_preview": "Let me explain. I can help with 55+ topics including AI, coding, health, finance, career, motivation, travel, music, and"
+    },
+    {
+      "q": "sql tips",
+      "expected": "sql",
+      "got": "database,datascience",
+      "confidence": 0.622,
+      "status": "WRONG",
+      "group": "short",
+      "source": "DS",
+      "time": 0.22,
+      "reply_preview": "SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cov"
+    },
+    {
+      "q": "git basics",
+      "expected": "git",
+      "got": "github_basics,version_control",
+      "confidence": 0.744,
+      "status": "OK",
+      "group": "short",
+      "source": "DS",
+      "time": 0.18,
+      "reply_preview": "GitHub = platform for hosting Git repositories. Collaborate, review code, track issues, and deploy — all in one place.\n\n"
+    },
+    {
+      "q": "api kya hai?",
+      "expected": "api/rest_api",
+      "got": "thai_food,api,folklore",
+      "confidence": 0.587,
+      "status": "OK",
+      "group": "informal",
+      "source": "DS",
+      "time": 0.25,
+      "reply_preview": "Exploring thai food is a delicious journey. Try different varieties and styles.\n\nRegarding api: API (Application Program"
+    },
+    {
+      "q": "docker keno use kori?",
+      "expected": "docker_basics",
+      "got": "docker_basics,public_transport,wetlands",
+      "confidence": 0.602,
+      "status": "OK",
+      "group": "informal",
+      "source": "DS",
+      "time": 0.25,
+      "reply_preview": "Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment.\n\nAlso regar"
+    },
+    {
+      "q": "css tricks",
+      "expected": "html_css/css",
+      "got": "html_css,fashion",
+      "confidence": 0.684,
+      "status": "OK",
+      "group": "short",
+      "source": "DS",
+      "time": 0.2,
+      "reply_preview": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and resp"
+    },
+    {
+      "q": "linux commands",
+      "expected": "linux",
+      "got": "linux",
+      "confidence": 0.876,
+      "status": "OK",
+      "group": "short",
+      "source": "DS",
+      "time": 0.17,
+      "reply_preview": "Essential Linux commands: ls, cd, pwd, mkdir, rm, cp, mv, cat, grep, chmod, sudo, apt. These 12 commands handle most dai"
+    },
+    {
+      "q": "career advice",
+      "expected": "career",
+      "got": "career",
+      "confidence": 0.873,
+      "status": "OK",
+      "group": "short",
+      "source": "DS",
+      "time": 0.13,
+      "reply_preview": "So, Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your network, and keep a"
+    },
+    {
+      "q": "how do i reset my password?",
+      "expected": "password/account",
+      "got": "password_security,security",
+      "confidence": 0.542,
+      "status": "OK",
+      "group": "support",
+      "source": "DS",
+      "time": 0.18,
+      "reply_preview": "Password tips: unique passwords, 12+ characters, use password manager (Bitwarden, 1Password), enable 2FA.\n\nFor security:"
+    },
+    {
+      "q": "my app is not loading",
+      "expected": "troubleshooting",
+      "got": "flutter,mobile_design",
+      "confidence": 0.415,
+      "status": "WRONG",
+      "group": "support",
+      "source": "DS",
+      "time": 0.2,
+      "reply_preview": "Learn Flutter: official docs (flutter.dev), Flutter Apprentice book, and YouTube channels like The Net Ninja. Build a si"
+    },
+    {
+      "q": "how to contact support?",
+      "expected": "contact/support",
+      "got": "consumer_rights,disability_rights,emotions",
+      "confidence": 0.454,
+      "status": "WRONG",
+      "group": "support",
+      "source": "DS",
+      "time": 0.22,
+      "reply_preview": "To file a complaint, gather your receipt and evidence, contact the seller first, then escalate to consumer protection ag"
+    },
+    {
+      "q": "what are your pricing plans?",
+      "expected": "pricing",
+      "got": "pricing_strategy,solar_energy,vertical_farming",
+      "confidence": 0.51,
+      "status": "OK",
+      "group": "support",
+      "source": "DS",
+      "time": 0.28,
+      "reply_preview": "The best pricing strategy depends on your market. Test different prices, understand your costs, research competitors, kn"
+    },
+    {
+      "q": "how to cancel my subscription?",
+      "expected": "subscription",
+      "got": "subscription_model",
+      "confidence": 0.494,
+      "status": "OK",
+      "group": "support",
+      "source": "DS",
+      "time": 0.16,
+      "reply_preview": "Great question! Understanding subscription model helps you make better business decisions. Plus, Subscription Model is e"
+    },
+    {
+      "q": "where can i find the documentation?",
+      "expected": "documentation",
+      "got": "technical_writing,documentation,google_docs",
+      "confidence": 0.602,
+      "status": "OK",
+      "group": "support",
+      "source": "DS",
+      "time": 0.21,
+      "reply_preview": "Good docs: clear, concise, well-organized, searchable, and up-to-date. Include code examples and troubleshooting section"
+    },
+    {
+      "q": "is there a mobile app?",
+      "expected": "mobile_app",
+      "got": "flutter,mobile_design,android",
+      "confidence": 0.581,
+      "status": "WRONG",
+      "group": "support",
+      "source": "DS",
+      "time": 0.22,
+      "reply_preview": "Flutter is Google's UI toolkit for building natively compiled apps for mobile, web, and desktop from a single codebase. "
+    },
+    {
+      "q": "how to export my data?",
+      "expected": "data_export",
+      "got": "import_export,database,environment",
+      "confidence": 0.462,
+      "status": "WRONG",
+      "group": "support",
+      "source": "DS",
+      "time": 0.25,
+      "reply_preview": "Import holo bidesh theke product ante, ar export holo nijher desh theke bidesh e product pathano. Duita miliye internati"
+    },
+    {
+      "q": "i found a bug",
+      "expected": "bug_report",
+      "got": "coding_errors,bug_bounty",
+      "confidence": 0.486,
+      "status": "WRONG",
+      "group": "support",
+      "source": "DS",
+      "time": 0.2,
+      "reply_preview": "Debugging tips: Read error messages carefully, check syntax, use print statements, Google the error, check Stack Overflo"
+    },
+    {
+      "q": "how to upgrade my plan?",
+      "expected": "subscription/pricing",
+      "got": "business_plan,business,retirement",
+      "confidence": 0.55,
+      "status": "WRONG",
+      "group": "support",
+      "source": "DS",
+      "time": 0.2,
+      "reply_preview": "Business Plan is essential for business success. Learn and apply consistently.\n\nAbout business: Startup tip: don't wait "
+    },
+    {
+      "q": "how to cook rice?",
+      "expected": "cooking",
+      "got": "cooking",
+      "confidence": 0.736,
+      "status": "OK",
+      "group": "similar",
+      "source": "DS",
+      "time": 0.14,
+      "reply_preview": "Good one! Start simple: learn to make eggs, rice, pasta, and stir-fry. Master these basics and you can cook almost anyth"
+    },
+    {
+      "q": "how to cook a python script?",
+      "expected": "python",
+      "got": "python,screenplay,screenwriting",
+      "confidence": 0.544,
+      "status": "OK",
+      "group": "tricky - cook=run",
+      "source": "DS",
+      "time": 0.24,
+      "reply_preview": "Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to star"
+    },
+    {
+      "q": "what is a python snake?",
+      "expected": "python(language) or animal?",
+      "got": "python,snake_bite",
+      "confidence": 0.579,
+      "status": "OK",
+      "group": "ambiguous",
+      "source": "DS",
+      "time": 0.2,
+      "reply_preview": "Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation"
+    },
+    {
+      "q": "how to run a program?",
+      "expected": "programming",
+      "got": "clean_code,arduino,plumbing",
+      "confidence": 0.435,
+      "status": "WRONG",
+      "group": "similar",
+      "source": "DS",
+      "time": 0.28,
+      "reply_preview": "Clean code = readable, maintainable, and simple. Named well, does one thing, and is easy to understand.\n\nRegarding ardui"
+    },
+    {
+      "q": "how to run faster?",
+      "expected": "fitness/running",
+      "got": "speed_reading,android,study",
+      "confidence": 0.476,
+      "status": "WRONG",
+      "group": "similar",
+      "source": "DS",
+      "time": 0.24,
+      "reply_preview": "Speed reading techniques: reduce subvocalization, use a pointer (finger/pen), expand peripheral vision, and chunk words."
+    },
+    {
+      "q": "java coffee",
+      "expected": "java(language) or coffee?",
+      "got": "java,coffee",
+      "confidence": 0.537,
+      "status": "OK",
+      "group": "ambiguous",
+      "source": "DS",
+      "time": 0.21,
+      "reply_preview": "Java is a powerful, object-oriented language used in Android apps, enterprise software, and backend systems. 'Write once"
+    },
+    {
+      "q": "apple products",
+      "expected": "apple(tech) or fruit?",
+      "got": "ios,swift",
+      "confidence": 0.597,
+      "status": "OK",
+      "group": "ambiguous",
+      "source": "DS",
+      "time": 0.2,
+      "reply_preview": "Learn Swift, Xcode, UIKit/SwiftUI. Follow Apple Guidelines.\n\nRegarding swift: Swift is a powerful and intuitive language"
+    },
+    {
+      "q": "how to handle stress at work?",
+      "expected": "stress/mental_health",
+      "got": "stress_management,psychology",
+      "confidence": 0.793,
+      "status": "OK",
+      "group": "similar",
+      "source": "DS",
+      "time": 0.21,
+      "reply_preview": "Stress management involves techniques to cope with pressure. Try deep breathing, exercise, time management, talking to s"
+    },
+    {
+      "q": "how to handle errors in python?",
+      "expected": "python/debugging",
+      "got": "python,coding_errors,incident_management",
+      "confidence": 0.46,
+      "status": "OK",
+      "group": "similar",
+      "source": "DS",
+      "time": 0.21,
+      "reply_preview": "Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to star"
+    },
+    {
+      "q": "spring framework",
+      "expected": "spring/java",
+      "got": "spring_boot",
+      "confidence": 0.725,
+      "status": "OK",
+      "group": "similar",
+      "source": "DS",
+      "time": 0.13,
+      "reply_preview": "Here's what I know: Spring Boot: Java framework for production apps. Auto-config, embedded server, enterprise-ready.\n\nAr"
+    },
+    {
+      "q": "i dont know what to do with my life",
+      "expected": "career/motivation",
+      "got": "charity",
+      "confidence": 0.635,
+      "status": "WRONG",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.16,
+      "reply_preview": "Valo question! You can donate to charities through their websites, fundraising events, or platforms like GoFundMe. Alway"
+    },
+    {
+      "q": "everything keeps going wrong",
+      "expected": "mental_health/motivation",
+      "got": "SUGGESTIONS",
+      "confidence": 0,
+      "status": "MISS",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.17,
+      "reply_preview": ""
+    },
+    {
+      "q": "whats the point of learning coding?",
+      "expected": "programming/career",
+      "got": "coding",
+      "confidence": 0.746,
+      "status": "WRONG",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.15,
+      "reply_preview": "Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real pr"
+    },
+    {
+      "q": "is it too late to switch careers?",
+      "expected": "career",
+      "got": "twitch",
+      "confidence": 0.614,
+      "status": "WRONG",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.17,
+      "reply_preview": "Growing on twitch takes consistency, quality content, and genuine engagement."
+    },
+    {
+      "q": "i keep failing my interviews",
+      "expected": "interview/career",
+      "got": "job_interview",
+      "confidence": 0.744,
+      "status": "OK",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.16,
+      "reply_preview": "Interview prep: research company, practice common questions (STAR method), prepare questions to ask, and dress appropria"
+    },
+    {
+      "q": "my code doesnt work and i dont know why",
+      "expected": "debugging",
+      "got": "coding_errors,charity,coding",
+      "confidence": 0.509,
+      "status": "WRONG",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.27,
+      "reply_preview": "Debugging tips: Read error messages carefully, check syntax, use print statements, Google the error, check Stack Overflo"
+    },
+    {
+      "q": "im overwhelmed with too many technologies",
+      "expected": "programming/career",
+      "got": "imf,technology,automation",
+      "confidence": 0.485,
+      "status": "WRONG",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.26,
+      "reply_preview": "IMF monitors global economic trends, provides policy advice to member nations, and offers financial assistance to countr"
+    },
+    {
+      "q": "how do i stay motivated?",
+      "expected": "motivation",
+      "got": "motivation",
+      "confidence": 0.985,
+      "status": "OK",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.14,
+      "reply_preview": "Valo question! Stay consistent by building systems, not just relying on motivation. Motivation fades — habits stay. Star"
+    },
+    {
+      "q": "nobody uses my app",
+      "expected": "marketing/startup",
+      "got": "flutter,mobile_design",
+      "confidence": 0.425,
+      "status": "WRONG",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.22,
+      "reply_preview": "Flutter is Google's UI toolkit for building natively compiled apps for mobile, web, and desktop from a single codebase. "
+    },
+    {
+      "q": "should i learn AI?",
+      "expected": "ai/career",
+      "got": "ai,prompt_engineering,illustrator",
+      "confidence": 0.572,
+      "status": "OK",
+      "group": "understanding",
+      "source": "DS",
+      "time": 0.25,
+      "reply_preview": "AI (Artificial Intelligence) is the simulation of human intelligence by machines. It includes machine learning, deep lea"
+    },
+    {
+      "q": "hwo to lern pytohn?",
+      "expected": "python",
+      "got": "python",
+      "confidence": 0.805,
+      "status": "OK",
+      "group": "typo",
+      "source": "DS",
+      "time": 0.17,
+      "reply_preview": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pand"
+    },
+    {
+      "q": "waht is machne lerning?",
+      "expected": "ml",
+      "got": "ml",
+      "confidence": 0.925,
+      "status": "OK",
+      "group": "typo",
+      "source": "DS",
+      "time": 0.2,
+      "reply_preview": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learn"
+    },
+    {
+      "q": "javscript tutoral pls",
+      "expected": "javascript",
+      "got": "nodejs,javascript,nextjs",
+      "confidence": 0.591,
+      "status": "OK",
+      "group": "typo",
+      "source": "DS",
+      "time": 0.25,
+      "reply_preview": "Learn Node.js: know JavaScript first, then follow the official docs or Traversy Media's crash course. Build a REST API a"
+    },
+    {
+      "q": "i wnt to mke a wesbite",
+      "expected": "web_dev",
+      "got": "html_css,web_dev,ruby",
+      "confidence": 0.535,
+      "status": "OK",
+      "group": "typo",
+      "source": "DS",
+      "time": 0.44,
+      "reply_preview": "HTML = structure of a webpage (headings, paragraphs, images). CSS = styling (colors, fonts, layout). Together they build"
+    },
+    {
+      "q": "hw do i us git?",
+      "expected": "git",
+      "got": "version_control,github_basics,git",
+      "confidence": 0.802,
+      "status": "OK",
+      "group": "typo",
+      "source": "DS",
+      "time": 0.27,
+      "reply_preview": "Version control is essential for any developer. Even solo projects benefit from Git — you'll thank yourself later.\n\nAbou"
+    },
+    {
+      "q": "python ki?",
+      "expected": "python",
+      "got": "python",
+      "confidence": 0.933,
+      "status": "OK",
+      "group": "bangla",
+      "source": "DS",
+      "time": 0.19,
+      "reply_preview": "Good one! Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you ne"
+    },
+    {
+      "q": "amake programming shikhao",
+      "expected": "programming",
+      "got": "coding,magic_tricks,swimming",
+      "confidence": 0.504,
+      "status": "WRONG",
+      "group": "bangla",
+      "source": "DS",
+      "time": 0.3,
+      "reply_preview": "Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real pr"
+    },
+    {
+      "q": "machine learning kivabe kaj kore?",
+      "expected": "ml",
+      "got": "text_classification,transfer_learning,upi_payment",
+      "confidence": 0.684,
+      "status": "WRONG",
+      "group": "bangla",
+      "source": "DS",
+      "time": 0.27,
+      "reply_preview": "Text classification holo text ke category e vag kora. Jemon email spam/not-spam, news article er topic detect kora, ba c"
+    },
+    {
+      "q": "website banabo kivabe?",
+      "expected": "web_dev",
+      "got": "invoice,vastu,prototyping",
+      "confidence": 0.647,
+      "status": "WRONG",
+      "group": "bangla",
+      "source": "DS",
+      "time": 0.28,
+      "reply_preview": "Invoice holo ekta payment request document ja tumi client ke pathao tomar service ba product er jonno. Eta professional "
+    },
+    {
+      "q": "career niye confused",
+      "expected": "career",
+      "got": "career,level_design,career_coaching",
+      "confidence": 0.501,
+      "status": "OK",
+      "group": "bangla",
+      "source": "DS",
+      "time": 0.24,
+      "reply_preview": "Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your network, and keep apply"
+    }
+  ]
+}

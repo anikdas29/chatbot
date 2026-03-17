@@ -13,5 +13,12 @@
         "The gold sector is important globally for economy and employment.",
         "Understanding gold helps you appreciate the products and services we use daily.",
         "Learn about gold — it's a fascinating field with many career opportunities."
+    ],
+    "feelings": [
+        {
+            "question": "how old is the earth?",
+            "sentiment": "curious",
+            "answer": "Valo question! Gold: precious metal for jewelry, investment, and electronics. Symbol of wealth across cultures."
+        }
     ]
 }

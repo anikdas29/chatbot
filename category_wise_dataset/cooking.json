@@ -189,6 +189,21 @@
             "question": "how to cook for beginners",
             "sentiment": "curious",
             "answer": "Great question! Start simple: learn to make eggs, rice, pasta, and stir-fry. Master these basics and you can cook almost anything! Additionally, Quick dinner ideas: fried rice with veggies, pasta with garlic butter, omelette with toast, or a simple chicken stir-fry."
+        },
+        {
+            "question": "how to cook rice?",
+            "sentiment": "curious",
+            "answer": "To cook rice, start by learning the basics of making eggs, rice, pasta, and stir-fry. Mastering these basic dishes will give you a good foundation for more complex recipes. Always read the full recipe before starting, prep all ingredients first (misé en place), and taste as you go to ensure success. Quick dinner ideas include fried rice with veggies, pasta with garlic butter, omlette with toast or a simple chicken stir-fry. All under 20 minutes!"
+        },
+        {
+            "question": "how to cook rice?",
+            "sentiment": "curious",
+            "answer": "Good one! Start simple: learn to make eggs, rice, pasta, and stir-fry. Master these basics and you can cook almost anything!"
+        },
+        {
+            "question": "how to cook rice?",
+            "sentiment": "curious",
+            "answer": "Valo question! Start simple: learn to make eggs, rice, pasta, and stir-fry. Master these basics and you can cook almost anything!"
         }
     ]
 }

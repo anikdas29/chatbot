@@ -13,5 +13,12 @@
         "Creational: Singleton, Factory, Builder, Prototype. Control object creation.",
         "Structural: Adapter, Decorator, Facade, Proxy. Compose objects into larger structures.",
         "Behavioral: Observer, Strategy, Command, Iterator. Define how objects communicate and behave."
+    ],
+    "feelings": [
+        {
+            "question": "explain design patterns",
+            "sentiment": "curious",
+            "answer": "Interesting! Design patterns = reusable solutions to common software problems. 23 classic patterns from Gang of Four book."
+        }
     ]
 }

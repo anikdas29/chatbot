@@ -13,5 +13,12 @@
         "How it works: transactions are verified by network nodes (miners/validators), added to a block, and linked to previous blocks.",
         "Uses beyond crypto: supply chain tracking, voting, medical records, identity verification, and smart contracts.",
         "Blockchain types: public (Bitcoin, Ethereum — anyone can join), private (company-controlled), consortium (group-controlled)."
+    ],
+    "feelings": [
+        {
+            "question": "explain blockchain simply",
+            "sentiment": "curious",
+            "answer": "Blockchain = distributed, immutable ledger. Every transaction is recorded in blocks linked cryptographically. No central authority.\n\nAlso regarding crypto: Blockchain = a digital ledger that records transactions across many computers."
+        }
     ]
 }

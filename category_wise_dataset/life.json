@@ -110,6 +110,11 @@
             "question": "how to live a good life",
             "sentiment": "happy",
             "answer": "Glad you asked! Focus on what you can control, be kind, keep learning, build relationships."
+        },
+        {
+            "question": "what is the meaning of life?",
+            "sentiment": "curious",
+            "answer": "Simple truths: health, relationships, and purpose matter most. Everything else is secondary.\n\nRegarding philosophy: The meaning of existence has been debated for millennia."
         }
     ]
 }

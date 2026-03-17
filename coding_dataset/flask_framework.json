@@ -13,5 +13,37 @@
         "Learn flask framework from official docs and tutorials. Practice by building projects.",
         "Flask Framework is widely used in industry. Great skill to add to your portfolio.",
         "Start with flask framework basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "how to deploy python flask app on aws",
+            "sentiment": "curious",
+            "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
+        },
+        {
+            "question": "how to deploy python flask app on aws",
+            "sentiment": "curious",
+            "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
+        },
+        {
+            "question": "how to deploy python flask app on aws?",
+            "sentiment": "curious",
+            "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
+        },
+        {
+            "question": "how to deploy flask on aws?",
+            "sentiment": "curious",
+            "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
+        },
+        {
+            "question": "how to deploy flask on aws?",
+            "sentiment": "curious",
+            "answer": "Learn flask framework from official docs and tutorials. Practice by building projects."
+        },
+        {
+            "question": "how to deploy python flask app on aws?",
+            "sentiment": "curious",
+            "answer": "Good one! Learn flask framework from official docs and tutorials. Practice by building projects.\n\nAr kichu jante chaile bolo!"
+        }
     ]
 }

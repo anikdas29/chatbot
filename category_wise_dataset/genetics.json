@@ -13,5 +13,12 @@
         "DNA = double helix molecule containing your genetic code. 23 pairs of chromosomes in humans, ~20,000 genes.",
         "Key concepts: dominant vs recessive genes, genotype vs phenotype, mutations, gene expression, and epigenetics.",
         "Modern genetics: genome sequencing, CRISPR gene editing, personalized medicine, genetic testing, and gene therapy."
+    ],
+    "feelings": [
+        {
+            "question": "what is DNA?",
+            "sentiment": "curious",
+            "answer": "Nice question! DNA = double helix molecule containing your genetic code. 23 pairs of chromosomes in humans, ~20,000 genes."
+        }
     ]
 }

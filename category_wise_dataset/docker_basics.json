@@ -13,5 +13,27 @@
         "Key commands: docker build, docker run, docker ps, docker stop, docker logs, docker exec, docker-compose up.",
         "Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment.",
         "Start Docker: install Docker Desktop, run 'docker run hello-world' to test, then containerize your own app with a Dockerfile."
+    ],
+    "feelings": [
+        {
+            "question": "how to use docker?",
+            "sentiment": "curious",
+            "answer": "Start Docker: install Docker Desktop, run 'docker run hello-world' to test, then containerize your own app with a Dockerfile.\n\nFor devops: Docker packages your app into containers - runs the same everywhere.\n\nAbout containers: Container workflow: write Dockerfile → build image → push to registry → deploy anywhere (laptop, server, cloud)."
+        },
+        {
+            "question": "docker keno use kori?",
+            "sentiment": "curious",
+            "answer": "Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment.\n\nAlso regarding public transport: Public transport use korle taka save hoy, traffic jam kome, ar environment er jonno bhalo.\n\nOn the wetlands side: Wetlands holo emon jayga jekhane mati pani te bhorti thake."
+        },
+        {
+            "question": "how to use docker?",
+            "sentiment": "curious",
+            "answer": "Start Docker: install Docker Desktop, run 'docker run hello-world' to test, then containerize your own app with a Dockerfile.\n\nRegarding devops: Docker packages your app into containers - runs the same everywhere.\n\nAlso regarding containers: Container workflow: write Dockerfile → build image → push to registry → deploy anywhere (laptop, server, cloud)."
+        },
+        {
+            "question": "docker keno use kori?",
+            "sentiment": "curious",
+            "answer": "Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment.\n\nAlso regarding public transport: Public transport use korle taka save hoy, traffic jam kome, ar environment er jonno bhalo.\n\nAbout wetlands: Wetlands holo emon jayga jekhane mati pani te bhorti thake."
+        }
     ]
 }

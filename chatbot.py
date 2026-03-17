@@ -1,9 +1,10 @@
 """
-Mini Chatbot - NLP + ML + Semantic Search + Self Learning
+Mini Chatbot - NLP + ML + Semantic Search + Self Learning + TinyLlama Generation
 ONNX MiniLM Embedding + ML Classifier + Spell Correction + Answer Templates
+TinyLlama 1.1B Local LLM for answer generation
 SQLite Persistence + "Did you mean?" Suggestions + Conversation Memory
 Category-wise dataset with answer refinement and feeling tracking.
-No third-party AI API needed.
+No third-party AI API needed. Fully offline.
 """
 
 import json
@@ -83,6 +84,123 @@ class SemanticEncoder:
 
 
 # ============================================================
+# Feature 5: TinyLlama Local LLM Text Generation
+# ============================================================
+
+class TinyLlamaGenerator:
+    """Hybrid RAG (Retrieval-Augmented Generation) with TinyLlama 1.1B.
+
+    Instead of just picking pre-written answers, this:
+    1. Takes top-5 semantic search results (question + answer pairs)
+    2. Feeds them as retrieval context into TinyLlama's prompt
+    3. TinyLlama reasons over the retrieved data to generate a new answer
+
+    This means the LLM sees ACTUAL relevant Q&A from the dataset,
+    not just category-level answers — much better grounding.
+    """
+
+    def __init__(self, model_path="models/tinyllama/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"):
+        self.model = None
+        self.available = False
+
+        if not os.path.exists(model_path):
+            logging.warning(f"TinyLlama model not found at {model_path} — generation disabled")
+            return
+
+        try:
+            from ctransformers import AutoModelForCausalLM
+            self.model = AutoModelForCausalLM.from_pretrained(
+                os.path.dirname(model_path),
+                model_file=os.path.basename(model_path),
+                model_type="llama",
+                max_new_tokens=150,
+                temperature=0.4,
+                top_p=0.85,
+                repetition_penalty=1.15,
+                context_length=1024,
+            )
+            self.available = True
+            logging.info("TinyLlama RAG generator loaded (Hybrid RAG mode)")
+        except Exception as e:
+            logging.warning(f"TinyLlama load failed: {e} — generation disabled")
+
+    def generate_rag(self, question, retrieved_context, categories, conversation_history=None):
+        """Hybrid RAG: Generate answer from retrieved semantic search results.
+
+        Args:
+            question: User's original question
+            retrieved_context: List of {"question": str, "answer": str, "category": str, "score": float}
+            categories: List of detected category names
+            conversation_history: Optional list of {"user": str, "bot": str} recent turns for context
+
+        Returns: Generated text, or None if unavailable/failed.
+        """
+        if not self.available or not self.model:
+            return None
+
+        # Build retrieval context — top 5 Q&A pairs from semantic search
+        rag_lines = []
+        for i, ctx in enumerate(retrieved_context[:5], 1):
+            rag_lines.append(
+                f"{i}. [{ctx['category']}] Q: {ctx['question']}\n   A: {ctx['answer']}"
+            )
+        rag_context = "\n".join(rag_lines)
+
+        topic = ", ".join(c.replace("_", " ") for c in categories[:3])
+
+        # Build sliding context window from recent conversation
+        conv_block = ""
+        if conversation_history:
+            conv_lines = []
+            for turn in conversation_history[-5:]:  # last 5 exchanges max
+                if turn.get("user"):
+                    conv_lines.append(f"User: {turn['user']}")
+                if turn.get("bot"):
+                    # Truncate long bot replies to save context space
+                    bot_reply = turn["bot"][:150]
+                    conv_lines.append(f"Assistant: {bot_reply}")
+            if conv_lines:
+                conv_block = "\n\nRecent conversation:\n" + "\n".join(conv_lines)
+
+        prompt = f"""<|system|>
+You are a helpful assistant. Answer the user's question using ONLY the retrieved knowledge below. Be concise (2-3 sentences). Do not mention "the text" or "the context" — just answer naturally. If the knowledge doesn't fully answer the question, use what's available. Use the recent conversation to understand pronouns like "it", "they", "that", "this".
+</s>
+<|user|>
+Retrieved knowledge about {topic}:
+{rag_context}{conv_block}
+
+Question: {question}
+</s>
+<|assistant|>
+"""
+
+        try:
+            response = self.model(prompt)
+            response = response.strip()
+            # Clean prompt artifacts
+            if "<|" in response:
+                response = response.split("<|")[0].strip()
+            # Remove self-references to context
+            for phrase in ["based on the", "according to the", "the text says",
+                          "mentioned in the", "from the context", "the retrieved"]:
+                response = response.replace(phrase, "").replace(phrase.capitalize(), "")
+            response = response.strip()
+            if len(response) < 10 or len(response) > 600:
+                return None
+            return response
+        except Exception as e:
+            logging.warning(f"TinyLlama RAG generation failed: {e}")
+            return None
+
+    # Backward compat
+    def generate(self, question, category, dataset_answers, max_answers=3):
+        """Legacy method — converts to RAG format."""
+        context = [{"question": "", "answer": a, "category": category, "score": 1.0}
+                   for a in dataset_answers[:max_answers]]
+        return self.generate_rag(question, context, [category])
+
+
+# ============================================================
 # Feature 4: SQLite Persistence
 # ============================================================
 
@@ -134,6 +252,28 @@ class Database:
                 source TEXT DEFAULT 'user',
                 created_at REAL DEFAULT (strftime('%s','now'))
             );
+
+            CREATE TABLE IF NOT EXISTS pending_learns (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                question TEXT NOT NULL,
+                category TEXT NOT NULL,
+                answer TEXT,
+                source TEXT DEFAULT 'user',
+                created_at REAL DEFAULT (strftime('%s','now')),
+                processed INTEGER DEFAULT 0
+            );
+
+            -- Indexes for fast lookups as data grows
+            CREATE INDEX IF NOT EXISTS idx_turns_session
+                ON conversation_turns(session_id, id DESC);
+            CREATE INDEX IF NOT EXISTS idx_turns_created
+                ON conversation_turns(created_at);
+            CREATE INDEX IF NOT EXISTS idx_sessions_created
+                ON sessions(created_at);
+            CREATE INDEX IF NOT EXISTS idx_feedback_created
+                ON feedback(created_at);
+            CREATE INDEX IF NOT EXISTS idx_pending_processed
+                ON pending_learns(processed, id);
         """)
         self.conn.commit()
 
@@ -185,6 +325,32 @@ class Database:
             "INSERT INTO learn_log (question, category, answer, source) VALUES (?,?,?,?)",
             (question, category, answer, source)
         )
+        self.conn.commit()
+
+    # --- Pending Learns ---
+    def add_pending_learn(self, question, category, answer, source="user"):
+        self.conn.execute(
+            "INSERT INTO pending_learns (question, category, answer, source) VALUES (?,?,?,?)",
+            (question, category, answer, source)
+        )
+        self.conn.commit()
+
+    def get_pending_learns(self):
+        rows = self.conn.execute(
+            "SELECT id, question, category, answer, source FROM pending_learns WHERE processed=0 ORDER BY id"
+        ).fetchall()
+        return [{"id": r["id"], "question": r["question"], "category": r["category"],
+                 "answer": r["answer"], "source": r["source"]} for r in rows]
+
+    def get_pending_count(self):
+        row = self.conn.execute("SELECT COUNT(*) as cnt FROM pending_learns WHERE processed=0").fetchone()
+        return row["cnt"]
+
+    def mark_pending_processed(self, ids):
+        if not ids:
+            return
+        placeholders = ",".join("?" for _ in ids)
+        self.conn.execute(f"UPDATE pending_learns SET processed=1 WHERE id IN ({placeholders})", ids)
         self.conn.commit()
 
     # --- Cleanup ---
@@ -272,20 +438,82 @@ class AnswerTemplates:
 # ============================================================
 
 class SpellCorrector:
-    """Known words er sathe match kore spelling fix kore"""
+    """Known words er sathe match kore spelling fix kore.
+    Length-guarded: short words (3-4 chars) need a higher match cutoff,
+    and corrections must be within a length ratio to prevent
+    'sql' → 'ssl', 'api' → 'ami', 'npm' → 'nlp' type overwrites.
+    """
+
+    # Common words that should NEVER be spell-corrected
+    SKIP_WORDS = {
+        # Common English
+        "i", "me", "my", "we", "you", "your", "he", "she", "it", "they", "them",
+        "a", "an", "the", "is", "am", "are", "was", "were", "be", "been",
+        "do", "does", "did", "dont", "doesnt", "didnt", "wont", "cant", "shouldnt",
+        "have", "has", "had", "will", "would", "could", "should", "can", "may",
+        "not", "no", "yes", "ok", "and", "or", "but", "if", "so", "to", "for",
+        "in", "on", "at", "by", "of", "with", "from", "up", "out", "off",
+        "what", "how", "why", "when", "where", "who", "which", "that", "this",
+        "im", "ive", "its", "thats", "whats", "hows", "ill", "id", "theyre",
+        "there", "their", "here", "very", "too", "also", "just", "now", "then",
+        "all", "every", "some", "any", "many", "much", "more", "most",
+        "about", "know", "dont", "need", "want", "like", "feel", "think",
+        "make", "get", "go", "come", "keep", "let", "say", "tell", "give",
+        "work", "try", "use", "find", "take", "run", "see", "look", "help",
+        "new", "old", "good", "bad", "best", "late", "still", "even",
+        # Bangla common
+        "ki", "ke", "ta", "er", "e", "te", "na", "ar", "ba", "o", "r",
+        "ami", "tumi", "apni", "amake", "tomar", "keno", "koto", "kobe",
+        "kivabe", "kotha", "kothay", "kon", "ki", "niye", "theke", "diye",
+        "kore", "kori", "korte", "korbo", "hoy", "hobe", "ache", "chilo",
+        "chai", "chao", "lagbe", "bolo", "bolte", "shikhao", "shikhte",
+        "banabo", "banate", "dekhao", "jante", "jani", "pari", "parbo",
+    }
+
+    # Max allowed length difference between original and correction
+    MAX_LENGTH_DIFF = 2
 
     def __init__(self, known_words):
         self.known_words = known_words
+
+    def _get_cutoff(self, word_len):
+        """Adaptive cutoff: shorter words need stricter matching.
+        3-4 chars: 0.88 (protects abbreviations: sql, api, npm, git, css)
+        5-6 chars: 0.82 (catches transpositions: pytohn→python)
+        7+ chars:  0.78 (longer words tolerate more edits: javscript→javascript)
+        """
+        if word_len <= 4:
+            return 0.88
+        elif word_len <= 6:
+            return 0.82
+        return 0.78
 
     def correct(self, text):
         words = text.lower().split()
         corrected = []
         for word in words:
-            if word in self.known_words:
+            # Skip: already known, too short, or in skip list
+            if word in self.known_words or len(word) <= 2 or word in self.SKIP_WORDS:
                 corrected.append(word)
-            else:
-                matches = get_close_matches(word, self.known_words, n=1, cutoff=0.75)
-                corrected.append(matches[0] if matches else word)
+                continue
+
+            # Adaptive cutoff based on word length
+            cutoff = self._get_cutoff(len(word))
+            matches = get_close_matches(word, self.known_words, n=3, cutoff=cutoff)
+
+            if not matches:
+                corrected.append(word)
+                continue
+
+            # Length guard: reject candidates that differ too much in length
+            best = None
+            for match in matches:
+                length_diff = abs(len(match) - len(word))
+                if length_diff <= self.MAX_LENGTH_DIFF:
+                    best = match
+                    break
+
+            corrected.append(best if best else word)
         return " ".join(corrected)
 
 
@@ -345,12 +573,17 @@ class SentimentDetector:
 
 
 class CategoryStore:
-    """Category-wise dataset folder manage kore."""
+    """Category-wise dataset folder manage kore.
+    Supports optional 'tags' field for many-to-many mapping:
+    a category can have tags like ["python", "web", "backend"]
+    so questions can match through tag overlap, not just category name.
+    """
 
     def __init__(self, folder="category_wise_dataset"):
         self.folder = folder
         os.makedirs(folder, exist_ok=True)
         self.categories = {}
+        self.tag_index = {}  # tag → set of category names
         self._load_all()
 
     def _cat_path(self, category):
@@ -358,6 +591,7 @@ class CategoryStore:
 
     def _load_all(self):
         self.categories = {}
+        self.tag_index = {}
         for fname in os.listdir(self.folder):
             if fname.endswith(".json"):
                 fpath = os.path.join(self.folder, fname)
@@ -366,9 +600,19 @@ class CategoryStore:
                         data = json.load(f)
                     cat_name = data.get("category", fname.replace(".json", ""))
                     self.categories[cat_name] = data
+                    # Build tag index
+                    for tag in data.get("tags", []):
+                        tag_lower = tag.lower().strip()
+                        if tag_lower:
+                            if tag_lower not in self.tag_index:
+                                self.tag_index[tag_lower] = set()
+                            self.tag_index[tag_lower].add(cat_name)
                 except (json.JSONDecodeError, KeyError):
                     logging.warning(f"Skipped invalid category file: {fname}")
-        logging.info(f"CategoryStore loaded: {len(self.categories)} categories from {self.folder}/")
+        logging.info(
+            f"CategoryStore loaded: {len(self.categories)} categories, "
+            f"{len(self.tag_index)} unique tags from {self.folder}/"
+        )
 
     def get(self, category):
         return self.categories.get(category)
@@ -396,6 +640,26 @@ class CategoryStore:
         if not data:
             return "general"
         return data.get("type", "general")
+
+    def get_tags(self, category):
+        data = self.categories.get(category)
+        if not data:
+            return []
+        return [t.lower().strip() for t in data.get("tags", [])]
+
+    def find_categories_by_tag(self, tag):
+        """Find all categories that have this tag. Returns set of category names."""
+        return self.tag_index.get(tag.lower().strip(), set())
+
+    def find_categories_by_tags(self, tags):
+        """Find categories matching ANY of the given tags.
+        Returns dict: category → number of matching tags (for ranking).
+        """
+        cat_hits = {}
+        for tag in tags:
+            for cat in self.find_categories_by_tag(tag):
+                cat_hits[cat] = cat_hits.get(cat, 0) + 1
+        return cat_hits
 
     def save_category(self, category):
         data = self.categories.get(category)
@@ -449,6 +713,214 @@ class CategoryStore:
 
 
 # ============================================================
+# Intent Signal Detection (catches meaning ONNX misses)
+# ============================================================
+
+class IntentSignalDetector:
+    """Pre-detection layer: catches user intent from patterns/signals
+    BEFORE semantic search. Solves the "understanding" problem where
+    ONNX matches surface words but misses what user actually needs.
+    """
+
+    # Pattern → list of boosted categories
+    # Each pattern: (regex_or_keywords, target_categories, boost_score)
+    SIGNALS = [
+        # === Confusion / Life guidance ===
+        (r"(dont know what to do|no idea what|confused about|lost in life|what should i do)",
+         ["career", "motivation", "career_coaching"], 0.75),
+        (r"(is it too late|am i too old|should i change|switch career|career change)",
+         ["career", "career_coaching", "motivation"], 0.70),
+        (r"(what.?s the point|why should i|why bother|is it worth)",
+         ["motivation", "career", "philosophy"], 0.65),
+
+        # === Frustration / Things not working ===
+        (r"(not working|not loading|doesnt work|wont open|keeps crashing|broken|stopped working)",
+         ["coding_errors", "debugging", "troubleshooting"], 0.70),
+        (r"(my code.*(wrong|error|bug|fail|break|crash))",
+         ["coding_errors", "debugging"], 0.75),
+        (r"(i found a bug|report.*(bug|issue|problem)|there.?s a (bug|issue|problem))",
+         ["coding_errors", "bug_bounty"], 0.70),
+
+        # === Emotional / Mental health ===
+        (r"(everything.*(wrong|bad|failing)|nothing.*(works|right)|i.?m (stuck|lost|hopeless))",
+         ["motivation", "mental_health", "stress_management"], 0.75),
+        (r"(overwhelmed|too much|cant handle|burning out|burnt out|burnout)",
+         ["stress_management", "mental_health", "motivation"], 0.75),
+        (r"(feeling (sad|down|depressed|lonely|anxious|stressed|low))",
+         ["mental_health", "emotions", "loneliness"], 0.80),
+        (r"(help me|i need help|please help|someone help)",
+         ["mental_health", "motivation"], 0.50),
+        (r"(feel better|cheer.* up|make me happy|motivate me)",
+         ["motivation", "mental_health", "entertainment"], 0.70),
+
+        # === Nobody uses / Marketing ===
+        (r"(nobody uses|no users|no downloads|no traffic|how to (get|attract) (users|customers|traffic))",
+         ["marketing", "seo", "social_media"], 0.70),
+        (r"(how to (promote|market|grow|scale)|get more (users|views|followers))",
+         ["marketing", "social_media", "startup"], 0.70),
+
+        # === Learning / How to start ===
+        (r"(where.* start|how.* begin|how.* learn|teach me|shikhao|shikhte chai)",
+         ["programming", "coding", "career"], 0.55),
+        (r"(best way to learn|roadmap|learning path|guide for beginner)",
+         ["programming", "career", "study"], 0.60),
+
+        # === Running / Fitness (disambiguate from "run a program") ===
+        (r"(run faster|running (tips|speed|form)|jogging|marathon|sprint)",
+         ["running", "fitness", "gym_workout"], 0.80),
+        (r"(run.*(program|script|code|app|server|command))",
+         ["programming", "linux", "coding"], 0.70),
+
+        # === Interview / Job ===
+        (r"(fail.*(interview|exam|test)|rejected|didnt get.*(job|offer))",
+         ["job_interview", "career", "motivation"], 0.75),
+        (r"(prepare for interview|interview tips|crack.*(interview|job))",
+         ["job_interview", "career"], 0.75),
+
+        # === Bangla intent patterns ===
+        (r"(ki korbo|bujhi na|bujhtesi na|help koro|sahajjo koro)",
+         ["motivation", "career", "mental_health"], 0.60),
+        (r"(keno hocche na|kaj kortese na|problem hocche|error ashche)",
+         ["coding_errors", "debugging"], 0.70),
+        (r"(kivabe (shikhi|shuru kori|kori)|shikhte chai|shikhao)",
+         ["programming", "coding", "career"], 0.65),
+    ]
+
+    @staticmethod
+    def detect(text):
+        """Detect intent signals from text.
+        Returns list of (category, boost_score) or empty list.
+        """
+        text_lower = text.lower().strip()
+        boosts = {}
+
+        for pattern, categories, score in IntentSignalDetector.SIGNALS:
+            if re.search(pattern, text_lower):
+                for cat in categories:
+                    if cat not in boosts or boosts[cat] < score:
+                        boosts[cat] = score
+
+        # Sort by score descending
+        return sorted(boosts.items(), key=lambda x: x[1], reverse=True)
+
+
+# ============================================================
+# Multi-Factor Confidence Scorer
+# ============================================================
+
+class ConfidenceScorer:
+    """Combines multiple signals into a calibrated 0-100% "sureness" score.
+
+    Problem with raw scores:
+    - Cosine similarity clusters in 0.3-0.8, never hits 0 or 1
+    - ML probabilities spread across 1000+ classes, so even correct = low prob
+    - Linear blending (0.6*sem + 0.4*ml) produces unintuitive numbers
+
+    Solution: weighted combination → sigmoid normalization → calibrated percentage.
+    The sigmoid stretches the useful range (~0.3-0.8) into a full 0-100% scale
+    while compressing the tails, matching human intuition about "sureness".
+
+    Factors:
+    1. Semantic similarity (FAISS cosine) — primary signal
+    2. ML classification probability — secondary signal
+    3. Intent signal match — pattern-based boost
+    4. Signal agreement — how many methods agree on the category
+    5. Score gap — distance between #1 and #2 category (larger gap = more sure)
+    """
+
+    # Weights for each factor (tuned for MiniLM + LogReg + IntentDetector)
+    W_SEMANTIC = 0.45      # Semantic similarity is the strongest signal
+    W_ML = 0.25            # ML classifier probability
+    W_INTENT = 0.15        # Intent pattern match
+    W_AGREEMENT = 0.10     # How many methods agree
+    W_GAP = 0.05           # Score gap to runner-up
+
+    # Sigmoid parameters: sigmoid(k * (x - midpoint))
+    # k controls steepness, midpoint controls the 50% crossing point
+    SIGMOID_K = 12.0       # Steepness — higher = sharper transition
+    SIGMOID_MID = 0.38     # Raw score that maps to ~50% confidence
+
+    # Floor and ceiling to avoid 0% and 100% (never fully sure or unsure)
+    CONF_FLOOR = 0.05      # Minimum confidence shown (5%)
+    CONF_CEILING = 0.98    # Maximum confidence shown (98%)
+
+    @staticmethod
+    def _sigmoid(x, k=None, mid=None):
+        """Standard sigmoid: 1 / (1 + exp(-k*(x - mid)))"""
+        if k is None:
+            k = ConfidenceScorer.SIGMOID_K
+        if mid is None:
+            mid = ConfidenceScorer.SIGMOID_MID
+        z = k * (x - mid)
+        # Clip to prevent overflow
+        z = max(-20.0, min(20.0, z))
+        return 1.0 / (1.0 + np.exp(-z))
+
+    @staticmethod
+    def score(semantic_score, ml_score=0.0, intent_score=0.0,
+              n_agreeing_signals=1, score_gap=0.0):
+        """Calculate calibrated confidence from multiple factors.
+
+        Args:
+            semantic_score: Best cosine similarity from FAISS (0.0-1.0)
+            ml_score: ML classifier probability for this category (0.0-1.0)
+            intent_score: Intent signal match score (0.0-1.0), 0 if no match
+            n_agreeing_signals: Number of methods that agree (1=semantic only, 2=sem+ml, 3=sem+ml+intent)
+            score_gap: Difference between this category's score and the runner-up (0.0-1.0)
+
+        Returns: Calibrated confidence (0.05-0.98)
+        """
+        # Normalize agreement to 0-1 range (1 signal=0.33, 2=0.67, 3=1.0)
+        agreement = min(n_agreeing_signals, 3) / 3.0
+
+        # Normalize gap (typical gap 0-0.3, stretch to 0-1)
+        gap_norm = min(score_gap / 0.30, 1.0)
+
+        # Weighted combination of all factors
+        raw = (
+            ConfidenceScorer.W_SEMANTIC * semantic_score +
+            ConfidenceScorer.W_ML * ml_score +
+            ConfidenceScorer.W_INTENT * intent_score +
+            ConfidenceScorer.W_AGREEMENT * agreement +
+            ConfidenceScorer.W_GAP * gap_norm
+        )
+
+        # Sigmoid normalization — maps raw to a calibrated 0-1 scale
+        calibrated = ConfidenceScorer._sigmoid(raw)
+
+        # Apply floor and ceiling
+        calibrated = max(ConfidenceScorer.CONF_FLOOR,
+                         min(ConfidenceScorer.CONF_CEILING, calibrated))
+
+        return round(calibrated, 3)
+
+    @staticmethod
+    def score_multi(candidates_with_signals):
+        """Score multiple candidates at once.
+
+        Args:
+            candidates_with_signals: list of dicts with keys:
+                category, semantic_score, ml_score, intent_score,
+                n_agreeing, gap, method
+
+        Returns: list of (category, calibrated_confidence, method) sorted desc
+        """
+        results = []
+        for c in candidates_with_signals:
+            conf = ConfidenceScorer.score(
+                semantic_score=c.get("semantic_score", 0),
+                ml_score=c.get("ml_score", 0),
+                intent_score=c.get("intent_score", 0),
+                n_agreeing_signals=c.get("n_agreeing", 1),
+                score_gap=c.get("gap", 0),
+            )
+            results.append((c["category"], conf, c.get("method", "semantic")))
+
+        results.sort(key=lambda x: x[1], reverse=True)
+        return results
+
+
+# ============================================================
 # Follow-up detection
 # ============================================================
 
@@ -459,12 +931,28 @@ FOLLOW_UP_WORDS = {
     "ar kono", "aro kichu", "bolo aro", "keep going"
 }
 
+# Pronoun patterns that reference previous topic (need conversation context)
+PRONOUN_FOLLOW_UP = re.compile(
+    r"^(what about (it|that|this|them)|"
+    r"tell me about (it|that|this|them)|"
+    r"explain (it|that|this)|"
+    r"how about (that|this)|"
+    r"(eta|ota|seita) (ki|niye|bolo|explain koro)|"
+    r"and (that|this|it)\??|"
+    r"why (is that|is it)|"
+    r"(it|that|this) (ki|keno|kivabe))$",
+    re.IGNORECASE
+)
+
 
 def is_follow_up(text):
     cleaned = text.lower().strip()
     for phrase in FOLLOW_UP_WORDS:
         if phrase in cleaned:
             return True
+    # Check pronoun-based follow-ups
+    if PRONOUN_FOLLOW_UP.search(cleaned):
+        return True
     return False
 
 
@@ -481,6 +969,7 @@ class ChatBot:
         2. "Did you mean?" suggestions
         3. Answer templates for diverse responses
         4. SQLite persistence for sessions, feedback, learning
+        5. TinyLlama 1.1B local LLM for answer generation
         """
         # Database (Feature 4: SQLite)
         self.db = Database(db_path)
@@ -500,8 +989,9 @@ class ChatBot:
 
         self.all_stores = self.specialized_stores + [self.general_store]
 
-        # Category -> store mapping
+        # Category -> store mapping + global tag index
         self.category_store_map = {}
+        self.global_tag_index = {}  # tag → set of categories across all stores
         self._build_category_map()
 
         # Load all questions + labels
@@ -523,8 +1013,14 @@ class ChatBot:
         self.sentiment = SentimentDetector()
         self.templates = AnswerTemplates()
 
+        # Feature 5: TinyLlama local LLM generation
+        self.generator = TinyLlamaGenerator()
+
         self.learn_count = 0
-        logging.info("ChatBot initialized with semantic search + templates + SQLite")
+        logging.info(
+            f"ChatBot initialized | Semantic + Templates + SQLite"
+            f" | TinyLlama: {'ON' if self.generator.available else 'OFF'}"
+        )
 
     @staticmethod
     def _auto_detect_specialized_folders(general_folder):
@@ -537,11 +1033,20 @@ class ChatBot:
 
     def _build_category_map(self):
         self.category_store_map = {}
+        self.global_tag_index = {}
         for cat in self.general_store.get_all_categories():
             self.category_store_map[cat] = self.general_store
         for store in self.specialized_stores:
             for cat in store.get_all_categories():
                 self.category_store_map[cat] = store
+        # Build global tag index across all stores
+        for store in self.all_stores:
+            for tag, cats in store.tag_index.items():
+                if tag not in self.global_tag_index:
+                    self.global_tag_index[tag] = set()
+                self.global_tag_index[tag].update(cats)
+        if self.global_tag_index:
+            logging.info(f"Global tag index: {len(self.global_tag_index)} unique tags")
 
     def _get_store_for(self, category):
         return self.category_store_map.get(category, self.general_store)
@@ -569,23 +1074,48 @@ class ChatBot:
             all_words.update(q.split())
         self.spell = SpellCorrector(all_words)
 
-    # ========== Feature 1: Semantic Index ==========
+    # ========== Feature 1: FAISS Semantic Index ==========
 
     def _build_semantic_index(self):
-        """Pre-compute embeddings for all questions in dataset."""
+        """Pre-compute embeddings and build FAISS index for fast vector search.
+        FAISS uses Inner Product (= cosine similarity for L2-normalized vectors).
+        Scales to 100K+ questions with sub-millisecond search.
+        """
+        import faiss
+
         if self.questions:
-            logging.info(f"Building semantic index for {len(self.questions)} questions...")
-            # Batch encode in chunks to avoid memory issues
+            logging.info(f"Building FAISS index for {len(self.questions)} questions...")
+            # Batch encode in chunks
             batch_size = 64
             all_embeddings = []
             for i in range(0, len(self.questions), batch_size):
                 batch = self.questions[i:i + batch_size]
                 emb = self.encoder.encode(batch)
                 all_embeddings.append(emb)
-            self.question_embeddings = np.vstack(all_embeddings)
-            logging.info(f"Semantic index built: {self.question_embeddings.shape}")
+            self.question_embeddings = np.vstack(all_embeddings).astype(np.float32)
+
+            # Build FAISS index — Inner Product (cosine sim for normalized vectors)
+            dim = self.question_embeddings.shape[1]  # 384
+            self.faiss_index = faiss.IndexFlatIP(dim)
+            self.faiss_index.add(self.question_embeddings)
+
+            logging.info(
+                f"FAISS index built: {self.faiss_index.ntotal} vectors, "
+                f"{dim}d, IndexFlatIP (cosine)"
+            )
         else:
             self.question_embeddings = None
+            self.faiss_index = None
+
+    def _faiss_search(self, query_embedding, top_k=15):
+        """Search FAISS index. Returns (scores, indices) arrays of top-K matches.
+        Much faster than numpy dot product for large datasets.
+        """
+        if self.faiss_index is None:
+            return np.array([]), np.array([])
+        query = query_embedding.reshape(1, -1).astype(np.float32)
+        scores, indices = self.faiss_index.search(query, top_k)
+        return scores[0], indices[0]
 
     def _train_intent_classifier(self):
         """ML classifier as secondary signal (backup for semantic search)."""
@@ -614,65 +1144,172 @@ class ChatBot:
     # ========== Category Detection (Semantic + ML) ==========
 
     def _detect_category(self, cleaned_question):
-        """Semantic embedding search + ML classifier combined.
-        Returns: (category, confidence, method) or (None, 0, None)
+        """Single-category detection (backward compat). Returns: (category, confidence, method) or (None, 0, None)"""
+        results = self._detect_categories(cleaned_question, max_cats=1)
+        if results:
+            return results[0]
+        return None, 0, None
+
+    def _detect_categories(self, cleaned_question, max_cats=3, min_conf=0.30, gap_threshold=0.20):
+        """Multi-category detection: Semantic + ML + Intent + ConfidenceScorer.
+        Returns list of (category, confidence, method) tuples, sorted by confidence desc.
+        Confidence is a calibrated 0-100% "sureness" score via sigmoid normalization.
         """
-        if self.question_embeddings is None:
-            return None, 0, None
+        if self.faiss_index is None:
+            return []
 
-        # Semantic search
+        # ── Step 1: FAISS semantic search (top-15 matches) ──
         query_emb = self.encoder.encode(cleaned_question)
-        similarities = self.encoder.similarity(query_emb, self.question_embeddings)
+        scores, indices = self._faiss_search(query_emb, top_k=15)
+        top_scores = [(self.labels[i], float(scores[j]))
+                      for j, i in enumerate(indices) if i >= 0]
 
-        # Get top-5 matches
-        top_indices = similarities.argsort()[-5:][::-1]
-        top_scores = [(self.labels[i], float(similarities[i])) for i in top_indices]
-
-        # Aggregate by category (multiple questions per category)
-        cat_scores = {}
+        # Aggregate by category — keep max score per category
+        cat_sem_scores = {}
         for label, score in top_scores:
-            if label not in cat_scores:
-                cat_scores[label] = []
-            cat_scores[label].append(score)
+            if label not in cat_sem_scores:
+                cat_sem_scores[label] = score
+            else:
+                cat_sem_scores[label] = max(cat_sem_scores[label], score)
 
-        # Best category by max score
-        best_cat = max(cat_scores, key=lambda c: max(cat_scores[c]))
-        best_score = max(cat_scores[best_cat])
+        if not cat_sem_scores:
+            return []
 
-        # ML classifier as secondary signal
-        ml_intent = None
-        ml_conf = 0
+        sorted_cats = sorted(cat_sem_scores.items(), key=lambda x: x[1], reverse=True)
+
+        # ── Step 2: ML classifier probabilities ──
+        ml_cat_scores = {}  # category → ML probability
         if self.use_ml:
             ml_proba = self.intent_clf.predict_proba([cleaned_question])[0]
-            ml_idx = ml_proba.argmax()
-            ml_intent = self.intent_clf.classes_[ml_idx]
-            ml_conf = ml_proba[ml_idx]
+            ml_top3_idx = ml_proba.argsort()[-3:][::-1]
+            for i in ml_top3_idx:
+                ml_cat_scores[self.intent_clf.classes_[i]] = float(ml_proba[i])
 
-        # Decision logic
-        # High semantic score — trust it
-        if best_score >= 0.65:
-            return best_cat, best_score, "semantic"
+        # ── Step 3: Intent signal detection ──
+        intent_signals = IntentSignalDetector.detect(cleaned_question)
+        intent_cat_scores = {}  # category → intent score
+        for cat, score in intent_signals:
+            if cat in self.category_store_map:
+                intent_cat_scores[cat] = score
 
-        # Semantic + ML agree — strong signal
-        if best_cat == ml_intent and best_score >= 0.35:
-            combined = best_score * 0.6 + ml_conf * 0.4
-            return best_cat, combined, "semantic+ml"
+        # ── Step 3b: Tag-based category discovery ──
+        # Extract words from question, look up in global tag index
+        # This finds categories that tagged themselves with relevant keywords
+        tag_cat_hits = {}  # category → number of matching tags
+        if self.global_tag_index:
+            q_words = set(cleaned_question.lower().split())
+            for word in q_words:
+                if word in self.global_tag_index:
+                    for cat in self.global_tag_index[word]:
+                        tag_cat_hits[cat] = tag_cat_hits.get(cat, 0) + 1
 
-        # ML top result is in semantic top-5 — boost
-        if ml_intent and ml_intent in cat_scores and ml_conf >= 0.3:
-            combined = max(cat_scores[ml_intent]) * 0.5 + ml_conf * 0.5
-            if combined >= 0.35:
-                return ml_intent, combined, "ml+semantic_top5"
+        # ── Step 4: Build candidate list with per-signal scores ──
+        candidates = {}  # category → {semantic_score, ml_score, intent_score, method_parts}
 
-        # Moderate semantic score
-        if best_score >= 0.45:
-            return best_cat, best_score, "semantic_moderate"
+        # From semantic top-8
+        for cat, sem_score in sorted_cats[:8]:
+            candidates[cat] = {
+                "category": cat,
+                "semantic_score": sem_score,
+                "ml_score": ml_cat_scores.get(cat, 0),
+                "intent_score": intent_cat_scores.get(cat, 0),
+                "method_parts": ["semantic"],
+            }
+            if cat in ml_cat_scores and ml_cat_scores[cat] >= 0.15:
+                candidates[cat]["method_parts"].append("ml")
+            if cat in intent_cat_scores:
+                candidates[cat]["method_parts"].append("intent")
+            if cat in tag_cat_hits:
+                candidates[cat]["method_parts"].append("tag")
 
-        # ML moderate confidence
-        if self.use_ml and ml_conf >= 0.35:
-            return ml_intent, ml_conf, "ml_fallback"
+        # Inject ML predictions missing from semantic top-8
+        for ml_cat, ml_c in ml_cat_scores.items():
+            if ml_cat not in candidates and ml_c >= 0.25:
+                sem = cat_sem_scores.get(ml_cat, 0)
+                if sem >= 0.20:
+                    candidates[ml_cat] = {
+                        "category": ml_cat,
+                        "semantic_score": sem,
+                        "ml_score": ml_c,
+                        "intent_score": intent_cat_scores.get(ml_cat, 0),
+                        "method_parts": ["ml", "semantic"],
+                    }
+                    if ml_cat in intent_cat_scores:
+                        candidates[ml_cat]["method_parts"].append("intent")
+                    if ml_cat in tag_cat_hits:
+                        candidates[ml_cat]["method_parts"].append("tag")
 
-        return None, best_score, None
+        # Inject intent-detected categories missing entirely
+        for intent_cat, intent_sc in intent_cat_scores.items():
+            if intent_cat not in candidates and intent_sc >= 0.50:
+                candidates[intent_cat] = {
+                    "category": intent_cat,
+                    "semantic_score": cat_sem_scores.get(intent_cat, 0),
+                    "ml_score": ml_cat_scores.get(intent_cat, 0),
+                    "intent_score": intent_sc,
+                    "method_parts": ["intent"],
+                }
+                if intent_cat in tag_cat_hits:
+                    candidates[intent_cat]["method_parts"].append("tag")
+
+        # Inject tag-discovered categories missing from all other methods
+        # Only if 2+ tags match (single tag match is too weak on its own)
+        for tag_cat, hits in tag_cat_hits.items():
+            if tag_cat not in candidates and hits >= 2:
+                sem = cat_sem_scores.get(tag_cat, 0)
+                candidates[tag_cat] = {
+                    "category": tag_cat,
+                    "semantic_score": sem,
+                    "ml_score": ml_cat_scores.get(tag_cat, 0),
+                    "intent_score": intent_cat_scores.get(tag_cat, 0),
+                    "method_parts": ["tag"],
+                }
+
+        if not candidates:
+            return []
+
+        # ── Step 5: Calculate score gap for each candidate ──
+        # Gap = how far ahead this candidate is vs the runner-up (for #1) or vs #1 (for others)
+        all_sem = sorted(cat_sem_scores.values(), reverse=True)
+        best_sem = all_sem[0] if all_sem else 0
+        runner_sem = all_sem[1] if len(all_sem) > 1 else 0
+        top_gap = best_sem - runner_sem
+
+        # ── Step 6: Score each candidate through ConfidenceScorer ──
+        scorer_input = []
+        for cat, info in candidates.items():
+            # Gap: #1 gets the actual gap, others get 0
+            is_top = (info["semantic_score"] == best_sem)
+            gap = top_gap if is_top else 0
+
+            scorer_input.append({
+                "category": cat,
+                "semantic_score": info["semantic_score"],
+                "ml_score": info["ml_score"],
+                "intent_score": info["intent_score"],
+                "n_agreeing": len(info["method_parts"]),
+                "gap": gap,
+                "method": "+".join(info["method_parts"]),
+            })
+
+        scored = ConfidenceScorer.score_multi(scorer_input)
+
+        # ── Step 7: Filter by min_conf and gap_threshold ──
+        if not scored or scored[0][1] < min_conf:
+            return []
+
+        best_conf = scored[0][1]
+        results = []
+        for cat, conf, method in scored:
+            if conf < min_conf:
+                continue
+            if best_conf - conf > gap_threshold:
+                break
+            results.append((cat, conf, method))
+            if len(results) >= max_cats:
+                break
+
+        return results
 
     # ========== Feature 2: "Did you mean?" Suggestions ==========
 
@@ -680,20 +1317,21 @@ class ChatBot:
         """Return top-N category suggestions when confidence is low.
         Returns: [{"category": str, "score": float, "sample_question": str}, ...]
         """
-        if self.question_embeddings is None:
+        if self.faiss_index is None:
             return []
 
         query_emb = self.encoder.encode(cleaned_question)
-        similarities = self.encoder.similarity(query_emb, self.question_embeddings)
+        # Search more than needed to allow deduplication by category
+        scores, indices = self._faiss_search(query_emb, top_k=30)
 
-        # Get top matches, deduplicate by category
-        top_indices = similarities.argsort()[::-1]
         seen_cats = set()
         suggestions = []
 
-        for idx in top_indices:
+        for j, idx in enumerate(indices):
+            if idx < 0:
+                continue
             cat = self.labels[idx]
-            score = float(similarities[idx])
+            score = float(scores[j])
             if score < 0.15:
                 break
             if cat not in seen_cats:
@@ -707,6 +1345,59 @@ class ChatBot:
                     break
 
         return suggestions
+
+    # ========== Hybrid RAG: Retrieve context for LLM ==========
+
+    def _retrieve_rag_context(self, question, top_n=5):
+        """Retrieve top-N semantic search results with their answers for RAG.
+        Uses FAISS for fast retrieval.
+        Returns list of {"question": str, "answer": str, "category": str, "score": float}
+        """
+        if self.faiss_index is None:
+            return []
+
+        query_emb = self.encoder.encode(question)
+        # Fetch more than needed to allow deduplication
+        scores, indices = self._faiss_search(query_emb, top_k=top_n * 3)
+
+        results = []
+        seen = set()  # avoid duplicate answers
+        for j, idx in enumerate(indices):
+            if idx < 0 or len(results) >= top_n:
+                break
+            score = float(scores[j])
+            if score < 0.20:
+                break
+
+            cat = self.labels[idx]
+            matched_q = self.questions[idx]
+
+            # Get the best answer for this category
+            store = self._get_store_for(cat)
+            answers = store.get_answers(cat)
+            if not answers:
+                continue
+
+            # Pick best answer by semantic match to user question
+            a_embs = self.encoder.encode(answers)
+            a_scores = self.encoder.similarity(query_emb, a_embs)
+            best_a_idx = a_scores.argmax()
+            best_answer = answers[best_a_idx]
+
+            # Deduplicate
+            key = f"{cat}:{best_answer[:50]}"
+            if key in seen:
+                continue
+            seen.add(key)
+
+            results.append({
+                "question": matched_q,
+                "answer": best_answer,
+                "category": cat,
+                "score": round(score, 3)
+            })
+
+        return results
 
     # ========== Answer Finding & Refinement ==========
 
@@ -743,6 +1434,74 @@ class ChatBot:
 
         return scored[0][1]
 
+    def _find_multi_answers(self, categories, question, session_id=None):
+        """Get best answer from each detected category.
+        Returns list of (category, answer, confidence) tuples.
+        """
+        results = []
+        for cat, conf, method in categories:
+            ans = self._find_best_answer(cat, question, session_id)
+            if ans:
+                results.append((cat, ans, conf))
+        return results
+
+    MERGE_CONNECTORS = [
+        "Also regarding {cat}: ",
+        "On the {cat} side: ",
+        "About {cat}: ",
+        "For {cat}: ",
+        "Regarding {cat}: ",
+    ]
+
+    def _merge_answers(self, cat_answers, sentiment="neutral"):
+        """Merge answers from multiple categories into one coherent response.
+        cat_answers: list of (category, answer, confidence)
+        Returns: (merged_answer, primary_category, all_categories, avg_confidence)
+        """
+        if not cat_answers:
+            return None, None, [], 0
+
+        # Single category — normal flow, no merging needed
+        if len(cat_answers) == 1:
+            cat, ans, conf = cat_answers[0]
+            return ans, cat, [cat], conf
+
+        # Multi-category: primary gets full answer, others get first sentence
+        primary_cat, primary_ans, primary_conf = cat_answers[0]
+
+        # Build merged response
+        parts = [primary_ans]
+
+        for cat, ans, conf in cat_answers[1:]:
+            # Take first sentence (or first 150 chars) from secondary answers
+            sentences = re.split(r'(?<=[.!?])\s+', ans)
+            snippet = sentences[0] if sentences else ans
+            if len(snippet) > 150:
+                snippet = snippet[:147] + "..."
+
+            # Check snippet is meaningfully different from primary
+            # (avoid repeating nearly identical info)
+            if self._text_overlap(primary_ans, snippet) < 0.5:
+                connector = random.choice(self.MERGE_CONNECTORS).format(cat=cat.replace("_", " "))
+                parts.append(connector + snippet)
+
+        merged = "\n\n".join(parts)
+        all_cats = [c[0] for c in cat_answers]
+        avg_conf = sum(c[2] for c in cat_answers) / len(cat_answers)
+
+        return merged, primary_cat, all_cats, round(avg_conf, 3)
+
+    @staticmethod
+    def _text_overlap(text_a, text_b):
+        """Simple word overlap ratio between two texts. Returns 0.0-1.0."""
+        words_a = set(text_a.lower().split())
+        words_b = set(text_b.lower().split())
+        if not words_a or not words_b:
+            return 0.0
+        intersection = words_a & words_b
+        smaller = min(len(words_a), len(words_b))
+        return len(intersection) / smaller if smaller > 0 else 0.0
+
     def _refine_answer(self, answer, question, sentiment, category, session_id=None):
         """Refine answer with templates + sentiment adjustment."""
         store = self._get_store_for(category)
@@ -767,13 +1526,21 @@ class ChatBot:
             store = self._get_store_for(category)
             store.add_feeling(category, question, sentiment, answer)
 
-    # ========== Learning ==========
+    # ========== Learning (Background Queue) ==========
+
+    # Batch threshold: retrain only after N pending learns accumulate
+    LEARN_BATCH_THRESHOLD = 5
 
     def learn(self, question, category, answer):
-        """Learn new Q&A. Save to category file + SQLite log + retrain."""
+        """Queue new Q&A for batch learning.
+        Saves to category file immediately (so answers are available right away)
+        but defers the expensive retrain (FAISS index + ML classifier) to batch processing.
+        This prevents system lockups during learn() calls.
+        """
         question = question.lower().strip()
         category = category.lower().strip()
 
+        # Save to category file immediately — data is available for direct lookups
         store = self._get_store_for(category)
         if store.category_exists(category):
             store.add_question(category, question)
@@ -783,13 +1550,43 @@ class ChatBot:
             self.general_store.create_category(category, "general", [question], [answer])
             self.category_store_map[category] = self.general_store
 
-        # Log to SQLite
+        # Queue for batch processing (deferred retrain)
+        self.db.add_pending_learn(question, category, answer)
+        # Also log to learn_log for history
         self.db.log_learn(question, category, answer)
 
-        self.retrain()
         self.learn_count += 1
-        logging.info(f"LEARNED | Q: {question} | Category: {category} | Total learns: {self.learn_count}")
+        logging.info(f"QUEUED_LEARN | Q: {question} | Category: {category} | Pending: {self.db.get_pending_count()}")
+
+        # Auto-trigger batch if threshold reached
+        pending_count = self.db.get_pending_count()
+        if pending_count >= self.LEARN_BATCH_THRESHOLD:
+            logging.info(f"Auto-batch triggered: {pending_count} pending learns")
+            self.process_pending_learns()
+
         return True
+
+    def process_pending_learns(self):
+        """Batch process all pending learns: retrain FAISS + ML once for all queued items.
+        Called automatically when threshold is reached, or manually via API.
+        Much more efficient than retraining after every single learn().
+        """
+        pending = self.db.get_pending_learns()
+        if not pending:
+            logging.info("No pending learns to process")
+            return {"processed": 0}
+
+        count = len(pending)
+        ids = [p["id"] for p in pending]
+
+        # Single retrain covers all pending items
+        self.retrain()
+
+        # Mark all as processed
+        self.db.mark_pending_processed(ids)
+
+        logging.info(f"BATCH_LEARN | Processed {count} pending learns | Retrained model")
+        return {"processed": count}
 
     def handle_feedback(self, question, bot_answer, intent, feedback_type, correct_answer=None, correct_category=None):
         """Handle user feedback. Save to SQLite. Re-learn on correction."""
@@ -812,15 +1609,16 @@ class ChatBot:
     # ========== Main Answer Pipeline ==========
 
     def get_answer(self, user_question, session_id=None):
-        """Main answer pipeline:
+        """Main answer pipeline with multi-category fusion:
         1. Follow-up check
         2. Spell correction
-        3. Semantic category detection (ONNX embedding)
-        4. If low confidence → return suggestions ("Did you mean?")
-        5. Find best answer from category
-        6. Refine with templates + sentiment
-        7. Store feeling + save to SQLite
-        Returns dict: {"reply": str, "intent": str, "confidence": float}
+        3. Multi-category detection (ONNX semantic + ML)
+        4. If no categories → suggestions ("Did you mean?") or unknown
+        5. Find best answer from EACH qualifying category
+        6. Merge answers (primary full + secondary snippets)
+        7. Refine with templates + sentiment
+        8. Store feeling + save to SQLite
+        Returns dict: {"reply": str, "intent": str|list, "confidence": float, "categories": list}
                    or {"suggestions": [...], "needs_learning": True}
                    or None
         """
@@ -839,21 +1637,68 @@ class ChatBot:
                     if session_id:
                         self.db.add_turn(session_id, original, answer, last_intent, 1.0, sentiment)
                     logging.info(f"Q: {original} | FOLLOW-UP | Intent: {last_intent}")
-                    return {"reply": answer, "intent": last_intent, "confidence": 1.0}
+                    return {"reply": answer, "intent": last_intent, "confidence": 1.0, "categories": [last_intent]}
 
         # Spell correction
         corrected = self.spell.correct(cleaned)
 
-        # Step 1: Detect category (semantic + ML)
-        category, confidence, method = self._detect_category(corrected)
+        # Step 1: Detect categories using BOTH original and corrected text
+        # This prevents spell corrector from destroying meaning
+        detected = self._detect_categories(corrected, max_cats=3)
+        if corrected != cleaned:
+            # Also try with original cleaned text (no spell correction)
+            detected_raw = self._detect_categories(cleaned, max_cats=3)
+            # Merge: if raw detection found better results, use them
+            if detected_raw:
+                raw_best = detected_raw[0][1] if detected_raw else 0
+                cor_best = detected[0][1] if detected else 0
+                if raw_best > cor_best:
+                    detected = detected_raw
+                    logging.info(f"Using raw text detection (spell correction hurt): {cleaned}")
+                elif not detected:
+                    detected = detected_raw
 
-        # Feature 2: "Did you mean?" — low confidence
-        if category is None:
-            suggestions = self.get_suggestions(corrected)
+        # Step 1b: Context-aware query enrichment
+        # If confidence is low/none and we have conversation history,
+        # the user is likely asking a sub-topic of the previous conversation.
+        # e.g. prev="git and github?" → current="repositories ki?" → enrich to "git repositories ki?"
+        CONTEXT_ENRICH_THRESHOLD = 0.55
+        best_conf = detected[0][1] if detected else 0
+        if session_id and best_conf < CONTEXT_ENRICH_THRESHOLD:
+            history = self.db.get_history(session_id, limit=2)
+            if history:
+                # Get the last user message as context
+                last_user_msg = None
+                for turn in reversed(history):
+                    if turn.get("user"):
+                        last_user_msg = turn["user"]
+                        break
+
+                if last_user_msg:
+                    # Enrich: prepend key words from last message to current question
+                    last_cleaned = re.sub(r"[^\w\s]", "", last_user_msg.lower()).strip()
+                    # Take first few meaningful words (skip very common ones)
+                    context_words = [w for w in last_cleaned.split()
+                                     if len(w) > 2 and w not in {"what", "how", "why", "the", "and", "for", "tell", "about"}]
+                    if context_words:
+                        enriched = " ".join(context_words[:4]) + " " + cleaned
+                        detected_enriched = self._detect_categories(enriched, max_cats=3)
+                        if detected_enriched:
+                            enriched_best = detected_enriched[0][1]
+                            if enriched_best > best_conf:
+                                detected = detected_enriched
+                                logging.info(
+                                    f"Context enrichment: '{cleaned}' → '{enriched}' | "
+                                    f"Confidence: {best_conf:.0%} → {enriched_best:.0%}"
+                                )
+
+        # No categories found — try suggestions or return unknown
+        if not detected:
+            suggestions = self.get_suggestions(cleaned)
             if suggestions and suggestions[0]["score"] >= 0.20:
                 logging.info(f"SUGGESTIONS | Q: {original} | Top: {suggestions[0]}")
                 if session_id:
-                    self.db.add_turn(session_id, original, None, None, confidence, "neutral")
+                    self.db.add_turn(session_id, original, None, None, 0, "neutral")
                 return {
                     "reply": None,
                     "suggestions": suggestions,
@@ -861,37 +1706,87 @@ class ChatBot:
                     "question": original
                 }
             # Truly unknown
-            logging.info(f"UNANSWERED | Q: {original} | Confidence: {confidence:.3f}")
+            logging.info(f"UNANSWERED | Q: {original}")
             if session_id:
-                self.db.add_turn(session_id, original, None, None, confidence, "neutral")
+                self.db.add_turn(session_id, original, None, None, 0, "neutral")
             return None
 
-        # Step 2: Find best answer
         sentiment = self.sentiment.detect(cleaned)
-        answer = self._find_best_answer(category, corrected, session_id)
 
-        if answer is None:
-            logging.info(f"NO_ANSWER | Q: {original} | Category: {category}")
+        # Step 2: Find best answer from each category
+        cat_answers = self._find_multi_answers(detected, corrected, session_id)
+
+        if not cat_answers:
+            primary_cat = detected[0][0]
+            logging.info(f"NO_ANSWER | Q: {original} | Categories: {[d[0] for d in detected]}")
             if session_id:
-                self.db.add_turn(session_id, original, None, category, confidence, sentiment)
+                self.db.add_turn(session_id, original, None, primary_cat, detected[0][1], sentiment)
             return None
 
-        # Step 3: Refine with templates
-        answer = self._refine_answer(answer, corrected, sentiment, category, session_id)
+        # Step 3: Merge answers from multiple categories
+        merged_answer, primary_cat, all_cats, avg_conf = self._merge_answers(cat_answers, sentiment)
 
-        # Step 4: Store feeling
-        self._store_feeling(category, original, sentiment, answer)
+        # Step 4: Hybrid RAG — TinyLlama generates from retrieved context
+        # Skip LLM for simple conversational categories — dataset answers are better
+        SKIP_LLM_CATS = {
+            "greeting", "farewell", "thanks", "about_bot", "bot_name",
+            "who", "emotions", "gratitude"
+        }
+        generated = False
+        if self.generator.available and not (set(all_cats) & SKIP_LLM_CATS):
+            # Retrieve top-5 semantic search results with answers (RAG context)
+            rag_context = self._retrieve_rag_context(original, top_n=5)
 
-        # Step 5: Save to SQLite
+            # Sliding Context Window: fetch last 3-5 conversation turns for pronoun resolution
+            conv_history = None
+            if session_id:
+                conv_history = self.db.get_history(session_id, limit=5)
+
+            if rag_context:
+                llm_answer = self.generator.generate_rag(
+                    question=original,
+                    retrieved_context=rag_context,
+                    categories=all_cats,
+                    conversation_history=conv_history
+                )
+                if llm_answer:
+                    merged_answer = llm_answer
+                    generated = True
+                    logging.info(
+                        f"RAG generated | Q: {original} | "
+                        f"Context: {[c['category'] for c in rag_context]}"
+                    )
+
+        # Step 5: Fallback — refine dataset answer with templates (if TinyLlama didn't generate)
+        if not generated:
+            if len(all_cats) == 1:
+                merged_answer = self._refine_answer(merged_answer, corrected, sentiment, primary_cat, session_id)
+            else:
+                if sentiment in ("angry", "sad"):
+                    merged_answer = self.sentiment.adjust_response(merged_answer, sentiment)
+
+        # Step 6: Store feeling for primary category
+        self._store_feeling(primary_cat, original, sentiment, merged_answer)
+
+        # Step 7: Save to SQLite
+        intent_str = ",".join(all_cats)
         if session_id:
-            self.db.add_turn(session_id, original, answer, category, confidence, sentiment)
+            self.db.add_turn(session_id, original, merged_answer, intent_str, avg_conf, sentiment)
 
-        cat_type = self._get_store_for(category).get_type(category)
+        source = "llm" if generated else "dataset"
         logging.info(
-            f"Q: {original} | Intent: {category} | Type: {cat_type} | "
-            f"Method: {method} ({confidence:.3f}) | Sentiment: {sentiment}"
+            f"Q: {original} | Intent: {all_cats} | "
+            f"Confidence: {avg_conf:.3f} | Sentiment: {sentiment} | "
+            f"Source: {source} | Multi: {len(all_cats) > 1}"
         )
-        return {"reply": answer, "intent": category, "confidence": round(confidence, 3)}
+
+        return {
+            "reply": merged_answer,
+            "intent": all_cats[0] if len(all_cats) == 1 else all_cats,
+            "confidence": avg_conf,
+            "categories": all_cats,
+            "generated": generated
+        }
 
     # ========== Session (via SQLite) ==========
 
@@ -989,10 +1884,15 @@ def run_chatbot():
                         print(f"\nBot: Dhonnobad! Shikhe nilam!")
         else:
             confidence = result.get("confidence", 0)
-            intent = result.get("intent", "")
+            categories = result.get("categories", [])
             conf_bar = "●" * int(confidence * 10) + "○" * (10 - int(confidence * 10))
             print(f"\nBot: {result['reply']}")
-            print(f"     [{intent}] [{conf_bar}] {confidence:.0%}")
+            if len(categories) > 1:
+                cat_str = " + ".join(categories)
+                print(f"     [{cat_str}] [{conf_bar}] {confidence:.0%} (multi-category)")
+            else:
+                intent = categories[0] if categories else result.get("intent", "")
+                print(f"     [{intent}] [{conf_bar}] {confidence:.0%}")
 
 
 if __name__ == "__main__":

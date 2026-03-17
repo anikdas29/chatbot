@@ -15,9 +15,9 @@
     ],
     "feelings": [
         {
-            "question": "freelancing kivabe shuru korbo?",
+            "question": "job interview er preparation ki?",
             "sentiment": "curious",
-            "answer": "Common questions: tell me about yourself, why this company, greatest strength/weakness, where do you see yourself in 5 years.\n\nFor freelancing: Freelancing tips: always deliver on time, communicate clearly, build a portfolio, ask for reviews, and never undersell your skills long-term."
+            "answer": "Interview prep: research company, practice common questions (STAR method), prepare questions to ask, and dress appropriately.\n\nAbout interview: Interview prep: research the company thoroughly, practice STAR-format answers, arrive early, dress professionally, and always send a thank-you emai..."
         }
     ]
 }

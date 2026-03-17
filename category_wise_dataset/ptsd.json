@@ -13,5 +13,12 @@
         "Treatment: therapy (CBT, EMDR, CPT), medication (SSRIs), support groups, and lifestyle changes (exercise, sleep, routine).",
         "PTSD is a medical condition, not weakness. Effective treatments exist — seek help from a mental health professional.",
         "PTSD symptoms: disturbing memories, avoiding reminders, negative mood changes, and being easily startled. Treatment works."
+    ],
+    "feelings": [
+        {
+            "question": "ptsd er treatment ki?",
+            "sentiment": "curious",
+            "answer": "Yes, PTSD is a medical condition that can be effectively treated with therapy. Effective treatments include CBT (changing thought patterns), psychotherapy, and DBT (managing emotions). Seeking professional help from a mental health professional is recommended."
+        }
     ]
 }

@@ -33,12 +33,12 @@
         {
             "question": "tailwind css ki?",
             "sentiment": "curious",
-            "answer": "Valo question! Tailwind CSS: utility-first CSS framework. Class-based styling, highly customizable. Additionally, Tailwind is widely used in industry."
+            "answer": "Tailwind CSS is a utility-first CSS framework that provides class-based styling and highly customizable design. It supports responsive layouts, color schemes, fonts, images, and much more. Tailwind also has a built-in feature for testing and debugging, making it an excellent choice for web designers."
         },
         {
             "question": "tailwind css ki?",
             "sentiment": "curious",
-            "answer": "Great question! Tailwind CSS: utility-first CSS framework. Class-based styling, highly customizable.\n\nAr kichu jante chaile bolo!"
+            "answer": "Yes, Tailwind CSS is a utility-first CSS framework that offers class-based styling with highly customizable features such as color palettes, font families, and image resizing. It's designed to be responsive and easy to use for both frontend and backend developers."
         }
     ]
 }

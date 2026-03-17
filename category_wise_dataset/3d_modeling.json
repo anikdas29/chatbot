@@ -6,12 +6,29 @@
         "how to learn 3d modeling",
         "best 3d software",
         "3d modeling for beginners",
-        "3d model banano"
+        "3d model banano",
+        "3D modeling for beginners",
+        "3d modeling for animation",
+        "how to create 3d models from scratch",
+        "3d modeling software for windows",
+        "3d modeling techniques for texturing",
+        "3d modeling for game development",
+        "what is normal mapping in 3d modeling?",
+        "kono kisite 3D modeling kaje kore cheye?",
+        "3d modeling for architecture visualization",
+        "how to create a 3d model from a real-world object"
     ],
     "answers": [
         "3D modeling = creating digital 3D objects. Used in gaming, film, architecture, product design, and 3D printing.",
         "Software: Blender (free, powerful), Maya (industry), ZBrush (sculpting), SketchUp (architecture), Fusion 360 (engineering).",
         "Start with Blender: free, huge community, tons of tutorials. Learn box modeling, then sculpting, texturing, and rendering.",
-        "3D modeling path: basic shapes → modeling → UV mapping → texturing → lighting → rendering → animation."
+        "3D modeling path: basic shapes → modeling → UV mapping → texturing → lighting → rendering → animation.",
+        "3D modeling for beginners requires understanding of basic shapes, such as cubes, spheres, and cylinders. Practice extrusions, lofting, and sweeps to create complex models.",
+        "For animation, you need to focus on posing, skinning, and rigging. Learn keyframe animation, physics simulation, and motion capture techniques.",
+        "Creating 3D models from scratch involves designing, modeling, texturing, and lighting. Use algorithms like Nurbs or NURBS for complex shapes.",
+        "Normal mapping is a technique to add detail to 3D models without increasing polygon count. Learn how to bake normal maps using 3ds Max or Blender.",
+        "Kono kisite 3D modeler kaje kore cheye? 3D modeling = creating digital 3D objects. Use software like SketchUp, Fusion 360, or Blender for various tasks.",
+        "For architecture visualization, use software like SketchUp, Revit, or Rhino to create detailed models and renderings. Learn about 3D rendering techniques too.",
+        "Creating a 3D model from a real-world object involves scanning, photogrammetry, or 3D scanning using laser or structured light technology."
     ]
 }

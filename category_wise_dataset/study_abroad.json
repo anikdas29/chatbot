@@ -13,5 +13,12 @@
         "Benefits: global perspective, better career prospects, language skills, independence, and lifelong memories.",
         "Tips: start planning 12-18 months early, get passport/visa sorted, budget carefully, and connect with alumni for advice.",
         "Bidesh e pora: scholarship khojho, IELTS/TOEFL dao, visa process shikho, ar age theke plan koro."
+    ],
+    "feelings": [
+        {
+            "question": "study abroad er process ki?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about studying abroad:\n1. [study_abroad] Q: study abroad guide\n    A: Bidesh e pora: scholarship khojho, IELTS/TOEFL dao, visa process shikho, ar age theke plan koro.\n2. [prompt_engineering] Q: prompt engineering er importance ki?\n    A: Prompt engineering holo AI models theke best output pawar jonno input carefully design koro. Good prompts are clear, specific, and include context about what you want.\n3. [thesis] Q: masters thesis er requirement ki?\n    A: Thesi"
+        }
     ]
 }

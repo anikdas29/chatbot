@@ -15,5 +15,12 @@
         "Rugby te 15 players thake (Rugby Union) ba 13 (Rugby League). Ball ta shudhu backward pass kora jay. Try score korle 5 points, conversion 2 points, penalty kick 3 points, ar drop goal 3 points.",
         "Rugby is hugely popular in New Zealand (All Blacks), South Africa (Springboks), England, Australia, and the Pacific Islands. The Rugby World Cup is held every 4 years and draws massive global audiences.",
         "Unlike American football, rugby players don't wear heavy padding or helmets. The game is continuous with fewer stoppages, making it extremely demanding physically. Respect for the referee is a core rugby value."
+    ],
+    "feelings": [
+        {
+            "question": "rugby ki?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about rugby:\n1. [rugby] Q: rugby ki? A: Rugbay is a contact team sport that originated in England. Player e carry, pass, and kick an ovall ball to score tries by grounding it in the opponent's in-goal area. It's known for its physicality and sportsmanship.\n2. [basketball] Q: nba ki? A: Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarteres e khel"
+        }
     ]
 }

@@ -25,12 +25,7 @@
         {
             "question": "how websocket works?",
             "sentiment": "curious",
-            "answer": "Interesting! Unlike HTTP where the client always initiates requests, WebSocket creates a persistent connection where both client and server can send messages at any time. This makes it ideal for chat apps, live feeds, and gaming.\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "how websocket works?",
-            "sentiment": "curious",
-            "answer": "Good one! Unlike HTTP where the client always initiates requests, WebSocket creates a persistent connection where both client and server can send messages at any time. This makes it ideal for chat apps, live feeds, and gaming.\n\nAro kichu lagbe bolo!"
+            "answer": "WebSocket is a protocol used for real-time communication between clients and servers. It creates a persistent connection where both client and server can send messages at any time, making it ideal for chat apps, live feeds, and gamings."
         }
     ]
 }

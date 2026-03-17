@@ -45,12 +45,7 @@
         {
             "question": "how to write a good resume?",
             "sentiment": "happy",
-            "answer": "A strong resume: 1-2 pages max, use action verbs (built, led, increased), quantify results, and tailor it for every job you apply to.\n\nOn the resume writing side: Resume tips: quantify achievements (increased sales 30%), use action verbs, tailor for each job, and keep to 1-2 pages."
-        },
-        {
-            "question": "how to write a good resume?",
-            "sentiment": "happy",
-            "answer": "A strong resume: 1-2 pages max, use action verbs (built, led, increased), quantify results, and tailor it for every job you apply to.\n\nOn the resume writing side: Resume tips: quantify achievements (increased sales 30%), use action verbs, tailor for each job, and keep to 1-2 pages."
+            "answer": "Responding to the question, \"How to write a good resume?\" The assistant suggests that a strong resume should be no more than 1-2 pages and use action verbs to emphasize accomplishments. Quantify results where possible to showcase achievements. Tailor it for each job you apply to by focusing on the specific requirements of the position. Keep the resume concise, with a clear introduction and conclusion that highlights your skills and experience."
         }
     ]
 }

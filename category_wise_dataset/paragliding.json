@@ -12,5 +12,12 @@
         "Planning for paragliding in advance ensures a better experience.",
         "Paragliding can be an amazing experience. Research and prepare before you go.",
         "Tips for paragliding: plan ahead, budget wisely, be flexible, and enjoy the journey!"
+    ],
+    "feelings": [
+        {
+            "question": "paragliding ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Tips for paragliding: plan ahead, budget wisely, be flexible, and enjoy the journey!\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

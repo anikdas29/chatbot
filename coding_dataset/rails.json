@@ -23,12 +23,7 @@
         {
             "question": "ruby on rails ki?",
             "sentiment": "curious",
-            "answer": "Learn rails from official docs and tutorials. Practice by building projects.\n\nAlso regarding ruby: Ruby is famous for its elegant syntax and the Ruby on Rails framework."
-        },
-        {
-            "question": "ruby on rails ki?",
-            "sentiment": "curious",
-            "answer": "Learn rails from official docs and tutorials. Practice by building projects.\n\nFor ruby: Ruby is famous for its elegant syntax and the Ruby on Rails framework."
+            "answer": "Ruby on Rails, or just Ruby on Rails (RoR), is a popular web application framework that allows developers to build dynamic websites and applications quickly and efficiently using the Ruby programming language. It offers a range of features like model-view-controller architecture, asset pipeline, and database migration tools, among others."
         }
     ]
 }

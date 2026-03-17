@@ -13,5 +13,12 @@
         "Crm is essential for business success. Learn and apply consistently.",
         "Best practices for crm: research, plan, execute, and iterate based on results.",
         "Understanding crm helps you make better business decisions."
+    ],
+    "feelings": [
+        {
+            "question": "crm software ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Crm is essential for business success. Learn and apply consistently. Plus, Understanding crm helps you make better business decisions.\n\nHope this helps!"
+        }
     ]
 }

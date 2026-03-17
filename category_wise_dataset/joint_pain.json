@@ -12,5 +12,12 @@
         "Exercise (low impact), maintain healthy weight, hot/cold therapy, anti-inflammatory diet.",
         "Joint Pain tips: consult a professional for personalized advice. Don't self-diagnose or self-treat serious conditions.",
         "Learn more about joint pain from trusted medical sources. Always follow your doctor's advice."
+    ],
+    "feelings": [
+        {
+            "question": "joint pain er remedy ki?",
+            "sentiment": "curious",
+            "answer": "retrieved knowledge, here's a possible answer to your question about joint pain relief:\n\n1. [joint_pain] Q: joint pain treatment\n     A: Joint pain relief tips include\n\nQuestion: back pain ki epi kaise kiya?\n</s>"
+        }
     ]
 }

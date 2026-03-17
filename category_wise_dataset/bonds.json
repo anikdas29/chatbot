@@ -13,5 +13,12 @@
         "Bond holo ekta debt instrument — tumi shorkaar ba company ke taka dhaaro, ar tara tomar ke regular interest dey ar maturity te mool taka ferot dey.",
         "When you buy a bond, you're essentially lending money. The issuer pays you interest (coupon) at regular intervals, and when the bond matures, you get your original investment back.",
         "Bonds are generally less risky than stocks and provide steady income. They're good for conservative investors, but returns are typically lower. Government bonds are the safest."
+    ],
+    "feelings": [
+        {
+            "question": "bonds investment ki safe?",
+            "sentiment": "curious",
+            "answer": "Bonds are generally less risky than stocks and provide steady income. They're considered a safer option for conservative investors, but returns may be lower compared to stocks. Professional managers manage these investments, and mutual fund holos offer safe options for investing in them. Angel investors prefer startups that have high potential, while cryptocurrency investment is risky due to the volatility of the market."
+        }
     ]
 }

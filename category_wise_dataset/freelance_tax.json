@@ -13,5 +13,12 @@
         "Freelancer hisebe tomar nijer tax calculate ar pay korte hoy. Income tax plus self-employment tax lagbe. Quarterly estimated payments kora valo.",
         "Common freelance tax deductions include home office expenses, equipment, software subscriptions, internet bills, professional development, travel, and health insurance premiums.",
         "Keep detailed records of all income and expenses, set aside 25-30% of earnings for taxes, and consider hiring an accountant to maximize deductions and stay compliant."
+    ],
+    "feelings": [
+        {
+            "question": "how to do freelance tax?",
+            "sentiment": "curious",
+            "answer": "The best way to pay free-lancing taxes is by deducting them from income. Common deductions include home office expenses, equipment, software subscription fees, internet bill payments, professional development costs, travel expenses, and health insurance premiums. Always communicate clearly with your employer about these expenses and ensure that you are not underselling your skills long-term."
+        }
     ]
 }

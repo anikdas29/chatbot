@@ -13,5 +13,12 @@
         "Tips: apply well in advance (processing takes 2-6 weeks), keep passport safe, and renew before expiry for travel.",
         "Documents needed: birth certificate, national ID, photos, and proof of citizenship. Requirements vary by country.",
         "Passport ki: international travel er jonno government issued document. Tomar identity ar nationality prove kore."
+    ],
+    "feelings": [
+        {
+            "question": "passport process ki?",
+            "sentiment": "curious",
+            "answer": "knowledge about passport application includes information on the type of passport needed, gathering documents, filling out an application form, paying a fee, attending an interview if required, and waiting for processing."
+        }
     ]
 }

@@ -16,5 +16,12 @@
         "Keu dube gele prothome 999 call korun. Rope ba floating kisu chure din. Nijey pani te jaben na jodi swimming na janen — nahole dujonei dubte paren. Tule ene breathing check korun.",
         "For a drowning victim: get them out of water safely, lay them flat, check for breathing. If not breathing, begin CPR immediately — 30 chest compressions then 2 rescue breaths. Continue until help arrives.",
         "Drowning er victim ke tule ene prothome breathing check korun. Breathing na thakle CPR shuru korun. Pani beriye ashle side e ghuriye din. Joto taratari ambulance call korben toto bhalo."
+    ],
+    "feelings": [
+        {
+            "question": "drowning rescue kivabe kore?",
+            "sentiment": "curious",
+            "answer": "The knowledge retrieved from the text suggests that drowning rescues involve checking for breathing, assessing the victim's condition, providing first aid (such as CPR and oxygen supply), checking for other potential victims or injuries, and ensuring the victim is safe before evacuation."
+        }
     ]
 }

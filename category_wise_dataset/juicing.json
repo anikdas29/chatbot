@@ -13,5 +13,12 @@
         "Best juice combos: carrot+apple+ginger, green (kale+cucumber+apple+lemon), beet+carrot+orange, watermelon+mint.",
         "Juicing vs smoothies: juice = no fiber, faster absorption. Smoothie = whole food, more filling, more balanced.",
         "Juicing tips: add lemon to prevent oxidation, drink immediately for max nutrients, and include vegetables to reduce sugar."
+    ],
+    "feelings": [
+        {
+            "question": "juicing benefits ki?",
+            "sentiment": "curious",
+            "answer": "Juicing extracts liquid from fruit and vegetables, leaving fibers behind. Juicing is a great way to get concentrated nutrients while minimizing the amount of whole food consumed. It's also an excellent way to improve digestion and detoxify the body."
+        }
     ]
 }

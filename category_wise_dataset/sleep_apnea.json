@@ -12,5 +12,12 @@
         "CPAP machine is gold standard, weight loss helps, avoid sleeping on back.",
         "Sleep Apnea tips: consult a professional for personalized advice. Don't self-diagnose or self-treat serious conditions.",
         "Learn more about sleep apnea from trusted medical sources. Always follow your doctor's advice."
+    ],
+    "feelings": [
+        {
+            "question": "sleep apnea ki jinish?",
+            "sentiment": "curious",
+            "answer": "Sure! For faster sleep, try the 4-7-8 breathing technique, cut caffeine after 2 PM, and keep your room at a comfortable cool temperature. You can also consider using prescribed inhalers for symptoms like snoring or nasal sprays to help manage sleep apnea."
+        }
     ]
 }

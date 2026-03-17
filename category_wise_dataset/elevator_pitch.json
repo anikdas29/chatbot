@@ -12,5 +12,12 @@
         "Formula: Who I am + What I do + What makes me unique + What I'm looking for. Practice until natural.",
         "Tips: customize for audience, speak with energy, end with a question or call to action, and practice out loud.",
         "Elevator pitch ki: 30 second e nij er professional identity present kora. Networking ar interview te essential."
+    ],
+    "feelings": [
+        {
+            "question": "elevator pitch ki?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about the concept of \"elevator pitch\" is as follows:\n1. [elevator_pitch] Q: elevator pitch examples\n    A: An elevator pitch is a 30-60 second introductory spiel for one's brand, product or service that highlights its unique selling points and why it's worth investing in. It's concise, memorable, and should be brief enough to fit into the time allotted on an elevator ride.\n2. [architecture] Q: architecture ki?\n    A: Architecture is a field of study that involves designing buildings, structures, and other physical objects for their intended use or function."
+        }
     ]
 }

@@ -13,5 +13,12 @@
         "E-commerce holo internet er maddhhomey product ba service kena-becha. Online shop, marketplace, digital product — sob e-commerce er odhine porey.",
         "To start an ecommerce business, pick a niche, source or create products, set up an online store using platforms like Shopify or WooCommerce, and market through social media and SEO.",
         "Popular ecommerce platforms include Shopify, WooCommerce, Wix, BigCommerce, and marketplaces like Amazon, Daraz, and Etsy. Choose based on your budget and technical skills."
+    ],
+    "feelings": [
+        {
+            "question": "ecommerce site kivabe banabo?",
+            "sentiment": "curious",
+            "answer": "E-commercce site kiwa banabo."
+        }
     ]
 }

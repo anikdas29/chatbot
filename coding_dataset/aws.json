@@ -19,6 +19,11 @@
             "question": "how to deploy on aws?",
             "sentiment": "curious",
             "answer": "Valo question! Learn aws from official docs and tutorials. Practice by building projects.\n\nHope this helps!"
+        },
+        {
+            "question": "how to deploy on aws?",
+            "sentiment": "curious",
+            "answer": "A: For basic deployment on AWS, you can use tools like GitHub Action, GitLab CI/CD, and Jenkins. These platforms provide a simple way to automate the process of building and deploying your code to an Amazon Web Services (AWS) environment. You can also try using Terraform for more complex deployments, but it may be less straightforward due to its focus on infrastructure as a service (IaaS)."
         }
     ]
 }

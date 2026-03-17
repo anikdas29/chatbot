@@ -81,12 +81,22 @@
         {
             "question": "how javascript async await works?",
             "sentiment": "curious",
-            "answer": "Interesting! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid!"
+            "answer": "Valo question! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid! Moreover, JavaScript can build anything: websites, mobile apps (React Native), desktop apps (Electron), servers (Node."
         },
         {
-            "question": "how javascript async await works?",
+            "question": "javascript ki?",
             "sentiment": "curious",
-            "answer": "Valo question! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid!\n\nHope this helps!"
+            "answer": "Great question! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "javascript closure ki jinish?",
+            "sentiment": "curious",
+            "answer": "Great question! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it. Also, JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API."
+        },
+        {
+            "question": "javascript prototype chain and inheritance kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Interesting! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid!"
         }
     ]
 }

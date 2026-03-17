@@ -15,5 +15,6 @@
         "Haskell is a purely functional language where functions have no side effects and data is immutable. It has a powerful type system that catches many bugs at compile time and uses monads to handle I/O and state.",
         "Haskell teaches you to think about programming differently. Its concepts like monads, functors, and type classes have influenced features in Rust, Swift, Scala, and many modern languages.",
         "Haskell is used in finance, blockchain, and compilers where correctness matters most. Companies like Facebook, Standard Chartered, and Cardano use it for its mathematical guarantees and reliability."
-    ]
+    ],
+    "feelings": []
 }

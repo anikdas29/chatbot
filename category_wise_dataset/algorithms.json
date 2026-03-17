@@ -23,12 +23,7 @@
         {
             "question": "data structure ar algorithm shikbo kivabe?",
             "sentiment": "curious",
-            "answer": "Algorithms = step-by-step procedures for solving problems. Sorting, searching, graph algorithms, and dynamic programming are essentials.\n\nRegarding data structures: For interviews: master Arrays, Hash Maps, Two Pointers, Binary Search, BFS/DFS, and Dynamic Programming."
-        },
-        {
-            "question": "data structure ar algorithm shikbo kivabe?",
-            "sentiment": "curious",
-            "answer": "Algorithms = step-by-step procedures for solving problems. Sorting, searching, graph algorithms, and dynamic programming are essentials.\n\nRegarding data structures: For interviews: master Arrays, Hash Maps, Two Pointers, Binary Search, BFS/DFS, and Dynamic Programming."
+            "answer": "Data structures and algorithmic skills are essential for coding interviews, as they help organize and manage data. Some examples of key algorithms include binary search, BFS/DFS, dijkstra, sorting (merge, quick), dynamic programming, two-pointers, and sliiding window."
         }
     ]
 }

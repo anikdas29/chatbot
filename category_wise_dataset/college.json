@@ -53,16 +53,6 @@
             "question": "best college for computer science?",
             "sentiment": "happy",
             "answer": "Awesome! Go to classes, participate in hackathons, build a GitHub portfolio, and network. Your college years are the best time to experiment."
-        },
-        {
-            "question": "best college for computer science?",
-            "sentiment": "happy",
-            "answer": "Awesome! Go to classes, participate in hackathons, build a GitHub portfolio, and network. Your college years are the best time to experiment."
-        },
-        {
-            "question": "best college for computer science?",
-            "sentiment": "happy",
-            "answer": "Nice! Go to classes, participate in hackathons, build a GitHub portfolio, and network. Your college years are the best time to experiment."
         }
     ]
 }

@@ -13,5 +13,12 @@
         "Learn less from official docs and tutorials. Practice by building projects.",
         "Less is widely used in industry. Great skill to add to your portfolio.",
         "Start with less basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "less css preprocessor ki?",
+            "sentiment": "curious",
+            "answer": "A: Less (Less.js) is a CSS preprocessor similar to Sass or Stylus that provides automatic feature detection, variable management, and modularity out-of-the-box. It's commonly used for building complex stylesheets with dynamic content."
+        }
     ]
 }

@@ -15,5 +15,12 @@
         "Anxiety manage korte deep breathing, grounding techniques, regular exercise, ar enough sleep help kore. 5-4-3-2-1 technique try koro — 5 things you see, 4 you touch, 3 you hear, 2 you smell, 1 you taste.",
         "Symptoms of anxiety include racing heart, sweating, restlessness, difficulty sleeping, and constant worrying. If these persist and interfere with daily life, consider speaking with a mental health professional.",
         "Anxiety can be managed very effectively with therapy (especially CBT), lifestyle changes, and sometimes medication. Many people learn to live well with anxiety — you don't have to suffer in silence."
+    ],
+    "feelings": [
+        {
+            "question": "anxiety attack hole ki korbo?",
+            "sentiment": "curious",
+            "answer": "Anxiety can manifest in a variety of ways, including physical symptoms such as heart palpitations or sweating, as well as emotional ones like feeling overwhelmed or anxious. To manage these feelings, it's essential to practice relaxation techniques and deep breathing exercises. Additionally, seeking help from a mental health professional can be helpful in managing anxiety attacks."
+        }
     ]
 }

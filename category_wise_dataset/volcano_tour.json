@@ -11,5 +11,12 @@
         "Planning for volcano tour in advance ensures a better experience.",
         "Volcano Tour can be an amazing experience. Research and prepare before you go.",
         "Tips for volcano tour: plan ahead, budget wisely, be flexible, and enjoy the journey!"
+    ],
+    "feelings": [
+        {
+            "question": "volcano tour ki safe?",
+            "sentiment": "curious",
+            "answer": "Volcano Tour can be an amazing experience that requires preparation beforehand to ensure a better experience. Research and plan ahead, budget wisely, be flexible, enjoy the journey!"
+        }
     ]
 }

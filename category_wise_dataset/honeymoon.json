@@ -13,5 +13,12 @@
         "Planning for honeymoon in advance ensures a better experience.",
         "Honeymoon can be an amazing experience. Research and prepare before you go.",
         "Tips for honeymoon: plan ahead, budget wisely, be flexible, and enjoy the journey!"
+    ],
+    "feelings": [
+        {
+            "question": "honeymoon destinations best",
+            "sentiment": "happy",
+            "answer": "Best honeymoon destination(s) are European cities or adventure destinations."
+        }
     ]
 }

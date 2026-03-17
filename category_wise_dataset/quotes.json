@@ -36,11 +36,6 @@
             "question": "tell me a quote",
             "sentiment": "curious",
             "answer": "Interesting! 'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill\n'In the middle of difficulty lies opportunity.' - Einstein\n\nHope this helps!"
-        },
-        {
-            "question": "tell me a quote",
-            "sentiment": "curious",
-            "answer": "Good one! 'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill\n'In the middle of difficulty lies opportunity.' - Einstein\n\nAro kichu lagbe bolo!"
         }
     ]
 }

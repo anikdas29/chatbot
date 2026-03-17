@@ -12,5 +12,12 @@
         "Tips: address to specific person, show knowledge of company, highlight relevant experience, and match job description keywords.",
         "Don't repeat your resume — instead, tell the story behind your achievements and show genuine enthusiasm.",
         "Cover letter ki: resume er sathe pathano letter. Keno ei job chai ar keno tumi best candidate ta explain koro."
+    ],
+    "feelings": [
+        {
+            "question": "cover letter kivabe likhi?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about cover letter:\n1. Cover letters are typically written for specific job applications, and they should be tailored to the employer's needs and requirements. The style is professional yet concise, highlighting key achievements or accomplishments that demonstrate a candidate's suitability for the position. 2. A cover letter may also include personal details such as name, address, phone number, email, and date of birth. It should be written in a clear and concise manner with a focus on the employer's needs rather than the writer's preferences or desires."
+        }
     ]
 }

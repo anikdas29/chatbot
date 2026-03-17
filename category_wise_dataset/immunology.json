@@ -12,5 +12,12 @@
         "Being prepared for immunology can save lives. Educate yourself and those around you.",
         "Immunology awareness is important for everyone. Learn the basics and be prepared.",
         "Understanding immunology helps you make informed decisions and protect yourself and others."
+    ],
+    "feelings": [
+        {
+            "question": "immunology ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Immunology is the study of how our bodies defend themselves against foreign invaders such as viruses, bacteria, and fungi. The basic concepts include understanding the immune system's components (antibodies, T cells, B cells), how it responds to infection or exposure to pathogens, and the various vaccines and treatments used to prevent and manage immunological diseases."
+        }
     ]
 }

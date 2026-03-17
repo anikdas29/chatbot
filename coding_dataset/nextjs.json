@@ -19,6 +19,16 @@
             "question": "what is next.js?",
             "sentiment": "curious",
             "answer": "Interesting! Nextjs is widely used in industry. Great skill to add to your portfolio."
+        },
+        {
+            "question": "what is next.js?",
+            "sentiment": "curious",
+            "answer": "Next.JS is a popular React framework used for building serverless applications with minimal configuration."
+        },
+        {
+            "question": "what is next.js?",
+            "sentiment": "curious",
+            "answer": "Next.JS is a popular React.js framework for building serverless applications and static websites. It offers a range of features like server-side rendering, dynamic routing, and customizable templates to build a fully featured website or mobile app quickly."
         }
     ]
 }

@@ -16,5 +16,12 @@
         "Heatstroke hole matha ghurbe, bomi bomi lagbe, skin dry and hot thakbe. Chaya te niye jan, thanda pani spray korun, fan chalun, ar hospital e niye jan urgently.",
         "To treat heatstroke: Move to a cool place, remove excess clothing, apply ice packs to neck/armpits/groin, give cool water if conscious. This is a medical emergency — call for help immediately.",
         "Heatstroke theke bachte goromer din e pani beshi khaan, dhoop e beshi thakben na, halka colored jama porun, ar baire gele cap/hat porun. Heatstroke serious — deri korle organ damage hote pare."
+    ],
+    "feelings": [
+        {
+            "question": "heatstroke er lakkhon ki?",
+            "sentiment": "curious",
+            "answer": "Yes, heatstroke is a severe form of heat exhaustion that can cause heat stroke and lead to death in some cases. The key symptoms include sweating profusely, dizziness, headache, nausea, vomiting, and confusion. Heatstroke can be fatal if left untreated."
+        }
     ]
 }

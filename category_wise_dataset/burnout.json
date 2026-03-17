@@ -19,6 +19,11 @@
             "question": "How to deal with burnout?",
             "sentiment": "curious",
             "answer": "Interesting! Burnout symptoms: exhaustion, cynicism, reduced performance, detachment, and physical symptoms (headaches, insomnia).\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "burnout feel korchi ki korbo?",
+            "sentiment": "curious",
+            "answer": "Yes, burnout can manifest in a variety of ways, including physical symptoms such as fatigue or muscle tension, emotional ones like feeling drained or overwhelmed, and cognitive ones such as confusion about one's abilities or motivation. To deal with stress, try deep breathing, exercise, time management, talking to someone, and setting realistic goals for self-care."
         }
     ]
 }

@@ -98,24 +98,9 @@
             "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nRegarding loneliness: Combat loneliness: reach out to someone, join a club/class, volunteer, get a pet, or simply go to a cafe to be around people.\n\nTumi ekla na, amra achi."
         },
         {
-            "question": "i feel so lonely",
+            "question": "ami onek stressed feel korchi",
             "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nOn the loneliness side: Combat loneliness: reach out to someone, join a club/class, volunteer, get a pet, or simply go to a cafe to be around people.\n\nTumi ekla na, amra achi."
-        },
-        {
-            "question": "ami onek depressed feel korchi",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. I understand. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed. Moreover, It's okay not to be okay.\n\nAr kichu jante chaile bolo!\n\nTumi ekla na, amra achi."
-        },
-        {
-            "question": "i feel so lonely",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAlso regarding loneliness: Combat loneliness: reach out to someone, join a club/class, volunteer, get a pet, or simply go to a cafe to be around people.\n\nTumi ekla na, amra achi."
-        },
-        {
-            "question": "ami onek depressed feel korchi",
-            "sentiment": "sad",
-            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Don't worry. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. I understand. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAro kichu lagbe bolo!\n\nTumi ekla na, amra achi."
         }
     ]
 }

@@ -13,5 +13,12 @@
         "Learn more about qr code to stay informed and make better decisions.",
         "Qr Code is important in today's connected world.",
         "Understanding qr code helps you navigate the modern digital landscape."
+    ],
+    "feelings": [
+        {
+            "question": "qr code generator ki?",
+            "sentiment": "curious",
+            "answer": "The question asks about the use of QR code generators and their functions. The answer provided is that they are important in today's connected world, used for encoding data in visual patterns."
+        }
     ]
 }

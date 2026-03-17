@@ -13,5 +13,12 @@
         "Beginner printers: Creality Ender 3 (~$200), Bambu Lab A1 (~$400). Both reliable with huge communities.",
         "Process: design in CAD (or download from Thingiverse) → slice with Cura → print → post-process.",
         "3D printing tips: level your bed, use proper temperature, add supports for overhangs, and start with simple models."
+    ],
+    "feelings": [
+        {
+            "question": "3d printing ki?",
+            "sentiment": "curious",
+            "answer": "Yes, 3D printing is a popular technology that allows objects to be created layer by layer from digital files using a specialized printer. It has become increasingly affordable in recent years due to advancements in materials and technology."
+        }
     ]
 }

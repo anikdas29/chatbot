@@ -15,5 +15,12 @@
         "Self-care practice korte paro: enough ghum pao, healthy khabar khao, exercise koro, journal lekho, nature te time katao, ar 'no' bolte shikho. Choto choto habits ei difference make kore.",
         "Self-care ideas include taking a warm bath, reading a book, going for a walk, cooking your favorite meal, digital detox, or simply sitting quietly for 10 minutes. Find what recharges you.",
         "For busy people, self-care can be micro-habits: 5-minute meditation, a short walk during lunch, drinking enough water, or going to bed 30 minutes earlier. You don't need hours — just intentional moments."
+    ],
+    "feelings": [
+        {
+            "question": "self care routine ki?",
+            "sentiment": "curious",
+            "answer": "Self-care practice that involves enough healthy food, regular exercise, journaling, nature time, and adequate sleep is essential for maintaining good mental health. A balanced diet with protein, carbs, healthy fats, vitamins, minerals, and amino acids can help improve overall well-being. Professional support may be necessary in managing stress and anxiety. Daily nutrition requirements include a balanced diet that includes protein, carbohydrates, healthy fats, vitamins, and minerals. First aid kit items such as bandages, anti-septics, cotton, scissors, gloves, pain relie"
+        }
     ]
 }

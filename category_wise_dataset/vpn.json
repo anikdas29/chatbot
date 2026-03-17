@@ -13,5 +13,12 @@
         "Learn more about vpn to stay informed and make better decisions.",
         "Vpn is important in today's connected world.",
         "Understanding vpn helps you navigate the modern digital landscape."
+    ],
+    "feelings": [
+        {
+            "question": "vpn ki and keno use korbo?",
+            "sentiment": "curious",
+            "answer": "VPN (Virtual Private Network) is a technology that creates an encrypted tunnel between your device and the internet to protect your online activities from being monitored or intercepted by third parties. It can be used for privacy, security, and streaming services such as Netflix or Amazon Prime Video. Keep in mind that public transportation like buses and trains use a different technology called \"public transportation network\" (PTN) to connect passengers with their destinations."
+        }
     ]
 }

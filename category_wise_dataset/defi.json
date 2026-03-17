@@ -13,5 +13,12 @@
         "DeFi examples: Uniswap (trading), Aave (lending), Compound (interest), and stablecoins (USDC, DAI).",
         "Benefits: no intermediaries, global access, transparent, programmable money. Risks: smart contract bugs, volatility, scams.",
         "DeFi basics: you need a crypto wallet (MetaMask), some crypto, and access to DeFi protocols. Start small to learn."
+    ],
+    "feelings": [
+        {
+            "question": "defi decentralized finance ki?",
+            "sentiment": "curious",
+            "answer": "Defi (decentralized finance) is a financial services platform on blockchain that enables peer-to-peer transactions without banks or intermediaries, making it more secure and efficient than traditional banking systems."
+        }
     ]
 }

@@ -61,16 +61,6 @@
             "question": "best way to manage time?",
             "sentiment": "happy",
             "answer": "Nice! Time management golden rule: plan your day the night before. List your top 3 priorities and tackle the hardest one first (eat the frog). Plus, Stop procrastinating: use the 2-minute rule - if it takes less than 2 minutes, do it now."
-        },
-        {
-            "question": "best way to manage time?",
-            "sentiment": "happy",
-            "answer": "Nice! Time management golden rule: plan your day the night before. List your top 3 priorities and tackle the hardest one first (eat the frog).\n\nAro kichu lagbe bolo!"
-        },
-        {
-            "question": "best way to manage time?",
-            "sentiment": "happy",
-            "answer": "Awesome! Time management golden rule: plan your day the night before. List your top 3 priorities and tackle the hardest one first (eat the frog)."
         }
     ]
 }

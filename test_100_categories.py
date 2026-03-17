@@ -1,11 +1,17 @@
 """
 100 Questions across 100 Different Categories — Real User Style
 Tests: typos, informal language, Bangla, short queries, complex questions
+Run: python test_100_categories.py          (full mode with TinyLlama)
+     python test_100_categories.py --fast   (skip TinyLlama, faster)
 """
 
 import sys
 import json
 import time
+import functools
+
+# Force flush on every print so terminal shows live progress
+print = functools.partial(print, flush=True)
 
 # Each tuple: (question, expected_category, difficulty_tag)
 TEST_QUESTIONS = [
@@ -123,66 +129,110 @@ TEST_QUESTIONS = [
 
 def run_test():
     """Run all 100 questions and analyze results."""
+    fast_mode = "--fast" in sys.argv
     sys.path.insert(0, ".")
 
-    # Skip TinyLlama to speed up test — we only care about category detection accuracy
-    import chatbot as cb
-    _orig_init = cb.TinyLlamaGenerator.__init__
-    def _skip_llm(self, *a, **kw):
-        self.model = None
-        self.available = False
-    cb.TinyLlamaGenerator.__init__ = _skip_llm
+    if fast_mode:
+        import chatbot as cb
+        def _skip_llm(self, *a, **kw):
+            self.model = None
+            self.available = False
+        cb.TinyLlamaGenerator.__init__ = _skip_llm
 
     from chatbot import ChatBot
 
     print("=" * 70)
-    print("  100 QUESTIONS x 100 CATEGORIES — REAL USER STYLE TEST")
+    print("  100 QUESTIONS x 100 CATEGORIES")
     print("=" * 70)
-    print("\nLoading chatbot (LLM skipped for speed)...")
+    if fast_mode:
+        print("  Mode: FAST (TinyLlama skipped)")
+    else:
+        print("  Mode: FULL (TinyLlama ON — real bot answers)")
+        print("  Note: First load takes ~60-70s, then ~3-8s per question")
+    print("\nLoading chatbot...", flush=True)
 
+    load_start = time.time()
     bot = ChatBot()
+    load_time = time.time() - load_start
     session_id = bot.db.create_session()
+    llm_status = "ON" if bot.generator.available else "OFF"
+    print(f"  Loaded in {load_time:.1f}s")
+    print(f"  TinyLlama: {llm_status}")
+    print(f"  Questions: {len(bot.questions)}")
+    print(f"  Categories: {len(bot.category_store_map)}")
 
     results = []
     correct = 0
     wrong = 0
     wrong_details = []
+    total_time = 0
+    output_file = "test_100_categories_results.json"
+
+    def save_progress():
+        """Save results after every question so nothing is lost."""
+        avg = (total_time / len(results)) if results else 0
+        tag_stats = {}
+        for r in results:
+            t = r["tag"]
+            if t not in tag_stats:
+                tag_stats[t] = {"total": 0, "correct": 0}
+            tag_stats[t]["total"] += 1
+            if r["correct"]:
+                tag_stats[t]["correct"] += 1
+        output = {
+            "total_questions": len(TEST_QUESTIONS),
+            "completed": len(results),
+            "correct": correct,
+            "wrong": wrong,
+            "accuracy": round(correct / len(results), 4) if results else 0,
+            "total_time_s": round(total_time, 1),
+            "avg_time_ms": round(avg * 1000),
+            "llm_enabled": not fast_mode and llm_status == "ON",
+            "by_tag": {t: {"total": s["total"], "correct": s["correct"],
+                            "accuracy": round(s["correct"]/s["total"], 4)}
+                       for t, s in tag_stats.items()},
+            "wrong_details": wrong_details,
+            "all_results": results
+        }
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"\nRunning {len(TEST_QUESTIONS)} questions...\n")
-    print(f"{'#':<4} {'Result':<8} {'Conf':<7} {'Expected':<25} {'Got':<25} {'Question'}")
-    print("-" * 120)
 
     for i, (question, expected, tag) in enumerate(TEST_QUESTIONS, 1):
         start = time.time()
         result = bot.get_answer(question, session_id)
         elapsed = time.time() - start
+        total_time += elapsed
 
         if result is None:
             got_cat = "UNKNOWN"
             confidence = 0
             reply = ""
+            generated = False
         elif result.get("suggestions"):
             got_cat = "SUGGESTIONS"
             confidence = 0
             reply = ""
+            generated = False
         else:
             got_cats = result.get("categories", [])
             got_cat = got_cats[0] if got_cats else result.get("intent", "???")
             confidence = result.get("confidence", 0)
             reply = result.get("reply", "")
+            generated = result.get("generated", False)
 
-        # Check if correct (primary category matches expected)
+        # Check if correct
         is_correct = (got_cat.lower().strip() == expected.lower().strip())
-
-        # Also accept if expected is in any of the returned categories
         if not is_correct and result and result.get("categories"):
             is_correct = expected.lower() in [c.lower() for c in result.get("categories", [])]
 
-        status = "OK" if is_correct else "WRONG"
         if is_correct:
             correct += 1
+            status_icon = "+"
         else:
             wrong += 1
+            status_icon = "X"
             wrong_details.append({
                 "num": i,
                 "question": question,
@@ -190,13 +240,32 @@ def run_test():
                 "got": got_cat,
                 "all_categories": result.get("categories", []) if result else [],
                 "confidence": confidence,
-                "reply": reply[:100] if reply else "",
+                "reply": reply,
                 "tag": tag,
-                "time_ms": round(elapsed * 1000)
+                "time_ms": round(elapsed * 1000),
+                "generated": generated
             })
 
-        conf_str = f"{confidence:.0%}" if confidence else "—"
-        print(f"{i:<4} {status:<8} {conf_str:<7} {expected:<25} {got_cat:<25} {question[:50]}")
+        # Print like real chat
+        conf_pct = f"{confidence:.0%}" if confidence else "---"
+        gen_tag = " [LLM]" if generated else ""
+        time_str = f"{elapsed:.1f}s"
+        acc_pct = f"{correct/i:.0%}"
+
+        print(f"  [{status_icon}] Q{i:>3}/{len(TEST_QUESTIONS)}: {question}")
+        if reply:
+            short_reply = reply.replace("\n", " ")
+            if len(short_reply) > 120:
+                short_reply = short_reply[:120] + "..."
+            print(f"         Bot: {short_reply}")
+        elif got_cat == "SUGGESTIONS":
+            print(f"         Bot: (Did you mean? suggestions shown)")
+        else:
+            print(f"         Bot: (no answer)")
+        print(f"         [{got_cat}] {conf_pct}{gen_tag} | {time_str} | Running: {acc_pct}")
+        if not is_correct:
+            print(f"         Expected: {expected}")
+        print()
 
         results.append({
             "num": i,
@@ -205,38 +274,45 @@ def run_test():
             "got": got_cat,
             "correct": is_correct,
             "confidence": confidence,
+            "reply": reply,
             "tag": tag,
-            "time_ms": round(elapsed * 1000)
+            "time_ms": round(elapsed * 1000),
+            "generated": generated
         })
 
+        # Save after every question
+        save_progress()
+
     # ============ SUMMARY ============
-    print("\n" + "=" * 70)
+    avg_time = total_time / len(TEST_QUESTIONS)
+    print("=" * 70)
     print(f"  RESULTS: {correct}/{len(TEST_QUESTIONS)} correct ({correct/len(TEST_QUESTIONS):.0%})")
     print(f"  Wrong: {wrong}")
+    print(f"  Total time: {total_time:.1f}s | Avg: {avg_time:.2f}s/question")
     print("=" * 70)
 
     # Break down by tag
     tag_stats = {}
     for r in results:
-        tag = r["tag"]
-        if tag not in tag_stats:
-            tag_stats[tag] = {"total": 0, "correct": 0}
-        tag_stats[tag]["total"] += 1
+        t = r["tag"]
+        if t not in tag_stats:
+            tag_stats[t] = {"total": 0, "correct": 0}
+        tag_stats[t]["total"] += 1
         if r["correct"]:
-            tag_stats[tag]["correct"] += 1
+            tag_stats[t]["correct"] += 1
 
     print("\n--- Accuracy by Question Type ---")
     print(f"{'Type':<20} {'Score':<15} {'Accuracy'}")
     print("-" * 50)
-    for tag, stats in sorted(tag_stats.items(), key=lambda x: x[1]["correct"]/x[1]["total"]):
+    for t, stats in sorted(tag_stats.items(), key=lambda x: x[1]["correct"]/x[1]["total"]):
         acc = stats["correct"] / stats["total"]
         bar = "#" * round(acc * 10) + "." * (10 - round(acc * 10))
-        print(f"{tag:<20} {stats['correct']}/{stats['total']:<12} {bar} {acc:.0%}")
+        print(f"{t:<20} {stats['correct']}/{stats['total']:<12} {bar} {acc:.0%}")
 
     # Wrong answers detail
     if wrong_details:
         print(f"\n{'=' * 70}")
-        print(f"  WRONG ANSWERS — DETAILED ANALYSIS ({len(wrong_details)} questions)")
+        print(f"  WRONG ANSWERS ({len(wrong_details)})")
         print(f"{'=' * 70}\n")
 
         for w in wrong_details:
@@ -244,39 +320,16 @@ def run_test():
             print(f"     Expected: {w['expected']}")
             print(f"     Got:      {w['got']} (all: {w['all_categories']})")
             print(f"     Conf:     {w['confidence']:.0%}")
-            print(f"     Reply:    {w['reply'][:80]}...")
-            print(f"     Type:     {w['tag']}")
-            print(f"     Why wrong: ", end="")
-
-            # Diagnose WHY it's wrong
-            if w['got'] == "UNKNOWN":
-                print("Bot found NO matching category at all.")
-            elif w['got'] == "SUGGESTIONS":
-                print("Confidence too low — showed 'Did you mean?' suggestions.")
-            elif w['confidence'] < 0.40:
-                print(f"Very low confidence ({w['confidence']:.0%}) — weak semantic match.")
-            else:
-                print(f"Matched '{w['got']}' instead of '{w['expected']}' — semantic confusion between similar topics.")
+            short = w['reply'].replace('\n', ' ')[:100] if w['reply'] else "(none)"
+            print(f"     Reply:    {short}")
+            gen = " [LLM generated]" if w.get('generated') else ""
+            print(f"     Type:     {w['tag']}{gen}")
             print()
 
-    # Save full results to JSON
-    output = {
-        "total": len(TEST_QUESTIONS),
-        "correct": correct,
-        "wrong": wrong,
-        "accuracy": round(correct / len(TEST_QUESTIONS), 4),
-        "by_tag": {tag: {"total": s["total"], "correct": s["correct"],
-                         "accuracy": round(s["correct"]/s["total"], 4)}
-                   for tag, s in tag_stats.items()},
-        "wrong_details": wrong_details,
-        "all_results": results
-    }
-
-    with open("test_100_categories_results.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-
-    print(f"\nFull results saved to: test_100_categories_results.json")
-    return output
+    # Final save (already saved incrementally, this is the final version)
+    save_progress()
+    print(f"\nResults saved to: {output_file}")
+    return
 
 
 if __name__ == "__main__":

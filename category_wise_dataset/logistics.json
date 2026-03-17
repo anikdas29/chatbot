@@ -13,5 +13,12 @@
         "Logistics holo product ek jaygay theke arek jaygay niye jaoa ar store korar planning ar execution — efficiently ar kom khoroche.",
         "Logistics is a part of the supply chain — it specifically handles transportation, warehousing, and distribution, while supply chain covers the entire process from sourcing to customer delivery.",
         "Types of logistics include inbound logistics (receiving materials), outbound logistics (shipping to customers), reverse logistics (returns), and third-party logistics (3PL outsourcing)."
+    ],
+    "feelings": [
+        {
+            "question": "logistics business ki?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about logistics holon:\n1. [logistics] Q: logistics ki\n    A: The main stages are sourcing raw materials, manufacturing, wareshinig, transportation, distribution, and delivery to the end customer. Each stage needs careful coordination.\n2. [supply_chain] Q: supply chain ki\n    A: The main stages are sourcing raw materials, manufacturing, warehousing, transportation, distribution, and delivery to the end consumer. Each stage requires careful planning and execution.\n3. [wholesale] Q: wholesalkii\n    A: Wholegain business: buy in bulk at lower prices,"
+        }
     ]
 }

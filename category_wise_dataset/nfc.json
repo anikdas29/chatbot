@@ -13,5 +13,12 @@
         "Learn more about nfc to stay informed and make better decisions.",
         "Nfc is important in today's connected world.",
         "Understanding nfc helps you navigate the modern digital landscape."
+    ],
+    "feelings": [
+        {
+            "question": "nfc payment ki?",
+            "sentiment": "curious",
+            "answer": "NFC (Near Field Communication) payment system uses contactless payment terminals and smartphones to transfer money or data without the need for physical contact between the devices. It is a contactless payment technology that allows users to make payments by scanning a NFC chip with their mobile phones, similar to how they would use a credit card at a store."
+        }
     ]
 }

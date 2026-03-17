@@ -11,5 +11,17 @@
         "Planning for ride sharing in advance ensures a better experience.",
         "Ride Sharing can be an amazing experience. Research and prepare before you go.",
         "Tips for ride sharing: plan ahead, budget wisely, be flexible, and enjoy the journey!"
+    ],
+    "feelings": [
+        {
+            "question": "ride sharing apps ki ki ache?",
+            "sentiment": "curious",
+            "answer": "Nice question! Ride Sharing can be an amazing experience. Research and prepare before you go.\n\nHope this helps!"
+        },
+        {
+            "question": "ride sharing apps ki ki ache?",
+            "sentiment": "curious",
+            "answer": "Ki ki achche do\nBharo mahshiv kr koyare dil milenge, jo ride sharing kise bolta hain, abhi baat karne wale ki ek paisa hoga."
+        }
     ]
 }

@@ -24,6 +24,11 @@
             "question": "how to export my data?",
             "sentiment": "curious",
             "answer": "Import holo bidesh theke product ante, ar export holo nijher desh theke bidesh e product pathano. Duita miliye international trade.\n\nAlso regarding database: Start with MySQL or PostgreSQL for relational data.\n\nAlso regarding environment: Small steps matter: reduce plastic use, carry reusable bags, save water and electricity, plant trees, and choose public transport when possible."
+        },
+        {
+            "question": "import export business ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Import is bringing goods into a country from abroad, while export is sending goods from your country to another. Together, they form international trade. And To start an import/export business, get necessary licenses (IRC/ERC in Bangladesh), research market demand, find reliable suppliers/buyers, understand customs regulations, and arrange shipping."
         }
     ]
 }

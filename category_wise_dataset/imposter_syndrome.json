@@ -12,5 +12,12 @@
         "Tips: acknowledge the feeling, keep a success journal, talk to others (they feel it too), and remember that nobody knows everything.",
         "Reframe: 'I don't belong here' → 'I'm learning and growing.' You were chosen for a reason. Trust the evidence.",
         "Imposter syndrome ki: nijer qualifications thaka shotteo mone hoy 'ami deserving na'. 70% professionals feel this."
+    ],
+    "feelings": [
+        {
+            "question": "imposter syndrome ki?",
+            "sentiment": "curious",
+            "answer": "Korchi nahi hua toh kya imositer syndrome ki?"
+        }
     ]
 }

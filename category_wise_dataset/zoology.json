@@ -13,5 +13,12 @@
         "Topics: animal behavior, comparative anatomy, taxonomy, wildlife conservation, animal physiology, and ecology.",
         "Career: wildlife biologist, zoo keeper, veterinarian, marine biologist, conservation officer, researcher.",
         "Zoology covers everything from microscopic organisms to blue whales. Understanding animals helps us protect biodiversity."
+    ],
+    "feelings": [
+        {
+            "question": "zoology animal science ki?",
+            "sentiment": "curious",
+            "answer": "Zooology is the branch of biology that studies animals, including their behavior, physiology, classification, evolution, and ecology. It advocates for the ethical treatment of all sentient beings."
+        }
     ]
 }

@@ -12,5 +12,12 @@
         "Tips: have stable income first, get travel insurance, use coworking spaces, manage time zones, and budget carefully.",
         "Popular destinations: Bali, Chiang Mai, Lisbon, Medellín, and Tbilisi — affordable, good WiFi, and nomad communities.",
         "Digital nomad ki: laptop niye ghure ghure kaj kora. Remote job thakle, anywhere boshei kaj kora jay."
+    ],
+    "feelings": [
+        {
+            "question": "digital nomad lifestyle ki?",
+            "sentiment": "curious",
+            "answer": "Digital nomads need a reliable income, travel-friendly lifestyle, and the ability to work remotely while traveling."
+        }
     ]
 }

@@ -13,5 +13,12 @@
         "Stay hydrated, manage stress, get enough sleep, try cold compress, limit caffeine.",
         "Headache tips: consult a professional for personalized advice. Don't self-diagnose or self-treat serious conditions.",
         "Learn more about headache from trusted medical sources. Always follow your doctor's advice."
+    ],
+    "feelings": [
+        {
+            "question": "how to deal with headache?",
+            "sentiment": "curious",
+            "answer": "Headache relief tips:\n1. Relaxation techniques: Deep breathing, progressive muscle relaxation, or yoga can help alleviate pain and reduce stress.\n2. Static stretching: Hold a static pose for 5-10 seconds to release tension in the neck, shoulders, and back.\n3. Exercise: Walking, cycling, or swimming can increase blood flow to the head, reducing inflammation and relieving pain.\n4. Stay hydrated: Drink water regularly throughout the day for better circulation.\n5. Cognitive-behavioral therapy (CBT): Talking to a mental health professional about triggers or"
+        }
     ]
 }

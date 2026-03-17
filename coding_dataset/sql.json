@@ -45,12 +45,12 @@
         {
             "question": "sql join types explain koro",
             "sentiment": "curious",
-            "answer": "Interesting! SQL (Structured Query Language) is the standard language for managing and querying relational databases. It's essential for any developer or data professional working with structured data.\n\nAr kichu jante chaile bolo!"
+            "answer": "Retrieved knowledge about SQL:\n1. [sql] Q: what are joins in SQL? A: SQL (Structured Query Language) is the standard language for managing and querying relational databases. It covers 80% of daily use cases, including SELECT, INSERT, UPDATE, DELETE.\n2. [database] Q: relational database explained A: SQL (Structured Query Languaire) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use cases.\n3. [gpt_model] Q: openai er gpt model explain koro A: GPTA holo OpenAI er languaage"
         },
         {
-            "question": "sql join types explain koro",
+            "question": "sql vs nosql difference ki?",
             "sentiment": "curious",
-            "answer": "Good one! SQL (Structured Query Language) is the standard language for managing and querying relational databases. It's essential for any developer or data professional working with structured data. And SQL is one of the most important skills in tech."
+            "answer": "Good one! SQL lets you create, read, update, and delete data in relational databases. Key concepts include SELECT queries, JOINs, GROUP BY, subqueries, and indexing for performance optimization."
         }
     ]
 }

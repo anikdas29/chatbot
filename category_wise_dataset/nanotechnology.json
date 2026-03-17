@@ -13,5 +13,12 @@
         "Applications: drug delivery, water purification, stronger materials, electronics, and sunscreen (nano zinc oxide).",
         "Future: self-assembling structures, nano-robots for medicine, quantum computing components, and ultra-efficient solar cells.",
         "Nanotech is already in daily life: stain-resistant fabrics, scratch-resistant coatings, and improved electronics."
+    ],
+    "feelings": [
+        {
+            "question": "nanotechnology ki?",
+            "sentiment": "curious",
+            "answer": "Nanotechnology is a field that involves the manipulation of matter at an atomic/molecular scale (1-100 nanometers), with the aim to create new materials, devices, and applications. It has emerged as a rapidly growing area in science and technology due to its potential for innovation and advancement."
+        }
     ]
 }

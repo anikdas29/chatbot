@@ -40,11 +40,6 @@
             "question": "how to become a hacker",
             "sentiment": "curious",
             "answer": "Nice question! Ethical hacking path: learn Linux, networking, and Python first. Then study OWASP Top 10, get CEH or CompTIA Security+ cert, and practice on CTF platforms."
-        },
-        {
-            "question": "what is cybersecurity?",
-            "sentiment": "curious",
-            "answer": "Nice question! Cybersecurity = protecting systems, networks, and data from attacks. Areas: network security, web security, malware analysis, penetration testing, and forensics.\n\nHope this helps!"
         }
     ]
 }

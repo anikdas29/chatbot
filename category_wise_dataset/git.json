@@ -107,24 +107,9 @@
             "answer": "Valo question! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
         },
         {
-            "question": "how to use git branch?",
-            "sentiment": "curious",
-            "answer": "Valo question! Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!"
-        },
-        {
             "question": "github pull request kivabe kore?",
             "sentiment": "curious",
-            "answer": "Interesting! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
-        },
-        {
-            "question": "how to use git branch?",
-            "sentiment": "curious",
-            "answer": "Interesting! Git is a version control system - it tracks changes in your code so you can go back, collaborate, and manage projects. Every developer must learn it!\n\nAro kichu lagbe bolo!"
-        },
-        {
-            "question": "github pull request kivabe kore?",
-            "sentiment": "curious",
-            "answer": "Great question! GitHub workflow: create repo, clone it, make changes, git add, git commit, git push. For collaboration: fork, branch, pull request, merge."
+            "answer": "GitHub pull requests are used to submit changes to a repository for review and merging into the main branch."
         }
     ]
 }

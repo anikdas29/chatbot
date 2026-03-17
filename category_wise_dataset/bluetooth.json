@@ -13,5 +13,12 @@
         "Learn more about bluetooth to stay informed and make better decisions.",
         "Bluetooth is important in today's connected world.",
         "Understanding bluetooth helps you navigate the modern digital landscape."
+    ],
+    "feelings": [
+        {
+            "question": "bluetooth technology ki?",
+            "sentiment": "curious",
+            "answer": "BlueTooth is an important technology in today's connected world that connects devices wirelessly using radio waves. It has evolved from the older Bluetooth 1.0 standard and now supports up to 2 Mbps data transmission rates, making it suitable for high-speed wireless communication between devices such as smartphones, laptops, and wearable fitness trackers. BlueTooth technology is moving fast with new advancements such as AI/ML, Cloud, Cybersecurity, and IoT (Internet of Things) that are transforming the way we live, work, and play."
+        }
     ]
 }

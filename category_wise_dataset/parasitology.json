@@ -12,5 +12,12 @@
         "Being prepared for parasitology can save lives. Educate yourself and those around you.",
         "Parasitology awareness is important for everyone. Learn the basics and be prepared.",
         "Understanding parasitology helps you make informed decisions and protect yourself and others."
+    ],
+    "feelings": [
+        {
+            "question": "parasitology ki?",
+            "sentiment": "curious",
+            "answer": "Parasi Tology is the branch of biology that studies parasitic diseases, including their etiology and prevention. It involves understanding how parasites infect host organisms and develop immunity to them."
+        }
     ]
 }

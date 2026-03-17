@@ -12,5 +12,12 @@
         "Exploring food truck is a delicious journey. Try different varieties and styles.",
         "The world of food truck is rich and diverse. Start with the basics and expand your palate.",
         "Food Truck has a fascinating history and culture behind it. Learn and enjoy!"
+    ],
+    "feelings": [
+        {
+            "question": "food truck business ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Food truck: mobile restaurant. Lower startup than traditional restaurant. Popular in cities.\n\nAr kichu jante chaile bolo!"
+        }
     ]
 }

@@ -13,5 +13,12 @@
         "Don't use cotton swabs inside ear, limit headphone volume, and protect from loud noise.",
         "Ear Care tips: consult a professional for personalized advice. Don't self-diagnose or self-treat serious conditions.",
         "Learn more about ear care from trusted medical sources. Always follow your doctor's advice."
+    ],
+    "feelings": [
+        {
+            "question": "ear care tips ki?",
+            "sentiment": "curious",
+            "answer": "Ear Care Tips: Consult a Professional for Personalized Advice\n1. Ear Care Tips: Don't Self-Diagnose or Self-Treat Serious Conditions\n2. Ear Care Tips: Consult a Professional for Personalized Advice\n3. Ear Care Tips: Don't Self-Diagnose or Self-Treat Serious Conditions\n4. Ear Care Tips: Consult a Professional for Personalized Advice\n5. Ear Care Tips: Don't Self-Diagnose or Self-Treat Serious Conditions\n6. Ear Care Tips: Consult a Professional for Personalized Advice\n7."
+        }
     ]
 }

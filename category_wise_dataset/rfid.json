@@ -13,5 +13,12 @@
         "Learn more about rfid to stay informed and make better decisions.",
         "Rfid is important in today's connected world.",
         "Understanding rfid helps you navigate the modern digital landscape."
+    ],
+    "feelings": [
+        {
+            "question": "rfid technology ki?",
+            "sentiment": "curious",
+            "answer": "knowledge suggests that rfiD is an essential component in the modern connected world, with examples such as smart thermostats, fitness trackers, security cameras, and IoT devices. The question also mentions technologies like AI/ML, cloud computing, cybersecurity, and IoT. Follow TechCrunch or The Verge for up-to-date information on these areas of technology."
+        }
     ]
 }

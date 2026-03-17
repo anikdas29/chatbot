@@ -59,7 +59,7 @@
         {
             "question": "best cricket player of all time?",
             "sentiment": "happy",
-            "answer": "Nice! Sports tip: follow ESPN, BBC Sport, or Cricbuzz for cricket. Google 'football scores today' for instant live results. Additionally, For live scores and sports news, check ESPN, Cricinfo (for cricket), or just Google the sport + 'score' for instant results.\n\nAro kichu lagbe bolo!"
+            "answer": "Answer according to:\n1. [sports] Q: best cricketers in the world\n    A: Popular: Cricket, Football, Basketball, Tennis. Stay updated on ESPN or Google Sports.\n2. [cricket] Q: best cricketers ke ke?\n    A: Cricket legend sachin tendukar, sir don bradman, virat kohli, and brian lara are considered one of the best all-rounders in cricket history. Bangladesh er shaki bahar is considered one of the best all-rounders in cricket history.\n3. [badminton] Q: best badminton players ke"
         }
     ]
 }

@@ -15,5 +15,17 @@
         "Dissertation holo PhD er jonno ekta boro research project. Eta thesis er theke boro ar more original — notun knowledge create korte hoy. Usually 200-300+ pages hoy.",
         "Writing a dissertation involves choosing a research topic, forming a committee, passing qualifying exams, writing a proposal, conducting research, and defending your findings before your committee.",
         "A dissertation defense is the final oral examination where you present and defend your research. Prepare by practicing your presentation, anticipating questions, and knowing your work inside and out."
+    ],
+    "feelings": [
+        {
+            "question": "dissertation ki?",
+            "sentiment": "curious",
+            "answer": "knowledge states that a dissertation is a research project with original and specific research questions discussed by the adviser, proposal for completion, research conduct, and systematic completion of all aspects. The planning of important elements such as research design, analysis, evidence collection, and proper referencing are required in academic writing. The recommended academic writing style is formal tone, third person, and proper referencing. Finally, the benefits of studying abroad include free access to knowledge, quiet study space, community hubs, and programs for all ages."
+        },
+        {
+            "question": "resume kivabe likhi?",
+            "sentiment": "curious",
+            "answer": "A resume is a document used to introduce yourself to potential employers. It typically includes information about your education, work experience, skills, and achievements. The purpose of a resume is to showcase your qualifications and experiences that will benefit the job you're applying for."
+        }
     ]
 }

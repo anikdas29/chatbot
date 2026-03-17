@@ -13,5 +13,12 @@
         "Bookkeeping holo doinondin financial transaction gulo — bikri, kena, receipt, payment — niyomito bhabe record kora.",
         "Bookkeeping is the foundation of accounting — it records transactions, while accounting analyzes, interprets, and reports on that recorded data for decision-making.",
         "Common bookkeeping tools include QuickBooks, Xero, FreshBooks, Wave, and even Excel spreadsheets. These help automate recording and organizing financial data."
+    ],
+    "feelings": [
+        {
+            "question": "bookkeeping ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Bookkeeping is the systematic recording of daily financial transactions into organized accounts."
+        }
     ]
 }

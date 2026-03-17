@@ -12,5 +12,12 @@
         "Get calcium and vitamin D, weight-bearing exercise, avoid smoking and excess alcohol.",
         "Bone Health tips: consult a professional for personalized advice. Don't self-diagnose or self-treat serious conditions.",
         "Learn more about bone health from trusted medical sources. Always follow your doctor's advice."
+    ],
+    "feelings": [
+        {
+            "question": "bone health er jonno ki khai?",
+            "sentiment": "curious",
+            "answer": "Sure,  retrieved knowledge, here's an answer to your question about boner health:\n\n1. [bone_health] Q: what is boner health\n    A: Boner health refers to the prevention and treatment of bone-related issues such as osteoporosis, fractures, and bone density loss. Always follow your doctor's advice for personalized recommendations based on your medical history and current condition."
+        }
     ]
 }

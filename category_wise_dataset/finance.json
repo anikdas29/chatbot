@@ -45,14 +45,19 @@
             "answer": "Nice question! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest. Plus, The best time to invest was yesterday."
         },
         {
+            "question": "bitcoin ki safe invest?",
+            "sentiment": "curious",
+            "answer": "Nice question! The best time to invest was yesterday. Start small with index funds, avoid high-fee products, and let compound interest do the heavy lifting.\n\nHope this helps!"
+        },
+        {
             "question": "how to save money?",
             "sentiment": "curious",
-            "answer": "Interesting! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest. Moreover, The best time to invest was yesterday."
+            "answer": "Retrieved knowledge about saving money:\n1. Monthly budget: Set aside 20% of your income for savings each month.\n2. Save 20% income: This is the minimum amount you should set aside to save regularly.\n3. Invest early: Start investing as soon as possible, even if it's just a few dollars per day.\n4. Emergency fund: Create an emergency fund of at least three months' worth of living expenses.\n5. Avoid debt: Pay off your credit card balances and other high-interest debts first before investing in new ones.\n6. Compound interest: Use compounding to grow your savings"
         },
         {
             "question": "bitcoin ki safe invest?",
             "sentiment": "curious",
-            "answer": "Nice question! The best time to invest was yesterday. Start small with index funds, avoid high-fee products, and let compound interest do the heavy lifting.\n\nHope this helps!"
+            "answer": "Yes, Bitcoin is considered a safe investment as it has a high level of trust and security due to its decentralized nature. It's also considered an alternative currency for some people who are wary of traditional banking systems."
         }
     ]
 }

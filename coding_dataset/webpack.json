@@ -41,6 +41,16 @@
             "question": "webpack vs vite which is faster?",
             "sentiment": "curious",
             "answer": "Good one! Webpack is the most mature JavaScript bundler with a massive plugin ecosystem. While newer tools like Vite are faster for development, Webpack remains powerful for complex build configurations.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "webpack vs vite which is faster?",
+            "sentiment": "curious",
+            "answer": "Webpack is the most powerful and mature JavaScript bundler, while Vité is faster for development but newer tools like Webpack remain powerful for complex build configurations."
+        },
+        {
+            "question": "webpack configuration kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Webpack's configuration can be intimidating but it's incredibly flexible. Key concepts are entry points, output, loader(transform files), plugins (extend functionality), and mode (development vs production)."
         }
     ]
 }

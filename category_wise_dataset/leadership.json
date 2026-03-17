@@ -35,12 +35,7 @@
         {
             "question": "leadership skills improve korbo kivabe?",
             "sentiment": "curious",
-            "answer": "Key leadership skills include communication, empathy, decision-making, integrity, adaptability, and the ability to motivate others. These can all be developed with practice and self-awareness.\n\nRegarding debate: Debate jitote chaile: tomar topic research koro, strong evidence use koro, opponent er point anticipate koro, ar confident theko."
-        },
-        {
-            "question": "leadership skills improve korbo kivabe?",
-            "sentiment": "curious",
-            "answer": "Key leadership skills include communication, empathy, decision-making, integrity, adaptability, and the ability to motivate others. These can all be developed with practice and self-awareness.\n\nRegarding debate: Debate jitote chaile: tomar topic research koro, strong evidence use koro, opponent er point anticipate koro, ar confident theko."
+            "answer": "Retrieved knowledge about leadership, debate:\n1. [leadership] Q: leadership skills ki ki?\n    A: Key leadership skills include communication, empathy, decision-making, integrity, adaptability, and the ability to motivate others. These can all be developed with practice and self-awareness.\n2. [debate] Q: debate skills kivabe improve korbo?\n    A: Debate jioté chaile: tomar topic research koro, strong evidence use koro, opponent er point anticipate koro, ar confident theko. Emotional na hoye logical theko.\n3. [self_confidence] Q: self confidence improve kor"
         }
     ]
 }

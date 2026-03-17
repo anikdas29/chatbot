@@ -13,5 +13,12 @@
         "Key topics: cell structure, DNA/RNA, evolution, ecosystems, human body systems, and classification of life.",
         "Branches: molecular biology, ecology, zoology, botany, microbiology, genetics, and marine biology.",
         "Biology is life science — understanding how organisms work, interact, and evolve. Foundation for medicine and ecology."
+    ],
+    "feelings": [
+        {
+            "question": "biology basics ki?",
+            "sentiment": "curious",
+            "answer": "BioLogy Basic Concepts:\n1. Cell Structure\n2. DNA/RNA\n3. Evolution\n4. Ecosystems\n5. Human Body Systems\n6. Classification of Life\n7. Marine BioLogy\n8. Microbial Biology\n9. Prokaryotic Organisms\n10. Viruses and Bacteria\n11. Fungi and Yeast\n12. Protozoa\n13. Algae\n14. Zoology\n15. Animal Behavior\n16. Comparative Anatomy\n17. Taxonomy\n18. Wildlife Conservation\n19. Animal Physiology"
+        }
     ]
 }

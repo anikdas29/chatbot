@@ -13,5 +13,12 @@
         "Supply chain holo raw material theke product toiri kore customer er haate pouche deya porjonto puro process — supplier, manufacturer, distributor sob miliye.",
         "The main stages are sourcing raw materials, manufacturing, warehousing, transportation, distribution, and delivery to the end customer. Each stage needs careful coordination.",
         "Supply chain management is crucial because it reduces costs, improves efficiency, ensures timely delivery, and directly impacts customer satisfaction and a company's profitability."
+    ],
+    "feelings": [
+        {
+            "question": "supply chain management ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! A supply chain is the entire network of organizations, people, activities, and resources involved in creating and delivering a product from raw materials to the end customer."
+        }
     ]
 }

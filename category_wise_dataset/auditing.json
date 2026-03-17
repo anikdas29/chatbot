@@ -13,5 +13,12 @@
         "Auditing holo company er financial statement ar record porikkhha kora — shob kichu thik ache kina, ain mana hocche kina seta check kora.",
         "The main types are internal audits (done by the company's own team), external audits (done by independent firms), and government audits (done by tax authorities).",
         "Auditing is important because it builds trust with investors and stakeholders, detects fraud and errors, ensures compliance with regulations, and improves financial practices."
+    ],
+    "feelings": [
+        {
+            "question": "auditing process ki?",
+            "sentiment": "curious",
+            "answer": "The audiiting process involves conducting a thorough evaluation and analysis of research papers to ensure that they meet certain criteria for publication in reputable journals or academic conferences. The reviewers methodology checks the findings, suggestions, and key processes of peer-reviewed literature, ensuring its accuracy and credibility."
+        }
     ]
 }

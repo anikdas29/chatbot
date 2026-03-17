@@ -13,5 +13,12 @@
         "Customs holo shorkari protisthan ja desh e product asha-jaoa niyontron korey, duty/tax joma korey, ar trade ain enforce korey.",
         "Customs officials inspect goods at borders, airports, and ports to ensure they comply with regulations, collect import duties, prevent smuggling, and protect national security.",
         "Customs clearance involves submitting required documents, paying applicable duties and taxes, and getting goods inspected and approved for entry into or exit from a country."
+    ],
+    "feelings": [
+        {
+            "question": "customs rules when traveling",
+            "sentiment": "curious",
+            "answer": "Interesting! Customs is the government authority that regulates the flow of goods in and out of a country, collecting duties and taxes and enforcing trade laws."
+        }
     ]
 }

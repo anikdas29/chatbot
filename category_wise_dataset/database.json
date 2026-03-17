@@ -41,6 +41,21 @@
             "question": "i need help with my database",
             "sentiment": "confused",
             "answer": "Simply put: Start with MySQL or PostgreSQL for relational data. For NoSQL, try MongoDB. Practice on SQLBolt.com or W3Schools SQL tutorial - both free!"
+        },
+        {
+            "question": "how to connect mongodb with node?",
+            "sentiment": "curious",
+            "answer": "To connect MongoDB with Node.js, you can use a library like Mongoose or mongoose-mongo-uri. These libraries provide schema validation and middleware for MongoDB in Node apps. Here's an example of connecting to MongoDB using Mongoose:\n```javascript\nconst { MONGO_URI } = process.env; // replace with your own connection string\nconst mongoose = require('mongoose');\n\n// connect to the database\nmongoose.connect(MONGO_URI, { useNewUrlParser: true });\n\n// create a new schema for our model\nconst Schema = mongoose.Schema;\nconst UserSchema = new Schema({\n  name: String,"
+        },
+        {
+            "question": "database indexing kivabe performance improve kore?",
+            "sentiment": "curious",
+            "answer": "Nice question! SQL vs NoSQL: SQL (MySQL, PostgreSQL) = structured, tables, relations. NoSQL (MongoDB, Redis) = flexible, documents, fast. Choose based on your data. Moreover, Start with MySQL or PostgreSQL for relational data.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "database sharding vs replication difference ki?",
+            "sentiment": "curious",
+            "answer": "SQL vs NoSQL: SQL (MySQL, PostgreSQL) = structured, tables, relations. NoSQL (MongoDB, Redis) = flexible, documents, fast. Choose based on your data.\n\nAbout mongodb: MongoDB shines for content management, IoT, real-time analytics, and mobile apps."
         }
     ]
 }

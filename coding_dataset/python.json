@@ -105,12 +105,37 @@
         {
             "question": "why python is so populer?",
             "sentiment": "curious",
-            "answer": "Interesting! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+            "answer": "Great question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting. Also, Python syntax is simple — no semicolons, no curly braces, just indentation."
         },
         {
             "question": "why python is so populer?",
             "sentiment": "curious",
-            "answer": "Great question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting. Also, Python syntax is simple — no semicolons, no curly braces, just indentation."
+            "answer": "knowledge answers the question by explaining that Python's popularity is attributed to its clean syntax, simplicity, excellent performance, and strong community support. It also highlights the language's versatility in web development, data science, AI, automation, and scripting. Additionally, it mentions Go's static typing and Java's strength in large systems programming. Ruby is known for its elegant syntax and ease of use, while Lua is used in game development due to its lightweight nature."
+        },
+        {
+            "question": "why python is so populer?",
+            "sentiment": "curious",
+            "answer": "knowledge answers the question by explaining that Python is a popular programming language due to its simplicity, ease of use, and excellent performance. It's known for being beginner-friendly and has a strong community with dedicated developers who offer support and resources for newcomers. Additionally, Python is used in various fields such as web development, data science, AI, automation, and scripting, making it an attractive choice for those looking to learn or advance their skills in these areas."
+        },
+        {
+            "question": "what is python?",
+            "sentiment": "curious",
+            "answer": "Nice question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "python list vs tuple vs set difference ki?",
+            "sentiment": "curious",
+            "answer": "Answer: In Python, a list is a mutable sequence of objects, while a tuple represents a fixed-size sequence. A set is a collection of unique elements that have no order. Difference between these three types of sequences can be seen in the following examples:\n1. Lists:\n```python\nmy_list = [1, 2, 3]\nprint(my_list) # Output: [1, 2, 3]\nprint(type(my_list)) # Output: <class 'list'>\nmy_tuple = (1, 2, 3)\nprint(my_tuple) # Output: (1, 2, 3)\nprint("
+        },
+        {
+            "question": "python decorator kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Answer: In Python, the `decorator` keyword allows you to wrap a function around another function without modifying its behavior. For example, you can use it to add logging functionality to your code by wrapping your main function with a logger decorator like this:\n```python\nimport logging\nfrom functools import wraps\ndef my_function(x):\nlog = logging.getlogger(\"my_log\")\n@wraps(f)  # Adds a logger to the wrapped function\ndef wrapper(*args, **kwargs):\nlog.info(\"Executing: %s\", args + kwargs)\nreturn f(*args, **kwargs)\nreturn wrapper"
+        },
+        {
+            "question": "python GIL ki and multithreading e ki problem hoy?",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. I hear you. Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to start!\n\nHope this helps!\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
         }
     ]
 }

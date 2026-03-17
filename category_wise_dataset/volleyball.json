@@ -15,5 +15,12 @@
         "Volleyball te prottek team 3 bar ball touch korte pare net er upor diye pathate. Sets 25 points e hoy (deciding set 15 points). Rally point system e khela hoy, mane prottek rally te point hoy.",
         "Beach volleyball is a variation played on sand with 2 players per side instead of 6. It's a popular summer sport and Olympic event, requiring even more athleticism since there are fewer players covering the court.",
         "Volleyball requires teamwork, communication, and skills like serving, passing (bumping), setting, spiking, and blocking. A good spike can be nearly impossible to defend if timed and placed correctly."
+    ],
+    "feelings": [
+        {
+            "question": "volleyball court size ki?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about volleyball court size: Q: volleyball court size koto? A: Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarteres e khela hoy."
+        }
     ]
 }

@@ -30,16 +30,6 @@
             "question": "how to write unit test?",
             "sentiment": "curious",
             "answer": "Valo question! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
-        },
-        {
-            "question": "how to write unit test?",
-            "sentiment": "curious",
-            "answer": "Valo question! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them! Also, Software testing ensures your code works correctly."
-        },
-        {
-            "question": "how to write unit test?",
-            "sentiment": "curious",
-            "answer": "Valo question! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!\n\nAro kichu lagbe bolo!"
         }
     ]
 }

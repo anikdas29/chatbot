@@ -13,5 +13,12 @@
         "Angel investor holo emon dhoni byakti jara startup companies te nijer taka invest kore equity er exchange e, usually shuru dike jokhon risk beshi.",
         "Angel investors typically invest between $25,000 to $500,000 in a startup. You can find them through networking events, AngelList, startup accelerators, or personal connections.",
         "Angel investing carries high risk since most startups fail, but successful investments can yield massive returns if the startup grows into a successful company."
+    ],
+    "feelings": [
+        {
+            "question": "angel investing ki?",
+            "sentiment": "curious",
+            "answer": "Angel investors typically invest between $25,000 to $500,000 in a startup. They are known for their fast-growing businesses and significant ownership stake. VC firms usually take millions of dollars as investment."
+        }
     ]
 }

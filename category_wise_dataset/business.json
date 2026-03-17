@@ -46,12 +46,7 @@
         {
             "question": "how to start a business?",
             "sentiment": "curious",
-            "answer": "Valo question! To start a business: find a real problem people have, test your solution cheaply (MVP), get your first 10 customers, then scale.\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "how to start a business?",
-            "sentiment": "curious",
-            "answer": "Nice question! To start a business: find a real problem people have, test your solution cheaply (MVP), get your first 10 customers, then scale. Additionally, Identify a problem, validate idea, start small (MVP), manage finances, build online presence."
+            "answer": "To start a business, choose an idea you're passionate about, write a business plan, register your business, set up finances, and start marketing to your target customers."
         }
     ]
 }

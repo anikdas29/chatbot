@@ -139,10 +139,11 @@ class TinyLlamaGenerator:
             return None
 
         # Build retrieval context — top 5 Q&A pairs from semantic search
+        # Don't include [category] or Q:/A: labels — TinyLlama copies them into output
         rag_lines = []
         for i, ctx in enumerate(retrieved_context[:5], 1):
             rag_lines.append(
-                f"{i}. [{ctx['category']}] Q: {ctx['question']}\n   A: {ctx['answer']}"
+                f"{i}. {ctx['answer']}"
             )
         rag_context = "\n".join(rag_lines)
 
@@ -1399,6 +1400,129 @@ class ChatBot:
 
         return results
 
+    # Patterns for cleaning LLM output artifacts
+    _LLM_CLEAN_PATTERNS = [
+        (re.compile(r"\[[\w_]+\]\s*Q:", re.IGNORECASE), ""),              # [category] Q:
+        (re.compile(r"Retrieved knowledge about[^:]*:", re.IGNORECASE), ""),  # Retrieved knowledge about...
+        (re.compile(r"^Question:.*$", re.MULTILINE | re.IGNORECASE), ""),  # Question: ... lines
+        (re.compile(r"</s>"), ""),                                         # </s> tokens
+        (re.compile(r"<\|[^|]+\|>"), ""),                                  # <|system|>, <|user|> etc
+        (re.compile(r"^\s*\d+\.\s*\[[\w_]+\]", re.MULTILINE), ""),       # 1. [category_name]
+        (re.compile(r"^\s*A:\s*", re.MULTILINE), ""),                      # A: prefix
+        (re.compile(r"\n{3,}"), "\n\n"),                                   # Triple+ newlines → double
+    ]
+
+    def _clean_llm_output(self, text):
+        """Strip leaked internal format and detect garbage LLM output.
+        Returns None if output is garbage → caller falls back to dataset answer.
+        """
+        if not text:
+            return text
+
+        # ── Garbage detection (before cleaning) ──
+
+        # Check 1: Hindi/Devanagari hallucination — bot should output English/Bangla only
+        devanagari_chars = len(re.findall(r'[\u0900-\u097F]', text))
+        if devanagari_chars > 5:
+            logging.info(f"LLM garbage rejected: Hindi hallucination ({devanagari_chars} devanagari chars)")
+            return None
+
+        # Check 2: Too little real content (latin + bangla)
+        latin_chars = len(re.findall(r'[a-zA-Z]', text))
+        bangla_chars = len(re.findall(r'[\u0980-\u09FF]', text))
+        if latin_chars + bangla_chars < 15:
+            logging.info(f"LLM garbage rejected: too few real chars (latin={latin_chars}, bangla={bangla_chars})")
+            return None
+
+        # Check 3: Repetitive output — single word repeated 4+ times
+        words = text.lower().split()
+        if words:
+            from collections import Counter
+            word_counts = Counter(words)
+            for word, count in word_counts.items():
+                if count > 4 and len(word) > 2:
+                    logging.info(f"LLM garbage rejected: '{word}' repeated {count} times")
+                    return None
+
+        # ── Format cleaning ──
+        for pattern, replacement in self._LLM_CLEAN_PATTERNS:
+            text = pattern.sub(replacement, text)
+        # Clean up leftover whitespace
+        lines = [line.strip() for line in text.split("\n")]
+        lines = [line for line in lines if line]  # remove empty lines
+        text = "\n".join(lines)
+        # Final trim
+        text = text.strip()
+        # If cleaning removed everything, return None so fallback kicks in
+        return text if len(text) >= 10 else None
+
+    def _retrieve_rag_context_single(self, question, target_category, top_n=5):
+        """Retrieve top-N semantic results ONLY from the target category.
+        Prevents topic bleeding by restricting RAG context to one category.
+        Falls back to _retrieve_rag_context() if target has too few matches.
+        """
+        if self.faiss_index is None:
+            return []
+
+        query_emb = self.encoder.encode(question)
+        # Fetch more to filter by category
+        scores, indices = self._faiss_search(query_emb, top_k=top_n * 6)
+
+        results = []
+        seen = set()
+        for j, idx in enumerate(indices):
+            if idx < 0 or len(results) >= top_n:
+                break
+            score = float(scores[j])
+            if score < 0.15:
+                break
+
+            cat = self.labels[idx]
+            # Only keep results from the target category
+            if cat != target_category:
+                continue
+
+            matched_q = self.questions[idx]
+            store = self._get_store_for(cat)
+            answers = store.get_answers(cat)
+            if not answers:
+                continue
+
+            a_embs = self.encoder.encode(answers)
+            a_scores = self.encoder.similarity(query_emb, a_embs)
+            best_a_idx = a_scores.argmax()
+            best_answer = answers[best_a_idx]
+
+            key = f"{cat}:{best_answer[:50]}"
+            if key in seen:
+                continue
+            seen.add(key)
+
+            results.append({
+                "question": matched_q,
+                "answer": best_answer,
+                "category": cat,
+                "score": round(score, 3)
+            })
+
+        # Fallback: if single category has <2 results, supplement with category's full answer pool
+        if len(results) < 2:
+            store = self._get_store_for(target_category)
+            answers = store.get_answers(target_category)
+            if answers:
+                for ans in answers[:top_n - len(results)]:
+                    key = f"{target_category}:{ans[:50]}"
+                    if key not in seen:
+                        seen.add(key)
+                        results.append({
+                            "question": question,
+                            "answer": ans,
+                            "category": target_category,
+                            "score": 0.5
+                        })
+
+        return results
+
     # ========== Answer Finding & Refinement ==========
 
     def _find_best_answer(self, category, question, session_id=None):
@@ -1625,19 +1749,29 @@ class ChatBot:
         original = user_question.strip()
         cleaned = re.sub(r"[^\w\s]", "", original.lower()).strip()
 
-        # Follow-up check
+        # Follow-up check — with topic similarity verification
         if is_follow_up(cleaned):
             last_intent = self.db.get_last_intent(session_id) if session_id else None
             if last_intent and last_intent in self.category_store_map:
-                answer = self._find_best_answer(last_intent, cleaned, session_id)
-                if answer:
-                    sentiment = self.sentiment.detect(cleaned)
-                    answer = self._refine_answer(answer, cleaned, sentiment, last_intent, session_id)
-                    self._store_feeling(last_intent, original, sentiment, answer)
-                    if session_id:
-                        self.db.add_turn(session_id, original, answer, last_intent, 1.0, sentiment)
-                    logging.info(f"Q: {original} | FOLLOW-UP | Intent: {last_intent}")
-                    return {"reply": answer, "intent": last_intent, "confidence": 1.0, "categories": [last_intent]}
+                # Verify the current question is actually related to last_intent
+                # "messi vs ronaldo" after "quantum computing" should NOT be a follow-up
+                topic_name = last_intent.replace("_", " ")
+                q_emb = self.encoder.encode(cleaned)
+                topic_emb = self.encoder.encode(topic_name)
+                topic_sim = float(np.dot(q_emb.flatten(), topic_emb.flatten()))
+
+                if topic_sim >= 0.45:
+                    answer = self._find_best_answer(last_intent, cleaned, session_id)
+                    if answer:
+                        sentiment = self.sentiment.detect(cleaned)
+                        answer = self._refine_answer(answer, cleaned, sentiment, last_intent, session_id)
+                        self._store_feeling(last_intent, original, sentiment, answer)
+                        if session_id:
+                            self.db.add_turn(session_id, original, answer, last_intent, 1.0, sentiment)
+                        logging.info(f"Q: {original} | FOLLOW-UP | Intent: {last_intent} | TopicSim: {topic_sim:.2f}")
+                        return {"reply": answer, "intent": last_intent, "confidence": 1.0, "categories": [last_intent]}
+                else:
+                    logging.info(f"Q: {original} | FOLLOW-UP rejected | Intent: {last_intent} | TopicSim: {topic_sim:.2f} < 0.45")
 
         # Spell correction
         corrected = self.spell.correct(cleaned)
@@ -1659,10 +1793,9 @@ class ChatBot:
                     detected = detected_raw
 
         # Step 1b: Context-aware query enrichment
-        # If confidence is low/none and we have conversation history,
-        # the user is likely asking a sub-topic of the previous conversation.
+        # ONLY triggers when confidence is very low — prevents session pollution
         # e.g. prev="git and github?" → current="repositories ki?" → enrich to "git repositories ki?"
-        CONTEXT_ENRICH_THRESHOLD = 0.55
+        CONTEXT_ENRICH_THRESHOLD = 0.28
         best_conf = detected[0][1] if detected else 0
         if session_id and best_conf < CONTEXT_ENRICH_THRESHOLD:
             history = self.db.get_history(session_id, limit=2)
@@ -1734,8 +1867,9 @@ class ChatBot:
         }
         generated = False
         if self.generator.available and not (set(all_cats) & SKIP_LLM_CATS):
-            # Retrieve top-5 semantic search results with answers (RAG context)
-            rag_context = self._retrieve_rag_context(original, top_n=5)
+            # Single-category RAG: only feed the PRIMARY category's answers to LLM
+            # This prevents topic bleeding (e.g. carpooling answer talking about juggling)
+            rag_context = self._retrieve_rag_context_single(original, primary_cat, top_n=5)
 
             # Sliding Context Window: fetch last 3-5 conversation turns for pronoun resolution
             conv_history = None
@@ -1746,16 +1880,21 @@ class ChatBot:
                 llm_answer = self.generator.generate_rag(
                     question=original,
                     retrieved_context=rag_context,
-                    categories=all_cats,
+                    categories=[primary_cat],
                     conversation_history=conv_history
                 )
                 if llm_answer:
-                    merged_answer = llm_answer
-                    generated = True
-                    logging.info(
-                        f"RAG generated | Q: {original} | "
-                        f"Context: {[c['category'] for c in rag_context]}"
-                    )
+                    cleaned_llm = self._clean_llm_output(llm_answer)
+                    if cleaned_llm:
+                        merged_answer = cleaned_llm
+                        generated = True
+                        logging.info(
+                            f"RAG generated | Q: {original} | "
+                            f"Context: {[c['category'] for c in rag_context]}"
+                        )
+                    else:
+                        # LLM output was garbage — keep dataset answer (merged_answer unchanged)
+                        logging.info(f"LLM output rejected, using dataset answer | Q: {original}")
 
         # Step 5: Fallback — refine dataset answer with templates (if TinyLlama didn't generate)
         if not generated:

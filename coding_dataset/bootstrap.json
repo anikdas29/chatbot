@@ -13,5 +13,12 @@
         "Learn bootstrap from official docs and tutorials. Practice by building projects.",
         "Bootstrap is widely used in industry. Great skill to add to your portfolio.",
         "Start with bootstrap basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "bootstrap css framework ki?",
+            "sentiment": "curious",
+            "answer": "Ki na ho aye ki bhi bohot dikha sakte hain, kisi ke liye bootstrap css framework kaise use karte hain?"
+        }
     ]
 }

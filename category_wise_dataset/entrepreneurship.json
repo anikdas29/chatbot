@@ -13,5 +13,12 @@
         "Entrepreneurship holo notun business toiri kora ar chalano — risk niye notun kichu korte chaoa ar shomosya solve kora.",
         "To become an entrepreneur, develop problem-solving skills, learn about business basics, start small with a side project, network with other entrepreneurs, and be ready to learn from failures.",
         "An entrepreneur typically innovates and creates new markets, while a businessman often operates in existing markets. Entrepreneurs take bigger risks but also have potential for bigger rewards."
+    ],
+    "feelings": [
+        {
+            "question": "entrepreneurship shuru korbo kivabe?",
+            "sentiment": "curious",
+            "answer": "Entrepreneurship, small business, import export:\n1. Small business shuru korte idea fix koro, plan toiri koro, business register koro, taka er management koro, ar marketing shuru koro.\n2. Entrepreneurship ki?\n3. Permacuulture kivabe shuru korbo?\n4. Import and export business shuru korbo ki vaise?\n5. IPO and social media marketing tips?"
+        }
     ]
 }

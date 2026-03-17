@@ -12,5 +12,12 @@
         "Exploring catering is a delicious journey. Try different varieties and styles.",
         "The world of catering is rich and diverse. Start with the basics and expand your palate.",
         "Catering has a fascinating history and culture behind it. Learn and enjoy!"
+    ],
+    "feelings": [
+        {
+            "question": "catering business ki?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about catering:\n1. [catering] Q: catering ki\n    A: Catering: providing food service for events. Menu planning, logistics, staffing, and presentation.\n2. [hospitality] Q: hosptiality ki?\n    A: Hoospitality holo guests ke welcome kora ar serve kora. Hotel, restaurant, tourism — sob hospitality er part. Ei industry te communication ar people skills onek important.\n3. [restaurant] Q: restaurant ki\n    A: Restaurant business: location, menu, service, marketing, and managing food costs (30% target).\n4"
+        }
     ]
 }

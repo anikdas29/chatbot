@@ -12,5 +12,12 @@
         "Exploring pasta is a delicious journey. Try different varieties and styles.",
         "The world of pasta is rich and diverse. Start with the basics and expand your palate.",
         "Pasta has a fascinating history and culture behind it. Learn and enjoy!"
+    ],
+    "feelings": [
+        {
+            "question": "how to make pasta at home?",
+            "sentiment": "curious",
+            "answer": "To make pasta at home, you will need the following ingredients and equipment:\n- Durum wheat semolina (also known as farinata) or all-purpose flour\n- Water\n- Oil for frying\n- Salt\n- Pasta machine or rolling pin\n1. Start with durum wheat semolina, which is a fine-grained wheat flour that has been ground into a fine powder. This will give your pasta a delicate texture and flavor. 2. Add water to the semolina until you reach a dough consistency of about 1/4 inch (0.6 cm) thick. You can also"
+        }
     ]
 }

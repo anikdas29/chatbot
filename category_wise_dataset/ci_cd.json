@@ -38,11 +38,6 @@
         {
             "question": "devops ki and ci cd ki?",
             "sentiment": "curious",
-            "answer": "Great question! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit. Also, CI/CD benefits: catch bugs early, deploy faster, reduce manual work, and increase confidence in releases.\n\nAro kichu lagbe bolo!"
-        },
-        {
-            "question": "devops ki and ci cd ki?",
-            "sentiment": "curious",
             "answer": "Valo question! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit. Also, Tools: GitHub Actions, GitLab CI, Jenkins, CircleCI, Travis CI.\n\nHope this helps!"
         }
     ]

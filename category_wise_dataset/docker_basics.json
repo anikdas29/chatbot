@@ -38,11 +38,6 @@
         {
             "question": "what is docker and why use it?",
             "sentiment": "curious",
-            "answer": "Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment.\n\nOn the devops side: DevOps tools: Docker (containers), Kubernetes (orchestration), Jenkins/GitHub Actions (CI/CD), Terraform (infrastructure), and AWS/GCP/Azure (cloud)."
-        },
-        {
-            "question": "what is docker and why use it?",
-            "sentiment": "curious",
             "answer": "Docker benefits: consistent environments, isolation, easy sharing via Docker Hub, and simplified deployment.\n\nAlso regarding devops: DevOps tools: Docker (containers), Kubernetes (orchestration), Jenkins/GitHub Actions (CI/CD), Terraform (infrastructure), and AWS/GCP/Azure (cloud)."
         }
     ]

@@ -92,17 +92,7 @@
         {
             "question": "how to improve helth condiiton?",
             "sentiment": "curious",
-            "answer": "Nice question! Health fundamentals: regular exercise, enough sleep, lots of water, and a diet with vegetables, protein, and whole grains."
-        },
-        {
-            "question": "how to improve helth condiiton?",
-            "sentiment": "curious",
-            "answer": "Nice question! Health fundamentals: regular exercise, enough sleep, lots of water, and a diet with vegetables, protein, and whole grains."
-        },
-        {
-            "question": "why messi is best then ronaldo?",
-            "sentiment": "happy",
-            "answer": "Glad you asked! Tips: Exercise 30 min daily, 8 glasses water, balanced meals, 7-8 hours sleep, meditation."
+            "answer": "1. Exercise 30 minutes daily, drink at least eight glasses of water, eat balanced meals, and get seven-eight hours of sleep every day.\n2. Meditation: Practice mindfulness meditation for ten to fifteen minutes a day.\n3. Healthy habits: Eat a diet rich in fruits, vegetables, whole grains, and lean proteins. Avoid sugary snacks, processed foods, and alcohol.\n4. Simple routine: Wake up at the same time every day, have breakfast, engage in regular exercise, and limit screen time to less than two hours per day.\n5. Treasure hunts: Plan"
         }
     ]
 }

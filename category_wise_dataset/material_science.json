@@ -12,5 +12,12 @@
         "Applications: stronger alloys, flexible electronics, biocompatible implants, lightweight aircraft materials, and smart fabrics.",
         "Key concepts: atomic structure determines properties, crystal structure, phase diagrams, and mechanical testing.",
         "Career: material scientists work in aerospace, electronics, medical devices, automotive, and energy industries."
+    ],
+    "feelings": [
+        {
+            "question": "material science ki?",
+            "sentiment": "curious",
+            "answer": "Material Science is studying structure and properties of materials, including metals, polymers, ceramics, composite materials, and semi-conductors."
+        }
     ]
 }

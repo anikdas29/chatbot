@@ -13,5 +13,12 @@
         "Credit score holo tomar financial trustworthiness er number. 750+ ke excellent dhora hoy. Eta loan approval, interest rate, ar credit card pawar jonno important.",
         "To improve your credit score, pay bills on time, keep credit utilization below 30%, don't close old accounts, avoid too many new credit applications, and check your report for errors.",
         "Credit scores are calculated using payment history (35%), credit utilization (30%), length of credit history (15%), credit mix (10%), and new credit inquiries (10%)."
+    ],
+    "feelings": [
+        {
+            "question": "credit score improve korbo kivabe?",
+            "sentiment": "curious",
+            "answer": "To improve your credit score, pay bill on time, keep credit utilization below 30%, avoid too many new credit applications, and check your report for errors."
+        }
     ]
 }

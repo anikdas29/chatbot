@@ -36,9 +36,24 @@
             "answer": "Great question! Quantum computing uses qubits (can be 0, 1, or both simultaneously) unlike classical bits (just 0 or 1). Exponentially faster for certain problems. And Quantum vs classical: quantum excels at specific problems (factoring, optimization, simulation) but isn't faster for everything.\n\nAro kichu lagbe bolo!"
         },
         {
+            "question": "quantum computing ki?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about quantum computing:\n1. [quantum_computing] Q: quantum computer ki\n    A: Current state: IBM, Google, Amazon have quantum computers. Still early — most have fewer than 1000 qubits, need millions for practical use.\n2. [edge_computing] Q: edge computing ki\n    A: Edge computing = processing data near the source instead of sending to cloud. Faster response, less bandwidth, better privacy.\n3. [algorithm] Q: algorithm ki\n    A: Must-know: binary seaRCh, BFS/DFS, Dijkstra, sorting (merge, quick), dynamic programming,"
+        },
+        {
             "question": "what is quantum computing?",
             "sentiment": "curious",
-            "answer": "Nice question! Quantum computing uses qubits (can be 0, 1, or both simultaneously) unlike classical bits (just 0 or 1). Exponentially faster for certain problems."
+            "answer": "Quantum computing uses qubits (quantum bits) instead of classical bits, which can be 0 or 1 simultaneously. This makes it faster than classical computers for certain types of problems such as factoring large numbers and optimization. It's still in its early stages, with fewer than 1000 qubits available currently, but has the potential to revolutionize computing."
+        },
+        {
+            "question": "how javascript async await works?",
+            "sentiment": "curious",
+            "answer": "Interesting! Quantum vs classical: quantum excels at specific problems (factoring, optimization, simulation) but isn't faster for everything."
+        },
+        {
+            "question": "why messi is best then ronaldo?",
+            "sentiment": "happy",
+            "answer": "Awesome! Quantum vs classical: quantum excels at specific problems (factoring, optimization, simulation) but isn't faster for everything."
         }
     ]
 }

@@ -13,5 +13,12 @@
         "VC firms taka invest kore fast-growing startups e. Tara usually millions dollar invest kore ar company te significant ownership niye ney.",
         "To get VC funding, you need a strong business plan, traction or proof of concept, a scalable business model, and a compelling pitch deck to present to investors.",
         "VC firms raise money from limited partners, invest in promising startups across multiple stages (seed, Series A, B, C), and aim for high returns through exits like IPOs or acquisitions."
+    ],
+    "feelings": [
+        {
+            "question": "venture capital ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Venture capital (VC) is a form of private equity financing where investors fund high-potential startups in exchange for equity, typically investing larger amounts than angel investors."
+        }
     ]
 }

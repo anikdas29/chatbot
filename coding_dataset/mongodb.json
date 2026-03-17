@@ -30,12 +30,17 @@
         {
             "question": "how to connect mongodb with node?",
             "sentiment": "curious",
-            "answer": "MongoDB is a document-oriented database that pairs well with JavaScript/Node.js. Mongoose is the most popular ODM library that provides schema validation and middleware for MongoDB in Node apps.\n\nAlso regarding database: MongoDB stores data as JSON-like documents - flexible and great for apps with changing data structures."
+            "answer": "To connect MongoDB with Node.js, you can use the Mongoose ODM library as a middleware for your Express.js application. Here's a simple example:\n\n1. Create a new project using NPM and create a new file called `index.js` in the root directory of your project.\n\n```javascript\nconst express = require('express');\nconst mongoose = require('mongoose');\nconst bodyParser = require('body-parser');\nconst cors = require('cors');\n\n// Connect to MongoDB using Mongoose ODM library\nconst dbUrl = 'mongodb://localhost:27017/mydatabase';\nconst options = { useNewUrlParser: true"
         },
         {
-            "question": "how to connect mongodb with node?",
+            "question": "how to setup mongodb?",
             "sentiment": "curious",
-            "answer": "MongoDB is a document-oriented database that pairs well with JavaScript/Node.js. Mongoose is the most popular ODM library that provides schema validation and middleware for MongoDB in Node apps.\n\nRegarding database: MongoDB stores data as JSON-like documents - flexible and great for apps with changing data structures."
+            "answer": "To set up MongoDB as a database in your Node.js application, you can follow these steps:\n1. Install the Mongoose ODM library using npm. You can do this by running `npm install mongoose` from your terminal or command prompt.\n2. Create a new file called `models/user.js` and add the following code to define your user schema:\n```javascript\nconst mongoose = require('mongoose');\nconst Schema = mongoose.Schema;\n// Define your user schema here\nconst userSchema = new Schema({\nname: { type: String, required: true },\nemail: { type: String, unique: true, required: true },"
+        },
+        {
+            "question": "mongodb e aggregation pipeline kivabe use korbo?",
+            "sentiment": "curious",
+            "answer": "Yes, MongoDB's aggregation pipeline is powerful for data processing and provides easy cloud hosting with built-in scaling."
         }
     ]
 }

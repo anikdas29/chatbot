@@ -17,5 +17,11 @@
         "To treat food poisoning: drink plenty of fluids (water, ORS, coconut water), eat bland foods, avoid dairy and spicy food. If you see blood in stool or fever is high, go to the hospital immediately.",
         "Food poisoning theke bachte taza khabar khaan, bashi khabar avoid korun, hat dhute bhulben na, ar roadside khabar e careful thakun. Fridge e khabar thik bhabe store korun."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "food poisoning hole ki korbo?",
+            "sentiment": "curious",
+            "answer": "Yes, food poisoning is a type of poisoning caused by ingesting contaminated food or drink. The symptoms may include vomiting, diarrhea, nausea, and fever. It can also cause dehydration if not treated promptly. To prevent food poisoning, follow these tips:\n1. Wash your hands thoroughly with soap and water before eating.\n2. Cook or refrigerate foods properly to reduce the risk of contamination.\n3. Avoid raw or undercooked meat, poultry, seafood, eggs, and dairy products.\n4. Do not drink unpasteurized milk or juice.\n5"
+        }
+    ]
 }

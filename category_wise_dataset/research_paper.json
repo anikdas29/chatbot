@@ -15,5 +15,12 @@
         "Research paper likhte hole first topic select koro, literature review koro, research gap identify koro, methodology design koro, data collect ar analyze koro, then findings present koro.",
         "Research papers follow a structured format: Abstract, Introduction, Literature Review, Methodology, Results, Discussion, Conclusion, and References. Each section has a specific purpose in presenting your research.",
         "To publish a research paper, choose a suitable journal or conference, follow their formatting guidelines, submit your manuscript, respond to peer review feedback, and revise accordingly. The process can take months."
+    ],
+    "feelings": [
+        {
+            "question": "research paper kivabe likhi?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about research paper:\n1. Research paper likhte hole first topic select koro, literature review koro, research gap identify koro, then findingss present koros."
+        }
     ]
 }

@@ -13,5 +13,12 @@
         "Learn nuxtjs from official docs and tutorials. Practice by building projects.",
         "Nuxtjs is widely used in industry. Great skill to add to your portfolio.",
         "Start with nuxtjs basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": "nuxt.js ki vue er framework?",
+            "sentiment": "curious",
+            "answer": "Yes, Nuxt.js is a Vue.js framework that provides server-rendered static HTML output for fast development and deployment. It supports features like routing, auto-routing, and great DX."
+        }
     ]
 }

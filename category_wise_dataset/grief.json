@@ -13,5 +13,12 @@
         "Coping: allow yourself to feel, talk to someone, maintain routines, take care of your health, and be patient.",
         "Tips: there's no right way to grieve, grief has no timeline, and seeking professional help is strength not weakness.",
         "Shok er sathe deal: nijer feel ta ke accept koro, karo sathe kotha bolo, nij er jotno nao, ar shomoy dao."
+    ],
+    "feelings": [
+        {
+            "question": "grief counseling ki?",
+            "sentiment": "curious",
+            "answer": "Yes, there are different types of grief counseling, including career counseling, marriage counseling, grief counseling, academic counseling, and substance abuse counseling. The type of counseling that is most effective for someone experiencing grief depends on their individual needs and preferences."
+        }
     ]
 }

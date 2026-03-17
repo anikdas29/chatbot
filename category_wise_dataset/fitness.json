@@ -48,12 +48,7 @@
         {
             "question": "how to lose weight fast?",
             "sentiment": "curious",
-            "answer": "Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery.\n\nOn the weight loss side: Weight loss = calories in < calories out."
-        },
-        {
-            "question": "how to lose weight fast?",
-            "sentiment": "curious",
-            "answer": "Fitness basics: 30 minutes of movement daily, eat in a slight calorie deficit for weight loss, and get enough sleep for recovery.\n\nFor weight loss: Weight loss = calories in < calories out."
+            "answer": "Asked by: Ruby programming basic questions\nAnswered on: 2019-07-30\nQuestion: How to lose weight fast?\nAnswer: A quick and easy way to shed some pounds is by eating more calories in a shorter amount of time. Here are some tips for achieving your fitness goals while losing weight quickly:\n\n1. Reduce carbs slowly: Start with 50-75% fewer carb intake than you usually consume, gradually increasing the percentage each week until you reach your goal. This will help prevent overeating and keep you feeling fuller for longer.\n\n2. Increase protein: Eat more lean proteins like ch"
         }
     ]
 }

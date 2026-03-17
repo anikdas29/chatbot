@@ -70,7 +70,22 @@
         {
             "question": "what is react hooks?",
             "sentiment": "curious",
-            "answer": "Nice question! React basics: components, props, state, hooks (useState, useEffect), and JSX. Learn these 5 concepts and you can build real apps!\n\nAr kichu jante chaile bolo!"
+            "answer": "React Hooks are a new feature in React 16.8 that allows you to write reusable functional components without having to define an entire component from scratch, providing better modularity and maintainability."
+        },
+        {
+            "question": "what is react hooks?",
+            "sentiment": "curious",
+            "answer": "React Hooks are a feature introduced in React 16.8 that allows developers to write reusable components without having to create separate files for each component. They provide a way to define and manage state, which can be shared between multiple components."
+        },
+        {
+            "question": "what is react hooks?",
+            "sentiment": "curious",
+            "answer": "React Hooks are a feature of React that allow you to break your app down into reusable functional components. With this technology, you can write code in a modular way, making it easier for you to maintain and test your application."
+        },
+        {
+            "question": "react e state management kivabe kore redux chara?",
+            "sentiment": "curious",
+            "answer": "Yes, React provides a state management system called Redux that allows you to manage your application's state using a centralized store. You can use Redux to handle user actions, such as updating the UI or making API requests, and keep your code organized and reusable."
         }
     ]
 }

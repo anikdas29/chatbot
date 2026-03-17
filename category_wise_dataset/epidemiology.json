@@ -12,5 +12,12 @@
         "Being prepared for epidemiology can save lives. Educate yourself and those around you.",
         "Epidemiology awareness is important for everyone. Learn the basics and be prepared.",
         "Understanding epidemiology helps you make informed decisions and protect yourself and others."
+    ],
+    "feelings": [
+        {
+            "question": "epidemiology ki?",
+            "sentiment": "curious",
+            "answer": "Epidemiology refers to the study of diseases in populations or communities. The basic concepts include being prepared for epidemiology, following health authority guidance, getting vaccinated, practicing hygiene, and following public health guidelines during an outbreak."
+        }
     ]
 }

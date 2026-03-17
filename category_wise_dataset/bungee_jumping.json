@@ -11,5 +11,12 @@
         "Planning for bungee jumping in advance ensures a better experience.",
         "Bungee Jumping can be an amazing experience. Research and prepare before you go.",
         "Tips for bungee jumping: plan ahead, budget wisely, be flexible, and enjoy the journey!"
+    ],
+    "feelings": [
+        {
+            "question": "bungee jumping ki safe?",
+            "sentiment": "curious",
+            "answer": "Bungie jumping is considered safe with proper equipment, such as elastic cords and appropriate clothing."
+        }
     ]
 }

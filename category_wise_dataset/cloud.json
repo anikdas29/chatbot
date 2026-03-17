@@ -38,16 +38,6 @@
             "question": "what is cloud computing?",
             "sentiment": "curious",
             "answer": "Nice question! Cloud computing = renting computing power over the internet. Types: IaaS, PaaS, SaaS. Top providers: AWS, Azure, Google Cloud. Also, IaaS, PaaS, SaaS.\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "what is cloud computing?",
-            "sentiment": "curious",
-            "answer": "Interesting! Cloud computing = renting computing power over the internet. Types: IaaS, PaaS, SaaS. Top providers: AWS, Azure, Google Cloud. Plus, IaaS, PaaS, SaaS.\n\nHope this helps!"
-        },
-        {
-            "question": "tumi ki paro?",
-            "sentiment": "curious",
-            "answer": "Interesting! Cloud computing = renting computing power over the internet. Types: IaaS, PaaS, SaaS. Top providers: AWS, Azure, Google Cloud."
         }
     ]
 }

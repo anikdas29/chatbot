@@ -12,5 +12,12 @@
         "Exploring burger is a delicious journey. Try different varieties and styles.",
         "The world of burger is rich and diverse. Start with the basics and expand your palate.",
         "Burger has a fascinating history and culture behind it. Learn and enjoy!"
+    ],
+    "feelings": [
+        {
+            "question": "burger banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Good one! Burger has a fascinating history and culture behind it. Learn and enjoy!\n\nAr kichu jante chaile bolo!"
+        }
     ]
 }

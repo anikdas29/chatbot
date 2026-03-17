@@ -13,5 +13,12 @@
         "Identify triggers, avoid allergens, take antihistamines, and consult allergist for severe cases.",
         "Allergy tips: consult a professional for personalized advice. Don't self-diagnose or self-treat serious conditions.",
         "Learn more about allergy from trusted medical sources. Always follow your doctor's advice."
+    ],
+    "feelings": [
+        {
+            "question": "allergy hle ki korbo?",
+            "sentiment": "curious",
+            "answer": "Yes, allergy management tips include avoiding triggers such as foods or environmental allergens and using medications if necessary to manage symptoms."
+        }
     ]
 }

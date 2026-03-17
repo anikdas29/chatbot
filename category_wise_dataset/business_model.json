@@ -12,5 +12,12 @@
         "Business Model is essential for business success. Learn and apply consistently.",
         "Best practices for business model: research, plan, execute, and iterate based on results.",
         "Understanding business model helps you make better business decisions."
+    ],
+    "feelings": [
+        {
+            "question": "business model canvas ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Business Model is essential for business success. Learn and apply consistently.\n\nHope this helps!"
+        }
     ]
 }

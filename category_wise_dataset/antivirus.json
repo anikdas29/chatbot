@@ -13,5 +13,12 @@
         "Learn more about antivirus to stay informed and make better decisions.",
         "Antivirus is important in today's connected world.",
         "Understanding antivirus helps you navigate the modern digital landscape."
+    ],
+    "feelings": [
+        {
+            "question": "antivirus software lagbe ki?",
+            "sentiment": "curious",
+            "answer": "Anti-virus software is important in today's connected world because it helps protect devices, networks, and data from malware attacks. It also provides updates and safe browsing to ensure users stay protected."
+        }
     ]
 }

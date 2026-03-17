@@ -13,5 +13,12 @@
         "Good mentee: come prepared, respect their time, act on advice, provide updates, and express gratitude.",
         "Mentorship benefits: career guidance, expanded network, confidence, and learning from someone's experience.",
         "Mentor ki: onubhobi karo kach theke shekha ar guide pawa. Career er jonno onek helpful."
+    ],
+    "feelings": [
+        {
+            "question": "mentorship er importance ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Mentor ki: onubhobi karo kach theke shekha ar guide pawa. Career er jonno onek helpful. Plus, Mentorship benefits: career guidance, expanded network, confidence, and learning from someone's experience."
+        }
     ]
 }

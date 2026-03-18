@@ -1,6 +1,6 @@
-# Dataset Categories (1094)
+# Dataset Categories (1100)
 
-## General Dataset (1029 categories) — category_wise_dataset/
+## General Dataset (1035 categories) ~ category_wise_dataset/
 1. 3d_modeling
 2. 3d_printing
 3. about_bot
@@ -1030,8 +1030,14 @@
 1027. zip_lining
 1028. zoology
 1029. zoom_tool
+1030. internet_basics
+1031. general_knowledge
+1032. computer_hardware
+1033. http_protocol
+1034. bot_limitations
+1035. universe
 
-## Coding Dataset (65 categories) — coding_dataset/
+## Coding Dataset (65 categories) ï¿½ coding_dataset/
 1. angular
 2. api
 3. aws

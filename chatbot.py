@@ -811,6 +811,12 @@ class IntentSignalDetector:
         # === Friendship / Loneliness ===
         (r"(tumi ki (amar |amr )?(friend|bondhu)|can (you|we) be friend|ami (ekla|lonely))",
          ["loneliness", "emotions", "mental_health"], 0.70),
+
+        # === Confused about choosing ===
+        (r"(confused|confuse).*(frontend|backend|choose|select|pick|decide)",
+         ["web_dev", "career", "career_coaching"], 0.70),
+        (r"(ami |i )?(confused|confuse).*(naki|or|vs|between)",
+         ["career", "career_coaching"], 0.65),
     ]
 
     @staticmethod
@@ -1416,6 +1422,23 @@ class ChatBot:
 
         return suggestions
 
+    def _is_absurd_question(self, text):
+        """Check if a question is about fictional/impossible things that can't be answered."""
+        absurd_patterns = [
+            r"president of mars",
+            r"king of (mars|earth|moon|sun)",
+            r"moon er currency",
+            r"invented oxygen",
+            r"discovered dark fire",
+            r"xyzland",
+            r"ice diye toyri",
+        ]
+        text_lower = text.lower().strip()
+        for pattern in absurd_patterns:
+            if re.search(pattern, text_lower):
+                return True
+        return False
+
     # ========== Hybrid RAG: Retrieve context for LLM ==========
 
     def _retrieve_rag_context(self, question, top_n=5):
@@ -1922,6 +1945,18 @@ class ChatBot:
 
         # No categories found — try emotional fallback, then suggestions, then unknown
         if not detected:
+            # Absurd question check: catch fictional/impossible questions early
+            if not EMOTIONAL_FALLBACK.search(cleaned) and self._is_absurd_question(cleaned):
+                logging.info(f"ABSURD_QUESTION | Q: {original}")
+                if session_id:
+                    self.db.add_turn(session_id, original, None, None, 0, "neutral")
+                return {
+                    "reply": "Hmm, eta amar knowledge er baire! Ami factual topics niye help korte pari — coding, AI, health, finance, career etc. Onno kichu jante chaile bolo!",
+                    "intent": "unknown",
+                    "confidence": 0.0,
+                    "categories": []
+                }
+
             # Emotional fallback: route distress/motivation to mental health categories
             if EMOTIONAL_FALLBACK.search(cleaned):
                 for fallback_cat in ["motivation", "mental_health", "emotions", "stress_management", "loneliness"]:
@@ -1936,6 +1971,21 @@ class ChatBot:
                             logging.info(f"Q: {original} | EMOTIONAL_FALLBACK | Intent: {fallback_cat}")
                             return {"reply": answer, "intent": fallback_cat, "confidence": 0.5, "categories": [fallback_cat]}
 
+            # Bangla keyword extraction: strip Bangla filler words, re-detect with just the technical terms
+            bangla_filler = {"ki", "keno", "kivabe", "kothay", "kokhon", "ke", "ta", "er", "e", "te", "na",
+                             "ar", "ba", "o", "r", "ami", "tumi", "apni", "ache", "hole", "kore", "korte",
+                             "korbo", "hoy", "hobe", "paro", "parbo", "diye", "niye", "theke", "jante",
+                             "bolo", "bolte", "lagbe", "chai", "chao", "shikhte", "shikhao", "start",
+                             "kon", "kono", "onek", "khub", "ektu", "amr", "amar", "tomar"}
+            tech_words = [w for w in cleaned.split() if w not in bangla_filler and len(w) > 2]
+            if tech_words and len(tech_words) < len(cleaned.split()):
+                tech_query = " ".join(tech_words)
+                detected_tech = self._detect_categories(tech_query, max_cats=3)
+                if detected_tech and detected_tech[0][1] > 0.35:
+                    detected = detected_tech
+                    logging.info(f"Bangla keyword extraction: '{cleaned}' → '{tech_query}' | Conf: {detected_tech[0][1]:.0%}")
+
+        if not detected:
             suggestions = self.get_suggestions(cleaned)
             if suggestions and suggestions[0]["score"] >= 0.20:
                 logging.info(f"SUGGESTIONS | Q: {original} | Top: {suggestions[0]}")

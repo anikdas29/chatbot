@@ -1,0 +1,35 @@
+{
+    "category": "http_protocol",
+    "type": "general",
+    "tags": ["http", "https", "ssl", "tls", "protocol", "web", "security"],
+    "questions": [
+        "what is HTTP?",
+        "http ki?",
+        "what is HTTPS?",
+        "https ki?",
+        "http vs https",
+        "http ar https er difference ki?",
+        "why is HTTPS safer than HTTP?",
+        "https keno safe?",
+        "what is SSL?",
+        "ssl certificate ki?",
+        "what is TLS?",
+        "ssl ar tls er difference ki?",
+        "how do web protocols work?",
+        "web protocol kivabe kaj kore?",
+        "is HTTP secure?",
+        "http ki secure?",
+        "how does HTTPS encryption work?",
+        "https kivabe data encrypt kore?"
+    ],
+    "answers": [
+        "HTTP (HyperText Transfer Protocol) is the foundation of data communication on the web. It defines how messages are formatted and transmitted between web browsers and servers.",
+        "HTTPS is the secure version of HTTP. It uses SSL/TLS encryption to protect data in transit, ensuring that sensitive information like passwords and credit card numbers cannot be intercepted by attackers.",
+        "The main difference between HTTP and HTTPS is security. HTTP sends data in plain text, meaning anyone can intercept and read it. HTTPS encrypts the data, making it unreadable to anyone except the intended recipient.",
+        "SSL (Secure Sockets Layer) and TLS (Transport Layer Security) are cryptographic protocols that provide secure communication over the internet. TLS is the newer, more secure successor to SSL, though people still commonly say 'SSL'.",
+        "An SSL certificate is a digital certificate that authenticates a website's identity and enables encrypted connections. When you see the padlock icon in your browser's address bar, it means the site has a valid SSL/TLS certificate.",
+        "HTTPS keno safe? Karon HTTPS data encrypt kore pathay, tai kono hacker majhkhane data dekthte pare na. Login, banking, ar personal info pathano er jonno HTTPS must.",
+        "HTTP is not secure on its own because data travels in plain text. That is why modern websites use HTTPS, which adds an encryption layer using TLS to protect user data from eavesdropping and tampering."
+    ],
+    "feelings": []
+}

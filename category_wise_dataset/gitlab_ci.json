@@ -13,5 +13,12 @@
         "Learn gitlab ci through documentation, tutorials, and hands-on practice.",
         "Gitlab Ci is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with gitlab ci: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "gitlab ci ki?",
+            "sentiment": "curious",
+            "answer": "Yes, GitLab CI is a widely used tool in the industry that allows developers to define and execute pipelines of build, test, and deployment tasks. It's built-in within GitLab and can be added to your skillset as it adds value to your DevOps workflow."
+        }
     ]
 }

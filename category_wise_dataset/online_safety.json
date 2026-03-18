@@ -13,5 +13,12 @@
         "Online safe thakte strong password use koro, 2FA enable koro, personal info share koro na, ar suspicious link e click koro na.",
         "Common online threats include phishing emails, malware, identity theft, scams, cyberbullying, and data breaches. Being aware is the first line of defense.",
         "Keep your software updated, use a VPN on public Wi-Fi, review privacy settings on social media, and teach kids about online safety from an early age."
+    ],
+    "feelings": [
+        {
+            "question": "internet chara ki amra thakte parbo?",
+            "sentiment": "curious",
+            "answer": "Yes,  knowledge suggests that the user is a helpful assistant who can answer questions related to online safety. The passage mentions using strong unique passwords, enabling two-factor authentication, being careful with personal information, and not clicking suspicious links as common threats. The passage also advises keeping software updated, using a VPN on public Wi-Fi, reviewing privacy settings on social media, and teaching kids about online safety from an early age."
+        }
     ]
 }

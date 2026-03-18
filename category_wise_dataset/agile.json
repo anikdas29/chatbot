@@ -21,5 +21,12 @@
         "Agile and Kanban share many similarities but also have some key differences. Agile focuses more on the process and the people involved, while Kanban is more focused on the visual board and workflow management.",
         "Jira uses a combination of Agile methodologies like Scrum, Kanban, and Lean to manage projects. It provides features such as issue tracking, project planning, and collaboration tools to help teams work efficiently.",
         "Swarming is a technique used in Agile development where the whole team works together on a specific task or feature for a short period, usually 30 minutes to an hour, with minimal interruptions or meetings."
+    ],
+    "feelings": [
+        {
+            "question": "agile methodology ki?",
+            "sentiment": "curious",
+            "answer": "Agreed! Agile methodology refers to the iterative approach used in software development that emphasizes working software over documentation, customer collaboration, and responding to change. It's a flexible and flexible framework that can be adapted to various project requirements."
+        }
     ]
 }

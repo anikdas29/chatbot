@@ -13,5 +13,12 @@
         "Beginner cycling: start with short flat rides, wear a helmet always, learn hand signals, and maintain your bike regularly.",
         "Cycling tips: keep tires properly inflated, shift gears before hills, stay visible with lights, and hydrate on long rides.",
         "Start cycling: get a bike that fits (not too big/small), wear padded shorts for comfort, and gradually increase distance."
+    ],
+    "feelings": [
+        {
+            "question": "cycling benefits ki?",
+            "sentiment": "curious",
+            "answer": "The cyclist's benefits from cycling include burning calories, building leg strength, zero emission transportation, and boosting mental health."
+        }
     ]
 }

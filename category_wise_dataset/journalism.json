@@ -13,5 +13,12 @@
         "Journalism holo news ar information collect kore, verify kore, ar public er kache pouche deya — newspaper, TV, ba online er maddhhomey.",
         "To become a journalist, study mass communication or journalism, build a portfolio of articles, develop strong writing and research skills, and learn to meet tight deadlines.",
         "Major types include investigative journalism, broadcast journalism, photojournalism, sports journalism, and digital journalism — each with its own style and audience."
+    ],
+    "feelings": [
+        {
+            "question": "journalism career ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Journalism is the practice of gathering, verifying, and reporting news and information to the public through various media channels."
+        }
     ]
 }

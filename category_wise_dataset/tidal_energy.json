@@ -14,5 +14,12 @@
         "Tidal energy holo samudrer joyar bhata er force diye electricity produce kora. Eta onek predictable energy source karon tides niyomito hoy.",
         "Tidal power works through tidal barrages, tidal stream generators, or dynamic tidal power systems. It's highly predictable and reliable compared to wind or solar.",
         "Tidal energy is still emerging but very promising. Since tides are completely predictable, tidal power can provide consistent, reliable electricity generation with zero emissions."
+    ],
+    "feelings": [
+        {
+            "question": "moon er currency ki?",
+            "sentiment": "curious",
+            "answer": "In the context of a recent conversation about tidal energy, the question \"moon er currency ki?\" refers to whether the emerging technology of tidal power is still considered a viable source for generating electricity.  knowledge answers this question by explaining that tidal energy is highly predictable and reliable compared to wind or solar, making it an attractive option for producing consistent, reliable electricity with zero emissions."
+        }
     ]
 }

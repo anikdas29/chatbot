@@ -13,5 +13,12 @@
         "Learning calculus builds strong analytical and problem-solving skills.",
         "Calculus is applied in many real-world fields. Understanding basics helps in any career.",
         "Start with calculus fundamentals, practice with examples, and apply to real problems."
+    ],
+    "feelings": [
+        {
+            "question": "calculus ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Calculus is an essential tool in many fields that require continuous change or prediction, such as engineering, physics, economics, and finance. It builds strong analytical and problem-solving skills while also allowing for deeper connections between geometry and calculus."
+        }
     ]
 }

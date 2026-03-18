@@ -21,6 +21,11 @@
             "question": "vitamin d er upokaarita ki?",
             "sentiment": "curious",
             "answer": "Yes, vitamin D is an essential nutrient that can be obtained through sunlight exposure. It's best to consume food sources like fatty fish, eggs, and fortified milk for optimal absorption. Supplementation with vitamin D may also be beneficial in some cases."
+        },
+        {
+            "question": "vitamin d er upokaarita ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Vitamin D pao sunlight theke, ar food e jemon fatty fish, eggs, ar fortified milk. Vitamin C citrus fruits e thake, ar Vitamin A carrots ar sweet potatoes e."
         }
     ]
 }

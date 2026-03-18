@@ -45,6 +45,16 @@
             "question": "what is the meaning of life?",
             "sentiment": "curious",
             "answer": "Simple truths: health, relationships, and purpose matter most. Everything else is secondary.\n\nRegarding philosophy: The meaning of existence has been debated for millennia."
+        },
+        {
+            "question": "what is meaning of life?",
+            "sentiment": "curious",
+            "answer": "Good one! Simple truths: health, relationships, and purpose matter most. Everything else is secondary.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "i feel lost what is meaning of life and what should i do",
+            "sentiment": "curious",
+            "answer": "Nice question! Life advice: invest in relationships, never stop learning, take care of your health, and don't let fear stop you from trying.\n\nHope this helps!"
         }
     ]
 }

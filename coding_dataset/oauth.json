@@ -35,6 +35,11 @@
             "question": "what is oauth 2.0?",
             "sentiment": "curious",
             "answer": "Great question! OAuth 2.0 is the industry standard for authorization. It supports multiple flows like Authorization Code (web apps), PKCE (mobile/SPA), Client Credentials (server-to-server), and Implicit (legacy). Also, OAuth enables secure delegated access.\n\nHope this helps!"
+        },
+        {
+            "question": "what is oauth 2.0?",
+            "sentiment": "curious",
+            "answer": "OAuth 2.0 is an authorization framework that lets users grant third-party apps limited access to their accounts without sharing passwords. It's also known as the industry standard for authorization, and it works through authorization grants where the user approves access, the app gets an authorization code, exchanges it for an access token, and uses that token to access protected resources."
         }
     ]
 }

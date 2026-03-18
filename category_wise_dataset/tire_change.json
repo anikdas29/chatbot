@@ -12,5 +12,12 @@
         "Planning for tire change in advance ensures a better experience.",
         "Tire Change can be an amazing experience. Research and prepare before you go.",
         "Tips for tire change: plan ahead, budget wisely, be flexible, and enjoy the journey!"
+    ],
+    "feelings": [
+        {
+            "question": "tire change kivabe kore?",
+            "sentiment": "curious",
+            "answer": "Yes, planning ahead and being flexible are crucial when it comes to taking care of your bike. By doing some research beforehand, you can ensure that you have all the necessary parts and tools on hand for any repairs or maintenance tasks. Additionally, having a budget in mind will help you avoid unexpected expenses during repair work."
+        }
     ]
 }

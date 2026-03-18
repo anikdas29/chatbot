@@ -19,6 +19,11 @@
             "question": "vpn ki and keno use korbo?",
             "sentiment": "curious",
             "answer": "VPN (Virtual Private Network) is a technology that creates an encrypted tunnel between your device and the internet to protect your online activities from being monitored or intercepted by third parties. It can be used for privacy, security, and streaming services such as Netflix or Amazon Prime Video. Keep in mind that public transportation like buses and trains use a different technology called \"public transportation network\" (PTN) to connect passengers with their destinations."
+        },
+        {
+            "question": "vpn ki and keno use korbo?",
+            "sentiment": "curious",
+            "answer": "Kono usa aya vpn ite ki noke korbo ni nafisiki ketanwa?"
         }
     ]
 }

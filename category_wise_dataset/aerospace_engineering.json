@@ -9,7 +9,8 @@
         "aerospace engineering porar scope kemon?",
         "Aerospace engineering ki prakritik upasthiti kivabe?",
         "Aerospace engineer ra ki job kichu bada kichu aam?",
-        "Satellite communication system kivabe work kore?"
+        "Satellite communication system kivabe work kore?",
+        "amake duita meye eksonge propose koreche, ekjon khub smart ar arekjon khub caring, ami kar sathe relation e jete pari? tomar ki mone hoy? explain with logic"
     ],
     "answers": [
         "Aerospace engineering focuses on designing, building, and testing aircraft and spacecraft. It includes aeronautics (atmospheric flight) and astronautics (space flight).",
@@ -18,6 +19,24 @@
         "Aerospace engineering is divided into aeronautical (planes, helicopters) and astronautical (rockets, spacecraft) engineering. Companies like NASA, SpaceX, and Boeing hire aerospace engineers.",
         "Aerospace engineering is deeply rooted in the principles of physics, particularly Newton's laws of motion and gravity. It involves understanding the behavior of objects under various forces, such as lift, drag, and thrust.",
         "An aerospace engineer's job can range from designing aircraft systems to developing software for spacecraft navigation. They must balance technical expertise with practical considerations like cost, weight, and performance.",
-        "A satellite communication system consists of a transmitter, antenna, receiver, and signal processing units. The signal is modulated onto a carrier wave using techniques like amplitude shift keying or frequency shift keying, allowing it to be transmitted over long distances."
+        "A satellite communication system consists of a transmitter, antenna, receiver, and signal processing units. The signal is modulated onto a carrier wave using techniques like amplitude shift keying or frequency shift keying, allowing it to be transmitted over long distances.",
+        "Prem valobasha niya gobeshona koro bacha, jibone ar ki ache"
+    ],
+    "feelings": [
+        {
+            "question": "aerospace engineering ki?",
+            "sentiment": "curious",
+            "answer": "Aerospace engineering refers to the designing, building, testing, and operating aircraft, rockets, satellites, and spacecraft. It is a branch of engineering that deals with all aspects related to these devices, including aerodynamics, propulsion, materials science, and astronautical engineering."
+        },
+        {
+            "question": "aerospace engineering er kaj ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Aerospace engineering is deeply rooted in the principles of physics, particularly Newton's laws of motion and gravity. It involves understanding the behavior of objects under various forces, such as lift, drag, and thrust.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "Amake duita meye eksonge propose koreche, ekjon khub smart ar arekjon khub caring, ami kar sathe relation e jete pari? tomar ki mone hoy? Explain with logic",
+            "sentiment": "curious",
+            "answer": "Good one! A satellite communication system consists of a transmitter, antenna, receiver, and signal processing units. The signal is modulated onto a carrier wave using techniques like amplitude shift keying or frequency shift keying, allowing it to be transmitted over long distances.\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

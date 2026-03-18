@@ -26,6 +26,16 @@
             "question": "first aid kit e ki ki thakbe?",
             "sentiment": "curious",
             "answer": "Yes, First Aid Kit (FAK) is a commonly used first-aid kit that contains essential supplies for minor injuries and illnesses. It usually includes items such as bandages, gauze pads, antiseptic wipes, pain relievers, thermometers, and gloves. The FAK should be kept in a cool, dry place to prevent moisture from damaging the contents."
+        },
+        {
+            "question": "cpr kivabe dei?",
+            "sentiment": "curious",
+            "answer": "First aid kit e bandage, antiseptic, cotton, scissors, gloves, pain relievers, ar thermometer thaka uchit. Emergency number o likhhe rakhho.\n\nAlso regarding cpr: CPR korte hole chest er middle e dui hat rekhe 30 bar compress korun (2 inch depth), tarpor 2 bar mouth-to-mouth breath din."
+        },
+        {
+            "question": "first aid kit e ki ki thakbe?",
+            "sentiment": "curious",
+            "answer": "The correct response to the question is: \"First aid kit kiya bana gaye?\" (You're looking for a first aid kit)."
         }
     ]
 }

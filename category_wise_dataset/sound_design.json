@@ -13,5 +13,12 @@
         "Basics: clean dialogue recording is priority #1. Bad audio ruins good video. Use a dedicated mic, not camera mic.",
         "Key elements: diegetic sound (characters hear it), non-diegetic (score/narration), Foley (everyday sounds recreated).",
         "Tools: Audacity (free), Adobe Audition, Pro Tools, Reaper. Freesound.org for free sound effects."
+    ],
+    "feelings": [
+        {
+            "question": "sound design ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Sound design = creating the audio world of a film/game. Dialogue, music, sound effects, ambience, and Foley."
+        }
     ]
 }

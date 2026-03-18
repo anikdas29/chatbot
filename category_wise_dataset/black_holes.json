@@ -19,6 +19,11 @@
             "question": "black holes ki?",
             "sentiment": "curious",
             "answer": "Black holes are regions where gravity is so strong that nothing can escape. They form when massive stars collapse under their own gravitational force."
+        },
+        {
+            "question": "black holes ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Black holes don't suck everything in — they only pull objects that get close enough, just like any other gravity source."
         }
     ]
 }

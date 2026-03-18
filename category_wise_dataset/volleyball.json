@@ -21,6 +21,11 @@
             "question": "volleyball court size ki?",
             "sentiment": "curious",
             "answer": "Retrieved knowledge about volleyball court size: Q: volleyball court size koto? A: Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarteres e khela hoy."
+        },
+        {
+            "question": "volleyball court size ki?",
+            "sentiment": "curious",
+            "answer": "The volleyball court is typically 90 feet (27 meters) long by 45 feet (13.7 meters) wide, with a net that extends from the center of each end line to the opposite end line."
         }
     ]
 }

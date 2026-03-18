@@ -13,5 +13,12 @@
         "Bullying holo bar bar karo upor aggressive behavior kora — mara, kharap kotha bola, ba socially isolate kora.",
         "If you're being bullied, tell a trusted adult, document what happened, avoid being alone with the bully, and remember it's not your fault. You deserve to be safe.",
         "Bullying can cause anxiety, depression, low self-esteem, academic problems, and even physical health issues. The effects can last well into adulthood."
+    ],
+    "feelings": [
+        {
+            "question": "bullying stop korbo kivabe?",
+            "sentiment": "curious",
+            "answer": "Bullying holo bar bar karo upor aggressive behavior kora — mara, kharap kotha bola, ba socially isolate kora.\n\nAlso regarding cyber bullying: Cyberbullying holo online e karo ke harass kora, threat deya, rumor chorano — social media, messaging app, ba game er maddhhomey.\n\nFor public speaking: Stage fear overcome korte: preparation is key."
+        }
     ]
 }

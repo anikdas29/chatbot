@@ -15,5 +15,12 @@
         "Choking hole pichu theke dui hat diye navel er upore thrust din. Bacchader jonno 5 back blows then 5 chest thrusts din. Jodi kaj na kore 999 call korun immediately.",
         "For choking: encourage coughing first. If they can't breathe or cough, perform abdominal thrusts (Heimlich maneuver). For infants, give 5 back blows followed by 5 chest thrusts.",
         "Golar moddhe khabar atke gele prothome cough korte bolun. Na perle pichu theke Heimlich maneuver korun — navel er upore fist diye upward thrust din. Emergency hole 999 call korun."
+    ],
+    "feelings": [
+        {
+            "question": "gach kivabe khabar toyri kore?",
+            "sentiment": "curious",
+            "answer": "The knowledge retrieved about choking is that if someone is choking and performing the Heimlich maneuver, they should stand behind them with their back facing upwards, make a fisht above their navel, and give quick upward thrusts until the object comes out. For choke holes, encouraging coughing first and then abdominally thrusting is recommended for infants."
+        }
     ]
 }

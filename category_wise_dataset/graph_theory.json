@@ -13,5 +13,12 @@
         "Learning graph theory builds strong analytical and problem-solving skills.",
         "Graph Theory is applied in many real-world fields. Understanding basics helps in any career.",
         "Start with graph theory fundamentals, practice with examples, and apply to real problems."
+    ],
+    "feelings": [
+        {
+            "question": "graph theory ki?",
+            "sentiment": "curious",
+            "answer": "Knowledge on graph theory suggests that it is a fundamental study of networks, shortest paths, connectivity, and related topics with applications in various fields such as statistics, machine learning, computer science, and more. It involves understanding basic concepts like graphs (nodes and edges), network analysis, and finding solutions to graph algorithms. The recent conversation emphasizes the importance of understanding this fundamental field for real-world career prospects."
+        }
     ]
 }

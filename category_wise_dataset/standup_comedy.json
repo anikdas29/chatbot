@@ -16,5 +16,11 @@
         "Legendary comedians include Dave Chappelle, Jerry Seinfeld, Eddie Murphy, Kevin Hart, and George Carlin. In South Asia, comedians like Zakir Khan, Biswa Kalyan Rath, and Munawar Faruqui have become hugely popular.",
         "A comedy special is a full-length recorded performance, usually 60-90 minutes, released on platforms like Netflix or YouTube. Writing jokes involves finding the funny in everyday observations, using setup-punchline structure, and lots of editing."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "standup comedy ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Standup comedy is a performance where a comedian speaks directly to an audience, delivering jokes, stories, and observations. It requires timing, stage presence, and the ability to connect with the crowd. Additionally, Legendary comedians include Dave Chappelle, Jerry Seinfeld, Eddie Murphy, Kevin Hart, and George Carlin."
+        }
+    ]
 }

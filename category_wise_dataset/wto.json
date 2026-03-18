@@ -13,5 +13,12 @@
         "WTO 1995 sале establish hoyechilo GATT er replacement hisebe. Eta countries er moddhe trade rules set kore ar disputes resolve kore.",
         "WTO negotiates trade agreements, monitors national trade policies, and provides a forum for resolving commercial disputes between its 164 member countries.",
         "The WTO promotes free trade by reducing tariffs and other barriers, ensuring that trade flows as smoothly and predictably as possible between nations."
+    ],
+    "feelings": [
+        {
+            "question": "wto ki?",
+            "sentiment": "curious",
+            "answer": "The World Trade Organization (WTO) is a global body that sets rules for international trade, resolves trade dispute resolution, and works to reduce trade barriers between nations."
+        }
     ]
 }

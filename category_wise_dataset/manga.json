@@ -13,5 +13,12 @@
         "Manga vs comics: manga is Japanese, read right-to-left, typically black & white. Comics are western, left-to-right, color.",
         "Read manga: MangaPlus (official, free), physical volumes, or library. Support creators by buying official releases.",
         "Manga genres: shonen (action, for boys), shojo (romance, for girls), seinen (mature), josei (women's), and isekai (another world)."
+    ],
+    "feelings": [
+        {
+            "question": "manga reading ki?",
+            "sentiment": "curious",
+            "answer": "knowledge suggests that a user may prefer to read mangas over comics as they are Japanese-language works with black & white artwork, typically in right-to-left direction. The genre of mangas is diverse and includes shojo (romance), shonen (action), seinen (mature), and more, with subgenres such as seiyuu-meets-baka and others.\nRegarding recommended series to watch or read  knowledge gathered above, a user would prefer the manga adaptations of popular shonen genres such as Death Note, Attack on Titans, Fullmetal Alchemist, One Piece, and DemoN Slayer."
+        }
     ]
 }

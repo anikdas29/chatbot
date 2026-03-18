@@ -27,6 +27,11 @@
             "question": "how to write technical documents?",
             "sentiment": "curious",
             "answer": "Retrieved knowledge about technical writing:\n1. [technical_writing] Q: technical writing basic\n    A: Technical writing = creating clear documentation for technical products. User guide, API docs, tutorials, and reference manuals.\n2. [documentation] Q: how to write good docs\n    A: Write docs for future-you: you'll forget how your own code works in 6 months. Document decisions and why, not just what.\n3. [writing] Q: how to write articles\n    A: Writing tip: write every day, even if it's bad. Read a lot, edit ruthlessly, and remember - the first draft is never perfect. Just get words"
+        },
+        {
+            "question": "how to write technical documents?",
+            "sentiment": "curious",
+            "answer": "Nice question! Technical writing = creating clear documentation for technical products. User guides, API docs, tutorials, and reference manuals.\n\nHope this helps!"
         }
     ]
 }

@@ -12,5 +12,12 @@
         "Learning operations research builds strong analytical and problem-solving skills.",
         "Operations Research is applied in many real-world fields. Understanding basics helps in any career.",
         "Start with operations research fundamentals, practice with examples, and apply to real problems."
+    ],
+    "feelings": [
+        {
+            "question": "operations research ki?",
+            "sentiment": "curious",
+            "answer": "Yes, operation research is a fundamental study of mathematical structures that involves distinct values. It helps in understaning basic concepts such as scheduling, routing, resource allocation, and more."
+        }
     ]
 }

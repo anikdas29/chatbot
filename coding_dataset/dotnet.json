@@ -13,5 +13,12 @@
         "Learn dotnet from official docs and tutorials. Practice by building projects.",
         "Dotnet is widely used in industry. Great skill to add to your portfolio.",
         "Start with dotnet basics, build small projects, then tackle real-world applications."
+    ],
+    "feelings": [
+        {
+            "question": ".net framework ki?",
+            "sentiment": "curious",
+            "answer": "Yes, the .NET framework is a widely used development platform for building web, mobile, and desktop applications in C#. It offers various features such as object-oriented programming, type safety, and support for multiple platforms."
+        }
     ]
 }

@@ -31,5 +31,12 @@
         "A thorough bow maintenance routine includes regular cleaning, lubrication, and storage. This helps prevent damage from the elements, dust, and wear caused by frequent use. Regular checks also ensure that the bow remains in optimal condition, ensuring consistent performance and accuracy.",
         "Arrow aerodynamics play a significant role in determining flight stability and accuracy. The shape, size, and material of the arrow all contribute to its aerodynamic properties. Proper arrow design, combined with careful selection of materials and construction techniques, can significantly enhance performance.",
         "When comparing compound bows to crossbows, several factors come into play. Compound bows offer greater precision and control due to their pulley system, while crossbows provide a faster draw cycle and increased power. The choice between the two ultimately depends on personal preference, shooting style, and specific application."
+    ],
+    "feelings": [
+        {
+            "question": "archery basics ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Archery is a fun and exciting sport that involves standing on one foot while pushing or stopping with the other foot to perform various techniques."
+        }
     ]
 }

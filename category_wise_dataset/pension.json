@@ -13,5 +13,12 @@
         "Types: defined benefit (guaranteed amount), defined contribution (401k/provident fund — depends on investment returns).",
         "Pension vs 401k: pension guarantees income, 401k depends on your investments. Pensions are becoming rarer.",
         "Pension ki: chhakri chhare gele niyomito taka pawar bebostha. Company ba government provide kore."
+    ],
+    "feelings": [
+        {
+            "question": "pension system ki?",
+            "sentiment": "curious",
+            "answer": "Knowledge retrieved for the question \"Pension system ki?\" includes pension definition, types (defined benefit and defined contribution), pension vs 401k, adoption process, foster care tips, single parenting options, elder care options, baby care advice, and pension system."
+        }
     ]
 }

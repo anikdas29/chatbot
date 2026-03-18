@@ -19,6 +19,11 @@
             "question": "rfid technology ki?",
             "sentiment": "curious",
             "answer": "knowledge suggests that rfiD is an essential component in the modern connected world, with examples such as smart thermostats, fitness trackers, security cameras, and IoT devices. The question also mentions technologies like AI/ML, cloud computing, cybersecurity, and IoT. Follow TechCrunch or The Verge for up-to-date information on these areas of technology."
+        },
+        {
+            "question": "rfid technology ki?",
+            "sentiment": "curious",
+            "answer": "Answer: RFID (Radio Frequency Identification) is an emerging technology used in inventory tracking, access cards, and contactless payment systems. It uses radio waves to identify and locate objects or people."
         }
     ]
 }

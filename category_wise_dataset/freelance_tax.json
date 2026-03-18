@@ -19,6 +19,11 @@
             "question": "how to do freelance tax?",
             "sentiment": "curious",
             "answer": "The best way to pay free-lancing taxes is by deducting them from income. Common deductions include home office expenses, equipment, software subscription fees, internet bill payments, professional development costs, travel expenses, and health insurance premiums. Always communicate clearly with your employer about these expenses and ensure that you are not underselling your skills long-term."
+        },
+        {
+            "question": "how to do freelance tax?",
+            "sentiment": "curious",
+            "answer": "Great question! Common freelance tax deductions include home office expenses, equipment, software subscriptions, internet bills, professional development, travel, and health insurance premiums."
         }
     ]
 }

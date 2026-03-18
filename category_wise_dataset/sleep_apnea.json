@@ -18,6 +18,11 @@
             "question": "sleep apnea ki jinish?",
             "sentiment": "curious",
             "answer": "Sure! For faster sleep, try the 4-7-8 breathing technique, cut caffeine after 2 PM, and keep your room at a comfortable cool temperature. You can also consider using prescribed inhalers for symptoms like snoring or nasal sprays to help manage sleep apnea."
+        },
+        {
+            "question": "sleep apnea ki jinish?",
+            "sentiment": "curious",
+            "answer": "Sleep apnea treatment is a gold standard, and weight loss helps to alleviate the condition's symptoms. Sleeptrainers can help individuals self-diagnose and self-treat serious conditions by consulting their doctor for personalized advice. It is recommended to avoid sleeping on the back as it may aggravate the condition."
         }
     ]
 }

@@ -14,5 +14,11 @@
         "Diabetes tips: consult a professional for personalized advice. Don't self-diagnose or self-treat serious conditions.",
         "Learn more about diabetes from trusted medical sources. Always follow your doctor's advice."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "diabetes control kivabe korbo?",
+            "sentiment": "curious",
+            "answer": "The recent conversation suggests that diabetes management, monitoring blood sugar, eating a balanced diet, exercising regularly, taking medication as prescribed, and consulting with a professional for personalized advice are effective ways to control diabetes."
+        }
+    ]
 }

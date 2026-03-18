@@ -31,6 +31,11 @@
             "question": "what is jwt token?",
             "sentiment": "curious",
             "answer": "Great question! JWT (JSON Web Token) is a compact, URL-safe token format for securely transmitting information between parties. It's commonly used for stateless authentication in modern web applications. Additionally, A JWT consists of three parts: Header (algorithm info), Payload (claims/data), and Signature (verification)."
+        },
+        {
+            "question": "what is jwt token?",
+            "sentiment": "curious",
+            "answer": "JWT (JSON Web Token) is a compact, URL-safe token format for securely transmitting information between parties. It's commonly used for stateless authentication in modern web applications."
         }
     ]
 }

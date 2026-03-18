@@ -15,5 +15,12 @@
         "Stage fear overcome korte: preparation is key. Tomar topic bhalo kore jano, practice koro, deep breaths nao, ar mone rekho audience tomar success chai. Nervousness normal!",
         "For a good speech: start with a hook, keep it structured (intro, body, conclusion), use stories and examples, make eye contact, and end with a strong closing statement.",
         "To overcome stage fear, focus on your message rather than yourself. Practice extensively, visualize success, arrive early to get comfortable with the space, and remember — even experienced speakers get nervous."
+    ],
+    "feelings": [
+        {
+            "question": "public speaking fear kivabe overcome korbo?",
+            "sentiment": "curious",
+            "answer": "The knowledge provided suggests that preparation is key to overcoming stage fright in public speaking, including practicing in front of a mirror, small groups, and larger ones. Additionally, regular practice is recommended, with Toastmasters being an excellent option for improving communication skills. Overcoming fear can be achieved through focusing on the message rather than one's self, visualizing success, arriving early to get comfortable with the space, and remembering even experienced speakers get nervous."
+        }
     ]
 }

@@ -14,5 +14,11 @@
         "WHO sets global health standards, monitors disease outbreaks, provides technical assistance to countries, and leads campaigns for disease eradication like polio and malaria.",
         "The WHO plays a critical role during pandemics by coordinating international response, sharing research data, and helping countries strengthen their healthcare systems."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "united nations ki kore?",
+            "sentiment": "curious",
+            "answer": "The World Health Organization (WHO) is a UN agency responsible for international public health, coordinating global responses to disease outbreaks and health emergencies.\n\nFor world bank: World Bank developing countries ke loan ar technical assistance dey infrastructure, education, health, ar poverty reduction er jonno.\n\nAlso regarding united nations: UN holo ekta international organization ja world peace, human rights, ar development er jonno kaj kore."
+        }
+    ]
 }

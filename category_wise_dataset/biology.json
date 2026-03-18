@@ -19,6 +19,11 @@
             "question": "biology basics ki?",
             "sentiment": "curious",
             "answer": "BioLogy Basic Concepts:\n1. Cell Structure\n2. DNA/RNA\n3. Evolution\n4. Ecosystems\n5. Human Body Systems\n6. Classification of Life\n7. Marine BioLogy\n8. Microbial Biology\n9. Prokaryotic Organisms\n10. Viruses and Bacteria\n11. Fungi and Yeast\n12. Protozoa\n13. Algae\n14. Zoology\n15. Animal Behavior\n16. Comparative Anatomy\n17. Taxonomy\n18. Wildlife Conservation\n19. Animal Physiology"
+        },
+        {
+            "question": "biology basics ki?",
+            "sentiment": "curious",
+            "answer": "BioLogy is a branch of life science that focuses on studying living organisms from their cellular structure, DNA/RNA, evolution, ecosystems, human body systems, and classification of life. The study of bioLogy involves understanding the foundation for medicine, ecology, zooLogy, botanY, microBiLogy, geneTiCS, and marine biOLogy. These topics cover molecular BiolOgy, ecologY, anatomY, physioloGy, zoological anaLYtics, botanical anaLYtics, and marine anaLYtics."
         }
     ]
 }

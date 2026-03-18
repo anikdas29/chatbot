@@ -19,6 +19,11 @@
             "question": "less css preprocessor ki?",
             "sentiment": "curious",
             "answer": "A: Less (Less.js) is a CSS preprocessor similar to Sass or Stylus that provides automatic feature detection, variable management, and modularity out-of-the-box. It's commonly used for building complex stylesheets with dynamic content."
+        },
+        {
+            "question": "less css preprocessor ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Less is a CSS preprocessor that offers features such as variable management, mixins, and functions to simplify the development process."
         }
     ]
 }

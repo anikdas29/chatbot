@@ -14,5 +14,11 @@
         "Benefits: consistent environments (works on my machine!), fast startup, efficient resource use, and easy scaling.",
         "Container workflow: write Dockerfile → build image → push to registry → deploy anywhere (laptop, server, cloud)."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "containers ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Containers are lightweight packages that contain the application and its dependencies. They can be started up quickly without needing to worry about managing a full OS, making them highly scalable and efficient in resource use."
+        }
+    ]
 }

@@ -11,5 +11,12 @@
         "Practice street photography regularly to improve. Study the work of masters in the field.",
         "Street Photography is a rewarding skill. Start with what you have and upgrade gear as you grow.",
         "Key to great street photography: understand light, composition, and subject. Gear is secondary."
+    ],
+    "feelings": [
+        {
+            "question": "street photography ki?",
+            "sentiment": "curious",
+            "answer": "Key to great street photography is understanding light, composition, and subject. Gear is secondary but essential for capturing candid moments in public spaces. Practice regularly to improve skills, study the work of masters in the field, and upgrade gear as you grow. Street photography is a rewarding skill that involves creativity, sustainable design principles, good light, balanced composition, focal points, and layers."
+        }
     ]
 }

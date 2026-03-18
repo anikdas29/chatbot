@@ -41,6 +41,11 @@
             "question": "solar panel lagabo kivabe?",
             "sentiment": "curious",
             "answer": "Answer: Solar panels are a type of renewable energy source that generate electricity by converting sunlight into usable energy. They can be used to power homes, businesses, and other buildings, making them an increasingly popular alternative to traditional fossil fuel-based energy sources."
+        },
+        {
+            "question": "solar energy er future ki?",
+            "sentiment": "curious",
+            "answer": "The future of solar energy is promising as it becomes increasingly affordable worldwide. With government incentives and net metering, most systems pay for themselves within 5-8 years. Conservation efforts, reforestation projects, deforestatation effects on indigenous communities, wetlands importance, soil health tips, and solar energy future are all relevant to the question."
         }
     ]
 }

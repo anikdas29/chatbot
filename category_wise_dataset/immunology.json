@@ -18,6 +18,11 @@
             "question": "immunology ki?",
             "sentiment": "curious",
             "answer": "Answer: Immunology is the study of how our bodies defend themselves against foreign invaders such as viruses, bacteria, and fungi. The basic concepts include understanding the immune system's components (antibodies, T cells, B cells), how it responds to infection or exposure to pathogens, and the various vaccines and treatments used to prevent and manage immunological diseases."
+        },
+        {
+            "question": "immunology ki?",
+            "sentiment": "curious",
+            "answer": "Immunology refers to the study of how our bodies fight off infections or diseases caused by viruses, bacteria, fungi, or other microorganisms. It involves understanding the basic mechanisms involved in the immune response and developing treatments for common infectious illnesses such as influenza, measles, and tuberculosis."
         }
     ]
 }

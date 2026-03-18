@@ -19,6 +19,11 @@
             "question": "how to deal with headache?",
             "sentiment": "curious",
             "answer": "Headache relief tips:\n1. Relaxation techniques: Deep breathing, progressive muscle relaxation, or yoga can help alleviate pain and reduce stress.\n2. Static stretching: Hold a static pose for 5-10 seconds to release tension in the neck, shoulders, and back.\n3. Exercise: Walking, cycling, or swimming can increase blood flow to the head, reducing inflammation and relieving pain.\n4. Stay hydrated: Drink water regularly throughout the day for better circulation.\n5. Cognitive-behavioral therapy (CBT): Talking to a mental health professional about triggers or"
+        },
+        {
+            "question": "how to deal with headache?",
+            "sentiment": "curious",
+            "answer": "1. Headache relief tips:\na) Stay hydrated: drink plenty of water or electrolyte-rich beverages (such as Gatorade) to replenish fluids lost through sweat and urine.\nb) Manage stress: take a break, engage in relaxing activities like yoga, meditation, or reading, or talk to a therapist if you're struggling with anxiety or depression.\nc) Get enough sleep: try to get at least 7-8 hours of restful sleep each night.\nd) Try cold compress: place a cold pack on your forehead for 10-20 minutes, then remove it and apply"
         }
     ]
 }

@@ -14,5 +14,12 @@
         "Petroleum engineering holo oil ar natural gas mati theke ber korar engineering. Era drill kore, reservoir analyze kore, ar production maximize kore.",
         "Petroleum engineers design drilling methods, analyze underground reservoirs, and develop techniques to extract maximum oil and gas. They work both onshore and offshore.",
         "Petroleum engineering is one of the highest-paying engineering fields. It deals with finding and extracting hydrocarbons, though the industry is evolving with the shift toward renewable energy."
+    ],
+    "feelings": [
+        {
+            "question": "petroleum engineering ki?",
+            "sentiment": "curious",
+            "answer": "Petroleum engineering deals with finding and extracting hydrocarbon deposits, which are crucial for meeting the world's energy needs. The industry is evolving towards renewable energy, but petroleum engineering remains one of the highest-paying engineering fields due to its focus on oil and gas exploration, production optimization, and drilling methods."
+        }
     ]
 }

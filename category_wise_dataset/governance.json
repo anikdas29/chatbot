@@ -12,5 +12,12 @@
         "Transparency, accountability, rule of law, participation, and responsiveness.",
         "Understanding governance is important for being an informed citizen.",
         "Governance matters — learn about it and get involved."
+    ],
+    "feelings": [
+        {
+            "question": "governance ki?",
+            "sentiment": "curious",
+            "answer": "Governance refers to the principles and practices that guide a democratic society's decision-making processes, including elections, voting, participating in political parties, understanding political science, and being informed citizens."
+        }
     ]
 }

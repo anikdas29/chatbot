@@ -19,6 +19,11 @@
             "question": "auditing process ki?",
             "sentiment": "curious",
             "answer": "The audiiting process involves conducting a thorough evaluation and analysis of research papers to ensure that they meet certain criteria for publication in reputable journals or academic conferences. The reviewers methodology checks the findings, suggestions, and key processes of peer-reviewed literature, ensuring its accuracy and credibility."
+        },
+        {
+            "question": "auditing process ki?",
+            "sentiment": "curious",
+            "answer": "The audiiting process involves examining financial statements and records to ensure accuracy, completeness, and fair presentation. It is an important aspect of financial reporting that ensures investors, stakeholders, and regulators trust the information provided by a company."
         }
     ]
 }

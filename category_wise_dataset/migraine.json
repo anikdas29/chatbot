@@ -19,6 +19,11 @@
             "question": "migraine er treatment ki?",
             "sentiment": "curious",
             "answer": "Interesting! Migraine management.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "migraine er treatment ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Migraine management. Moreover, Learn more about migraine from trusted medical sources.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

@@ -15,5 +15,12 @@
         "GPT holo OpenAI er language model ja text generate korte pare. Eta autoregressive — mane ekta ekta word predict kore. GPT-4 multimodal — text ar image duitai process korte pare.",
         "GPT models are trained on massive text data using next-token prediction. Each version has been larger and more capable. GPT-4 shows remarkable reasoning, coding, and creative abilities.",
         "The GPT series revolutionized AI. Unlike BERT which understands text bidirectionally, GPT generates text left-to-right. It powers ChatGPT and has become the foundation for many AI applications."
+    ],
+    "feelings": [
+        {
+            "question": "gpt model ki?",
+            "sentiment": "curious",
+            "answer": "Answer: A Generative Pre-Trained Transformer (GPT) is an artificial intelligence (AI) language model designed by OpenAI to generate text. It has been released in multiple versions, including GPTR-2, GPTR-3, GPTR-3.5, GPTR-4, and beyond. GPT models are trained on massive text data using next-token prediction, which allows them to generate complex sentences with high accuracy. The latest version of GPT-4, released in 2021, is capable of generating images, code, and creative abilities."
+        }
     ]
 }

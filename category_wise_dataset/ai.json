@@ -90,6 +90,46 @@
             "question": "tumi ki ai?",
             "sentiment": "curious",
             "answer": "Great question! AI holo machine er buddhimotta - computers shikhe data theke.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "what is AI?",
+            "sentiment": "curious",
+            "answer": "Answer: Artificial Intelligence (AI) is the simulation of human intelligence by machines and is a broad field where computers are programmed to perform tasks that typically require human intelligence, like recognizing speech, making decisions, or translating languages."
+        },
+        {
+            "question": "tumi ki robot naki AI?",
+            "sentiment": "curious",
+            "answer": "The user asked whether a robot can be considered an artificial intelligence (AI).  knowledge states that AI is the simulation of human intelligence by machines, and it includes machine learning, deep learning, NLP, and more. AI lets machines think, learn, and solve problems like humans, while also powering everything from voice assistants to self-driven cars. Artificial Intelligence covers ML, deep learning, NLP, computer vision, and robotics."
+        },
+        {
+            "question": "AI ki dangerous naki useful?",
+            "sentiment": "curious",
+            "answer": "knowledge suggests that AI is a broad field where computers are programmed to perform tasks that require human intelligence, including recognizing speech, making decisions, and translating languages. It covers machine learning, deep learning, NLP, computer vision, and robotics, which have reshaped every industry today. The question is ambiguous as it does not clearly state whether AI is dangerous or useful. However,  knowledge suggests that AI has the potential to revolutionize various industries by enabling machines to perform tasks that are typically performed by humans."
+        },
+        {
+            "question": "ami sad and also tell me what is AI and motivate me",
+            "sentiment": "curious",
+            "answer": "Nice question! AI lets machines think, learn, and solve problems like humans. It powers everything from voice assistants to self-driving cars. And AI holo machine er buddhimotta - computers shikhe data theke."
+        },
+        {
+            "question": "tumi ki ai?",
+            "sentiment": "curious",
+            "answer": "AI holo machine er buddhimotta - computers shikhe data theke.\n\nAbout about bot: Ami ekta AI-based chatbot."
+        },
+        {
+            "question": "ai ki manusher job niye nibe?",
+            "sentiment": "curious",
+            "answer": "Yes, AI is the simulation of human intelligence by machines. It includes machine learning, deep learning, NLP, and more. Artificial Intelligence powers everything from voice assistants to self-driving cars, enabling them to think, learn, and solve problems like humans. This broad field covers ML, deep learning, NLP, computer vision, and robotics, making it reshaping every industry today."
+        },
+        {
+            "question": "what is intelligence?",
+            "sentiment": "curious",
+            "answer": "Intelligence refers to the ability of a machine or human being to perform tasks that require problem-solving, decision-making, and understanding of language or other forms of communication. It encompasses various fields such as artificial intelligence (AI), machine learning, deep learning, natural language processing (NLP), computer vision, robotics, and more."
+        },
+        {
+            "question": "i am sad explain ai and motivate me",
+            "sentiment": "sad",
+            "answer": "AI is a broad field that encompasses the development of machines capable of performing tasks normally requiring human intelligence, such as recognizing speech, making decisions, or translating languages. It covers machine learning (ML), deep learning, natural language processing (NLP), computer vision, and robotics, among other areas. AI has revolutionized every industry today by enabling machines to perform complex tasks that were previously impossible for humans alone. By understanding the concept of AI, you can motivate yourself and be more informed about its potential benefits."
         }
     ]
 }

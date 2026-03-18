@@ -18,6 +18,11 @@
             "question": "paragliding ki?",
             "sentiment": "curious",
             "answer": "Good one! Tips for paragliding: plan ahead, budget wisely, be flexible, and enjoy the journey!\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "paragliding ki?",
+            "sentiment": "curious",
+            "answer": "Yes, paragliding is a popular activity in which a person rides on a parachute-like wing that is attached to the ground. It offers an exhilarating experience of soaring through the air with a sense of freedom and adventure."
         }
     ]
 }

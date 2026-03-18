@@ -101,6 +101,36 @@
             "question": "ami onek stressed feel korchi",
             "sentiment": "sad",
             "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. I understand. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAro kichu lagbe bolo!\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. I understand. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed. Plus, It's okay not to be okay.\n\nHope this helps!\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nFor loneliness: Combat loneliness: reach out to someone, join a club/class, volunteer, get a pet, or simply go to a cafe to be around people.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am angry",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Let me help. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAr kichu jante chaile bolo!\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "i feel so lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nFor loneliness: Combat loneliness: reach out to someone, join a club/class, volunteer, get a pet, or simply go to a cafe to be around people.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am frustrated",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. I hear you. Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "help me relax",
+            "sentiment": "confused",
+            "answer": "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nAbout bot capability: I can help with 55+ topics including AI, coding, health, finance, career, motivation, travel, music, and much more.\n\nOn the stress management side: To relax when stressed, try progressive muscle relaxation, listen to calming music, take a warm shower, go for a nature walk, or practice 5 minutes..."
         }
     ]
 }

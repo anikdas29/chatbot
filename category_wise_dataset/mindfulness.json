@@ -26,6 +26,16 @@
             "question": "mindfulness practice kivabe shuru korbo?",
             "sentiment": "curious",
             "answer": "Yes, mindfulness practice can be done slowly breathing, noticing surrounding thoughts, observing feelings, and judging them. It is a way to cultivate self-awareness, reduce stress, and improve overall wellbeing."
+        },
+        {
+            "question": "meditation kivabe korbo?",
+            "sentiment": "curious",
+            "answer": "The recent conversation suggests that meditation is a practice that can be practiced anywhere at any time without the need for formal training or equipment. It involves focusing on one's breath, mindfulness, and attention to present moment experiences."
+        },
+        {
+            "question": "mindfulness practice kivabe shuru korbo?",
+            "sentiment": "curious",
+            "answer": "A mindfulness practice is a form of meditation that involves focusing on the present moment without judgment or distraction. It can be practiced anywhere and at any time, as long as one has access to a quiet space."
         }
     ]
 }

@@ -13,5 +13,12 @@
         "Elections choose leaders. Register to vote, learn about candidates, vote informed.",
         "Understanding elections is important for being an informed citizen.",
         "Elections matters — learn about it and get involved."
+    ],
+    "feelings": [
+        {
+            "question": "elections process ki?",
+            "sentiment": "curious",
+            "answer": "To understand the election process, one needs to learn about candidates, voting, and registering to vote. The electoral system in a democracy is  principle of representative government where citizens have the right to choose their representatives through an election."
+        }
     ]
 }

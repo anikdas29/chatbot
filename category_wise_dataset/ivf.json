@@ -13,5 +13,12 @@
         "In vitro fertilization: eggs retrieved, fertilized in lab, embryo transferred to uterus.",
         "For ivf guidance, consult professionals and trusted resources. Every situation is unique.",
         "Ivf is important — educate yourself, seek help when needed, and support those around you."
+    ],
+    "feelings": [
+        {
+            "question": "ivf process ki?",
+            "sentiment": "curious",
+            "answer": "Knowledge retrieved for the question \"Ivf process\" includes in vitro fertilizatation, eggs retrieved, fertilization in lab, embryo transfer to uterus, and guidance on various aspects of the IVF journey."
+        }
     ]
 }

@@ -25,5 +25,12 @@
         "Alien architecture design kore: a study on the similarities and differences between human and alien structures.",
         "Optimization techniques for SETI: a review of the current methods and their limitations.",
         "The Drake Equation: a mathematical formula used to estimate the number of extraterrestrial civilizations in the galaxy that might be able to communicate with us."
+    ],
+    "feelings": [
+        {
+            "question": "what is language of aliens?",
+            "sentiment": "curious",
+            "answer": "Good one! Alien architecture design kore: a study on the similarities and differences between human and alien structures. Additionally, SETI stands for Search for Extraterrestrial Intelligence."
+        }
     ]
 }

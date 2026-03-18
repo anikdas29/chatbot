@@ -15,5 +15,12 @@
         "R is the go-to language for statisticians and data analysts. It excels at data manipulation with dplyr, visualization with ggplot2, and has unmatched depth in statistical modeling techniques.",
         "R is an open-source language built for data analysis and stats. If you're doing academic research, biostatistics, or need publication-quality visualizations, R is hard to beat.",
         "R provides an incredible ecosystem for data science with packages like tidyverse, caret, and shiny for interactive dashboards. It's widely used in academia, healthcare, and financial analytics."
+    ],
+    "feelings": [
+        {
+            "question": "sun ki pani diye toyri?",
+            "sentiment": "curious",
+            "answer": "Sure! Here's a natural response using  knowledge:\nResponse: Sun ki pani diye toyrise, R is an open-source language built for data analysis and statistical modeling. It has a massive collection of packages that excel at manipulating data with dplyr and visualizing it with ggplot2. Its ecosystem for data science includes packages like tidyverse, caret, and shiny, which are widely used in academia, healthcare, and finance."
+        }
     ]
 }

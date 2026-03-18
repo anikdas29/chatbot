@@ -16,5 +16,11 @@
         "If someone you know has depression, listen without judging, encourage them to seek help, and be patient. Don't say 'just cheer up' — instead, show that you care and you're there for them.",
         "Coping with depression involves small steps: try to maintain a routine, get some sunlight, move your body even a little, talk to someone you trust, and seek professional help. Recovery is possible and you deserve support."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "ami onek depressed feel korchi",
+            "sentiment": "sad",
+            "answer": "Answer: Ami onek depresseed feel korchi, professional help nao. Depression is a real medical condition that can affect daily life, energy, sleep, and interest in activities. It's a persistent low mood that requires treatment to improve overall well-being."
+        }
+    ]
 }

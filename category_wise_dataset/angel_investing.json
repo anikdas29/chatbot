@@ -39,6 +39,11 @@
             "question": "angel investing ki?",
             "sentiment": "curious",
             "answer": "Angel investors typically invest between $25,000 to $500,000 in a startup. They are known for their fast-growing businesses and significant ownership stake. VC firms usually take millions of dollars as investment."
+        },
+        {
+            "question": "angel investing ki?",
+            "sentiment": "curious",
+            "answer": "Angel investors typically invest between $25,000 to $500,000 in a startup as they provide equity or convertible debt. Angel investing is when wealthy individuals provide capital to early-stage startups for the purpose of funding their growth and expansion."
         }
     ]
 }

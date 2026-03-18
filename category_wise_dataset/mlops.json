@@ -13,5 +13,12 @@
         "Learn mlops through documentation, tutorials, and hands-on practice.",
         "Mlops is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with mlops: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "mlops ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Mlops is widely used in the industry. Great tool to add to your skillset. Additionally, Learn mlops through documentation, tutorials, and hands-on practice.\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

@@ -19,6 +19,11 @@
             "question": "defi decentralized finance ki?",
             "sentiment": "curious",
             "answer": "Defi (decentralized finance) is a financial services platform on blockchain that enables peer-to-peer transactions without banks or intermediaries, making it more secure and efficient than traditional banking systems."
+        },
+        {
+            "question": "defi decentralized finance ki?",
+            "sentiment": "curious",
+            "answer": "Yes, DeFi (Decentrally-owned Finance) refers to financial services on blockchain without banks, where peer-to-peer transactions are made using cryptocurrencies. It offers benefits such as global access, transparent programming, and programmable money. Risks include smart contract bugs, volatility, and scams. DeFi basic concepts include a cryptographic walllet (MetaMask), some cryptocurrency, and accessing DeFi protocols."
         }
     ]
 }

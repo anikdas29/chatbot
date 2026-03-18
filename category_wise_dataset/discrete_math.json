@@ -13,5 +13,12 @@
         "Learning discrete math builds strong analytical and problem-solving skills.",
         "Discrete Math is applied in many real-world fields. Understanding basics helps in any career.",
         "Start with discrete math fundamentals, practice with examples, and apply to real problems."
+    ],
+    "feelings": [
+        {
+            "question": "discrete math ki?",
+            "sentiment": "curious",
+            "answer": "Yes, discreted math is a fundamental study of mathematical structures that involve distinct values. It helps in understanding basic concepts such as sets, graphs, and combinatorics. Applications of discreted math include problem-solving skills, analytical thinking, and real-world applications like graph theory, topology, and number theory."
+        }
     ]
 }

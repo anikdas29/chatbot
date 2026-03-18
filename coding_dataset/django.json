@@ -19,6 +19,11 @@
             "question": "django framework shikhi kivabe?",
             "sentiment": "curious",
             "answer": "Django is an open-source web application framework that provides a robust infrastructure, including database management, templating, and middleware. It supports multiple programming languages such as Python and Django itself. The framework has gained popularity for its ease of use, flexibility, and scalability."
+        },
+        {
+            "question": "django framework shikhi kivabe?",
+            "sentiment": "curious",
+            "answer": "Django is a widely used web development framework that provides a robust set of tools for building scalable and secure applications. It emphasizes simplicity, speed, and security through its built-in authentication, authorization, and caching mechanisms. With the Django community providing a vibrant ecosystem of resources, it's easy to get started with the framework and build modern web applications quickly."
         }
     ]
 }

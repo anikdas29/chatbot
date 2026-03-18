@@ -33,5 +33,12 @@
         "Music and sound effects play a crucial role in enhancing the viewing experience in anime. Soundtracks often feature catchy melodies that capture the mood and atmosphere of each scene, while sound effects can be used to create tension or emphasis.",
         "Fan service is a common aspect of anime, but its nature and purpose can vary greatly depending on the series. Some fan service is overt and explicit, while others may be more subtle or metaphorical.",
         "The history of anime conventions dates back to the 1970s, when fans began gathering at Japanese cultural events to share their love for anime. Conventions have since evolved to include a wider range of activities, such as cosplay competitions, panel discussions, and artist alley exhibitions."
+    ],
+    "feelings": [
+        {
+            "question": "anime best shows",
+            "sentiment": "happy",
+            "answer": "The best anime series for fans of shonen (NaRTo) genres are Death Note, Attack on Titans, Fullmetal Alchemist, One Piece, and Demon Slayer. These shows offer deep stories with amazing art and a wide range of subgenres such as thriller, romance, comedy, and more."
+        }
     ]
 }

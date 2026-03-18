@@ -15,5 +15,12 @@
         "Usability testing holo real user diye product test kora — tara ki problem face kore, kothay confuse hoy, sheta observe kora. Jakob Nielsen says 5 users e 85% issues paowa jay.",
         "To conduct usability testing: define goals, create tasks, recruit participants, observe them using the product, take notes, and analyze findings. Tools like Maze, UserTesting, and Hotjar can help.",
         "Usability testing reveals real user pain points that designers might miss. It can be done in-person or remotely, moderated or unmoderated. Even simple tests with 5 users can uncover major issues."
+    ],
+    "feelings": [
+        {
+            "question": "usability testing ki?",
+            "sentiment": "curious",
+            "answer": "Yes, usability testing is a method where real users try out a product to find problems and areas for improvement. It involves defining goals, creating tasks, recruiting participants, observing them using the product, taking notes, and analyzing finding. Tools like Maze, UserTesting, and Hotjar can help with conducting usability testing."
+        }
     ]
 }

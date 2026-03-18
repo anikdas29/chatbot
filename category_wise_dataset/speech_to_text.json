@@ -15,5 +15,12 @@
         "STT holo voice ke text e convert korar technology. Google Speech API, Whisper, ar AWS Transcribe popular tools. Meeting transcription, subtitle generation, ar voice search e use hoy.",
         "Modern speech recognition uses deep learning to transcribe audio with high accuracy. Whisper by OpenAI supports 99+ languages and handles accents, background noise, and technical jargon well.",
         "Speech to text technology has improved dramatically with AI. It powers voice assistants like Siri and Alexa, automated transcription services, and real-time captioning for accessibility."
+    ],
+    "feelings": [
+        {
+            "question": "speech to text ki?",
+            "sentiment": "curious",
+            "answer": "Yes, speech-to-text (STT) refers to a NLP task that converts spoken language into written text. It is widely used in voice assistants and transcription services for accessibility purposes. OpenAI's Whispir is a popular open-source option for STT. Modern speech recognition technology supports 99+ languages and handles accents, background noise, and technical jargon well. Speech to text technology has improved dramatically with AI, enabling voice assistants like Siri and Alexa to automatically transcribe audio with high accuracy."
+        }
     ]
 }

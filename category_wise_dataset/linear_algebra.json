@@ -13,5 +13,12 @@
         "Learning linear algebra builds strong analytical and problem-solving skills.",
         "Linear Algebra is applied in many real-world fields. Understanding basics helps in any career.",
         "Start with linear algebra fundamentals, practice with examples, and apply to real problems."
+    ],
+    "feelings": [
+        {
+            "question": "linear algebra ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Linear algebra is an essential tool for understanding vector and matrix representations. It involves finding solutions to algebraic equations or systems, analyzing matrices, and understanding linear transformations in real-world fields such as engineering, physics, economics, finance, etc."
+        }
     ]
 }

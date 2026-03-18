@@ -26,6 +26,11 @@
             "question": "resume kivabe likhi?",
             "sentiment": "curious",
             "answer": "A resume is a document used to introduce yourself to potential employers. It typically includes information about your education, work experience, skills, and achievements. The purpose of a resume is to showcase your qualifications and experiences that will benefit the job you're applying for."
+        },
+        {
+            "question": "dissertation ki?",
+            "sentiment": "curious",
+            "answer": "A dissertation is a comprehensive research document required for a doctoral degree, which presents original contribution to knowledge in a field. It involves several years of work, including choosing a research topic, forming a committee, passing qualifying examinations, writing a proposal, conducting research, and defending the finding before the committee. A dissertation is an extensive research document that requires careful planning, preparation, and execution to ensure its quality and success."
         }
     ]
 }

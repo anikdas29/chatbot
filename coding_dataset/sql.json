@@ -51,6 +51,16 @@
             "question": "sql vs nosql difference ki?",
             "sentiment": "curious",
             "answer": "Good one! SQL lets you create, read, update, and delete data in relational databases. Key concepts include SELECT queries, JOINs, GROUP BY, subqueries, and indexing for performance optimization."
+        },
+        {
+            "question": "sql join types explain koro",
+            "sentiment": "curious",
+            "answer": "Nice question! SQL (Structured Query Language) is the standard language for managing and querying relational databases. It's essential for any developer or data professional working with structured data.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "datascience shikbo kivabe?",
+            "sentiment": "curious",
+            "answer": "Nice question! SQL is one of the most important skills in tech. Whether you're a backend developer, data analyst, or data scientist, you'll need SQL to interact with databases like MySQL, PostgreSQL, and SQLite."
         }
     ]
 }

@@ -15,5 +15,12 @@
         "Plagiarism holo onner lekha ba idea nijjer bole chalano. Turnitin, Grammarly, ar Copyscape popular plagiarism checker tools. Academic e plagiarism onek serious offense.",
         "To avoid plagiarism, always cite your sources, use quotation marks for direct quotes, paraphrase properly, and use plagiarism checking tools before submitting. Understanding the material helps you write originally.",
         "Plagiarism can result in failing grades, expulsion from academic institutions, legal consequences, and damage to professional reputation. Always give credit where it's due and write in your own words."
+    ],
+    "feelings": [
+        {
+            "question": "plagiarism ki?",
+            "sentiment": "curious",
+            "answer": "Plagiarism is using someone else's work, ideas, or words without proper credit. It includes copying text, paraphrasing without citing, and even reusing your own previously published work (self-plagiarism). Plagiarism can result in failing grades, expulsion from academic institutions, legal consequences, and damage to professional reputation."
+        }
     ]
 }

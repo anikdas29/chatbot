@@ -48,6 +48,11 @@
             "question": "3d printing ki?",
             "sentiment": "curious",
             "answer": "Yes, 3D printing is a popular technology that allows objects to be created layer by layer from digital files using a specialized printer. It has become increasingly affordable in recent years due to advancements in materials and technology."
+        },
+        {
+            "question": "3d printing ki?",
+            "sentiment": "curious",
+            "answer": "Asked by: User\nAnswer: A 3D printer is an additive manufacturing (AM) machine that builds objects layer by layer from digital files using a polymer material such as plastic, rubber or metal. It's a versatile tool for creating prototypes, products and even furniture."
         }
     ]
 }

@@ -19,6 +19,11 @@
             "question": "fastapi vs flask which faster?",
             "sentiment": "curious",
             "answer": "FastAPI is generally considered to be more efficient than Flask due to its smaller footprint and fewer dependencies. However, both frameworks have their own strengths and weaknesses  specific use case and requirements of each project. It ultimately depends on the needs of your application and how you plan to deploy it."
+        },
+        {
+            "question": "fastapi vs flask which faster?",
+            "sentiment": "curious",
+            "answer": "Interesting! Fastapi is widely used in industry. Great skill to add to your portfolio. Also, Learn fastapi from official docs and tutorials."
         }
     ]
 }

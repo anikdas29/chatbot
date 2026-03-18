@@ -18,6 +18,11 @@
             "question": "elevator pitch ki?",
             "sentiment": "curious",
             "answer": "Retrieved knowledge about the concept of \"elevator pitch\" is as follows:\n1. [elevator_pitch] Q: elevator pitch examples\n    A: An elevator pitch is a 30-60 second introductory spiel for one's brand, product or service that highlights its unique selling points and why it's worth investing in. It's concise, memorable, and should be brief enough to fit into the time allotted on an elevator ride.\n2. [architecture] Q: architecture ki?\n    A: Architecture is a field of study that involves designing buildings, structures, and other physical objects for their intended use or function."
+        },
+        {
+            "question": "elevator pitch ki?",
+            "sentiment": "curious",
+            "answer": "Asked by: User\nElevator pitch ki?"
         }
     ]
 }

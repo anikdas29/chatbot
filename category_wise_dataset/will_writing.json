@@ -13,5 +13,12 @@
         "Everyone 18+ with any assets should have a will. Without one, the court decides how to distribute your property.",
         "Tips: be specific, update regularly, store safely, tell executor where to find it, and consider a lawyer for large estates.",
         "Will ki: amar mrittur pore amar sampotti ke pabe tar dastavej. Legally binding document."
+    ],
+    "feelings": [
+        {
+            "question": "will writing ki?",
+            "sentiment": "curious",
+            "answer": "knowledge below includes a list of assets to include in a will, the process for creating one, the importance of having a lawyer review it, common mistakes to avoid, and tips for maintaining clarity and consistency."
+        }
     ]
 }

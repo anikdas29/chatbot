@@ -19,6 +19,11 @@
             "question": "qr code generator ki?",
             "sentiment": "curious",
             "answer": "The question asks about the use of QR code generators and their functions. The answer provided is that they are important in today's connected world, used for encoding data in visual patterns."
+        },
+        {
+            "question": "qr code generator ki?",
+            "sentiment": "curious",
+            "answer": "Yes, there is a tool called \"QR Code Generator\" that you can use to create QR codes for your own purposes. It's available on various platforms such as Google Play Store and Apple App Store."
         }
     ]
 }

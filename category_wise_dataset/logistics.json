@@ -19,6 +19,11 @@
             "question": "logistics business ki?",
             "sentiment": "curious",
             "answer": "Retrieved knowledge about logistics holon:\n1. [logistics] Q: logistics ki\n    A: The main stages are sourcing raw materials, manufacturing, wareshinig, transportation, distribution, and delivery to the end customer. Each stage needs careful coordination.\n2. [supply_chain] Q: supply chain ki\n    A: The main stages are sourcing raw materials, manufacturing, warehousing, transportation, distribution, and delivery to the end consumer. Each stage requires careful planning and execution.\n3. [wholesale] Q: wholesalkii\n    A: Wholegain business: buy in bulk at lower prices,"
+        },
+        {
+            "question": "logistics business ki?",
+            "sentiment": "curious",
+            "answer": "Yes, there are several logistics businesses available in the market that can help businesses efficiently plan, execute, and optimize their supply chain. These companies specialize in various aspects of logistics such as inbound logistics, outbound logistics, reverse logistics, third-party logistics (3PL), and more."
         }
     ]
 }

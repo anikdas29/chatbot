@@ -13,5 +13,12 @@
         "Sculpting materials: air-dry clay, polymer clay (oven-bake), wire armature, plaster, stone, wood, and found objects.",
         "Tips: start with simple shapes, build armatures for support, keep clay moist while working, and let dry slowly.",
         "Sculpting is 3D art — think in volumes, not lines. Start with small figurines and work your way up to larger pieces."
+    ],
+    "feelings": [
+        {
+            "question": "sculpture basics ki?",
+            "sentiment": "curious",
+            "answer": "Sure! Here are some basic sculpting techniques that you can try for beginners:\n1. Air-dry clay: This is the easiest and most accessible option, as it doesn't require a kiln or any special equipment. You can start with simple forms like animals, plants, or geometric shapes.\n2. Polymer clay (oven-bake): This type of clay requires a bit more effort since you need to bake the pieces in an oven at high temperatures for several hours. It's best suited for creating intricate and detailed sculptures.\n3. Wire armature: This is a sturdy support that can be used to hold your sculpture while"
+        }
     ]
 }

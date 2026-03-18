@@ -13,5 +13,12 @@
         "Bird watching tips: stay quiet, wear neutral colors, learn bird calls, and keep a life list. Dawn and dusk are peak times.",
         "Beginner birding: start in your backyard, use apps like Merlin Bird ID for identification, and join local birding groups.",
         "Pakhi dekha tips: shokal e beroleo valo, durbin lagbe, chupchap thako, ar ekta notebook rakho kon pakhi dekhle likhe rakho."
+    ],
+    "feelings": [
+        {
+            "question": "bird watching ki?",
+            "sentiment": "curious",
+            "answer": "Bird watching tips: 1. Stay quiet to avoid disturbing birds; wear neutral colors (black or gray) for better visibility; learn bird calls, such as the \"tweet\" of a sparrow and the \"chirp\" of a woodpecker; keep a life list."
+        }
     ]
 }

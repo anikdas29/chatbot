@@ -22,6 +22,11 @@
             "question": "drowning rescue kivabe kore?",
             "sentiment": "curious",
             "answer": "The knowledge retrieved from the text suggests that drowning rescues involve checking for breathing, assessing the victim's condition, providing first aid (such as CPR and oxygen supply), checking for other potential victims or injuries, and ensuring the victim is safe before evacuation."
+        },
+        {
+            "question": "drowning rescue kivabe kore?",
+            "sentiment": "curious",
+            "answer": "The knowledge retrieved is about rescuing someone who has fallen into a body of water or other watery environment, such as a lake, river, ocean, etc. The question refers to whether one should call for help immediately after drowning, and the response is that it's important to check breathing and start CPR if needed before calling for help."
         }
     ]
 }

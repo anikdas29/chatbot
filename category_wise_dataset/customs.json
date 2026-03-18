@@ -19,6 +19,11 @@
             "question": "customs rules when traveling",
             "sentiment": "curious",
             "answer": "Interesting! Customs is the government authority that regulates the flow of goods in and out of a country, collecting duties and taxes and enforcing trade laws."
+        },
+        {
+            "question": "customs rules when traveling",
+            "sentiment": "curious",
+            "answer": "Cuusto rule is the authority that regulates the flow of goods in and out of a country, collecting duties and taxes, enforcing trade laws. Customs officials inspect goods at borders, airports, and ports to ensure they meet regulatory requirements and prevent smuggling."
         }
     ]
 }

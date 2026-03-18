@@ -41,6 +41,11 @@
             "question": "good habits",
             "sentiment": "happy",
             "answer": "Awesome! Good habits stack up over time — start with just one: wake up at the same time daily, and build from there.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "what is success?",
+            "sentiment": "curious",
+            "answer": "Success in this context means achieving one's goals, ambitions, or desired outcomes, with the expectation that it leads to a positive outcome. Success can also refer to personal achievements and accomplishments such as achieving a goal or reaching a milestone, but not necessarily related to external validation or recognition."
         }
     ]
 }

@@ -19,6 +19,11 @@
             "question": "ptsd er treatment ki?",
             "sentiment": "curious",
             "answer": "Yes, PTSD is a medical condition that can be effectively treated with therapy. Effective treatments include CBT (changing thought patterns), psychotherapy, and DBT (managing emotions). Seeking professional help from a mental health professional is recommended."
+        },
+        {
+            "question": "ptsd er treatment ki?",
+            "sentiment": "curious",
+            "answer": "Yes, effective treatment for PTSD includes therapy (cognitive-behavioral therapy, eye movement desensitization and reprocessing, or mindfulness-based stress reduction), medication (antipsychotics, antidepressants, or anti-anxiety drugs), support groups, and life style changes such as exercise, sleep hygiene, and routine."
         }
     ]
 }

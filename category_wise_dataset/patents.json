@@ -13,5 +13,12 @@
         "Patent holo shorkaar er deya ekta legal odhikar ja inventor ke tader abishkar exclusive bhabe banate, use korte, ar bechte dey — sadhaaronoto 20 bochor er jonno.",
         "To get a patent, file an application with your country's patent office describing the invention in detail. The process involves examination and can take 1-3 years or more.",
         "You can patent inventions that are new, useful, and non-obvious — like machines, processes, chemical compositions, and manufactured items. You cannot patent ideas, natural laws, or abstract concepts."
+    ],
+    "feelings": [
+        {
+            "question": "patent filing ki?",
+            "sentiment": "curious",
+            "answer": "To file an application for a patent with your country's patent office, you need to have a detailed description of your invention. The process involves examination and can take several months or more."
+        }
     ]
 }

@@ -41,6 +41,11 @@
             "question": "mongodb e aggregation pipeline kivabe use korbo?",
             "sentiment": "curious",
             "answer": "Yes, MongoDB's aggregation pipeline is powerful for data processing and provides easy cloud hosting with built-in scaling."
+        },
+        {
+            "question": "how to connect mongodb with node?",
+            "sentiment": "curious",
+            "answer": "To connect MongoDB with Node, you can use a library like Mongoose or MongoClient. Here are the steps to get started:\n1. Install the necessary dependencies using npm: `npm install mongoose` or `npm install mongo-client`.\n2. Create a new file called \"index.js\" and add the following code:\n```javascript\nconst mongoose = require('mongoose');\nconst mongoClient = require('mongodb').MongoClient;\n// Connect to MongoDB using MongoClient\nmongoClient.connect(process.env.MONGODB_URI || 'mongodb://localhost/mydb', { useNewUrlParser: true }, (err, client) => {"
         }
     ]
 }

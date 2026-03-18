@@ -19,6 +19,11 @@
             "question": "supply chain management ki?",
             "sentiment": "curious",
             "answer": "Interesting! A supply chain is the entire network of organizations, people, activities, and resources involved in creating and delivering a product from raw materials to the end customer."
+        },
+        {
+            "question": "supply chain management ki?",
+            "sentiment": "curious",
+            "answer": "Great question! A supply chain is the entire network of organizations, people, activities, and resources involved in creating and delivering a product from raw materials to the end customer. And Supply chain management is crucial because it reduces costs, improves efficiency, ensures timely delivery, and directly impacts customer satisfaction and a company's profitability.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

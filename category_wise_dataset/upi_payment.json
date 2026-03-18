@@ -19,6 +19,26 @@
             "question": "eta kivabe kaj kore?",
             "sentiment": "curious",
             "answer": "Machine Learning is a subset of AI that involves learning from data and adapting to new situations based on past experiences."
+        },
+        {
+            "question": "AI kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Yes, AI (Artificial Intelligence) can be used for instant payment systems like UPi Payment System in India. The system works by linking bank accounts to a unique ID called UPi ID that is instantly transferred between them using mobile phones."
+        },
+        {
+            "question": "internet kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Yes, you can use the UPI payment system for instant money transfers between bank accounts using a mobile phone. The UPI works by linking your bank account to an UPI ID, which is a unique identifier that allows you to send or receive money instantly 24/7 without needing account numbers or IFSC codes. Always keep your UPI PIN private and never share it with anyone to stay safe from fraud."
+        },
+        {
+            "question": "wifi kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Yes, Wi-Fi is a convenient way to connect to the internet without needing a physical cable connection. It stands for wireless fidelity and refers to the technology used in mobile devices that allow them to communicate wirelessly over short distances using radio waves."
+        },
+        {
+            "question": "eta kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Yes, the UPI (UniFiated Payments Interface) is a real-time payment system developed in India that allows instant money transfers between bank accounts using a mobile phone. It works by linking your bank account to an UPID (UniFi ID), which you can send or receive money instantly 24/7 without needing account numbers or IFSC codes. Always keep your UPI PIN private and never share it with anyone to stay safe from fraud."
         }
     ]
 }

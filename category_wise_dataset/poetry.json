@@ -13,5 +13,12 @@
         "Kobita holo shahitto er ekta rup ja rhythm, metaphor, ar imagery use kore feelings ba ideas express korey.",
         "To write a poem, start by picking a theme, play with word sounds and rhythms, use vivid imagery, and don't be afraid to break grammar rules for effect.",
         "There are many types of poetry — sonnets, haikus, free verse, limericks, ballads, and more. Each has its own structure and style."
+    ],
+    "feelings": [
+        {
+            "question": "poetry ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Poetry is a form of literary art that uses rhythm, imagery, and language to express emotions and ideas in a concentrated way.\n\nHope this helps!"
+        }
     ]
 }

@@ -21,6 +21,11 @@
             "question": "julia language ki fast?",
             "sentiment": "curious",
             "answer": "JULIA's performance is considered to be as fast as Python in terms of numerical analysis. It aims to be as easy as Pyton but faster than C, solving the two-language problem."
+        },
+        {
+            "question": "julia language ki fast?",
+            "sentiment": "curious",
+            "answer": "Jula is known to be as fast as Python but faster than C in terms of performance for scientific computing and numerical analysis."
         }
     ]
 }

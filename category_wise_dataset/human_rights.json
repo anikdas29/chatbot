@@ -13,5 +13,22 @@
         "Human rights holo protitta manusher molik odhikar — jibon, shadhinota, shikkhya, ar morjada rokkhar odhikar ja jonmo thekei paoa jay.",
         "The Universal Declaration of Human Rights (UDHR) was adopted by the UN in 1948 and outlines 30 fundamental rights that belong to every human being.",
         "Human rights matter because they protect individuals from abuse, ensure dignity and equality, and provide a framework for justice and peaceful coexistence in society."
+    ],
+    "feelings": [
+        {
+            "question": "tumi ki manush and kothay thako?",
+            "sentiment": "curious",
+            "answer": "Great question! Human rights holo protitta manusher molik odhikar — jibon, shadhinota, shikkhya, ar morjada rokkhar odhikar ja jonmo thekei paoa jay.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "human rights ki ki?",
+            "sentiment": "curious",
+            "answer": "Human rights are fundamental freedoms and protection for every person regardless of nationality, race, gender, or religion. They include the right to life, freedom, and education. The Universal Declaration of Human Rights (UDHR) was adopted by the United Nations in 1948 and outlines 30 fundamental rights that belong to every human being."
+        },
+        {
+            "question": "manush ki underwater thakar jonno banano?",
+            "sentiment": "curious",
+            "answer": "Nice question! Human rights holo protitta manusher molik odhikar — jibon, shadhinota, shikkhya, ar morjada rokkhar odhikar ja jonmo thekei paoa jay."
+        }
     ]
 }

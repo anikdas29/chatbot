@@ -13,5 +13,12 @@
         "Learn jenkins through documentation, tutorials, and hands-on practice.",
         "Jenkins is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with jenkins: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "jenkins pipeline ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Jenkins pipelines are a common feature of GitLab CI/CD. They allow for automated builds, tests, and deployments based on changes to code or configuration files."
+        }
     ]
 }

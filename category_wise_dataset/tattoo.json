@@ -13,5 +13,12 @@
         "Research artist, choose meaningful design, follow aftercare instructions carefully.",
         "Tattoo tips: consult a professional for personalized advice. Don't self-diagnose or self-treat serious conditions.",
         "Learn more about tattoo from trusted medical sources. Always follow your doctor's advice."
+    ],
+    "feelings": [
+        {
+            "question": "tattoo ki safe?",
+            "sentiment": "curious",
+            "answer": "Yes, tattoos are generally considered safe as long as they are properly maintained and followed aftercare instructions. However, it's essential to consult with a licensed professional for personalized advice on tattooing techniques and the best design choices for your body. Always follow your doctor's guidance when self-diagnosing or treating serious conditions related to tattoos."
+        }
     ]
 }

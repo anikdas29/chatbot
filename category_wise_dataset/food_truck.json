@@ -18,6 +18,11 @@
             "question": "food truck business ki?",
             "sentiment": "curious",
             "answer": "Good one! Food truck: mobile restaurant. Lower startup than traditional restaurant. Popular in cities.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "food truck business ki?",
+            "sentiment": "curious",
+            "answer": "Answers to the user's question \"Food truck business ki?\" include:\n1. Food truck is a mobile restaurant, offering customers the chance to try different varieties and styles of cuisine. 2. Starting a food truck can be cost-effective compared to traditional restaurants, as it requires less space and equipment. 3. Exploring food trucks involves trying new flavors and styles, which is an exciting journey for many people."
         }
     ]
 }

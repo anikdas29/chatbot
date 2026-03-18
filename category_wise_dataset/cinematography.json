@@ -12,5 +12,12 @@
         "Basic shots: wide (establish), medium (conversation), close-up (emotion), extreme close-up (detail), over-the-shoulder.",
         "Lighting basics: three-point lighting (key, fill, back). Natural light through windows is beautiful and free.",
         "Tips: use the rule of thirds, leading lines, depth of field, and motivated camera movement. Every shot should have a purpose."
+    ],
+    "feelings": [
+        {
+            "question": "cinematography ki?",
+            "sentiment": "curious",
+            "answer": "Cinematography = art of visual storytelling through camera. Composition, lighting, movement, and lens choice.\n\nFor theater: Theater holo live performance — stage e actor ra story perform kore audience er shamne.\n\nRegarding vfx: Software: After Effects (motion), Nuke (compositing), Blender (3D, free), Houdini (simulation), Cinema 4D (motion design)."
+        }
     ]
 }

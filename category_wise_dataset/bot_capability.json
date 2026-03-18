@@ -53,6 +53,31 @@
             "question": "help",
             "sentiment": "confused",
             "answer": "Let me explain. I can help with 55+ topics including AI, coding, health, finance, career, motivation, travel, music, and much more. Just ask!\n\nHope this helps!"
+        },
+        {
+            "question": "what can you do?",
+            "sentiment": "curious",
+            "answer": "I am a helpful assistant and can assist with various topics related to AI, ML, finance, career, health, education, travel, music, books, fitness, and more. I can provide guidance on coding, financing, and other aspects of life that may be relevant to your question. Please ask me for assistance!"
+        },
+        {
+            "question": "thanks, now help me again",
+            "sentiment": "happy",
+            "answer": "Answer: Sure, I can definitely help with that question. As a helpful assistant, I have extensive knowledge and experience in various fields such as AI/ML, coding, health, finance, career guidance, motivation, travel tips, music recommendations, sports analysis, and much more. So, feel free to ask me about anything related to your interests or needs. Just remember that I can only provide general information and advice, so it's up to you to take action based on what you learn from my responses."
+        },
+        {
+            "question": "Ki ki help korte paro tmi?",
+            "sentiment": "curious",
+            "answer": "Yes, I can provide assistance with various topics related to AI, coding, health, finance, career, motivation, travel, music, and much more. Please ask me any topic you wish!"
+        },
+        {
+            "question": "tumi ki korte paro?",
+            "sentiment": "curious",
+            "answer": "Answer: The bot can help with a variety of topics related to AI, coding, health, finance, career, motivation, travel, music, and more. To ask about specific topics or areas, simply ask!"
+        },
+        {
+            "question": "tumi ki offline kaj korte paro?",
+            "sentiment": "curious",
+            "answer": "Is it possible to assist the user in finding resources related to the topic \"55+ topics\" for a given bot-user conversation about learning new coding languages through online tutorials? Answer according to: Retrieving knowledge: \"coding\", \"finance\", and many others, I am here to help. The goal of these tutorial programs is to teach you how to code in your preferred language using simple steps and examples that are easy to understand. Can you provide me with a list of 55+ categories for which the user can ask questions related to learning coding languages through online tutorials?"
         }
     ]
 }

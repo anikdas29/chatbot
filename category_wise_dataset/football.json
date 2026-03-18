@@ -16,5 +16,16 @@
         "Lionel Messi and Cristiano Ronaldo are widely considered the two greatest footballers of all time. Other legends include Pele, Maradona, Zinedine Zidane, and Ronaldinho.",
         "The FIFA World Cup is the biggest sporting event on the planet, held every 4 years. Brazil has won it the most times (5). The tournament brings together 32 (now 48) national teams competing for glory."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "bangladesh ki world cup jitse football e?",
+            "sentiment": "curious",
+            "answer": "Nice question! Football er basic rules holo — haat diye ball choa jabe na (goalkeeper chara), offside rule mante hobe, ar foul korle yellow/red card pawa jay. Goal beshi je team korbe, tara jitbe."
+        },
+        {
+            "question": "why messi is best then ronaldo?",
+            "sentiment": "happy",
+            "answer": "Awesome! Lionel Messi and Cristiano Ronaldo are widely considered the two greatest footballers of all time. Other legends include Pele, Maradona, Zinedine Zidane, and Ronaldinho.\n\nAro kichu lagbe bolo!"
+        }
+    ]
 }

@@ -19,6 +19,11 @@
             "question": "What is game theory?",
             "sentiment": "curious",
             "answer": "Valo question! Game Theory is applied in many real-world fields. Understanding basics helps in any career.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "game theory ki?",
+            "sentiment": "curious",
+            "answer": "Yes, game theory is a fundamental study of mathematical structures that involves distinct values and helps in understanding strategic decision-making. It can be applied in various real-world fields such as economics, politics, finance, etc., with the basic concepts of equilibrium points, prisoners' dilemma, and other similar problems."
         }
     ]
 }

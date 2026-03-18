@@ -12,5 +12,12 @@
         "Learning mathematical modeling builds strong analytical and problem-solving skills.",
         "Mathematical Modeling is applied in many real-world fields. Understanding basics helps in any career.",
         "Start with mathematical modeling fundamentals, practice with examples, and apply to real problems."
+    ],
+    "feelings": [
+        {
+            "question": "mathematical modeling ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Mathematical modeling: representing real-world systems with math equations for analysis and prediction.\n\nHope this helps!"
+        }
     ]
 }

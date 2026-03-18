@@ -13,5 +13,12 @@
         "Practice darkroom regularly to improve. Study the work of masters in the field.",
         "Darkroom is a rewarding skill. Start with what you have and upgrade gear as you grow.",
         "Key to great darkroom: understand light, composition, and subject. Gear is secondary."
+    ],
+    "feelings": [
+        {
+            "question": "darkroom processing ki?",
+            "sentiment": "curious",
+            "answer": "Darkroom processing is a rewarding skill that requires understanding light, composition, and subject to achieve great results. It's essential to practice regularly and use high-quality gear for optimal results."
+        }
     ]
 }

@@ -48,6 +48,16 @@
             "question": "anger control kivabe korbo?",
             "sentiment": "curious",
             "answer": "Great question! Anger management is learning to recognize your triggers and responding calmly instead of reacting. Techniques include deep breathing, counting to 10, and walking away temporarily. Additionally, Rag control korte deep breath nao, 10 porjonto count koro, ar jodi pare situation theke sore jao kichhukhon.\n\nHope this helps!"
+        },
+        {
+            "question": "anger control kivabe korbo?",
+            "sentiment": "curious",
+            "answer": "Yes, anger control involves deep breathing, counting to 10, and walking away temporarily. It's a technique used to reduce the intensity of angry feelings and prevent them from escalating into physical violence or other forms of aggression."
+        },
+        {
+            "question": "how to manage emotions?",
+            "sentiment": "curious",
+            "answer": "In the workplace, managing anger requires a multi-faceted approach. This may include taking regular breaks, practicing deep breathing exercises, and using positive self-talk to manage stress. Employers can also play a role by promoting a supportive work environment and providing resources for employee well-being.\n\nOn the stress management side: Stress management involves techniques to cope with pressure.\n\nFor emotions: Its okay to feel."
         }
     ]
 }

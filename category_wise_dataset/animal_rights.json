@@ -24,5 +24,12 @@
         "The distinction between human rights and animal rights lies in their underlying ethical frameworks. Human rights are based on the principles of moral agency, autonomy, and dignity, whereas animal rights emphasize the inherent value and sentience of non-human beings. This difference has significant implications for how we approach issues like animal welfare and conservation.",
         "Animal testing's impact on public perception is complex and multifaceted. On one hand, it can lead to the development of lifesaving treatments and vaccines. On the other hand, it often involves inhumane procedures that can elicit strong emotional responses from the public. Effective communication strategies and alternative methods are crucial for mitigating negative perceptions.",
         "The concept of animal rights is not universally accepted across cultures. In some societies, animals are viewed as mere commodities or tools for human survival, whereas in others, they are considered integral members of the family or revered for their spiritual significance. Understanding these cultural variations is essential for developing effective policies and practices that respect animal dignity."
+    ],
+    "feelings": [
+        {
+            "question": "animal rights ki?",
+            "sentiment": "curious",
+            "answer": "Animal rights is the philosophy that animals deserve to live free from human exploitation, experimentation, and cruelty. It advocates for the ethical treatment of all sentient beings, including but not limited to humans, pets, livestock, and wildlife."
+        }
     ]
 }

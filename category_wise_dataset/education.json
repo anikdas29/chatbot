@@ -65,6 +65,11 @@
             "question": "how to study effectively?",
             "sentiment": "curious",
             "answer": "Online learning works best when combined with practice. Watch → understand → build → repeat. Join Discord communities to stay accountable.\n\nAbout study techniques: Best techniques: active recall (test yourself), spaced repetition (review at intervals), and the Feynman technique (teach it)."
+        },
+        {
+            "question": "how to study effectively?",
+            "sentiment": "curious",
+            "answer": "1. Set realistic goals for each day or week\n2. Break down large tasks into smaller ones\n3. Use a timer to keep track of time spent on studying\n4. Practice with flashcards, memory games, or mind mapping tools\n5. Take breaks during study sessions\n6. Find a study space that is conducive to concentration\n7. Experiment with different learning styles and methods (e.g., visual, kinesthetic)\n8. Seek feedback from peers or instructors to improve your skills\n9. Celebrate small victories along the way\n10. Stay motivated by setting goals for future study sessions"
         }
     ]
 }

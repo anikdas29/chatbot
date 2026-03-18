@@ -19,6 +19,11 @@
             "question": "scholarship kivabe pabo?",
             "sentiment": "curious",
             "answer": "Interesting! Scholarship pawar upay: valo result koro, strong essay likho, recommendation letter nao, ar onek jaygay apply koro."
+        },
+        {
+            "question": "scholarship kivabe pabo?",
+            "sentiment": "curious",
+            "answer": "Great question! Scholarship pawar upay: valo result koro, strong essay likho, recommendation letter nao, ar onek jaygay apply koro. Also, Types: merit-based, need-based, subject-specific, country-specific, and diversity scholarships.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

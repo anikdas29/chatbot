@@ -13,5 +13,12 @@
         "Beginner projects: scarf, dishcloth, headband, baby blanket. Start with chunky yarn and big needles — easier to see stitches.",
         "Knitting basics: cast on, knit stitch, purl stitch, bind off. With just these you can make most beginner patterns.",
         "Knitting benefits: relaxing, portable, creative, and you get to wear what you make! YouTube tutorials are great for learning."
+    ],
+    "feelings": [
+        {
+            "question": "knitting basics ki?",
+            "sentiment": "curious",
+            "answer": "Knitting basic skills are cast-on, knit stitch, purl stitch, bind off. These can be learned with just a few needles and yarn. A scarf is the perfect first project for beginners. Beginners should start with chunky yarn and big needles to see stitches more easily. Benefits of knitting include relaxation, portability, creativity, and being able to wear what you make."
+        }
     ]
 }

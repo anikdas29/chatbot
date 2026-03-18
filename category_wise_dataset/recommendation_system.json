@@ -12,5 +12,12 @@
         "Learn recommendation system through documentation, tutorials, and hands-on practice.",
         "Recommendation System is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with recommendation system: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "recommendation system ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Recommendation System is widely used in the industry. Great tool to add to your skillset. Additionally, Recommendation systems: collaborative filtering, content-based, hybrid.\n\nHope this helps!"
+        }
     ]
 }

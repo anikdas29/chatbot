@@ -33,5 +33,12 @@
         "To optimize Asana for large-scale projects, users can leverage the tool's flexibility in setting up custom fields, workflows, and reporting features. Additionally, integrating Asana with other tools like Jira and Slack can help streamline collaboration and communication.",
         "Yes, Asana can be used for personal task management due to its simplicity and flexibility. Users can create custom boards, set reminders, and track progress without requiring extensive technical knowledge.",
         "Asana's security features include data encryption, access controls, two-factor authentication, and regular software updates. It also complies with major industry standards such as GDPR and HIPAA."
+    ],
+    "feelings": [
+        {
+            "question": "asana task management ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Asana can be used for personal task management due to its simplicity and flexibility. Users can create custom boards, set reminders, and track progress without requiring extensive technical knowledge."
+        }
     ]
 }

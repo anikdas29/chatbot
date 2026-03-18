@@ -29,6 +29,11 @@
             "question": "what is next.js?",
             "sentiment": "curious",
             "answer": "Next.JS is a popular React.js framework for building serverless applications and static websites. It offers a range of features like server-side rendering, dynamic routing, and customizable templates to build a fully featured website or mobile app quickly."
+        },
+        {
+            "question": "what is next.js?",
+            "sentiment": "curious",
+            "answer": "Next.js is a React framework developed by Facebook that provides server-side rendering (SSR) and static generation (SSG). It offers features such as lazy loading, routing, and customization options for building production-ready React apps."
         }
     ]
 }

@@ -13,5 +13,12 @@
         "The fishery sector is important globally for economy and employment.",
         "Understanding fishery helps you appreciate the products and services we use daily.",
         "Learn about fishery — it's a fascinating field with many career opportunities."
+    ],
+    "feelings": [
+        {
+            "question": "fishery management ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Fishery industry: capture fishing and aquaculture. Important for protein supply and economy. Moreover, Understanding fishery helps you appreciate the products and services we use daily.\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

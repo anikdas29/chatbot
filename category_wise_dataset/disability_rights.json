@@ -13,5 +13,12 @@
         "Disability rights holo protibondhi manusher soman odhikar nischit kora — education, job, healthcare, ar public space e equal access paoa.",
         "Key laws include the Americans with Disabilities Act (ADA), the UN Convention on the Rights of Persons with Disabilities, and Bangladesh's Protibondhi Odhikar Ain 2013.",
         "You can support disability rights by advocating for accessible spaces, using inclusive language, supporting disability-led organizations, and calling out discrimination."
+    ],
+    "feelings": [
+        {
+            "question": "disability rights ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Understanding disability rights includes ensuring that people with disabilities have equal access to opportunities, services, and protection under the law. It also refers to key laws such as the Americans with Disabilities Act (ADA) and Bangladesh's Protibondhi Odhikar Ain 2013. Supporting disability rights involves advocating for accessible spaces, using inclusive language, supporting disability-led organizations, and calling out discriminatory behavior."
+        }
     ]
 }

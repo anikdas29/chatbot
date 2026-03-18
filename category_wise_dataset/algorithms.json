@@ -44,6 +44,11 @@
             "question": "data structure ar algorithm shikbo kivabe?",
             "sentiment": "curious",
             "answer": "Data structures and algorithmic skills are essential for coding interviews, as they help organize and manage data. Some examples of key algorithms include binary search, BFS/DFS, dijkstra, sorting (merge, quick), dynamic programming, two-pointers, and sliiding window."
+        },
+        {
+            "question": "data structure ar algorithm shikbo kivabe?",
+            "sentiment": "curious",
+            "answer": "Answer: Data structures and algorithmic thinking are essential for solving problems in the field of computer science. Algorithms refer to step-by-step procedures for solving problems, while data structures are the underlying structures used to store and manipulate data. The question you asked about data structure algorithms is a common one among computer science students and professionals alike."
         }
     ]
 }

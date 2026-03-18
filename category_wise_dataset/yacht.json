@@ -19,6 +19,11 @@
             "question": "yacht vacation ki?",
             "sentiment": "curious",
             "answer": "Retrieved knowledge about boat traveling:\n1. [yaacht] Q: yacht ki\n    A: Yacht can be an amazing experience. Research and prepare before you go.\n2. [boat] Q: boa t ki\n    A: Boat can be an amazing experience. Research and prepare before you go.\n3. [crusie] Q: cruise ki\n    A: Cruise: floating vacation. All-inclusive, multiple destination s, entertainment onboard.\n4. [ferry] Q: ferry ki\n    A: Ferry: water transport for passengers and vehicles. Book in advance for popular routes."
+        },
+        {
+            "question": "yacht vacation ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Yacht: luxury sailing. Requires license, crew knowledge, and maritime safety training."
         }
     ]
 }

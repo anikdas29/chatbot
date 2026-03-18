@@ -13,5 +13,12 @@
         "Learn hadoop through documentation, tutorials, and hands-on practice.",
         "Hadoop is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with hadoop: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "hadoop big data ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Hadoop is a popular big data framework used to store and process large amounts of data in distributed environments. It provides tools like MapReduce for processing and HDFS for storage."
+        }
     ]
 }

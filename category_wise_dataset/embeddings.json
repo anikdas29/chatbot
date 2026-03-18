@@ -15,5 +15,12 @@
         "Embedding holo data ke number er list e convert kora jate machine bujhte pare. Word2Vec, GloVe, ar BERT embeddings popular examples. 'King' ar 'Queen' er embedding kachakachi thake.",
         "Word embeddings map words to dense vectors where semantic relationships are preserved. For example, the vector for 'king' minus 'man' plus 'woman' gives something close to 'queen'.",
         "Embeddings are fundamental to modern NLP and search. They convert text into vectors that capture meaning, enabling semantic search, recommendation systems, and clustering of similar content."
+    ],
+    "feelings": [
+        {
+            "question": "embeddings ki?",
+            "sentiment": "curious",
+            "answer": "Embeddings are a type of numerical representation that maps words to dense vectors in a continuous vector space. Similar items get similar vectors, making it easy for machines to understand relationships between them. Word2Vec, GloVe, and ar BERT embedding systems are popular examples of embodding models used in NLP tasks such as text summarization and paraphrase tools. Tokenization is the process of breaking down text into smaller units called tokens that can be words or subwords."
+        }
     ]
 }

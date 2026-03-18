@@ -15,5 +15,12 @@
         "Fine-tuning holo ekta pre-trained model ke specific task er jonno customize kora. Jemon, GPT ke medical data diye fine-tune korle medical chatbot banano jay.",
         "Model fine-tuning adjusts a pre-trained model's weights using domain-specific data. Techniques like LoRA and QLoRA make it efficient by only updating a small subset of parameters.",
         "Fine-tuning is essential when you need a model specialized for your use case. Instead of training billions of parameters from scratch, you adapt an existing model with much less data and compute."
+    ],
+    "feelings": [
+        {
+            "question": "fine tuning models ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Fine-tuning is essential when you need a model specialized for your use case. Instead of training billions of parameters from scratch, you adapt an existing model with much less data and compute.\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

@@ -13,5 +13,12 @@
         "Process: research topic → find subjects → conduct interviews → shoot b-roll → edit story → add narration if needed.",
         "Tips: ask open-ended questions, let subjects speak (don't lead), capture authentic moments, and find the emotional core.",
         "Documentary making: topic research koro, real people er interview nao, honest story tell koro, ar good b-roll shoot koro."
+    ],
+    "feelings": [
+        {
+            "question": "documentary making ki?",
+            "sentiment": "curious",
+            "answer": "Documentary-making involves conducting in-depth interviews with real people and creating a non-fiction story through film. The process includes researching topics, finding compelling subjects, shooting b-roll, editing story, and adding narration if necessary. The documentary-making process requires open-ended questions, asking for emotional core, capturing authentic moments, and finding the emotional core."
+        }
     ]
 }

@@ -24,6 +24,11 @@
             "question": "ruby on rails ki?",
             "sentiment": "curious",
             "answer": "Ruby on Rails, or just Ruby on Rails (RoR), is a popular web application framework that allows developers to build dynamic websites and applications quickly and efficiently using the Ruby programming language. It offers a range of features like model-view-controller architecture, asset pipeline, and database migration tools, among others."
+        },
+        {
+            "question": "ruby on rails ki?",
+            "sentiment": "curious",
+            "answer": "Ruby on Rails is a widely used web application framework that enables developers to build scalable and robust web applications quickly using Ruby programming language. It provides a set of tools, libraries, and best practices for developing dynamic, user-friendly interfaces with a focus on security and performance."
         }
     ]
 }

@@ -46,6 +46,11 @@
             "question": "how to write a good resume?",
             "sentiment": "happy",
             "answer": "Responding to the question, \"How to write a good resume?\" The assistant suggests that a strong resume should be no more than 1-2 pages and use action verbs to emphasize accomplishments. Quantify results where possible to showcase achievements. Tailor it for each job you apply to by focusing on the specific requirements of the position. Keep the resume concise, with a clear introduction and conclusion that highlights your skills and experience."
+        },
+        {
+            "question": "how to write a good resume?",
+            "sentiment": "happy",
+            "answer": "knowledge includes action verbs, quantify achievements, tailor for every job, and proofread. The question asks about writing a good resume, which is covered in  knowledge."
         }
     ]
 }

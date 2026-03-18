@@ -19,6 +19,11 @@
             "question": "therapy ki help kore?",
             "sentiment": "curious",
             "answer": "Yes, therapy can provide professional support for individuals experiencing mental health issues such as depression, anxiety, or stress. Therapists may offer coping strategies, mindfulness exercises, and other techniques to help individuals manage their symptoms and improve their overall well-being."
+        },
+        {
+            "question": "therapy ki help kore?",
+            "sentiment": "curious",
+            "answer": "Yes, therapy can provide support and help individuals cope with various mental health issues such as anxiety, depression, trauma, and grief. Therapists may use a variety of techniques to help their patients manage symptoms and improve overall well-being."
         }
     ]
 }

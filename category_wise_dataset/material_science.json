@@ -18,6 +18,11 @@
             "question": "material science ki?",
             "sentiment": "curious",
             "answer": "Material Science is studying structure and properties of materials, including metals, polymers, ceramics, composite materials, and semi-conductors."
+        },
+        {
+            "question": "material science ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Material Science refers to the study of structure and properties of materials. It includes studying atomic structures, crystal structures, phase diagrams, mechanical testing, and applications in various fields such as stronger alloys, flexible electronic devices, biocompatible implants, lightweight aircraft materials, and smart fabrics."
         }
     ]
 }

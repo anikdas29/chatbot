@@ -19,6 +19,11 @@
             "question": "bonds investment ki safe?",
             "sentiment": "curious",
             "answer": "Bonds are generally less risky than stocks and provide steady income. They're considered a safer option for conservative investors, but returns may be lower compared to stocks. Professional managers manage these investments, and mutual fund holos offer safe options for investing in them. Angel investors prefer startups that have high potential, while cryptocurrency investment is risky due to the volatility of the market."
+        },
+        {
+            "question": "bonds investment ki safe?",
+            "sentiment": "curious",
+            "answer": "Yes, bond investments are generally considered to be less risky than stocks and provide steady income. Bonds are debt instruments where you lend money to a government or corporation in exchange for periodic interest payments and the return of principal at maturity. Bond holos (debt instruments) typically offer lower returns than stocks, but they can be considered safer investments due to their stability over time."
         }
     ]
 }

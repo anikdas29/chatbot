@@ -31,5 +31,12 @@
         "To implement Ansible roles effectively, users need to understand how to structure their code using the role directory format. This includes creating modules, tasks, and handlers that work together seamlessly.",
         "Ansible's state management strategies can be categorized into three main types: atomic, present, and absent. Atomic states ensure that only one task is executed at a time, while present states allow for sequential execution of multiple tasks.",
         "When choosing between Ansible and Puppet for configuration management, users need to consider factors such as complexity, scalability, and ease of use. Both tools have their strengths and weaknesses, making it essential to evaluate each tool's unique features."
+    ],
+    "feelings": [
+        {
+            "question": "ansible automation ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Ansible is a tool for automation in configuration management, app deployment, and more. It uses YAML playbooks to define tasks and workflows, making it easy to create complex scripts without writing code. Ansible is widely used in the industry and has great tools to add to your skillset."
+        }
     ]
 }

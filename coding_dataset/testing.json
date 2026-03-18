@@ -30,6 +30,11 @@
             "question": "how to write unit test?",
             "sentiment": "curious",
             "answer": "Valo question! Unit testing: test one function at a time. Use pytest (Python), Jest (JavaScript), JUnit (Java). Write test first (TDD) or after code - just write them!"
+        },
+        {
+            "question": "how to write unit test?",
+            "sentiment": "curious",
+            "answer": "Sure, here's a step-by-step guide for writing unit tests in Python using Pytest:\n1. Create a new file or folder for your unit tests and name it `unit_tests.py`.\n2. Add the following code to this file:\n```python\nimport unittest  # import the unittest module for testing\nfrom myapp.mymodule import MyModule  # import our own module from the same directory as the test file\nclass TestMyClass(unittest.TestCase):\ndef test_function1(self):\nself.assertEqual(\"Hello World\", MyModule().func1())\ndef test_function2(self):"
         }
     ]
 }

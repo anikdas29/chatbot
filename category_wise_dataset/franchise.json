@@ -19,6 +19,11 @@
             "question": "franchise business ki?",
             "sentiment": "curious",
             "answer": "Interesting! A franchise is a business model where you pay a fee to use an established company's brand, systems, and support to run your own location of their business. And Franchise holo ekta business model ja te tumi ekta established company er brand ar system use kore nijjer outlet chalate paro, fee diye."
+        },
+        {
+            "question": "franchise business ki?",
+            "sentiment": "curious",
+            "answer": "Franchise business is a business model where you pay a fee to use an established company's brand, systems, and support to run your own location of their business."
         }
     ]
 }

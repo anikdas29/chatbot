@@ -28,6 +28,11 @@
             "question": "how to be more productive",
             "sentiment": "curious",
             "answer": "Nice question! Productivity tip: plan your top 3 tasks the night before, protect your first 2 hours from emails and distractions, and review your day each evening.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "how to be more productive?",
+            "sentiment": "curious",
+            "answer": "Good one! Productivity tip: plan your top 3 tasks the night before, protect your first 2 hours from emails and distractions, and review your day each evening. Also, Boost productivity: use the Pomodoro technique, time-block your calendar, tackle your hardest task first (eat the frog), and batch similar tasks.\n\nAro kichu lagbe bolo!"
         }
     ]
 }

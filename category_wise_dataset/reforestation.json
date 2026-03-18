@@ -14,5 +14,12 @@
         "Reforestation holo ja jayga theke bon kata hoyeche sekhane abar gach lagano. Afforestation holo notun jayga te forest toiri kora jekhane age bon chilona.",
         "Reforestation restores biodiversity, captures carbon dioxide, prevents flooding, improves air quality, and provides habitats for wildlife. Many countries have massive tree-planting initiatives.",
         "Successful reforestation requires planting native species, maintaining biodiversity, and long-term care. Organizations like One Tree Planted and the Billion Tree Campaign are leading global efforts."
+    ],
+    "feelings": [
+        {
+            "question": "gach keno oxygen dei?",
+            "sentiment": "curious",
+            "answer": "Yes, reforestatation is a process of replacing trees in areas where forest has been cut down or destroyed to restore ecosystems, absorb carbon dioxide, prevent soil erosion, and improve air quality. It helps improve the biodiversity, capture CO2, provide habitat for wildlife, and protect against flooding. Many countries have initiatives in this regard."
+        }
     ]
 }

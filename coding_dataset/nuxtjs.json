@@ -19,6 +19,11 @@
             "question": "nuxt.js ki vue er framework?",
             "sentiment": "curious",
             "answer": "Yes, Nuxt.js is a Vue.js framework that provides server-rendered static HTML output for fast development and deployment. It supports features like routing, auto-routing, and great DX."
+        },
+        {
+            "question": "nuxt.js ki vue er framework?",
+            "sentiment": "curious",
+            "answer": "Nuxt.js is a Vue.js framework that provides server-rendered static HTML output for building modern web applications. It emphasizes fast development, scalability, and maintainability through features such as lazy loading, component splitting, and automatic routing."
         }
     ]
 }

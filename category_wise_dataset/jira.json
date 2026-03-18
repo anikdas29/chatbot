@@ -14,5 +14,11 @@
         "Jira is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with jira: install, follow quickstart guide, and build a small project."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "jira for teams ki?",
+            "sentiment": "curious",
+            "answer": "Jira is a popular project management tool that allows teams to organize their work in a centralized location. It supports various features such as issue tracking, agile boards, sprint planning, and more. With its wide usage in the industry, it's an excellent choice for team-based projects."
+        }
+    ]
 }

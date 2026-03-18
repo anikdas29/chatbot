@@ -86,6 +86,11 @@
             "question": "react e state management kivabe kore redux chara?",
             "sentiment": "curious",
             "answer": "Yes, React provides a state management system called Redux that allows you to manage your application's state using a centralized store. You can use Redux to handle user actions, such as updating the UI or making API requests, and keep your code organized and reusable."
+        },
+        {
+            "question": "what is react hooks?",
+            "sentiment": "curious",
+            "answer": "React Hooks are a new feature introduced in React 16.8 and provide an alternative to the traditional component API, which allows developers to write code that updates dynamically without needing to re-render the entire component tree. With React Hooks, you can write your UI logic in a modular way by breaking it down into smaller functions, making it easier for you to understand and maintain your application."
         }
     ]
 }

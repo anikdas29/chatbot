@@ -39,6 +39,11 @@
             "question": "allergy hle ki korbo?",
             "sentiment": "curious",
             "answer": "Yes, allergy management tips include avoiding triggers such as foods or environmental allergens and using medications if necessary to manage symptoms."
+        },
+        {
+            "question": "allergy hle ki korbo?",
+            "sentiment": "curious",
+            "answer": "Answer: Yes, there are some allergy-management tips that can help alleviate symptoms caused by various allergens such as pollen or dust mites. Some of them include:\n1. Identify triggers and avoid them.\n2. Take antihistamines to reduce inflammation in the body.\n3. Consult a professional for personalized advice on severe cases.\n4. Always follow your doctor's advice and consult medical sources for more information."
         }
     ]
 }

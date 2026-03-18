@@ -13,5 +13,12 @@
         "Learn google sheets through documentation, tutorials, and hands-on practice.",
         "Google Sheets is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with google sheets: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "google sheets formula ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Google Sheets: free online spreadsheet. Formulas, charts, collaboration, and Google Apps Script."
+        }
     ]
 }

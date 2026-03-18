@@ -13,5 +13,12 @@
         "Coping: allow yourself to grieve, lean on support system, seek therapy, focus on self-care, and be patient with healing.",
         "Tips: put children first, stay civil with ex, document finances, and don't make major decisions while emotional.",
         "Divorce is painful but sometimes necessary. Healing takes time — be kind to yourself through the process."
+    ],
+    "feelings": [
+        {
+            "question": "divorce process ki?",
+            "sentiment": "curious",
+            "answer": "Knowledge retrieved from the text material: Divorce process involves consulting a lawyer, filing a petition, negotiating settlement assets, attending hearings, and final decrees. Coping includes allowing oneself to grieve, leaning on one's support system, seeking therapy, focusing on self-care, and being patient in healing. Tips include putting children first, staying civil with an ex, documenting financial resources, avoiding major decision making during the process, and dealing with pain through time and effort."
+        }
     ]
 }

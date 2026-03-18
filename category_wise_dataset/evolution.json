@@ -19,6 +19,11 @@
             "question": "evolution theory ki?",
             "sentiment": "curious",
             "answer": "Nice question! Evolution = change in species over generations through natural selection. Organisms with beneficial traits survive and reproduce more.\n\nHope this helps!"
+        },
+        {
+            "question": "evolution theory ki?",
+            "sentiment": "curious",
+            "answer": "Evolution theory is the idea that species evolve over time through natural selection, which means that some traits become more common in populations with fewer genes and are passed down to offspring. This process can result in new species arising from the merger of existing ones or the divergence of different lineages. The key concepts involved in evolution theory include dominant vs. Recessive gene mutations, genotype vs. Phenotype, mutation, gene expression, and epigenetic changes."
         }
     ]
 }

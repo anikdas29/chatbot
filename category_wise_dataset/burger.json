@@ -18,6 +18,11 @@
             "question": "burger banabo kivabe?",
             "sentiment": "curious",
             "answer": "Good one! Burger has a fascinating history and culture behind it. Learn and enjoy!\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "burger banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Answer: Burgers have a fascinating history and culture behind them. Learn and enjoy the variety of burger options available in different parts of the world. Try experimenting with unique toppings, such as creative top-pinging, to discover new flavor combinations."
         }
     ]
 }

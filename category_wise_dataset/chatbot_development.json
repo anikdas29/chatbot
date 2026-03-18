@@ -12,5 +12,12 @@
         "Learn chatbot development through documentation, tutorials, and hands-on practice.",
         "Chatbot Development is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with chatbot development: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "chatbot development ki?",
+            "sentiment": "curious",
+            "answer": "knowledge suggests that getting started with chatbot development involves installing and following a quickstart guide for NLP, intent detection, entity extraction, dialog management, and deployment. It also mentions learning chatbot development through documentation, tutorials, and hands-on practice. The question is about the latest conversation regarding chatbot development, where the assistant provides summarization with ai, paraphrasing tools, tokenization in nlp, embedding, recommendation system, and recurrent neural networks (RNNs) for natural language processing (NLP)."
+        }
     ]
 }

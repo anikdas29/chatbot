@@ -58,6 +58,11 @@
             "question": "bitcoin ki safe invest?",
             "sentiment": "curious",
             "answer": "Yes, Bitcoin is considered a safe investment as it has a high level of trust and security due to its decentralized nature. It's also considered an alternative currency for some people who are wary of traditional banking systems."
+        },
+        {
+            "question": "how to save money?",
+            "sentiment": "curious",
+            "answer": "Great question! Tips: Monthly budget, save 20% income, invest early, emergency fund, avoid debt, compound interest. Additionally, Finance basics: track every expense, save at least 20% of income, build a 3-6 month emergency fund, and start investing early for compound growth."
         }
     ]
 }

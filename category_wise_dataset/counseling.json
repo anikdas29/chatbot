@@ -19,6 +19,11 @@
             "question": "counseling er upokaarita ki?",
             "sentiment": "curious",
             "answer": "Counseling benefits include clarity, coping strategies, perspective, and support from a trained professional. It can help individuals improve their mental health by addressing underlying issues such as stress, anxiety, or depression."
+        },
+        {
+            "question": "counseling er upokaarita ki?",
+            "sentiment": "curious",
+            "answer": "Yes, counseling is a type of therapy that focuses on specific issues or concerns. It can be used for stress relief, career guidance, relationship problems, and more."
         }
     ]
 }

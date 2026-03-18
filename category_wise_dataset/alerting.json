@@ -30,5 +30,12 @@
         "Suppressing unnecessary alerts is essential to prevent alert fatigue. This involves implementing strategies such as data filtering, threshold tuning, and user feedback mechanisms.",
         "Advanced notification strategies often involve using different types of notifications (e.g., email, SMS, in-app notifications) based on the severity and type of alert. This ensures that users receive relevant information at the right time.",
         "The impact of alert fatigue on system performance can be significant, leading to decreased user engagement, increased errors, and reduced overall system efficiency. Implementing strategies such as continuous monitoring, feedback loops, and performance optimization techniques can mitigate this effect."
+    ],
+    "feelings": [
+        {
+            "question": "alerting system ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Alerting systems are designed to notify users when a specific condition or threshold is met. They use data from various sources such as metrics and logs to trigger alerts. An alerting system typically involves setting meaningful threasholds, ensuring that only real problems are alerted, avoiding alert fatigue by only alerting on actionable items, suppressing known issues, group-related alerts, and tuning the threshold over time."
+        }
     ]
 }

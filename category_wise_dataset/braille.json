@@ -19,6 +19,11 @@
             "question": "who invented telephone?",
             "sentiment": "curious",
             "answer": "Good one! Braille was invented by Louis Braille in 1824 when he was just 15 years old. He was blind himself and adapted a military night-writing system.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "braille reading ki?",
+            "sentiment": "curious",
+            "answer": "Yes, braille reading is the use of raised dot patterns to read text using a tactile method."
         }
     ]
 }

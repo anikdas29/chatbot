@@ -49,6 +49,11 @@
             "question": "best songs",
             "sentiment": "happy",
             "answer": "Nice! Need a playlist? Lo-fi hip-hop for studying, upbeat pop for workouts, jazz or acoustic for winding down."
+        },
+        {
+            "question": "bangla music best songs",
+            "sentiment": "happy",
+            "answer": "Bangla music has some of the most popular and iconic songs in the world, with a wide range of genres that span from classical to pop and rock. Some examples include \"Jiban Gharer\" by Satyajit Ray, \"Mujhay Bhalobasha\" by Anjan Dutt, and \"Bangla Aparna\" by Shyamal Ganguly."
         }
     ]
 }

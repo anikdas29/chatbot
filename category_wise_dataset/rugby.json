@@ -21,6 +21,11 @@
             "question": "rugby ki?",
             "sentiment": "curious",
             "answer": "Retrieved knowledge about rugby:\n1. [rugby] Q: rugby ki? A: Rugbay is a contact team sport that originated in England. Player e carry, pass, and kick an ovall ball to score tries by grounding it in the opponent's in-goal area. It's known for its physicality and sportsmanship.\n2. [basketball] Q: nba ki? A: Basketball e each team e 5 players thake court e. Points score hoy basket e ball dhukaiye — 2 points inside the arc, 3 points outside, ar free throw te 1 point. 4 quarteres e khel"
+        },
+        {
+            "question": "rugby ki?",
+            "sentiment": "curious",
+            "answer": "Rugby is a contact team sport originated in England and played all over the world by professional teams like the New Zealand All Blacks, South Africa Springboks, Australia Wallabies, and Pacific Island nations. The game is continuous with fewer stoppages, making it extremely demanding physically."
         }
     ]
 }

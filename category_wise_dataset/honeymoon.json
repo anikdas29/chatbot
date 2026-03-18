@@ -19,6 +19,11 @@
             "question": "honeymoon destinations best",
             "sentiment": "happy",
             "answer": "Best honeymoon destination(s) are European cities or adventure destinations."
+        },
+        {
+            "question": "honeymoon destinations best",
+            "sentiment": "happy",
+            "answer": "Honeymoon destinations with best amenities for families include Mecca (Saudi Arabia), Vacikan (Turkey), Varanasi (Greeces), Jerusalem (Israel), Bodh Gaya (Bangladesh)."
         }
     ]
 }

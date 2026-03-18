@@ -15,5 +15,12 @@
         "Wireframe holo ekta page er basic layout — kothay ki bosbe, content er structure kemon hobe sheta dekhano. Color ba font niye chinta na kore, structure niye focus kora hoy.",
         "You can create wireframes with tools like Figma, Balsamiq, Whimsical, or even pen and paper. Start with low-fidelity sketches, then move to digital wireframes as ideas solidify.",
         "Wireframing saves time and money by letting teams agree on layout and functionality before investing in detailed design. Low-fidelity wireframes are quick sketches; high-fidelity ones include more detail and interactivity."
+    ],
+    "feelings": [
+        {
+            "question": "wireframing tools ki ki?",
+            "sentiment": "curious",
+            "answer": "Good one! You can create wireframes with tools like Figma, Balsamiq, Whimsical, or even pen and paper. Start with low-fidelity sketches, then move to digital wireframes as ideas solidify.\n\nAr kichu jante chaile bolo!"
+        }
     ]
 }

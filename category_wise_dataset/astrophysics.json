@@ -37,6 +37,11 @@
             "question": "astrophysics ki?",
             "sentiment": "curious",
             "answer": "knowledge about astrophysics includes the definition of astrophysics, the properties and characteristics of stars, galaxies, black holes, and the universe itself. It also covers topics such as space facts (the Sun is 1.3 million times bigger than Earth), physics equations used to understand celestial objects, and multiverse theories on different versions of reality."
+        },
+        {
+            "question": "astrophysics ki?",
+            "sentiment": "curious",
+            "answer": "Astronomy is the study of celeestial objects and phenomena, including stars, galaxies, black holes, and the universe itself."
         }
     ]
 }

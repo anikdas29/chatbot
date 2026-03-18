@@ -45,6 +45,11 @@
             "question": "what is cryptocurrency",
             "sentiment": "curious",
             "answer": "Valo question! Bitcoin is a decentralized digital currency - no bank or government controls it. Transactions are verified by a network using blockchain technology. Moreover, Crypto investing tip: only invest what you can afford to lose.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "bitcoin ki safe invest?",
+            "sentiment": "curious",
+            "answer": "Yes, cryptocurrency is considered a highly secure and decentralized digital currency that operates on blockchain technology. It's not controlled by any government or bank, and transactions are verified using a network of computers. Investing in cryptocurrencies requires researching the project, using trusted exchanges (such as Binance), and holding onto small amounts to avoid losses."
         }
     ]
 }

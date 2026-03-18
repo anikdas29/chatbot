@@ -13,5 +13,12 @@
         "Tips: respect their dignity, involve them in decisions, manage medications, ensure safety at home, and spend quality time.",
         "Home safety: remove trip hazards, install grab bars, ensure good lighting, and consider a medical alert system.",
         "Briddhoder jotno: shomman dao, nirapotta nischit koro, doctor er sathe niyomito jaogo, ar shomoy dao."
+    ],
+    "feelings": [
+        {
+            "question": "elder care ki?",
+            "sentiment": "curious",
+            "answer": "Elder care options: home care, assisted living, nursing homes, and adult day care. Choose based on needs and budget.\n\nAlso regarding baby care: Baby care basics for new parents.\n\nOn the nursing side: Nursing: patient care profession."
+        }
     ]
 }

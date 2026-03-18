@@ -39,6 +39,11 @@
             "question": "tailwind css ki?",
             "sentiment": "curious",
             "answer": "Yes, Tailwind CSS is a utility-first CSS framework that offers class-based styling with highly customizable features such as color palettes, font families, and image resizing. It's designed to be responsive and easy to use for both frontend and backend developers."
+        },
+        {
+            "question": "tailwind css ki?",
+            "sentiment": "curious",
+            "answer": "Tailwind CSS is a utility-first CSS framework that offers class-based styling with highly customizable options. It's widely used in the industry and has gained popularity for its flexibility, scalability, and ease of use."
         }
     ]
 }

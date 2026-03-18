@@ -39,6 +39,31 @@
             "question": "good morning",
             "sentiment": "happy",
             "answer": "Glad you asked! Hello! How can I help you today? Additionally, Hey there! What can I do for you?.\n\nHope this helps!"
+        },
+        {
+            "question": "hi, how are you?",
+            "sentiment": "curious",
+            "answer": "Nice question! Hello! How can I help you today?"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Awesome! Hello! How can I help you today? And Hey there! What can I do for you?."
+        },
+        {
+            "question": "hello and tell me a joke",
+            "sentiment": "curious",
+            "answer": "Nice question! Hello! How can I help you today?\n\nHope this helps!"
+        },
+        {
+            "question": "how is your day?",
+            "sentiment": "curious",
+            "answer": "Good one! Hello! How can I help you today?"
+        },
+        {
+            "question": "good evening",
+            "sentiment": "happy",
+            "answer": "Nice! Hello! How can I help you today? Moreover, Hey there! What can I do for you?."
         }
     ]
 }

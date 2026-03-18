@@ -21,6 +21,11 @@
             "question": "what is scala programming?",
             "sentiment": "curious",
             "answer": "Scala is a high-performance programming language designed for scientific computing and numerical analysis, aiming to be as easy as Python but faster than C."
+        },
+        {
+            "question": "what is scala programming?",
+            "sentiment": "curious",
+            "answer": "Good one! Scala is a JVM language that brings functional programming to the Java ecosystem. It has powerful features like case classes, implicits, and traits that let you write concise and safe code."
         }
     ]
 }

@@ -19,6 +19,11 @@
             "question": "venture capital ki?",
             "sentiment": "curious",
             "answer": "Great question! Venture capital (VC) is a form of private equity financing where investors fund high-potential startups in exchange for equity, typically investing larger amounts than angel investors."
+        },
+        {
+            "question": "venture capital ki?",
+            "sentiment": "curious",
+            "answer": "Yes, venture capital (VC) refers to private equity financing where investors fund high-potential startup companies in exchange for ownership stakes or significant ownership. It's a form of private equity that typically invests millions of dollars over the course of several years and provides entrepreneurs with access to valuable resources, such as experienced management teams, technical expertise, and capital."
         }
     ]
 }

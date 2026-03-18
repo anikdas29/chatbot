@@ -19,6 +19,11 @@
             "question": "bootstrap css framework ki?",
             "sentiment": "curious",
             "answer": "Ki na ho aye ki bhi bohot dikha sakte hain, kisi ke liye bootstrap css framework kaise use karte hain?"
+        },
+        {
+            "question": "bootstrap css framework ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Bootstrap is a popular CSS framework used for creating responsive web designs with pre-built components, a grid system, and easy to use."
         }
     ]
 }

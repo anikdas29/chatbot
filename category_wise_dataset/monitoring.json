@@ -13,5 +13,12 @@
         "Tools: Prometheus + Grafana (open source), Datadog (SaaS), New Relic (APM), CloudWatch (AWS), Zabbix (infrastructure).",
         "Key metrics: uptime, response time, error rate, CPU/memory usage, and throughput. Set alerts for anomalies.",
         "Monitoring tip: monitor from user perspective (synthetic checks) + server-side metrics. Dashboard should answer 'is everything okay?' at a glance."
+    ],
+    "feelings": [
+        {
+            "question": "monitoring tools ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Monitoring tools include Prometheus, Grafana (open-source), DataDog (SaaS), New Relic (APM), CloudWatch (AWS), Zabbix (infrastructure), and Dashboard to answer the question. These monitoring tools can help in monitoring server health and performance, CPU/memory usage, response time, error rate, throughput, and other key metrics."
+        }
     ]
 }

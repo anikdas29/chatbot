@@ -19,6 +19,11 @@
             "question": "ipo ki jinish?",
             "sentiment": "curious",
             "answer": "Yes, IPO stands for initial public offering."
+        },
+        {
+            "question": "ipo ki jinish?",
+            "sentiment": "curious",
+            "answer": "Answer: An IPO is a public offering of shares by a private company."
         }
     ]
 }

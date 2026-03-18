@@ -1,0 +1,609 @@
+{
+  "total": 100,
+  "strong": 21,
+  "weak": 19,
+  "low": 26,
+  "no_answer": 34,
+  "details": [
+    {
+      "q": "what is docker in simple terms?",
+      "status": "STRONG",
+      "confidence": 0.876,
+      "reply": "Docker in simple terms refers to the software used for building and running containers within an iso"
+    },
+    {
+      "q": "what is api?",
+      "status": "STRONG",
+      "confidence": 0.98,
+      "reply": "Adapted Knowledge Base Response: The `api` is an acronym that stands for Application Programming Int"
+    },
+    {
+      "q": "what is database?",
+      "status": "STRONG",
+      "confidence": 0.948,
+      "reply": "Database is a collection of related information that can be organized into tables to facilitate retr"
+    },
+    {
+      "q": "what is cloud computing?",
+      "status": "STRONG",
+      "confidence": 0.98,
+      "reply": "Cloud computing refers to renting computing power over the internet rather than owning or maintainin"
+    },
+    {
+      "q": "what is machine learning?",
+      "status": "STRONG",
+      "confidence": 0.98,
+      "reply": "Interesting! Machine Learning is a subset of AI where computers learn from data. Types: supervised, "
+    },
+    {
+      "q": "5+7 koto?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "india er capital ki?",
+      "status": "LOW",
+      "confidence": 0.315,
+      "reply": "In India, the capital city is known as Delhi."
+    },
+    {
+      "q": "tumi ki korte paro?",
+      "status": "STRONG",
+      "confidence": 0.931,
+      "reply": "Answer: The bot can help with a variety of topics related to AI, coding, health, finance, career, mo"
+    },
+    {
+      "q": "hey",
+      "status": "STRONG",
+      "confidence": 0.725,
+      "reply": "Hey there! What can I do for you?\n\nAro kichu lagbe bolo!"
+    },
+    {
+      "q": "thanks a lot",
+      "status": "STRONG",
+      "confidence": 0.747,
+      "reply": "Nice! You're welcome! Happy to help anytime."
+    },
+    {
+      "q": "why do we use api?",
+      "status": "WEAK",
+      "confidence": 0.58,
+      "reply": "Answer: To provide a standardized interface for software components, which enables easy and secure c"
+    },
+    {
+      "q": "database kothay use hoy?",
+      "status": "LOW",
+      "confidence": 0.308,
+      "reply": "Start with MySQL or PostgreSQL for relational data. For NoSQL, try MongoDB. Practice on SQLBolt.com "
+    },
+    {
+      "q": "cloud computing keno popular?",
+      "status": "STRONG",
+      "confidence": 0.795,
+      "reply": "Response: The question is \"cloud computing\" (aka renting computing power over the internet) which re"
+    },
+    {
+      "q": "machine learning diye ki kora jai?",
+      "status": "WEAK",
+      "confidence": 0.676,
+      "reply": "Machine Learning is a subset of Artificial Intelligence (AI) that involves teaching computers to lea"
+    },
+    {
+      "q": "wifi kivabe kaj kore?",
+      "status": "LOW",
+      "confidence": 0.381,
+      "reply": "Yes, Wi-Fi is a convenient way to connect to the internet without needing a physical cable connectio"
+    },
+    {
+      "q": "50-20 koto?",
+      "status": "LOW",
+      "confidence": 0.306,
+      "reply": "Is it possible to use the national emergency number 999 for any kind of emergency in Bangladesh, or "
+    },
+    {
+      "q": "dhaka kon deshe?",
+      "status": "LOW",
+      "confidence": 0.305,
+      "reply": "The question is asking about a popular Bangladeshi theatrical group called Dhaka Theatre. The answer"
+    },
+    {
+      "q": "tumi ki offline kaj korte paro?",
+      "status": "WEAK",
+      "confidence": 0.529,
+      "reply": "Is it possible to assist the user in finding resources related to the topic \"55+ topics\" for a given"
+    },
+    {
+      "q": "how is your day?",
+      "status": "WEAK",
+      "confidence": 0.53,
+      "reply": "Good one! Hello! How can I help you today?"
+    },
+    {
+      "q": "dhonnobad bhai",
+      "status": "STRONG",
+      "confidence": 0.887,
+      "reply": "Here's what I know: Khushi hoyechi help korte pere! Abar ashio. Moreover, Welcome! Abar kichu lagleo"
+    },
+    {
+      "q": "mysql vs mongodb difference",
+      "status": "STRONG",
+      "confidence": 0.794,
+      "reply": "MongoDB is a popular NoSQL document database that stores data in flexible JSON-like documents. It's "
+    },
+    {
+      "q": "frontend vs backend",
+      "status": "STRONG",
+      "confidence": 0.967,
+      "reply": "Frontend = what users see (HTML, CSS, JS, React). Backend = server logic (Node.js, Python, databases"
+    },
+    {
+      "q": "http vs https",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "ai vs deep learning",
+      "status": "STRONG",
+      "confidence": 0.762,
+      "reply": "Deep Learning = multi-layered neural networks. CNNs handle images, RNNs and LSTMs handle sequences, "
+    },
+    {
+      "q": "ram vs rom",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "30% of 150 koto?",
+      "status": "LOW",
+      "confidence": 0.3,
+      "reply": "Yes,  retrieved knowledge, a wedding with 30% of participants from 150 people would require approxim"
+    },
+    {
+      "q": "bangladesh er main export ki?",
+      "status": "LOW",
+      "confidence": 0.333,
+      "reply": "Answer: Yes, Bangladeshi food is an important export in the country's economy."
+    },
+    {
+      "q": "tumi ki chatbot?",
+      "status": "WEAK",
+      "confidence": 0.416,
+      "reply": "Interesting! Ami ekta AI-based chatbot. Tomar proshno shune classify kori, then best answer diye hel"
+    },
+    {
+      "q": "what are your limitations?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "good evening",
+      "status": "STRONG",
+      "confidence": 0.97,
+      "reply": "Nice! Hello! How can I help you today? Moreover, Hey there! What can I do for you?."
+    },
+    {
+      "q": "what is api and give example",
+      "status": "STRONG",
+      "confidence": 0.82,
+      "reply": "Answer: An Application Programming Interface (API) is a set of HTTP methods that allow different sof"
+    },
+    {
+      "q": "frontend backend difference and which is easier?",
+      "status": "STRONG",
+      "confidence": 0.806,
+      "reply": "Interesting! Frontend = what users see (HTML, CSS, JS, React). Backend = server logic (Node.js, Pyth"
+    },
+    {
+      "q": "cloud computing and local server difference",
+      "status": "WEAK",
+      "confidence": 0.629,
+      "reply": "Here's what I know: Cloud computing = renting computing power over the internet. Types: IaaS, PaaS, "
+    },
+    {
+      "q": "machine learning diye earning kora jai?",
+      "status": "STRONG",
+      "confidence": 0.841,
+      "reply": "Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised,"
+    },
+    {
+      "q": "internet slow hole ki ki check korbo?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "40+60 and 25% of 200",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "bangladesh er capital and currency",
+      "status": "LOW",
+      "confidence": 0.33,
+      "reply": "Bangladesh is the country's capital, but it does not have a fixed currency. The Bangladeshi taka (cu"
+    },
+    {
+      "q": "tumi ki real and ke tomake banai?",
+      "status": "WEAK",
+      "confidence": 0.54,
+      "reply": "Great question! Ami ekta AI-based chatbot. Tomar proshno shune classify kori, then best answer diye "
+    },
+    {
+      "q": "tell me a fun fact and joke",
+      "status": "STRONG",
+      "confidence": 0.903,
+      "reply": "Fun fact: Honestly, I don't know what the heck is going on. But I can assure you that it's not spam."
+    },
+    {
+      "q": "thanks now explain database",
+      "status": "WEAK",
+      "confidence": 0.624,
+      "reply": "Awesome! SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSER"
+    },
+    {
+      "q": "ami web development shikte chai kotha theke start korbo?",
+      "status": "LOW",
+      "confidence": 0.308,
+      "reply": "Yes, Ruby is a high-level interpreted language designed for developer happiness and productivity thr"
+    },
+    {
+      "q": "backend diye ki kora jai?",
+      "status": "LOW",
+      "confidence": 0.378,
+      "reply": "Yes, Blender is a free, open-source 3D creation software that supports modeling, sculpting, animatio"
+    },
+    {
+      "q": "ai ki manusher job niye nibe?",
+      "status": "WEAK",
+      "confidence": 0.539,
+      "reply": "Yes, AI is the simulation of human intelligence by machines. It includes machine learning, deep lear"
+    },
+    {
+      "q": "internet off hole ki problem hoy?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "gach keno oxygen dei?",
+      "status": "LOW",
+      "confidence": 0.366,
+      "reply": "Yes, reforestatation is a process of replacing trees in areas where forest has been cut down or dest"
+    },
+    {
+      "q": "80+20 koto?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "bangladesh er prime minister ke?",
+      "status": "LOW",
+      "confidence": 0.321,
+      "reply": "Bangladeshi Prime Minister Sheikh Hasina is the head of government in Bangladesh."
+    },
+    {
+      "q": "tumi ki amar friend hote paro?",
+      "status": "LOW",
+      "confidence": 0.305,
+      "reply": "Interesting! Ami ekta NLP + ML powered chatbot. 55+ topic e answer dite pari!"
+    },
+    {
+      "q": "ami bored lagche ki korbo?",
+      "status": "LOW",
+      "confidence": 0.339,
+      "reply": "Yes, the user is asking about whether they should stay calm and keep the bitten limb below heart lev"
+    },
+    {
+      "q": "onek thanks",
+      "status": "WEAK",
+      "confidence": 0.449,
+      "reply": "Nice! You're welcome! Happy to help anytime.\n\nHope this helps!"
+    },
+    {
+      "q": "eta explain koro",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "eta keno lage?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "eta kivabe kaj kore?",
+      "status": "WEAK",
+      "confidence": 0.473,
+      "reply": "Yes, the UPI (UniFiated Payments Interface) is a real-time payment system developed in India that al"
+    },
+    {
+      "q": "aro easy kore bolo",
+      "status": "LOW",
+      "confidence": 0.321,
+      "reply": "Mini Bot — sheta amar nam. Ki help korte pari tomar jonno?"
+    },
+    {
+      "q": "example dao",
+      "status": "WEAK",
+      "confidence": 0.406,
+      "reply": "A Large Languaire Model (LLM) is a type of artificial intelligence system that has been trained on v"
+    },
+    {
+      "q": "eta solve koro",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "eta thik naki vul?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "bujhte parsi na",
+      "status": "LOW",
+      "confidence": 0.322,
+      "reply": "Ami 55+ topic e help korte pari: AI, ML, Coding, Education, Health, Fitness, Finance, Career, Motiva"
+    },
+    {
+      "q": "abar bolo",
+      "status": "WEAK",
+      "confidence": 0.571,
+      "reply": "Amar nam Mini Bot!\n\nHope this helps!"
+    },
+    {
+      "q": "short answer dao",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "i feel like giving up",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "amar life e pressure onek",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "i don't know what to do next",
+      "status": "LOW",
+      "confidence": 0.396,
+      "reply": "To answer the question, you can provide a list of recommended movies or TV shows that fit your taste"
+    },
+    {
+      "q": "amar kono goal nai",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "i feel ignored",
+      "status": "WEAK",
+      "confidence": 0.449,
+      "reply": "Your feelings are valid. Try talking to a trusted friend, writing in a journal, or taking a slow wal"
+    },
+    {
+      "q": "ami khub disappointed",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "i am frustrated",
+      "status": "WEAK",
+      "confidence": 0.613,
+      "reply": "Ami bujhte parchi apni frustrated. I hear you. Take it one moment at a time. Breathe, write down how"
+    },
+    {
+      "q": "help me relax",
+      "status": "LOW",
+      "confidence": 0.381,
+      "reply": "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember —"
+    },
+    {
+      "q": "i feel empty",
+      "status": "WEAK",
+      "confidence": 0.577,
+      "reply": "Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nOn"
+    },
+    {
+      "q": "inspire me",
+      "status": "STRONG",
+      "confidence": 0.977,
+      "reply": "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no m"
+    },
+    {
+      "q": "what is success?",
+      "status": "LOW",
+      "confidence": 0.317,
+      "reply": "Success in this context means achieving one's goals, ambitions, or desired outcomes, with the expect"
+    },
+    {
+      "q": "can truth change over time?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "if everything is relative what is absolute?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "is time real or illusion?",
+      "status": "LOW",
+      "confidence": 0.306,
+      "reply": "Here's what I know: Time travel holo somoy er moddhe diye age ba pechone jaoya. Einstein er theory o"
+    },
+    {
+      "q": "what makes a human human?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "why do we fear death?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "what is intelligence?",
+      "status": "STRONG",
+      "confidence": 0.812,
+      "reply": "Intelligence refers to the ability of a machine or human being to perform tasks that require problem"
+    },
+    {
+      "q": "is emotion logical?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "can machines think?",
+      "status": "WEAK",
+      "confidence": 0.458,
+      "reply": "Yes, machines can think as evidenced by the recent advancements in AI technology that have led to so"
+    },
+    {
+      "q": "what is self-awareness?",
+      "status": "LOW",
+      "confidence": 0.301,
+      "reply": "Good one! Self-care is any activity you deliberately do to take care of your mental, emotional, and "
+    },
+    {
+      "q": "who is president of mars?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "moon er currency ki?",
+      "status": "LOW",
+      "confidence": 0.311,
+      "reply": "In the context of a recent conversation about tidal energy, the question \"moon er currency ki?\" refe"
+    },
+    {
+      "q": "bangladesh ki olympic football champion?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "who invented oxygen in 2023?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "aliens kon language use kore?",
+      "status": "LOW",
+      "confidence": 0.314,
+      "reply": "WHO diseases er against fight kore vaccination programs, health guidelines, research funding, ar eme"
+    },
+    {
+      "q": "earth er king ke?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "sun ki ice diye toyri?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "manush ki underwater thakar jonno banano?",
+      "status": "LOW",
+      "confidence": 0.385,
+      "reply": "Nice question! Human rights holo protitta manusher molik odhikar — jibon, shadhinota, shikkhya, ar m"
+    },
+    {
+      "q": "xyzland bole kono desh ase?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "who discovered dark fire?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "i am sad explain ai and motivate me",
+      "status": "STRONG",
+      "confidence": 0.838,
+      "reply": "AI is a broad field that encompasses the development of machines capable of performing tasks normall"
+    },
+    {
+      "q": "what is api and calculate 15+25 and give example",
+      "status": "WEAK",
+      "confidence": 0.452,
+      "reply": "Nice question! API (Application Programming Interface) lets different software talk to each other. W"
+    },
+    {
+      "q": "i feel lost what should i do in life",
+      "status": "WEAK",
+      "confidence": 0.502,
+      "reply": "Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your net"
+    },
+    {
+      "q": "backend ki and ami keno bujhte pari na",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "who is king of mars and logically explain",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "ami confused frontend naki backend choose korbo",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "explain everything about internet simply",
+      "status": "LOW",
+      "confidence": 0.353,
+      "reply": "Great question! IoT (Internet of Things) = everyday devices connected to internet. Smart home, weara"
+    },
+    {
+      "q": "prove 2=5 using wrong logic",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "ami lonely but amar family ase keno?",
+      "status": "SUGGESTIONS",
+      "confidence": 0,
+      "reply": null
+    },
+    {
+      "q": "tell me about universe and admit if unsure",
+      "status": "LOW",
+      "confidence": 0.328,
+      "reply": "The universe is HUGE with over 2 trillion galaxies visible to the naked eye. Our solar system has ei"
+    }
+  ]
+}

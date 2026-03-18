@@ -22,6 +22,11 @@
             "question": "heatstroke er lakkhon ki?",
             "sentiment": "curious",
             "answer": "Yes, heatstroke is a severe form of heat exhaustion that can cause heat stroke and lead to death in some cases. The key symptoms include sweating profusely, dizziness, headache, nausea, vomiting, and confusion. Heatstroke can be fatal if left untreated."
+        },
+        {
+            "question": "heatstroke er lakkhon ki?",
+            "sentiment": "curious",
+            "answer": "Yes, heatstroke is a medical emergency that can cause confusion, rapid heartbeat, unconsciousness, and damage to organs such as the brain, liver, and kidneys. Symptoms may include feeling dizzy or faint, difficulty breathing, high blood pressure, and flushed skin. Treating heatstroke involves moving the person to a cool place, removing excess clothing, applying ice packs to the affected area, and seeking medical help if they become unconscious."
         }
     ]
 }

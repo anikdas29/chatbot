@@ -21,6 +21,11 @@
             "question": "electric vehicles future ki?",
             "sentiment": "curious",
             "answer": "Nice question! Electric vehicles (EVs) run on electric motors powered by rechargeable batteries instead of gasoline engines. They produce zero direct emissions and are cheaper to operate long-term."
+        },
+        {
+            "question": "electric vehicles future ki?",
+            "sentiment": "curious",
+            "answer": "Electric vehicles are the future of transportation due to their advantages such as no fuel cost (electricity), quiet ride, and zero emission. They also have a lower upfront cost than gasoline-powered cars, making them more affordable for consumers. Electric vehicle manufacturers are investing heavily in charging infrastructure to expand the market further. The future of electric vehicles is promising as they offer significant environmental benefits while being convenient and cost-effective options for many drivers."
         }
     ]
 }

@@ -12,5 +12,12 @@
         "The dairy farming sector is important globally for economy and employment.",
         "Understanding dairy farming helps you appreciate the products and services we use daily.",
         "Learn about dairy farming — it's a fascinating field with many career opportunities."
+    ],
+    "feelings": [
+        {
+            "question": "dairy farming ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Understanding dairy farming helps you appreciate the products and services we use daily."
+        }
     ]
 }

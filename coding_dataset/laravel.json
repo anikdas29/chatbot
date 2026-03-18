@@ -39,6 +39,11 @@
             "question": "laravel framework ki?",
             "sentiment": "curious",
             "answer": "Response: Laravel is a popular PHP web application framework that offers a range of features such as MVC (Model-View-Controller) architecture, Eloquent ORM (Object Relational Mapping), and Blade templating for HTML output. It also provides various middleware layers to manage authentication, session management, caching, and error handling."
+        },
+        {
+            "question": "laravel framework ki?",
+            "sentiment": "curious",
+            "answer": "In Laravel, the basic features and functions are typically covered in its official documentation and tutorials, such as building small projects, tackling real-world applications, and learning by practicing. The framework's reliability, feature richness, and standards compliance make it a popular choice for developers looking to build robust web applications."
         }
     ]
 }

@@ -13,5 +13,12 @@
         "Learn power bi through documentation, tutorials, and hands-on practice.",
         "Power Bi is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with power bi: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "power bi dashboard ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Yes, Power BI dashboards are a great way to visualize data in an easy-to-understand format. They allow you to create customized reports and insights based on your business needs."
+        }
     ]
 }

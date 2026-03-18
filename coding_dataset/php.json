@@ -26,6 +26,11 @@
             "question": "php ki ekhono use hoy?",
             "sentiment": "curious",
             "answer": "Yes, PHP remains essential in many legacy systems, DevOps scripting, and scientific computing. Its CPAN repository has thousands of reusable modules for almost any task."
+        },
+        {
+            "question": "php ki ekhono use hoy?",
+            "sentiment": "curious",
+            "answer": "Yes, PHP can be used as a backend language embedded in HTML with frameworks like Laravel and Symfony. It's a mature ecosystem for building web applications, APIs, and content management systems. Modern PHP (8.x) is fast, typed, and nothing like the PHP of old."
         }
     ]
 }

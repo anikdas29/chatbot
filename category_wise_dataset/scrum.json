@@ -13,5 +13,12 @@
         "Scrum roles: Product Owner (what to build), Scrum Master (facilitator), Development Team (builders).",
         "Ceremonies: Sprint Planning, Daily Standup (15 min), Sprint Review (demo), Sprint Retrospective (improve).",
         "Scrum artifacts: Product Backlog (all work), Sprint Backlog (this sprint's work), Increment (done work)."
+    ],
+    "feelings": [
+        {
+            "question": "scrum framework ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Scrum is a popular Agile framework for developing software. It involves defining roles and ceremonies, such as daily standups, sprint planning, and retrospectives, to ensure that work is completed in a timely manner while maintaining quality standards."
+        }
     ]
 }

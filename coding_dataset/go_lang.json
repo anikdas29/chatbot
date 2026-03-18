@@ -21,6 +21,11 @@
             "question": "golang ki fast?",
             "sentiment": "curious",
             "answer": "Golang is known for its simplicity and speed when it comes to building web applications. It's designed for simplicity, fast compilation, and built-in concurrency support through goroutines and channels."
+        },
+        {
+            "question": "golang ki fast?",
+            "sentiment": "curious",
+            "answer": "Golang is known for its speed during development, as it produces a single executable binary with no dependencies. Its garbage collector is optimized for low-latency applications and first-class support for concurrency."
         }
     ]
 }

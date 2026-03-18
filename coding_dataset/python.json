@@ -136,6 +136,36 @@
             "question": "python GIL ki and multithreading e ki problem hoy?",
             "sentiment": "angry",
             "answer": "Ami bujhte parchi apni frustrated. I hear you. Python syntax is simple — no semicolons, no curly braces, just indentation. print('Hello World') is all you need to start!\n\nHope this helps!\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "what is python?",
+            "sentiment": "curious",
+            "answer": "The question \"What is Python?\" refers to the beginner-friendly programming language known for its clean syntax and focus on variables, loops, functions, object-oriented programming (OOP), file handling, and libraries like requests, pandas, and Flask. The best resources for learning Python are official documentation (docs.python.org) and YouTube channels such as Corey Schaffer's \"Automate the Boring Stuff\" course."
+        },
+        {
+            "question": "what is python used for?",
+            "sentiment": "curious",
+            "answer": "Good one! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting."
+        },
+        {
+            "question": "what is python and how to learn it?",
+            "sentiment": "curious",
+            "answer": "Nice question! Python is a beginner-friendly programming language known for clean syntax. Used in web dev, data science, AI, automation, and scripting. Also, Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask."
+        },
+        {
+            "question": "ami python shikte chai, kivabe start korbo?",
+            "sentiment": "curious",
+            "answer": "Learn Python: start with variables, loops, functions, then move to OOP, file handling, and libraries like requests, pandas, flask.\n\nRegarding wedding planning: Biye er planning e prothome budget fix koro, then venue book koro, guest list banao, catering ar decoration arrange koro, ar dress select koro."
+        },
+        {
+            "question": "what is python and also solve 10+20 and tell a joke",
+            "sentiment": "curious",
+            "answer": "Pythons are a beginner-friendly programming language known for its clean syntax. It's used in web development, data science, AI, automation, and scripting. To learn Python, start with variables, loops, functions, then move on to OOP, file handling, and libraries like requests, pandas, and Flask. Some of the best resources for learning Python are official docs (docs.python.org), Automate the Boring Stuff (free), Codecademy, and YouTube channels like Corey Schaffer. To solve 10+20, print('Hello World') is all you need to start! Jokes: \"What's the difference between a"
+        },
+        {
+            "question": "why python is so populer?",
+            "sentiment": "curious",
+            "answer": "knowledge answers the question \"why python is so popular?\" by explaining that it's a beginner-friendly programming language known for its clean syntax, which makes it easy to learn and use. Additionally, Python has been used in various fields such as web development, data science, AI, automation, and scripting, making it an attractive choice among programmers. Finally,  knowledge provides resources and tips on learning Python, including official documentation, YouTube channels, and online courses."
         }
     ]
 }

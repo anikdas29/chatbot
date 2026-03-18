@@ -14,5 +14,12 @@
         "Biomass holo organic matter jemon kath, gobar, fuler boja theke energy produce kora. Eta renewable karon notun biomass grow kora jay.",
         "Biomass can be converted to energy through direct combustion, gasification, or fermentation into biogas/bioethanol. It's a way to turn waste into useful power.",
         "Biomass energy is considered renewable since plants can regrow. However, it must be managed sustainably — burning biomass does release CO2, but the regrowth absorbs it back."
+    ],
+    "feelings": [
+        {
+            "question": "biomass energy ki?",
+            "sentiment": "curious",
+            "answer": "Biomass energy is a way to convert organic waste into useful energy. It can be burned directly or converted into biofuels using fermentation, gasification, or direct combustion. Bioenergy production from organic matter is considered renewable since plants can regrow and absorb CO2 back."
+        }
     ]
 }

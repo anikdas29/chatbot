@@ -19,6 +19,11 @@
             "question": "invoice kivabe banai?",
             "sentiment": "curious",
             "answer": "knowledge about the \"invoiice\" question is as follows:\n1. [invoiice] Q: invoiice kiwaabo? A: Invoiice holo ekta payment request document ja tumi client ke pathao tomar service ba product er joonnno. Etwat professional way te taka charge koran.\n2. [prototyping] Q: interactive prototype kiwaabonay? A: Prototype holo tomar design er ekta interactive model — click korle page change hoy, animation dekhna jay. Real product er moton feel koran feel koran.\n3. [nft_art] Q: nft art waab"
+        },
+        {
+            "question": "invoice kivabe banai?",
+            "sentiment": "curious",
+            "answer": "Answer: Yes, an invocation (also known as a demand letter or request for payment) is a document sent by one party to another asking for payment of money owed. The recipient can then respond with their own demands and negotiations."
         }
     ]
 }

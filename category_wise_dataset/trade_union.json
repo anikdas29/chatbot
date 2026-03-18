@@ -13,5 +13,12 @@
         "Trade union holo workers er organization ja tader rights er jonno lorai kore - better salary, working hours, safety, ar benefits negotiate kore employers er sathe.",
         "Trade unions negotiate collective bargaining agreements, represent workers in disputes, advocate for labor laws, and provide legal support and training to members.",
         "Trade unions are important because they give workers collective bargaining power, protect against unfair treatment, and have historically fought for rights like weekends and minimum wages."
+    ],
+    "feelings": [
+        {
+            "question": "trade union ki?",
+            "sentiment": "curious",
+            "answer": "Yes, a trade union is an organized group of workers who come together to protect their rights, negotiate better wages, working conditions, and benefits with employers."
+        }
     ]
 }

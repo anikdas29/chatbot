@@ -28,6 +28,11 @@
             "question": "pricing strategy set korbo kivabe?",
             "sentiment": "curious",
             "answer": "The given knowledge about pricing strategy suggests that the questioner is asking about a specific pricing strategy, such as setting the product price or determining the optimal cost-to-income ratio for a business.  knowledge does not mention \"the text\" nor \"context.\" To answer naturally, it is essential to consider factors like income, competition, and customer willingness to pay when formulating a pricing strategy."
+        },
+        {
+            "question": "pricing strategy set korbo kivabe?",
+            "sentiment": "curious",
+            "answer": "knowledge suggests that a prizing strategy involves setting prices for products or services considering costs, competition, market demand, and perceived value. The best prizing strategy depends on the market and may involve different strategies such as cost-plus pricing, competitive pricing, value-based pricing, penetraion pricing (low to enter market), and premium pricing (high for luxury)."
         }
     ]
 }

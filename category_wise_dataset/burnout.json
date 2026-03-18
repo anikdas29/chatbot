@@ -24,6 +24,11 @@
             "question": "burnout feel korchi ki korbo?",
             "sentiment": "curious",
             "answer": "Yes, burnout can manifest in a variety of ways, including physical symptoms such as fatigue or muscle tension, emotional ones like feeling drained or overwhelmed, and cognitive ones such as confusion about one's abilities or motivation. To deal with stress, try deep breathing, exercise, time management, talking to someone, and setting realistic goals for self-care."
+        },
+        {
+            "question": "burnout feel korchi ki korbo?",
+            "sentiment": "curious",
+            "answer": "Burnout is a state of emotional exhaustion caused by prolonged stress or overload. It can lead to physical symptoms such as headaches, insomnia, and reduced performance. To recover from burnout, it's essential to set boundaries, prioritize self-care, take regular breaks, address problems early before they accumulate, seek professional help if needed, and seek support from friends or family members."
         }
     ]
 }

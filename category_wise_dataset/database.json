@@ -56,6 +56,16 @@
             "question": "database sharding vs replication difference ki?",
             "sentiment": "curious",
             "answer": "SQL vs NoSQL: SQL (MySQL, PostgreSQL) = structured, tables, relations. NoSQL (MongoDB, Redis) = flexible, documents, fast. Choose based on your data.\n\nAbout mongodb: MongoDB shines for content management, IoT, real-time analytics, and mobile apps."
+        },
+        {
+            "question": "what is database?",
+            "sentiment": "curious",
+            "answer": "Database is a collection of related information that can be organized into tables to facilitate retrieval, storage, and analysis of data.  knowledge includes SQL (Structured Query Language) as the primary language used for managing relational databases, NoSQL (NoSQL stands for \"Not Only SQL\") as flexible alternatives based on different data structures, and MongoDB as a modern web-based database that is perfect for Node.js backend applications with changing data structures."
+        },
+        {
+            "question": "thanks now explain database",
+            "sentiment": "happy",
+            "answer": "Awesome! SQL (Structured Query Language) is used to manage relational databases. Learn SELECT, INSERT, UPDATE, DELETE - these cover 80% of daily use.\n\nHope this helps!"
         }
     ]
 }

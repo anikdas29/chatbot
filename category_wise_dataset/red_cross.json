@@ -13,5 +13,17 @@
         "Red Cross disaster er somoy relief dey, blood donation organize kore, first aid training dey, ar war zones e humanitarian aid provide kore.",
         "The International Red Cross movement operates under principles of humanity, impartiality, and neutrality, helping millions of people affected by conflicts and natural disasters.",
         "You can volunteer with your local Red Cross chapter to help with disaster response, blood drives, health education, or international humanitarian missions."
+    ],
+    "feelings": [
+        {
+            "question": "red cross ki?",
+            "sentiment": "curious",
+            "answer": "The Red Cross is a humanitarian organization that provides emergency assistance, disaster relief, blood donation services, education on health and safety, and first aid training to those affected by conflicts and natural disasters."
+        },
+        {
+            "question": "who world health organization ki?",
+            "sentiment": "curious",
+            "answer": "World Health Organization (WHO)"
+        }
     ]
 }

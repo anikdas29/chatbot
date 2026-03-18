@@ -26,6 +26,11 @@
             "question": "how websocket works?",
             "sentiment": "curious",
             "answer": "WebSocket is a protocol used for real-time communication between clients and servers. It creates a persistent connection where both client and server can send messages at any time, making it ideal for chat apps, live feeds, and gamings."
+        },
+        {
+            "question": "how websocket works?",
+            "sentiment": "curious",
+            "answer": "WebSocket, also known as WebSockets or Hybi (Hypertext Transfer Protocol with Binary Socket Messaging), is a communication protocol that provides full-duplex, bidirectional communication between client and server over a single TCP connection. The process starts with an HTTP handshake to establish a secure session, followed by the upgrade to a persistent WebSocket connection. This eliminates the overhead of repeated HTTP requests, making it ideal for real-time applications such as chat apps, live feeds, and gaming."
         }
     ]
 }

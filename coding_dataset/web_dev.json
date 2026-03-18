@@ -40,6 +40,11 @@
             "question": "whats the best way to get into web development?",
             "sentiment": "happy",
             "answer": "Become a web developer: build 5 projects (portfolio, todo app, weather app, blog, e-commerce). Deploy them. That's your resume.\n\nAbout web design: To become a web designer, learn HTML/CSS basics, study design principles, master tools like Figma or Webflow, build a portfolio, and keep up with m..."
+        },
+        {
+            "question": "frontend backend difference and which is easier?",
+            "sentiment": "curious",
+            "answer": "Interesting! Frontend = what users see (HTML, CSS, JS, React). Backend = server logic (Node.js, Python, databases). Full-stack = both. Start with frontend!"
         }
     ]
 }

@@ -13,5 +13,12 @@
         "EU holo Europe er 27 ta desher ekta union ja economic cooperation, common currency (Euro), ar political unity provide kore.",
         "The EU was created to foster economic cooperation, with the idea that countries who trade together are more likely to avoid conflict with each other.",
         "Benefits of the EU include the single market, the Euro currency, visa-free travel through the Schengen area, and collective bargaining power in global trade negotiations."
+    ],
+    "feelings": [
+        {
+            "question": "european union ki?",
+            "sentiment": "curious",
+            "answer": "The European Union (EU) is a political and economic union of 27 member states that enables free movement of people, goods, services, and capital among the member countries."
+        }
     ]
 }

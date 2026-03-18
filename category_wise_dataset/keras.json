@@ -13,5 +13,12 @@
         "Learn keras through documentation, tutorials, and hands-on practice.",
         "Keras is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with keras: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "keras basics ki?",
+            "sentiment": "curious",
+            "answer": "Keras is a high-level neural network API that runs on the TensorFlow backend in the industry, commonly used for building small projects and experimenting with different models. It provides an easy-to-use interface for building complex deep learning architectures without having to worry about the underlying machine learning algorithms."
+        }
     ]
 }

@@ -12,5 +12,12 @@
         "Temporary care for children who cannot live with their families.",
         "For foster care guidance, consult professionals and trusted resources. Every situation is unique.",
         "Foster Care is important — educate yourself, seek help when needed, and support those around you."
+    ],
+    "feelings": [
+        {
+            "question": "foster care ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Foster care information.\n\nHope this helps!"
+        }
     ]
 }

@@ -19,6 +19,11 @@
             "question": "gps technology ki?",
             "sentiment": "curious",
             "answer": "GPS is an important technology in today's connected world that provides real-time location tracking of a vehicle, device, person, or event using global positioning satellites. It has evolved from the older GSM (Global System for Mobile Communications) system to provide more accurate and reliable location data."
+        },
+        {
+            "question": "gps technology ki?",
+            "sentiment": "curious",
+            "answer": "GPS technology is an essential component in today's connected world that uses satellite navigation to determine location. It helps navigate the modern digital landscape, including smart homes, wearables, industrial sensors, electric vehicles, and more."
         }
     ]
 }

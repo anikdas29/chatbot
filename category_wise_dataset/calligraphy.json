@@ -13,5 +13,12 @@
         "Modern calligraphy uses brush pens — easier to start with. Practice connecting strokes before forming full words.",
         "Calligraphy tips: use guidelines, practice slowly, focus on consistency, and warm up with basic strokes before writing.",
         "Hateer lekha improve: niyomito practice koro, basic strokes shikho, brush pen ba pointed nib diye shuru koro."
+    ],
+    "feelings": [
+        {
+            "question": "calligraphy ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Calligraphy or script writing, which is a traditional craft with centuries of history in different regions worldwide, requires careful brushwork, hand formations and clear diction to write beautiful and intricate scripts. The technique was brought over to India during the Vijayanagara dynasty when Muslim calligriffs settled here in search for peace and religious harmony, making them instrumental in the preservation of ancient Sanskrit texts, such as the Mahabharata, Bhagavat Purana and other scriptures."
+        }
     ]
 }

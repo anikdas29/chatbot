@@ -12,5 +12,12 @@
         "Being prepared for patient rights can save lives. Educate yourself and those around you.",
         "Patient Rights awareness is important for everyone. Learn the basics and be prepared.",
         "Understanding patient rights helps you make informed decisions and protect yourself and others."
+    ],
+    "feelings": [
+        {
+            "question": "patient rights ki?",
+            "sentiment": "curious",
+            "answer": "Yes, the knowledge about patient rights includes informing patients about their right to access healthcare information, being aware of privacy policies, protecting themselves from wrongful disclosures and seeking assistance when they feel unsafe. These rights are crucial for ensuring better care outcomes, strengthened economies, healthier families, more peaceful societies, and a fairer society."
+        }
     ]
 }

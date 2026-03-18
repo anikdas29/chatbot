@@ -18,6 +18,11 @@
             "question": "best biryani recipe",
             "sentiment": "happy",
             "answer": "Explicatong the recipes for different varieties of biryanis is a delicious journey. Try different types and styles to explore their unique flavors."
+        },
+        {
+            "question": "best biryani recipe",
+            "sentiment": "happy",
+            "answer": "Awesome! Exploring biryani is a delicious journey. Try different varieties and styles."
         }
     ]
 }

@@ -12,5 +12,12 @@
         "Practice macro photography regularly to improve. Study the work of masters in the field.",
         "Macro Photography is a rewarding skill. Start with what you have and upgrade gear as you grow.",
         "Key to great macro photography: understand light, composition, and subject. Gear is secondary."
+    ],
+    "feelings": [
+        {
+            "question": "macro photography ki?",
+            "sentiment": "curious",
+            "answer": "Key to great macro photography is understanding the importance of natural light, selecting props that complement your subject's personality or mood, and using appropriate gear. Macro photography involves understaning the concept of extreme close-ups of small subjects and practicing regularly to improve skill. Practice capturing candid moments in public spaces by studying master photographers' work."
+        }
     ]
 }

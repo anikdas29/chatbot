@@ -37,6 +37,11 @@
             "question": "marketing strategy ki?",
             "sentiment": "curious",
             "answer": "Nice question! SEO, Social Media, Content Marketing, Email Marketing, Analytics. Track and optimize! Moreover, Digital marketing essentials: SEO for organic traffic, social media for reach, email for retention, and analytics to track what's working."
+        },
+        {
+            "question": "marketing strategy ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! SEO, Social Media, Content Marketing, Email Marketing, Analytics. Track and optimize! And Digital marketing essentials: SEO for organic traffic, social media for reach, email for retention, and analytics to track what's working.\n\nHope this helps!"
         }
     ]
 }

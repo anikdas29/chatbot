@@ -97,6 +97,26 @@
             "question": "javascript prototype chain and inheritance kivabe kore?",
             "sentiment": "curious",
             "answer": "Interesting! JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API. Master these and you're solid!"
+        },
+        {
+            "question": "what is javascript?",
+            "sentiment": "curious",
+            "answer": "Good one! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it. Plus, JS basics: variables (let, const), functions, arrays, objects, DOM manipulation, async/await, and fetch API."
+        },
+        {
+            "question": "javascript diye ki kora jai?",
+            "sentiment": "curious",
+            "answer": "JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it.\n\nFor blender 3d: Blender holo completely free 3D software — 3D modeling, animation, rendering, sculpting shob kora jay."
+        },
+        {
+            "question": "javascript ki and ami keno bujhi na",
+            "sentiment": "curious",
+            "answer": "Nice question! JavaScript is THE language of the web. It runs in browsers, powers frontend (React, Vue) and backend (Node.js). Every web developer needs it.\n\nHope this helps!"
+        },
+        {
+            "question": "how javascript async await works?",
+            "sentiment": "curious",
+            "answer": "JavaScript's asynchronous/await (also known as Promise) syntax is a powerful tool for writing asynchronous code that can handle multiple tasks simultaneously. Here's an example of how it works in practice:\n```javascript\nasync function fetchData() {\ntry {\nconst response = await fetch('https://example.com');\nreturn await response.json();\n} catch (error) {\nconsole.log(error);\n}\n}\nfetchData().then((data) => {\n// handle data here\n}).catch((error) => {\n// handle error here\n});\n```\nIn this example, we're using the `async` and `await"
         }
     ]
 }

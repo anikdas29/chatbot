@@ -16,5 +16,12 @@
         "The Brothers Grimm and Hans Christian Andersen wrote many famous fairy tales. In Bengali literature, Dakshinaranjan Mitra Majumdar's Thakurmar Jhuli is one of the most beloved fairy tale collections.",
         "Rupkotha holo jadur golpo jegulote pori, daini, rajkumor, ar magical jinishpotro thake. Thakurmar Jhuli, Cinderella, Snow White egulo famous rupkotha. Bacchader imagination develop korte help kore.",
         "Fairy tales teach moral lessons through enchanting stories. They help children develop imagination, understand good vs evil, and cope with fears. Every culture has its own fairy tales that reflect local values and traditions."
+    ],
+    "feelings": [
+        {
+            "question": "india er capital ki?",
+            "sentiment": "curious",
+            "answer": "In India, the capital city is known as Delhi."
+        }
     ]
 }

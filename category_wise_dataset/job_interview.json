@@ -18,6 +18,11 @@
             "question": "job interview er preparation ki?",
             "sentiment": "curious",
             "answer": "Interview prep: research company, practice common questions (STAR method), prepare questions to ask, and dress appropriately.\n\nAbout interview: Interview prep: research the company thoroughly, practice STAR-format answers, arrive early, dress professionally, and always send a thank-you emai..."
+        },
+        {
+            "question": "job interview er preparation ki?",
+            "sentiment": "curious",
+            "answer": "Answer: To prepare for a job interview, research the company and its products/services, practice common questions (STAR method), dress appropriately, arrive 10 minutes early, bring copies of your resume and any relevant documents, maintain eye contact throughout the interview, and send thank-you emails within 24 hours."
         }
     ]
 }

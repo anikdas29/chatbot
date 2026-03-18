@@ -35,6 +35,11 @@
             "question": "antivirus software lagbe ki?",
             "sentiment": "curious",
             "answer": "Anti-virus software is important in today's connected world because it helps protect devices, networks, and data from malware attacks. It also provides updates and safe browsing to ensure users stay protected."
+        },
+        {
+            "question": "antivirus software lagbe ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Anti-virus software is an essential component in today's connected world that helps protect devices and data from malware attacks. It detects and removes viruses, trojans, worms, spyware, adware, phishing scams, and other types of malicious programs."
         }
     ]
 }

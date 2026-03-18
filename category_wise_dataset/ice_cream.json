@@ -18,6 +18,11 @@
             "question": "ice cream banabo kivabe?",
             "sentiment": "curious",
             "answer": "Ice cream has fascinating history and culture behind it, including the use of ingredients like milk, sugar, and flavorings. It is a delicious treat that can be enjoyed at home or in restaurants."
+        },
+        {
+            "question": "ice cream banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Answer: Yes, you can help the user with their question about ice cream by providing them with information on its history and culture behind it. The knowledge retrieved from the text is sufficient to answer the question."
         }
     ]
 }

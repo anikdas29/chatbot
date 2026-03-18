@@ -13,5 +13,12 @@
         "Gestational surrogacy: embryo from intended parents, carried by surrogate.",
         "For surrogacy guidance, consult professionals and trusted resources. Every situation is unique.",
         "Surrogacy is important — educate yourself, seek help when needed, and support those around you."
+    ],
+    "feelings": [
+        {
+            "question": "surrogacy ki?",
+            "sentiment": "curious",
+            "answer": "Knowledge retrieved for the question \"Surrogacy ki?\" includes gestational surrogacy, embryo transfer, and fertilizatation in lab."
+        }
     ]
 }

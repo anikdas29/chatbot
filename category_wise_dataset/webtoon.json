@@ -13,5 +13,12 @@
         "Read webtoons on LINE Webtoon app (free, official) or Tapas. Scroll vertically — designed for phone reading.",
         "Webtoon vs manga: webtoons are digital-first, full color, vertical scroll. Manga is print-first, black & white, page-by-page.",
         "Webtoon ki: digital comics from Korea. Full color, free to read, updated weekly. Available in Webtoon app."
+    ],
+    "feelings": [
+        {
+            "question": "webtoon ki?",
+            "sentiment": "curious",
+            "answer": "Yes, Webtoons is a digital comic book series from Korea that offers full color and free to read. It's available on the Webtoon app for iOS and Android devices. Popular webtoons include Tower of God, Loreto Olympus, UnOrdinary, True Beauty, Solo Leveling, and The Beginning After the End."
+        }
     ]
 }

@@ -19,6 +19,11 @@
             "question": "nanotechnology ki?",
             "sentiment": "curious",
             "answer": "Nanotechnology is a field that involves the manipulation of matter at an atomic/molecular scale (1-100 nanometers), with the aim to create new materials, devices, and applications. It has emerged as a rapidly growing area in science and technology due to its potential for innovation and advancement."
+        },
+        {
+            "question": "nanotechnology ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Nanotechnology = engineering at atomic/molecular scale (1-100 nanometers). A nanometer is 1 billionth of a meter."
         }
     ]
 }

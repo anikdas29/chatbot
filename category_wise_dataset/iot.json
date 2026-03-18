@@ -19,6 +19,16 @@
             "question": "iot devices ki ki ache?",
             "sentiment": "curious",
             "answer": "Nice question! IoT (Internet of Things) = everyday devices connected to internet. Smart home, wearables, industrial sensors, connected cars.\n\nHope this helps!"
+        },
+        {
+            "question": "iot devices ki ki ache?",
+            "sentiment": "curious",
+            "answer": "Great question! IoT (Internet of Things) = everyday devices connected to internet. Smart home, wearables, industrial sensors, connected cars.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "explain everything about internet simply",
+            "sentiment": "curious",
+            "answer": "Great question! IoT (Internet of Things) = everyday devices connected to internet. Smart home, wearables, industrial sensors, connected cars.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

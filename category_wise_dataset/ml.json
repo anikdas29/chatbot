@@ -90,6 +90,21 @@
             "question": "database ki?",
             "sentiment": "curious",
             "answer": "Machine Learning uses algorithms to find patterns in data. Start with scikit-learn for classical ML, then move to TensorFlow or PyTorch for deep learning.\n\nAbout excel: Excel: Microsoft's spreadsheet.\n\nOn the mongodb side: MongoDB is a popular NoSQL document database that stores data in flexible JSON-like documents."
+        },
+        {
+            "question": "machine learning ki?",
+            "sentiment": "curious",
+            "answer": "Machine Learning is a subset of Artificial Intelligence (AI) that involves teaching computers to learn from data without explicit programming. The key types are supervised, unsupervised, and reinforcement learning. Some examples of Machine Learning tools include scikit-learn for classical ML, TensoRFlow or PyToRCH for deep learning."
+        },
+        {
+            "question": "what is machine learning?",
+            "sentiment": "curious",
+            "answer": "Interesting! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
+        },
+        {
+            "question": "machine learning diye ki kora jai?",
+            "sentiment": "curious",
+            "answer": "Machine Learning is a subset of Artificial Intelligence (AI) that involves teaching computers to learn from data without explicit programming. It uses algorithms such as supervised, unsupersvised, and reinforcement learning to find patterns in data. Some popular tools for machine learning include scikit-learn, TenorFlow, PyTorch, and Python libraries like NumPy. Machine Learning is a branch of AI that involves teaching computers to learn from data without explicit programming."
         }
     ]
 }

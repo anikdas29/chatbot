@@ -13,5 +13,12 @@
         "Translation holo ek bhasha theke arek bhashay lekha text convert kora, meaning ar tone thik rekhe.",
         "To become a translator, be fluent in at least two languages, get certified if possible, specialize in a field like legal or medical, and build a portfolio of translated work.",
         "Translation deals with written text and allows time for careful word choices, while interpretation handles spoken language in real-time during conversations or events."
+    ],
+    "feelings": [
+        {
+            "question": "translation career ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! To become a translator, be fluent in at least two languages, get certified if possible, specialize in a field like legal or medical, and build a portfolio of translated work. Moreover, Translation holo ek bhasha theke arek bhashay lekha text convert kora, meaning ar tone thik rekhe.\n\nHope this helps!"
+        }
     ]
 }

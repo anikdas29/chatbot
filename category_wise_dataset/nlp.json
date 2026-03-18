@@ -13,5 +13,12 @@
         "Learn nlp through documentation, tutorials, and hands-on practice.",
         "Nlp is widely used in the industry. Great tool to add to your skillset.",
         "Getting started with nlp: install, follow quickstart guide, and build a small project."
+    ],
+    "feelings": [
+        {
+            "question": "nlp natural language processing ki?",
+            "sentiment": "curious",
+            "answer": "Natural Language Processing (NLP) is a field of computer science that involves the analysis and understanding of human language, including text, speech, and visual data. It has become widely used in various industries such as finance, healthcare, and marketing, among others. NLP can also be used for improving search engines' capabilities by enabling natural language queries to understand the intent behind them."
+        }
     ]
 }

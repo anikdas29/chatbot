@@ -33,5 +33,12 @@
         "Difference equations describe how quantities change over time or space. Solving these equations can help us model population growth, chemical reactions, electrical circuits, and other real-world phenomena.",
         "Algebraic number theory deals with the properties of integers and modular forms. Its applications include cryptography, coding theory, and number theoretic problems in mathematics.",
         "Algebraic methods for solving differential equations involve using algebraic techniques to transform and solve these equations. These methods are essential in physics, engineering, and economics, enabling us to model complex systems and make predictions."
+    ],
+    "feelings": [
+        {
+            "question": "algebra shikbo kivabe?",
+            "sentiment": "curious",
+            "answer": "Valo question! Learning algebra builds strong analytical and problem-solving skills. Moreover, Algebraic geometry has deep connections to various areas of physics, including general relativity, quantum mechanics, and particle physics."
+        }
     ]
 }

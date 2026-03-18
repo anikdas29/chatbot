@@ -14,5 +14,11 @@
         "Key features: Issues (bug tracking), Pull Requests (code review), Actions (CI/CD), Pages (hosting), and Projects (kanban).",
         "GitHub tip: write good commit messages, use .gitignore, create a README, and protect your main branch with required reviews."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "github basics ki?",
+            "sentiment": "curious",
+            "answer": "Yes, GitHub is a platform for hosting Git repositories that allows collaboration, reviewing code, tracking issues, and deploying to the web. Basic features include creating a repo, cloning locally, making changes, committing, pushing, creating pull requests, getting reviews, merging, and more. Key features include Issue tracker, Pull Requests, Action workflows, CI/CD pipelines, project management, and more."
+        }
+    ]
 }

@@ -22,6 +22,11 @@
             "question": "ride sharing apps ki ki ache?",
             "sentiment": "curious",
             "answer": "Ki ki achche do\nBharo mahshiv kr koyare dil milenge, jo ride sharing kise bolta hain, abhi baat karne wale ki ek paisa hoga."
+        },
+        {
+            "question": "ride sharing apps ki ki ache?",
+            "sentiment": "curious",
+            "answer": "Ride-sharing apps such as Uber, Lyft, and Pathao are available for renting cars in various locations worldwide. To ensure a better experience, plan ahead, budget wisely, be flexible, and enjoy the journey!"
         }
     ]
 }

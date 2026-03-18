@@ -15,5 +15,12 @@
         "Paraphrasing holo same meaning nijjer bhashay lekha. AI tools like QuillBot, Grammarly, ar ChatGPT paraphrasing e help kore. But nijje bujhe paraphrase kora best practice.",
         "Good paraphrasing involves understanding the original meaning and rewriting it in your own words. Simply replacing words with synonyms isn't true paraphrasing — the sentence structure should also change.",
         "Paraphrasing is a crucial academic skill. It shows you understand the source material. AI paraphrasing tools can help, but always review the output to ensure accuracy and proper citation."
+    ],
+    "feelings": [
+        {
+            "question": "paraphrasing tools ki?",
+            "sentiment": "curious",
+            "answer": "Yes, AI-powered paraphrase tools are available to help with the process of understanding and rewriting the original meaning in a different sentence structure. These tools can be useful for improving writing skills and ensuring accurate paraphrasing. However, it's essential to review the output to ensure accuracy and proper citations."
+        }
     ]
 }

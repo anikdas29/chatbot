@@ -14,5 +14,12 @@
         "Deforestation holo bon kata ba forest clear kora. Agriculture, logging, ar urban expansion er jonno protibochor millions of hectares forest hariye jacche.",
         "Deforestation causes biodiversity loss, soil erosion, climate change acceleration, and disrupts indigenous communities. The Amazon and Southeast Asian rainforests are most affected.",
         "To combat deforestation, support sustainable products, reduce paper waste, choose FSC-certified wood, support reforestation programs, and advocate for stronger forest protection laws."
+    ],
+    "feelings": [
+        {
+            "question": "deforestation effects ki?",
+            "sentiment": "curious",
+            "answer": "The effect of deforestatation on indigenous communities is disrupting their livelihoods and cultural practices."
+        }
     ]
 }

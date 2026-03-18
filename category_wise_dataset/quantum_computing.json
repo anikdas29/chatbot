@@ -54,6 +54,11 @@
             "question": "why messi is best then ronaldo?",
             "sentiment": "happy",
             "answer": "Awesome! Quantum vs classical: quantum excels at specific problems (factoring, optimization, simulation) but isn't faster for everything."
+        },
+        {
+            "question": "quantum computing ki?",
+            "sentiment": "curious",
+            "answer": "Yes, current state of quantum computing is that IBM, Google, Amazon have quantum computers with fewer than 1000 qubits but need millions for practical use. Quantum computing uses qubits (can be either 0 or 1) and is exponentially faster for certain problems compared to classical bits (just 0 or 1). Applications of quantum computing include drug discovery, cryptography, optimization, materials science, weather modeling, and financial modeling."
         }
     ]
 }

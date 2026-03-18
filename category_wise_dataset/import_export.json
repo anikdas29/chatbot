@@ -29,6 +29,11 @@
             "question": "import export business ki?",
             "sentiment": "curious",
             "answer": "Nice question! Import is bringing goods into a country from abroad, while export is sending goods from your country to another. Together, they form international trade. And To start an import/export business, get necessary licenses (IRC/ERC in Bangladesh), research market demand, find reliable suppliers/buyers, understand customs regulations, and arrange shipping."
+        },
+        {
+            "question": "import export business ki?",
+            "sentiment": "curious",
+            "answer": "To start an import/export business, get necessary licensees (IRC/ERC in Bangladesh), research market demand, find reliable suppliers/buyer, understand customs regulations, and arrange shipping."
         }
     ]
 }

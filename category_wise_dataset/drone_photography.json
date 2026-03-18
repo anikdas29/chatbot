@@ -12,5 +12,12 @@
         "Practice drone photography regularly to improve. Study the work of masters in the field.",
         "Drone Photography is a rewarding skill. Start with what you have and upgrade gear as you grow.",
         "Key to great drone photography: understand light, composition, and subject. Gear is secondary."
+    ],
+    "feelings": [
+        {
+            "question": "drone photography ki?",
+            "sentiment": "curious",
+            "answer": "Drone photography refers to aerial perspective shots that capture the surrounding environment from a bird's eye view, often used in landscape or architectural photography. The key to great drone photography is understanding lighting regulations and mastering controls, shooting in RAW format, and capturing compositions that showcase the subject's personality or mood."
+        }
     ]
 }

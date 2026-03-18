@@ -13,5 +13,12 @@
         "Cyberbullying holo online e karo ke harass kora, threat deya, rumor chorano — social media, messaging app, ba game er maddhhomey.",
         "If you face cyberbullying, don't respond to the bully, take screenshots as evidence, block the person, report to the platform, and tell a trusted adult or authority.",
         "Most social media platforms have report buttons for harassment. You can also contact local law enforcement if threats are serious. In Bangladesh, you can report to the cyber crime unit."
+    ],
+    "feelings": [
+        {
+            "question": "cyber bullying ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Cyberbullying holo online e karo ke harass kora, threat deya, rumor chorano — social media, messaging app, ba game er maddhhomey. And Most social media platforms have report buttons for harassment.\n\nAro kichu lagbe bolo!"
+        }
     ]
 }

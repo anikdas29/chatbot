@@ -43,6 +43,11 @@
             "question": "flask vs django which is better?",
             "sentiment": "curious",
             "answer": "Both Flask and Django are great frameworks to build web applications. While Flask is more focused on simplicity and ease of use, Django offers a richer ecosystem with built-in features like database management, authentication, and templating. In terms of performance, both frameworks have their pros and cons, but Flask tends to be faster in some cases due to its lean design. Ultimately, the choice between these two frameworks depends on your specific needs and preferences."
+        },
+        {
+            "question": "flask vs django which is better?",
+            "sentiment": "curious",
+            "answer": "Flask Framework is widely used in industry. Great skill to add to your portfolio."
         }
     ]
 }

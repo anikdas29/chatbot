@@ -13,5 +13,12 @@
         "Benefits: networking, professional environment, amenities (meeting rooms, fast WiFi), and reduced isolation.",
         "Tips: try different spaces, check if noise level suits you, evaluate pricing plans, and attend community events.",
         "Coworking ki: shared office space where different professionals work together. Networking ar productivity boost kore."
+    ],
+    "feelings": [
+        {
+            "question": "coworking space ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Coworking ki: shared office space where different professionals work together. Networking ar productivity boost kore.\n\nAr kichu jante chaile bolo!"
+        }
     ]
 }

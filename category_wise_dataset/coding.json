@@ -80,6 +80,11 @@
             "question": "how to write good code?",
             "sentiment": "happy",
             "answer": "Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects.\n\nOn the clean code side: Tips: code should read like prose, functions should do one thing, avoid deep nesting, and refactor ruthlessly.\n\nOn the writing side: Writing tip: write every day, even if it's bad."
+        },
+        {
+            "question": "help me with coding",
+            "sentiment": "confused",
+            "answer": "Let me explain. Start with Python (beginner-friendly), then JavaScript, Java, or C++. Practice on LeetCode, HackerRank, or build real projects. Plus, Python is the best starting point — clean syntax and huge community."
         }
     ]
 }

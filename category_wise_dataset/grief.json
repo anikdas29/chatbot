@@ -19,6 +19,16 @@
             "question": "grief counseling ki?",
             "sentiment": "curious",
             "answer": "Yes, there are different types of grief counseling, including career counseling, marriage counseling, grief counseling, academic counseling, and substance abuse counseling. The type of counseling that is most effective for someone experiencing grief depends on their individual needs and preferences."
+        },
+        {
+            "question": "eta ki thik?",
+            "sentiment": "curious",
+            "answer": "Yes, it is possible to experience grief at any point in the stages outlined by Kubler-Ross's model. Coping techniques such as allowing oneself to feel, talking to someone, maintaining routine, taking care of one's health, and being patient are effective ways to manage grief. Seeking professional help is not a weakness but rather an important step towards healing and finding peace in the process."
+        },
+        {
+            "question": "grief counseling ki?",
+            "sentiment": "curious",
+            "answer": "Yes, grief counseling is a form of psychological support that helps individuals cope with the emotional pain and loss associated with experiencing significant loss. It can be helpful for people who are struggling to come to terms with their grief or have difficulty expressing their feelings."
         }
     ]
 }

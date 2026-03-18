@@ -19,6 +19,11 @@
             "question": "bookkeeping ki?",
             "sentiment": "curious",
             "answer": "Yes, Bookkeeping is the systematic recording of daily financial transactions into organized accounts."
+        },
+        {
+            "question": "bookkeeping ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Bookkeeping is the systematic recording of daily financial transactions — sales, purchases, receipts, and payments — into organized accounts."
         }
     ]
 }

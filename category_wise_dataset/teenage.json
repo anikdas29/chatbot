@@ -13,5 +13,12 @@
         "Listen without judgment, give appropriate freedom, set clear expectations.",
         "For teenage guidance, consult professionals and trusted resources. Every situation is unique.",
         "Teenage is important — educate yourself, seek help when needed, and support those around you."
+    ],
+    "feelings": [
+        {
+            "question": "teenage problems ki?",
+            "sentiment": "curious",
+            "answer": "knowledge suggests that a teenager may face various problems such as peer pressure, academic stress, and social isolation. To address these issues, they can seek help from teachers or counselors, participate in extracurricular activities, and maintain healthy relationships with peers and family members."
+        }
     ]
 }

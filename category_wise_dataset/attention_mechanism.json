@@ -36,5 +36,12 @@
         "One of the challenges of optimizing attention mechanisms is dealing with the high computational cost associated with calculating the attention scores. To address this, researchers have proposed various techniques such as parallelization, quantization, and knowledge distillation. In addition to these techniques, researchers have also explored using specialized hardware such as tensor processing units (TPUs) or graphics processing units (GPUs) to accelerate the computation of attention mechanisms.",
         "In multimodal models, attention mechanisms are used to integrate information from multiple sources such as images, text, and audio. This is typically done by concatenating the input elements and using an attention mechanism to weigh their importance. The use of attention mechanisms in multimodal models can help improve their ability to capture subtle relationships between different types of data.",
         "One of the scalability issues associated with attention mechanisms is the increasing computational cost as the size of the input increases. To address this, researchers have proposed various techniques such as reducing the size of the attention matrix or using more efficient algorithms for calculating the attention scores. In addition to these techniques, researchers have also explored using specialized hardware such as TPUs or GPUs to accelerate the computation of attention mechanisms."
+    ],
+    "feelings": [
+        {
+            "question": "attention mechanism ki?",
+            "sentiment": "curious",
+            "answer": "Attention mechanism allows a model to focus on the most relevant parts of the input when producing output. It's like highlighting important words in a sentence while reading. Attention holo ekta technique ja model ke input er specific parts e focus korte dey. Self-attention e ekta sequence er prottek element onno sho bhi elementer sathe relate korrekt kare. In transformers, attention uses Query, Key, and Value matrices. Theatteintion score determinees how much focus each token should give to every other token. Multi-head attention runs this in paraallel multiple times."
+        }
     ]
 }

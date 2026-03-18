@@ -18,6 +18,11 @@
             "question": "whiskey types ki ki?",
             "sentiment": "curious",
             "answer": "Whiskey is a distilled grain spirit aged in barrels. Each type has its unique flavor profile and history, with Scotch being the most popular and Japanese whisky becoming increasingly popular among consumers."
+        },
+        {
+            "question": "whiskey types ki ki?",
+            "sentiment": "curious",
+            "answer": "Ki ki? Whiskey types are explained in  knowledge."
         }
     ]
 }

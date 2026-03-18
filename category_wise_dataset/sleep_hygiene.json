@@ -29,6 +29,11 @@
             "question": "how to sleep better at night?",
             "sentiment": "curious",
             "answer": "Sleep better at night by keeping your sleep schedule consistent and avoiding screens 1 hour before bedtime. Additionally, try to keep the room cool and dark to promote relaxation and reduce stress. Avoid caffeine and alcohol before bedtime as they can disrupt your sleep. Exercise regularly to help improve overall health and well-being."
+        },
+        {
+            "question": "how to sleep better at night?",
+            "sentiment": "curious",
+            "answer": "The latest knowledge suggests that consistent schedules, dark and cool rooms, avoiding alcohol before bedtime, and exercising regularly are effective in improving sleep. However, it's recommended to try a 4-7-8 breathing technique or progressive muscle relaxation for better sleep. Additionally, getting up at the same time daily, avoiding screens 1 hour before bedtime, and comfortable mattresses can also help improve sleep quality."
         }
     ]
 }

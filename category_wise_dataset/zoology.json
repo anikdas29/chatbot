@@ -19,6 +19,11 @@
             "question": "zoology animal science ki?",
             "sentiment": "curious",
             "answer": "Zooology is the branch of biology that studies animals, including their behavior, physiology, classification, evolution, and ecology. It advocates for the ethical treatment of all sentient beings."
+        },
+        {
+            "question": "zoology animal science ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Zoological science is the branch of biology that studies animals as living organisms, including their behavior, physiology, classification, evolution, and ecology."
         }
     ]
 }

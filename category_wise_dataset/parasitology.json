@@ -18,6 +18,11 @@
             "question": "parasitology ki?",
             "sentiment": "curious",
             "answer": "Parasi Tology is the branch of biology that studies parasitic diseases, including their etiology and prevention. It involves understanding how parasites infect host organisms and develop immunity to them."
+        },
+        {
+            "question": "parasitology ki?",
+            "sentiment": "curious",
+            "answer": "Answer: ParaSi TolOgy refers to the study of parasites as living organisms, including their behavior, physiology, classification, and treatment. It is an important branch of biology that helps us understand how diseases are transmitted and prevent them from spreading."
         }
     ]
 }

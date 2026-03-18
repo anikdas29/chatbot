@@ -19,6 +19,11 @@
             "question": "gig economy ki?",
             "sentiment": "curious",
             "answer": "knowledge about the gig economy includes the following:\n1. [gih_economy] Q: Gig economy ki? A: The gig economy refers to a type of employment where individuals provide services on demand, such as Uber drivers or freelancers.\n2. [commercse] Q: Commercse ki? A: An e-commerce business is a company that sells goods and services online through websites or mobile apps.\n3. [microeconomics] Q: Microeconomics ki? A: Microeconomics focuses on individual and firm behavior, such as supply and demand, market structures, price theory.\n4. [ecnomics] Q"
+        },
+        {
+            "question": "gig economy ki?",
+            "sentiment": "curious",
+            "answer": "The gig economy is a labor market where temporary, flexible jobs are common and workers are independent contractors rather than full-time employees, like Uber drivers or freelancers. Its advantages include flexibility and independence, but disadvantages include no benefits, income instability, no job security, and you're responsible for your own taxes and insurance."
         }
     ]
 }

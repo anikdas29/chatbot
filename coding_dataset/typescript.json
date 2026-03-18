@@ -21,6 +21,11 @@
             "question": "what is typescript?",
             "sentiment": "curious",
             "answer": "TypeScript is a strongly typed superset of JavaScript developed by Microsoft that compiles down to plain JavaScript. It adds static typing, interfaces, and other features to help catch bugs at compile time."
+        },
+        {
+            "question": "what is typescript?",
+            "sentiment": "curious",
+            "answer": "TypeScript is a strongly typed superset of JavaScript developed by Microsoft that compiles down to plain JavaScript. It adds static typing, interfaces, and other features to help catch bugs at compile time. TypeScript builds on JavaScript by adding type annotations, interfaces, enum types, and generic functions."
         }
     ]
 }

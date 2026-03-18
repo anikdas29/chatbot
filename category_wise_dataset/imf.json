@@ -13,5 +13,22 @@
         "IMF countries ke financial crisis er somoy loan dey, but conditions thake like austerity measures ar economic reforms implement korte hoy.",
         "IMF monitors global economic trends, provides policy advice to member nations, and offers financial assistance to countries facing balance of payment problems.",
         "IMF er kaj holo global monetary system stable rakhা, exchange rates monitor kora, ar member countries ke economic crisis theke recover korte help kora."
+    ],
+    "feelings": [
+        {
+            "question": "AI use kore ki income kora jai?",
+            "sentiment": "curious",
+            "answer": "Yes, artificial intelligence (AI) can be used to analyze financial data and make predictions about a country's future economic performance based on historical trends and other relevant factors. The question asks whether AI has the capability to provide accurate forecasts for a specific country's income level in the near future."
+        },
+        {
+            "question": "imf ki?",
+            "sentiment": "curious",
+            "answer": "The International Monetary Fund (IMF) is a global organization of 190 countries working to foster monetary cooperation, financial stability, and sustainable economic growth."
+        },
+        {
+            "question": "Amake duita meye eksonge propose koreche, ekjon khub smart ar arekjon khub caring, ami kar sathe relation e jete pari? tomar ki mone hoy?",
+            "sentiment": "curious",
+            "answer": "Great question! IMF er kaj holo global monetary system stable rakhা, exchange rates monitor kora, ar member countries ke economic crisis theke recover korte help kora."
+        }
     ]
 }

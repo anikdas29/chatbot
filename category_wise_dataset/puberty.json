@@ -13,5 +13,12 @@
         "Normal developmental stage with physical and emotional changes. Open communication helps.",
         "For puberty guidance, consult professionals and trusted resources. Every situation is unique.",
         "Puberty is important — educate yourself, seek help when needed, and support those around you."
+    ],
+    "feelings": [
+        {
+            "question": "puberty ki?",
+            "sentiment": "curious",
+            "answer": "Knowledge retrieved for the question \"Puberty ki?\" includes information about normal developmental stage, physical changes, emotional changes, and guidance on how to cope with it. The answer suggests seeking professional help when needed and supporting those around you during this important period of growth and change."
+        }
     ]
 }

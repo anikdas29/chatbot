@@ -14,5 +14,11 @@
         "If a product is defective, you can return it for a refund or replacement, file a complaint with consumer protection agencies, or take legal action if needed.",
         "To file a complaint, gather your receipt and evidence, contact the seller first, then escalate to consumer protection agencies or courts if the issue isn't resolved."
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "consumer rights ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Consumer rights are legal protections ensuring buyers can make informed choices, get safe products, and seek remedies for defective goods or unfair practices."
+        }
+    ]
 }

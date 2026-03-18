@@ -23,6 +23,11 @@
             "question": "carpooling benefits ki?",
             "sentiment": "curious",
             "answer": "knowledge about carpooling is that it can provide significant financial savings, reduce traffic congestion, and help protect the environment. The question asks for information on carpooling's benefits in terms of money-saving, traffic reduction, and environmental protection."
+        },
+        {
+            "question": "carpooling benefits ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Carpooling offers several benefits, including cost savings, reduced traffic congestion, and the opportunity to meet new people while traveling together."
         }
     ]
 }

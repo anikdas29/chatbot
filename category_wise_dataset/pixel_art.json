@@ -15,5 +15,12 @@
         "Pixel art holo ekta digital art form jekhane ekta ekta pixel place kore art banano hoy. Retro game er moton look — Stardew Valley, Celeste eishob pixel art game.",
         "Tools for pixel art include Aseprite (best for game sprites), Piskel (free, browser-based), GraphicsGale, and even Photoshop. Start small — try 16x16 or 32x32 sprites before going bigger.",
         "Pixel art requires patience and precision. Key techniques include anti-aliasing, dithering for gradients, and limited color palettes. Start with simple objects, then try characters with walk cycle animations."
+    ],
+    "feelings": [
+        {
+            "question": "pixel art ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Pixel art refers to a form of digital art that involves creating images at the pixel level. It originated from early video games and remains popular for indie games, retro aesthetics, and NFTs."
+        }
     ]
 }

@@ -13,5 +13,12 @@
         "UNICEF bacchader jonno kaj kore - vaccination, education, nutrition, ar emergency relief provide kore specially developing countries te.",
         "UNICEF focuses on the most vulnerable children, providing immunizations, clean water, school supplies, and protection from violence and exploitation across the globe.",
         "You can support UNICEF through donations, volunteering, or advocacy. They run programs for child health, education, and protection in the world's toughest places."
+    ],
+    "feelings": [
+        {
+            "question": "unicef ki kore?",
+            "sentiment": "curious",
+            "answer": "Unicef focuses on providing immunizations, clean water, school supplies, and protection from violence and exploitation across the globe."
+        }
     ]
 }

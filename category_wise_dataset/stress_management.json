@@ -36,6 +36,11 @@
             "question": "how to manage emotions?",
             "sentiment": "curious",
             "answer": "Stress management involves techniques to cope with pressure. Try deep breathing, exercise, time management, talking to someone, and setting realistic expectations for yourself.\n\nRegarding emotions: Its okay to feel.\n\nAbout anger management: Anger management is learning to recognize your triggers and responding calmly instead of reacting."
+        },
+        {
+            "question": "how to deal with stress?",
+            "sentiment": "curious",
+            "answer": "Stress management involves techniques to cope with pressure. Try deep breathing, exercise, time management, talking to someone, and setting realistic expectations for yourself.\n\nAbout psychology: To manage stress: identify the source, break problems into smaller parts, practice breathing exercises, and don't be afraid to ask for help."
         }
     ]
 }

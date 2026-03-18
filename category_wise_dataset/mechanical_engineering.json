@@ -11,5 +11,12 @@
         "Learn more about mechanical engineering to stay informed and make better decisions.",
         "Mechanical Engineering is important in today's connected world.",
         "Understanding mechanical engineering helps you navigate the modern digital landscape."
+    ],
+    "feelings": [
+        {
+            "question": "mechanical engineering ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Mechanical engineering is an important field in today's connected world that involves designing machines, engines, HVAC, manufacturing systems, robotics, and more. It helps to stay informed and make better decision-making decisions."
+        }
     ]
 }

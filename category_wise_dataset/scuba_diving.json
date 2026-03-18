@@ -13,5 +13,12 @@
         "Best dive sites: Great Barrier Reef, Maldives, Red Sea, Bali, Thailand, and Caribbean islands.",
         "Scuba tips: never hold your breath, equalize ears early and often, stay with your buddy, and ascend slowly.",
         "Diving shekha: PADI certification nao (3-4 din er course), pool e practice koro, tarpor open water e jao."
+    ],
+    "feelings": [
+        {
+            "question": "scuba diving ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Scuba diving, also known as underwater exploration, is an adventurous activity where divers explore and experience the beauty of the ocean's depths. It involves wearing a specialized suit that protects divers from water pressure, temperature changes, and other environmental factors while they dive to different levels of the sea floor."
+        }
     ]
 }

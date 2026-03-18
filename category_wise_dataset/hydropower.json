@@ -14,5 +14,12 @@
         "Hydropower holo pani er force use kore electricity generate kora. Dam baniye pani store kore turbine ghorano hoy — eta clean energy.",
         "Hydroelectric power plants use dams or river currents to generate electricity. It provides about 16% of the world's electricity and is highly reliable and efficient.",
         "Hydropower is a renewable energy source that converts the kinetic energy of water into electricity. It produces no direct emissions and can provide both baseload and peak power."
+    ],
+    "feelings": [
+        {
+            "question": "hydropower ki?",
+            "sentiment": "curious",
+            "answer": "Interesting! Hydropower is a renewable energy source that converts the kinetic energy of water into electricity. It produces no direct emissions and can provide both baseload and peak power."
+        }
     ]
 }

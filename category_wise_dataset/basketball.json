@@ -31,6 +31,11 @@
             "question": "basketball rules ki?",
             "sentiment": "curious",
             "answer": "Basketball rules are governed by the National Basketball Association (NBA), which is the world's top professional basketball league featuring 30 teams from the US and Canada. The season runs from October to June, ending with the NBA Finals."
+        },
+        {
+            "question": "basketball rules ki?",
+            "sentiment": "curious",
+            "answer": "Kobe Bryant is a legend in the world of professional basketball. Other legendary players include Michael Jordan, LeBron James, and Kareem Abdul-Jabbar."
         }
     ]
 }

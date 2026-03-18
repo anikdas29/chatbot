@@ -19,6 +19,11 @@
             "question": "bluetooth technology ki?",
             "sentiment": "curious",
             "answer": "BlueTooth is an important technology in today's connected world that connects devices wirelessly using radio waves. It has evolved from the older Bluetooth 1.0 standard and now supports up to 2 Mbps data transmission rates, making it suitable for high-speed wireless communication between devices such as smartphones, laptops, and wearable fitness trackers. BlueTooth technology is moving fast with new advancements such as AI/ML, Cloud, Cybersecurity, and IoT (Internet of Things) that are transforming the way we live, work, and play."
+        },
+        {
+            "question": "bluetooth technology ki?",
+            "sentiment": "curious",
+            "answer": "Answer: Bluetooth is a short-range wireless communication protocol that connects devices wirelessly through the use of radio frequencies. It enables easy sharing of data between different types of devices, including smartphones, tablets, laptops, and other personal electronic devices."
         }
     ]
 }

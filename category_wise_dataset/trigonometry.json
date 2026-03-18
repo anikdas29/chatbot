@@ -13,5 +13,12 @@
         "Learning trigonometry builds strong analytical and problem-solving skills.",
         "Trigonometry is applied in many real-world fields. Understanding basics helps in any career.",
         "Start with trigonometry fundamentals, practice with examples, and apply to real problems."
+    ],
+    "feelings": [
+        {
+            "question": "trigonometry ki?",
+            "sentiment": "curious",
+            "answer": "Trigonometry refers to the study of triangles and angles, which is essential for physics and engineering. The knowledge about trigonometry includes understanding basic concepts such as sin, cos, tan, and learning how to apply them in real-world fields like geometry and analytical problem-solving skills."
+        }
     ]
 }

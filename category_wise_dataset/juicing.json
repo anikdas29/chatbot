@@ -19,6 +19,11 @@
             "question": "juicing benefits ki?",
             "sentiment": "curious",
             "answer": "Juicing extracts liquid from fruit and vegetables, leaving fibers behind. Juicing is a great way to get concentrated nutrients while minimizing the amount of whole food consumed. It's also an excellent way to improve digestion and detoxify the body."
+        },
+        {
+            "question": "juicing benefits ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Juicing extracts liquid from fruits/vegetables, leaving fiber behind. Concentrated nutrients but less filling than whole food."
         }
     ]
 }

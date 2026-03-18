@@ -1179,7 +1179,7 @@ class ConfidenceScorer:
         raw = (
             w_sem * semantic_score +
             w_ml * ml_score +
-            ConfidenceScorer.W_INTENT * intent_score +
+            w_int * intent_score +
             w_agr * agreement +
             w_gap * gap_norm
         )

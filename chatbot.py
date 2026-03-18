@@ -44,6 +44,12 @@ class SemanticEncoder:
     """
 
     def __init__(self, model_dir="models/minilm"):
+        self.available = False
+        self.is_e5 = False
+        self.model_name = None
+        self.tokenizer = None
+        self.session = None
+
         # Try multilingual model first (better Bangla support)
         multilingual_dir = "models/multilingual-e5"
         multilingual_onnx = os.path.join(multilingual_dir, "onnx", "model.onnx")
@@ -52,23 +58,32 @@ class SemanticEncoder:
         if os.path.exists(multilingual_onnx) and os.path.exists(multilingual_tok):
             self.model_dir = multilingual_dir
             self.model_name = "multilingual-e5-small"
-            self.is_e5 = True  # E5 models need "query: " prefix for best results
-        else:
+            self.is_e5 = True
+        elif os.path.exists(os.path.join(model_dir, "onnx", "model.onnx")):
             self.model_dir = model_dir
             self.model_name = "MiniLM-L6-v2"
             self.is_e5 = False
+        else:
+            logging.warning("No embedding model found — semantic search disabled (Tier 4: fixed dataset mode)")
+            return
 
-        self.tokenizer = Tokenizer.from_file(os.path.join(self.model_dir, "tokenizer.json"))
-        self.tokenizer.enable_padding(pad_id=0, pad_token="[PAD]")
-        self.tokenizer.enable_truncation(max_length=128)
-        self.session = ort.InferenceSession(
-            os.path.join(self.model_dir, "onnx", "model.onnx"),
-            providers=["CPUExecutionProvider"]
-        )
-        logging.info(f"SemanticEncoder loaded (ONNX {self.model_name})")
+        try:
+            self.tokenizer = Tokenizer.from_file(os.path.join(self.model_dir, "tokenizer.json"))
+            self.tokenizer.enable_padding(pad_id=0, pad_token="[PAD]")
+            self.tokenizer.enable_truncation(max_length=128)
+            self.session = ort.InferenceSession(
+                os.path.join(self.model_dir, "onnx", "model.onnx"),
+                providers=["CPUExecutionProvider"]
+            )
+            self.available = True
+            logging.info(f"SemanticEncoder loaded (ONNX {self.model_name})")
+        except Exception as e:
+            logging.warning(f"SemanticEncoder failed to load: {e} — semantic search disabled")
 
     def encode(self, texts):
         """Encode list of texts into normalized embeddings. Returns (N, 384) numpy array."""
+        if not self.available:
+            return np.zeros((1, 384), dtype=np.float32) if isinstance(texts, str) else np.zeros((len(texts) if not isinstance(texts, str) else 1, 384), dtype=np.float32)
         if isinstance(texts, str):
             texts = [texts]
         # E5 models need "query: " prefix for optimal performance
@@ -1398,7 +1413,14 @@ class ChatBot:
         """Pre-compute embeddings and build FAISS index for fast vector search.
         FAISS uses Inner Product (= cosine similarity for L2-normalized vectors).
         Scales to 100K+ questions with sub-millisecond search.
+        Tier 3/4: skips gracefully if encoder not available.
         """
+        if not self.encoder.available:
+            self.question_embeddings = None
+            self.faiss_index = None
+            logging.info("FAISS index skipped — no embedding model (Tier 4: fixed dataset mode)")
+            return
+
         import faiss
 
         if self.questions:
@@ -2165,16 +2187,48 @@ class ChatBot:
 
     # ========== Main Answer Pipeline ==========
 
+    def _tier4_keyword_match(self, question):
+        """Tier 4 fallback: simple keyword matching against category names and questions.
+        Used when no embedding model / FAISS is available.
+        Returns (category, answer) or (None, None).
+        """
+        q_words = set(question.lower().split())
+        best_cat = None
+        best_overlap = 0
+
+        for cat_name, store in self.category_store_map.items():
+            # Match against category name words
+            cat_words = set(cat_name.replace("_", " ").split())
+            overlap = len(q_words & cat_words)
+
+            # Also check question words in the category's questions
+            cat_data = store.get(cat_name)
+            if cat_data:
+                for stored_q in cat_data.get("questions", [])[:10]:
+                    stored_words = set(stored_q.lower().split())
+                    q_overlap = len(q_words & stored_words)
+                    overlap = max(overlap, q_overlap)
+
+            if overlap > best_overlap:
+                best_overlap = overlap
+                best_cat = cat_name
+
+        if best_cat and best_overlap >= 1:
+            answers = self._get_store_for(best_cat).get_answers(best_cat)
+            if answers:
+                answer = random.choice(answers)
+                return best_cat, answer
+
+        return None, None
+
     def get_answer(self, user_question, session_id=None):
-        """Main answer pipeline with multi-category fusion:
-        1. Follow-up check
-        2. Spell correction
-        3. Multi-category detection (ONNX semantic + ML)
-        4. If no categories → suggestions ("Did you mean?") or unknown
-        5. Find best answer from EACH qualifying category
-        6. Merge answers (primary full + secondary snippets)
-        7. Refine with templates + sentiment
-        8. Store feeling + save to SQLite
+        """Main answer pipeline with 4-tier fallback:
+
+        Tier 1: Phi-3 LLM + FAISS + ML (best quality)
+        Tier 2: TinyLlama LLM + FAISS + ML (good quality)
+        Tier 3: FAISS + ML only, no LLM (fast, dataset answers)
+        Tier 4: Keyword matching only (no models at all, fixed dataset)
+
         Returns dict: {"reply": str, "intent": str|list, "confidence": float, "categories": list}
                    or {"suggestions": [...], "needs_learning": True}
                    or None
@@ -2336,6 +2390,16 @@ class ChatBot:
                     "needs_learning": True,
                     "question": original
                 }
+            # Tier 4 fallback: keyword matching (no AI models needed)
+            t4_cat, t4_answer = self._tier4_keyword_match(cleaned)
+            if t4_cat and t4_answer:
+                sentiment = self.sentiment.detect(cleaned)
+                t4_answer = self._refine_answer(t4_answer, cleaned, sentiment, t4_cat, session_id)
+                if session_id:
+                    self.db.add_turn(session_id, original, t4_answer, t4_cat, 0.3, sentiment)
+                logging.info(f"Q: {original} | TIER4_KEYWORD | Intent: {t4_cat}")
+                return {"reply": t4_answer, "intent": t4_cat, "confidence": 0.3, "categories": [t4_cat]}
+
             # Truly unknown
             logging.info(f"UNANSWERED | Q: {original}")
             if session_id:

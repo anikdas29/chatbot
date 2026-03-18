@@ -6,12 +6,30 @@
         "ansible basics",
         "ansible tutorial",
         "learn ansible",
-        "ansible ki"
+        "ansible ki",
+        "ansible ki?",
+        "ansible kivabe kore?",
+        "Ansible vs other automation tools",
+        "Ansible er architecture design kore?",
+        "Ansible er optimization techniques",
+        "Ansible er internal implementation",
+        "How to implement Ansible roles",
+        "Ansible er state management strategies",
+        "Comparing Ansible and Puppet for configuration management"
     ],
     "answers": [
         "Ansible: automation tool for configuration management, app deployment. Agentless, uses YAML playbooks.",
         "Learn ansible through documentation, tutorials, and hands-on practice.",
         "Ansible is widely used in the industry. Great tool to add to your skillset.",
-        "Getting started with ansible: install, follow quickstart guide, and build a small project."
+        "Getting started with ansible: install, follow quickstart guide, and build a small project.",
+        "Ansible is a powerful automation tool used for configuration management, app deployment, and more. It's agentless, meaning it doesn't require any agents to be installed on the target machines. Instead, it uses YAML playbooks to automate tasks.",
+        "Ansible is widely used in the industry due to its simplicity, flexibility, and scalability. It's particularly useful for DevOps and IT teams looking to streamline their workflows and improve collaboration.",
+        "Ansible has a modular architecture that allows users to easily create custom modules for specific tasks. This modularity also makes it easier to maintain and update existing playbooks.",
+        "One of the most effective optimization techniques in Ansible is using caching. By leveraging Ansible's built-in caching mechanism, users can significantly reduce the time it takes to run playbook jobs.",
+        "Ansible provides several built-in state management strategies, including atomic, present, and absent. These states enable users to manage complex infrastructure configurations with ease.",
+        "Ansible's internal implementation is based on a pull-based model, where playbooks are executed in a sequential manner. This approach allows for predictable and reliable results.",
+        "To implement Ansible roles effectively, users need to understand how to structure their code using the role directory format. This includes creating modules, tasks, and handlers that work together seamlessly.",
+        "Ansible's state management strategies can be categorized into three main types: atomic, present, and absent. Atomic states ensure that only one task is executed at a time, while present states allow for sequential execution of multiple tasks.",
+        "When choosing between Ansible and Puppet for configuration management, users need to consider factors such as complexity, scalability, and ease of use. Both tools have their strengths and weaknesses, making it essential to evaluate each tool's unique features."
     ]
 }

@@ -6,12 +6,31 @@
         "fish farming basics",
         "how to start fish farm",
         "aquaculture tips",
-        "mach chas kivabe"
+        "mach chas kivabe",
+        "aquaculture equipment ki kivabe?",
+        "how to manage disease in fish farm",
+        "what is aeration system in aquaculture?",
+        "cycling process in aquaculture ki kivabe?",
+        "how to calculate feed conversion ratio in aquaculture?",
+        "water quality parameters ki kivabe importance",
+        "what is biofouling in aquaculture and how to prevent?",
+        "aquaculture netting system design ki kivabe?",
+        "integrated multi-trophic aquaculture (IMTA) system ki kivabe?"
     ],
     "answers": [
         "Aquaculture is farming aquatic organisms — fish, shrimp, shellfish, algae. Growing industry worth billions globally.",
         "Fish farming basics: choose species (tilapia, catfish are easy), set up ponds or tanks, manage water quality, and feed properly.",
         "Start fish farming: research local species, secure water source, build ponds or use tanks, learn about disease prevention.",
-        "Mach chas tips: pukure mach chas e pani poriksha koro, valo khabar dao, rog protirodh koro. Tilapia ba pangash diye shuru koro."
+        "Mach chas tips: pukure mach chas e pani poriksha koro, valo khabar dao, rog protirodh koro. Tilapia ba pangash diye shuru koro.",
+        "Aeration systems in aquaculture are crucial for maintaining dissolved oxygen levels. They can be mechanical or biological and come in various designs. Mechanical aeration uses air pumps, while biological aeration uses living organisms such as bacteria.",
+        "Aquaculture equipment includes pumps, pipes, netting, and aerators among others. The choice of equipment depends on the type of aquatic species being farmed, water quality, and farm size.",
+        "Disease management in fish farms involves regular monitoring of water quality, performing quarantine procedures, administering medication, and maintaining a healthy environment. Early detection is key to preventing disease outbreaks.",
+        "Aeration systems are used to increase dissolved oxygen levels in the water, which helps in reducing stress on fish and improving growth rates. They can be designed to provide both mechanical and biological aeration.",
+        "Cycling in aquaculture refers to the process of establishing beneficial bacteria in the system before introducing aquatic species. This step is crucial for maintaining water quality and preventing disease.",
+        "Feed conversion ratio (FCR) is an important metric in aquaculture as it indicates how efficiently fish are growing on a particular diet. FCR can be influenced by factors such as feed quality, water temperature, and species type.",
+        "Water quality parameters such as pH, ammonia, nitrite, and nitrate levels are crucial for maintaining the health of aquatic species. These parameters must be monitored regularly to prevent water quality issues.",
+        "Biofouling in aquaculture refers to the accumulation of living organisms on surfaces such as pipes or netting. It can lead to reduced water flow and increased maintenance costs. Biofouling prevention measures include regular cleaning, using antifouling coatings, or implementing integrated pest management strategies.",
+        "Netting system design is critical for maintaining water quality, preventing escapes, and ensuring the health of fish populations. The choice of netting material, size, and mesh count depends on factors such as species type, farm size, and local regulations.",
+        "Integrated multi-trophic aquaculture (IMTA) systems involve the cultivation of multiple aquatic species together to create a more sustainable and resilient food production system. IMTA can help reduce water pollution by utilizing waste products from one species to benefit another."
     ]
 }

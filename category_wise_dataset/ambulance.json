@@ -9,12 +9,32 @@
         "what is the ambulance contact number in Bangladesh",
         "nearest ambulance service kothay",
         "how much does an ambulance cost",
-        "ambulance koto taka lage"
+        "ambulance koto taka lage",
+        "ambulance number kivabe kore?",
+        "ambulance er architecture kivabe design kore?",
+        "ambulance er optimization techniques",
+        "how does ambulance service billing work in Bangladesh?",
+        "what is the protocol for dispatching ambulances to emergency situations?",
+        "ambulance er fleet management system ki khatre kivabe?",
+        "how does ambulance service use GPS technology?",
+        "ambulance number koto te kive?",
+        "ambulance er data analytics and reporting",
+        "what are the different types of ambulances available in Bangladesh?"
     ],
     "answers": [
         "In Bangladesh, you can call 999 for emergency ambulance service. This is a free national helpline available 24/7.",
         "Ambulance call korte 999 dial korun. Apnar location and emergency details clear bhabe bolun tahole tara quick response dite parbe.",
         "For ambulance services, dial 999 in Bangladesh or contact your nearest hospital directly. Many hospitals have their own ambulance fleet available round the clock.",
-        "Ambulance pawar jonno 999 e call korun. Private ambulance service o available ache jegulo Google Maps e search korle paben. Cost hospital and distance er upor depend kore."
+        "Ambulance pawar jonno 999 e call korun. Private ambulance service o available ache jegulo Google Maps e search korle paben. Cost hospital and distance er upor depend kore.",
+        "Ambulance services in Bangladesh are managed by the Directorate General of Health Services (DGHS). The DGHS is responsible for maintaining a network of ambulance stations across the country.",
+        "The architecture of an ambulance service typically involves a combination of hardware and software components, including GPS tracking systems, dispatch software, and fleet management systems. The design of these systems can vary depending on the specific needs of the service.",
+        "Ambulance services use various optimization techniques to improve response times and reduce costs. These may include using data analytics and machine learning algorithms to optimize routes and schedules, as well as implementing demand-responsive dispatching systems.",
+        "In Bangladesh, ambulance services are typically billed through a combination of government subsidies and private insurance premiums. The DGHS provides financial assistance to patients who cannot afford treatment, while private insurance companies cover a portion of the costs for those who have coverage.",
+        "The protocol for dispatching ambulances to emergency situations typically involves a standardized system of categorizing emergencies based on severity and urgency. This allows dispatchers to quickly identify the most critical cases and allocate resources accordingly.",
+        "Fleet management systems are critical components of ambulance services, as they enable dispatchers to track the location and status of ambulances in real-time. These systems can help reduce response times and improve patient outcomes by allowing ambulances to be dispatched more efficiently.",
+        "GPS technology is widely used in ambulance services to provide accurate location information and optimize routes. This helps dispatchers to quickly identify the nearest available ambulance and allocate resources accordingly.",
+        "The number of ambulances available in Bangladesh can vary depending on the specific needs of a region or area. The DGHS maintains a network of ambulance stations across the country, which can be expanded or contracted as needed to meet demand.",
+        "Data analytics and reporting are critical components of ambulance services, as they enable healthcare providers to track key metrics such as response times and patient outcomes. This helps identify areas for improvement and optimize resource allocation.",
+        "There are several different types of ambulances available in Bangladesh, including basic life support (BLS) ambulances, advanced life support (ALS) ambulances, and specialized ambulances such as pediatric or trauma ambulances."
     ]
 }

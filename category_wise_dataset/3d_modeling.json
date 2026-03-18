@@ -16,7 +16,10 @@
         "what is normal mapping in 3d modeling?",
         "kono kisite 3D modeling kaje kore cheye?",
         "3d modeling for architecture visualization",
-        "how to create a 3d model from a real-world object"
+        "how to create a 3d model from a real-world object",
+        "3d modeling software vs hardware: what's the difference?",
+        "What is the history of 3D modeling?",
+        "How to optimize 3D model file size for web use?"
     ],
     "answers": [
         "3D modeling = creating digital 3D objects. Used in gaming, film, architecture, product design, and 3D printing.",
@@ -29,6 +32,12 @@
         "Normal mapping is a technique to add detail to 3D models without increasing polygon count. Learn how to bake normal maps using 3ds Max or Blender.",
         "Kono kisite 3D modeler kaje kore cheye? 3D modeling = creating digital 3D objects. Use software like SketchUp, Fusion 360, or Blender for various tasks.",
         "For architecture visualization, use software like SketchUp, Revit, or Rhino to create detailed models and renderings. Learn about 3D rendering techniques too.",
-        "Creating a 3D model from a real-world object involves scanning, photogrammetry, or 3D scanning using laser or structured light technology."
+        "Creating a 3D model from a real-world object involves scanning, photogrammetry, or 3D scanning using laser or structured light technology.",
+        "In 3D modeling, software and hardware are two distinct aspects. Software refers to the programs used to create, edit, and manipulate 3D models, while hardware refers to the devices that power these applications.",
+        "Blender's physics engine is based on Open Dynamics Engine (ODE), which provides a robust simulation of rigid body dynamics. This allows for realistic simulations in scenes with complex interactions between objects.",
+        "The key to optimizing 3D model file size for web use lies in using compressed formats such as obj or FBX, and reducing polygon counts by employing techniques like mesh subdivision or decimation. Additionally, using texture atlasing can also help reduce the overall file size.",
+        "In Blender's Internal Data Storage (IDS), data is stored as a combination of binary buffers and linked list structures. This allows for efficient memory allocation and deallocation during scene loading and unloading. Furthermore, the use of level-of-detail (LOD) techniques can also help reduce computational complexity in complex scenes.",
+        "The main difference between PBR (Physically-Based Rendering) and traditional materials lies in their approach to simulating material properties. PBR uses a combination of textures, normals, and metallic roughness values to capture the appearance of real-world materials, whereas traditional materials rely on predefined color maps and diffuse/metallic coefficients.",
+        "For advanced sculpting techniques, ZBrush's dynamic topology system allows for the manipulation of mesh vertices in real-time, enabling detailed surface modeling without requiring extensive polygon editing. This feature is particularly useful for creating organic forms with complex geometry."
     ]
 }

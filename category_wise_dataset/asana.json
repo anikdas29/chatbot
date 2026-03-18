@@ -6,12 +6,32 @@
         "asana basics",
         "asana tutorial",
         "learn asana",
-        "asana ki"
+        "asana ki",
+        "Asana vs Trello: which is better for team collaboration?",
+        "How does Asana's workflow automation feature work?",
+        "What are the different types of boards in Asana?",
+        "Can Asana be integrated with other project management tools?",
+        "How to use Asana's reporting and analytics features?",
+        "Asana versus Basecamp: which is more suitable for small teams?",
+        "What is Asana's data storage policy?",
+        "How to optimize Asana for large-scale projects?",
+        "Can Asana be used for personal task management?",
+        "What are the security features of Asana?"
     ],
     "answers": [
         "Asana: project management tool. Tasks, projects, timelines, and portfolios for team collaboration.",
         "Learn asana through documentation, tutorials, and hands-on practice.",
         "Asana is widely used in the industry. Great tool to add to your skillset.",
-        "Getting started with asana: install, follow quickstart guide, and build a small project."
+        "Getting started with asana: install, follow quickstart guide, and build a small project.",
+        "Asana: a project management tool that streamlines workflow and collaboration. It offers customizable workflows, automation features, and real-time reporting.",
+        "Asana's workflow automation feature uses a visual interface to design workflows based on custom fields and actions. This allows users to automate repetitive tasks without requiring extensive coding knowledge.",
+        "Asana provides four types of boards: Tasks, Projects, Portfolios, and dashboards. Each board serves a specific purpose and can be customized according to the user's needs.",
+        "Yes, Asana can be integrated with other project management tools such as Slack, Google Drive, and GitHub. This allows users to access their projects across multiple platforms and streamline collaboration.",
+        "Asana's reporting and analytics feature provides real-time insights into team performance and project progress. It includes customizable dashboards, reports, and charts that help teams make data-driven decisions.",
+        "Asana versus Basecamp: Asana is more suitable for small to medium-sized teams due to its flexibility in terms of pricing plans and customizability. However, Basecamp excels in providing a simple and user-friendly interface.",
+        "Asana stores data on its servers and provides multiple security measures including two-factor authentication, encryption, and access controls. This ensures that sensitive information remains secure and confidential.",
+        "To optimize Asana for large-scale projects, users can leverage the tool's flexibility in setting up custom fields, workflows, and reporting features. Additionally, integrating Asana with other tools like Jira and Slack can help streamline collaboration and communication.",
+        "Yes, Asana can be used for personal task management due to its simplicity and flexibility. Users can create custom boards, set reminders, and track progress without requiring extensive technical knowledge.",
+        "Asana's security features include data encryption, access controls, two-factor authentication, and regular software updates. It also complies with major industry standards such as GDPR and HIPAA."
     ]
 }

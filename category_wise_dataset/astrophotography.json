@@ -5,12 +5,32 @@
         "astrophotography tips",
         "how to do astrophotography",
         "astrophotography guide",
-        "best astrophotography techniques"
+        "best astrophotography techniques",
+        "astrophotography camera settings",
+        "what is the difference between astrophotography and astrophotogrammetry?",
+        "how to calibrate a telescope for astrophotography",
+        "best astrophotography lenses for wide-angle shots",
+        "what is the ideal ISO range for astrophotography?",
+        "astrophotography vs time-lapse photography: differences and comparisons",
+        "how to remove noise from astrophotography images using software",
+        "what are the benefits of using a focal reducer in astrophotography?",
+        "astrophotography vs astrophotomicrography: what's the difference?",
+        "best practices for shooting multiple stars with astrophotography"
     ],
     "answers": [
         "Astrophotography: capture stars, Milky Way, planets. Need tripod, wide lens, long exposure.",
         "Practice astrophotography regularly to improve. Study the work of masters in the field.",
         "Astrophotography is a rewarding skill. Start with what you have and upgrade gear as you grow.",
-        "Key to great astrophotography: understand light, composition, and subject. Gear is secondary."
+        "Key to great astrophotography: understand light, composition, and subject. Gear is secondary.",
+        "Astrophotography camera settings involve adjusting exposure, aperture, and ISO to capture celestial objects. A good starting point is to use a tripod, wide lens, and long exposure.",
+        "Astrophotography and astrophotogrammetry are related but distinct fields. Astrophotography focuses on capturing images of celestial objects, while astrophotogrammetry involves measuring the size and shape of stars using photographic plates or digital images.",
+        "Calibrating a telescope for astrophotography requires adjusting the focal length, aperture, and mirror tilt to achieve optimal image quality. This can be done using software such as StarStax or Autostar.",
+        "Wide-angle lenses are ideal for astrophotography due to their ability to capture more of the sky at once. However, they may introduce more noise and require longer exposures. In contrast, telephoto lenses provide better resolution but limit the field of view.",
+        "The ideal ISO range for astrophotography is between 800 and 3200, depending on the brightness of the celestial object being captured. A lower ISO can help reduce noise, while a higher ISO can capture brighter objects.",
+        "Astrophotography and time-lapse photography share some similarities but have distinct differences. Astrophotography focuses on capturing static images of celestial objects, while time-lapse photography involves capturing rapid successive images to create the illusion of motion.",
+        "Removing noise from astrophotography images using software such as Adobe Photoshop or StarStax can help enhance image quality. Techniques such as histogram adjustment and curve correction can also be used to balance brightness and contrast.",
+        "Focal reducers are used in astrophotography to increase the field of view without sacrificing resolution. They work by reducing the focal length of the lens, allowing for more celestial objects to be captured at once.",
+        "Astrophotography vs astrophotomicrography: the former involves capturing high-resolution images of small objects such as stars and planets, while the latter focuses on imaging larger objects like galaxies and nebulae. Astrophotomicrography requires specialized equipment and techniques to capture detailed images of small celestial objects.",
+        "Best practices for shooting multiple stars with astrophotography include using a wide-angle lens, long exposure, and a camera with good low-light performance. It's also essential to use image stacking software such as Autostar or StarStax to combine multiple exposures and enhance image quality."
     ]
 }

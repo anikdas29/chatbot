@@ -19,14 +19,26 @@
         "will ai replace jobs",
         "ai and jobs",
         "ai future impact",
-        "ai in daily life"
+        "ai in daily life",
+        "explain transformer architecture",
+        "how does self-supervised learning work?",
+        "what is the difference between GANs and VAEs?",
+        "can you explain the concept of adversarial attacks in deep learning?",
+        "explain the limitations of reinforcement learning",
+        "what is the purpose of regularization techniques in neural networks?"
     ],
     "answers": [
         "AI (Artificial Intelligence) is the simulation of human intelligence by machines. It includes machine learning, deep learning, NLP, and more.",
         "AI lets machines think, learn, and solve problems like humans. It powers everything from voice assistants to self-driving cars.",
         "Artificial Intelligence is a broad field where computers are programmed to perform tasks that normally require human intelligence — like recognising speech, making decisions, or translating languages.",
         "AI = making machines smart. It covers ML, deep learning, NLP, computer vision, and robotics. It's reshaping every industry today.",
-        "AI holo machine er buddhimotta - computers shikhe data theke."
+        "AI holo machine er buddhimotta - computers shikhe data theke.",
+        "Transformer architecture is a type of neural network that uses self-attention mechanisms to process sequential data. It consists of an encoder and a decoder, which work together to generate output. The encoder takes in input sequences and generates attention weights, while the decoder generates output sequences based on these weights.",
+        "Self-supervised learning is a method where models learn from unlabeled data without labeled targets. This is achieved by using self-supervision tasks such as masked language modeling or next sentence prediction. The model learns to predict the missing information or relation between sentences, and this allows it to generalize well to new, unseen data.",
+        "GANs (Generative Adversarial Networks) and VAEs (Variational Autoencoders) are both used for generative tasks, but they work in different ways. GANs consist of a generator network that produces samples and a discriminator network that judges the quality of these samples. VAEs, on the other hand, use an encoder-decoder architecture to learn a probabilistic representation of data.",
+        "Adversarial attacks involve feeding maliciously crafted input data into machine learning models to cause them to misbehave. This can be done by adding noise or perturbations to input data or by using specific types of input that the model is not designed to handle. The goal is to make the model produce incorrect outputs, such as classifying a non-malicious image as malicious.",
+        "Reinforcement learning involves training agents to take actions in an environment to maximize rewards. However, this approach has limitations, such as the need for explicit reward functions and the difficulty of handling complex environments. Other approaches, like policy gradients or actor-critics, can help alleviate some of these issues but still require careful design and tuning.",
+        "Regularization techniques are used to prevent overfitting in neural networks by adding penalties to loss functions or modifying network architectures. Techniques such as dropout, L1/L2 regularization, and early stopping are commonly used. Regularization helps ensure that models generalize well to new data rather than just memorizing training examples."
     ],
     "feelings": [
         {

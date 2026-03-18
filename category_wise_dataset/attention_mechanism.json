@@ -8,12 +8,33 @@
         "how does attention work in transformers?",
         "multi-head attention bujhao",
         "attention mechanism keno important?",
-        "query key value ki attention e?"
+        "query key value ki attention e?",
+        "attention mechanism ki prakritik kichhu?",
+        "self-attention vs multi-head attention: difference",
+        "how does attention mechanism work in sequence-to-sequence models?",
+        "attention mechanism ki internal implementation: key components and algorithms",
+        "multi-head attention: how do the different heads interact with each other?",
+        "what is attention bias in transformer models?",
+        "attention mechanism ki optimization techniques",
+        "self-attention vs transformer attention: similarities and differences",
+        "how does attention mechanism work in multimodal models?",
+        "attention mechanism ki scalability issues"
     ],
     "answers": [
         "Attention mechanism allows a model to focus on the most relevant parts of the input when producing output. It's like highlighting important words in a sentence while reading.",
         "Attention holo ekta technique ja model ke input er specific parts e focus korte dey. Self-attention e ekta sequence er prottek element onno shob element er sathe relate kore.",
         "In transformers, attention uses Query, Key, and Value matrices. The attention score determines how much focus each token should give to every other token. Multi-head attention runs this in parallel multiple times.",
-        "The attention mechanism revolutionized NLP by replacing recurrence with direct connections between all positions. This allows parallel processing and better handling of long-range dependencies in text."
+        "The attention mechanism revolutionized NLP by replacing recurrence with direct connections between all positions. This allows parallel processing and better handling of long-range dependencies in text.",
+        "The attention mechanism allows a model to focus on the most relevant parts of the input by calculating a weighted sum of the input elements. This is achieved through the dot product of query and key vectors, which produces a scalar value that represents the importance of each element.",
+        "Self-attention and multi-head attention are both variants of attention mechanisms used in transformer models. The main difference between them is that self-attention focuses on the relationships within a single sequence, while multi-head attention splits the input into multiple heads and processes each head separately before combining the results.",
+        "In sequence-to-sequence models, attention mechanisms are used to weigh the importance of different input elements when generating output. This is typically done using a separate encoder-decoder architecture, where the encoder generates contextualized representations of the input elements, which are then used by the decoder to generate the output.",
+        "The internal implementation of the attention mechanism involves three key components: query, key, and value vectors. The query vector represents the current state of the model, while the key vector represents the context in which this state is being used. The value vector represents the actual information being processed. The attention score is then calculated as a dot product between these vectors.",
+        "In multi-head attention, each head processes a separate subset of the input elements and combines their outputs to produce a single output. This allows the model to learn multiple representations of the input simultaneously, which can improve its ability to capture subtle relationships between different parts of the data.",
+        "Attention bias refers to the phenomenon where a model is biased towards certain types of input or patterns in the data. This can occur due to the use of attention mechanisms that are sensitive to specific features or patterns in the input. To mitigate this, researchers have proposed various techniques such as regularization and adversarial training.",
+        "The optimization of attention mechanisms typically involves minimizing a loss function that measures the difference between the predicted output and the true output. This can be done using various algorithms such as stochastic gradient descent (SGD) or Adam. In addition to these algorithms, researchers have also proposed various techniques such as weight decay and dropout to regularize the model.",
+        "The architecture of attention mechanisms is typically designed based on the specific problem being addressed. For example, in transformer models, the self-attention mechanism is used to process sequences of elements, while in sequence-to-sequence models, the attention mechanism is used to weigh the importance of different input elements when generating output. The design of these architectures often involves careful consideration of the trade-offs between different hyperparameters such as attention size and dropout rate.",
+        "One of the challenges of optimizing attention mechanisms is dealing with the high computational cost associated with calculating the attention scores. To address this, researchers have proposed various techniques such as parallelization, quantization, and knowledge distillation. In addition to these techniques, researchers have also explored using specialized hardware such as tensor processing units (TPUs) or graphics processing units (GPUs) to accelerate the computation of attention mechanisms.",
+        "In multimodal models, attention mechanisms are used to integrate information from multiple sources such as images, text, and audio. This is typically done by concatenating the input elements and using an attention mechanism to weigh their importance. The use of attention mechanisms in multimodal models can help improve their ability to capture subtle relationships between different types of data.",
+        "One of the scalability issues associated with attention mechanisms is the increasing computational cost as the size of the input increases. To address this, researchers have proposed various techniques such as reducing the size of the attention matrix or using more efficient algorithms for calculating the attention scores. In addition to these techniques, researchers have also explored using specialized hardware such as TPUs or GPUs to accelerate the computation of attention mechanisms."
     ]
 }

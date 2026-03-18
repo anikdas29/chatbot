@@ -6,12 +6,18 @@
         "what is aerospace engineering?",
         "tell me about aerospace engineering",
         "aerospace engineer ra ki design kore?",
-        "aerospace engineering porar scope kemon?"
+        "aerospace engineering porar scope kemon?",
+        "Aerospace engineering ki prakritik upasthiti kivabe?",
+        "Aerospace engineer ra ki job kichu bada kichu aam?",
+        "Satellite communication system kivabe work kore?"
     ],
     "answers": [
         "Aerospace engineering focuses on designing, building, and testing aircraft and spacecraft. It includes aeronautics (atmospheric flight) and astronautics (space flight).",
         "Aerospace engineering holo aircraft, rocket, satellite, ar spacecraft design korar engineering branch. Eta engineering er moddhe onek exciting field.",
         "Aerospace engineers work on everything from commercial airplanes to military jets, satellites, rockets, and space stations. They deal with aerodynamics, propulsion, and materials science.",
-        "Aerospace engineering is divided into aeronautical (planes, helicopters) and astronautical (rockets, spacecraft) engineering. Companies like NASA, SpaceX, and Boeing hire aerospace engineers."
+        "Aerospace engineering is divided into aeronautical (planes, helicopters) and astronautical (rockets, spacecraft) engineering. Companies like NASA, SpaceX, and Boeing hire aerospace engineers.",
+        "Aerospace engineering is deeply rooted in the principles of physics, particularly Newton's laws of motion and gravity. It involves understanding the behavior of objects under various forces, such as lift, drag, and thrust.",
+        "An aerospace engineer's job can range from designing aircraft systems to developing software for spacecraft navigation. They must balance technical expertise with practical considerations like cost, weight, and performance.",
+        "A satellite communication system consists of a transmitter, antenna, receiver, and signal processing units. The signal is modulated onto a carrier wave using techniques like amplitude shift keying or frequency shift keying, allowing it to be transmitted over long distances."
     ]
 }

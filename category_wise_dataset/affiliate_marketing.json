@@ -5,13 +5,29 @@
         "what is affiliate marketing",
         "how to start affiliate marketing",
         "affiliate marketing tips",
-        "affiliate marketing for beginners"
+        "affiliate marketing for beginners",
+        "what is affiliate marketing vs dropshipping",
+        "affiliate marketing commission structures",
+        "how does Amazon Associates tracking work internally?",
+        "affiliate marketing for E-commerce businesses",
+        "what are the differences between ShareASale and Commission Junction",
+        "can you use affiliate marketing on social media platforms like TikTok?",
+        "how to optimize affiliate marketing campaigns for better conversions",
+        "what is the role of a cookie in affiliate marketing tracking?"
     ],
     "answers": [
         "Affiliate marketing: promote others products, earn commission on sales. Amazon Associates, ShareASale, CJ are popular networks.",
         "Start: choose a niche, build a blog/YouTube channel, create helpful content with affiliate links, and drive traffic via SEO.",
         "Tips: only promote products you trust, disclose affiliate relationships, write honest reviews, and focus on helping your audience.",
-        "Affiliate income takes time — expect 6-12 months before significant earnings. Build traffic first, monetize second."
+        "Affiliate income takes time — expect 6-12 months before significant earnings. Build traffic first, monetize second.",
+        "Affiliate marketing focuses on earning commissions by promoting products through unique referral links, whereas dropshipping involves selling physical or digital products without holding any inventory. The key difference lies in the ownership and control of the product.",
+        "Commission structures vary between networks, but most follow a flat rate per sale model. For example, ShareASale offers a 10% commission on sales up to $50,000, while Commission Junction has a tiered system with rates ranging from 4% to 8%. Understanding these differences helps affiliates optimize their strategies.",
+        "Amazon Associates uses a cookie-based tracking system, where a unique identifier is stored on the customer's device for a specified period (usually 24 hours). This allows Amazon to attribute sales to specific referral links and track affiliate earnings accurately. The implementation involves integrating Amazon's affiliate API with an e-commerce platform or website.",
+        "Affiliate marketing commission structures vary depending on the network, product category, and merchant. Beginners should focus on understanding the commission rates, payment terms, and any bonuses or incentives offered by their chosen affiliate program.",
+        "The choice between ShareASale and Commission Junction depends on your niche, audience, and business model. ShareASale offers a wider range of products and merchants, while Commission Junction has stronger brand recognition and more premium programs. Affiliates should research each network's strengths and weaknesses to determine the best fit for their needs.",
+        "Social media platforms like TikTok have unique affiliate marketing challenges due to their ephemeral nature and algorithm-driven content feeds. However, successful affiliates can leverage influencer partnerships, branded hashtags, and high-quality product showcases to drive engagement and conversions. Additionally, using social media analytics tools can help optimize campaigns for better results.",
+        "Affiliate marketing campaign optimization involves A/B testing, targeting specific audience segments, and utilizing retargeting ads. By analyzing data and adjusting strategies accordingly, affiliates can improve conversion rates, increase earnings, and build a loyal customer base.",
+        "The role of cookies in affiliate marketing tracking is crucial for accurate attribution and commission reporting. Cookies help track the referral link that led to a sale, ensuring affiliates receive proper credit for their efforts. However, understanding cookie expiration dates, storage limitations, and potential security concerns is essential for successful affiliate marketers."
     ],
     "feelings": [
         {

@@ -6,12 +6,20 @@
         "agile methodology",
         "agile basics",
         "agile vs waterfall",
-        "agile ki"
+        "agile ki",
+        "What is Agile's role in Scrum framework?",
+        "Agile vs Kanban: difference between the two",
+        "How does Agile project management tool like Jira work internally?",
+        "What is the concept of 'Swarming' in Agile development?"
     ],
     "answers": [
         "Agile = iterative approach to development. Deliver working software in short sprints (2-4 weeks) with continuous feedback.",
         "Agile principles: individuals over processes, working software over docs, customer collaboration, responding to change.",
         "Agile vs Waterfall: Agile is flexible/iterative, Waterfall is sequential/rigid. Agile works better when requirements change often.",
-        "Key practices: daily standups, sprint planning, retrospectives, backlog grooming, and continuous delivery."
+        "Key practices: daily standups, sprint planning, retrospectives, backlog grooming, and continuous delivery.",
+        "A Scrum framework typically uses Agile principles to create a framework for managing and completing complex projects by using iterative and incremental practices, with an emphasis on teamwork and collaboration among team members.",
+        "Agile and Kanban share many similarities but also have some key differences. Agile focuses more on the process and the people involved, while Kanban is more focused on the visual board and workflow management.",
+        "Jira uses a combination of Agile methodologies like Scrum, Kanban, and Lean to manage projects. It provides features such as issue tracking, project planning, and collaboration tools to help teams work efficiently.",
+        "Swarming is a technique used in Agile development where the whole team works together on a specific task or feature for a short period, usually 30 minutes to an hour, with minimal interruptions or meetings."
     ]
 }

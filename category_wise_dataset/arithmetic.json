@@ -6,12 +6,32 @@
         "arithmetic basics",
         "arithmetic explained",
         "learn arithmetic",
-        "arithmetic ki"
+        "arithmetic ki",
+        "what is a mathematical equation?",
+        "arithmetic formulae",
+        "types of arithmetic operations",
+        "arithmetic vs algebraic equations",
+        "how does order of operations work in arithmetic?",
+        "why are fractions used in arithmetic?",
+        "arithmetic applications in computer science",
+        "linear vs nonlinear equations in arithmetic",
+        "arithmetic and its role in coding theory",
+        "cryptography and arithmetic"
     ],
     "answers": [
         "Arithmetic: basic math operations. Addition, subtraction, multiplication, division. Foundation of all math.",
         "Learning arithmetic builds strong analytical and problem-solving skills.",
         "Arithmetic is applied in many real-world fields. Understanding basics helps in any career.",
-        "Start with arithmetic fundamentals, practice with examples, and apply to real problems."
+        "Start with arithmetic fundamentals, practice with examples, and apply to real problems.",
+        "Arithmetic: the branch of mathematics dealing with numbers and their operations. It involves a set of axioms, postulates, and definitions that govern the behavior of mathematical objects.",
+        "Arithmetic formulae are algebraic expressions used to represent mathematical relationships between variables. These formulae can be combined using arithmetic operators (+, -, x, /) to solve equations.",
+        "There are different types of arithmetic operations such as addition, subtraction, multiplication, division, exponentiation, and modulus. Each operation has its own set of rules and conventions.",
+        "Arithmetic and algebraic equations differ in their approach. Arithmetic focuses on numerical values, whereas algebraic equations involve variables and symbols.",
+        "The order of operations (PEMDAS) is a set of rules used to evaluate mathematical expressions involving multiple operators. It states that parentheses should be evaluated first, followed by exponents, then multiplication and division, and finally addition and subtraction.",
+        "Fractions are used in arithmetic to represent part-whole relationships between quantities. They provide a way to express rational numbers and enable calculations involving fractions.",
+        "Arithmetic has numerous applications in computer science, including algorithm design, data compression, error-correcting codes, and cryptographic protocols.",
+        "Linear equations have the form ax + b = 0, where a and b are constants. Nonlinear equations, on the other hand, do not follow this linear pattern. They often involve non-linear relationships between variables.",
+        "Arithmetic plays a crucial role in coding theory by providing a mathematical framework for error detection and correction. It enables the creation of error-correcting codes, such as Reed-Solomon codes.",
+        "Cryptography relies heavily on arithmetic operations to secure data transmission. Modular arithmetic, elliptic curves, and discrete logarithms are some key concepts used in cryptographic protocols."
     ]
 }

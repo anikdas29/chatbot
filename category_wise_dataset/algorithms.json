@@ -6,13 +6,33 @@
         "important algorithms",
         "algorithm learning path",
         "algorithms for interviews",
-        "algorithm ki"
+        "algorithm ki",
+        "What is a greedy algorithm?",
+        "How does a Trie data structure work?",
+        "What is the difference between dynamic programming and memoization?",
+        "Can you explain the concept of NP-completeness?",
+        "What is the time complexity of Big O notation?",
+        "How do we implement Dijkstra's algorithm for graph traversal?",
+        "What is the purpose of a hash table in computer science?",
+        "Can you describe the trade-offs between Greedy and Dynamic Programming algorithms?",
+        "How does the A\"* B algorithm work for matrix multiplication?",
+        "What are some common data structures used in machine learning?"
     ],
     "answers": [
         "Algorithms = step-by-step procedures for solving problems. Sorting, searching, graph algorithms, and dynamic programming are essentials.",
         "Must-know: binary search, BFS/DFS, Dijkstra, sorting (merge, quick), dynamic programming, two pointers, sliding window.",
         "Learning path: arrays → strings → sorting → binary search → recursion → trees → graphs → DP → advanced topics.",
-        "For interviews: LeetCode top 75, Blind 75, and Neetcode 150 are curated lists covering all important patterns."
+        "For interviews: LeetCode top 75, Blind 75, and Neetcode 150 are curated lists covering all important patterns.",
+        "A greedy algorithm is a type of optimization algorithm that makes the locally optimal choice at each step, with the hope that it will lead to a global optimum. It's commonly used for problems like activity selection and knapsack problem.",
+        "A Trie data structure is a prefix tree that allows you to store and retrieve strings efficiently. It's useful for tasks like autocomplete and spell-checking.",
+        "Dynamic programming and memoization are both techniques used to solve complex problems by breaking them down into smaller sub-problems. However, dynamic programming uses a bottom-up approach, while memoization uses a top-down approach.",
+        "NP-completeness is a concept in computer science that describes a class of problems that are computationally hard to solve exactly, even with unlimited resources. Examples include the travelling salesman problem and the knapsack problem.",
+        "Big O notation is a measure of an algorithm's complexity, usually expressed as a function of the input size. Common examples include O(n), O(log n), and O(1).",
+        "Dijkstra's algorithm works by maintaining a priority queue of nodes to visit, where the priority is determined by the minimum distance from the starting node. It's commonly used for finding the shortest path in a graph.",
+        "A hash table is a data structure that stores key-value pairs in an array using a hash function to map keys to indices. It's useful for tasks like caching and database indexing.",
+        "Greedy algorithms are often simpler and faster than dynamic programming algorithms, but they can also get stuck in local optima. Dynamic programming algorithms, on the other hand, can be more complex and slower, but they always find the global optimum.",
+        "The A\"* B algorithm for matrix multiplication uses a divide-and-conquer approach to break down the matrix into smaller sub-matrices. It's commonly used in linear algebra and machine learning.",
+        "Common data structures used in machine learning include decision trees, random forests, and neural networks. Each has its strengths and weaknesses, and is suited for specific tasks like classification, regression, and clustering."
     ],
     "feelings": [
         {

@@ -8,12 +8,32 @@
         "After Effects vs Premiere Pro difference",
         "how to learn After Effects",
         "After Effects er system requirements ki",
-        "motion graphics ki After Effects diye hoy"
+        "motion graphics ki After Effects diye hoy",
+        "What is the architecture of After Effects' timeline and how does it impact workflow?",
+        "How do you optimize render times in After Effects for large-scale projects?",
+        "What are some common pitfalls when working with motion blur in After Effects?",
+        "Can you explain the difference between AE's 3D view and 2D composition views?",
+        "How to use LUTs (Look Up Tables) in After Effects for color grading?",
+        "After Effects' node-based system: how does it work and what are its advantages?",
+        "What is the purpose of After Effects' 'pre compositor' feature?",
+        "How to write a custom AE script for automating repetitive tasks?",
+        "Can you explain the concept of 'turbulence' in motion graphics and how to apply it in AE?",
+        "How do you troubleshoot common issues with audio levels in After Effects?"
     ],
     "answers": [
         "Adobe After Effects is a motion graphics and visual effects software. It's used for creating animations, title sequences, compositing, and adding VFX to video projects.",
         "After Effects holo motion graphics ar VFX er jonno — text animation, logo reveal, particle effects, green screen compositing shob kora jay. Video editing er por e use hoy usually.",
         "After Effects is for animation and effects, while Premiere Pro is for video editing. Many professionals use both — edit in Premiere, then send clips to AE for effects and motion graphics.",
-        "To learn After Effects, start with keyframe animation, masks, and basic expressions. Understanding layers and compositions is essential. YouTube channels like School of Motion and Video Copilot are excellent resources."
+        "To learn After Effects, start with keyframe animation, masks, and basic expressions. Understanding layers and compositions is essential. YouTube channels like School of Motion and Video Copilot are excellent resources.",
+        "After Effects uses a proprietary timeline architecture that allows for efficient rendering and playback. This design enables features like multi-camera editing, color grading, and audio ducking.",
+        "To optimize render times in AE, it's essential to use the 'pre-compose' feature to group layers together, utilize multi-core processors, and leverage GPU acceleration. Additionally, using the 'render queue' can help manage complex projects more efficiently.",
+        "Common pitfalls when working with motion blur include overusing the effect, not properly keying the blur, and neglecting to account for camera movement. To avoid these issues, it's crucial to understand how motion blur works internally and use AE's built-in tools to fine-tune the effect.",
+        "The 3D view in AE provides a more immersive experience for working with 3D objects, while the 2D composition view is better suited for traditional video editing. Understanding the difference between these views can help users choose the right tool for their workflow.",
+        "LUTs (Look Up Tables) are used to apply color grading effects in After Effects. By creating a custom LUT, users can achieve unique color palettes and enhance their overall visual aesthetic. AE provides tools like the 'Color Grading' effect and the 'LUT Editor' to create and adjust LUTs.",
+        "The node-based system in AE allows for modularizing complex effects into reusable components. This design enables users to customize and optimize their workflow, making it easier to collaborate with others and automate repetitive tasks.",
+        "The pre-compositor feature in AE helps reduce the rendering time of compositions by grouping layers together. This feature is particularly useful when working on large-scale projects or creating complex animations.",
+        "Writing custom AE scripts can help automate repetitive tasks, such as color correction or audio ducking. By using AE's scripting language, 'MEL,' users can create custom solutions that integrate seamlessly with the software.",
+        "Turbulence refers to a visual effect where particles or objects appear to be distorted or wavy in motion graphics. In After Effects, turbulence is often used to create dynamic effects like fire, water, or smoke. To apply this effect, users need to understand how AE's 'Particle System' works and use the ' Turbulence' parameter to fine-tune their results.",
+        "Troubleshooting common audio level issues in AE involves checking the input levels, using gain reduction tools, and ensuring proper routing of audio signals. Additionally, users should be familiar with AE's built-in audio effects and tools to help maintain optimal audio quality."
     ]
 }

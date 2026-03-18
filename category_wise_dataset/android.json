@@ -9,13 +9,25 @@
         "android settings",
         "how to speed up android",
         "android update",
-        "android vs iphone"
+        "android vs iphone",
+        "Android app optimization techniques?",
+        "How does Android's memory management work?",
+        "What is the difference between Android NDK and Gradle?",
+        "Why do I need to use a custom UI component in my Android app?",
+        "How can I improve the performance of my Android app using Java 8 features?",
+        "What are some common pitfalls when building an Android app for low-end devices?"
     ],
     "answers": [
         "Learn Kotlin/Java, Android Studio, Activities, Fragments, Material Design.",
         "For Android development: start with Kotlin (modern and recommended by Google), use Android Studio, and follow Material Design guidelines.",
         "Android dev path: Kotlin basics → Android Studio setup → build a simple app → learn Activities, Fragments, and Jetpack Compose.",
-        "Start with Kotlin over Java for Android — it's cleaner and fully supported by Google. Follow the official Android developer docs."
+        "Start with Kotlin over Java for Android — it's cleaner and fully supported by Google. Follow the official Android developer docs.",
+        "A good starting point is to use a combination of techniques like fragment caching, view recycling, and lazy loading. Using the AndroidX libraries can also help simplify your codebase.",
+        "The Android Runtime (ART) uses a process called garbage collection to manage memory. When an object becomes eligible for garbage collection, it is moved from the heap to the free store and then released when no longer referenced. This ensures that memory usage remains constant even during periods of low activity.",
+        "The NDK allows you to compile native components outside of the Java ecosystem, resulting in faster performance. However, this comes at the cost of increased complexity and the need for more manual memory management using tools like GLSL or C++.",
+        "Custom UI components are necessary when using non-standard layouts or graphics that don't fit into the standard Android widget library.",
+        "Java 8 features such as lambda expressions, method references, and functional programming can significantly improve app performance by reducing boilerplate code and making it easier to write efficient algorithms. For example, you can use streams to perform data transformations in a concise manner.",
+        "When targeting low-end devices, there are several potential pitfalls to watch out for. These include using too many resources-intensive components, failing to optimize memory usage, and neglecting the importance of caching and lazy loading. To avoid these issues, it's essential to carefully plan your app's architecture and performance-critical sections."
     ],
     "feelings": [
         {

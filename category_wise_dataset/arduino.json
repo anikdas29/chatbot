@@ -6,13 +6,33 @@
         "arduino tutorial",
         "arduino projects for beginners",
         "how to program arduino",
-        "arduino ki"
+        "arduino ki",
+        "arduino pinout diagram",
+        "duino vs arduino microcontroller",
+        "arduino servo motor control limitations",
+        "how to optimize arduino code for speed",
+        "arduino shield architecture and design principles",
+        "arduino serial communication protocols",
+        "arduino i2c vs spi protocol comparison",
+        "arduinosimple program example with detailed comments",
+        "arduino library development process",
+        "arduino hardware debugging techniques"
     ],
     "answers": [
         "Arduino = open-source microcontroller platform. Easy to program (C/C++ based), tons of sensors and shields available.",
         "Beginner projects: LED blinker, traffic light, temperature display, servo motor control, ultrasonic distance sensor.",
         "Arduino programming: setup() runs once, loop() runs forever. Use digitalRead/Write, analogRead/Write for I/O.",
-        "Arduino shuru: kit keno, Arduino IDE install koro, LED blink code likho (prothom project), tarpor sensor add koro."
+        "Arduino shuru: kit keno, Arduino IDE install koro, LED blink code likho (prothom project), tarpor sensor add koro.",
+        "Arduino has various pinout diagrams available, but it's best to refer to the official Arduino Pinout documentation for accuracy. The diagram will show you which pins are used for digital I/O, analog input, and other functions.",
+        "Duino is an open-source microcontroller platform developed by Arduino LLC. It uses a similar architecture to Arduino but with some key differences. Duino has more memory and processing power than Arduino.",
+        "Arduino servo motor control has limitations due to the nature of the protocol used (PWM). The resolution of PWM is 8-bit, which means it can only provide 256 different values between 0 and 255. This limitation can cause issues with high-precision applications.",
+        "Optimizing Arduino code for speed involves using techniques such as minimization, caching, and parallel processing. Minimization involves reducing the number of operations performed, while caching involves storing frequently accessed data in memory to reduce access time.",
+        "Arduino shield architecture is based on a modular design principle, where each module has a specific function (e.g., communication, sensor reading). This allows for easy replacement or addition of modules as needed. Design principles include using standardized connectors and minimizing power consumption.",
+        "Serial communication protocols used in Arduino include UART, SPI, and I2C. Each protocol has its own advantages and disadvantages. For example, UART is simple but slower than SPI or I2C, while SPI and I2C are faster but more complex to implement.",
+        "I2C vs SPI protocol comparison involves looking at their characteristics, such as speed, data length, and addressability. I2C is generally faster and more flexible but requires a master-slave configuration, while SPI is simpler but slower and only suitable for shorter data transfers.",
+        "An example of an Arduino simple program with detailed comments might look like this: `const int ledPin = 13; void setup() { pinMode(ledPin, OUTPUT); } void loop() { digitalWrite(ledPin, HIGH); delay(1000); digitalWrite(ledPin, LOW); delay(1000); }` This program initializes the LED pin as an output and then toggles it on and off every second.",
+        "Arduino library development process involves creating a header file (.h) that contains function declarations, a source file (.cpp) that contains function implementations, and a documentation file (e.g., Doxygen). The process also includes testing and debugging to ensure the library is stable and accurate.",
+        "Hardware debugging techniques for Arduino include using a logic analyzer to inspect serial communication, visualizing signal waveforms with an oscilloscope, or using an debugger like GDB. These tools help identify issues and understand how the hardware behaves under different conditions."
     ],
     "feelings": []
 }

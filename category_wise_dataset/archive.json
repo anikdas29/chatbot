@@ -6,12 +6,32 @@
         "archive basics",
         "archive explained",
         "learn archive",
-        "archive ki"
+        "archive ki",
+        "archive ki?",
+        "archive kivabe kore?",
+        "archive vs data storage difference",
+        "archive vs document management system",
+        "archive optimization techniques",
+        "archive er edge cases and pitfalls",
+        "archive internal implementation details",
+        "archive scalability design considerations",
+        "archive security best practices",
+        "archive er performance optimization methods"
     ],
     "answers": [
         "Archive: preserved historical records and documents. Important for research and cultural heritage.",
         "Learning archive builds strong analytical and problem-solving skills.",
         "Archive is applied in many real-world fields. Understanding basics helps in any career.",
-        "Start with archive fundamentals, practice with examples, and apply to real problems."
+        "Start with archive fundamentals, practice with examples, and apply to real problems.",
+        "Archive is a critical component of information management, responsible for storing, preserving, and providing access to historical records and documents.",
+        "The main difference between archive and data storage is that archive is primarily focused on long-term preservation and accessibility, whereas data storage is focused on quick retrieval and usage.",
+        "When implementing an archive system, it's essential to consider the trade-offs between data compression, encryption, and access control. For example, using a combination of lossless and lossy compression algorithms can help balance storage space with retrieval speed.",
+        "The internal implementation of an archive system typically involves a hierarchical structure, with top-level folders containing subfolders and files. This allows for easy navigation and searching within the archive.",
+        "Scalability is crucial when designing an archive system, as it must be able to handle growing amounts of data without compromising performance. Techniques like sharding, replication, and caching can help achieve this.",
+        "Edge cases in archives often involve handling rare or unusual data types, such as audio or video files. It's essential to consider these scenarios when implementing archive systems to ensure they are robust and reliable.",
+        "The internal implementation of an archive system typically involves a combination of software and hardware components, such as disk arrays, tape libraries, and cloud storage services. Understanding the interplay between these components is critical for optimizing performance.",
+        "Designing an archive system with scalability in mind requires careful consideration of factors like data distribution, query patterns, and indexing strategies. For example, using a distributed file system can help distribute data across multiple nodes to improve performance.",
+        "Security is a top priority when implementing an archive system, as sensitive information may be stored within. Techniques like encryption, access controls, and auditing can help protect against unauthorized access or tampering.",
+        "Performance optimization techniques for archives often involve using caching mechanisms, parallel processing, and data compression. For example, using a content delivery network (CDN) can significantly reduce the latency associated with retrieving archived data."
     ]
 }

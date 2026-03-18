@@ -7,6 +7,7 @@ FREE & UNLIMITED — no API key needed, runs fully offline.
 
 import json
 import os
+import re
 import sys
 import time
 import logging
@@ -48,14 +49,21 @@ Current answers ({len(existing_answers)} existing):
 (showing first 3 only)
 
 Your job: Generate NEW questions and answers to ADD to this category.
-Focus on: basic → intermediate → advanced → expert level coverage.
-Include both English and Bangla question variations.
+The existing content is mostly basic level. I need DEEPER coverage.
 
 RULES:
 - Generate exactly 10 new questions and 6 new answers
-- Questions: mix of basic, intermediate, advanced
-- Answers: detailed, accurate, 2-4 sentences each
-- Include Bangla versions of questions (e.g. "X ki?", "X kivabe kaje kore?")
+- Questions MUST cover ALL levels:
+  * 2 basic questions (e.g. "what is X?", "X ki?")
+  * 3 intermediate questions (e.g. "X vs Y difference", "how does X work internally?")
+  * 3 advanced questions (e.g. "X er architecture kivabe design kore?", "X optimization techniques")
+  * 2 expert questions (e.g. "X er internal implementation", "X er edge cases and pitfalls")
+- Answers MUST be detailed and technical:
+  * 2 answers: beginner-friendly (2-3 sentences, simple explanation)
+  * 2 answers: intermediate (3-4 sentences, with examples or comparisons)
+  * 2 answers: advanced/expert (4-5 sentences, deep technical detail, mention specific tools/methods/patterns)
+- All answers MUST be in English. Do NOT use Hindi, Devanagari, or any non-English script
+- Questions can include Banglish (Bengali in English letters) e.g. "X ki?", "X kivabe kore?"
 - Do NOT repeat existing content
 - Return ONLY valid JSON, no explanation, no markdown
 
@@ -103,6 +111,7 @@ def update_single_file(client, filepath):
         response = client.chat(
             model=MODEL_NAME,
             messages=[{"role": "user", "content": prompt}],
+            format="json",
             options={"temperature": 0.7, "num_predict": 1000}
         )
 
@@ -114,18 +123,58 @@ def update_single_file(client, filepath):
         elif "```" in response_text:
             response_text = response_text.split("```")[1].split("```")[0].strip()
 
+        # Extract JSON object even if surrounded by extra text
+        json_start = response_text.find("{")
+        json_end = response_text.rfind("}") + 1
+        if json_start >= 0 and json_end > json_start:
+            response_text = response_text[json_start:json_end]
+
+        # Auto-repair common LLM JSON errors
+        response_text = re.sub(r',\s*]', ']', response_text)   # trailing comma in array
+        response_text = re.sub(r',\s*}', '}', response_text)   # trailing comma in object
+        response_text = response_text.replace('\n', ' ')        # newlines inside strings
+
         new_data = json.loads(response_text)
         new_questions = new_data.get("new_questions", [])
         new_answers = new_data.get("new_answers", [])
 
-        # Merge — avoid duplicates
-        for q in new_questions:
-            if q not in existing_questions:
-                existing_questions.append(q)
-
+        # Clean answer labels ("Expert answer:", "Beginner-friendly answer:", etc.)
+        label_pattern = re.compile(
+            r"^(Expert answer|Advanced answer|Intermediate answer|"
+            r"Beginner.?friendly answer|Basic answer|Answer)\s*:\s*",
+            re.IGNORECASE
+        )
+        cleaned_answers = []
         for a in new_answers:
-            if a not in existing_answers:
+            a = label_pattern.sub("", a).strip()
+            if len(a) >= 10:
+                cleaned_answers.append(a)
+        new_answers = cleaned_answers
+
+        # Clean broken Bangla — reject questions that are mostly non-ASCII gibberish
+        cleaned_questions = []
+        for q in new_questions:
+            # Count non-latin, non-space chars (excluding ?, !, .)
+            stripped = re.sub(r'[a-zA-Z0-9\s\?\!\.\,\'\"\-\_\:\;]', '', q)
+            # If more than 30% non-latin → likely broken Bangla/Hindi, skip
+            if len(stripped) > len(q) * 0.3:
+                logging.info(f"SKIP broken question: {q}")
+                continue
+            cleaned_questions.append(q)
+        new_questions = cleaned_questions
+
+        # Merge — avoid duplicates (case-insensitive)
+        existing_q_lower = {q.lower().strip() for q in existing_questions}
+        for q in new_questions:
+            if q.lower().strip() not in existing_q_lower:
+                existing_questions.append(q)
+                existing_q_lower.add(q.lower().strip())
+
+        existing_a_lower = {a.lower().strip()[:80] for a in existing_answers}
+        for a in new_answers:
+            if a.lower().strip()[:80] not in existing_a_lower:
                 existing_answers.append(a)
+                existing_a_lower.add(a.lower().strip()[:80])
 
         data["questions"] = existing_questions
         data["answers"] = existing_answers
@@ -174,20 +223,37 @@ def run_updater():
     completed = set(progress["completed"])
     failed = set(progress["failed"])
 
-    # Get all JSON files from all folders
+    # Get all JSON files from all folders (sorted for consistent ordering)
     all_files = []
     for folder in DATASET_FOLDERS:
         if os.path.isdir(folder):
-            all_files.extend(list(Path(folder).glob("*.json")))
+            all_files.extend(sorted(Path(folder).glob("*.json")))
 
     total = len(all_files)
-    remaining = total - len(completed)
+
+    # ── Start from specific number? ──
+    start_from = 0
+    if "--start" in sys.argv:
+        idx = sys.argv.index("--start")
+        if idx + 1 < len(sys.argv):
+            start_from = int(sys.argv[idx + 1]) - 1  # user gives 1-based
+            print(f"Starting from file #{start_from + 1}")
+
+    # Show file list if requested
+    if "--list" in sys.argv:
+        for i, f in enumerate(all_files):
+            status = "done" if str(f) in completed else "    "
+            print(f"  {i+1:>4}. [{status}] {f.stem}")
+        return
+
+    remaining = total - len(completed) - start_from
     print(f"Total files: {total}")
     print(f"Already completed: {len(completed)}")
+    print(f"Starting from: #{start_from + 1} ({all_files[start_from].stem})" if start_from > 0 else "")
     print(f"Remaining: {remaining}")
     print("=" * 50)
 
-    if remaining == 0:
+    if remaining <= 0:
         print("All files already updated! Delete update_progress.json to re-run.")
         return
 
@@ -197,6 +263,10 @@ def run_updater():
     start_time = time.time()
 
     for i, filepath in enumerate(all_files):
+        # Skip files before start_from
+        if i < start_from:
+            continue
+
         fname = str(filepath)
 
         # Skip already completed

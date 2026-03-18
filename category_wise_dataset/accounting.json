@@ -6,12 +6,18 @@
         "accounting ki?",
         "Why is accounting important?",
         "accounting er basic concepts ki ki?",
-        "What's the difference between accounting and finance?"
+        "What's the difference between accounting and finance?",
+        "What is the difference between cash and accrual accounting?",
+        "How does depreciation expense impact financial statements?",
+        "What is the purpose of a general ledger in accounting?"
     ],
     "answers": [
         "Accounting is the process of recording, classifying, summarizing, and reporting financial transactions to help businesses track their money and make informed decisions.",
         "Accounting holo taka-paisa er hisab-nikash — income, expense, ar financial transaction record kore report toiri korar process.",
         "Key accounting concepts include double-entry bookkeeping, assets and liabilities, revenue and expenses, the accounting equation (Assets = Liabilities + Equity), and financial statements.",
-        "Accounting is important because it helps businesses understand their financial health, comply with tax laws, make strategic decisions, and communicate their performance to investors and stakeholders."
+        "Accounting is important because it helps businesses understand their financial health, comply with tax laws, make strategic decisions, and communicate their performance to investors and stakeholders.",
+        "Cash accounting records revenues and expenses when they are received or paid, whereas accrual accounting recognizes revenues and expenses when earned or incurred. This difference affects the timing of cash flow versus profit recognition.",
+        "Depreciation expense is calculated by multiplying the asset's cost minus its residual value by its useful life, and it reduces net income but increases depreciation expense on the balance sheet. It also affects financial ratios such as the debt-to-equity ratio.",
+        "A general ledger serves as a centralized repository for all financial transactions within an organization, providing a comprehensive picture of its financial position and performance. It is used to classify, record, and summarize transactions, making it easier to prepare financial statements."
     ]
 }

@@ -105,41 +105,61 @@ class SemanticEncoder:
 # ============================================================
 
 class TinyLlamaGenerator:
-    """Hybrid RAG (Retrieval-Augmented Generation) with TinyLlama 1.1B.
+    """Hybrid RAG (Retrieval-Augmented Generation) with local LLM.
 
-    Instead of just picking pre-written answers, this:
+    Supports multiple LLMs with auto-detection (best first):
+    1. Phi-3 Mini 3.8B (Q3_K_M) — better quality, 4096 context
+    2. TinyLlama 1.1B (Q4_K_M) — smaller, faster, 1024 context
+
+    Pipeline:
     1. Takes top-5 semantic search results (question + answer pairs)
-    2. Feeds them as retrieval context into TinyLlama's prompt
-    3. TinyLlama reasons over the retrieved data to generate a new answer
-
-    This means the LLM sees ACTUAL relevant Q&A from the dataset,
-    not just category-level answers — much better grounding.
+    2. Feeds them as retrieval context into LLM's prompt
+    3. LLM reasons over the retrieved data to generate a new answer
     """
 
-    def __init__(self, model_path="models/tinyllama/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"):
+    # LLM configs: (path, model_type, context_length, max_tokens, name)
+    _LLM_OPTIONS = [
+        ("models/phi3/Phi-3-mini-4k-instruct-Q3_K_M.gguf", "llama", 4096, 200, "Phi-3 Mini 3.8B"),
+        ("models/tinyllama/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf", "llama", 1024, 150, "TinyLlama 1.1B"),
+    ]
+
+    def __init__(self, model_path=None):
         self.model = None
         self.available = False
+        self.model_name = None
+        self.is_phi3 = False
 
-        if not os.path.exists(model_path):
-            logging.warning(f"TinyLlama model not found at {model_path} — generation disabled")
-            return
+        # Auto-detect best available LLM
+        if model_path and os.path.exists(model_path):
+            candidates = [(model_path, "llama", 1024, 150, "custom")]
+        else:
+            candidates = self._LLM_OPTIONS
 
-        try:
-            from ctransformers import AutoModelForCausalLM
-            self.model = AutoModelForCausalLM.from_pretrained(
-                os.path.dirname(model_path),
-                model_file=os.path.basename(model_path),
-                model_type="llama",
-                max_new_tokens=150,
-                temperature=0.4,
-                top_p=0.85,
-                repetition_penalty=1.15,
-                context_length=1024,
-            )
-            self.available = True
-            logging.info("TinyLlama RAG generator loaded (Hybrid RAG mode)")
-        except Exception as e:
-            logging.warning(f"TinyLlama load failed: {e} — generation disabled")
+        for path, mtype, ctx_len, max_tok, name in candidates:
+            if not os.path.exists(path):
+                continue
+            try:
+                from ctransformers import AutoModelForCausalLM
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    os.path.dirname(path),
+                    model_file=os.path.basename(path),
+                    model_type=mtype,
+                    max_new_tokens=max_tok,
+                    temperature=0.4,
+                    top_p=0.85,
+                    repetition_penalty=1.15,
+                    context_length=ctx_len,
+                )
+                self.available = True
+                self.model_name = name
+                self.is_phi3 = "phi" in name.lower()
+                logging.info(f"{name} RAG generator loaded (context: {ctx_len} tokens)")
+                break
+            except Exception as e:
+                logging.warning(f"{name} load failed: {e} — trying next...")
+
+        if not self.available:
+            logging.warning("No LLM model found — generation disabled")
 
     def generate_rag(self, question, retrieved_context, categories, conversation_history=None):
         """Hybrid RAG: Generate answer from retrieved semantic search results.
@@ -180,7 +200,22 @@ class TinyLlamaGenerator:
             if conv_lines:
                 conv_block = "\n\nRecent conversation:\n" + "\n".join(conv_lines)
 
-        prompt = f"""<|system|>
+        if self.is_phi3:
+            # Phi-3 uses <|system|>...<|end|> format with better instruction following
+            prompt = f"""<|system|>
+You are Mini Bot, a helpful assistant. Answer using ONLY the knowledge below. Be concise (2-3 sentences). Never start with "Yes", "Answer:", or "The question is". Just answer naturally. Do not mention "the text" or "the context".
+<|end|>
+<|user|>
+Knowledge about {topic}:
+{rag_context}{conv_block}
+
+{question}
+<|end|>
+<|assistant|>
+"""
+        else:
+            # TinyLlama uses <|system|>...</s> format
+            prompt = f"""<|system|>
 You are a helpful assistant. Answer the user's question using ONLY the retrieved knowledge below. Be concise (2-3 sentences). Do not mention "the text" or "the context" — just answer naturally. If the knowledge doesn't fully answer the question, use what's available. Use the recent conversation to understand pronouns like "it", "they", "that", "this".
 </s>
 <|user|>

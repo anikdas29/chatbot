@@ -71,6 +71,26 @@
             "question": "tumi ki real and ke tomake banai?",
             "sentiment": "curious",
             "answer": "Great question! Ami ekta AI-based chatbot. Tomar proshno shune classify kori, then best answer diye help kori. Ektu test kore dekho!"
+        },
+        {
+            "question": "python diye image classification model banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Valo question! Ami ekta AI-based chatbot. Tomar proshno shune classify kori, then best answer diye help kori. Ektu test kore dekho!\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "python diye image classification model banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Nice question! Ami ekta AI-based chatbot. Tomar proshno shune classify kori, then best answer diye help kori. Ektu test kore dekho! Also, My deep learning models are trained using various optimization algorithms, including stochastic gradient descent and Adam."
+        },
+        {
+            "question": "python diye image classification model banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Nice question! Ami ekta AI-based chatbot. Tomar proshno shune classify kori, then best answer diye help kori. Ektu test kore dekho!"
+        },
+        {
+            "question": "python diye image classification model banabo kivabe?",
+            "sentiment": "curious",
+            "answer": "Great question! Ami ekta AI-based chatbot. Tomar proshno shune classify kori, then best answer diye help kori. Ektu test kore dekho!\n\nHope this helps!"
         }
     ]
 }

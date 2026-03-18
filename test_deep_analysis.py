@@ -101,7 +101,7 @@ results = []
 group_stats = {}
 
 print("=" * 90)
-print(f"DEEP ANALYSIS: 60 Questions | {len(bot.category_store_map)} categories | TinyLlama: {'ON' if bot.generator.available else 'OFF'}")
+print(f"DEEP ANALYSIS: 60 Questions | {len(bot.category_store_map)} categories | LLM: {bot.generator.model_name if bot.generator.available else 'OFF'}")
 print("=" * 90)
 
 for i, (question, expected, group) in enumerate(QUESTIONS):

@@ -18,8 +18,22 @@ def index():
 @app.route("/api/health", methods=["GET"])
 def health():
     stats = bot.db.get_feedback_stats()
+
+    # Determine active tier
+    has_llm = bot.generator.available
+    has_encoder = bot.encoder.available
+    if has_llm and has_encoder:
+        tier = f"Tier {'1' if bot.generator.is_phi3 else '2'}"
+    elif has_encoder:
+        tier = "Tier 3 (no LLM)"
+    else:
+        tier = "Tier 4 (keyword only)"
+
     return jsonify({
         "status": "ok",
+        "tier": tier,
+        "llm_model": bot.generator.model_name if has_llm else None,
+        "encoder": bot.encoder.model_name if has_encoder else None,
         "total_questions": len(bot.questions),
         "total_categories": len(bot.category_store_map),
         "feedback": stats,

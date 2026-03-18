@@ -95,6 +95,46 @@
             "question": "machine learning diye ki kora jai?",
             "sentiment": "curious",
             "answer": "Machine Learning is a subset of Artificial Intelligence (AI) that involves teaching computers to learn from data without explicit programming. It uses algorithms such as supervised, unsupersvised, and reinforcement learning to find patterns in data. Some popular tools for machine learning include scikit-learn, TenorFlow, PyTorch, and Python libraries like NumPy. Machine Learning is a branch of AI that involves teaching computers to learn from data without explicit programming."
+        },
+        {
+            "question": "machine learning ki?",
+            "sentiment": "curious",
+            "answer": "Valo question! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch. Moreover, Machine Learning uses algorithms to find patterns in data.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "supervised vs unsupervised learning er difference ki?",
+            "sentiment": "curious",
+            "answer": "Good one! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
+        },
+        {
+            "question": "machine learning ki?",
+            "sentiment": "curious",
+            "answer": "Machine learning is a subset of artificial intelligence (AI) that involves teaching computers to learn from data without explicit programming. The key types are supervised (labelled data), unsuperseded (patterns), and reinforcement (rewards). Some popular algorithms used in machine learning include classification, regression, clustering, and recommendation systems. Machine learning is a branch of AI that uses algorithmic techniques to find patterns in data. The tools for machine learning are Python, scikit-learn, PanDA, NumPy."
+        },
+        {
+            "question": "supervised vs unsupervised learning er difference ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch."
+        },
+        {
+            "question": "machine learning ki?",
+            "sentiment": "curious",
+            "answer": "Machine Learning is a subset of Artificial Intelligence (AI) that involves teaching computers to learn from data without explicit programming. It uses algorithms such as supervised, unsupervised, and reinforcement learning to find patterns in data. The key types are supervised (labelled data), unsupersvised (patterns), and reinforcement (rewards). Machine Learning is a branch of AI that involves using software tools like scikit-learn for classical ML, TensorFlow or PyToRCH for deep learning."
+        },
+        {
+            "question": "supervised vs unsupervised learning er difference ki?",
+            "sentiment": "curious",
+            "answer": "Nice question! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch. And Machine Learning uses algorithms to find patterns in data.\n\nHope this helps!"
+        },
+        {
+            "question": "machine learning ki?",
+            "sentiment": "curious",
+            "answer": "Machine learning (ML) involves teaching computers to learn from data, using various types like supervised, unsupervised, and reinforcement learning. Essential tools for ML include scikit-learn, TensorFlow, PyTorch, Python, Pandas, and NumPy."
+        },
+        {
+            "question": "supervised vs unsupervised learning er difference ki?",
+            "sentiment": "curious",
+            "answer": "Great question! Machine Learning is a subset of AI where computers learn from data. Types: supervised, unsupervised, reinforcement learning. Tools: scikit-learn, TensorFlow, PyTorch. Moreover, ML is a branch of AI."
         }
     ]
 }

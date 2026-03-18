@@ -34,6 +34,46 @@
             "question": "what is deep learning",
             "sentiment": "curious",
             "answer": "Interesting! Deep Learning = multi-layered neural networks. CNNs handle images, RNNs and LSTMs handle sequences, and Transformers power modern NLP. Use PyTorch or TensorFlow. Plus, DL basics: a neural network with many hidden layers learns features automatically.\n\nHope this helps!"
+        },
+        {
+            "question": "neural network er backpropagation kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "DL basics: a neural network with many hidden layers learns features automatically. CNNs for vision, RNNs for time-series, Transformers for language tasks.\n\nAlso regarding internet basics: Internet holo ekta bishal network jekhane millions of computers connected thake."
+        },
+        {
+            "question": "overfitting reduce korte regularization kivabe help kore?",
+            "sentiment": "curious",
+            "answer": "Deep Learning = multi-layered neural networks. CNNs handle images, RNNs and LSTMs handle sequences, and Transformers power modern NLP. Use PyTorch or TensorFlow.\n\nOn the ml side: Machine Learning uses algorithms to find patterns in data."
+        },
+        {
+            "question": "neural network er backpropagation kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Backpropagation is a technique used in the training of artificial neural networks (ANNs). It involves updating the weights and biases of each neuron  output of its neighbors."
+        },
+        {
+            "question": "overfitting reduce korte regularization kivabe help kore?",
+            "sentiment": "curious",
+            "answer": "Overfitting is a common issue in machine learning, where the model learns too much information from the training data. Regularization techniques such as L1 and L2 regularization can be used to prevent overfitting by penalizing weights that are close to zero or infinity. By reducing these regularizations, you can improve the generalization performance of your model without sacrificing accuracy."
+        },
+        {
+            "question": "neural network er backpropagation kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "Neural networks use the Backpropagation algorithm to learn from data and improve their performance over time."
+        },
+        {
+            "question": "overfitting reduce korte regularization kivabe help kore?",
+            "sentiment": "curious",
+            "answer": "Overfitting is a common issue in deep learning models that can be mitigated by using regularization techniques like dropout or weight decay to prevent the model from becoming too dependent on specific data points. Regularization helps keep the model generalizable and prevents it from over-fit towards just a few training examples."
+        },
+        {
+            "question": "neural network er backpropagation kivabe kaj kore?",
+            "sentiment": "curious",
+            "answer": "DL basics: a neural network with many hidden layers learns features automatically. CNNs for vision, RNNs for time-series, Transformers for language tasks.\n\nOn the internet basics side: Internet holo ekta bishal network jekhane millions of computers connected thake."
+        },
+        {
+            "question": "overfitting reduce korte regularization kivabe help kore?",
+            "sentiment": "curious",
+            "answer": "Overfitting occurs when a model learns too much from the training data, failing to generalize well. Regularization techniques like dropout and weight decay help prevent overfitting by adding constraints during learning.\nRegarding neural networks: backpropagation is an algorithm used for training these models efficiently through gradient descent on loss functions across layers in reverse order."
         }
     ]
 }

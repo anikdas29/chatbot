@@ -292,7 +292,7 @@ Question: {question}
                 return None
             return response
         except Exception as e:
-            logging.warning(f"TinyLlama RAG generation failed: {e}")
+            logging.warning(f"{self.model_name or 'LLM'} RAG generation failed: {e}")
             return None
 
     # Backward compat
@@ -1352,7 +1352,7 @@ class ChatBot:
         self.learn_count = 0
         logging.info(
             f"ChatBot initialized | Semantic + Templates + SQLite"
-            f" | TinyLlama: {'ON' if self.generator.available else 'OFF'}"
+            f" | LLM: {self.generator.model_name if self.generator.available else 'OFF'}"
         )
 
     @staticmethod
@@ -1981,7 +1981,9 @@ class ChatBot:
     # ========== Answer Finding & Refinement ==========
 
     def _find_best_answer(self, category, question, session_id=None):
-        """Find best answer using semantic similarity between question and answers."""
+        """Find best answer using semantic similarity between question and answers.
+        Falls back to random selection if encoder unavailable (Tier 4).
+        """
         store = self._get_store_for(category)
         answers = store.get_answers(category)
         if not answers:
@@ -1989,6 +1991,10 @@ class ChatBot:
 
         if len(answers) == 1:
             return answers[0]
+
+        # Tier 4 fallback: random answer if encoder not available
+        if not self.encoder.available:
+            return random.choice(answers)
 
         # Semantic scoring: compare question embedding with answer embeddings
         q_emb = self.encoder.encode(question)
@@ -2266,10 +2272,12 @@ class ChatBot:
             if last_intent and last_intent in self.category_store_map:
                 # Verify the current question is actually related to last_intent
                 # "messi vs ronaldo" after "quantum computing" should NOT be a follow-up
-                topic_name = last_intent.replace("_", " ")
-                q_emb = self.encoder.encode(cleaned)
-                topic_emb = self.encoder.encode(topic_name)
-                topic_sim = float(np.dot(q_emb.flatten(), topic_emb.flatten()))
+                topic_sim = 1.0  # Default: trust follow-up if no encoder
+                if self.encoder.available:
+                    topic_name = last_intent.replace("_", " ")
+                    q_emb = self.encoder.encode(cleaned)
+                    topic_emb = self.encoder.encode(topic_name)
+                    topic_sim = float(np.dot(q_emb.flatten(), topic_emb.flatten()))
 
                 if topic_sim >= 0.45:
                     answer = self._find_best_answer(last_intent, cleaned, session_id)

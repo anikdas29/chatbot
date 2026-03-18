@@ -1326,9 +1326,9 @@ def run_test():
     print("  1000 QUESTIONS TEST")
     print("=" * 70)
     if fast_mode:
-        print("  Mode: FAST (TinyLlama skipped)")
+        print("  Mode: FAST (LLM skipped)")
     else:
-        print("  Mode: FULL (TinyLlama ON — real bot answers)")
+        print("  Mode: FULL (LLM ON — real bot answers)")
         print("  Note: First load takes ~60-70s, then ~3-8s per question")
     print("\nLoading chatbot...", flush=True)
 
@@ -1336,9 +1336,8 @@ def run_test():
     bot = ChatBot()
     load_time = time.time() - load_start
     session_id = bot.db.create_session()
-    llm_status = "ON" if bot.generator.available else "OFF"
     print(f"  Loaded in {load_time:.1f}s")
-    print(f"  TinyLlama: {llm_status}")
+    print(f"  LLM: {bot.generator.model_name if bot.generator.available else 'OFF'}")
     print(f"  Questions: {len(bot.questions)}")
     print(f"  Categories: {len(bot.category_store_map)}")
 

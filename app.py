@@ -205,5 +205,16 @@ def feedback_report():
     })
 
 
+@app.route("/api/weak_categories", methods=["GET"])
+def weak_categories():
+    """Find categories with high dislike rates that need better answers."""
+    min_dislikes = request.args.get("min", 3, type=int)
+    weak = bot.get_weak_categories(min_dislikes)
+    return jsonify({
+        "weak_categories": weak,
+        "total": len(weak)
+    })
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=5000, use_reloader=False)

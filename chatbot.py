@@ -1145,8 +1145,9 @@ class ConfidenceScorer:
 
     @staticmethod
     def score(semantic_score, ml_score=0.0, intent_score=0.0,
-              n_agreeing_signals=1, score_gap=0.0):
+              n_agreeing_signals=1, score_gap=0.0, is_bangla=False):
         """Calculate calibrated confidence from multiple factors.
+        Fix #2: Dynamic weights — Bangla queries boost intent/tag, reduce semantic.
 
         Args:
             semantic_score: Best cosine similarity from FAISS (0.0-1.0)
@@ -1154,9 +1155,20 @@ class ConfidenceScorer:
             intent_score: Intent signal match score (0.0-1.0), 0 if no match
             n_agreeing_signals: Number of methods that agree (1=semantic only, 2=sem+ml, 3=sem+ml+intent)
             score_gap: Difference between this category's score and the runner-up (0.0-1.0)
+            is_bangla: If True, use Bangla-optimized weights (boost intent, reduce semantic)
 
         Returns: Calibrated confidence (0.05-0.98)
         """
+        # Fix #2: Dynamic weights for Bangla vs English
+        if is_bangla:
+            w_sem, w_ml, w_int, w_agr, w_gap = 0.25, 0.20, 0.35, 0.15, 0.05
+        else:
+            w_sem = ConfidenceScorer.W_SEMANTIC
+            w_ml = ConfidenceScorer.W_ML
+            w_int = ConfidenceScorer.W_INTENT
+            w_agr = ConfidenceScorer.W_AGREEMENT
+            w_gap = ConfidenceScorer.W_GAP
+
         # Normalize agreement to 0-1 range (1 signal=0.33, 2=0.67, 3=1.0)
         agreement = min(n_agreeing_signals, 3) / 3.0
 
@@ -1165,11 +1177,11 @@ class ConfidenceScorer:
 
         # Weighted combination of all factors
         raw = (
-            ConfidenceScorer.W_SEMANTIC * semantic_score +
-            ConfidenceScorer.W_ML * ml_score +
+            w_sem * semantic_score +
+            w_ml * ml_score +
             ConfidenceScorer.W_INTENT * intent_score +
-            ConfidenceScorer.W_AGREEMENT * agreement +
-            ConfidenceScorer.W_GAP * gap_norm
+            w_agr * agreement +
+            w_gap * gap_norm
         )
 
         # Sigmoid normalization — maps raw to a calibrated 0-1 scale
@@ -1182,13 +1194,14 @@ class ConfidenceScorer:
         return round(calibrated, 3)
 
     @staticmethod
-    def score_multi(candidates_with_signals):
+    def score_multi(candidates_with_signals, is_bangla=False):
         """Score multiple candidates at once.
 
         Args:
             candidates_with_signals: list of dicts with keys:
                 category, semantic_score, ml_score, intent_score,
                 n_agreeing, gap, method
+            is_bangla: Use Bangla-optimized weights
 
         Returns: list of (category, calibrated_confidence, method) sorted desc
         """
@@ -1200,6 +1213,7 @@ class ConfidenceScorer:
                 intent_score=c.get("intent_score", 0),
                 n_agreeing_signals=c.get("n_agreeing", 1),
                 score_gap=c.get("gap", 0),
+                is_bangla=is_bangla,
             )
             results.append((c["category"], conf, c.get("method", "semantic")))
 
@@ -1490,13 +1504,38 @@ class ChatBot:
             return results[0]
         return None, 0, None
 
+    # Bangla filler words for language detection
+    _BANGLA_FILLER = {"ki", "keno", "kivabe", "kothay", "kokhon", "ke", "ta", "er", "e", "te",
+                       "na", "ar", "ba", "o", "ami", "tumi", "apni", "ache", "hole", "kore",
+                       "korte", "korbo", "hoy", "hobe", "paro", "diye", "niye", "theke",
+                       "bolo", "lagbe", "chai", "shikhte", "kon", "onek", "amar", "tomar"}
+
+    def _is_bangla_query(self, text):
+        """Detect if query is Bangla/Banglish-heavy."""
+        words = text.lower().split()
+        if not words:
+            return False
+        bangla_chars = len(re.findall(r'[\u0980-\u09FF]', text))
+        if bangla_chars > 3:
+            return True
+        banglish_count = sum(1 for w in words if w in self._BANGLA_FILLER)
+        return banglish_count / len(words) > 0.3
+
     def _detect_categories(self, cleaned_question, max_cats=3, min_conf=0.25, gap_threshold=0.20):
         """Multi-category detection: Semantic + ML + Intent + ConfidenceScorer.
+        Fix #2: Dynamic weights for Bangla. Fix #3: Two-threshold confidence.
         Returns list of (category, confidence, method) tuples, sorted by confidence desc.
-        Confidence is a calibrated 0-100% "sureness" score via sigmoid normalization.
         """
         if self.faiss_index is None:
             return []
+
+        # Fix #2: Detect if Bangla-heavy query
+        is_bangla = self._is_bangla_query(cleaned_question)
+
+        # Fix #3: Two-threshold — lower bar if question contains a known technical term
+        has_technical_term = any(w in self.category_store_map or w in self.global_tag_index
+                                 for w in cleaned_question.split())
+        effective_min_conf = 0.20 if has_technical_term else min_conf
 
         # ── Step 1: FAISS semantic search (top-15 matches) ──
         query_emb = self.encoder.encode(cleaned_question)
@@ -1632,16 +1671,16 @@ class ChatBot:
                 "method": "+".join(info["method_parts"]),
             })
 
-        scored = ConfidenceScorer.score_multi(scorer_input)
+        scored = ConfidenceScorer.score_multi(scorer_input, is_bangla=is_bangla)
 
-        # ── Step 7: Filter by min_conf and gap_threshold ──
-        if not scored or scored[0][1] < min_conf:
+        # ── Step 7: Filter by effective_min_conf and gap_threshold ──
+        if not scored or scored[0][1] < effective_min_conf:
             return []
 
         best_conf = scored[0][1]
         results = []
         for cat, conf, method in scored:
-            if conf < min_conf:
+            if conf < effective_min_conf:
                 continue
             if best_conf - conf > gap_threshold:
                 break
@@ -1765,6 +1804,65 @@ class ChatBot:
             return f"{expr.strip()} = {result:g}"
         except:
             return None
+
+    # ── Fix #7: Banglish lexicon — common Bangla phrases → category ──
+    _BANGLISH_LEXICON = {
+        # Greetings
+        "kemon acho": "greeting", "kemon achen": "greeting",
+        "ki holo": "greeting", "ki khobor": "greeting",
+        "assalamu alaikum": "greeting", "nomoskar": "greeting",
+        # Thanks / Farewell
+        "dhonnobad": "thanks", "shukriya": "thanks", "onek thanks": "thanks",
+        "bidai": "farewell", "abar dekha hobe": "farewell",
+        # Emotions
+        "mon kharap": "emotions", "bhalo lagche na": "mental_health",
+        "onek kosto": "mental_health", "ekla lagche": "loneliness",
+        "khub sad": "emotions", "onek tension": "stress_management",
+        "ami stressed": "stress_management", "onek pressure": "stress_management",
+        # Health
+        "matha byatha": "headache", "matha ghurche": "headache",
+        "pet byatha": "food_poisoning", "pet kharap": "food_poisoning",
+        "ghum hoy na": "insomnia", "ghum ashche na": "insomnia",
+        "jor hoyeche": "health", "gorrom lagche": "health",
+        "komor byatha": "joint_pain", "hatu byatha": "joint_pain",
+        # Motivation
+        "ki korbo": "motivation", "bujhi na": "motivation",
+        "kono asha nai": "motivation", "ar pari na": "motivation",
+        "himmat hariye felchi": "motivation",
+        # Bot
+        "tomar nam ki": "bot_name", "tumi ke": "about_bot",
+        "tumi ki paro": "bot_capability",
+        # Misc
+        "bored lagche": "entertainment", "time pass": "entertainment",
+        "ghumote chai": "sleep_hygiene", "khida lagche": "cooking",
+    }
+
+    def _banglish_lookup(self, text):
+        """Fix #7: Direct Banglish phrase → category lookup."""
+        text_lower = text.lower().strip()
+        for phrase, cat in self._BANGLISH_LEXICON.items():
+            if phrase in text_lower:
+                return cat
+        return None
+
+    # ── Fix #5: LLM answer topic coherence validation ──
+    def _validate_llm_answer(self, answer, category, question):
+        """Check if LLM answer is actually about the right topic."""
+        if not self.encoder.available:
+            return True
+        try:
+            ans_emb = self.encoder.encode(answer)
+            cat_answers = self._get_store_for(category).get_answers(category)
+            if not cat_answers or len(cat_answers) < 2:
+                return True
+            cat_embs = self.encoder.encode(cat_answers[:5])
+            similarity = float(np.dot(cat_embs, ans_emb.flatten()).max())
+            if similarity < 0.25:
+                logging.info(f"LLM answer rejected: off-topic (sim={similarity:.2f}) for {category}")
+                return False
+            return True
+        except Exception:
+            return True  # Don't block on validation errors
 
     def _is_absurd_question(self, text):
         """Check if a question is about fictional/impossible things that can't be answered."""
@@ -2191,6 +2289,33 @@ class ChatBot:
 
         return {"status": "noted", "message": "Feedback noted."}
 
+    # ── Fix #6: Weak categories detection from dislike feedback ──
+    def get_weak_categories(self, min_dislikes=3):
+        """Find categories with high dislike rates for targeted improvement."""
+        rows = self.db.conn.execute("""
+            SELECT intent, COUNT(*) as dislikes,
+                   (SELECT COUNT(*) FROM feedback f2
+                    WHERE f2.intent = f1.intent AND f2.feedback_type='like') as likes
+            FROM feedback f1
+            WHERE feedback_type='dislike' AND intent IS NOT NULL AND intent != ''
+            GROUP BY intent
+            HAVING dislikes >= ?
+            ORDER BY dislikes DESC
+        """, (min_dislikes,)).fetchall()
+
+        weak = []
+        for r in rows:
+            total = r["dislikes"] + (r["likes"] or 0)
+            dislike_rate = r["dislikes"] / total if total > 0 else 1.0
+            if dislike_rate > 0.4:  # 40%+ dislike rate = weak category
+                weak.append({
+                    "category": r["intent"],
+                    "dislikes": r["dislikes"],
+                    "likes": r["likes"] or 0,
+                    "dislike_rate": round(dislike_rate * 100),
+                })
+        return weak
+
     # ========== Main Answer Pipeline ==========
 
     def _tier4_keyword_match(self, question):
@@ -2292,34 +2417,43 @@ class ChatBot:
                 else:
                     logging.info(f"Q: {original} | FOLLOW-UP rejected | Intent: {last_intent} | TopicSim: {topic_sim:.2f} < 0.45")
 
-        # Spell correction
-        corrected = self.spell.correct(cleaned)
+        # ── Fix #7: Banglish lexicon — direct phrase matching before any detection ──
+        banglish_cat = self._banglish_lookup(cleaned)
+        if banglish_cat and banglish_cat in self.category_store_map:
+            answer = self._find_best_answer(banglish_cat, cleaned, session_id)
+            if answer:
+                sentiment = self.sentiment.detect(cleaned)
+                answer = self._refine_answer(answer, cleaned, sentiment, banglish_cat, session_id)
+                self._store_feeling(banglish_cat, original, sentiment, answer)
+                if session_id:
+                    self.db.add_turn(session_id, original, answer, banglish_cat, 0.85, sentiment)
+                logging.info(f"Q: {original} | BANGLISH_LEXICON | Intent: {banglish_cat}")
+                return {"reply": answer, "intent": banglish_cat, "confidence": 0.85, "categories": [banglish_cat]}
 
-        # Step 1: Detect categories using BOTH original and corrected text
-        # This prevents spell corrector from destroying meaning
-        detected = self._detect_categories(corrected, max_cats=3)
-        if corrected != cleaned:
-            # Also try with original cleaned text (no spell correction)
-            detected_raw = self._detect_categories(cleaned, max_cats=3)
-            # Merge: if raw detection found better results, use them
-            if detected_raw:
-                raw_best = detected_raw[0][1] if detected_raw else 0
-                cor_best = detected[0][1] if detected else 0
-                if raw_best > cor_best:
-                    detected = detected_raw
-                    logging.info(f"Using raw text detection (spell correction hurt): {cleaned}")
-                elif not detected:
-                    detected = detected_raw
+        # ── Fix #1: Detect on RAW text first, spell-correct only if low confidence ──
+        detected = self._detect_categories(cleaned, max_cats=3)
+        raw_conf = detected[0][1] if detected else 0
 
-        # Step 1b: Context-aware query enrichment
-        # ONLY triggers when confidence is very low — prevents session pollution
-        # e.g. prev="git and github?" → current="repositories ki?" → enrich to "git repositories ki?"
+        # Only spell-correct if raw detection is weak (< 0.40)
+        if raw_conf < 0.40:
+            corrected = self.spell.correct(cleaned)
+            if corrected != cleaned:
+                detected_cor = self._detect_categories(corrected, max_cats=3)
+                if detected_cor:
+                    cor_best = detected_cor[0][1]
+                    if cor_best > raw_conf:
+                        detected = detected_cor
+                        logging.info(f"Spell correction helped: '{cleaned}' → '{corrected}' | {raw_conf:.0%} → {cor_best:.0%}")
+        else:
+            corrected = cleaned  # No correction needed
+
+        # Step 1b: Context-aware query enrichment (Fix #4: topic-shift guard)
+        # ONLY triggers when confidence is very low AND question shares words with previous
         CONTEXT_ENRICH_THRESHOLD = 0.28
         best_conf = detected[0][1] if detected else 0
         if session_id and best_conf < CONTEXT_ENRICH_THRESHOLD:
             history = self.db.get_history(session_id, limit=2)
             if history:
-                # Get the last user message as context
                 last_user_msg = None
                 for turn in reversed(history):
                     if turn.get("user"):
@@ -2327,12 +2461,16 @@ class ChatBot:
                         break
 
                 if last_user_msg:
-                    # Enrich: prepend key words from last message to current question
                     last_cleaned = re.sub(r"[^\w\s]", "", last_user_msg.lower()).strip()
-                    # Take first few meaningful words (skip very common ones)
                     context_words = [w for w in last_cleaned.split()
-                                     if len(w) > 2 and w not in {"what", "how", "why", "the", "and", "for", "tell", "about"}]
-                    if context_words:
+                                     if len(w) > 2 and w not in {"what", "how", "why", "the", "and", "for", "tell", "about",
+                                                                   "ki", "keno", "kivabe", "kothay", "ami", "tumi"}]
+                    # Fix #4: Topic-shift detection — only enrich if questions share meaningful words
+                    curr_words = set(cleaned.split()) - {"ki", "keno", "how", "what", "why", "the"}
+                    last_words = set(last_cleaned.split()) - {"ki", "keno", "how", "what", "why", "the"}
+                    shared_words = curr_words & last_words
+
+                    if context_words and len(shared_words) >= 1:
                         enriched = " ".join(context_words[:4]) + " " + cleaned
                         detected_enriched = self._detect_categories(enriched, max_cats=3)
                         if detected_enriched:
@@ -2343,6 +2481,8 @@ class ChatBot:
                                     f"Context enrichment: '{cleaned}' → '{enriched}' | "
                                     f"Confidence: {best_conf:.0%} → {enriched_best:.0%}"
                                 )
+                    elif context_words and not shared_words:
+                        logging.info(f"Context enrichment SKIPPED (topic shift): '{cleaned}' vs '{last_cleaned}'")
 
         # No categories found — try emotional fallback, then suggestions, then unknown
         if not detected:
@@ -2455,7 +2595,8 @@ class ChatBot:
                 )
                 if llm_answer:
                     cleaned_llm = self._clean_llm_output(llm_answer)
-                    if cleaned_llm:
+                    # Fix #5: Validate LLM answer is about the right topic
+                    if cleaned_llm and self._validate_llm_answer(cleaned_llm, primary_cat, original):
                         merged_answer = cleaned_llm
                         generated = True
                         logging.info(

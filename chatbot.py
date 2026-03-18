@@ -785,6 +785,32 @@ class IntentSignalDetector:
          ["coding_errors", "debugging"], 0.70),
         (r"(kivabe (shikhi|shuru kori|kori)|shikhte chai|shikhao)",
          ["programming", "coding", "career"], 0.65),
+
+        # === Bot meta-questions ===
+        (r"(tumi ki (chatbot|bot|ai|real|human|robot)|ke tomake (banai|create|made))",
+         ["about_bot", "bot_capability", "bot_name"], 0.80),
+        (r"(tumi ki (korte paro|paro|help korte paro)|what can you do|your (capability|limitation|feature))",
+         ["bot_capability", "about_bot"], 0.80),
+        (r"(tumi ki offline|are you offline|do you (need|use) internet)",
+         ["bot_capability", "about_bot"], 0.75),
+
+        # === Web development / Backend / Frontend ===
+        (r"(web (dev|development)|frontend|backend|fullstack|full.?stack)",
+         ["web_dev", "html_css", "javascript"], 0.70),
+        (r"(backend (ki|keno|diye|with)|server.?side|api (build|develop|create))",
+         ["web_dev", "api", "flask_framework"], 0.70),
+
+        # === Database ===
+        (r"(database|sql|mysql|postgres|mongodb|nosql).*(ki|kothay|keno|use|learn|basics)",
+         ["database", "sql", "mongodb"], 0.70),
+
+        # === Boredom / Entertainment ===
+        (r"(bored|bore) (lagche|feel|hocche)|nothing to do|ki korbo time pass",
+         ["entertainment", "puzzle_games", "motivation"], 0.65),
+
+        # === Friendship / Loneliness ===
+        (r"(tumi ki (amar |amr )?(friend|bondhu)|can (you|we) be friend|ami (ekla|lonely))",
+         ["loneliness", "emotions", "mental_health"], 0.70),
     ]
 
     @staticmethod
@@ -932,6 +958,27 @@ FOLLOW_UP_WORDS = {
     "ar kono", "aro kichu", "bolo aro", "keep going"
 }
 
+# Meta-commands: user wants a different STYLE of the same answer, not a new topic
+# These should route to last_intent without topic similarity check
+META_COMMAND_PATTERNS = re.compile(
+    r"^(eta (explain|describe) koro|"
+    r"eta keno lage|"
+    r"eta kivabe kaj kore|"
+    r"aro easy kore bolo|"
+    r"example (dao|de|dew)|"
+    r"abar bolo|"
+    r"short(er)? answer( dao)?|"
+    r"bujhte par(si|chi|lam) na|"
+    r"eta solve koro|"
+    r"eta thik naki (vul|bhul)|"
+    r"(simple|easy|short) (kore|e) (bolo|bolte paro)|"
+    r"(give|show) (me )?(an? )?example|"
+    r"explain (again|simply|easily)|"
+    r"say (that |it )?again|"
+    r"repeat (that|it|please))$",
+    re.IGNORECASE
+)
+
 # Pronoun patterns that reference previous topic (need conversation context)
 PRONOUN_FOLLOW_UP = re.compile(
     r"^(what about (it|that|this|them)|"
@@ -945,6 +992,22 @@ PRONOUN_FOLLOW_UP = re.compile(
     re.IGNORECASE
 )
 
+# Emotional fallback patterns — route to mental_health/motivation when nothing else matches
+EMOTIONAL_FALLBACK = re.compile(
+    r"(i (feel|am) (like )?(giving up|hopeless|lost|empty|alone|stuck|scared|worthless|useless)|"
+    r"(life|everything) (is |e )?(too |onek )?(hard|difficult|meaningless|pointless)|"
+    r"(amar|amr) (life|jibon) e (pressure|problem|kosto)|"
+    r"(ami|i) (khub |very )?(sad|depressed|lonely|disappointed|frustrated|anxious|stressed)|"
+    r"(amar|amr) kono (goal|hope|asha) nai|"
+    r"(dont|don.?t) know what to do|"
+    r"i (need|want) (help|someone)|"
+    r"(nobody|no one) (cares|understands|loves)|"
+    r"(help me|please help|sahajjo koro) (relax|calm|sleep|feel better)|"
+    r"(inspire|motivate) me|"
+    r"(ami|i) (bored|bore) (lagche|feel))",
+    re.IGNORECASE
+)
+
 
 def is_follow_up(text):
     cleaned = text.lower().strip()
@@ -955,6 +1018,12 @@ def is_follow_up(text):
     if PRONOUN_FOLLOW_UP.search(cleaned):
         return True
     return False
+
+
+def is_meta_command(text):
+    """Check if user wants a different STYLE of the previous answer (not a new topic)."""
+    cleaned = text.lower().strip()
+    return bool(META_COMMAND_PATTERNS.search(cleaned))
 
 
 # ============================================================
@@ -1151,7 +1220,7 @@ class ChatBot:
             return results[0]
         return None, 0, None
 
-    def _detect_categories(self, cleaned_question, max_cats=3, min_conf=0.30, gap_threshold=0.20):
+    def _detect_categories(self, cleaned_question, max_cats=3, min_conf=0.25, gap_threshold=0.20):
         """Multi-category detection: Semantic + ML + Intent + ConfidenceScorer.
         Returns list of (category, confidence, method) tuples, sorted by confidence desc.
         Confidence is a calibrated 0-100% "sureness" score via sigmoid normalization.
@@ -1409,6 +1478,8 @@ class ChatBot:
         (re.compile(r"<\|[^|]+\|>"), ""),                                  # <|system|>, <|user|> etc
         (re.compile(r"^\s*\d+\.\s*\[[\w_]+\]", re.MULTILINE), ""),       # 1. [category_name]
         (re.compile(r"^\s*A:\s*", re.MULTILINE), ""),                      # A: prefix
+        (re.compile(r"^(Answer|Response|Adapted Knowledge Base Response)\s*:\s*", re.IGNORECASE), ""),  # Answer:/Response: prefix
+        (re.compile(r"^The question is [\"']?[^\"']*[\"']?\s*", re.IGNORECASE), ""),  # "The question is X" meta-talk
         (re.compile(r"\n{3,}"), "\n\n"),                                   # Triple+ newlines → double
     ]
 
@@ -1447,6 +1518,15 @@ class ChatBot:
         # ── Format cleaning ──
         for pattern, replacement in self._LLM_CLEAN_PATTERNS:
             text = pattern.sub(replacement, text)
+
+        # Strip "Yes, " / "Yes. " prefix when it's not answering a yes/no question
+        # TinyLlama adds "Yes, " to almost everything
+        if re.match(r"^Yes[,.]?\s+", text, re.IGNORECASE):
+            text = re.sub(r"^Yes[,.]?\s+", "", text, count=1, flags=re.IGNORECASE)
+            # Capitalize first letter after stripping
+            if text:
+                text = text[0].upper() + text[1:]
+
         # Clean up leftover whitespace
         lines = [line.strip() for line in text.split("\n")]
         lines = [line for line in lines if line]  # remove empty lines
@@ -1749,6 +1829,21 @@ class ChatBot:
         original = user_question.strip()
         cleaned = re.sub(r"[^\w\s]", "", original.lower()).strip()
 
+        # Meta-command check — "eta explain koro", "example dao", "abar bolo"
+        # These should reuse last_intent WITHOUT topic similarity check
+        if is_meta_command(cleaned):
+            last_intent = self.db.get_last_intent(session_id) if session_id else None
+            if last_intent and last_intent in self.category_store_map:
+                answer = self._find_best_answer(last_intent, cleaned, session_id)
+                if answer:
+                    sentiment = self.sentiment.detect(cleaned)
+                    answer = self._refine_answer(answer, cleaned, sentiment, last_intent, session_id)
+                    self._store_feeling(last_intent, original, sentiment, answer)
+                    if session_id:
+                        self.db.add_turn(session_id, original, answer, last_intent, 1.0, sentiment)
+                    logging.info(f"Q: {original} | META-COMMAND | Intent: {last_intent}")
+                    return {"reply": answer, "intent": last_intent, "confidence": 1.0, "categories": [last_intent]}
+
         # Follow-up check — with topic similarity verification
         if is_follow_up(cleaned):
             last_intent = self.db.get_last_intent(session_id) if session_id else None
@@ -1825,8 +1920,22 @@ class ChatBot:
                                     f"Confidence: {best_conf:.0%} → {enriched_best:.0%}"
                                 )
 
-        # No categories found — try suggestions or return unknown
+        # No categories found — try emotional fallback, then suggestions, then unknown
         if not detected:
+            # Emotional fallback: route distress/motivation to mental health categories
+            if EMOTIONAL_FALLBACK.search(cleaned):
+                for fallback_cat in ["motivation", "mental_health", "emotions", "stress_management", "loneliness"]:
+                    if fallback_cat in self.category_store_map:
+                        answer = self._find_best_answer(fallback_cat, cleaned, session_id)
+                        if answer:
+                            sentiment = self.sentiment.detect(cleaned)
+                            answer = self._refine_answer(answer, cleaned, sentiment, fallback_cat, session_id)
+                            self._store_feeling(fallback_cat, original, sentiment, answer)
+                            if session_id:
+                                self.db.add_turn(session_id, original, answer, fallback_cat, 0.5, sentiment)
+                            logging.info(f"Q: {original} | EMOTIONAL_FALLBACK | Intent: {fallback_cat}")
+                            return {"reply": answer, "intent": fallback_cat, "confidence": 0.5, "categories": [fallback_cat]}
+
             suggestions = self.get_suggestions(cleaned)
             if suggestions and suggestions[0]["score"] >= 0.20:
                 logging.info(f"SUGGESTIONS | Q: {original} | Top: {suggestions[0]}")

@@ -17,11 +17,5 @@
         "Snake bite first aid: Don't cut the wound or try to suck venom. Keep still, remove tight items, bandage above the bite loosely, and rush to the nearest hospital for antivenom treatment.",
         "Shap katley tourniquet ba bish choshar cheshta korben na — eta myth. Wound ta clean korun, movement kom rakhun, ar hospital e jan. Possible hole shaper photo tulen jate doctor identify korte pare."
     ],
-    "feelings": [
-        {
-            "question": "ami bored lagche ki korbo?",
-            "sentiment": "curious",
-            "answer": "Yes, the user is asking about whether they should stay calm and keep the bitten limb below heart level during a snake bite.  knowledge only mentions that it's best to remove jewelrry near the biting limb and clean with soap and water."
-        }
-    ]
+    "feelings": []
 }

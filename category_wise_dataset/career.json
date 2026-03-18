@@ -66,11 +66,6 @@
             "answer": "The given retrieved knowledge provides insight into the different career options available in various fields, including freelancing, cybersecurity, data science, and more. The questioner is unsure of their current career path but has identified that they are good at building relationships and enjoy working with people. They can choose to pursue a career in any one of these areas ir strengths and interests."
         },
         {
-            "question": "i am confused about my future",
-            "sentiment": "confused",
-            "answer": "Easy version: Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your network, and keep applying consistently."
-        },
-        {
             "question": "i feel lost what should i do in life",
             "sentiment": "curious",
             "answer": "Career advice: identify what you're good at and what you enjoy, build relevant skills, grow your network, and keep applying consistently.\n\nOn the motivation side: Inspiration tip: remember your 'why'."

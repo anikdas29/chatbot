@@ -82,11 +82,6 @@
             "question": "html ar css diye ki ki kora jay?",
             "sentiment": "curious",
             "answer": "Yes, HTML and CSS are both programming languages used for creating web pages. They are commonly used in the development of websites, mobile apps, and other digital media projects."
-        },
-        {
-            "question": "html ar css diye ki ki kora jay?",
-            "sentiment": "curious",
-            "answer": "HTML basics: learn tags like <div>, <p>, <h1>, <a>, <img>, <form>, <input>. Then CSS: selectors, flexbox, grid, and responsive design with media queries.\n\nOn the blender 3d side: Blender holo completely free 3D software — 3D modeling, animation, rendering, sculpting shob kora jay.\n\nOn the photoshop side: Photoshop holo Adobe er image editing software — photo edit, background remove, poster banano, digital painting shob kora jay."
         }
     ]
 }

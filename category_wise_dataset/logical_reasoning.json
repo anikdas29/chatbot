@@ -13,11 +13,5 @@
         "Logical Reasoning is applied in many real-world fields. Understanding basics helps in any career.",
         "Start with logical reasoning fundamentals, practice with examples, and apply to real problems."
     ],
-    "feelings": [
-        {
-            "question": "why 1=0 explain with logic",
-            "sentiment": "curious",
-            "answer": "Great question! Logical Reasoning is applied in many real-world fields. Understanding basics helps in any career."
-        }
-    ]
+    "feelings": []
 }

@@ -38,11 +38,6 @@
             "question": "bored what to do",
             "sentiment": "curious",
             "answer": "Nice question! Movies: IMDb top rated. Shows: Breaking Bad, Money Heist, Stranger Things."
-        },
-        {
-            "question": "i don't know what to do next",
-            "sentiment": "curious",
-            "answer": "To answer the question, you can provide a list of recommended movies or TV shows that fit your taste based on IMDb or Letterboxd. You could also suggest some classic dramas like \"Breaking Bad\" and \"Monkey Heist\" to satisfy your thirst for thrillers or sci-fi, respectively. Lastly, you can recommend shows like \"Straighten Things Out\" and \"Interstellar\" that are must-watches ir ratings on IMDb or Letterboxd. Remember to keep it concise and natural in tone as you don't want to confuse the user with too much information."
         }
     ]
 }

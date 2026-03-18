@@ -36,11 +36,6 @@
             "question": "postgresql vs mysql which better?",
             "sentiment": "curious",
             "answer": "PostgreSQL is a powerful open-source relational database known for its reliability, feature richness, and standards compliance. It supports JSON, full-text search, geospatial data, and custom extensions. Choose PostgreSQL based on your data requirements."
-        },
-        {
-            "question": "postgresql vs mysql which better?",
-            "sentiment": "curious",
-            "answer": "PostgreSQL is a powerful open-source relational database known for its reliability, feature richness, and standards compliance. It supports JSON, full-text search, geospatial data, and custom extensions.\n\nOn the database side: SQL vs NoSQL: SQL (MySQL, PostgreSQL) = structured, tables, relations."
         }
     ]
 }

@@ -31,11 +31,6 @@
             "question": "how to setup redis cache?",
             "sentiment": "curious",
             "answer": "Good one! Redis stores data in memory for blazing-fast reads and writes. It supports persistence to disk, replication, and clustering. Its data structures like sorted sets and streams make it far more than a simple cache.\n\nAro kichu lagbe bolo!"
-        },
-        {
-            "question": "how to setup redis cache?",
-            "sentiment": "curious",
-            "answer": "Valo question! Redis stores data in memory for blazing-fast reads and writes. It supports persistence to disk, replication, and clustering. Its data structures like sorted sets and streams make it far more than a simple cache. Also, Redis is the world's most popular in-memory data store.\n\nAr kichu jante chaile bolo!"
         }
     ]
 }

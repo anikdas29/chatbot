@@ -53,17 +53,28 @@ The existing content is mostly basic level. I need DEEPER coverage.
 
 RULES:
 - Generate exactly 10 new questions and 6 new answers
-- Questions MUST cover ALL levels:
-  * 2 basic questions (e.g. "what is X?", "X ki?")
-  * 3 intermediate questions (e.g. "X vs Y difference", "how does X work internally?")
-  * 3 advanced questions (e.g. "X er architecture kivabe design kore?", "X optimization techniques")
-  * 2 expert questions (e.g. "X er internal implementation", "X er edge cases and pitfalls")
+- Questions MUST cover ALL levels AND varied styles:
+  * 2 basic questions — e.g. "what is {category_name}?"
+  * 2 how-to questions — e.g. "how to use {category_name}?"
+  * 1 comparison question — e.g. "{category_name} vs Y difference?"
+  * 1 why question — e.g. "why is {category_name} important?"
+  * 4 Bangla/Banglish questions (see BANGLA REQUIREMENT below)
 - Answers MUST be detailed and technical:
   * 2 answers: beginner-friendly (2-3 sentences, simple explanation)
   * 2 answers: intermediate (3-4 sentences, with examples or comparisons)
   * 2 answers: advanced/expert (4-5 sentences, deep technical detail, mention specific tools/methods/patterns)
-- All answers MUST be in English. Do NOT use Hindi, Devanagari, or any non-English script
-- Questions can include Banglish (Bengali in English letters) e.g. "X ki?", "X kivabe kore?"
+
+BANGLA REQUIREMENT:
+IMPORTANT: 4 out of 10 questions MUST be in Bangla/Banglish (Bengali written in English letters). Example Bangla questions: '{category_name} ki?', '{category_name} kivabe kaj kore?', '{category_name} er benefit ki?', '{category_name} shikhbo kivabe?'. Do NOT use Hindi or Devanagari script.
+The 4 Bangla/Banglish questions must follow these patterns:
+  * "X ki?" (what is X) — e.g. "{category_name} ki?"
+  * "X kivabe kaj kore?" (how does X work) — e.g. "{category_name} kivabe kaj kore?"
+  * "X er benefit ki?" (what are benefits of X) — e.g. "{category_name} er benefit ki?"
+  * "X shikhbo kivabe?" (how to learn X) — e.g. "{category_name} shikhbo kivabe?"
+
+ANSWER LANGUAGE:
+Answers must be in English only. Do NOT write answers in Hindi or any Devanagari script. All answers must use only English (Latin) characters.
+
 - Do NOT repeat existing content
 - Return ONLY valid JSON, no explanation, no markdown
 

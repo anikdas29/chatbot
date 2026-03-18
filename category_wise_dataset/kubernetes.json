@@ -44,11 +44,6 @@
             "question": "kubernetes ki jinish?",
             "sentiment": "curious",
             "answer": "Kubernetes is a container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides features such as automatic pod creation, resource allocation, and monitoring. Kubernetes has become popular due to its ease of use and scalability, making it an ideal choice for deploying and managing large-scale applications."
-        },
-        {
-            "question": "kubernetes ki jinish?",
-            "sentiment": "curious",
-            "answer": "Valo question! Kubernetes (K8s) = container orchestration platform. Automates deployment, scaling, and management of containerized applications."
         }
     ]
 }

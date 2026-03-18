@@ -17,16 +17,5 @@
         "Dog bite treatment: Clean the wound with soap and water, apply antiseptic, and visit a doctor ASAP. You'll need rabies post-exposure prophylaxis (PEP) vaccine — usually 4-5 doses over a month.",
         "Kukur katley vaccine nite hobe 0, 3, 7, 14, and 28 din e — total 5 ta dose. Prothom dose joto tara tara newa uchit. Wound ta betadine diye clean korun ar hospital e jan."
     ],
-    "feelings": [
-        {
-            "question": "ami bored ki korbo?",
-            "sentiment": "curious",
-            "answer": "Yes, you can help the user answer their question by providing them with  knowledge about dog bites and treatment options. The knowledge includes information on how to clean a wound after a dog bite, the recommended dosage of rabie's post-exposure prophylaxis (PEP) vaccinine, and the total number of doses required for each PEP vaccination schedule."
-        },
-        {
-            "question": "motivation nai ki korbo?",
-            "sentiment": "curious",
-            "answer": "Kukur kamrale prothome shabu pani diye bhalo kore dhute hobe 10 minute. Tarpor hospital e giye rabies vaccine nite hobe. Late korle rabies fatal hote pare, tai deri korben na.\n\nAlso regarding gardening: Gardening shuru korte chaile prothome mati ready koro, sunlight dekhho, and easy plants diye shuru koro.\n\nFor snake bite: Shap kamrale prothome calm thakun."
-        }
-    ]
+    "feelings": []
 }

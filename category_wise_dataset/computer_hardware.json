@@ -1,7 +1,16 @@
 {
     "category": "computer_hardware",
     "type": "general",
-    "tags": ["hardware", "ram", "rom", "cpu", "gpu", "ssd", "hdd", "motherboard"],
+    "tags": [
+        "hardware",
+        "ram",
+        "rom",
+        "cpu",
+        "gpu",
+        "ssd",
+        "hdd",
+        "motherboard"
+    ],
     "questions": [
         "what is RAM?",
         "ram ki?",
@@ -12,7 +21,6 @@
         "cpu ki?",
         "cpu kivabe kaj kore?",
         "how does a CPU work?",
-        "what is the difference between CPU and GPU?",
         "cpu vs gpu",
         "what is SSD?",
         "ssd vs hdd",

@@ -19,11 +19,6 @@
             "question": "red cross ki?",
             "sentiment": "curious",
             "answer": "The Red Cross is a humanitarian organization that provides emergency assistance, disaster relief, blood donation services, education on health and safety, and first aid training to those affected by conflicts and natural disasters."
-        },
-        {
-            "question": "who world health organization ki?",
-            "sentiment": "curious",
-            "answer": "World Health Organization (WHO)"
         }
     ]
 }

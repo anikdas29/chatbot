@@ -59,11 +59,6 @@
             "question": "motivation nai ki korbo?",
             "sentiment": "curious",
             "answer": "Retrieved knowledge about motivation:\n1. [gardening] Q: bagan kivabe korbo?\n    A: Gardening shuru korte chaile prothome mati ready koro, sunlight dekhho, and easy plants diye start korte paro.\n2. [dog_bite] Q: kukur kamrale ki korbo\n    A: Kukur kamurale shabu pani diye bhalo Korle? Rekla! Tarpor hospital e giye rabiees vaccinerin'a nithe hope, taigy deri Korben na. Late Korle ba ideas express Korbe feelings express Korby er pattern"
-        },
-        {
-            "question": "help me calm down",
-            "sentiment": "confused",
-            "answer": "knowledge about motivation suggests that:\n1. Remembering our 'why' is essential to staying motivated in difficult situations.\n2. Setting small goals and celebrating progress can help us build momentum towards achieving larger goals.\n3. Consistency is key when it comes to building habits, not just relying on motivation alone.\n4. Feeling low is normal, but resting or giving up should be avoided in such situations. Tackling the next step of a goal can help us move forward."
         }
     ]
 }

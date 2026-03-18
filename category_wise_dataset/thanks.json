@@ -91,19 +91,9 @@
             "answer": "Awesome! You're welcome! Happy to help anytime.\n\nHope this helps!"
         },
         {
-            "question": "thanks",
-            "sentiment": "happy",
-            "answer": "Glad you asked! You're welcome! Happy to help anytime.\n\nAr kichu jante chaile bolo!"
-        },
-        {
             "question": "dhonnobad, help korso",
             "sentiment": "confused",
             "answer": "Easy version: Khushi hoyechi help korte pere! Abar ashio.\n\nAr kichu jante chaile bolo!"
-        },
-        {
-            "question": "thanks a lot",
-            "sentiment": "happy",
-            "answer": "Nice! You're welcome! Happy to help anytime."
         },
         {
             "question": "onek thanks",

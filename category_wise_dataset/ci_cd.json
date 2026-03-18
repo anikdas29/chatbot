@@ -41,11 +41,6 @@
             "answer": "Valo question! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit. Also, Tools: GitHub Actions, GitLab CI, Jenkins, CircleCI, Travis CI.\n\nHope this helps!"
         },
         {
-            "question": "devops ki and ci cd ki?",
-            "sentiment": "curious",
-            "answer": "Great question! CI/CD = Continuous Integration / Continuous Deployment. Automate building, testing, and deploying code on every commit. Additionally, CI = merge code often, run automated tests."
-        },
-        {
             "question": "ci cd pipeline ki?",
             "sentiment": "curious",
             "answer": "A CI/CD pipeline is a set of automated processes that continuously builds, tests, and deploys code on every commit. It involves merging code frequently, running automatic tests, and deploying successful builds to staging or production environments."

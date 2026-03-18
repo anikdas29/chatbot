@@ -56,11 +56,6 @@
             "answer": "Nice question! Hello! How can I help you today?\n\nHope this helps!"
         },
         {
-            "question": "how is your day?",
-            "sentiment": "curious",
-            "answer": "Good one! Hello! How can I help you today?"
-        },
-        {
             "question": "good evening",
             "sentiment": "happy",
             "answer": "Nice! Hello! How can I help you today? Moreover, Hey there! What can I do for you?."

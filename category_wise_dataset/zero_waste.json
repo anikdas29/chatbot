@@ -15,11 +15,5 @@
         "Start your zero waste journey with simple steps: carry reusable bags and bottles, avoid single-use plastics, compost food scraps, buy in bulk, and choose products with minimal packaging.",
         "Zero waste doesn't mean producing absolutely no waste — it's about making conscious choices to drastically reduce waste. Even small changes like refusing straws and carrying your own cup help."
     ],
-    "feelings": [
-        {
-            "question": "work life balance kivabe maintain korbo?",
-            "sentiment": "curious",
-            "answer": "knowledge suggests that a work-life balance involves stopping work at a set time, preparing for tomorrow's tasks, reducing screen time, and relaxing. Some common habit tracking tips include starting with just one daily activity, building up to multiple habits over time, and setting 1-3 goals per area. Time management experts recommend planning the day ahead, prioritizing tasks ir importance, and tackling the hardest one first."
-        }
-    ]
+    "feelings": []
 }

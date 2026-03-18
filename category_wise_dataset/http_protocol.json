@@ -1,10 +1,16 @@
 {
     "category": "http_protocol",
     "type": "general",
-    "tags": ["http", "https", "ssl", "tls", "protocol", "web", "security"],
+    "tags": [
+        "http",
+        "https",
+        "ssl",
+        "tls",
+        "protocol",
+        "web",
+        "security"
+    ],
     "questions": [
-        "what is HTTP?",
-        "http ki?",
         "what is HTTPS?",
         "https ki?",
         "http vs https",

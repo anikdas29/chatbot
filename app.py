@@ -162,5 +162,34 @@ def pending_learns_endpoint():
     })
 
 
+@app.route("/api/feedback_report", methods=["GET"])
+def feedback_report():
+    """Review all disliked answers for manual improvement.
+    Shows questions where bot gave wrong answers — useful for dataset improvement.
+    """
+    rows = bot.db.conn.execute(
+        "SELECT question, bot_answer, intent, correct_answer, correct_category, created_at "
+        "FROM feedback WHERE feedback_type='dislike' ORDER BY created_at DESC LIMIT 100"
+    ).fetchall()
+    dislikes = []
+    for r in rows:
+        dislikes.append({
+            "question": r["question"],
+            "bot_answer": r["bot_answer"],
+            "intent": r["intent"],
+            "correct_answer": r["correct_answer"],
+            "correct_category": r["correct_category"],
+            "timestamp": r["created_at"]
+        })
+    stats = bot.db.get_feedback_stats()
+    return jsonify({
+        "total_feedback": stats["total"],
+        "likes": stats["likes"],
+        "dislikes": stats["dislikes"],
+        "accuracy_rate": round(stats["likes"] / stats["total"] * 100, 1) if stats["total"] > 0 else 0,
+        "recent_dislikes": dislikes
+    })
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=5000, use_reloader=False)

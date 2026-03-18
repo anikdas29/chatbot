@@ -128,6 +128,8 @@ class TinyLlamaGenerator:
         self.available = False
         self.model_name = None
         self.is_phi3 = False
+        self._max_tokens = 150
+        self._backend = None  # "llama_cpp" or "ctransformers"
 
         # Auto-detect best available LLM
         if model_path and os.path.exists(model_path):
@@ -138,6 +140,31 @@ class TinyLlamaGenerator:
         for path, mtype, ctx_len, max_tok, name in candidates:
             if not os.path.exists(path):
                 continue
+
+            is_phi = "phi" in name.lower()
+
+            # Phi-3 needs llama-cpp-python (ctransformers doesn't support it)
+            if is_phi:
+                try:
+                    from llama_cpp import Llama
+                    self.model = Llama(
+                        model_path=path,
+                        n_ctx=ctx_len,
+                        n_threads=4,
+                        verbose=False,
+                    )
+                    self.available = True
+                    self.model_name = name
+                    self.is_phi3 = True
+                    self._max_tokens = max_tok
+                    self._backend = "llama_cpp"
+                    logging.info(f"{name} RAG generator loaded via llama-cpp (context: {ctx_len} tokens)")
+                    break
+                except Exception as e:
+                    logging.warning(f"{name} load failed (llama-cpp): {e} — trying next...")
+                    continue
+
+            # TinyLlama uses ctransformers
             try:
                 from ctransformers import AutoModelForCausalLM
                 self.model = AutoModelForCausalLM.from_pretrained(
@@ -152,11 +179,13 @@ class TinyLlamaGenerator:
                 )
                 self.available = True
                 self.model_name = name
-                self.is_phi3 = "phi" in name.lower()
-                logging.info(f"{name} RAG generator loaded (context: {ctx_len} tokens)")
+                self.is_phi3 = False
+                self._max_tokens = max_tok
+                self._backend = "ctransformers"
+                logging.info(f"{name} RAG generator loaded via ctransformers (context: {ctx_len} tokens)")
                 break
             except Exception as e:
-                logging.warning(f"{name} load failed: {e} — trying next...")
+                logging.warning(f"{name} load failed (ctransformers): {e} — trying next...")
 
         if not self.available:
             logging.warning("No LLM model found — generation disabled")
@@ -228,7 +257,13 @@ Question: {question}
 """
 
         try:
-            response = self.model(prompt)
+            if self._backend == "llama_cpp":
+                output = self.model(prompt, max_tokens=self._max_tokens,
+                                    temperature=0.4, top_p=0.85,
+                                    repeat_penalty=1.15, stop=["<|end|>", "<|user|>", "</s>"])
+                response = output["choices"][0]["text"].strip()
+            else:
+                response = self.model(prompt)
             response = response.strip()
             # Clean prompt artifacts
             if "<|" in response:

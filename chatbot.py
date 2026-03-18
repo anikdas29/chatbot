@@ -37,26 +37,43 @@ logging.basicConfig(
 # ============================================================
 
 class SemanticEncoder:
-    """ONNX MiniLM-L6-v2 embedding model.
+    """ONNX embedding model for semantic search.
+    Supports multilingual-e5-small (50+ languages including Bangla) with MiniLM fallback.
     Converts text to 384-dim semantic vectors.
     Understands meaning: 'feeling sad' ≈ 'i am depressed' ≈ 'mon kharap'
     """
 
     def __init__(self, model_dir="models/minilm"):
-        self.model_dir = model_dir
-        self.tokenizer = Tokenizer.from_file(os.path.join(model_dir, "tokenizer.json"))
+        # Try multilingual model first (better Bangla support)
+        multilingual_dir = "models/multilingual-e5"
+        multilingual_onnx = os.path.join(multilingual_dir, "onnx", "model.onnx")
+        multilingual_tok = os.path.join(multilingual_dir, "tokenizer.json")
+
+        if os.path.exists(multilingual_onnx) and os.path.exists(multilingual_tok):
+            self.model_dir = multilingual_dir
+            self.model_name = "multilingual-e5-small"
+            self.is_e5 = True  # E5 models need "query: " prefix for best results
+        else:
+            self.model_dir = model_dir
+            self.model_name = "MiniLM-L6-v2"
+            self.is_e5 = False
+
+        self.tokenizer = Tokenizer.from_file(os.path.join(self.model_dir, "tokenizer.json"))
         self.tokenizer.enable_padding(pad_id=0, pad_token="[PAD]")
         self.tokenizer.enable_truncation(max_length=128)
         self.session = ort.InferenceSession(
-            os.path.join(model_dir, "onnx", "model.onnx"),
+            os.path.join(self.model_dir, "onnx", "model.onnx"),
             providers=["CPUExecutionProvider"]
         )
-        logging.info("SemanticEncoder loaded (ONNX MiniLM-L6-v2)")
+        logging.info(f"SemanticEncoder loaded (ONNX {self.model_name})")
 
     def encode(self, texts):
         """Encode list of texts into normalized embeddings. Returns (N, 384) numpy array."""
         if isinstance(texts, str):
             texts = [texts]
+        # E5 models need "query: " prefix for optimal performance
+        if self.is_e5:
+            texts = [f"query: {t}" if not t.startswith("query: ") else t for t in texts]
         encoded = self.tokenizer.encode_batch(texts)
         input_ids = np.array([e.ids for e in encoded], dtype=np.int64)
         attention_mask = np.array([e.attention_mask for e in encoded], dtype=np.int64)
@@ -199,6 +216,82 @@ Question: {question}
         context = [{"question": "", "answer": a, "category": category, "score": 1.0}
                    for a in dataset_answers[:max_answers]]
         return self.generate_rag(question, context, [category])
+
+
+# ============================================================
+# Cross-Encoder Reranker (optional precision boost for FAISS)
+# ============================================================
+
+class CrossEncoderReranker:
+    """Optional cross-encoder for re-ranking FAISS results.
+    Cross-encoders see question+candidate together (more accurate than bi-encoder).
+    Falls back gracefully if model not available.
+    """
+
+    def __init__(self, model_dir="models/reranker"):
+        self.available = False
+        self.session = None
+        self.tokenizer = None
+
+        model_path = os.path.join(model_dir, "model.onnx")
+        tokenizer_path = os.path.join(model_dir, "tokenizer.json")
+
+        if not os.path.exists(model_path) or not os.path.exists(tokenizer_path):
+            logging.info("Cross-encoder reranker not found — skipping (optional)")
+            return
+
+        try:
+            self.session = ort.InferenceSession(model_path)
+            self.tokenizer = Tokenizer.from_file(tokenizer_path)
+            self.tokenizer.enable_padding(pad_id=0, pad_token="[PAD]")
+            self.tokenizer.enable_truncation(max_length=256)
+            self.available = True
+            logging.info("Cross-encoder reranker loaded")
+        except Exception as e:
+            logging.warning(f"Cross-encoder load failed: {e}")
+
+    def rerank(self, question, candidates, top_n=5):
+        """Re-rank candidates using cross-encoder scores.
+
+        Args:
+            question: User question string
+            candidates: List of dicts with 'question' and 'answer' keys
+            top_n: Number of results to return
+
+        Returns: candidates reordered by cross-encoder score, or original if unavailable
+        """
+        if not self.available or not candidates:
+            return candidates[:top_n]
+
+        try:
+            pairs = []
+            for c in candidates:
+                text = f"{question} [SEP] {c.get('answer', c.get('question', ''))}"
+                pairs.append(text)
+
+            encoded = self.tokenizer.encode_batch(pairs)
+            input_ids = np.array([e.ids for e in encoded], dtype=np.int64)
+            attention_mask = np.array([e.attention_mask for e in encoded], dtype=np.int64)
+
+            # Some models need token_type_ids
+            token_type_ids = np.zeros_like(input_ids, dtype=np.int64)
+
+            input_names = [inp.name for inp in self.session.get_inputs()]
+            feeds = {"input_ids": input_ids, "attention_mask": attention_mask}
+            if "token_type_ids" in input_names:
+                feeds["token_type_ids"] = token_type_ids
+
+            outputs = self.session.run(None, feeds)
+            scores = outputs[0].flatten()
+
+            # Sort by cross-encoder score
+            scored = list(zip(scores, candidates))
+            scored.sort(key=lambda x: x[0], reverse=True)
+
+            return [c for _, c in scored[:top_n]]
+        except Exception as e:
+            logging.warning(f"Reranker failed: {e}")
+            return candidates[:top_n]
 
 
 # ============================================================
@@ -817,6 +910,82 @@ class IntentSignalDetector:
          ["web_dev", "career", "career_coaching"], 0.70),
         (r"(ami |i )?(confused|confuse).*(naki|or|vs|between)",
          ["career", "career_coaching"], 0.65),
+
+        # === Shopping / E-commerce ===
+        (r"(buy|purchase|order|shop|kinte chai|kinbo)",
+         ["ecommerce", "shopping", "online_shopping"], 0.65),
+        (r"(price|cost|dam|koto taka|budget|expensive|cheap|sasta)",
+         ["pricing_strategy", "budgeting", "ecommerce"], 0.60),
+        (r"(delivery|shipping|courier|parcel)",
+         ["logistics", "ecommerce", "supply_chain"], 0.65),
+        (r"(refund|return|exchange|money back)",
+         ["consumer_rights", "ecommerce"], 0.70),
+
+        # === Health symptoms ===
+        (r"(headache|matha byatha|matha ghurche|dizzy)",
+         ["headache", "migraine", "health"], 0.75),
+        (r"(fever|jor|temperature|sick|osthir)",
+         ["health", "first_aid", "dehydration"], 0.70),
+        (r"(stomach|pet byatha|pet kharap|vomit|diarrhea)",
+         ["food_poisoning", "health", "dehydration"], 0.75),
+        (r"(back pain|waist pain|komorey byatha|joint pain)",
+         ["joint_pain", "health", "fitness"], 0.70),
+        (r"(can.?t sleep|ghum hoy na|insomnia|sleeping problem)",
+         ["insomnia", "sleep_hygiene", "health"], 0.75),
+
+        # === Education / Study ===
+        (r"(exam|porikkha|test preparation|study tips)",
+         ["exam_preparation", "study", "education"], 0.70),
+        (r"(scholarship|brishtti|free education|tuition)",
+         ["scholarship", "education", "study_abroad"], 0.70),
+        (r"(university|college|admission|varsity|school)",
+         ["college", "education", "study_abroad"], 0.65),
+        (r"(gpa|cgpa|grade|marks|result)",
+         ["exam_preparation", "education", "college"], 0.65),
+
+        # === Finance / Money ===
+        (r"(invest|investment|taka invest|portfolio)",
+         ["stock_market", "mutual_funds", "finance"], 0.70),
+        (r"(loan|rin|mortgage|emi|interest rate)",
+         ["finance", "insurance", "credit_score"], 0.70),
+        (r"(tax|kar|income tax|vat)",
+         ["finance", "freelance_tax", "accounting"], 0.70),
+        (r"(savings?|bachat|save money|emergency fund)",
+         ["budgeting", "finance", "savings"], 0.65),
+
+        # === Travel / Transport ===
+        (r"(visa|passport|immigration|embassy)",
+         ["visa_process", "passport", "travel"], 0.75),
+        (r"(hotel|booking|reservation|airbnb)",
+         ["travel", "airbnb", "honeymoon"], 0.65),
+        (r"(flight|plane|airport|airline)",
+         ["travel", "adventure_travel"], 0.65),
+        (r"(train|bus|transport|ride)",
+         ["travel", "ride_sharing", "carpooling"], 0.60),
+
+        # === Food / Cooking ===
+        (r"(recipe|ranna|cook|randhbo kivabe)",
+         ["cooking", "bangladeshi_food", "biryani"], 0.70),
+        (r"(healthy food|diet|khabar|nutrition|protein)",
+         ["diet_plans", "health", "vitamins"], 0.65),
+        (r"(restaurant|food delivery|khabar order)",
+         ["cooking", "food_truck", "ecommerce"], 0.60),
+
+        # === Relationship / Social ===
+        (r"(relationship|breakup|love|crush|ভালোবাসা)",
+         ["emotions", "mental_health", "counseling"], 0.70),
+        (r"(marriage|biye|wedding|divorce)",
+         ["marriage", "divorce", "counseling"], 0.70),
+        (r"(family|parents|children|son|daughter|baba|ma)",
+         ["parenting", "family", "elder_care"], 0.60),
+        (r"(friend|bondhu|friendship|social)",
+         ["loneliness", "emotions", "mental_health"], 0.60),
+
+        # === Legal ===
+        (r"(lawyer|ukil|court|case|sue)",
+         ["consumer_rights", "human_rights", "patient_rights"], 0.65),
+        (r"(police|crime|thana|fir|report)",
+         ["human_rights", "domestic_violence", "cyber_bullying"], 0.65),
     ]
 
     @staticmethod
@@ -1091,6 +1260,9 @@ class ChatBot:
 
         # Feature 5: TinyLlama local LLM generation
         self.generator = TinyLlamaGenerator()
+
+        # Optional: Cross-encoder reranker for better FAISS precision
+        self.reranker = CrossEncoderReranker()
 
         self.learn_count = 0
         logging.info(
@@ -1570,6 +1742,10 @@ class ChatBot:
                 "score": round(score, 3)
             })
 
+        # Optional: re-rank with cross-encoder for better precision
+        if self.reranker.available and len(results) > 2:
+            results = self.reranker.rerank(question, results, top_n=top_n)
+
         return results
 
     # Patterns for cleaning LLM output artifacts
@@ -1703,6 +1879,10 @@ class ChatBot:
                             "category": target_category,
                             "score": 0.5
                         })
+
+        # Optional: re-rank with cross-encoder for better precision
+        if self.reranker.available and len(results) > 2:
+            results = self.reranker.rerank(question, results, top_n=top_n)
 
         return results
 

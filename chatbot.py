@@ -1422,6 +1422,86 @@ class ChatBot:
 
         return suggestions
 
+    # ========== Math Calculator ==========
+
+    _MATH_PATTERN = re.compile(
+        r"^[\d\s\+\-\*\/\%\.\(\)]+$"
+    )
+    # Bangla math: "5+7 koto?", "30% of 150 koto?", "50-20 koto?"
+    _BANGLA_MATH = re.compile(
+        r"^([\d\s\+\-\*\/\%\.\(\)]+)\s*(koto|er|=)\s*\??$",
+        re.IGNORECASE
+    )
+    # English: "what is 5+7", "calculate 30% of 150", "25% of 200"
+    _ENGLISH_MATH = re.compile(
+        r"^(?:what is |calculate |whats )?([\d\s\+\-\*\/\%\.\(\)]+)$",
+        re.IGNORECASE
+    )
+    # Percentage: "30% of 150", "25% of 200"
+    _PERCENT_OF = re.compile(
+        r"(\d+(?:\.\d+)?)\s*%\s*(?:of|er)\s*(\d+(?:\.\d+)?)",
+        re.IGNORECASE
+    )
+    # Combined math: "40+60 and 25% of 200"
+    _MULTI_MATH = re.compile(
+        r"^[\d\s\+\-\*\/\%\.\(\)]+(?:\s+and\s+[\d\s\+\-\*\/\%\.\(\)of]+)+$",
+        re.IGNORECASE
+    )
+
+    def _try_math(self, text):
+        """Try to evaluate math expressions. Returns result string or None."""
+        cleaned = text.strip().rstrip("?").strip()
+
+        # Handle "X% of Y" patterns first
+        percent_matches = list(self._PERCENT_OF.finditer(cleaned))
+        if percent_matches:
+            results = []
+            remaining = cleaned
+            for m in percent_matches:
+                pct = float(m.group(1))
+                base = float(m.group(2))
+                result = (pct / 100) * base
+                results.append(f"{pct}% of {base} = {result:g}")
+                remaining = remaining.replace(m.group(0), "").strip()
+
+            # Check if there's also a simple expression (e.g. "40+60 and 25% of 200")
+            remaining = re.sub(r"^and\s+|and\s*$", "", remaining).strip()
+            if remaining and re.match(r"^[\d\s\+\-\*\/\.\(\)]+$", remaining):
+                try:
+                    # Safe eval: only allow digits and math operators
+                    if not re.search(r"[a-zA-Z_]", remaining):
+                        val = eval(remaining)
+                        results.insert(0, f"{remaining.strip()} = {val:g}")
+                except:
+                    pass
+
+            if results:
+                return ", ".join(results)
+
+        # Handle Bangla: "5+7 koto?"
+        m = self._BANGLA_MATH.match(cleaned)
+        if m:
+            expr = m.group(1).strip()
+        else:
+            # Handle English: "what is 5+7", "calculate 50-20"
+            m = self._ENGLISH_MATH.match(cleaned)
+            if m:
+                expr = m.group(1).strip()
+            elif self._MATH_PATTERN.match(cleaned):
+                expr = cleaned
+            else:
+                return None
+
+        # Safe eval: reject anything with letters (prevents code injection)
+        if re.search(r"[a-zA-Z_]", expr):
+            return None
+
+        try:
+            result = eval(expr)
+            return f"{expr.strip()} = {result:g}"
+        except:
+            return None
+
     def _is_absurd_question(self, text):
         """Check if a question is about fictional/impossible things that can't be answered."""
         absurd_patterns = [
@@ -1851,6 +1931,15 @@ class ChatBot:
         """
         original = user_question.strip()
         cleaned = re.sub(r"[^\w\s]", "", original.lower()).strip()
+
+        # ── Math calculator — catch "5+7 koto?", "30% of 150", "80+20" ──
+        math_result = self._try_math(original)
+        if math_result is not None:
+            reply = f"Answer: {math_result}"
+            if session_id:
+                self.db.add_turn(session_id, original, reply, "calculator", 1.0, "neutral")
+            logging.info(f"Q: {original} | CALCULATOR | Result: {math_result}")
+            return {"reply": reply, "intent": "calculator", "confidence": 1.0, "categories": ["calculator"]}
 
         # Meta-command check — "eta explain koro", "example dao", "abar bolo"
         # These should reuse last_intent WITHOUT topic similarity check

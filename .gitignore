@@ -18,3 +18,7 @@ archive.zip
 Conversation.csv
 chatbot_conversations.csv
 chatbot_conversations.json
+chatbot.log
+*.log
+__pycache__/
+chatbot.db

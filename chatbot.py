@@ -2366,7 +2366,7 @@ class ChatBot:
 
         return None, None
 
-    def get_answer(self, user_question, session_id=None):
+    def get_answer(self, user_question, session_id=None, skip_llm=False):
         """Main answer pipeline with 4-tier fallback:
 
         Tier 1: Phi-3 LLM + FAISS + ML (best quality)
@@ -2590,7 +2590,7 @@ class ChatBot:
             "who", "emotions", "gratitude"
         }
         generated = False
-        if self.generator.available and not (set(all_cats) & SKIP_LLM_CATS):
+        if self.generator.available and not skip_llm and not (set(all_cats) & SKIP_LLM_CATS):
             # Single-category RAG: only feed the PRIMARY category's answers to LLM
             # This prevents topic bleeding (e.g. carpooling answer talking about juggling)
             rag_context = self._retrieve_rag_context_single(original, primary_cat, top_n=5)

@@ -81,7 +81,8 @@ def chat_endpoint():
                 "needs_learning": False
             })
 
-    result = bot.get_answer(user_message, session_id)
+    fast_mode = data.get("fast", False)
+    result = bot.get_answer(user_message, session_id, skip_llm=fast_mode)
 
     # Truly unknown — no result at all
     if result is None:

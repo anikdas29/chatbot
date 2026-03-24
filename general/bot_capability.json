@@ -1,7 +1,12 @@
 {
     "category": "bot_capability",
     "type": "general",
-    "tags": ["capability", "feature", "help", "what can you do"],
+    "tags": [
+        "capability",
+        "feature",
+        "help",
+        "what can you do"
+    ],
     "questions": [
         "tumi ki ki paro",
         "what can you do",
@@ -47,7 +52,7 @@
     ],
     "answers": [
         "Ami help korte pari different topics e — coding, tech, life advice, motivation, fun facts, ar onek kichu! Bolo ki jante chao!",
-        "Ami Anik, onek kichu niye kotha bolte pari! Tech, life, career, health, motivation — ja mone chay jiggesh koro!",
+        "Onek kichu niye kotha bolte pari! Tech, life, career, health, motivation — ja mone chay jiggesh koro!",
         "Bro ami pari: coding help, life tips, motivation, general knowledge, fun facts, emotions niye kotha — bolo ki lagbe!",
         "Ami different topics e help kori — technology theke life advice, career theke health tips. Tumi bolo, ami try korbo!",
         "আমি অনেক বিষয়ে help করতে পারি ভাই! Tech, coding, career, motivation, life tips — যা মনে চায় জিজ্ঞেস করো!",

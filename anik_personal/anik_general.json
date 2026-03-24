@@ -96,6 +96,11 @@
             "question": "kire ki korteso?",
             "sentiment": "curious",
             "answer": "Kaj kortesilam ektu, ki dorkar bolo!"
+        },
+        {
+            "question": "kire ki korteso?",
+            "sentiment": "curious",
+            "answer": "Kaj kortesilam ektu, ki dorkar bolo!"
         }
     ]
 }

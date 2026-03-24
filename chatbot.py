@@ -2601,6 +2601,28 @@ class ChatBot:
         # Step 3: Merge answers from multiple categories
         merged_answer, primary_cat, all_cats, avg_conf = self._merge_answers(cat_answers, sentiment)
 
+        # Step 3b: Honest reply for low confidence in specialized mode
+        HONEST_THRESHOLD = 0.50
+        if self.general_store.folder == "general" and avg_conf < HONEST_THRESHOLD:
+            import random as _rnd
+            HONEST_REPLIES = [
+                "Bhai eta ami jani na honestly! 😅",
+                "Ei topic e amr kono idea nai vai!",
+                "Hmm eta amr knowledge er baire bro!",
+                "Sorry vai, eta ami answer dite parbo na!",
+                "Bhai ei question er answer amr kache nai 😅",
+                "Eta jani na vai, onno kichu jiggesh koro!",
+            ]
+            honest = _rnd.choice(HONEST_REPLIES)
+            if session_id:
+                self.db.add_turn(session_id, original, honest, primary_cat, avg_conf, sentiment)
+            return {
+                "reply": honest,
+                "intent": primary_cat,
+                "confidence": avg_conf,
+                "categories": all_cats
+            }
+
         # Step 4: Hybrid RAG — TinyLlama generates from retrieved context
         # Skip LLM for simple conversational categories — dataset answers are better
         SKIP_LLM_CATS = {

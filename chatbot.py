@@ -1381,7 +1381,12 @@ class ChatBot:
     @staticmethod
     def _auto_detect_specialized_folders(general_folder):
         folders = []
-        SUFFIXES = ("_dataset", "_business", "_personal")
+        # If using general/ folder (specialized mode), only load _business/_personal
+        # If using category_wise_dataset (general purpose), load _dataset folders
+        if general_folder == "general":
+            SUFFIXES = ("_business", "_personal")
+        else:
+            SUFFIXES = ("_dataset",)
         for item in os.listdir("."):
             if not os.path.isdir(item) or item == general_folder:
                 continue
@@ -2378,6 +2383,11 @@ class ChatBot:
         """
         original = user_question.strip()
         cleaned = re.sub(r"[^\w\s]", "", original.lower()).strip()
+
+        # ── Skip filler messages that need no reply ──
+        NO_REPLY_WORDS = {"ok", "okay", "hmm", "hm", "oh", "ohh", "accha", "thik", "thik ache", "k", "okey"}
+        if cleaned in NO_REPLY_WORDS:
+            return None
 
         # ── Math calculator — catch "5+7 koto?", "30% of 150", "80+20" ──
         math_result = self._try_math(original)

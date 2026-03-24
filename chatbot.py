@@ -1305,7 +1305,7 @@ def is_meta_command(text):
 # ============================================================
 
 class ChatBot:
-    def __init__(self, general_folder="category_wise_dataset", specialized_folders=None,
+    def __init__(self, general_folder=None, specialized_folders=None,
                  model_dir="models/minilm", db_path="chatbot.db"):
         """
         Full-featured chatbot with:
@@ -1317,6 +1317,17 @@ class ChatBot:
         """
         # Database (Feature 4: SQLite)
         self.db = Database(db_path)
+
+        # Auto-detect mode: ISP (general/ + isp_business/) or General Purpose
+        if general_folder is None:
+            if os.path.isdir("general") and any(
+                os.path.isdir(d) and d.endswith("_business") for d in os.listdir(".")
+            ):
+                general_folder = "general"
+                logging.info("ISP mode detected: using general/ + *_business/ folders")
+            else:
+                general_folder = "category_wise_dataset"
+                logging.info("General purpose mode: using category_wise_dataset/")
 
         # General store
         self.general_store = CategoryStore(general_folder)
@@ -1373,7 +1384,10 @@ class ChatBot:
     def _auto_detect_specialized_folders(general_folder):
         folders = []
         for item in os.listdir("."):
-            if os.path.isdir(item) and item.endswith("_dataset") and item != general_folder:
+            if not os.path.isdir(item) or item == general_folder:
+                continue
+            # Match: *_dataset (coding_dataset) or *_business (isp_business)
+            if item.endswith("_dataset") or item.endswith("_business"):
                 folders.append(item)
         folders.sort()
         return folders

@@ -1,7 +1,17 @@
 {
     "category": "anik_tech_help",
     "type": "anik_personal",
-    "tags": ["tech", "help", "fix", "repair", "laptop", "phone", "problem", "error", "korbe"],
+    "tags": [
+        "tech",
+        "help",
+        "fix",
+        "repair",
+        "laptop",
+        "phone",
+        "problem",
+        "error",
+        "korbe"
+    ],
     "questions": [
         "vai laptop ta fix korbe?",
         "phone ta dekhbe ektu?",
@@ -31,5 +41,21 @@
         "Ekhon ektu busy achi, but msg rekhe dao problem ta — pore dekhi! 😄",
         "Ha bhai, tech help er jonno amake bolo! Problem ta details e likh, solve korbo try korbo!"
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "vai laptop ta ektu fix koro",
+            "sentiment": "angry",
+            "answer": "If you have a laptop issue, provide details so I can help fix it! 😊\n- Let me know your tech problem and its specifics; my free assistance is here to solve it.\n- Even when busy, respond with the issue for guidance on fixing it. 😄\n===\nWhen you're facing laptop troubles, just share what's wrong so I can guide you through a solution!"
+        },
+        {
+            "question": "vai laptop ta ektu fix koro",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. I hear you. Ha vai, tech problem hole bolo — dekhi ki korte pari! Detail e likh ektu! Plus, Ha bhai, tech help er jonno amake bolo! Problem ta details e likh, solve korbo try korbo!.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "vai laptop ta ektu fix koro",
+            "sentiment": "angry",
+            "answer": "Ha vai, tech problem hole bolo — dekhi ki korte pari! Detail e likh ektu!"
+        }
+    ]
 }

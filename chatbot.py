@@ -2166,6 +2166,12 @@ class ChatBot:
             cat, ans, conf = cat_answers[0]
             return ans, cat, [cat], conf
 
+        # In specialized mode (general/ folder), just use top category — no mixing
+        if self.general_store.folder == "general":
+            cat, ans, conf = cat_answers[0]
+            all_cats = [c[0] for c in cat_answers]
+            return ans, cat, all_cats, conf
+
         # Multi-category: primary gets full answer, others get first sentence
         primary_cat, primary_ans, primary_conf = cat_answers[0]
 
@@ -2202,8 +2208,12 @@ class ChatBot:
         smaller = min(len(words_a), len(words_b))
         return len(intersection) / smaller if smaller > 0 else 0.0
 
-    def _refine_answer(self, answer, question, sentiment, category, session_id=None):
+    def _refine_answer(self, answer, question, sentiment, category, session_id=None, skip_templates=False):
         """Refine answer with templates + sentiment adjustment."""
+        # In specialized mode (general/ folder), skip templates — dataset answers are pre-written
+        if skip_templates or self.general_store.folder == "general":
+            return answer
+
         store = self._get_store_for(category)
         answers_pool = store.get_answers(category)
 

@@ -81,5 +81,21 @@
         "Vai ignore kori na toke, ekhon reply dicchi, bolo!",
         "Haha chup chilam na, kaj kortesilam! Ekhon free, bolo!"
     ],
-    "feelings": []
+    "feelings": [
+        {
+            "question": "kire ki korteso?",
+            "sentiment": "curious",
+            "answer": "Anik General is a popular social media platform in Bangladesh. It allows users to connect with friends, share content, and engage through various features like messaging and status updates.\nAs for the phrase \"kire ki korteso?\", it seems unrelated to Anik General's specific details but could be interpreted as a casual inquiry about someone's interest in Kortesilam or similar content on social media platforms, although this interpretation is speculative since the provided information does not directly relate to that phrase."
+        },
+        {
+            "question": "kire ki korteso?",
+            "sentiment": "curious",
+            "answer": "Valo question! Kaj kortesilam ektu, ki dorkar bolo!\n\nHope this helps!"
+        },
+        {
+            "question": "kire ki korteso?",
+            "sentiment": "curious",
+            "answer": "Kaj kortesilam ektu, ki dorkar bolo!"
+        }
+    ]
 }

@@ -1,7 +1,15 @@
 {
     "category": "anik_general",
     "type": "anik_personal",
-    "tags": ["anik", "ke", "ki kore", "kothay", "kemon", "busy", "free"],
+    "tags": [
+        "anik",
+        "ke",
+        "ki kore",
+        "kothay",
+        "kemon",
+        "busy",
+        "free"
+    ],
     "questions": [
         "kire ki korteso?",
         "ki koros?",
@@ -27,7 +35,36 @@
         "weekend e ki korbe?",
         "plan ki?",
         "ajke ki korbe?",
-        "ki niye busy?"
+        "ki niye busy?",
+        "kire gumas nai akn o?",
+        "active ashos?",
+        "kire koi ashos?",
+        "uth na bhai",
+        "kire reply dew na keno?",
+        "online acho?",
+        "dekhi na tomake",
+        "kobe free hobe?",
+        "kire bhai ghumas?",
+        "kire phone ta dhor",
+        "miss kori tomake",
+        "kotdin por online ashle?",
+        "bhai ek minute ache?",
+        "ektu somoy dibe?",
+        "kire bhai kothay hariye gele?",
+        "kothay thako shoddin?",
+        "bhai dekha nai onek din",
+        "ki re vai alive acho?",
+        "kire bhai maira gele naki?",
+        "hello kew ache?",
+        "respond koro bhai",
+        "bolo na kichu",
+        "kire chup keno?",
+        "busy achi bolleo to reply dew",
+        "online dekhay but reply nai",
+        "seen diye chole gele?",
+        "ignore korcho?",
+        "block korle naki?",
+        "bhai ami achi ekhane"
     ],
     "answers": [
         "Ekhon ektu busy achi bro, pore boli!",
@@ -35,7 +72,14 @@
         "Ha achi achi, bolo ki hoise?",
         "Ekhon available na ektu, msg rekhe dao pore reply dei!",
         "Bhai onek din por! Bhalo achi, tumi kemon?",
-        "Ektu onno kaje busy chilam, bolo ki lagbe?"
+        "Ektu onno kaje busy chilam, bolo ki lagbe!",
+        "Haha ghumaini bro, ekhane e achi! Bolo!",
+        "Arre block korini vai! Ektu busy chilam, ekhon bolo!",
+        "Seen diye gesi na, reply type kortesilam! 😅",
+        "Ha bhai alive achi, tension nio na! Ki dorkar bolo!",
+        "Miss koris na eto, ekhane e achi! 😄 Bolo ki hoise?",
+        "Vai ignore kori na toke, ekhon reply dicchi, bolo!",
+        "Haha chup chilam na, kaj kortesilam! Ekhon free, bolo!"
     ],
     "feelings": []
 }

@@ -4,9 +4,11 @@ Run with: python app.py
 """
 
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
 from chatbot import ChatBot
 
 app = Flask(__name__)
+CORS(app)  # Allow cross-origin requests from any domain
 bot = ChatBot()
 
 

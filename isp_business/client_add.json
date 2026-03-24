@@ -256,6 +256,16 @@
             "question": "client add korbo kivabe?",
             "sentiment": "curious",
             "answer": "ক্লায়েন্ট অ্যাড পুরো নাম, সিজুল ৪টি প্রতিবহন দিয়ে হবে.\nanswer: সিগুল ৪টি পুরো নাম ক্লায়েন্ট অ্যাড।"
+        },
+        {
+            "question": "NID ki must dite hobe?",
+            "sentiment": "curious",
+            "answer": "NID must be provided as part of the client's personal information, but not a birth certificate. It is essential for identification purposes and cannot replace a birth certificate in any form."
+        },
+        {
+            "question": "NID ki must dite hobe?",
+            "sentiment": "curious",
+            "answer": "NID must be provided as part of the initial customer information. It cannot be substituted with a birth certificate in the account setup process."
         }
     ]
 }

@@ -81,7 +81,8 @@ def chat_endpoint():
                 "needs_learning": False
             })
 
-    fast_mode = data.get("fast", False)
+    # API default: fast mode (FAISS + ML, no LLM) — send "fast": false for full LLM
+    fast_mode = data.get("fast", True)
     result = bot.get_answer(user_message, session_id, skip_llm=fast_mode)
 
     # Truly unknown — no result at all

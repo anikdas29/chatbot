@@ -203,7 +203,8 @@
                     body: JSON.stringify({
                         message: question,
                         session_id: sessionId,
-                        chosen_category: category
+                        chosen_category: category,
+                        fast: false
                     })
                 });
                 const data = await response.json();
@@ -315,7 +316,7 @@
                 const response = await fetch("/api/chat", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ message, session_id: sessionId })
+                    body: JSON.stringify({ message, session_id: sessionId, fast: false })
                 });
                 const data = await response.json();
 

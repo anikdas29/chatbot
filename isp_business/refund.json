@@ -1,0 +1,40 @@
+{
+    "category": "refund",
+    "type": "isp_business",
+    "tags": ["refund", "overbilling", "wrong charge", "money back", "billing error", "adjustment", "credit"],
+    "questions": [
+        "refund chai",
+        "beshi charge korse keno?",
+        "wrong bill eshche",
+        "taka ferrot chai",
+        "overbilling hoise",
+        "duplicate payment hoye geche",
+        "refund kobe pabo?",
+        "refund process ki?",
+        "bill adjustment chai",
+        "extra charge keno bill e?",
+        "amar account e credit chai",
+        "vul kore beshi pay kore felsi",
+        "refund er jonno ki korte hobe?",
+        "bill ta thik na, check korun",
+        "I want a refund",
+        "taka fera deen",
+        "refund koto din e hoy?",
+        "refund ki bKash e ashbe?",
+        "cancel korle ki refund pabo?",
+        "service kharap chilo tai refund chai"
+    ],
+    "answers": [
+        "Refund er jonno apnar complaint ar billing details niye amra review korbo. ISP Digital e refund process normally 7-10 working days e complete hoy. Apnar payment method e refund fire jabe.",
+        "Overbilling hoye thakle amra khub sorry! Apnar account details share korun, amra immediately billing check korbo. Vul charge confirm hole ISP Digital same day account credit kore dey.",
+        "Duplicate payment hoye thakle tension neben na! Payment proof (screenshot/receipt) ta amader pathiyen. ISP Digital 3-5 working days er moddhe duplicate amount refund kore dey.",
+        "Refund bKash, Nagad, ba apnar bank account e ashbe — je method e pay korechilen sei method e return hobe. Refund process start hoye gele apnake SMS e janabo.",
+        "Bill adjustment er jonno 09612-000000 e call korun ba app theke request submit korun. Amader billing team 24 ghontar moddhe review kore adjustment kore dibe.",
+        "Connection cancel korle remaining days er pro-rata refund paben ISP Digital theke. Cancellation form e refund preference select korun — 15 working days e process hobe.",
+        "Service downtime er jonno compensation hisebe ISP Digital automatic bill credit dey. Jodi 24 ghontar beshi downtime thake, apnar next bill e credit adjust hobe.",
+        "Refund claim korte apnar customer ID, payment receipt, ar problem er details niye amader support e contact korun. ISP Digital transparent billing e believe kore — kono hidden charge nai!",
+        "Apnar refund request receive hoyeche ar processing e ache. Refund amount apnar account e credit hobe 7-10 working days er moddhe. ISP Digital quick refund processing ensure kore.",
+        "Extra charge bill e dekhle alarm howar dorkar nai — oiTA hote pare installation fee, late fee, ba add-on service er charge. Details er jonno apnar itemized bill check korun ba amader ke call korun."
+    ],
+    "feelings": []
+}

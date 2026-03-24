@@ -22,6 +22,11 @@
             "question": "dehydration symptoms ki ki?",
             "sentiment": "curious",
             "answer": "Yes, dehydration occurs when your body loses more fluid than it takes in. Symptoms include dry mouth, dark urine, diarrhea, and fatigue. Drinking water regularly can prevent dehydration."
+        },
+        {
+            "question": "tmi ki sohan name e kew k chino?",
+            "sentiment": "curious",
+            "answer": "Dehydration can cause symptoms such as dry mouth, dark urine, dizziness, and weakness. Drinking water or ORS regularly helps prevent dehydration, while severe cases may require hospital treatment with IV fluids."
         }
     ]
 }

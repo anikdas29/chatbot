@@ -1,0 +1,40 @@
+{
+    "category": "speed_issues",
+    "type": "isp_business",
+    "tags": ["slow", "speed", "speed test", "buffering", "lag", "bandwidth", "latency", "ping"],
+    "questions": [
+        "internet slow keno?",
+        "speed koto pachchhi?",
+        "speed test kivabe korbo?",
+        "YouTube buffer korche keno?",
+        "ping high keno?",
+        "download speed kom keno?",
+        "upload speed khub slow",
+        "full speed pachi na",
+        "net slow hoye geche",
+        "speed check korte chai",
+        "keno eto slow aaj?",
+        "streaming e lag hochchhe",
+        "gaming e ping onek beshi",
+        "wifi speed kom but cable e thik",
+        "raat e speed kom hoy keno?",
+        "speed promised moto pachchhi na",
+        "internet speed improve korbo kivabe?",
+        "bandwidth problem hocche",
+        "why is my internet so slow?",
+        "speedtest.net e koto ashche?"
+    ],
+    "answers": [
+        "Internet slow hoyar onek karon thakte pare — peak hour usage, router er distance, ba temporary network congestion. Ekbar router restart kore dekhen, onek somoy ei simple step e fix hoye jay!",
+        "Speed test korte speedtest.net ba fast.com e jan. Test er somoy wifi bade LAN cable diye connect korun accurate result er jonno. ISP Digital er minimum guaranteed speed holo apnar plan er 80%.",
+        "YouTube buffering hole prothome video quality ta 720p ba 480p e set korun. Tarpor router restart korun. Jodi tarpor o hoy, amader technical team ke janaben, amra line check korbo.",
+        "High ping gaming er jonno problem — amra bujhte parchi! Router e QoS (Quality of Service) enable korun ar gaming device ke priority den. ISP Digital er gaming plan e low ping guaranteed thake.",
+        "Apnar speed promised moto na paile amader 09612-000000 number e call korun. Amader technician line test kore exact problem identify kore fix korbe. ISP Digital speed guarantee dey!",
+        "Raat e speed kom lagte pare karon takhon maximum users online thake (peak hours 8pm-12am). Jodi regularly slow hoy, plan upgrade consider korun ba amader ke janaben, amra optimize korbo.",
+        "WiFi te speed kom but cable e thik mane router e problem thakte pare. Router er position change korun — open space e, moddhe moddhe rakhun. Wall ar furniture signal block kore.",
+        "Internet speed improve korar tips: 1) Router restart korun regularly, 2) 5GHz WiFi band use korun, 3) Unnecessary background downloads bondho korun, 4) Router er firmware update korun. ISP Digital always best speed dite committed!",
+        "Apnar download speed check korechhen ki? speedtest.net e giye test korun ar result ta amader share korun. Amra ISP Digital theke immediately investigate korbo ar solution dibo.",
+        "Bandwidth problem hole check korun onno kono device heavy download korche kina. Multiple device e HD streaming korle speed bhag hoye jay. ISP Digital er higher plan e more bandwidth paben."
+    ],
+    "feelings": []
+}

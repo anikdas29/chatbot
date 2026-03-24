@@ -1,0 +1,40 @@
+{
+    "category": "connection_problem",
+    "type": "isp_business",
+    "tags": ["no internet", "disconnected", "cable", "downtime", "outage", "connection", "offline", "network down"],
+    "questions": [
+        "internet ashche na keno?",
+        "connection nai",
+        "kobe thik hobe?",
+        "cable problem",
+        "network down keno?",
+        "internet completely off",
+        "kono connection nai ekdom",
+        "net band hoye geche",
+        "abar ki disconnect holo?",
+        "connection er problem hocche",
+        "internet keeps disconnecting",
+        "fiber cut hoye geche",
+        "subah theke net nai",
+        "poropor 3 din dhore problem",
+        "keno eto bar bar disconnect hoy?",
+        "area te ki kono problem ache?",
+        "amar connection ta ki suspended?",
+        "no internet access dakhachhe",
+        "limited connectivity dakhachhe",
+        "LAN cable connected but no internet"
+    ],
+    "answers": [
+        "Apnar internet connection problem er jonno amra khub dukkhito! Prothome router restart korun — power off kore 30 second por on korun. Onek somoy ei simple step e thik hoye jay.",
+        "Apnar area te kono maintenance ba outage cholche kina check korchi. ISP Digital er status page (status.ispdigital.com) e real-time update paben. Kindly ektu wait korun.",
+        "Connection nai shunle amader kharap lagche! Cable connection check korun — router er pechoner shob cable thikthak lagano ache kina dekhun. Loose cable e onek somoy connection jay.",
+        "Fiber cut hole amader team ke immediately jananor jonno 09612-000000 e call korun. ISP Digital er emergency repair team 4-6 ghontar moddhe fiber fix kore dey.",
+        "Bar bar disconnect hole ekta pattern ache kina dekhun — specific time e hoy naki random? Ei info amader technical team ke dile faster solve korte parbo. ISP Digital quick resolution e committed.",
+        "Apnar connection suspended thakle billing issue er karone hote pare. Apnar account er status check korun ba amader billing team e call korun. Due bill pay korle connection immediately restore hobe.",
+        "Limited connectivity dekhale DNS problem hote pare. Network settings e DNS ta 8.8.8.8 ar 8.8.4.4 (Google DNS) set korun. ISP Digital er own DNS o use korte paren faster speed er jonno.",
+        "LAN cable connected kintu internet nai hole: 1) Cable ta onno port e try korun, 2) IP release/renew korun (cmd e ipconfig /release tarpor ipconfig /renew), 3) Na hole ISP Digital helpline e janaben.",
+        "3 din dhore problem hocche shune amra sincerely sorry! Ekta complaint ticket create korchi apnar jonno — amader senior technician 24 ghontar moddhe visit korbe. ISP Digital er commitment holo quick fix!",
+        "Subah theke net nai? Area-wide issue hote pare. ISP Digital er app e check korun ba amader social media page e update dekhun. Jotokhon fix na hoy amra regular update dibo!"
+    ],
+    "feelings": []
+}

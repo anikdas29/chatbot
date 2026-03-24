@@ -1,0 +1,40 @@
+{
+    "category": "fiber_optic",
+    "type": "isp_business",
+    "tags": ["fiber", "FTTH", "fiber optic", "broadband", "optical", "ONU", "fiber cable", "gigabit"],
+    "questions": [
+        "fiber connection ache?",
+        "fiber vs broadband difference ki?",
+        "FTTH ki?",
+        "fiber er speed koto?",
+        "fiber er dam koto?",
+        "fiber optic koto fast?",
+        "fiber cable ki special?",
+        "ONU ki jinis?",
+        "gigabit connection ache?",
+        "fiber e ki unlimited data thake?",
+        "fiber installation koto din lage?",
+        "fiber cable cut hole ki hobe?",
+        "fiber connection ki reliable?",
+        "amader building e fiber ache?",
+        "broadband theke fiber e switch korbo",
+        "fiber e latency koto?",
+        "fiber er moddhe best plan konta?",
+        "GPON ki?",
+        "fiber er ONU device ta ki?",
+        "1 Gbps plan ache fiber e?"
+    ],
+    "answers": [
+        "Haan, ISP Digital fiber optic connection provide kore! FTTH (Fiber to the Home) technology te direct apnar ghore porjonto fiber cable ase. Fastest ar most reliable connection!",
+        "Fiber vs broadband: Fiber e light diye data transfer hoy — tai speed onek beshi (up to 1 Gbps) ar latency onek kom. Traditional broadband copper cable use kore jar speed ar reliability fiber er cheye kom.",
+        "FTTH mane 'Fiber to the Home' — mane fiber optic cable direct apnar apartment ba bari porjonto ase. ISP Digital er FTTH service e apni guaranteed high speed ar stable connection paben!",
+        "ISP Digital er fiber plan 50 Mbps theke 1 Gbps porjonto ache. Fiber e unlimited data thake shob plan e. Price start hoy 1200 taka/month theke.",
+        "ONU (Optical Network Unit) holo fiber connection er device ja apnar ghore install hoy. Eta fiber signal ke ethernet signal e convert kore. ISP Digital free ONU provide kore new fiber connection er shathe!",
+        "Fiber cable cut hole panic korben na — ISP Digital er emergency team ke call korun 09612-000000 e. Fiber splice korar special equipment lagey, amader team 4-8 ghontar moddhe fix kore dey.",
+        "Broadband theke fiber e switch korte ISP Digital app ba office e request korun. Migration FREE — kono extra charge nai! Shudhu installation schedule fix korte hobe ar apni ready.",
+        "GPON (Gigabit Passive Optical Network) holo ISP Digital er fiber technology. Ekta single fiber cable theke multiple connection share hoy efficiently. Speed ar reliability duita te top-notch!",
+        "Fiber connection onek reliable — brishti, badal, lightning kono kichuteii speed e impact hoy na (copper cable te hoy). ISP Digital er fiber network er uptime 99.9%!",
+        "1 Gbps fiber plan ache ISP Digital te — price masik 5000 taka. Content creators, large families, ar tech enthusiasts er jonno perfect. Ar shathe unlimited data ar static IP free!"
+    ],
+    "feelings": []
+}

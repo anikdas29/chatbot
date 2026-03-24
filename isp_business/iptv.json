@@ -1,0 +1,40 @@
+{
+    "category": "iptv",
+    "type": "isp_business",
+    "tags": ["IPTV", "TV", "channels", "streaming", "set-top box", "live TV", "VOD", "entertainment"],
+    "questions": [
+        "IPTV ache?",
+        "TV channel ki ki ache?",
+        "IPTV er dam koto?",
+        "set-top box lagbe?",
+        "IPTV setup kivabe?",
+        "IPTV te koto channel pabo?",
+        "HD channel ache?",
+        "sports channel ache?",
+        "IPTV ki internet er shathe free?",
+        "recording korte parbo?",
+        "VOD service ache?",
+        "IPTV app e dekhte parbo?",
+        "multiple TV te IPTV chalate parbo?",
+        "IPTV er quality kemon?",
+        "bangla channel ache?",
+        "international channel pabo?",
+        "IPTV buffering korche",
+        "timeshift feature ache?",
+        "IPTV subscription cancel korbo",
+        "IPTV ar internet bundle ache?"
+    ],
+    "answers": [
+        "Haan, ISP Digital IPTV service provide kore! 200+ live TV channel, HD quality, ar VOD (Video on Demand) library — shob ek subscription e. Monthly 300 taka theke shuru!",
+        "ISP Digital IPTV te 200+ channel ache — Bangla, Hindi, English, sports, news, movies, kids — shob category covered. HD ar SD dui rokom e available!",
+        "IPTV er set-top box ISP Digital theke 2000 taka te kinte paren ba monthly 100 taka rental e nite paren. Smart TV te app install korleo IPTV dekhte parben, set-top box chharaye!",
+        "IPTV setup onek easy — set-top box ta TV te connect korun, internet cable lagaun, ar ISP Digital er activation code diye login korun. 5 minute e ready! Technician o setup kore dey free te.",
+        "Sports channel ache — Star Sports, Sony Sports, Ten Sports shob premium sports channel included. Cricket, football, kabaddi shob live dekhte parben ISP Digital IPTV te!",
+        "Multiple TV te IPTV dekhte additional set-top box lagbe, protiTa 100 taka/month extra. Kintu ISP Digital app e unlimited device e login kore dekhte paren!",
+        "VOD library te 10,000+ movies ar series ache — Bangla, Bollywood, Hollywood. New content regularly add hoy. ISP Digital er IPTV shudhu live TV na, complete entertainment hub!",
+        "IPTV buffering hole apnar internet speed minimum 10 Mbps ache kina check korun. HD content er jonno 15 Mbps recommend kora hoy. ISP Digital er internet + IPTV bundle e optimal speed guaranteed!",
+        "Internet + IPTV bundle ache — 100 Mbps internet ar full IPTV package eksha the masik 2200 taka! Alada alada nile 2000 + 500 = 2500 lagto. Bundle e 300 taka save!",
+        "Timeshift ar recording feature ache ISP Digital IPTV te! Live TV pause korte paren, rewind korte paren, ar 7 din er purano program o dekhte paren. Miss korar tension nai!"
+    ],
+    "feelings": []
+}

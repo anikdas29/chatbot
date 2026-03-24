@@ -1,0 +1,40 @@
+{
+    "category": "outage",
+    "type": "isp_business",
+    "tags": ["outage", "maintenance", "downtime", "service status", "disruption", "scheduled", "restoration"],
+    "questions": [
+        "internet band keno?",
+        "maintenance kobe?",
+        "koto khon lagbe?",
+        "area te ki problem?",
+        "service status ki?",
+        "keno net nai aajke?",
+        "planned maintenance kobe?",
+        "server down naki?",
+        "kobe theke internet ashbe?",
+        "outage koto khon dhore cholche?",
+        "amader whole area te net nai",
+        "ki hoise network e?",
+        "restoration time koto?",
+        "emergency maintenance ki cholche?",
+        "service disruption er notification pabo kivabe?",
+        "aaj raat e ki maintenance ache?",
+        "internet ki nationwide down?",
+        "status page kothay?",
+        "last outage kobe chilo?",
+        "compensation pabo outage er jonno?"
+    ],
+    "answers": [
+        "ISP Digital er service status check korte status.ispdigital.com e jan. Real-time update paben shob ongoing outage ar maintenance er. Area-wise status o dekhte parben!",
+        "Apnar area te ekhon ekta scheduled maintenance cholche — estimated restoration time 2 ghonta. ISP Digital advance e SMS notification pathiyechilo. Inconvenience er jonno sorry!",
+        "Network outage hole ISP Digital er technical team immediately kaj shuru kore dey. Most outages 2-4 ghontar moddhe resolve hoy. Critical issues er jonno emergency team 24/7 kore!",
+        "Planned maintenance normally raat 2am-6am er moddhe hoy — jokhon minimum users online thake. ISP Digital minimum 24 ghonta age SMS ar email e notify kore.",
+        "Area-wide outage hole multiple team simultaneously kaj kore. Fiber cut, power failure, ba equipment issue — je karon e hok, ISP Digital fastest possible restoration ensure kore!",
+        "Service disruption notification pabar jonno ISP Digital app e push notification enable korun ar amader Facebook page follow korun. Real-time update paben shob somoy!",
+        "Nationwide outage rare, kintu hole ISP Digital er shob social media channel e update dey. status.ispdigital.com e nationwide status map dekhte paren.",
+        "Outage er jonno compensation ISP Digital er policy onujayi automatic apply hoy. 24 ghontar beshi downtime hole apnar next bill e credit adjust hobe. Alada claim korar dorkar nai!",
+        "Emergency maintenance sometimes unexpected equipment failure er karone hoy — advance notice dewa shomhob hoy na. ISP Digital ekhetre jototaratari shombhob fix kore ar real-time update dey.",
+        "Restoration er exact time dewa kathin karon problem er severity er upor depend kore. Kintu ISP Digital er target holo maximum 4 ghontar moddhe service restore kora. Apnar patience er jonno dhonnobad!"
+    ],
+    "feelings": []
+}

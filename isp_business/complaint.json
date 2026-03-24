@@ -1,0 +1,40 @@
+{
+    "category": "complaint",
+    "type": "isp_business",
+    "tags": ["complaint", "issue", "problem", "support ticket", "escalation", "feedback", "report", "frustrated"],
+    "questions": [
+        "complaint korte chai",
+        "problem report korbo",
+        "support ticket kothay?",
+        "kobe solve hobe?",
+        "ami frustrated",
+        "customer service e keu phone dhore na",
+        "amar complaint er update ki?",
+        "same problem bar bar hochhe",
+        "service quality kharap",
+        "escalate korte chai",
+        "manager er shathe kotha bolbo",
+        "compensation chai",
+        "kono response pachi na",
+        "ticket number ki amr?",
+        "complaint status check korbo",
+        "how to file a complaint?",
+        "ami onek frustrated hoye gechi",
+        "service niye satisfied na",
+        "koto din lagbe solve korte?",
+        "written complaint dite chai"
+    ],
+    "answers": [
+        "Apnar complaint er jonno amra sincere dukkhito! ISP Digital e complaint korar 3 ta upay ache: 1) App e ticket create korun, 2) 09612-000000 e call korun, 3) support@ispdigital.com e email korun.",
+        "Apnar support ticket create hoyeche! Ticket number ta save kore rakhun — eta diye jokono somoy status track korte parben. ISP Digital er target holo 24-48 ghontar moddhe resolve kora.",
+        "Apnar frustration amra bujhte parchi ar ei experience er jonno khub sorry. Amader senior technical team ke ei issue te assign korchi. Priority basis e solve hobe InshaAllah!",
+        "Same problem bar bar hochhe shune amader kharap lagche. Ei bar amra root cause analysis korbo jate permanently fix hoy. ISP Digital repeat issues ke seriously ney.",
+        "Apnar complaint escalate kora hoyeche amader supervisor er kache. 12 ghontar moddhe apnake callback korbe amader senior team. ISP Digital customer satisfaction ke first priority dey.",
+        "Complaint status check korte ISP Digital app e 'My Tickets' section e jan ba amader website e ticket number diye search korun. Real-time update paben.",
+        "Written complaint dite chaile support@ispdigital.com e email korun ba amader office e eshe written complaint form fill up korun. Amra 48 ghontar moddhe written response dibo.",
+        "Compensation er bishoy te amra apnar case review korbo. Jodi amader service level breach hoyeche, ISP Digital er policy onujayi bill adjustment ba free service days dewa hobe.",
+        "Amader manager apnake call korbe 6 ghontar moddhe. Apnar phone number ta confirm korun please. ISP Digital always values customer feedback ar improvement e believe kore.",
+        "Apnar patience er jonno dhonnobad! ISP Digital e complaint resolve na hoye kono customer ke chhere dewa hoy na. Amra definitely solve korbo — eta amader promise!"
+    ],
+    "feelings": []
+}

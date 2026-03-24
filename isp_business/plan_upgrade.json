@@ -1,0 +1,38 @@
+{
+    "category": "plan_upgrade",
+    "type": "isp_business",
+    "tags": ["upgrade", "downgrade", "change plan", "package change", "speed upgrade", "plan switch"],
+    "questions": [
+        "plan upgrade korbo",
+        "higher speed chai",
+        "package change korbo kivabe?",
+        "upgrade er charge koto?",
+        "downgrade korte parbo?",
+        "plan change er process ki?",
+        "upgrade korle kobe theke effective hobe?",
+        "ami ki mid-month e plan change korte pari?",
+        "current plan theke better kono plan ache?",
+        "100 mbps theke 200 mbps e jabo",
+        "plan change e kono extra charge ache?",
+        "upgrade korle ki speed immediately bere jabe?",
+        "downgrade korle ki refund pabo?",
+        "how to upgrade my plan?",
+        "plan switch korar upay ki?",
+        "ami ki temporarily upgrade korte pari?",
+        "1 month er jonno higher plan nite parbo?",
+        "upgrade er por speed test korbo",
+        "plan change korar last date ki?",
+        "best upgrade option ki amr jonno?"
+    ],
+    "answers": [
+        "Plan upgrade korte ISP Digital er app ba website e login korun, 'My Plan' section e giye 'Upgrade' button e click korun. Apnar new plan immediately activate hobe!",
+        "Upgrade er kono extra charge nai — shudhu new plan er monthly rate applicable hobe. Mid-month e upgrade korle pro-rata billing hobe, mane shudhu baki din er charge lagbe.",
+        "100 Mbps theke 200 Mbps e upgrade khub easy! Speed change ta usually 1-2 ghontar moddhe effective hoye jay. ISP Digital quick plan switch ensure kore.",
+        "Downgrade o korte paren! Tobe downgrade next billing cycle theke effective hobe. Current month er baki dingulo apni higher plan er speed enjoy korben.",
+        "Temporary upgrade er option ache ISP Digital te! 1 week, 2 week, ba 1 month er jonno higher plan nite paren — tarpor auto-matically apnar purono plan e fire jabe.",
+        "Apnar current usage dekhe ami suggest korbo best plan konta. Average monthly usage koto GB? Kotjon device use koren? Ei info dile ISP Digital er best suitable plan recommend korte parbo.",
+        "Plan change korar kono specific last date nai — jokhon ichcha tokhon change korte paren. Tobe month er shuru te change korle billing clean thake ar confusion hoy na.",
+        "Upgrade korar por definitely speed test korun speedtest.net e! Promised speed na paile amader ke janaben. ISP Digital always committed to delivering promised speeds."
+    ],
+    "feelings": []
+}

@@ -1,0 +1,40 @@
+{
+    "category": "contact",
+    "type": "isp_business",
+    "tags": ["contact", "helpline", "email", "office", "working hours", "customer care", "support", "phone"],
+    "questions": [
+        "helpline number ki?",
+        "email ki?",
+        "office kothay?",
+        "working hours ki?",
+        "customer care number ki?",
+        "support e kivabe contact korbo?",
+        "live chat ache?",
+        "Facebook page ki?",
+        "nearest branch kothay?",
+        "hotline number deen",
+        "amake call back korun",
+        "social media te contact korbo",
+        "toll free number ache?",
+        "office ki Friday te khola thake?",
+        "technical support er alag number ache?",
+        "WhatsApp e contact korte parbo?",
+        "head office kothay?",
+        "regional office ache?",
+        "online support kothay pabo?",
+        "customer service representative er shathe kotha bolbo"
+    ],
+    "answers": [
+        "ISP Digital er helpline number holo 09612-000000 — 24/7 available! Email: support@ispdigital.com. Live chat amader website ar app e ache. Jokono somoy jokhon dorkar contact korun!",
+        "ISP Digital er head office Dhaka te — Banani, Road 11, House 42. Branch office ache Chittagong, Sylhet, Rajshahi, ar Khulna te. Nearest branch er address er jonno app e dekhun!",
+        "Office hours: Saturday-Thursday sokal 9:00 AM theke raat 8:00 PM porjonto. Friday day-off kintu helpline 24/7 open thake. ISP Digital te shob somoy keu na keu apnar jonno ache!",
+        "Facebook page: facebook.com/ISPDigitalBD — message korun, amra 1 ghontar moddhe reply dei! WhatsApp support o ache: 01XXXXXXXXX number e. ISP Digital shob platform e active!",
+        "Technical support er dedicated number: 09612-000001. General queries er jonno 09612-000000. ISP Digital er technical team 24/7 available, raat-birate o help paben!",
+        "Callback request korte app e 'Request Callback' button e click korun ba helpline e call kore option 3 press korun. ISP Digital er team 30 minute er moddhe callback korbe!",
+        "ISP Digital er live chat feature website ar app e ache — instant response paben! AI chatbot basic queries solve kore, ar complex issue human agent handle kore. Onek fast!",
+        "Toll-free number ekhono nai, tobe ISP Digital er 09612-000000 number e call charge onek kom — per minute 0.50 taka. Ar online support (chat, email, social media) completely free!",
+        "Regional office locations: Chittagong (GEC Circle), Sylhet (Zinda Bazar), Rajshahi (Shaheb Bazar), Khulna (Shibbari). ISP Digital shob major city te present!",
+        "Customer service representative er shathe directly kotha bolte helpline e call korun ar '0' press korun. Average wait time 2 minute er kom. ISP Digital fast response guarantee dey!"
+    ],
+    "feelings": []
+}

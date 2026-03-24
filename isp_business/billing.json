@@ -1,0 +1,40 @@
+{
+    "category": "billing",
+    "type": "isp_business",
+    "tags": ["bill", "payment", "due date", "invoice", "bkash", "nagad", "online payment", "receipt"],
+    "questions": [
+        "bill koto?",
+        "bill kivabe pay korbo?",
+        "bkash e pay korbo kivabe?",
+        "due date kobe?",
+        "invoice chai",
+        "online payment er option ache?",
+        "Nagad e pay kora jay?",
+        "bill er receipt ki pabo?",
+        "auto pay setup korbo kivabe?",
+        "late fee koto?",
+        "advance bill pay korte parbo?",
+        "bill details dekhte chai",
+        "payment history dekhbo kivabe?",
+        "credit card e pay kora jay?",
+        "payment confirm hoise naki?",
+        "bill e vul ache",
+        "how to pay my bill?",
+        "amar bill koto eshche?",
+        "installment e pay korte parbo?",
+        "payment method change korbo"
+    ],
+    "answers": [
+        "Apnar bill pay korar jonno bKash, Nagad, Rocket, bank transfer, ba amader website theke online pay korte paren. ISP Digital shob popular payment method support kore!",
+        "bKash e pay korte: bKash app open korun > Pay Bill > Internet/ISP > ISP Digital select korun > Apnar customer ID diye pay korun. Khub easy!",
+        "Apnar bill er due date protimasher 10 tarikhe. Due date er por 100 taka late fee add hobe, tai time moto pay kore deben!",
+        "Invoice dekhte amader website te login korun ba app e giye 'Billing' section e jan. PDF invoice download korte parben. Email eoo pathiye dei amra!",
+        "ISP Digital e auto-pay setup korte paren bKash ba bank account link kore. Settings > Auto Pay te giye setup korun, ar tension free thakun!",
+        "Advance bill pay korte paren 3, 6, ba 12 mash er jonno. Advance e pay korle special discount paben! 6 masher jonno 5% ar 12 masher jonno 10% discount.",
+        "Apnar payment confirm hoye geche kintu reflect korte 1-2 ghonta somoy lagte pare. Jodi 24 ghontar moddhe update na hoy, amader helpline e call korun.",
+        "Credit card, debit card, bKash, Nagad, Rocket, bank transfer shob option e bill pay kora jay. ISP Digital maximum convenience ensure kore apnader jonno!",
+        "Bill e kono vul thakle amader billing department e contact korun (09612-000000). Amra 24 ghontar moddhe verify kore correct kore dibo.",
+        "Apnar payment history dekhte ISP Digital app ba website e login korun, tarpor 'Payment History' section e click korun. Shob transaction record paben okhane."
+    ],
+    "feelings": []
+}

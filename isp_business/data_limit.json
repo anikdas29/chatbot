@@ -1,0 +1,40 @@
+{
+    "category": "data_limit",
+    "type": "isp_business",
+    "tags": ["FUP", "data cap", "unlimited", "fair usage", "data limit", "throttle", "bandwidth cap"],
+    "questions": [
+        "FUP ki?",
+        "data limit ache naki?",
+        "unlimited mane ki?",
+        "data sesh hole ki hobe?",
+        "fair usage policy ki?",
+        "FUP er por speed koto thake?",
+        "koto GB data pabo?",
+        "truly unlimited plan ache?",
+        "data usage kivabe check korbo?",
+        "FUP limit koto GB?",
+        "data cap remove korte parbo?",
+        "throttling ki?",
+        "night e ki unlimited data thake?",
+        "data usage alert pabo?",
+        "bandwidth cap ache?",
+        "extra data kinte parbo?",
+        "FUP te speed slow hoye jay",
+        "monthly data limit ki?",
+        "peak hour e data usage limit ache?",
+        "torrent download e ki data limit ache?"
+    ],
+    "answers": [
+        "ISP Digital er shob plan e TRUE unlimited data ache — kono FUP ba data cap nai! Apni joto khushi toto use korun, speed komano hobe na. Eta amader promise!",
+        "FUP (Fair Usage Policy) mane ekta certain amount data use korar por speed komiye dewa hoy. Kintu ISP Digital te kono FUP nai — amra genuinely unlimited data provide kori!",
+        "Amader unlimited mane TRULY unlimited — no hidden cap, no FUP, no throttling. ISP Digital er 'unlimited' e kono asterisk nai. Joto download korun, joto stream korun!",
+        "Data usage check korte ISP Digital app e 'My Usage' section e jan. Daily, weekly, ar monthly usage graph dekhte parben. Real-time usage monitoring feature ache!",
+        "Throttling mane intentionally speed komiye dewa — ISP Digital eta kore na! Apnar subscribed speed ta 24/7 consistent thake. Jodi speed kom mone hoy, helpline e janaben.",
+        "Night unlimited ba peak hour limit — eshob ISP Digital te applicable na. Apni din-raat jokhon ichcha full speed e use korte parben. Amra fair pricing e believe kori, sneaky limits e na!",
+        "Torrent, streaming, gaming — shob e apnar full speed paben ISP Digital te. Amra kono specific traffic type ke throttle ba limit kori na. Net neutrality te amra committed!",
+        "Extra data kinar dorkar nai ISP Digital te karon apnar plan e already unlimited data ache. Jodi speed beshi chai, plan upgrade korun — eta hobe better option!",
+        "Data usage alert ISP Digital app e set korte paren. Monthly usage er milestone e notification paben. Eta helpful track korar jonno, limit er jonno na — karon limit e nai!",
+        "Bandwidth cap kono ISP Digital plan e nai. Apni apnar plan er full speed e unlimited data enjoy korben month er prothom din theke shesh din porjonto. Simple, transparent, honest!"
+    ],
+    "feelings": []
+}

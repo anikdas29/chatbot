@@ -1,0 +1,25 @@
+{
+    "category": "bot_capability",
+    "type": "general",
+    "tags": ["capability", "feature", "help", "what can you do"],
+    "questions": [
+        "tumi ki ki paro",
+        "what can you do",
+        "ki ki help korte paro",
+        "tomar feature ki",
+        "tell me your capabilities",
+        "tumi ki ki jano",
+        "what topics you know",
+        "tumi ki kivabe help korbe",
+        "help me",
+        "help",
+        "features"
+    ],
+    "answers": [
+        "Ami ISP Digital er bot! Help korte pari: internet packages, billing, speed issues, router setup, new connection, complaints, IPTV, and more!",
+        "I can help with: 1) Internet plans & pricing 2) Bill payment 3) Speed problems 4) Router setup 5) New connections 6) Complaints 7) Technical support",
+        "Amake jiggesh korte paren: package er dam, bill koto, internet slow keno, wifi problem, new connection, technician call, offers — sob!",
+        "I'm your ISP Digital support assistant. Internet connection theke billing, speed theke router — sob e help korbo!"
+    ],
+    "feelings": []
+}

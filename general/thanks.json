@@ -1,0 +1,104 @@
+{
+    "category": "thanks",
+    "type": "general",
+    "questions": [
+        "thanks",
+        "thank you",
+        "dhonnobad",
+        "tnx",
+        "thx"
+    ],
+    "answers": [
+        "Welcome! Abar kichu lagleo jiggesh koro!",
+        "You're welcome! Happy to help anytime.",
+        "Khushi hoyechi help korte pere! Abar ashio.",
+        "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need."
+    ],
+    "feelings": [
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime. Also, Anytime! That's what I'm here for.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Glad you asked! You're welcome! Happy to help anytime.\n\nHope this helps!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Nice! Anytime! That's what I'm here for. Feel free to ask more questions whenever you need."
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime."
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Nice! You're welcome! Happy to help anytime.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime."
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Glad you asked! You're welcome! Happy to help anytime. And Anytime! That's what I'm here for.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "Nice! You're welcome! Happy to help anytime. Additionally, Anytime! That's what I'm here for."
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime.\n\nHope this helps!"
+        },
+        {
+            "question": "dhonnobad, help korso",
+            "sentiment": "confused",
+            "answer": "Easy version: Khushi hoyechi help korte pere! Abar ashio.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "onek thanks",
+            "sentiment": "happy",
+            "answer": "Nice! You're welcome! Happy to help anytime.\n\nHope this helps!"
+        }
+    ]
+}

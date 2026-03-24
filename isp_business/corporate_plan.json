@@ -1,0 +1,40 @@
+{
+    "category": "corporate_plan",
+    "type": "isp_business",
+    "tags": ["corporate", "business", "office", "SLA", "dedicated", "enterprise", "B2B", "commercial"],
+    "questions": [
+        "office er jonno internet chai",
+        "corporate plan ache?",
+        "SLA ki?",
+        "business package er dam koto?",
+        "dedicated line chai",
+        "enterprise plan dekhao",
+        "company r jonno bulk connection lagbe",
+        "office internet er best plan ki?",
+        "SLA guarantee ki ki thake?",
+        "24/7 support ache business plan e?",
+        "dedicated bandwidth ki?",
+        "uptime guarantee koto?",
+        "multiple office e connection lagbe",
+        "corporate billing facility ache?",
+        "IT support diben?",
+        "VPN setup kore diben?",
+        "leased line ki?",
+        "business er jonno static IP free?",
+        "corporate discount ache?",
+        "amar company te 50 jon use korbe"
+    ],
+    "answers": [
+        "ISP Digital er corporate plan e dedicated bandwidth, 99.95% uptime SLA, 24/7 priority support, ar static IP included thake. Business er jonno best-in-class service!",
+        "Corporate plan er price apnar requirement er upor depend kore — bandwidth, number of users, SLA level. ISP Digital er B2B team ke call korun 09612-111111 te, free consultation paben!",
+        "SLA (Service Level Agreement) holo amader guarantee — uptime, speed, ar response time niye. ISP Digital er corporate SLA te 99.95% uptime ar 4 ghontar moddhe onsite support guarantee thake.",
+        "Dedicated line mane apnar office er jonno exclusive bandwidth — karo shathe share hoy na. ISP Digital 10 Mbps theke 10 Gbps porjonto dedicated line provide kore!",
+        "50 jon user er office er jonno amra recommend korbo minimum 100 Mbps dedicated connection. ISP Digital er corporate team free network assessment kore best plan suggest korbe.",
+        "Multiple office e connection lagbe? ISP Digital MPLS ar SD-WAN solution dey — shob office ek network e connected thakbe securely. Centralized management o korte paren!",
+        "Corporate billing e monthly invoice, credit facility, ar tax receipt shob paben. ISP Digital er dedicated account manager apnar shob billing query handle korbe.",
+        "Haan, corporate plan e VPN setup, firewall configuration, ar network security amader IT team kore dey. ISP Digital end-to-end IT support provide kore business clients ke!",
+        "Corporate discount available — 2+ year contract e 15% porjonto discount paben. Multiple connection nile bulk discount o ache. ISP Digital long-term partnership e believe kore!",
+        "Leased line holo dedicated, uncontended internet connection — highest reliability ar speed guarantee thake. ISP Digital er leased line service enterprise grade, 99.99% uptime SLA shathe."
+    ],
+    "feelings": []
+}

@@ -1,0 +1,40 @@
+{
+    "category": "wifi_issues",
+    "type": "isp_business",
+    "tags": ["wifi", "wireless", "signal", "range", "extender", "disconnect", "weak signal", "dead zone"],
+    "questions": [
+        "wifi kaj korche na",
+        "signal weak keno?",
+        "range baranor upay ki?",
+        "wifi extender lagbe",
+        "wifi disconnect hoye jay",
+        "wifi er password bhule gechi",
+        "wifi slow but cable e fast",
+        "koto gulo device connect korte pari?",
+        "wifi channel change korbo kivabe?",
+        "wifi e auto disconnect hocche",
+        "uporer floor e wifi dhore na",
+        "wifi network dekhacche na",
+        "hidden wifi ki?",
+        "wifi security type ki use korbo?",
+        "neighbor er wifi interference korche",
+        "wifi 5GHz connect hoy na",
+        "kontar floor e wifi range problem",
+        "multiple room e wifi lagbe",
+        "wifi band steering ki?",
+        "wifi speed beshi device e kom keno?"
+    ],
+    "answers": [
+        "WiFi kaj na korle prothome router restart korun. Tarpor phone/laptop er WiFi off kore on korun. ISP Digital er helpline e call korun jodi tarpor o fix na hoy!",
+        "Signal weak hole router er position change korun — ghorer moddhe uchchu jayga te, open space e rakhun. Wall, mirror, ar microwave signal block kore. ISP Digital er technician free site survey kore best position suggest kore!",
+        "WiFi range baranor jonno WiFi extender ba mesh system use korun. ISP Digital mesh WiFi system monthly 300 taka rental e provide kore — poora bari cover hoye jabe!",
+        "WiFi disconnect hole router er firmware update ache kina check korun. Channel congestion o ekta common karon — router settings e auto channel select korun. ISP Digital er router e ai feature built-in ache.",
+        "WiFi password bhule gele router er pechone sticker e default password likha thake. Ba 192.168.1.1 e login kore Wireless Settings e current password dekhte paren. Na parle ISP Digital helpline e call korun!",
+        "Ek shathe maximum 32 ta device connect korte paren ISP Digital er router e. Tobe best performance er jonno 10-15 ta device recommend kora hoy. Beshi device hole higher plan nite paren.",
+        "Uporer floor e WiFi na dhorle ekta range extender lagben. ISP Digital 500 taka/month e WiFi extender rent e dey, ba apni nijer kinte paren (amra recommend kori TP-Link ba Tenda).",
+        "WiFi channel change korte 192.168.1.1 e login korun > Wireless Settings > Channel e giye less congested channel select korun (1, 6, ba 11 best). ISP Digital er app e channel analyzer feature ache!",
+        "Neighbor er WiFi interference hole 5GHz band e switch korun — 5GHz e interference onek kom hoy. Ar router er channel ta manually change korun. ISP Digital er support team remote e optimize kore dite pare.",
+        "Beshi device connect thakle WiFi speed bhag hoye jay — eta normal. Important device gulo ke 5GHz band e rakhun ar baki gulo 2.4GHz e. ISP Digital er QoS feature diye device priority set korte paren."
+    ],
+    "feelings": []
+}

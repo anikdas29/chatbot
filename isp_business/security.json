@@ -1,0 +1,40 @@
+{
+    "category": "security",
+    "type": "isp_business",
+    "tags": ["security", "firewall", "VPN", "parental control", "antivirus", "hacking", "privacy", "protection"],
+    "questions": [
+        "internet secure ki?",
+        "firewall ache?",
+        "VPN dibe?",
+        "parental control kivabe set korbo?",
+        "hacking theke safe ki?",
+        "internet security tips deen",
+        "amar account hack hoye geche",
+        "virus theke protect korbo kivabe?",
+        "DDoS protection ache?",
+        "secure browsing korbo kivabe?",
+        "password strong korbo kivabe?",
+        "phishing attack ki?",
+        "child safe internet chai",
+        "malware protection ache?",
+        "data privacy policy ki?",
+        "amar info ki safe ache apnader kache?",
+        "two factor authentication ache?",
+        "public wifi safe keno na?",
+        "cyber security tips deen",
+        "online scam theke bachbo kivabe?"
+    ],
+    "answers": [
+        "ISP Digital er network enterprise-grade firewall diye protected. Apnar connection e built-in DDoS protection, malware filtering, ar intrusion detection system ache. Apnar security amader priority!",
+        "Parental control set korte ISP Digital app e 'Family Safety' feature use korun. Specific website block korte paren, screen time limit set korte paren, ar age-appropriate content filter enable korte paren.",
+        "VPN service ISP Digital directly provide kore na, tobe amra recommend kori trusted VPN (NordVPN, ExpressVPN) use korte. Amader connection e VPN use e kono restriction nai!",
+        "Account hack mone hole immediately password change korun ar amader helpline e call korun. ISP Digital er security team apnar account secure korbe ar unauthorized access block korbe.",
+        "Strong password er tips: minimum 12 characters, uppercase + lowercase + numbers + symbols mix korun. 'password123' type password use korben na! ISP Digital er account e 2FA enable korun.",
+        "ISP Digital er data privacy policy onek strict — apnar personal information ba browsing data kono third party er shathe share kora hoy na. BDPA (Bangladesh Data Protection Act) fully comply kori amra.",
+        "Two-factor authentication (2FA) ISP Digital er account e available! Settings > Security > 2FA enable korun. SMS ba authenticator app diye extra security layer add korun.",
+        "Phishing attack mane fake email/website diye apnar info churir cheshta. ISP Digital konodin email e password ba OTP jigges korbe na! Suspicious email paile ignore korun ar amader report korun.",
+        "Child safe internet er jonno ISP Digital er 'Safe Internet' add-on service ache masik 100 taka te. Adult content automatic block hoy, safe search enforced thake, ar browsing report paben!",
+        "Online scam theke bachte: 1) Unknown link e click korben na, 2) OTP karo shathe share korben na, 3) Too good to be true offer e bisshash korben na. ISP Digital regularly security awareness tips share kore!"
+    ],
+    "feelings": []
+}

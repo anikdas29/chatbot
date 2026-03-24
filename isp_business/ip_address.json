@@ -1,0 +1,40 @@
+{
+    "category": "ip_address",
+    "type": "isp_business",
+    "tags": ["IP", "static IP", "dynamic IP", "public IP", "DNS", "IPv4", "IPv6", "NAT"],
+    "questions": [
+        "static IP lagbe",
+        "amar IP ki?",
+        "IP change korbo",
+        "DNS change korbo kivabe?",
+        "public IP ki?",
+        "static vs dynamic IP er difference ki?",
+        "static IP er charge koto?",
+        "IPv6 support ache?",
+        "amar IP blocked hoye geche",
+        "IP address kivabe dekhbo?",
+        "DNS server ki use korbo?",
+        "dedicated IP chai",
+        "IP conflict dakhachhe",
+        "NAT type change korbo",
+        "port forwarding korbo kivabe?",
+        "real IP ki amr?",
+        "VPN use korle IP change hoy?",
+        "amar IP ki public naki private?",
+        "CGNAT ki?",
+        "gaming er jonno static IP lagbe"
+    ],
+    "answers": [
+        "Static IP er charge masik 500 taka extra apnar plan er upor. ISP Digital e static IP request korun app ba helpline theke — 24 ghontar moddhe activate hoye jabe!",
+        "Apnar current IP dekhte whatismyip.com e jan ba command prompt e 'ipconfig' likhun. ISP Digital normally dynamic IP provide kore, tobe static IP o available ache.",
+        "DNS change korte: Network Settings > IPv4 > DNS manually set korun. Popular options: Google DNS (8.8.8.8), Cloudflare (1.1.1.1), ba ISP Digital er own DNS server. Faster browsing er jonno DNS change helpful!",
+        "Static IP vs Dynamic IP: Static IP change hoy na — server hosting, CCTV, remote access er jonno dorkar. Dynamic IP automatic change hoy. ISP Digital duita option e provide kore.",
+        "Haan, ISP Digital IPv6 support kore! Apnar router e IPv6 enable korte amader helpline e call korun. Future-proof connectivity er jonno IPv6 important.",
+        "IP blocked hoye thakle reason hote pare: suspicious activity detect hoye thakle ba kono website apnar IP block kore thakle. ISP Digital er support e contact korun, amra check korbo.",
+        "Port forwarding korte router er admin panel e login korun > Advanced > Port Forwarding/Virtual Server e jan. Game server ba CCTV er jonno specific port add korun. Help laghe ISP Digital er technician remote e kore dibe!",
+        "CGNAT (Carrier Grade NAT) mane multiple customer ek public IP share kore. Gaming ba server hosting er problem hole ISP Digital theke dedicated public IP nite paren extra charge e.",
+        "Gaming er jonno static IP ar port forwarding duitay important. ISP Digital er gaming plan e static IP included thake ar NAT type Open/Type 1 ensure kora hoy. Lag-free gaming experience paben!",
+        "IP conflict mane duita device e same IP assign hoyeche. Router restart korun ba device er IP manually set korun different address e. ISP Digital er router e DHCP automatic handle kore, restart e fix hoye jay."
+    ],
+    "feelings": []
+}

@@ -1305,8 +1305,15 @@ def is_meta_command(text):
 # ============================================================
 
 class ChatBot:
-    def __init__(self, general_folder="category_wise_dataset", specialized_folders=None,
+    def __init__(self, general_folder=None, specialized_folders=None,
                  model_dir="models/minilm", db_path="chatbot.db"):
+        # Auto-detect: if general/ and isp_business/ exist, use those (ISP mode)
+        # Otherwise fall back to category_wise_dataset (general purpose mode)
+        if general_folder is None:
+            if os.path.isdir("general") and os.path.isdir("isp_business"):
+                general_folder = "general"
+            else:
+                general_folder = "category_wise_dataset"
         """
         Full-featured chatbot with:
         1. ONNX MiniLM semantic embedding (replaces TF-IDF for search)
@@ -1372,8 +1379,18 @@ class ChatBot:
     @staticmethod
     def _auto_detect_specialized_folders(general_folder):
         folders = []
+        # Check for known dataset folder patterns
+        known_patterns = ["_dataset", "_business"]
         for item in os.listdir("."):
-            if os.path.isdir(item) and item.endswith("_dataset") and item != general_folder:
+            if not os.path.isdir(item) or item == general_folder:
+                continue
+            # Check if folder has JSON files and matches a known pattern
+            if any(item.endswith(pat) for pat in known_patterns):
+                folders.append(item)
+            # Also detect standalone business/domain folders with JSON files
+            elif item in ("general", "isp_business") and any(
+                f.endswith(".json") for f in os.listdir(item)
+            ):
                 folders.append(item)
         folders.sort()
         return folders

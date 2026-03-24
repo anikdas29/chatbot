@@ -1,0 +1,40 @@
+{
+    "category": "router_setup",
+    "type": "isp_business",
+    "tags": ["router", "wifi", "setup", "password", "configuration", "installation", "firmware", "SSID"],
+    "questions": [
+        "router setup kivabe korbo?",
+        "wifi password change korbo kivabe?",
+        "router restart korbo kivabe?",
+        "new router lagbe",
+        "wifi connect hocche na",
+        "router er default password ki?",
+        "192.168.1.1 e dhukbo kivabe?",
+        "router er light red keno?",
+        "dual band router ki?",
+        "wifi name change korbo",
+        "firmware update korbo kivabe?",
+        "router configuration help chai",
+        "how to setup router?",
+        "router ta ki ISP Digital er?",
+        "5GHz ar 2.4GHz er difference ki?",
+        "mesh wifi system lagbe",
+        "router reset korbo kivabe?",
+        "guest wifi setup korbo",
+        "WPS button ta ki?",
+        "router hang hoye jachhe"
+    ],
+    "answers": [
+        "Router setup korar jonno: 1) ISP er cable router er WAN port e lagaun, 2) Power on korun, 3) Browser e 192.168.1.1 likhe login korun, 4) Setup wizard follow korun. ISP Digital er technician free te setup kore den!",
+        "WiFi password change korte browser e 192.168.1.1 likhe login korun (default user: admin, pass: admin). Tarpor Wireless Settings > Security te giye new password set korun. Strong password use korun!",
+        "Router restart korte simply power cable ta khule 30 second wait korun, tarpor abar lagaun. Eta onek chhoto chhoto problem fix kore dey. ISP Digital recommend kore soptahe ekbar restart korun.",
+        "ISP Digital quality dual-band router provide kore new connection er shathe. Jodi upgrade korte chan, amader office theke advanced router kinte paren ba nij thekeo kono router use korte paren.",
+        "5GHz band faster speed dey but range kom. 2.4GHz range beshi but speed kom. Normal use e 2.4GHz ar gaming/streaming er jonno 5GHz use korun. ISP Digital er router e duita band e ache!",
+        "Router er light red thakle mane internet connection e problem ache. Cable check korun, tarpor restart korun. Jodi solve na hoy, ISP Digital er helpline e call korun, amra remote check korbo.",
+        "Guest WiFi setup korte router er admin panel e login korun (192.168.1.1), tarpor Guest Network option e giye enable korun ar alag password set korun. Visitors er jonno safe!",
+        "Router hang hole factory reset korun — pechone ekta chhotto button ache, pin diye 10 second dhore press korun. Tarpor ISP Digital er technician ke call korun re-configure korar jonno.",
+        "Firmware update korar jonno router er admin panel e login korun, System Tools > Firmware Upgrade e jan. ISP Digital er router e auto-update feature ache, tai usually manual korte hoy na.",
+        "Mesh WiFi system boro bari ba multiple floor er jonno perfect. ISP Digital mesh system provide kore monthly rental e. Coverage bere jay ar dead zone thake na!"
+    ],
+    "feelings": []
+}

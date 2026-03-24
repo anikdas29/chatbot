@@ -1305,7 +1305,7 @@ def is_meta_command(text):
 # ============================================================
 
 class ChatBot:
-    def __init__(self, general_folder="category_wise_dataset", specialized_folders=None,
+    def __init__(self, general_folder=None, specialized_folders=None,
                  model_dir="models/minilm", db_path="chatbot.db"):
         """
         Full-featured chatbot with:
@@ -1317,6 +1317,15 @@ class ChatBot:
         """
         # Database (Feature 4: SQLite)
         self.db = Database(db_path)
+
+        # Auto-detect mode: if general/ folder exists, use specialized mode
+        if general_folder is None:
+            if os.path.isdir("general"):
+                general_folder = "general"
+                logging.info("Specialized mode: using general/ folder")
+            else:
+                general_folder = "category_wise_dataset"
+                logging.info("General purpose mode: using category_wise_dataset/")
 
         # General store
         self.general_store = CategoryStore(general_folder)
@@ -1372,8 +1381,11 @@ class ChatBot:
     @staticmethod
     def _auto_detect_specialized_folders(general_folder):
         folders = []
+        SUFFIXES = ("_dataset", "_business", "_personal")
         for item in os.listdir("."):
-            if os.path.isdir(item) and item.endswith("_dataset") and item != general_folder:
+            if not os.path.isdir(item) or item == general_folder:
+                continue
+            if any(item.endswith(s) for s in SUFFIXES):
                 folders.append(item)
         folders.sort()
         return folders
@@ -2352,7 +2364,7 @@ class ChatBot:
 
         return None, None
 
-    def get_answer(self, user_question, session_id=None):
+    def get_answer(self, user_question, session_id=None, skip_llm=False):
         """Main answer pipeline with 4-tier fallback:
 
         Tier 1: Phi-3 LLM + FAISS + ML (best quality)
@@ -2576,7 +2588,7 @@ class ChatBot:
             "who", "emotions", "gratitude"
         }
         generated = False
-        if self.generator.available and not (set(all_cats) & SKIP_LLM_CATS):
+        if self.generator.available and not skip_llm and not (set(all_cats) & SKIP_LLM_CATS):
             # Single-category RAG: only feed the PRIMARY category's answers to LLM
             # This prevents topic bleeding (e.g. carpooling answer talking about juggling)
             rag_context = self._retrieve_rag_context_single(original, primary_cat, top_n=5)

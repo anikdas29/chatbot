@@ -1,0 +1,166 @@
+{
+    "category": "emotions",
+    "type": "general",
+    "questions": [
+        "i feel sad",
+        "how to control anger?",
+        "i am depressed",
+        "feeling lonely",
+        "i am stressed",
+        "i feel anxious",
+        "feeling down",
+        "i am feeling bad",
+        "emotional help",
+        "how to deal with sadness",
+        "mental health support",
+        "feeling down today",
+        "ami khub sad",
+        "mon kharap",
+        "bhalo lagche na",
+        "kosto paicchi",
+        "ekla lagche",
+        "ami upset",
+        "ami frustrated",
+        "ami happy",
+        "ami khushi",
+        "bhalo lagche",
+        "darun lagche",
+        "moja lagche",
+        "ami bored",
+        "ami tired",
+        "ami angry",
+        "ami rag e achi",
+        "kew bujhe na",
+        "kothin lagche",
+        "help chai",
+        "ami confused",
+        "ki korbo bujhi na",
+        "hopeless lagche",
+        "ami worried",
+        "tension hocche",
+        "ami nervous",
+        "exam niye tension",
+        "chakri paicchi na",
+        "taka nai",
+        "problem e achi",
+        "sob kharap lagche",
+        "life bore lagche",
+        "kicho bhalo lagche na",
+        "ami depressed feel korchi",
+        "ami overwhelmed",
+        "ami lonely feel korchi",
+        "keu kotha bole na",
+        "kicho mone hoyna",
+        "onek pressure",
+        "ami khete parchi na",
+        "ami kade felchi"
+    ],
+    "answers": [
+        "Vai shono, sob thik hoye jabe. Ektu time lage, himmat rakho! Ami achi tomar pashe.",
+        "Bro it's ok to feel down sometimes. Karo sathe kotha bolo, ektu walk koro, deep breath nao. Tumi alone na!",
+        "Arre vai, kharap time forever thake na! Ektu rest nao, gaan shono, bhalo kisu koro. Ami achi ekhane!",
+        "Bhai koshto paowa matlab tumi weak na — matlab tumi manush! Ektu shwas nao, keu trust koro take bolo.",
+        "ভাই টেনশন নিও না, সব ঠিক হয়ে যাবে ইনশাআল্লাহ! নিজের care নাও আর ধৈর্য ধরো।",
+        "খুশি হলে celebrate কর! আর কষ্ট পেলে কাঁদো, লজ্জা নাই। প্রতিটা feeling valid ভাই!",
+        "আরে ক্লান্ত লাগলে rest নাও bro! Rest মানে হার মানা না, rest মানে recharge!",
+        "রাগ হলে deep breath নাও ভাই। ১০ পর্যন্ত count কর। পানি খাও। রাগের মাথায় decision নিও না!",
+        "Exam, chakri, taka niye tension? Vai mone rakhio — protita problem er solution ache. Step by step ago baro!",
+        "Bro onek din dhore kharap lagle please ekjon counselor er sathe kotha bolo. Help chawa cowardice na, eta courage!",
+        "ভাই আমি bujhte parchi tomar koshto। তুমি একা না, ami achi। কারো সাথে share koro, halka lagbe!",
+        "Lonely feel korcho? Bhai ami achi to! Ar bairer world e o onek manush ache — reach out koro, connect koro!",
+        "Vai happy hole enjoy koro, sad hole kando — sob normal! Tumi brave, tumi strong. Believe koro nijeke!",
+        "Overwhelmed lagche? Ekta kore koro bhai. Sob ekbare korte jaio na. Small steps e boro result ashe!"
+    ],
+    "feelings": [
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "It's okay not to be okay. Deep breathing, a short walk, and opening up to someone you trust can really help. You're not alone."
+        },
+        {
+            "question": "i am depressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "feeling lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how to control anger",
+            "sentiment": "curious",
+            "answer": "Valo question! Your feelings are valid. Try talking to a trusted friend, writing in a journal, or taking a slow walk outside. Don't hesitate to seek professional help.\n\nHope this helps!"
+        },
+        {
+            "question": "i am stressed",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Don't worry. Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nAr kichu jante chaile bolo!\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am feeling sad",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. It's okay. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAro kichu lagbe bolo!\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am angry",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAbout anger management: When angry, try the STOP technique: Stop what you're doing, Take a breath, Observe your feelings without judgment, and Proceed calmly.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "help me feel better",
+            "sentiment": "confused",
+            "answer": "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nAbout farewell: Goodbye!\n\nAbout motivation: Feeling low is normal."
+        },
+        {
+            "question": "help me feel better",
+            "sentiment": "confused",
+            "answer": "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nAlso regarding mental health: Mental health improve korte regular exercise koro, enough ghum pao, supportive people der sathe time katao, ar stress management shikho.\n\nAbout entertainment: For movies, check IMDb Top 250."
+        },
+        {
+            "question": "i feel so lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nFor loneliness: Combat loneliness: reach out to someone, join a club/class, volunteer, get a pet, or simply go to a cafe to be around people.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "ami onek depressed feel korchi",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. It's okay. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i feel so lonely",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nRegarding loneliness: Combat loneliness: reach out to someone, join a club/class, volunteer, get a pet, or simply go to a cafe to be around people.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "i am angry",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. Let me help. Its okay to feel. Talk to someone, journal, deep breathing, walk in nature. Seek help if needed.\n\nAr kichu jante chaile bolo!\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "i am frustrated",
+            "sentiment": "angry",
+            "answer": "Ami bujhte parchi apni frustrated. I hear you. Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nApnar somossa solve korte amra committed. Ar kichu lagleo bolun."
+        },
+        {
+            "question": "help me relax",
+            "sentiment": "confused",
+            "answer": "Take it one moment at a time. Breathe, write down how you feel, reach out to someone, and remember — asking for help is a sign of strength.\n\nAbout bot capability: I can help with 55+ topics including AI, coding, health, finance, career, motivation, travel, music, and much more.\n\nOn the stress management side: To relax when stressed, try progressive muscle relaxation, listen to calming music, take a warm shower, go for a nature walk, or practice 5 minutes..."
+        }
+    ]
+}

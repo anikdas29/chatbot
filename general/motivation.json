@@ -1,0 +1,110 @@
+{
+    "category": "motivation",
+    "type": "general",
+    "questions": [
+        "give me inspiration",
+        "motivate me",
+        "how to stay consistent?",
+        "i feel low",
+        "i need motivation",
+        "feeling unmotivated",
+        "inspire me",
+        "motivation tips",
+        "tips for motivation",
+        "how to stay motivated",
+        "ami parbo na",
+        "ami hariye gesi",
+        "life e kichu hochchena",
+        "kono hope nai",
+        "ki korbo bujhi na",
+        "sob impossible lagche",
+        "ami fail korsi",
+        "kew amake support kore na",
+        "ami give up korte chai",
+        "amake inspire koro",
+        "amake motivate koro",
+        "kono upay ache?",
+        "ki kore age barbo?",
+        "success hole ki korte hobe?",
+        "jiboner mane ki?",
+        "ki kore strong hobo?",
+        "ki kore confident hobo?",
+        "ki kore happy hobo?",
+        "ami onek try korchi but hochchena",
+        "keno sob er against e jai?",
+        "ami ki eto durbhol?",
+        "ami ki successful hobo?",
+        "amake kisu bolo",
+        "ektu bolo to ki korbo",
+        "hope ache ki?",
+        "good news dao ektu",
+        "positive kichu bolo",
+        "kichui parchina",
+        "future niye tension",
+        "kal ki hobe?",
+        "kobe bhalo hobe?",
+        "ami ki thik achi?",
+        "amake help koro please",
+        "motivational quote dao",
+        "inspiring kichu bolo"
+    ],
+    "answers": [
+        "Bro haar mano na! Ami o onek bar fail korsi, but lege thakle hoy! Chesta chaliye jao!",
+        "Vai consistent thako! Motivation ashe ar jay, but habit thake. Choto choto step nao, protiddin!",
+        "Low feel korcho? Ektu rest nao vai, but chere dio na! Goal ta choto choto piece e vango ar ek ek ta koro!",
+        "Mone koro keno shuru korechile! Tomar 'why' ta likhe rakho — jodi kothin lage, oi ta poro. Tumi parbe!",
+        "হাল ছেড়ো না ভাই! প্রতিটা সমস্যারই সমাধান আছে। আজকে impossible, কালকে সেটাই possible!",
+        "আরে ভাই, প্রতিটা expert ও একসময় beginner ছিল! ছোট ছোট goal set করো, celebrate করো! Fail থেকে শেখো!",
+        "তুমি পারবা না? ভুল কথা bro! তুমি এতদূর এসেছো, এটাই proof তুমি strong! Step by step যাও!",
+        "Success রাতারাতি আসে না ভাই। ধৈর্য ধরো, চেষ্টা চালিয়ে যাও। ছোট ছোট progress ই বড় success আনে!",
+        "Fail howa mane shesh na vai — eta shekhar ekta dhap! World er sobcheye successful manush ra onek bar fail korche!",
+        "Tumi ekla na bro, believe koro! Nijeke trust koro — tumi ja vabcho tar cheye onek beshi capable!",
+        "Bhai success er key hocche consistency. Daily ektu ektu koro. Habit banao, shudhu motivation er upor depend koro na!",
+        "Kothin time e mone koro keno start korechile. Tomar 'why' likhe rakho, jodi tough lage — poro seta. Tumi PARBE!",
+        "Strong hote chao? Nijer fear er shamne dara0! Confident hote chao? Choto choto challenge nao ar win koro!",
+        "ভবিষ্যৎ নিয়ে tension? ভাই আজকের কাজটা ঠিকমতো করো, কালকে নিজেই সুন্দর হবে ইনশাআল্লাহ!",
+        "Ami nijeo onek struggle korsi bro. Jani kothin lage, but trust me — lege thakle hoy. Give up koro na!"
+    ],
+    "feelings": [
+        {
+            "question": "i feel anxious",
+            "sentiment": "sad",
+            "answer": "Ami bujhte parchi tumi ektu kharap feel korcho. Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nTumi ekla na, amra achi."
+        },
+        {
+            "question": "how do i stay motivated?",
+            "sentiment": "curious",
+            "answer": "To stay motivated, it's essential to remember that every expert was once a beginner too. Set small goals, celebrate wins, and learn from failure. Progress is not perfection; habit building is key. Stay consistent by creating systems, not relying solely on motivation. Feeling low is normal, but resting or giving up should be avoided. Tackle the next step in a tiny way, and tackle it daily."
+        },
+        {
+            "question": "how do i stay motivated?",
+            "sentiment": "curious",
+            "answer": "Valo question! Stay consistent by building systems, not just relying on motivation. Motivation fades — habits stay. Start small and show up daily."
+        },
+        {
+            "question": "how to stay motivated?",
+            "sentiment": "curious",
+            "answer": "Stay consistent by building systems, not just relying on motivation. Motivation fades — habits stay. Start small and show up daily.\n\nAlso regarding motivation strong: Get up.\n\nRegarding motivation daily: You don't have to be great to start, but you have to start to be great."
+        },
+        {
+            "question": "motivation nai ki korbo?",
+            "sentiment": "curious",
+            "answer": "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nRegarding information science: Information Science is applied in many real-world fields."
+        },
+        {
+            "question": "motivation nai ki korbo?",
+            "sentiment": "curious",
+            "answer": "Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nFor information science: Information Science is applied in many real-world fields."
+        },
+        {
+            "question": "motivation nai ki korbo?",
+            "sentiment": "curious",
+            "answer": "Interesting! Inspiration tip: remember your 'why'. Write it down and read it when things get hard. Progress, no matter how small, is still progress.\n\nHope this helps!"
+        },
+        {
+            "question": "motivation nai ki korbo?",
+            "sentiment": "curious",
+            "answer": "Retrieved knowledge about motivation:\n1. [gardening] Q: bagan kivabe korbo?\n    A: Gardening shuru korte chaile prothome mati ready koro, sunlight dekhho, and easy plants diye start korte paro.\n2. [dog_bite] Q: kukur kamrale ki korbo\n    A: Kukur kamurale shabu pani diye bhalo Korle? Rekla! Tarpor hospital e giye rabiees vaccinerin'a nithe hope, taigy deri Korben na. Late Korle ba ideas express Korbe feelings express Korby er pattern"
+        }
+    ]
+}

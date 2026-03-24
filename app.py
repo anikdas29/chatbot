@@ -4,9 +4,11 @@ Run with: python app.py
 """
 
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
 from chatbot import ChatBot
 
 app = Flask(__name__)
+CORS(app)
 bot = ChatBot()
 
 
@@ -79,7 +81,9 @@ def chat_endpoint():
                 "needs_learning": False
             })
 
-    result = bot.get_answer(user_message, session_id)
+    # API default: fast mode (FAISS + ML, no LLM) — send "fast": false for full LLM
+    fast_mode = data.get("fast", True)
+    result = bot.get_answer(user_message, session_id, skip_llm=fast_mode)
 
     # Truly unknown — no result at all
     if result is None:

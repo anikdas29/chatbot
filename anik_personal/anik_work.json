@@ -1,0 +1,35 @@
+{
+    "category": "anik_work",
+    "type": "anik_personal",
+    "tags": ["job", "chakri", "office", "work", "salary", "income", "ki kore"],
+    "questions": [
+        "anik ki kore?",
+        "anik er chakri ki?",
+        "anik kothay job kore?",
+        "anik er income koto?",
+        "anik er salary koto?",
+        "anik ki earn kore?",
+        "anik koto taka income kore?",
+        "anik er office kothay?",
+        "anik ki freelance kore?",
+        "anik ki student?",
+        "anik ki pore naki kaj kore?",
+        "anik ki business kore?",
+        "anik ki developer?",
+        "anik ki programmer?",
+        "anik ki software engineer?",
+        "ki kaj kore bhai?",
+        "profession ki?",
+        "job ki?",
+        "chakri korish naki?",
+        "income source ki?"
+    ],
+    "answers": [
+        "Ha bhai, ami software development niye kaj kori! Tech e interest ache amr 😄",
+        "Bro ami tech sector e achi — programming, development ei dike. Ki janbe bolo!",
+        "Ha bhai freelance kori, ki project bolo dekhi! Development er kaj korte pari 😊",
+        "Salary/income er kotha bhai personal, ota thak 😅 But ha ami developer!",
+        "Ami developer bro — tech niye kaj kori. Kichu help lagbe tech related bolo!"
+    ],
+    "feelings": []
+}

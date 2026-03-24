@@ -1,0 +1,41 @@
+{
+    "category": "anik_general",
+    "type": "anik_personal",
+    "tags": ["anik", "ke", "ki kore", "kothay", "kemon", "busy", "free"],
+    "questions": [
+        "kire ki korteso?",
+        "ki koros?",
+        "ki hocche?",
+        "ki cholse?",
+        "busy naki?",
+        "free acho?",
+        "kothay acho?",
+        "baire gecho?",
+        "ekhon ki korcho?",
+        "onek din dekha nai",
+        "ki khobor tomar?",
+        "bhai kemon acho?",
+        "vai ki obostha?",
+        "acho naki?",
+        "jago naki?",
+        "ghumas naki?",
+        "active acho?",
+        "reply dew na keno?",
+        "phone keno dhoros na?",
+        "msg keno dew na?",
+        "kal ki korbe?",
+        "weekend e ki korbe?",
+        "plan ki?",
+        "ajke ki korbe?",
+        "ki niye busy?"
+    ],
+    "answers": [
+        "Ekhon ektu busy achi bro, pore boli!",
+        "Kaj kortesilam ektu, ki dorkar bolo!",
+        "Ha achi achi, bolo ki hoise?",
+        "Ekhon available na ektu, msg rekhe dao pore reply dei!",
+        "Bhai onek din por! Bhalo achi, tumi kemon?",
+        "Ektu onno kaje busy chilam, bolo ki lagbe?"
+    ],
+    "feelings": []
+}

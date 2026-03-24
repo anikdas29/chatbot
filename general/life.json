@@ -1,0 +1,99 @@
+{
+    "category": "life",
+    "type": "general",
+    "questions": [
+        "life advice",
+        "what is purpose of life?",
+        "life tips",
+        "how to live a good life",
+        "purpose of life",
+        "life lessons",
+        "life guidance",
+        "how to live better",
+        "meaning of life",
+        "what is the meaning of life",
+        "purpose of living",
+        "jibon ki?",
+        "jibon er mane ki?",
+        "ki kore bhalo jibon katabo?",
+        "jibon niye advice dao",
+        "life keno eto kothin?",
+        "ki kore sukhi hobo?",
+        "sukher chabi ki?",
+        "jibon e ki important?",
+        "ki kore life enjoy korbo?",
+        "life boring lagche",
+        "jibon niye ki vabcho?",
+        "best life tips ki?",
+        "ki kore positive thakbo?",
+        "jibon e koto koshto?",
+        "ki kore life change korbo?",
+        "fresh start ki kore nibo?",
+        "ki kore nij ke better korbo?",
+        "self improvement tips",
+        "ki kore disciplined hobo?",
+        "ki kore focused thakbo?",
+        "jibon e priority ki howa uchit?",
+        "how to be happy in life",
+        "ki kore stress free thakbo?",
+        "ki kore healthy thakbo?",
+        "life balance ki kore korbo?",
+        "family important naki career?",
+        "relationship vs career",
+        "ki kore time manage korbo?",
+        "ki kore productive hobo?",
+        "success er definition ki?"
+    ],
+    "answers": [
+        "Bro life e ja control korte paro seta niye focus koro, kind thako, shikhte thako, relationships build koro!",
+        "Life tip from Anik: relationships e invest koro, shikha bondho koro na, health er care nao, ar bhoy ke jite jao!",
+        "Perfection er pechone choto na vai — growth er pechone choto! Kind thako, shikhte thako, meaningful connections banao!",
+        "Simple truth bhai: health, relationships, ar purpose — ei tin tai sobcheye important. Baki sob secondary!",
+        "জীবনের মানে সবার কাছে আলাদা ভাই। কিন্তু health, ভালো মানুষ, আর একটা purpose — এই তিনটা থাকলে বেস্ট!",
+        "ভালো life চাও? নিজের care নাও, শেখা বন্ধ করো না, relationship এ invest করো, আর ভয় পেয়ো না try করতে!",
+        "Life কঠিন হতে পারে bro, কিন্তু প্রতিটা কঠিন সময় তোমাকে stronger করে। ধৈর্য ধরো, এগিয়ে যাও!",
+        "সুখের secret জানো কি? কৃতজ্ঞতা! যা আছে তার জন্য grateful থাকো, life অনেক সুন্দর লাগবে trust me!",
+        "Balance rakhte hobe vai — family, career, health ar nijer jonno time. Sob kichute ektu ektu focus deo!",
+        "Success er definition sobার different bro. Taka e sob na — মনের শান্তি, family er love, ar kaje satisfaction ও success!",
+        "Stress free thakte chaile: exercise koro, ghum thik koro, pani khao, ar negative manush theke dure thako!",
+        "Time management shikho bhai! Daily 3 ta important kaj fix koro ar shesh koro. Choto habit big change ane!",
+        "Positive thakbar upay: bhalo manush der sathe thako, grateful thako, negative news kom dekho, ar protiddin notun kichu shikho!"
+    ],
+    "feelings": [
+        {
+            "question": "how to live a good life",
+            "sentiment": "happy",
+            "answer": "Life advice: invest in relationships, never stop learning, take care of your health, and don't let fear stop you from trying.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "love advice",
+            "sentiment": "happy",
+            "answer": "Life advice: invest in relationships, never stop learning, take care of your health, and don't let fear stop you from trying.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "how to live a good life",
+            "sentiment": "happy",
+            "answer": "Nice! Focus on what you can control, be kind, keep learning, build relationships. Moreover, Focus on growth, not perfection."
+        },
+        {
+            "question": "how to live a good life",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Focus on what you can control, be kind, keep learning, build relationships."
+        },
+        {
+            "question": "what is the meaning of life?",
+            "sentiment": "curious",
+            "answer": "Simple truths: health, relationships, and purpose matter most. Everything else is secondary.\n\nRegarding philosophy: The meaning of existence has been debated for millennia."
+        },
+        {
+            "question": "what is meaning of life?",
+            "sentiment": "curious",
+            "answer": "Good one! Simple truths: health, relationships, and purpose matter most. Everything else is secondary.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "i feel lost what is meaning of life and what should i do",
+            "sentiment": "curious",
+            "answer": "Nice question! Life advice: invest in relationships, never stop learning, take care of your health, and don't let fear stop you from trying.\n\nHope this helps!"
+        }
+    ]
+}

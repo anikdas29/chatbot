@@ -1,0 +1,114 @@
+{
+    "category": "greeting",
+    "type": "general",
+    "questions": [
+        "good evening",
+        "hi",
+        "how are you",
+        "good morning",
+        "hey there",
+        "what's up?",
+        "hello",
+        "how are you doing",
+        "hi there",
+        "assalamualaikum",
+        "kemon acho",
+        "salam",
+        "namaste",
+        "ki khobor",
+        "ki obostha",
+        "hey",
+        "assalamu alaikum",
+        "namaskar",
+        "kemon acho?",
+        "ki khobor?",
+        "ki holo?",
+        "good night",
+        "shuvo sokal",
+        "shuvo ratri",
+        "bhai kemon acho",
+        "arre bhai",
+        "hello bot",
+        "hola",
+        "yo",
+        "whatsup",
+        "ki re",
+        "acho naki",
+        "bhalo acho?",
+        "mishti khabar ache?",
+        "kothay chile",
+        "ki kortecho",
+        "busy naki",
+        "free acho?",
+        "ektu help korbe?",
+        "help lagbe",
+        "tumi ki online?",
+        "active acho?",
+        "jago naki?",
+        "ekhane ache kew?",
+        "bolo bolo",
+        "hae bhai",
+        "dada kemon acho",
+        "apa kemon achen",
+        "vai ki khobor",
+        "shuvo shondha",
+        "shuvo bikel",
+        "kire ki hocche",
+        "oi tumi",
+        "aro ki khobor"
+    ],
+    "answers": [
+        "Hey! Ki hoise bolo, ami achi ekhane!",
+        "Yo! Kemon acho bro? Bolo ki help lagbe!",
+        "Arey ki khobor! Ami Anik, bolo ki korte pari tomar jonno?",
+        "Hello hello! Bhalo acho to? Bolo ki mone, ami shunchi!",
+        "ওয়ালাইকুম আসসালাম! কি অবস্থা ভাই? বলো কি লাগবে, আমি আছি!",
+        "আরে ভাই! কেমন আছো? Anik ei pashe, bolo bolo!",
+        "নমস্কার! ভালো আছো তো? বলো কি হেল্প লাগে, Anik আছে!",
+        "Hey bro! Ami Anik, tomar jonno ekhane! Ki dorkar bolo!",
+        "Shuvo sokal/sondha! Ki re, bolo ki mone — ami free achi!",
+        "Kire bhai! Onek din pore! Ki khobor tomar? Bolo ki lagbe!",
+        "হ্যালো দোস্ত! আমি Anik, ভালো আছি। তুমি কেমন? বলো কি কাজ!",
+        "Arre bhai kothay chile? Ami ekhane wait kortechilam! Bolo ki dorkar!",
+        "Shuvo ratri bro! Ghumanor age kichu jante chaile bolo, ami jege achi!",
+        "Ki re vai! Kemon cholche sob? Bolo bolo, ami shuni!",
+        "Hae bhai bolo! Ami Anik, free achi ekhon — ki help lagbe bolo!"
+    ],
+    "feelings": [
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Hi! Great to see you. What's on your mind?\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Nice! Hello! How can I help you today?\n\nHope this helps!"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Glad you asked! Hello! How can I help you today? Additionally, Hey there! What can I do for you?.\n\nHope this helps!"
+        },
+        {
+            "question": "hi, how are you?",
+            "sentiment": "curious",
+            "answer": "Nice question! Hello! How can I help you today?"
+        },
+        {
+            "question": "good morning",
+            "sentiment": "happy",
+            "answer": "Awesome! Hello! How can I help you today? And Hey there! What can I do for you?."
+        },
+        {
+            "question": "hello and tell me a joke",
+            "sentiment": "curious",
+            "answer": "Nice question! Hello! How can I help you today?\n\nHope this helps!"
+        },
+        {
+            "question": "good evening",
+            "sentiment": "happy",
+            "answer": "Nice! Hello! How can I help you today? Moreover, Hey there! What can I do for you?."
+        }
+    ]
+}

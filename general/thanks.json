@@ -1,0 +1,151 @@
+{
+    "category": "thanks",
+    "type": "general",
+    "questions": [
+        "thanks",
+        "thank you",
+        "dhonnobad",
+        "tnx",
+        "thx",
+        "ty",
+        "shukriya",
+        "bohut dhonnobad",
+        "onek thanks",
+        "apnake dhonnobad",
+        "tomake dhonnobad",
+        "thanks a lot",
+        "thank u so much",
+        "great help",
+        "khub bhalo help korle",
+        "eto help korar jonno thanks",
+        "tumi best",
+        "khub valo",
+        "darun help",
+        "ami khushi",
+        "help korar jonno dhonnobad",
+        "apnar help e kaj hoye gelo",
+        "solve hoye gelo thanks",
+        "bujhte parlam dhonnobad",
+        "ekdom clear bujhiye dile",
+        "khub helpful chilo",
+        "tomar jonno solve holam",
+        "osthir help",
+        "joss help",
+        "thanks bro",
+        "tnx vai",
+        "thank you bot",
+        "very helpful",
+        "awesome answer",
+        "perfect answer",
+        "excellent help",
+        "tumi darun",
+        "khub sundor help",
+        "amake onek help korecho",
+        "eto valo help ar kothao pai nai",
+        "thanks for everything",
+        "apni onek helpful",
+        "ar kono somossa nai thanks",
+        "shob clear hoye gelo dhonnobad"
+    ],
+    "answers": [
+        "Arre mention na bro! Kichu lagle abar bolo!",
+        "Welcome welcome! Help korte pere khushi, abar ashio!",
+        "Arre dhonnobad ki vai, eta to amar kaaaj! Abar kichu hole bolo!",
+        "No tension bro! Tomar jonno e to ami achi, jokhon khushi bolo!",
+        "আরে ধন্যবাদ তোমাকেও ভাই! হেল্প করতে পেরে আমার ও ভালো লাগছে!",
+        "কোনো ব্যাপারই না দোস্ত! এটাই তো আমার কাজ, আবার কিছু লাগলে বলিও!",
+        "আলহামদুলিল্লাহ! তোমার problem solve হয়ে গেছে জেনে মজা পেলাম!",
+        "Haha thanks bolar dorkar nai vai! Abar kichu hole Anik ke bolo bas!",
+        "Arey eita ki ar, bro! Tomar problem solve hoyeche eta e amar reward!",
+        "Welcome bhai! Ami to ekhane ei jonno e achi — toder help korte! Abar bolo!",
+        "ধন্যবাদ ভাই! তোমার মতো বন্ধুদের জন্যই কাজটা ভালো লাগে!",
+        "Arre bro kono mention na! Abar jokhon lagbe Anik ready ache!"
+    ],
+    "feelings": [
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Welcome! Abar kichu lagleo jiggesh koro!\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "You're welcome! Happy to help anytime.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Anytime! That's what I'm here for. Feel free to ask more questions whenever you need.\n\nApnar bhalo lagche jene amrao khushi!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime. Also, Anytime! That's what I'm here for.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Glad you asked! You're welcome! Happy to help anytime.\n\nHope this helps!"
+        },
+        {
+            "question": "thanks bro",
+            "sentiment": "happy",
+            "answer": "Nice! Anytime! That's what I'm here for. Feel free to ask more questions whenever you need."
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime."
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "thank you",
+            "sentiment": "happy",
+            "answer": "Nice! You're welcome! Happy to help anytime.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "thanks a lot",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime."
+        },
+        {
+            "question": "thank you so much",
+            "sentiment": "happy",
+            "answer": "Glad you asked! You're welcome! Happy to help anytime. And Anytime! That's what I'm here for.\n\nAro kichu lagbe bolo!"
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "Nice! You're welcome! Happy to help anytime. Additionally, Anytime! That's what I'm here for."
+        },
+        {
+            "question": "thanks",
+            "sentiment": "happy",
+            "answer": "Awesome! You're welcome! Happy to help anytime.\n\nHope this helps!"
+        },
+        {
+            "question": "dhonnobad, help korso",
+            "sentiment": "confused",
+            "answer": "Easy version: Khushi hoyechi help korte pere! Abar ashio.\n\nAr kichu jante chaile bolo!"
+        },
+        {
+            "question": "onek thanks",
+            "sentiment": "happy",
+            "answer": "Nice! You're welcome! Happy to help anytime.\n\nHope this helps!"
+        }
+    ]
+}

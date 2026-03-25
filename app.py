@@ -85,31 +85,11 @@ def chat_endpoint():
     fast_mode = data.get("fast", True)
     result = bot.get_answer(user_message, session_id, skip_llm=fast_mode)
 
-    # Truly unknown — no result at all
-    if result is None:
-        return jsonify({
-            "reply": None,
-            "needs_learning": True,
-            "question": user_message
-        })
+    # No answer
+    if result is None or (result.get("suggestions") and result.get("reply") is None):
+        return jsonify({"reply": ""})
 
-    # Has suggestions but no direct answer — "Did you mean?"
-    if result.get("suggestions") and result.get("reply") is None:
-        return jsonify({
-            "reply": None,
-            "suggestions": result["suggestions"],
-            "needs_learning": True,
-            "question": result.get("question", user_message)
-        })
-
-    # Normal answer with confidence (supports multi-category)
-    return jsonify({
-        "reply": result["reply"],
-        "intent": result["intent"],
-        "confidence": result.get("confidence", 0),
-        "categories": result.get("categories", []),
-        "needs_learning": False
-    })
+    return jsonify({"reply": result.get("reply", "")})
 
 
 @app.route("/api/feedback", methods=["POST"])

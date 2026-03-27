@@ -73,6 +73,11 @@
             "question": "tomar name ki?",
             "sentiment": "curious",
             "answer": "Amar naam Anik Das, nick name Anik! Developer bhai, bolo ki korte pari!"
+        },
+        {
+            "question": "What is your name?",
+            "sentiment": "curious",
+            "answer": "My name is Anik Das! Bangladeshi developer, toder jonno ei bot baniyechi!"
         }
     ]
 }

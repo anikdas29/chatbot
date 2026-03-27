@@ -109,6 +109,11 @@
             "question": "good evening",
             "sentiment": "happy",
             "answer": "Nice! Hello! How can I help you today? Moreover, Hey there! What can I do for you?."
+        },
+        {
+            "question": "Ki obostha",
+            "sentiment": "curious",
+            "answer": "Hey! Ki hoise bolo, ami achi ekhane!"
         }
     ]
 }
